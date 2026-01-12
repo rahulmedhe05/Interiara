@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "3D Interior Rendering Jebel Ali Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignJebel Ali Dubai() {
+export default function 3DInteriorRenderingJebelAli() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in 3D Interior Rendering Jebel Ali Dubai services in Jebel Ali Dubai. Please share more details.")

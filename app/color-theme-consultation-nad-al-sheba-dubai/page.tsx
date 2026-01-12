@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Color Theme Consultation Nad Al Sheba Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignNad Al Sheba Dubai() {
+export default function ColorThemeConsultationNadAlSheba() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Color Theme Consultation Nad Al Sheba Dubai services in Nad Al Sheba Dubai. Please share more details.")

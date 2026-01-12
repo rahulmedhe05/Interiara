@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Remodeling Al Khawaneej Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Khawaneej Dubai() {
+export default function HomeRemodelingAlKhawaneej() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Remodeling Al Khawaneej Dubai services in Al Khawaneej Dubai. Please share more details.")

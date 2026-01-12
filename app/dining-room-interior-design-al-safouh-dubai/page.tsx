@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Dining Room Interior Design Al Safouh Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Safouh Dubai() {
+export default function DiningRoomInteriorDesignAlSafouh() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Dining Room Interior Design Al Safouh Dubai services in Al Safouh Dubai. Please share more details.")

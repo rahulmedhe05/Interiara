@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Space Planning Al Wasl Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Wasl Dubai() {
+export default function SpacePlanningAlWasl() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Space Planning Al Wasl Dubai services in Al Wasl Dubai. Please share more details.")

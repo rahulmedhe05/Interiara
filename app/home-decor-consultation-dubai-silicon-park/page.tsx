@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Decor Consultation Silicon Park Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignPark Dubai() {
+export default function HomeDecorConsultation() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Decor Consultation Silicon Park Dubai services in Park Dubai. Please share more details.")

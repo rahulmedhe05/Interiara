@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Showroom Interior Design Bur Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignBur Dubai() {
+export default function ShowroomInteriorDesignBur() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Showroom Interior Design Bur Dubai services in Bur Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Decor Consultation Downtown Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDowntown Dubai() {
+export default function HomeDecorConsultationDowntown() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Decor Consultation Downtown Dubai services in Downtown Dubai. Please share more details.")

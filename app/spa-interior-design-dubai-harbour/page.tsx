@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Spa Interior Design Harbour Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignHarbour Dubai() {
+export default function SpaInteriorDesign() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Spa Interior Design Harbour Dubai services in Harbour Dubai. Please share more details.")

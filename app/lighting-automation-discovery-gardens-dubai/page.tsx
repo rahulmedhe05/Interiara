@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Lighting Automation Discovery Gardens Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDiscovery Gardens Dubai() {
+export default function LightingAutomationDiscoveryGardens() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Lighting Automation Discovery Gardens Dubai services in Discovery Gardens Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Budget Interior Solutions Al Jaddaf Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Jaddaf Dubai() {
+export default function BudgetInteriorSolutionsAlJaddaf() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Budget Interior Solutions Al Jaddaf Dubai services in Al Jaddaf Dubai. Please share more details.")

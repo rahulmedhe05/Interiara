@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Affordable Interior Solutions Al Barsha South Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Barsha South Dubai() {
+export default function AffordableInteriorSolutionsAlBarshaSouth() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Affordable Interior Solutions Al Barsha South Dubai services in Al Barsha South Dubai. Please share more details.")

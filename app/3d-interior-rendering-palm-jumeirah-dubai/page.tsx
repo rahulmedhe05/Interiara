@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "3D Interior Rendering Palm Jumeirah Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignJumeirah Dubai() {
+export default function 3DInteriorRenderingPalmJumeirah() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in 3D Interior Rendering Palm Jumeirah Dubai services in Jumeirah Dubai. Please share more details.")

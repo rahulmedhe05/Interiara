@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "3D Interior Rendering Discovery Hills Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDiscovery Hills Dubai() {
+export default function 3DInteriorRenderingDiscoveryHills() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in 3D Interior Rendering Discovery Hills Dubai services in Discovery Hills Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Kitchen Interior Design Al Barsha Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Barsha Dubai() {
+export default function KitchenInteriorDesignAlBarsha() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Kitchen Interior Design Al Barsha Dubai services in Al Barsha Dubai. Please share more details.")

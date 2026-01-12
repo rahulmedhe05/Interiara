@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Remodeling Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignRemodeling Dubai() {
+export default function HomeRemodeling() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Remodeling Dubai services in Remodeling Dubai. Please share more details.")

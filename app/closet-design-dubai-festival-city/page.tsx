@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Closet Design Festival City Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignCity Dubai() {
+export default function ClosetDesign() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Closet Design Festival City Dubai services in City Dubai. Please share more details.")

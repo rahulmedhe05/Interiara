@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Space Optimization Muhaisnah Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignMuhaisnah Dubai() {
+export default function InteriorSpaceOptimizationMuhaisnah() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Space Optimization Muhaisnah Dubai services in Muhaisnah Dubai. Please share more details.")

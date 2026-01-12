@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Banquet Hall Interior Design JBR Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignJBR Dubai() {
+export default function BanquetHallInteriorDesignJbr() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Banquet Hall Interior Design JBR Dubai services in JBR Dubai. Please share more details.")

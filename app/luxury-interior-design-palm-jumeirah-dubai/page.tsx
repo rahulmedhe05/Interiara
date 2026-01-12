@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Luxury Interior Design Palm Jumeirah Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignJumeirah Dubai() {
+export default function LuxuryInteriorDesignPalmJumeirah() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Luxury Interior Design Palm Jumeirah Dubai services in Jumeirah Dubai. Please share more details.")

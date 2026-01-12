@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Office Fit Out Umm Suqeim Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignUmm Suqeim Dubai() {
+export default function OfficeFitOutUmmSuqeim() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Office Fit Out Umm Suqeim Dubai services in Umm Suqeim Dubai. Please share more details.")

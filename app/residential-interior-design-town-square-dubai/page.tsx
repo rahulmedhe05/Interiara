@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Residential Interior Design Town Square Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignTown Square Dubai() {
+export default function ResidentialInteriorDesignTownSquare() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Residential Interior Design Town Square Dubai services in Town Square Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Bespoke Furniture Design Deira Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDeira Dubai() {
+export default function BespokeFurnitureDesignDeira() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Bespoke Furniture Design Deira Dubai services in Deira Dubai. Please share more details.")

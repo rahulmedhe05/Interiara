@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Spa Interior Design Al Safa Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Safa Dubai() {
+export default function SpaInteriorDesignAlSafa() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Spa Interior Design Al Safa Dubai services in Al Safa Dubai. Please share more details.")

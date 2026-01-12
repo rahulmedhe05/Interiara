@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Art Consultation Umm Suqeim Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignUmm Suqeim Dubai() {
+export default function ArtConsultationUmmSuqeim() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Art Consultation Umm Suqeim Dubai services in Umm Suqeim Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Modern Interior Design Dubai Marina Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDubai Marina Dubai() {
+export default function ModernInteriorDesign() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Modern Interior Design Dubai Marina Dubai services in Dubai Marina Dubai. Please share more details.")

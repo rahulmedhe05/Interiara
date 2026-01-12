@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Apartment Interior Design Waterfront Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignWaterfront Dubai() {
+export default function ApartmentInteriorDesign() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Apartment Interior Design Waterfront Dubai services in Waterfront Dubai. Please share more details.")

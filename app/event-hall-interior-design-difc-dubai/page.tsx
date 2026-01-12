@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Event Hall Interior Design DIFC Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDIFC Dubai() {
+export default function EventHallInteriorDesignDifc() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Event Hall Interior Design DIFC Dubai services in DIFC Dubai. Please share more details.")

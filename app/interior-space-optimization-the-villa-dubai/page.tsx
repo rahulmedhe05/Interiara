@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Space Optimization The Villa Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Villa Dubai() {
+export default function InteriorSpaceOptimizationTheVilla() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Space Optimization The Villa Dubai services in The Villa Dubai. Please share more details.")

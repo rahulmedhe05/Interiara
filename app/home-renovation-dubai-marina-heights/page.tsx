@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Renovation Marina Heights Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignHeights Dubai() {
+export default function HomeRenovation() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Renovation Marina Heights Dubai services in Heights Dubai. Please share more details.")

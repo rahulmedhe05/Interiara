@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Art Consultation DIFC Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDIFC Dubai() {
+export default function ArtConsultationDifc() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Art Consultation DIFC Dubai services in DIFC Dubai. Please share more details.")

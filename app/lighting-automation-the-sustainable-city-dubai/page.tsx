@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Lighting Automation The Sustainable City Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Sustainable City Dubai() {
+export default function LightingAutomationTheSustainableCity() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Lighting Automation The Sustainable City Dubai services in The Sustainable City Dubai. Please share more details.")

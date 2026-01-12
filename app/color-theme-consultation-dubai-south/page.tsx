@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Color Theme Consultation South Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignSouth Dubai() {
+export default function ColorThemeConsultation() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Color Theme Consultation South Dubai services in South Dubai. Please share more details.")

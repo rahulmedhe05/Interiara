@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Visualization Hills Estate Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignEstate Dubai() {
+export default function InteriorVisualization() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Visualization Hills Estate Dubai services in Estate Dubai. Please share more details.")

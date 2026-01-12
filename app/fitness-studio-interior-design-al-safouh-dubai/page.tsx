@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Fitness Studio Interior Design Al Safouh Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Safouh Dubai() {
+export default function FitnessStudioInteriorDesignAlSafouh() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Fitness Studio Interior Design Al Safouh Dubai services in Al Safouh Dubai. Please share more details.")

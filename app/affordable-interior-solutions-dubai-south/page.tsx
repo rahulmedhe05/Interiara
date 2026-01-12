@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Affordable Interior Solutions South Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignSouth Dubai() {
+export default function AffordableInteriorSolutions() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Affordable Interior Solutions South Dubai services in South Dubai. Please share more details.")

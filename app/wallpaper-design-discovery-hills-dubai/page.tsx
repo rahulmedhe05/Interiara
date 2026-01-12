@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Wallpaper Design Discovery Hills Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDiscovery Hills Dubai() {
+export default function WallpaperDesignDiscoveryHills() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Wallpaper Design Discovery Hills Dubai services in Discovery Hills Dubai. Please share more details.")

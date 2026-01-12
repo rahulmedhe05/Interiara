@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Lighting Automation The Springs Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Springs Dubai() {
+export default function LightingAutomationSprings() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Lighting Automation The Springs Dubai services in The Springs Dubai. Please share more details.")

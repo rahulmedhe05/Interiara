@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Commercial Interior Design Mirdif Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignMirdif Dubai() {
+export default function CommercialInteriorDesignMirdif() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Commercial Interior Design Mirdif Dubai services in Mirdif Dubai. Please share more details.")

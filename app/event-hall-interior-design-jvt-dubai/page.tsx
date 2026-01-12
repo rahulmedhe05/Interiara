@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Event Hall Interior Design JVT Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignJVT Dubai() {
+export default function EventHallInteriorDesignJvt() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Event Hall Interior Design JVT Dubai services in JVT Dubai. Please share more details.")

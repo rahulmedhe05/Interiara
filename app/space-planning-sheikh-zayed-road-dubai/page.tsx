@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Space Planning Sheikh Zayed Road Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignSheikh Zayed Road Dubai() {
+export default function SpacePlanningSheikhZayedRoad() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Space Planning Sheikh Zayed Road Dubai services in Sheikh Zayed Road Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Window Blinds Land Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignLand Dubai() {
+export default function WindowBlinds() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Window Blinds Land Dubai services in Land Dubai. Please share more details.")

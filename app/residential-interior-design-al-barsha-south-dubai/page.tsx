@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Residential Interior Design Al Barsha South Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Barsha South Dubai() {
+export default function ResidentialInteriorDesignAlBarshaSouth() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Residential Interior Design Al Barsha South Dubai services in Al Barsha South Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Wardrobe Design Marina Heights Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignHeights Dubai() {
+export default function WardrobeDesign() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Wardrobe Design Marina Heights Dubai services in Heights Dubai. Please share more details.")

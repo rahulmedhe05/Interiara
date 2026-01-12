@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Visualization Design District Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDistrict Dubai() {
+export default function InteriorVisualization() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Visualization Design District Dubai services in District Dubai. Please share more details.")

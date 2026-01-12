@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Co Working Space Interior Design Investment Park Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignPark Dubai() {
+export default function CoWorkingSpaceInteriorDesign() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Co Working Space Interior Design Investment Park Dubai services in Park Dubai. Please share more details.")

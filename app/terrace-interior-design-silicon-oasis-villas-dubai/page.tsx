@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Terrace Interior Design Silicon Oasis Villas Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignSilicon Oasis Villas Dubai() {
+export default function TerraceInteriorDesignSiliconOasisVillas() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Terrace Interior Design Silicon Oasis Villas Dubai services in Silicon Oasis Villas Dubai. Please share more details.")

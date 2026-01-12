@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Residential Interior Design Creek Harbour Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignHarbour Dubai() {
+export default function ResidentialInteriorDesignDubaiCreekHarbour() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Residential Interior Design Creek Harbour Dubai services in Harbour Dubai. Please share more details.")

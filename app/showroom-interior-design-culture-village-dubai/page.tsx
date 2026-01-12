@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Showroom Interior Design Culture Village Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignCulture Village Dubai() {
+export default function ShowroomInteriorDesignCultureVillage() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Showroom Interior Design Culture Village Dubai services in Culture Village Dubai. Please share more details.")

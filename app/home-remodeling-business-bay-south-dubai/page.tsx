@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Remodeling Business Bay South Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignBusiness Bay South Dubai() {
+export default function HomeRemodelingBusinessBaySouth() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Remodeling Business Bay South Dubai services in Business Bay South Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Custom Furniture Design Downtown Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignDowntown Dubai() {
+export default function CustomFurnitureDesignDowntownDubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Custom Furniture Design Downtown Dubai services in Downtown Dubai. Please share more details.")

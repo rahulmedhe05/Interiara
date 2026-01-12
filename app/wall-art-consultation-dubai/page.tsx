@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Wall Art Consultation Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignConsultation Dubai() {
+export default function WallArtConsultation() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Wall Art Consultation Dubai services in Consultation Dubai. Please share more details.")

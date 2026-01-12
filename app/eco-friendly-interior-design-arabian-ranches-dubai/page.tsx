@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Eco Friendly Interior Design Arabian Ranches Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignArabian Ranches Dubai() {
+export default function EcoFriendlyInteriorDesignArabianRanches() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Eco Friendly Interior Design Arabian Ranches Dubai services in Arabian Ranches Dubai. Please share more details.")

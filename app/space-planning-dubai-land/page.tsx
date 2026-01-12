@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Space Planning Land Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignLand Dubai() {
+export default function SpacePlanning() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Space Planning Land Dubai services in Land Dubai. Please share more details.")

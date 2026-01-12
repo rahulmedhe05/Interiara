@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Closet Design The Greens Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Greens Dubai() {
+export default function ClosetDesignGreens() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Closet Design The Greens Dubai services in The Greens Dubai. Please share more details.")

@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "3D Interior Rendering The Meadows Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Meadows Dubai() {
+export default function 3DInteriorRenderingMeadows() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in 3D Interior Rendering The Meadows Dubai services in The Meadows Dubai. Please share more details.")

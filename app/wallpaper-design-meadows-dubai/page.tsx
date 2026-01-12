@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Wallpaper Design The Meadows Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Meadows Dubai() {
+export default function WallpaperDesignMeadows() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Wallpaper Design The Meadows Dubai services in The Meadows Dubai. Please share more details.")

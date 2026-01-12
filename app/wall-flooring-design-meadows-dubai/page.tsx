@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Wall Flooring Design The Meadows Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignThe Meadows Dubai() {
+export default function WallFlooringDesignMeadows() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Wall Flooring Design The Meadows Dubai services in The Meadows Dubai. Please share more details.")

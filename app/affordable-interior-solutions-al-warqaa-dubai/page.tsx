@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Affordable Interior Solutions Al Warqaa Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Warqaa Dubai() {
+export default function AffordableInteriorSolutionsAlWarqaa() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Affordable Interior Solutions Al Warqaa Dubai services in Al Warqaa Dubai. Please share more details.")

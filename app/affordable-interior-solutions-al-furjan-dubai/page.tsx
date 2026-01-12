@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Affordable Interior Solutions Al Furjan Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Furjan Dubai() {
+export default function AffordableInteriorSolutionsAlFurjan() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Affordable Interior Solutions Al Furjan Dubai services in Al Furjan Dubai. Please share more details.")

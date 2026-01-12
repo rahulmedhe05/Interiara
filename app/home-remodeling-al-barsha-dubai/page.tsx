@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home Remodeling Al Barsha Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Barsha Dubai() {
+export default function HomeRemodelingAlBarsha() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Home Remodeling Al Barsha Dubai services in Al Barsha Dubai. Please share more details.")

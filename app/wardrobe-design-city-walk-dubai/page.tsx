@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Wardrobe Design City Walk Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignCity Walk Dubai() {
+export default function WardrobeDesignCityWalk() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Wardrobe Design City Walk Dubai services in City Walk Dubai. Please share more details.")

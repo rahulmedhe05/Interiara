@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "3D Interior Rendering JVC Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignJVC Dubai() {
+export default function 3DInteriorRenderingJvc() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in 3D Interior Rendering JVC Dubai services in JVC Dubai. Please share more details.")

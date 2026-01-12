@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Corporate Office Interior Design Emirates Hills Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignEmirates Hills Dubai() {
+export default function CorporateOfficeInteriorDesignEmiratesHills() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Corporate Office Interior Design Emirates Hills Dubai services in Emirates Hills Dubai. Please share more details.")

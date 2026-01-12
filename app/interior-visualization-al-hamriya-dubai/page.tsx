@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Visualization Al Hamriya Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Hamriya Dubai() {
+export default function InteriorVisualizationAlHamriya() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Visualization Al Hamriya Dubai services in Al Hamriya Dubai. Please share more details.")

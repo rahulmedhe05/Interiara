@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Commercial Interior Design Al Karama Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignAl Karama Dubai() {
+export default function CommercialInteriorDesignAlKarama() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Commercial Interior Design Al Karama Dubai services in Al Karama Dubai. Please share more details.")

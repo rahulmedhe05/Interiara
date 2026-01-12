@@ -63,7 +63,7 @@ const galleryImages = [
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Office Fit Out Dubai - Island designs" },
 ]
 
-export default function TerraceInteriorDesignOut Dubai() {
+export default function OfficeFitOut() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Office Fit Out Dubai services in Out Dubai. Please share more details.")
