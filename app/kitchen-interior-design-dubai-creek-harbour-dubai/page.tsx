@@ -362,10 +362,7 @@ export default function KitchenInteriorDesignDubaiCreekHarbour() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

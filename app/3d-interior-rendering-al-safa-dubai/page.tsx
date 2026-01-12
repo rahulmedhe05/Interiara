@@ -362,10 +362,7 @@ export default function 3DInteriorRenderingAlSafa() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

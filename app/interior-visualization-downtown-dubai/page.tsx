@@ -362,10 +362,7 @@ export default function InteriorVisualizationDowntown() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

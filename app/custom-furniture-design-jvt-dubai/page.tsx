@@ -362,10 +362,7 @@ export default function CustomFurnitureDesignJvt() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

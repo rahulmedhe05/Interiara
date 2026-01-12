@@ -362,10 +362,7 @@ export default function SmartLightingTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

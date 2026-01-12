@@ -362,10 +362,7 @@ export default function 3DInteriorRenderingJbr() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

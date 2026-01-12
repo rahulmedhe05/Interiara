@@ -362,10 +362,7 @@ export default function ResidentialInteriorDesignAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

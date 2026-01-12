@@ -362,10 +362,7 @@ export default function SmartHomeInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

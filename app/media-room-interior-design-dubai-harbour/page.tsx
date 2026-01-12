@@ -362,11 +362,7 @@ export default function MediaRoomInteriorDesign() {
             </div>
           </div>
         </div>
-      </section>
-
-      
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

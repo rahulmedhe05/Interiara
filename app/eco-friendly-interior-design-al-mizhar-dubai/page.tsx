@@ -362,10 +362,7 @@ export default function EcoFriendlyInteriorDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

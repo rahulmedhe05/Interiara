@@ -362,10 +362,7 @@ export default function InteriorSpaceOptimizationAlBarsha() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

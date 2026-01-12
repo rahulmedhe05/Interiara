@@ -362,10 +362,7 @@ export default function CafeInteriorDesignAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

@@ -362,10 +362,7 @@ export default function HotelInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

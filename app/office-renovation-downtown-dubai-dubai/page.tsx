@@ -362,10 +362,7 @@ export default function OfficeRenovationDowntownDubai() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

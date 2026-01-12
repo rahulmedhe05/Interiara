@@ -362,10 +362,7 @@ export default function OutdoorLivingDesignAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

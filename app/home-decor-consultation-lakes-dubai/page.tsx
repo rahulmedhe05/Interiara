@@ -362,10 +362,7 @@ export default function HomeDecorConsultationLakes() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

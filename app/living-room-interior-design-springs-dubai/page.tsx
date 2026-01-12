@@ -362,10 +362,7 @@ export default function LivingRoomInteriorDesignSprings() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

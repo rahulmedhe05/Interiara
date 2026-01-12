@@ -362,10 +362,7 @@ export default function SustainableInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

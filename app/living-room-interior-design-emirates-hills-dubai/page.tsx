@@ -362,10 +362,7 @@ export default function LivingRoomInteriorDesignEmiratesHills() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

@@ -362,10 +362,7 @@ export default function SmartHomeInteriorDesignLakes() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

@@ -362,10 +362,7 @@ export default function EcoFriendlyInteriorDesignEmiratesHills() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

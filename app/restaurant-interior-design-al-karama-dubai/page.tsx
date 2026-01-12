@@ -362,10 +362,7 @@ export default function RestaurantInteriorDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

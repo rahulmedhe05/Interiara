@@ -362,10 +362,7 @@ export default function ChildrensRoomInteriorDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

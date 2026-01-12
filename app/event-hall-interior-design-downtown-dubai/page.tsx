@@ -362,10 +362,7 @@ export default function EventHallInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

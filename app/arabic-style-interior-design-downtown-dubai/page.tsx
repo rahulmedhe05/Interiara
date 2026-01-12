@@ -362,10 +362,7 @@ export default function ArabicStyleInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

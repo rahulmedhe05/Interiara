@@ -362,10 +362,7 @@ export default function ChildrensRoomInteriorDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

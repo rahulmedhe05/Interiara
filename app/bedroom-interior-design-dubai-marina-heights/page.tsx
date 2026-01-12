@@ -362,11 +362,7 @@ export default function BedroomInteriorDesign() {
             </div>
           </div>
         </div>
-      </section>
-
-      
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

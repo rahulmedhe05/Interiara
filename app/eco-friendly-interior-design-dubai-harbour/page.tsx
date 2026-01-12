@@ -362,11 +362,7 @@ export default function EcoFriendlyInteriorDesign() {
             </div>
           </div>
         </div>
-      </section>
-
-      
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

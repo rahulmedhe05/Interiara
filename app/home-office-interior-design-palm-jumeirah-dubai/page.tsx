@@ -362,10 +362,7 @@ export default function HomeOfficeInteriorDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

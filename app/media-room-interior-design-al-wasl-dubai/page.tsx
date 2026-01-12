@@ -362,10 +362,7 @@ export default function MediaRoomInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

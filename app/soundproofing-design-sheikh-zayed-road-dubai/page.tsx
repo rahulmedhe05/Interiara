@@ -362,10 +362,7 @@ export default function SoundproofingDesignSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

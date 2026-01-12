@@ -362,10 +362,7 @@ export default function EventHallInteriorDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

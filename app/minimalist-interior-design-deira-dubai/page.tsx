@@ -362,10 +362,7 @@ export default function MinimalistInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

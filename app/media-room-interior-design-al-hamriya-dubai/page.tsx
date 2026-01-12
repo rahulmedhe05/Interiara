@@ -362,10 +362,7 @@ export default function MediaRoomInteriorDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

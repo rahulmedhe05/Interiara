@@ -362,10 +362,7 @@ export default function OfficeInteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

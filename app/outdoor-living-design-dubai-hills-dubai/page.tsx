@@ -362,10 +362,7 @@ export default function OutdoorLivingDesignDubaiHills() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

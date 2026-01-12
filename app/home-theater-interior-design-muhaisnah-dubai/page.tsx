@@ -362,10 +362,7 @@ export default function HomeTheaterInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

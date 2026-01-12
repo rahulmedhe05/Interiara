@@ -362,10 +362,7 @@ export default function OutdoorLivingDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

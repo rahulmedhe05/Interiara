@@ -362,10 +362,7 @@ export default function LivingRoomInteriorDesignCreek() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

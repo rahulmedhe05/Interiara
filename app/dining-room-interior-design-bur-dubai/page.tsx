@@ -362,10 +362,7 @@ export default function DiningRoomInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

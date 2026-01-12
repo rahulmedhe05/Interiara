@@ -362,10 +362,7 @@ export default function MinimalistInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

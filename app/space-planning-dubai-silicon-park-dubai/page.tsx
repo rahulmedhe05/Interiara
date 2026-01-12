@@ -362,10 +362,7 @@ export default function SpacePlanningDubaiSiliconPark() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

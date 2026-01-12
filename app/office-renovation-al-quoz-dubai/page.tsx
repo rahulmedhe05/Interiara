@@ -362,10 +362,7 @@ export default function OfficeRenovationAlQuoz() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

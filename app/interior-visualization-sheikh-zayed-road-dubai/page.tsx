@@ -362,10 +362,7 @@ export default function InteriorVisualizationSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

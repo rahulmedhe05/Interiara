@@ -362,10 +362,7 @@ export default function 3DInteriorRenderingDowntown() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

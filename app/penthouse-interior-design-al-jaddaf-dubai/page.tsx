@@ -362,10 +362,7 @@ export default function PenthouseInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

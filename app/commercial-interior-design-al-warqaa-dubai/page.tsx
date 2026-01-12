@@ -362,10 +362,7 @@ export default function CommercialInteriorDesignAlWarqaa() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

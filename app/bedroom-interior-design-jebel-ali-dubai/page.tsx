@@ -362,10 +362,7 @@ export default function BedroomInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

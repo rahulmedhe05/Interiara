@@ -362,10 +362,7 @@ export default function CoWorkingSpaceInteriorDesignMeadows() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

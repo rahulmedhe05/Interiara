@@ -362,10 +362,7 @@ export default function CorporateOfficeInteriorDesignJvc() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

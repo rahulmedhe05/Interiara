@@ -362,10 +362,7 @@ export default function CustomFurnitureDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

@@ -362,11 +362,7 @@ export default function TerraceInteriorDesign() {
             </div>
           </div>
         </div>
-      </section>
-
-      
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

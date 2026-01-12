@@ -362,10 +362,7 @@ export default function CoWorkingSpaceInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

@@ -362,10 +362,7 @@ export default function ShowroomInteriorDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

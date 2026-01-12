@@ -362,10 +362,7 @@ export default function HealthcareInteriorDesignNadAlSheba() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

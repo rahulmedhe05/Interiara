@@ -362,10 +362,7 @@ export default function CoWorkingSpaceInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

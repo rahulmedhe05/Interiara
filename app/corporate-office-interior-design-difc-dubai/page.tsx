@@ -362,10 +362,7 @@ export default function CorporateOfficeInteriorDesignDifc() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

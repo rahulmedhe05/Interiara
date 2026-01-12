@@ -362,10 +362,7 @@ export default function SalonInteriorDesignAlSatwa() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

@@ -362,10 +362,7 @@ export default function ArabicStyleInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

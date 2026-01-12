@@ -362,10 +362,7 @@ export default function 3DInteriorRenderingDubaiHillsEstate() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }

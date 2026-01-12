@@ -362,10 +362,7 @@ export default function OfficeFitOutDubaiDesignDistrict() {
             </div>
           </div>
         </div>
-      </section>
-
-      <Footer />
-      <WhatsAppFloat />
+      </section><WhatsAppFloat />
     </main>
   )
 }
