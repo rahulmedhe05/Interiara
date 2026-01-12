@@ -4,7 +4,12 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone } from "lucide-react"
 
-export function Navigation() {
+interface NavigationProps {
+  darkLogo?: boolean
+  hideMenu?: boolean
+}
+
+export function Navigation({ darkLogo = false, hideMenu = false }: NavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -24,6 +29,9 @@ export function Navigation() {
     }
   }
 
+  // Logo color: dark on service pages, or when scrolled on main page
+  const logoColor = darkLogo || isScrolled ? "text-black" : "text-white"
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -34,41 +42,45 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex items-center pt-2">
-            <h1 className={`text-lg sm:text-2xl md:text-3xl font-bold transition-colors duration-300 ${isScrolled ? "text-black" : "text-white"}`}>Interiara</h1>
+            <h1 className={`text-lg sm:text-2xl md:text-3xl font-bold transition-colors duration-300 ${logoColor}`}>Interiara</h1>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
-            <button
-              onClick={() => scrollToSection("home")}
-              className="text-sm text-foreground hover:text-primary transition-colors font-mono"
-            >
-              Home
-            </button>
-            <button
-              onClick={() => scrollToSection("about")}
-              className="text-sm text-foreground hover:text-primary transition-colors font-mono"
-            >
-              About
-            </button>
-            <button
-              onClick={() => scrollToSection("services")}
-              className="text-sm text-foreground hover:text-primary transition-colors font-mono"
-            >
-              Services
-            </button>
-            <button
-              onClick={() => scrollToSection("gallery")}
-              className="text-sm text-foreground hover:text-primary transition-colors font-mono"
-            >
-              Gallery
-            </button>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="text-sm text-foreground hover:text-primary transition-colors font-mono"
-            >
-              Contact
-            </button>
+            {!hideMenu && (
+              <>
+                <button
+                  onClick={() => scrollToSection("home")}
+                  className="text-sm text-foreground hover:text-primary transition-colors font-mono"
+                >
+                  Home
+                </button>
+                <button
+                  onClick={() => scrollToSection("about")}
+                  className="text-sm text-foreground hover:text-primary transition-colors font-mono"
+                >
+                  About
+                </button>
+                <button
+                  onClick={() => scrollToSection("services")}
+                  className="text-sm text-foreground hover:text-primary transition-colors font-mono"
+                >
+                  Services
+                </button>
+                <button
+                  onClick={() => scrollToSection("gallery")}
+                  className="text-sm text-foreground hover:text-primary transition-colors font-mono"
+                >
+                  Gallery
+                </button>
+                <button
+                  onClick={() => scrollToSection("contact")}
+                  className="text-sm text-foreground hover:text-primary transition-colors font-mono"
+                >
+                  Contact
+                </button>
+              </>
+            )}
             <a href="tel:+916353583148">
               <Button className="bg-primary hover:bg-accent text-white font-semibold text-sm px-4 py-2 h-auto">
                 <Phone className="w-4 h-4 mr-2" />
@@ -77,14 +89,26 @@ export function Navigation() {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button className="md:hidden text-foreground" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile Menu Button - only show if menu is not hidden */}
+          {!hideMenu && (
+            <button className="md:hidden text-foreground" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          )}
+          
+          {/* Mobile Call Button - show when menu is hidden */}
+          {hideMenu && (
+            <a href="tel:+916353583148" className="md:hidden">
+              <Button className="bg-primary hover:bg-accent text-white font-semibold text-sm px-4 py-2 h-auto">
+                <Phone className="w-4 h-4 mr-2" />
+                Call Now
+              </Button>
+            </a>
+          )}
         </div>
 
         {/* Mobile Menu */}
-        {isMobileMenuOpen && (
+        {isMobileMenuOpen && !hideMenu && (
           <div className="md:hidden py-3 bg-card border-t border-border">
             <div className="flex flex-col gap-2">
               <button

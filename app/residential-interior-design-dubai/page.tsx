@@ -1,52 +1,19 @@
-import type { Metadata } from "next"
+"use client"
+
+import { useState } from "react"
 import Image from "next/image"
-import Link from "next/link"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { WhatsAppFloat } from "@/components/whatsapp-float"
-import { Phone, CheckCircle, Star, ArrowRight, Home, Bed, Bath, Sofa, ChefHat, Palette } from "lucide-react"
+import { ServicePageForm } from "@/components/service-page-form"
+import { Phone, CheckCircle, Star, ArrowRight, Home, Bed, Bath, Sofa, ChefHat, Palette, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords Research for Residential Interior Design Dubai:
-// Primary: residential interior design dubai, home interior design dubai, house interior design dubai
-// Secondary: interior designer for home dubai, residential interior designer uae, home decoration dubai
-// Long-tail: best residential interior design company dubai, affordable home interior design dubai,
-// luxury residential interior design uae, modern home interior design dubai, villa home design dubai
-// Related: dubai home makeover, apartment interior design dubai, family home interior dubai,
-// residential renovation dubai, home styling dubai, interior fit out dubai
-
-export const metadata: Metadata = {
-  title: "Residential Interior Design Dubai | Expert Home Interior Designers UAE | Interiara",
-  description: "Transform your home with Dubai's leading residential interior design experts. Interiara specializes in luxury villa interiors, modern apartments, and family home designs. 500+ homes transformed. Free 3D visualization & consultation. Call +91 635 358 3148",
-  keywords: [
-    "residential interior design dubai",
-    "home interior design dubai",
-    "house interior design dubai",
-    "interior designer for home dubai",
-    "residential interior designer uae",
-    "home decoration dubai",
-    "best residential interior design company dubai",
-    "affordable home interior design dubai",
-    "luxury residential interior design uae",
-    "modern home interior design dubai",
-    "villa home design dubai",
-    "dubai home makeover",
-    "family home interior dubai",
-    "residential renovation dubai",
-    "home styling dubai",
-    "interior fit out residential dubai",
-    "complete home interior solutions dubai"
-  ],
-  openGraph: {
-    title: "Residential Interior Design Dubai | Transform Your Home | Interiara",
-    description: "Expert residential interior designers creating stunning homes across Dubai & UAE. Villas, apartments, townhouses - we design it all. Book free consultation!",
-    url: "https://interiara.com/residential-interior-design-dubai",
-    type: "website",
-  },
-  alternates: {
-    canonical: "https://interiara.com/residential-interior-design-dubai",
-  },
-}
+// SEO Keywords: residential interior design dubai, home interior design dubai, house interior design dubai,
+// interior designer for home dubai, residential interior designer uae, home decoration dubai,
+// best residential interior design company dubai, affordable home interior design dubai,
+// luxury residential interior design uae, modern home interior design dubai, villa home design dubai,
+// dubai home makeover, family home interior dubai, residential renovation dubai, home styling dubai
 
 const residentialServices = [
   { icon: Home, title: "Villa Interior Design", desc: "Luxurious villa transformations with bespoke designs" },
@@ -74,60 +41,127 @@ const stats = [
 ]
 
 const galleryImages = [
+  // Row 1 - Initial display
   { src: "/dubai-interior-design-luxury.jpg", alt: "Luxury residential interior design Dubai" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Villa interior design Dubai" },
-  { src: "/meet.jpg", alt: "Modern home interior Dubai" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Contemporary residential design UAE" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Living room interior design Dubai" },
+  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Villa home design Dubai - modern interiors" },
+  { src: "/meet.jpg", alt: "Modern home interior design Dubai" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Contemporary house interior design Dubai" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Living room home decoration Dubai" },
   { src: "/Al-Barari-Kitchen.jpg", alt: "Kitchen interior design Dubai home" },
+  // Row 2
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Dubai luxury home interior design" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Luxury residential interior Dubai living room" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Luxury kitchen residential interior design UAE" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Best residential interior design company Dubai" },
+  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Bathroom home interior design Dubai" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Bedroom interior designer for home Dubai" },
+  // Row 3
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Residential renovation Dubai bathroom" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Home styling Dubai kitchen island" },
+  { src: "/2b-scaled.jpg", alt: "Family home interior Dubai design" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Interior fit out residential Dubai kitchen" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Affordable home interior design Dubai" },
+  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Dubai home makeover bathroom design" },
+  // Row 4
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Modern home interior design Dubai kitchen" },
+  { src: "/Reception-9.jpg", alt: "Complete home interior solutions Dubai" },
+  { src: "/bathroom-1024x683.jpg", alt: "Residential interior designer UAE bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Home decoration Dubai modern kitchen" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Luxury residential interior design UAE living" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "House interior design Dubai bedroom" },
 ]
 
 export default function ResidentialInteriorDesignDubai() {
+  const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
   const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in residential interior design services for my home in Dubai. Please share more details.")
+  
+  const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
   return (
     <main className="min-h-screen bg-background">
-      <Navigation />
+      <Navigation darkLogo hideMenu />
       
       {/* Hero Section */}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior Design Dubai</p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-                Transform Your House Into a <span className="text-primary">Dream Home</span>
+          <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
+            {/* Left Side - Content (order-1 on mobile, normal on desktop) */}
+            <div className="lg:col-span-3 order-1 lg:order-none">
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Residential Interior Design Company Dubai</p>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+                Expert Home Interior Design Dubai - <span className="text-primary">Transform Your House</span>
               </h1>
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Interiara is Dubai's premier residential interior design company, crafting exceptional living spaces that reflect your personality and lifestyle. From luxurious villas to cozy apartments, we bring your vision to life with innovative designs and flawless execution.
+              <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
+                Looking for the <strong>best residential interior design in Dubai</strong>? Interiara is Dubai's premier <strong>home interior design company</strong>, specializing in <strong>luxury residential interior design UAE</strong>. From stunning <strong>villa home design Dubai</strong> to <strong>modern home interior design</strong> for apartments, we deliver exceptional <strong>house interior design Dubai</strong> services. Our expert <strong>interior designers for home Dubai</strong> bring your vision to life with innovative designs and flawless execution.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="bg-primary hover:bg-accent text-white w-full sm:w-auto">
-                    Get Free Consultation
-                    <ArrowRight className="ml-2 w-5 h-5" />
-                  </Button>
-                </a>
-                <a href="tel:+916353583148">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                    <Phone className="mr-2 w-5 h-5" />
-                    +91 635 358 3148
-                  </Button>
-                </a>
+              
+              {/* Featured Image - Hidden on mobile, shown on desktop */}
+              <div className="relative mb-8 hidden lg:block">
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="/dubai-interior-design-luxury.jpg" 
+                    alt="Residential Interior Design Dubai - Luxury Home by Interiara"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-primary text-white p-4 rounded-xl shadow-xl">
+                  <p className="text-2xl font-bold">500+</p>
+                  <p className="text-xs">Homes Designed</p>
+                </div>
+              </div>
+              
+              {/* Quick Stats - Hidden on mobile, shown on desktop */}
+              <div className="grid-cols-3 gap-4 hidden lg:grid">
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">15+</p>
+                  <p className="text-xs text-muted-foreground">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">98%</p>
+                  <p className="text-xs text-muted-foreground">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">25+</p>
+                  <p className="text-xs text-muted-foreground">Expert Designers</p>
+                </div>
               </div>
             </div>
-            <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src="/dubai-interior-design-luxury.jpg" 
-                  alt="Residential Interior Design Dubai - Luxury Home by Interiara"
-                  className="w-full h-full object-cover"
-                />
+            
+            {/* Right Side - Form (order-2 on mobile, stays right on desktop) */}
+            <div className="lg:col-span-2 order-2 lg:order-none w-full">
+              <ServicePageForm serviceName="Residential Interior Design" />
+            </div>
+            
+            {/* Mobile only - Image & Stats (order-3, only visible on mobile) */}
+            <div className="order-3 lg:hidden w-full">
+              <div className="relative mb-8">
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="/dubai-interior-design-luxury.jpg" 
+                    alt="Residential Interior Design Dubai - Luxury Home by Interiara"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-primary text-white p-4 rounded-xl shadow-xl">
+                  <p className="text-2xl font-bold">500+</p>
+                  <p className="text-xs">Homes Designed</p>
+                </div>
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-xl shadow-xl">
-                <p className="text-3xl font-bold">500+</p>
-                <p className="text-sm">Homes Designed</p>
+              
+              <div className="grid grid-cols-3 gap-4">
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">15+</p>
+                  <p className="text-xs text-muted-foreground">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">98%</p>
+                  <p className="text-xs text-muted-foreground">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">25+</p>
+                  <p className="text-xs text-muted-foreground">Expert Designers</p>
+                </div>
               </div>
             </div>
           </div>
@@ -153,30 +187,30 @@ export default function ResidentialInteriorDesignDubai() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Your Home Interior Design in Dubai?
+              Why Choose Interiara for Home Interior Design in Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                Your home is more than just four walls—it's where memories are made, families grow, and life unfolds. At Interiara, we understand the profound significance of residential spaces, which is why our <strong>residential interior design services in Dubai</strong> go beyond mere aesthetics. We create environments that nurture well-being, enhance functionality, and express your unique personality.
+                Your home is more than just four walls—it's where memories are made, families grow, and life unfolds. At Interiara, we understand the profound significance of residential spaces. As the <strong>best residential interior design company in Dubai</strong>, our <strong>home interior design Dubai</strong> services go beyond mere aesthetics. Whether you need <strong>affordable home interior design Dubai</strong> or <strong>luxury residential interior design UAE</strong>, we create environments that nurture well-being, enhance functionality, and express your unique personality.
               </p>
               
               <p>
-                As one of the <strong>best residential interior design companies in Dubai</strong>, we've had the privilege of transforming over 500 homes across the UAE. From sprawling Emirates Hills villas to compact Dubai Marina apartments, our portfolio showcases versatility, creativity, and unwavering commitment to excellence. Our team of 25+ expert designers brings diverse perspectives and specialized skills to every project, ensuring your home receives the attention it deserves.
+                As leading <strong>residential interior designers in UAE</strong>, we've had the privilege of transforming over 500 homes. From sprawling Emirates Hills villas requiring expert <strong>villa home design Dubai</strong> to compact Dubai Marina apartments needing smart <strong>house interior design Dubai</strong> solutions, our portfolio showcases versatility and creativity. Our team of 25+ expert <strong>interior designers for home Dubai</strong> brings diverse perspectives and specialized skills to every <strong>dubai home makeover</strong> project.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Understanding Dubai's Unique Residential Landscape</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Understanding Dubai's Modern Home Interior Design Landscape</h3>
               
               <p>
-                Dubai's residential architecture is a fascinating blend of ultra-modern skyscrapers, Mediterranean-inspired villas, and traditional Arabic homes. This diversity demands interior designers who can adapt their approach while maintaining design integrity. Our <strong>home interior designers in Dubai</strong> are well-versed in:
+                Dubai's residential architecture demands expert <strong>residential interior designers UAE</strong> who understand both modern and traditional styles. Our <strong>home decoration Dubai</strong> experts are well-versed in creating stunning interiors for:
               </p>
               
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>High-rise apartment living</strong> – Maximizing space in compact layouts while creating luxurious atmospheres</li>
-                <li><strong>Villa and townhouse design</strong> – Balancing grandeur with warmth for family-oriented spaces</li>
-                <li><strong>Penthouse interiors</strong> – Crafting statement homes with panoramic views as design elements</li>
-                <li><strong>Arabic-contemporary fusion</strong> – Honoring cultural heritage while embracing modern living</li>
-                <li><strong>Sustainable residential design</strong> – Eco-conscious solutions for environmentally aware homeowners</li>
+                <li><strong>High-rise apartment home interior design Dubai</strong> – Maximizing space in compact layouts while creating luxurious atmospheres</li>
+                <li><strong>Villa home design Dubai</strong> – Balancing grandeur with warmth for family-oriented spaces with complete <strong>residential renovation Dubai</strong></li>
+                <li><strong>Penthouse modern home interior design Dubai</strong> – Crafting statement homes with panoramic views as design elements</li>
+                <li><strong>Arabic-contemporary family home interior Dubai</strong> – Honoring cultural heritage while embracing modern living</li>
+                <li><strong>Sustainable residential interior design UAE</strong> – Eco-conscious solutions with <strong>home styling Dubai</strong> expertise</li>
               </ul>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Residential Interior Design Philosophy</h3>
@@ -281,12 +315,12 @@ export default function ResidentialInteriorDesignDubai() {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Designer for Home Dubai</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Residential Interior Design Services
+              Complete Home Interior Solutions Dubai
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive home design solutions tailored to Dubai's diverse residential landscape
+              Comprehensive <strong>residential interior design Dubai</strong> services including <strong>home decoration Dubai</strong>, <strong>home styling Dubai</strong>, and <strong>interior fit out residential Dubai</strong>
             </p>
           </div>
           
@@ -306,12 +340,12 @@ export default function ResidentialInteriorDesignDubai() {
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Process</p>
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Dubai Home Makeover Process</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              How We Transform Your Home
+              How We Deliver Residential Renovation Dubai Excellence
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              A seamless journey from initial concept to your dream home
+              Our proven <strong>home interior design Dubai</strong> process ensures a seamless journey from concept to your dream home
             </p>
           </div>
           
@@ -333,17 +367,17 @@ export default function ResidentialInteriorDesignDubai() {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decoration Dubai Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Residential Projects Gallery
+              Luxury Residential Interior Design UAE Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Explore our stunning residential interior design projects across Dubai
+              Explore our stunning <strong>house interior design Dubai</strong> and <strong>villa home design Dubai</strong> projects showcasing <strong>modern home interior design Dubai</strong> excellence
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {galleryImages.map((image, index) => (
+            {displayedImages.map((image, index) => (
               <div key={index} className="group relative aspect-square overflow-hidden rounded-xl shadow-lg">
                 <img 
                   src={image.src} 
@@ -360,12 +394,23 @@ export default function ResidentialInteriorDesignDubai() {
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/#gallery">
-              <Button variant="outline" size="lg">
-                View Full Portfolio
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-            </Link>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => setShowAllImages(!showAllImages)}
+            >
+              {showAllImages ? (
+                <>
+                  Show Less
+                  <ChevronUp className="ml-2 w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  View More
+                  <ChevronDown className="ml-2 w-5 h-5" />
+                </>
+              )}
+            </Button>
           </div>
         </div>
       </section>
@@ -388,7 +433,7 @@ export default function ResidentialInteriorDesignDubai() {
                 </Button>
               </a>
               <a href="tel:+916353583148">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 w-full sm:w-auto">
+                <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
                   <Phone className="mr-2 w-5 h-5" />
                   Call: +91 635 358 3148
                 </Button>
