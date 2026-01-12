@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Emirates Hills, Home Remodeling in Emirates Hills, Best home remodeling Emirates Hills, Professional home remodeling Emirates Hills, Luxury home remodeling Emirates Hills, Home Remodeling Emirates Hills Dubai, Home Remodeling designer Emirates Hills, Home Remodeling company Emirates Hills, Home Remodeling contractor Emirates Hills, Affordable home remodeling Emirates Hills, Modern home remodeling Emirates Hills, Home Remodeling consultation Emirates Hills, Home Remodeling cost Emirates Hills, Home Remodeling price Emirates Hills, Top home remodeling Emirates Hills
+
+// SEO Keywords: Home Remodeling Emirates Hills, Home Remodeling in Emirates Hills, Best home remodeling Emirates Hills, Professional home remodeling Emirates Hills, Luxury home remodeling Emirates Hills, Home Remodeling Emirates Hills Dubai, Home Remodeling designer Emirates Hills, Home Remodeling company Emirates Hills, Home Remodeling contractor Emirates Hills, Affordable home remodeling Emirates Hills, Modern home remodeling Emirates Hills, Home Remodeling consultation Emirates Hills, Home Remodeling cost Emirates Hills, Home Remodeling price Emirates Hills, Top home remodeling Emirates Hills, Home Remodeling near Emirates Hills, Home Remodeling specialists Emirates Hills, Home Remodeling experts Emirates Hills, Home Remodeling solutions Emirates Hills, Home Remodeling packages Emirates Hills, Home Remodeling quotes Emirates Hills, Home Remodeling estimates Emirates Hills, Home Remodeling services near me Emirates Hills, Cheap Home Remodeling Emirates Hills, Quality Home Remodeling Emirates Hills, Trusted Home Remodeling Emirates Hills, Home Remodeling transformation Emirates Hills, Home Remodeling renovation Emirates Hills, Home Remodeling makeover Emirates Hills, Best Home Remodeling company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling in Emirates Hills. Best home remodeling Emirates Hills Company Emirates Hills Our luxury home remodeling emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

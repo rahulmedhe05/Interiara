@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Co Working Space Interior Design Bur, Co Working Space Interior in Design Bur, Best co working space interior Design Bur, Professional co working space interior Design Bur, Luxury co working space interior Design Bur, Co Working Space Interior Design Bur Dubai, Co Working Space Interior designer Design Bur, Co Working Space Interior company Design Bur, Co Working Space Interior contractor Design Bur, Affordable co working space interior Design Bur, Modern co working space interior Design Bur, Co Working Space Interior consultation Design Bur, Co Working Space Interior cost Design Bur, Co Working Space Interior price Design Bur, Top co working space interior Design Bur
+
+// SEO Keywords: Co Working Space Interior Design Bur, Co Working Space Interior in Design Bur, Best co working space interior Design Bur, Professional co working space interior Design Bur, Luxury co working space interior Design Bur, Co Working Space Interior Design Bur Dubai, Co Working Space Interior designer Design Bur, Co Working Space Interior company Design Bur, Co Working Space Interior contractor Design Bur, Affordable co working space interior Design Bur, Modern co working space interior Design Bur, Co Working Space Interior consultation Design Bur, Co Working Space Interior cost Design Bur, Co Working Space Interior price Design Bur, Top co working space interior Design Bur, Co Working Space Interior near Design Bur, Co Working Space Interior specialists Design Bur, Co Working Space Interior experts Design Bur, Co Working Space Interior solutions Design Bur, Co Working Space Interior packages Design Bur, Co Working Space Interior quotes Design Bur, Co Working Space Interior estimates Design Bur, Co Working Space Interior services near me Design Bur, Cheap Co Working Space Interior Design Bur, Quality Co Working Space Interior Design Bur, Trusted Co Working Space Interior Design Bur, Co Working Space Interior transformation Design Bur, Co Working Space Interior renovation Design Bur, Co Working Space Interior makeover Design Bur, Best Co Working Space Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CoWorkingSpaceInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best co working space interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Co Working Space Interior in Design Bur. Best co working space interior Design Bur Company Design Bur Our luxury co working space interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Co Working Space Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CoWorkingSpaceInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our co working space interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CoWorkingSpaceInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in co working space interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CoWorkingSpaceInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

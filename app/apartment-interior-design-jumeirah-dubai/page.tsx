@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Jumeirah, Apartment Interior in Design Jumeirah, Best apartment interior Design Jumeirah, Professional apartment interior Design Jumeirah, Luxury apartment interior Design Jumeirah, Apartment Interior Design Jumeirah Dubai, Apartment Interior designer Design Jumeirah, Apartment Interior company Design Jumeirah, Apartment Interior contractor Design Jumeirah, Affordable apartment interior Design Jumeirah, Modern apartment interior Design Jumeirah, Apartment Interior consultation Design Jumeirah, Apartment Interior cost Design Jumeirah, Apartment Interior price Design Jumeirah, Top apartment interior Design Jumeirah
+
+// SEO Keywords: Apartment Interior Design Jumeirah, Apartment Interior in Design Jumeirah, Best apartment interior Design Jumeirah, Professional apartment interior Design Jumeirah, Luxury apartment interior Design Jumeirah, Apartment Interior Design Jumeirah Dubai, Apartment Interior designer Design Jumeirah, Apartment Interior company Design Jumeirah, Apartment Interior contractor Design Jumeirah, Affordable apartment interior Design Jumeirah, Modern apartment interior Design Jumeirah, Apartment Interior consultation Design Jumeirah, Apartment Interior cost Design Jumeirah, Apartment Interior price Design Jumeirah, Top apartment interior Design Jumeirah, Apartment Interior near Design Jumeirah, Apartment Interior specialists Design Jumeirah, Apartment Interior experts Design Jumeirah, Apartment Interior solutions Design Jumeirah, Apartment Interior packages Design Jumeirah, Apartment Interior quotes Design Jumeirah, Apartment Interior estimates Design Jumeirah, Apartment Interior services near me Design Jumeirah, Cheap Apartment Interior Design Jumeirah, Quality Apartment Interior Design Jumeirah, Trusted Apartment Interior Design Jumeirah, Apartment Interior transformation Design Jumeirah, Apartment Interior renovation Design Jumeirah, Apartment Interior makeover Design Jumeirah, Best Apartment Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior in Design Jumeirah. Best apartment interior Design Jumeirah Company Design Jumeirah Our luxury apartment interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

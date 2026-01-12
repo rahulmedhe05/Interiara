@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Hamriya, Lighting Automation in Al Hamriya, Best lighting automation Al Hamriya, Professional lighting automation Al Hamriya, Luxury lighting automation Al Hamriya, Lighting Automation Al Hamriya Dubai, Lighting Automation designer Al Hamriya, Lighting Automation company Al Hamriya, Lighting Automation contractor Al Hamriya, Affordable lighting automation Al Hamriya, Modern lighting automation Al Hamriya, Lighting Automation consultation Al Hamriya, Lighting Automation cost Al Hamriya, Lighting Automation price Al Hamriya, Top lighting automation Al Hamriya
+
+// SEO Keywords: Lighting Automation Al Hamriya, Lighting Automation in Al Hamriya, Best lighting automation Al Hamriya, Professional lighting automation Al Hamriya, Luxury lighting automation Al Hamriya, Lighting Automation Al Hamriya Dubai, Lighting Automation designer Al Hamriya, Lighting Automation company Al Hamriya, Lighting Automation contractor Al Hamriya, Affordable lighting automation Al Hamriya, Modern lighting automation Al Hamriya, Lighting Automation consultation Al Hamriya, Lighting Automation cost Al Hamriya, Lighting Automation price Al Hamriya, Top lighting automation Al Hamriya, Lighting Automation near Al Hamriya, Lighting Automation specialists Al Hamriya, Lighting Automation experts Al Hamriya, Lighting Automation solutions Al Hamriya, Lighting Automation packages Al Hamriya, Lighting Automation quotes Al Hamriya, Lighting Automation estimates Al Hamriya, Lighting Automation services near me Al Hamriya, Cheap Lighting Automation Al Hamriya, Quality Lighting Automation Al Hamriya, Trusted Lighting Automation Al Hamriya, Lighting Automation transformation Al Hamriya, Lighting Automation renovation Al Hamriya, Lighting Automation makeover Al Hamriya, Best Lighting Automation company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Al Hamriya. Best lighting automation Al Hamriya Company Al Hamriya Our luxury lighting automation al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

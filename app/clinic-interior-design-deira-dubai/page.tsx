@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Clinic Interior Design Deira, Clinic Interior in Design Deira, Best clinic interior Design Deira, Professional clinic interior Design Deira, Luxury clinic interior Design Deira, Clinic Interior Design Deira Dubai, Clinic Interior designer Design Deira, Clinic Interior company Design Deira, Clinic Interior contractor Design Deira, Affordable clinic interior Design Deira, Modern clinic interior Design Deira, Clinic Interior consultation Design Deira, Clinic Interior cost Design Deira, Clinic Interior price Design Deira, Top clinic interior Design Deira
+
+// SEO Keywords: Clinic Interior Design Deira, Clinic Interior in Design Deira, Best clinic interior Design Deira, Professional clinic interior Design Deira, Luxury clinic interior Design Deira, Clinic Interior Design Deira Dubai, Clinic Interior designer Design Deira, Clinic Interior company Design Deira, Clinic Interior contractor Design Deira, Affordable clinic interior Design Deira, Modern clinic interior Design Deira, Clinic Interior consultation Design Deira, Clinic Interior cost Design Deira, Clinic Interior price Design Deira, Top clinic interior Design Deira, Clinic Interior near Design Deira, Clinic Interior specialists Design Deira, Clinic Interior experts Design Deira, Clinic Interior solutions Design Deira, Clinic Interior packages Design Deira, Clinic Interior quotes Design Deira, Clinic Interior estimates Design Deira, Clinic Interior services near me Design Deira, Cheap Clinic Interior Design Deira, Quality Clinic Interior Design Deira, Trusted Clinic Interior Design Deira, Clinic Interior transformation Design Deira, Clinic Interior renovation Design Deira, Clinic Interior makeover Design Deira, Best Clinic Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClinicInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Clinic Interior in Design Deira. Best clinic interior Design Deira Company Design Deira Our luxury clinic interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClinicInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our clinic interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClinicInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in clinic interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClinicInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

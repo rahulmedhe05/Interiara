@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Closet Design,  in Closet Design, Best  Closet Design, Professional  Closet Design, Luxury  Closet Design,  Closet Design Dubai,  designer Closet Design,  company Closet Design,  contractor Closet Design, Affordable  Closet Design, Modern  Closet Design,  consultation Closet Design,  cost Closet Design,  price Closet Design, Top  Closet Design
+
+// SEO Keywords:  Closet Design,  in Closet Design, Best  Closet Design, Professional  Closet Design, Luxury  Closet Design,  Closet Design Dubai,  designer Closet Design,  company Closet Design,  contractor Closet Design, Affordable  Closet Design, Modern  Closet Design,  consultation Closet Design,  cost Closet Design,  price Closet Design, Top  Closet Design,  near Closet Design,  specialists Closet Design,  experts Closet Design,  solutions Closet Design,  packages Closet Design,  quotes Closet Design,  estimates Closet Design,  services near me Closet Design, Cheap  Closet Design, Quality  Closet Design, Trusted  Closet Design,  transformation Closet Design,  renovation Closet Design,  makeover Closet Design, Best  company Closet Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesign() {
                 At Interiara, we believe that exceptional <strong>Closet Design Sports City Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Closet Design. 
                 We've completed 300+ successful projects across City Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Sports City Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  closet design services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Sports City Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesign() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  closet design service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near closet design.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Palm, Sustainable Interior in Design Palm, Best sustainable interior Design Palm, Professional sustainable interior Design Palm, Luxury sustainable interior Design Palm, Sustainable Interior Design Palm Dubai, Sustainable Interior designer Design Palm, Sustainable Interior company Design Palm, Sustainable Interior contractor Design Palm, Affordable sustainable interior Design Palm, Modern sustainable interior Design Palm, Sustainable Interior consultation Design Palm, Sustainable Interior cost Design Palm, Sustainable Interior price Design Palm, Top sustainable interior Design Palm
+
+// SEO Keywords: Sustainable Interior Design Palm, Sustainable Interior in Design Palm, Best sustainable interior Design Palm, Professional sustainable interior Design Palm, Luxury sustainable interior Design Palm, Sustainable Interior Design Palm Dubai, Sustainable Interior designer Design Palm, Sustainable Interior company Design Palm, Sustainable Interior contractor Design Palm, Affordable sustainable interior Design Palm, Modern sustainable interior Design Palm, Sustainable Interior consultation Design Palm, Sustainable Interior cost Design Palm, Sustainable Interior price Design Palm, Top sustainable interior Design Palm, Sustainable Interior near Design Palm, Sustainable Interior specialists Design Palm, Sustainable Interior experts Design Palm, Sustainable Interior solutions Design Palm, Sustainable Interior packages Design Palm, Sustainable Interior quotes Design Palm, Sustainable Interior estimates Design Palm, Sustainable Interior services near me Design Palm, Cheap Sustainable Interior Design Palm, Quality Sustainable Interior Design Palm, Trusted Sustainable Interior Design Palm, Sustainable Interior transformation Design Palm, Sustainable Interior renovation Design Palm, Sustainable Interior makeover Design Palm, Best Sustainable Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior in Design Palm. Best sustainable interior Design Palm Company Design Palm Our luxury sustainable interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

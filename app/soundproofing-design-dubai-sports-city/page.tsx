@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Soundproofing Design,  in Soundproofing Design, Best  Soundproofing Design, Professional  Soundproofing Design, Luxury  Soundproofing Design,  Soundproofing Design Dubai,  designer Soundproofing Design,  company Soundproofing Design,  contractor Soundproofing Design, Affordable  Soundproofing Design, Modern  Soundproofing Design,  consultation Soundproofing Design,  cost Soundproofing Design,  price Soundproofing Design, Top  Soundproofing Design
+
+// SEO Keywords:  Soundproofing Design,  in Soundproofing Design, Best  Soundproofing Design, Professional  Soundproofing Design, Luxury  Soundproofing Design,  Soundproofing Design Dubai,  designer Soundproofing Design,  company Soundproofing Design,  contractor Soundproofing Design, Affordable  Soundproofing Design, Modern  Soundproofing Design,  consultation Soundproofing Design,  cost Soundproofing Design,  price Soundproofing Design, Top  Soundproofing Design,  near Soundproofing Design,  specialists Soundproofing Design,  experts Soundproofing Design,  solutions Soundproofing Design,  packages Soundproofing Design,  quotes Soundproofing Design,  estimates Soundproofing Design,  services near me Soundproofing Design, Cheap  Soundproofing Design, Quality  Soundproofing Design, Trusted  Soundproofing Design,  transformation Soundproofing Design,  renovation Soundproofing Design,  makeover Soundproofing Design, Best  company Soundproofing Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Soundproofing Design Company Soundproofing Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Professional  Soundproofing Design. Best  Soundproofing Design Company Soundproofing Design Our luxury  soundproofing design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Sports City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our best  soundproofing design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesign() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in  near soundproofing design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

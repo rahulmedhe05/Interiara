@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Childrens Room Interior Design Jumeirah, Childrens Room Interior in Design Jumeirah, Best childrens room interior Design Jumeirah, Professional childrens room interior Design Jumeirah, Luxury childrens room interior Design Jumeirah, Childrens Room Interior Design Jumeirah Dubai, Childrens Room Interior designer Design Jumeirah, Childrens Room Interior company Design Jumeirah, Childrens Room Interior contractor Design Jumeirah, Affordable childrens room interior Design Jumeirah, Modern childrens room interior Design Jumeirah, Childrens Room Interior consultation Design Jumeirah, Childrens Room Interior cost Design Jumeirah, Childrens Room Interior price Design Jumeirah, Top childrens room interior Design Jumeirah
+
+// SEO Keywords: Childrens Room Interior Design Jumeirah, Childrens Room Interior in Design Jumeirah, Best childrens room interior Design Jumeirah, Professional childrens room interior Design Jumeirah, Luxury childrens room interior Design Jumeirah, Childrens Room Interior Design Jumeirah Dubai, Childrens Room Interior designer Design Jumeirah, Childrens Room Interior company Design Jumeirah, Childrens Room Interior contractor Design Jumeirah, Affordable childrens room interior Design Jumeirah, Modern childrens room interior Design Jumeirah, Childrens Room Interior consultation Design Jumeirah, Childrens Room Interior cost Design Jumeirah, Childrens Room Interior price Design Jumeirah, Top childrens room interior Design Jumeirah, Childrens Room Interior near Design Jumeirah, Childrens Room Interior specialists Design Jumeirah, Childrens Room Interior experts Design Jumeirah, Childrens Room Interior solutions Design Jumeirah, Childrens Room Interior packages Design Jumeirah, Childrens Room Interior quotes Design Jumeirah, Childrens Room Interior estimates Design Jumeirah, Childrens Room Interior services near me Design Jumeirah, Cheap Childrens Room Interior Design Jumeirah, Quality Childrens Room Interior Design Jumeirah, Trusted Childrens Room Interior Design Jumeirah, Childrens Room Interior transformation Design Jumeirah, Childrens Room Interior renovation Design Jumeirah, Childrens Room Interior makeover Design Jumeirah, Best Childrens Room Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ChildrensRoomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Childrens Room Interior in Design Jumeirah. Best childrens room interior Design Jumeirah Company Design Jumeirah Our luxury childrens room interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ChildrensRoomInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our childrens room interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ChildrensRoomInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in childrens room interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ChildrensRoomInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

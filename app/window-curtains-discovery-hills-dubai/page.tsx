@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Discovery Hills, Window Curtains in Discovery Hills, Best window curtains Discovery Hills, Professional window curtains Discovery Hills, Luxury window curtains Discovery Hills, Window Curtains Discovery Hills Dubai, Window Curtains designer Discovery Hills, Window Curtains company Discovery Hills, Window Curtains contractor Discovery Hills, Affordable window curtains Discovery Hills, Modern window curtains Discovery Hills, Window Curtains consultation Discovery Hills, Window Curtains cost Discovery Hills, Window Curtains price Discovery Hills, Top window curtains Discovery Hills
+
+// SEO Keywords: Window Curtains Discovery Hills, Window Curtains in Discovery Hills, Best window curtains Discovery Hills, Professional window curtains Discovery Hills, Luxury window curtains Discovery Hills, Window Curtains Discovery Hills Dubai, Window Curtains designer Discovery Hills, Window Curtains company Discovery Hills, Window Curtains contractor Discovery Hills, Affordable window curtains Discovery Hills, Modern window curtains Discovery Hills, Window Curtains consultation Discovery Hills, Window Curtains cost Discovery Hills, Window Curtains price Discovery Hills, Top window curtains Discovery Hills, Window Curtains near Discovery Hills, Window Curtains specialists Discovery Hills, Window Curtains experts Discovery Hills, Window Curtains solutions Discovery Hills, Window Curtains packages Discovery Hills, Window Curtains quotes Discovery Hills, Window Curtains estimates Discovery Hills, Window Curtains services near me Discovery Hills, Cheap Window Curtains Discovery Hills, Quality Window Curtains Discovery Hills, Trusted Window Curtains Discovery Hills, Window Curtains transformation Discovery Hills, Window Curtains renovation Discovery Hills, Window Curtains makeover Discovery Hills, Best Window Curtains company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains in Discovery Hills. Best window curtains Discovery Hills Company Discovery Hills Our luxury window curtains discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

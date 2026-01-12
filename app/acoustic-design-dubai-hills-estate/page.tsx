@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Acoustic Design,  in Acoustic Design, Best  Acoustic Design, Professional  Acoustic Design, Luxury  Acoustic Design,  Acoustic Design Dubai,  designer Acoustic Design,  company Acoustic Design,  contractor Acoustic Design, Affordable  Acoustic Design, Modern  Acoustic Design,  consultation Acoustic Design,  cost Acoustic Design,  price Acoustic Design, Top  Acoustic Design
+
+// SEO Keywords:  Acoustic Design,  in Acoustic Design, Best  Acoustic Design, Professional  Acoustic Design, Luxury  Acoustic Design,  Acoustic Design Dubai,  designer Acoustic Design,  company Acoustic Design,  contractor Acoustic Design, Affordable  Acoustic Design, Modern  Acoustic Design,  consultation Acoustic Design,  cost Acoustic Design,  price Acoustic Design, Top  Acoustic Design,  near Acoustic Design,  specialists Acoustic Design,  experts Acoustic Design,  solutions Acoustic Design,  packages Acoustic Design,  quotes Acoustic Design,  estimates Acoustic Design,  services near me Acoustic Design, Cheap  Acoustic Design, Quality  Acoustic Design, Trusted  Acoustic Design,  transformation Acoustic Design,  renovation Acoustic Design,  makeover Acoustic Design, Best  company Acoustic Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesign() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design Hills Estate Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Estate Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Acoustic Design. 
                 We've completed 300+ successful projects across Estate Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design Hills Estate Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  acoustic design services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design Hills Estate Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesign() {
 
               <p>
                 Interiara stands out in the crowded Estate Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  acoustic design service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near acoustic design.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

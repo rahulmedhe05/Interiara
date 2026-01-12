@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Mirdif, Kitchen Interior in Design Mirdif, Best kitchen interior Design Mirdif, Professional kitchen interior Design Mirdif, Luxury kitchen interior Design Mirdif, Kitchen Interior Design Mirdif Dubai, Kitchen Interior designer Design Mirdif, Kitchen Interior company Design Mirdif, Kitchen Interior contractor Design Mirdif, Affordable kitchen interior Design Mirdif, Modern kitchen interior Design Mirdif, Kitchen Interior consultation Design Mirdif, Kitchen Interior cost Design Mirdif, Kitchen Interior price Design Mirdif, Top kitchen interior Design Mirdif
+
+// SEO Keywords: Kitchen Interior Design Mirdif, Kitchen Interior in Design Mirdif, Best kitchen interior Design Mirdif, Professional kitchen interior Design Mirdif, Luxury kitchen interior Design Mirdif, Kitchen Interior Design Mirdif Dubai, Kitchen Interior designer Design Mirdif, Kitchen Interior company Design Mirdif, Kitchen Interior contractor Design Mirdif, Affordable kitchen interior Design Mirdif, Modern kitchen interior Design Mirdif, Kitchen Interior consultation Design Mirdif, Kitchen Interior cost Design Mirdif, Kitchen Interior price Design Mirdif, Top kitchen interior Design Mirdif, Kitchen Interior near Design Mirdif, Kitchen Interior specialists Design Mirdif, Kitchen Interior experts Design Mirdif, Kitchen Interior solutions Design Mirdif, Kitchen Interior packages Design Mirdif, Kitchen Interior quotes Design Mirdif, Kitchen Interior estimates Design Mirdif, Kitchen Interior services near me Design Mirdif, Cheap Kitchen Interior Design Mirdif, Quality Kitchen Interior Design Mirdif, Trusted Kitchen Interior Design Mirdif, Kitchen Interior transformation Design Mirdif, Kitchen Interior renovation Design Mirdif, Kitchen Interior makeover Design Mirdif, Best Kitchen Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior in Design Mirdif. Best kitchen interior Design Mirdif Company Design Mirdif Our luxury kitchen interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

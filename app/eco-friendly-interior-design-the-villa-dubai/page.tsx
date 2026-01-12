@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design The Villa, Eco Friendly Interior Design in The Villa, Best eco friendly interior design The Villa, Professional eco friendly interior design The Villa, Luxury eco friendly interior design The Villa, Eco Friendly Interior Design The Villa Dubai, Eco Friendly Interior Design designer The Villa, Eco Friendly Interior Design company The Villa, Eco Friendly Interior Design contractor The Villa, Affordable eco friendly interior design The Villa, Modern eco friendly interior design The Villa, Eco Friendly Interior Design consultation The Villa, Eco Friendly Interior Design cost The Villa, Eco Friendly Interior Design price The Villa, Top eco friendly interior design The Villa
+
+// SEO Keywords: Eco Friendly Interior Design The Villa, Eco Friendly Interior Design in The Villa, Best eco friendly interior design The Villa, Professional eco friendly interior design The Villa, Luxury eco friendly interior design The Villa, Eco Friendly Interior Design The Villa Dubai, Eco Friendly Interior Design designer The Villa, Eco Friendly Interior Design company The Villa, Eco Friendly Interior Design contractor The Villa, Affordable eco friendly interior design The Villa, Modern eco friendly interior design The Villa, Eco Friendly Interior Design consultation The Villa, Eco Friendly Interior Design cost The Villa, Eco Friendly Interior Design price The Villa, Top eco friendly interior design The Villa, Eco Friendly Interior Design near The Villa, Eco Friendly Interior Design specialists The Villa, Eco Friendly Interior Design experts The Villa, Eco Friendly Interior Design solutions The Villa, Eco Friendly Interior Design packages The Villa, Eco Friendly Interior Design quotes The Villa, Eco Friendly Interior Design estimates The Villa, Eco Friendly Interior Design services near me The Villa, Cheap Eco Friendly Interior Design The Villa, Quality Eco Friendly Interior Design The Villa, Trusted Eco Friendly Interior Design The Villa, Eco Friendly Interior Design transformation The Villa, Eco Friendly Interior Design renovation The Villa, Eco Friendly Interior Design makeover The Villa, Best Eco Friendly Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior Design in The Villa. Best eco friendly interior design The Villa Company The Villa Our luxury eco friendly interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

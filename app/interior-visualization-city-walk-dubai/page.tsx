@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization City Walk, Interior Visualization in City Walk, Best interior visualization City Walk, Professional interior visualization City Walk, Luxury interior visualization City Walk, Interior Visualization City Walk Dubai, Interior Visualization designer City Walk, Interior Visualization company City Walk, Interior Visualization contractor City Walk, Affordable interior visualization City Walk, Modern interior visualization City Walk, Interior Visualization consultation City Walk, Interior Visualization cost City Walk, Interior Visualization price City Walk, Top interior visualization City Walk
+
+// SEO Keywords: Interior Visualization City Walk, Interior Visualization in City Walk, Best interior visualization City Walk, Professional interior visualization City Walk, Luxury interior visualization City Walk, Interior Visualization City Walk Dubai, Interior Visualization designer City Walk, Interior Visualization company City Walk, Interior Visualization contractor City Walk, Affordable interior visualization City Walk, Modern interior visualization City Walk, Interior Visualization consultation City Walk, Interior Visualization cost City Walk, Interior Visualization price City Walk, Top interior visualization City Walk, Interior Visualization near City Walk, Interior Visualization specialists City Walk, Interior Visualization experts City Walk, Interior Visualization solutions City Walk, Interior Visualization packages City Walk, Interior Visualization quotes City Walk, Interior Visualization estimates City Walk, Interior Visualization services near me City Walk, Cheap Interior Visualization City Walk, Quality Interior Visualization City Walk, Trusted Interior Visualization City Walk, Interior Visualization transformation City Walk, Interior Visualization renovation City Walk, Interior Visualization makeover City Walk, Best Interior Visualization company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in City Walk. Best interior visualization City Walk Company City Walk Our luxury interior visualization city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

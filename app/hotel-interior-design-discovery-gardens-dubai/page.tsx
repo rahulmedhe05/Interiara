@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Discovery Gardens, Hotel Interior Design in Discovery Gardens, Best hotel interior design Discovery Gardens, Professional hotel interior design Discovery Gardens, Luxury hotel interior design Discovery Gardens, Hotel Interior Design Discovery Gardens Dubai, Hotel Interior Design designer Discovery Gardens, Hotel Interior Design company Discovery Gardens, Hotel Interior Design contractor Discovery Gardens, Affordable hotel interior design Discovery Gardens, Modern hotel interior design Discovery Gardens, Hotel Interior Design consultation Discovery Gardens, Hotel Interior Design cost Discovery Gardens, Hotel Interior Design price Discovery Gardens, Top hotel interior design Discovery Gardens
+
+// SEO Keywords: Hotel Interior Design Discovery Gardens, Hotel Interior Design in Discovery Gardens, Best hotel interior design Discovery Gardens, Professional hotel interior design Discovery Gardens, Luxury hotel interior design Discovery Gardens, Hotel Interior Design Discovery Gardens Dubai, Hotel Interior Design designer Discovery Gardens, Hotel Interior Design company Discovery Gardens, Hotel Interior Design contractor Discovery Gardens, Affordable hotel interior design Discovery Gardens, Modern hotel interior design Discovery Gardens, Hotel Interior Design consultation Discovery Gardens, Hotel Interior Design cost Discovery Gardens, Hotel Interior Design price Discovery Gardens, Top hotel interior design Discovery Gardens, Hotel Interior Design near Discovery Gardens, Hotel Interior Design specialists Discovery Gardens, Hotel Interior Design experts Discovery Gardens, Hotel Interior Design solutions Discovery Gardens, Hotel Interior Design packages Discovery Gardens, Hotel Interior Design quotes Discovery Gardens, Hotel Interior Design estimates Discovery Gardens, Hotel Interior Design services near me Discovery Gardens, Cheap Hotel Interior Design Discovery Gardens, Quality Hotel Interior Design Discovery Gardens, Trusted Hotel Interior Design Discovery Gardens, Hotel Interior Design transformation Discovery Gardens, Hotel Interior Design renovation Discovery Gardens, Hotel Interior Design makeover Discovery Gardens, Best Hotel Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in Discovery Gardens. Best hotel interior design Discovery Gardens Company Discovery Gardens Our luxury hotel interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

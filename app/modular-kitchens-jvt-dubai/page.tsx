@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Jvt, Modular in Kitchens Jvt, Best modular Kitchens Jvt, Professional modular Kitchens Jvt, Luxury modular Kitchens Jvt, Modular Kitchens Jvt Dubai, Modular designer Kitchens Jvt, Modular company Kitchens Jvt, Modular contractor Kitchens Jvt, Affordable modular Kitchens Jvt, Modern modular Kitchens Jvt, Modular consultation Kitchens Jvt, Modular cost Kitchens Jvt, Modular price Kitchens Jvt, Top modular Kitchens Jvt
+
+// SEO Keywords: Modular Kitchens Jvt, Modular in Kitchens Jvt, Best modular Kitchens Jvt, Professional modular Kitchens Jvt, Luxury modular Kitchens Jvt, Modular Kitchens Jvt Dubai, Modular designer Kitchens Jvt, Modular company Kitchens Jvt, Modular contractor Kitchens Jvt, Affordable modular Kitchens Jvt, Modern modular Kitchens Jvt, Modular consultation Kitchens Jvt, Modular cost Kitchens Jvt, Modular price Kitchens Jvt, Top modular Kitchens Jvt, Modular near Kitchens Jvt, Modular specialists Kitchens Jvt, Modular experts Kitchens Jvt, Modular solutions Kitchens Jvt, Modular packages Kitchens Jvt, Modular quotes Kitchens Jvt, Modular estimates Kitchens Jvt, Modular services near me Kitchens Jvt, Cheap Modular Kitchens Jvt, Quality Modular Kitchens Jvt, Trusted Modular Kitchens Jvt, Modular transformation Kitchens Jvt, Modular renovation Kitchens Jvt, Modular makeover Kitchens Jvt, Best Modular company Kitchens Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensJvt() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular in Kitchens Jvt. Modular Kitchens Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular in kitchens jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular near kitchens jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

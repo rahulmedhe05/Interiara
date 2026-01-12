@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design City Walk, Eco Friendly Interior Design in City Walk, Best eco friendly interior design City Walk, Professional eco friendly interior design City Walk, Luxury eco friendly interior design City Walk, Eco Friendly Interior Design City Walk Dubai, Eco Friendly Interior Design designer City Walk, Eco Friendly Interior Design company City Walk, Eco Friendly Interior Design contractor City Walk, Affordable eco friendly interior design City Walk, Modern eco friendly interior design City Walk, Eco Friendly Interior Design consultation City Walk, Eco Friendly Interior Design cost City Walk, Eco Friendly Interior Design price City Walk, Top eco friendly interior design City Walk
+
+// SEO Keywords: Eco Friendly Interior Design City Walk, Eco Friendly Interior Design in City Walk, Best eco friendly interior design City Walk, Professional eco friendly interior design City Walk, Luxury eco friendly interior design City Walk, Eco Friendly Interior Design City Walk Dubai, Eco Friendly Interior Design designer City Walk, Eco Friendly Interior Design company City Walk, Eco Friendly Interior Design contractor City Walk, Affordable eco friendly interior design City Walk, Modern eco friendly interior design City Walk, Eco Friendly Interior Design consultation City Walk, Eco Friendly Interior Design cost City Walk, Eco Friendly Interior Design price City Walk, Top eco friendly interior design City Walk, Eco Friendly Interior Design near City Walk, Eco Friendly Interior Design specialists City Walk, Eco Friendly Interior Design experts City Walk, Eco Friendly Interior Design solutions City Walk, Eco Friendly Interior Design packages City Walk, Eco Friendly Interior Design quotes City Walk, Eco Friendly Interior Design estimates City Walk, Eco Friendly Interior Design services near me City Walk, Cheap Eco Friendly Interior Design City Walk, Quality Eco Friendly Interior Design City Walk, Trusted Eco Friendly Interior Design City Walk, Eco Friendly Interior Design transformation City Walk, Eco Friendly Interior Design renovation City Walk, Eco Friendly Interior Design makeover City Walk, Best Eco Friendly Interior Design company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior design City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior Design in City Walk. Best eco friendly interior design City Walk Company City Walk Our luxury eco friendly interior design city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior design in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior design near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

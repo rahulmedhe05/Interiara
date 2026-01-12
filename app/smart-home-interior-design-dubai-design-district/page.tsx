@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design, Smart Home in Interior Design, Best smart home Interior Design, Professional smart home Interior Design, Luxury smart home Interior Design, Smart Home Interior Design Dubai, Smart Home designer Interior Design, Smart Home company Interior Design, Smart Home contractor Interior Design, Affordable smart home Interior Design, Modern smart home Interior Design, Smart Home consultation Interior Design, Smart Home cost Interior Design, Smart Home price Interior Design, Top smart home Interior Design
+
+// SEO Keywords: Smart Home Interior Design, Smart Home in Interior Design, Best smart home Interior Design, Professional smart home Interior Design, Luxury smart home Interior Design, Smart Home Interior Design Dubai, Smart Home designer Interior Design, Smart Home company Interior Design, Smart Home contractor Interior Design, Affordable smart home Interior Design, Modern smart home Interior Design, Smart Home consultation Interior Design, Smart Home cost Interior Design, Smart Home price Interior Design, Top smart home Interior Design, Smart Home near Interior Design, Smart Home specialists Interior Design, Smart Home experts Interior Design, Smart Home solutions Interior Design, Smart Home packages Interior Design, Smart Home quotes Interior Design, Smart Home estimates Interior Design, Smart Home services near me Interior Design, Cheap Smart Home Interior Design, Quality Smart Home Interior Design, Trusted Smart Home Interior Design, Smart Home transformation Interior Design, Smart Home renovation Interior Design, Smart Home makeover Interior Design, Best Smart Home company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home in Interior Design. Best smart home Interior Design Company Interior Design Our luxury smart home interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded District Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

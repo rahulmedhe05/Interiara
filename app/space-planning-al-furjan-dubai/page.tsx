@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Al Furjan, Space Planning in Al Furjan, Best space planning Al Furjan, Professional space planning Al Furjan, Luxury space planning Al Furjan, Space Planning Al Furjan Dubai, Space Planning designer Al Furjan, Space Planning company Al Furjan, Space Planning contractor Al Furjan, Affordable space planning Al Furjan, Modern space planning Al Furjan, Space Planning consultation Al Furjan, Space Planning cost Al Furjan, Space Planning price Al Furjan, Top space planning Al Furjan
+
+// SEO Keywords: Space Planning Al Furjan, Space Planning in Al Furjan, Best space planning Al Furjan, Professional space planning Al Furjan, Luxury space planning Al Furjan, Space Planning Al Furjan Dubai, Space Planning designer Al Furjan, Space Planning company Al Furjan, Space Planning contractor Al Furjan, Affordable space planning Al Furjan, Modern space planning Al Furjan, Space Planning consultation Al Furjan, Space Planning cost Al Furjan, Space Planning price Al Furjan, Top space planning Al Furjan, Space Planning near Al Furjan, Space Planning specialists Al Furjan, Space Planning experts Al Furjan, Space Planning solutions Al Furjan, Space Planning packages Al Furjan, Space Planning quotes Al Furjan, Space Planning estimates Al Furjan, Space Planning services near me Al Furjan, Cheap Space Planning Al Furjan, Quality Space Planning Al Furjan, Trusted Space Planning Al Furjan, Space Planning transformation Al Furjan, Space Planning renovation Al Furjan, Space Planning makeover Al Furjan, Best Space Planning company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Space Planning Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

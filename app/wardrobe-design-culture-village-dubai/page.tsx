@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Culture Village, Wardrobe Design in Culture Village, Best wardrobe design Culture Village, Professional wardrobe design Culture Village, Luxury wardrobe design Culture Village, Wardrobe Design Culture Village Dubai, Wardrobe Design designer Culture Village, Wardrobe Design company Culture Village, Wardrobe Design contractor Culture Village, Affordable wardrobe design Culture Village, Modern wardrobe design Culture Village, Wardrobe Design consultation Culture Village, Wardrobe Design cost Culture Village, Wardrobe Design price Culture Village, Top wardrobe design Culture Village
+
+// SEO Keywords: Wardrobe Design Culture Village, Wardrobe Design in Culture Village, Best wardrobe design Culture Village, Professional wardrobe design Culture Village, Luxury wardrobe design Culture Village, Wardrobe Design Culture Village Dubai, Wardrobe Design designer Culture Village, Wardrobe Design company Culture Village, Wardrobe Design contractor Culture Village, Affordable wardrobe design Culture Village, Modern wardrobe design Culture Village, Wardrobe Design consultation Culture Village, Wardrobe Design cost Culture Village, Wardrobe Design price Culture Village, Top wardrobe design Culture Village, Wardrobe Design near Culture Village, Wardrobe Design specialists Culture Village, Wardrobe Design experts Culture Village, Wardrobe Design solutions Culture Village, Wardrobe Design packages Culture Village, Wardrobe Design quotes Culture Village, Wardrobe Design estimates Culture Village, Wardrobe Design services near me Culture Village, Cheap Wardrobe Design Culture Village, Quality Wardrobe Design Culture Village, Trusted Wardrobe Design Culture Village, Wardrobe Design transformation Culture Village, Wardrobe Design renovation Culture Village, Wardrobe Design makeover Culture Village, Best Wardrobe Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe Design in Culture Village. Best wardrobe design Culture Village Company Culture Village Our luxury wardrobe design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

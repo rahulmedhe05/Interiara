@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design Bur, Smart Home Interior in Design Bur, Best smart home interior Design Bur, Professional smart home interior Design Bur, Luxury smart home interior Design Bur, Smart Home Interior Design Bur Dubai, Smart Home Interior designer Design Bur, Smart Home Interior company Design Bur, Smart Home Interior contractor Design Bur, Affordable smart home interior Design Bur, Modern smart home interior Design Bur, Smart Home Interior consultation Design Bur, Smart Home Interior cost Design Bur, Smart Home Interior price Design Bur, Top smart home interior Design Bur
+
+// SEO Keywords: Smart Home Interior Design Bur, Smart Home Interior in Design Bur, Best smart home interior Design Bur, Professional smart home interior Design Bur, Luxury smart home interior Design Bur, Smart Home Interior Design Bur Dubai, Smart Home Interior designer Design Bur, Smart Home Interior company Design Bur, Smart Home Interior contractor Design Bur, Affordable smart home interior Design Bur, Modern smart home interior Design Bur, Smart Home Interior consultation Design Bur, Smart Home Interior cost Design Bur, Smart Home Interior price Design Bur, Top smart home interior Design Bur, Smart Home Interior near Design Bur, Smart Home Interior specialists Design Bur, Smart Home Interior experts Design Bur, Smart Home Interior solutions Design Bur, Smart Home Interior packages Design Bur, Smart Home Interior quotes Design Bur, Smart Home Interior estimates Design Bur, Smart Home Interior services near me Design Bur, Cheap Smart Home Interior Design Bur, Quality Smart Home Interior Design Bur, Trusted Smart Home Interior Design Bur, Smart Home Interior transformation Design Bur, Smart Home Interior renovation Design Bur, Smart Home Interior makeover Design Bur, Best Smart Home Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home Interior in Design Bur. Best smart home interior Design Bur Company Design Bur Our luxury smart home interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bathroom Interior Design Business Bay, Bathroom Interior Design in Business Bay, Best bathroom interior design Business Bay, Professional bathroom interior design Business Bay, Luxury bathroom interior design Business Bay, Bathroom Interior Design Business Bay Dubai, Bathroom Interior Design designer Business Bay, Bathroom Interior Design company Business Bay, Bathroom Interior Design contractor Business Bay, Affordable bathroom interior design Business Bay, Modern bathroom interior design Business Bay, Bathroom Interior Design consultation Business Bay, Bathroom Interior Design cost Business Bay, Bathroom Interior Design price Business Bay, Top bathroom interior design Business Bay
+
+// SEO Keywords: Bathroom Interior Design Business Bay, Bathroom Interior Design in Business Bay, Best bathroom interior design Business Bay, Professional bathroom interior design Business Bay, Luxury bathroom interior design Business Bay, Bathroom Interior Design Business Bay Dubai, Bathroom Interior Design designer Business Bay, Bathroom Interior Design company Business Bay, Bathroom Interior Design contractor Business Bay, Affordable bathroom interior design Business Bay, Modern bathroom interior design Business Bay, Bathroom Interior Design consultation Business Bay, Bathroom Interior Design cost Business Bay, Bathroom Interior Design price Business Bay, Top bathroom interior design Business Bay, Bathroom Interior Design near Business Bay, Bathroom Interior Design specialists Business Bay, Bathroom Interior Design experts Business Bay, Bathroom Interior Design solutions Business Bay, Bathroom Interior Design packages Business Bay, Bathroom Interior Design quotes Business Bay, Bathroom Interior Design estimates Business Bay, Bathroom Interior Design services near me Business Bay, Cheap Bathroom Interior Design Business Bay, Quality Bathroom Interior Design Business Bay, Trusted Bathroom Interior Design Business Bay, Bathroom Interior Design transformation Business Bay, Bathroom Interior Design renovation Business Bay, Bathroom Interior Design makeover Business Bay, Best Bathroom Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BathroomInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bathroom Interior Design in Business Bay. Best bathroom interior design Business Bay Company Business Bay Our luxury bathroom interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BathroomInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bathroom interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BathroomInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bathroom interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BathroomInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

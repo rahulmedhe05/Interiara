@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Business Bay, Custom Furniture Design in Business Bay, Best custom furniture design Business Bay, Professional custom furniture design Business Bay, Luxury custom furniture design Business Bay, Custom Furniture Design Business Bay Dubai, Custom Furniture Design designer Business Bay, Custom Furniture Design company Business Bay, Custom Furniture Design contractor Business Bay, Affordable custom furniture design Business Bay, Modern custom furniture design Business Bay, Custom Furniture Design consultation Business Bay, Custom Furniture Design cost Business Bay, Custom Furniture Design price Business Bay, Top custom furniture design Business Bay
+
+// SEO Keywords: Custom Furniture Design Business Bay, Custom Furniture Design in Business Bay, Best custom furniture design Business Bay, Professional custom furniture design Business Bay, Luxury custom furniture design Business Bay, Custom Furniture Design Business Bay Dubai, Custom Furniture Design designer Business Bay, Custom Furniture Design company Business Bay, Custom Furniture Design contractor Business Bay, Affordable custom furniture design Business Bay, Modern custom furniture design Business Bay, Custom Furniture Design consultation Business Bay, Custom Furniture Design cost Business Bay, Custom Furniture Design price Business Bay, Top custom furniture design Business Bay, Custom Furniture Design near Business Bay, Custom Furniture Design specialists Business Bay, Custom Furniture Design experts Business Bay, Custom Furniture Design solutions Business Bay, Custom Furniture Design packages Business Bay, Custom Furniture Design quotes Business Bay, Custom Furniture Design estimates Business Bay, Custom Furniture Design services near me Business Bay, Cheap Custom Furniture Design Business Bay, Quality Custom Furniture Design Business Bay, Trusted Custom Furniture Design Business Bay, Custom Furniture Design transformation Business Bay, Custom Furniture Design renovation Business Bay, Custom Furniture Design makeover Business Bay, Best Custom Furniture Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Business Bay. Best custom furniture design Business Bay Company Business Bay Our luxury custom furniture design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

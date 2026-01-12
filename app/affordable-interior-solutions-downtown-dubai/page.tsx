@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Downtown, Affordable Interior in Solutions Downtown, Best affordable interior Solutions Downtown, Professional affordable interior Solutions Downtown, Luxury affordable interior Solutions Downtown, Affordable Interior Solutions Downtown Dubai, Affordable Interior designer Solutions Downtown, Affordable Interior company Solutions Downtown, Affordable Interior contractor Solutions Downtown, Affordable affordable interior Solutions Downtown, Modern affordable interior Solutions Downtown, Affordable Interior consultation Solutions Downtown, Affordable Interior cost Solutions Downtown, Affordable Interior price Solutions Downtown, Top affordable interior Solutions Downtown
+
+// SEO Keywords: Affordable Interior Solutions Downtown, Affordable Interior in Solutions Downtown, Best affordable interior Solutions Downtown, Professional affordable interior Solutions Downtown, Luxury affordable interior Solutions Downtown, Affordable Interior Solutions Downtown Dubai, Affordable Interior designer Solutions Downtown, Affordable Interior company Solutions Downtown, Affordable Interior contractor Solutions Downtown, Affordable affordable interior Solutions Downtown, Modern affordable interior Solutions Downtown, Affordable Interior consultation Solutions Downtown, Affordable Interior cost Solutions Downtown, Affordable Interior price Solutions Downtown, Top affordable interior Solutions Downtown, Affordable Interior near Solutions Downtown, Affordable Interior specialists Solutions Downtown, Affordable Interior experts Solutions Downtown, Affordable Interior solutions Solutions Downtown, Affordable Interior packages Solutions Downtown, Affordable Interior quotes Solutions Downtown, Affordable Interior estimates Solutions Downtown, Affordable Interior services near me Solutions Downtown, Cheap Affordable Interior Solutions Downtown, Quality Affordable Interior Solutions Downtown, Trusted Affordable Interior Solutions Downtown, Affordable Interior transformation Solutions Downtown, Affordable Interior renovation Solutions Downtown, Affordable Interior makeover Solutions Downtown, Best Affordable Interior company Solutions Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Downtown Company Solutions Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior in Solutions Downtown. Best affordable interior Solutions Downtown Company Solutions Downtown Our luxury affordable interior solutions downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior in solutions downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior near solutions downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

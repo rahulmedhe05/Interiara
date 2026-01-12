@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Palm Jumeirah, Drapes in Palm Jumeirah, Best drapes Palm Jumeirah, Professional drapes Palm Jumeirah, Luxury drapes Palm Jumeirah, Drapes Palm Jumeirah Dubai, Drapes designer Palm Jumeirah, Drapes company Palm Jumeirah, Drapes contractor Palm Jumeirah, Affordable drapes Palm Jumeirah, Modern drapes Palm Jumeirah, Drapes consultation Palm Jumeirah, Drapes cost Palm Jumeirah, Drapes price Palm Jumeirah, Top drapes Palm Jumeirah
+
+// SEO Keywords: Drapes Palm Jumeirah, Drapes in Palm Jumeirah, Best drapes Palm Jumeirah, Professional drapes Palm Jumeirah, Luxury drapes Palm Jumeirah, Drapes Palm Jumeirah Dubai, Drapes designer Palm Jumeirah, Drapes company Palm Jumeirah, Drapes contractor Palm Jumeirah, Affordable drapes Palm Jumeirah, Modern drapes Palm Jumeirah, Drapes consultation Palm Jumeirah, Drapes cost Palm Jumeirah, Drapes price Palm Jumeirah, Top drapes Palm Jumeirah, Drapes near Palm Jumeirah, Drapes specialists Palm Jumeirah, Drapes experts Palm Jumeirah, Drapes solutions Palm Jumeirah, Drapes packages Palm Jumeirah, Drapes quotes Palm Jumeirah, Drapes estimates Palm Jumeirah, Drapes services near me Palm Jumeirah, Cheap Drapes Palm Jumeirah, Quality Drapes Palm Jumeirah, Trusted Drapes Palm Jumeirah, Drapes transformation Palm Jumeirah, Drapes renovation Palm Jumeirah, Drapes makeover Palm Jumeirah, Best Drapes company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesPalmJumeirah() {
                 At Interiara, we believe that exceptional <strong>Drapes Palm Jumeirah Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jumeirah Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Palm Jumeirah. 
                 We've completed 300+ successful projects across Jumeirah Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Palm Jumeirah Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes palm jumeirah services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Palm Jumeirah Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in palm jumeirah service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near palm jumeirah.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

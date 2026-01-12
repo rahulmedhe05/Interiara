@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Nad Al Sheba, Wallpaper Design Nad in Al Sheba, Best wallpaper design nad Al Sheba, Professional wallpaper design nad Al Sheba, Luxury wallpaper design nad Al Sheba, Wallpaper Design Nad Al Sheba Dubai, Wallpaper Design Nad designer Al Sheba, Wallpaper Design Nad company Al Sheba, Wallpaper Design Nad contractor Al Sheba, Affordable wallpaper design nad Al Sheba, Modern wallpaper design nad Al Sheba, Wallpaper Design Nad consultation Al Sheba, Wallpaper Design Nad cost Al Sheba, Wallpaper Design Nad price Al Sheba, Top wallpaper design nad Al Sheba
+
+// SEO Keywords: Wallpaper Design Nad Al Sheba, Wallpaper Design Nad in Al Sheba, Best wallpaper design nad Al Sheba, Professional wallpaper design nad Al Sheba, Luxury wallpaper design nad Al Sheba, Wallpaper Design Nad Al Sheba Dubai, Wallpaper Design Nad designer Al Sheba, Wallpaper Design Nad company Al Sheba, Wallpaper Design Nad contractor Al Sheba, Affordable wallpaper design nad Al Sheba, Modern wallpaper design nad Al Sheba, Wallpaper Design Nad consultation Al Sheba, Wallpaper Design Nad cost Al Sheba, Wallpaper Design Nad price Al Sheba, Top wallpaper design nad Al Sheba, Wallpaper Design Nad near Al Sheba, Wallpaper Design Nad specialists Al Sheba, Wallpaper Design Nad experts Al Sheba, Wallpaper Design Nad solutions Al Sheba, Wallpaper Design Nad packages Al Sheba, Wallpaper Design Nad quotes Al Sheba, Wallpaper Design Nad estimates Al Sheba, Wallpaper Design Nad services near me Al Sheba, Cheap Wallpaper Design Nad Al Sheba, Quality Wallpaper Design Nad Al Sheba, Trusted Wallpaper Design Nad Al Sheba, Wallpaper Design Nad transformation Al Sheba, Wallpaper Design Nad renovation Al Sheba, Wallpaper Design Nad makeover Al Sheba, Best Wallpaper Design Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallpaperDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wallpaper Design Nad in Al Sheba. Best wallpaper design nad Al Sheba Company Al Sheba Our luxury wallpaper design nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallpaperDesignNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wallpaper design nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallpaperDesignNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wallpaper design nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallpaperDesignNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

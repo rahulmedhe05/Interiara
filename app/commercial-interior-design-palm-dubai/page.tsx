@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Palm, Commercial Interior in Design Palm, Best commercial interior Design Palm, Professional commercial interior Design Palm, Luxury commercial interior Design Palm, Commercial Interior Design Palm Dubai, Commercial Interior designer Design Palm, Commercial Interior company Design Palm, Commercial Interior contractor Design Palm, Affordable commercial interior Design Palm, Modern commercial interior Design Palm, Commercial Interior consultation Design Palm, Commercial Interior cost Design Palm, Commercial Interior price Design Palm, Top commercial interior Design Palm
+
+// SEO Keywords: Commercial Interior Design Palm, Commercial Interior in Design Palm, Best commercial interior Design Palm, Professional commercial interior Design Palm, Luxury commercial interior Design Palm, Commercial Interior Design Palm Dubai, Commercial Interior designer Design Palm, Commercial Interior company Design Palm, Commercial Interior contractor Design Palm, Affordable commercial interior Design Palm, Modern commercial interior Design Palm, Commercial Interior consultation Design Palm, Commercial Interior cost Design Palm, Commercial Interior price Design Palm, Top commercial interior Design Palm, Commercial Interior near Design Palm, Commercial Interior specialists Design Palm, Commercial Interior experts Design Palm, Commercial Interior solutions Design Palm, Commercial Interior packages Design Palm, Commercial Interior quotes Design Palm, Commercial Interior estimates Design Palm, Commercial Interior services near me Design Palm, Cheap Commercial Interior Design Palm, Quality Commercial Interior Design Palm, Trusted Commercial Interior Design Palm, Commercial Interior transformation Design Palm, Commercial Interior renovation Design Palm, Commercial Interior makeover Design Palm, Best Commercial Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior in Design Palm. Best commercial interior Design Palm Company Design Palm Our luxury commercial interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

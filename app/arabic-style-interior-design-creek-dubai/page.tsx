@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Arabic Style Interior Design Creek, Arabic Style Interior in Design Creek, Best arabic style interior Design Creek, Professional arabic style interior Design Creek, Luxury arabic style interior Design Creek, Arabic Style Interior Design Creek Dubai, Arabic Style Interior designer Design Creek, Arabic Style Interior company Design Creek, Arabic Style Interior contractor Design Creek, Affordable arabic style interior Design Creek, Modern arabic style interior Design Creek, Arabic Style Interior consultation Design Creek, Arabic Style Interior cost Design Creek, Arabic Style Interior price Design Creek, Top arabic style interior Design Creek
+
+// SEO Keywords: Arabic Style Interior Design Creek, Arabic Style Interior in Design Creek, Best arabic style interior Design Creek, Professional arabic style interior Design Creek, Luxury arabic style interior Design Creek, Arabic Style Interior Design Creek Dubai, Arabic Style Interior designer Design Creek, Arabic Style Interior company Design Creek, Arabic Style Interior contractor Design Creek, Affordable arabic style interior Design Creek, Modern arabic style interior Design Creek, Arabic Style Interior consultation Design Creek, Arabic Style Interior cost Design Creek, Arabic Style Interior price Design Creek, Top arabic style interior Design Creek, Arabic Style Interior near Design Creek, Arabic Style Interior specialists Design Creek, Arabic Style Interior experts Design Creek, Arabic Style Interior solutions Design Creek, Arabic Style Interior packages Design Creek, Arabic Style Interior quotes Design Creek, Arabic Style Interior estimates Design Creek, Arabic Style Interior services near me Design Creek, Cheap Arabic Style Interior Design Creek, Quality Arabic Style Interior Design Creek, Trusted Arabic Style Interior Design Creek, Arabic Style Interior transformation Design Creek, Arabic Style Interior renovation Design Creek, Arabic Style Interior makeover Design Creek, Best Arabic Style Interior company Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArabicStyleInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior Design Creek Company Design Creek</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Arabic Style Interior in Design Creek. Best arabic style interior Design Creek Company Design Creek Our professional arabic style interior design creek services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ArabicStyleInteriorDesignCreek() {
                 At Interiara, we believe that exceptional <strong>Arabic Style Interior Design Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Arabic Style Interior Design Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Arabic Style Interior Design Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ArabicStyleInteriorDesignCreek() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our arabic style interior in design creek service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArabicStyleInteriorDesignCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in arabic style interior near design creek.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArabicStyleInteriorDesignCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

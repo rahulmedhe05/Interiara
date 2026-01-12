@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Business Bay South, Salon Interior Design Business in Bay South, Best salon interior design business Bay South, Professional salon interior design business Bay South, Luxury salon interior design business Bay South, Salon Interior Design Business Bay South Dubai, Salon Interior Design Business designer Bay South, Salon Interior Design Business company Bay South, Salon Interior Design Business contractor Bay South, Affordable salon interior design business Bay South, Modern salon interior design business Bay South, Salon Interior Design Business consultation Bay South, Salon Interior Design Business cost Bay South, Salon Interior Design Business price Bay South, Top salon interior design business Bay South
+
+// SEO Keywords: Salon Interior Design Business Bay South, Salon Interior Design Business in Bay South, Best salon interior design business Bay South, Professional salon interior design business Bay South, Luxury salon interior design business Bay South, Salon Interior Design Business Bay South Dubai, Salon Interior Design Business designer Bay South, Salon Interior Design Business company Bay South, Salon Interior Design Business contractor Bay South, Affordable salon interior design business Bay South, Modern salon interior design business Bay South, Salon Interior Design Business consultation Bay South, Salon Interior Design Business cost Bay South, Salon Interior Design Business price Bay South, Top salon interior design business Bay South, Salon Interior Design Business near Bay South, Salon Interior Design Business specialists Bay South, Salon Interior Design Business experts Bay South, Salon Interior Design Business solutions Bay South, Salon Interior Design Business packages Bay South, Salon Interior Design Business quotes Bay South, Salon Interior Design Business estimates Bay South, Salon Interior Design Business services near me Bay South, Cheap Salon Interior Design Business Bay South, Quality Salon Interior Design Business Bay South, Trusted Salon Interior Design Business Bay South, Salon Interior Design Business transformation Bay South, Salon Interior Design Business renovation Bay South, Salon Interior Design Business makeover Bay South, Best Salon Interior Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SalonInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Salon Interior Design Business in Bay South. Best salon interior design business Bay South Company Bay South Our luxury salon interior design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SalonInteriorDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our salon interior design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SalonInteriorDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in salon interior design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

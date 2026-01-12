@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design Al Furjan, Bespoke Furniture Design in Al Furjan, Best bespoke furniture design Al Furjan, Professional bespoke furniture design Al Furjan, Luxury bespoke furniture design Al Furjan, Bespoke Furniture Design Al Furjan Dubai, Bespoke Furniture Design designer Al Furjan, Bespoke Furniture Design company Al Furjan, Bespoke Furniture Design contractor Al Furjan, Affordable bespoke furniture design Al Furjan, Modern bespoke furniture design Al Furjan, Bespoke Furniture Design consultation Al Furjan, Bespoke Furniture Design cost Al Furjan, Bespoke Furniture Design price Al Furjan, Top bespoke furniture design Al Furjan
+
+// SEO Keywords: Bespoke Furniture Design Al Furjan, Bespoke Furniture Design in Al Furjan, Best bespoke furniture design Al Furjan, Professional bespoke furniture design Al Furjan, Luxury bespoke furniture design Al Furjan, Bespoke Furniture Design Al Furjan Dubai, Bespoke Furniture Design designer Al Furjan, Bespoke Furniture Design company Al Furjan, Bespoke Furniture Design contractor Al Furjan, Affordable bespoke furniture design Al Furjan, Modern bespoke furniture design Al Furjan, Bespoke Furniture Design consultation Al Furjan, Bespoke Furniture Design cost Al Furjan, Bespoke Furniture Design price Al Furjan, Top bespoke furniture design Al Furjan, Bespoke Furniture Design near Al Furjan, Bespoke Furniture Design specialists Al Furjan, Bespoke Furniture Design experts Al Furjan, Bespoke Furniture Design solutions Al Furjan, Bespoke Furniture Design packages Al Furjan, Bespoke Furniture Design quotes Al Furjan, Bespoke Furniture Design estimates Al Furjan, Bespoke Furniture Design services near me Al Furjan, Cheap Bespoke Furniture Design Al Furjan, Quality Bespoke Furniture Design Al Furjan, Trusted Bespoke Furniture Design Al Furjan, Bespoke Furniture Design transformation Al Furjan, Bespoke Furniture Design renovation Al Furjan, Bespoke Furniture Design makeover Al Furjan, Best Bespoke Furniture Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture Design in Al Furjan. Best bespoke furniture design Al Furjan Company Al Furjan Our luxury bespoke furniture design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

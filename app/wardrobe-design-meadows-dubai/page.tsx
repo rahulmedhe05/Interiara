@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Meadows, Wardrobe in Design Meadows, Best wardrobe Design Meadows, Professional wardrobe Design Meadows, Luxury wardrobe Design Meadows, Wardrobe Design Meadows Dubai, Wardrobe designer Design Meadows, Wardrobe company Design Meadows, Wardrobe contractor Design Meadows, Affordable wardrobe Design Meadows, Modern wardrobe Design Meadows, Wardrobe consultation Design Meadows, Wardrobe cost Design Meadows, Wardrobe price Design Meadows, Top wardrobe Design Meadows
+
+// SEO Keywords: Wardrobe Design Meadows, Wardrobe in Design Meadows, Best wardrobe Design Meadows, Professional wardrobe Design Meadows, Luxury wardrobe Design Meadows, Wardrobe Design Meadows Dubai, Wardrobe designer Design Meadows, Wardrobe company Design Meadows, Wardrobe contractor Design Meadows, Affordable wardrobe Design Meadows, Modern wardrobe Design Meadows, Wardrobe consultation Design Meadows, Wardrobe cost Design Meadows, Wardrobe price Design Meadows, Top wardrobe Design Meadows, Wardrobe near Design Meadows, Wardrobe specialists Design Meadows, Wardrobe experts Design Meadows, Wardrobe solutions Design Meadows, Wardrobe packages Design Meadows, Wardrobe quotes Design Meadows, Wardrobe estimates Design Meadows, Wardrobe services near me Design Meadows, Cheap Wardrobe Design Meadows, Quality Wardrobe Design Meadows, Trusted Wardrobe Design Meadows, Wardrobe transformation Design Meadows, Wardrobe renovation Design Meadows, Wardrobe makeover Design Meadows, Best Wardrobe company Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe Design Meadows Company Design Meadows</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe in Design Meadows. Best wardrobe Design Meadows Company Design Meadows Our professional wardrobe design meadows services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function WardrobeDesignMeadows() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design The Meadows Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Meadows Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design Meadows. 
                 We've completed 300+ successful projects across The Meadows Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design The Meadows Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function WardrobeDesignMeadows() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe in design meadows service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignMeadows() {
 
               <p>
                 Interiara stands out in the crowded The Meadows Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe near design meadows.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignMeadows() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

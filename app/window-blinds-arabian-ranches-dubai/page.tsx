@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Arabian Ranches, Window Blinds in Arabian Ranches, Best window blinds Arabian Ranches, Professional window blinds Arabian Ranches, Luxury window blinds Arabian Ranches, Window Blinds Arabian Ranches Dubai, Window Blinds designer Arabian Ranches, Window Blinds company Arabian Ranches, Window Blinds contractor Arabian Ranches, Affordable window blinds Arabian Ranches, Modern window blinds Arabian Ranches, Window Blinds consultation Arabian Ranches, Window Blinds cost Arabian Ranches, Window Blinds price Arabian Ranches, Top window blinds Arabian Ranches
+
+// SEO Keywords: Window Blinds Arabian Ranches, Window Blinds in Arabian Ranches, Best window blinds Arabian Ranches, Professional window blinds Arabian Ranches, Luxury window blinds Arabian Ranches, Window Blinds Arabian Ranches Dubai, Window Blinds designer Arabian Ranches, Window Blinds company Arabian Ranches, Window Blinds contractor Arabian Ranches, Affordable window blinds Arabian Ranches, Modern window blinds Arabian Ranches, Window Blinds consultation Arabian Ranches, Window Blinds cost Arabian Ranches, Window Blinds price Arabian Ranches, Top window blinds Arabian Ranches, Window Blinds near Arabian Ranches, Window Blinds specialists Arabian Ranches, Window Blinds experts Arabian Ranches, Window Blinds solutions Arabian Ranches, Window Blinds packages Arabian Ranches, Window Blinds quotes Arabian Ranches, Window Blinds estimates Arabian Ranches, Window Blinds services near me Arabian Ranches, Cheap Window Blinds Arabian Ranches, Quality Window Blinds Arabian Ranches, Trusted Window Blinds Arabian Ranches, Window Blinds transformation Arabian Ranches, Window Blinds renovation Arabian Ranches, Window Blinds makeover Arabian Ranches, Best Window Blinds company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Arabian Ranches. Best window blinds Arabian Ranches Company Arabian Ranches Our luxury window blinds arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

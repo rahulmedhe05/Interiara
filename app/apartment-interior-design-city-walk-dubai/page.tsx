@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design City Walk, Apartment Interior Design in City Walk, Best apartment interior design City Walk, Professional apartment interior design City Walk, Luxury apartment interior design City Walk, Apartment Interior Design City Walk Dubai, Apartment Interior Design designer City Walk, Apartment Interior Design company City Walk, Apartment Interior Design contractor City Walk, Affordable apartment interior design City Walk, Modern apartment interior design City Walk, Apartment Interior Design consultation City Walk, Apartment Interior Design cost City Walk, Apartment Interior Design price City Walk, Top apartment interior design City Walk
+
+// SEO Keywords: Apartment Interior Design City Walk, Apartment Interior Design in City Walk, Best apartment interior design City Walk, Professional apartment interior design City Walk, Luxury apartment interior design City Walk, Apartment Interior Design City Walk Dubai, Apartment Interior Design designer City Walk, Apartment Interior Design company City Walk, Apartment Interior Design contractor City Walk, Affordable apartment interior design City Walk, Modern apartment interior design City Walk, Apartment Interior Design consultation City Walk, Apartment Interior Design cost City Walk, Apartment Interior Design price City Walk, Top apartment interior design City Walk, Apartment Interior Design near City Walk, Apartment Interior Design specialists City Walk, Apartment Interior Design experts City Walk, Apartment Interior Design solutions City Walk, Apartment Interior Design packages City Walk, Apartment Interior Design quotes City Walk, Apartment Interior Design estimates City Walk, Apartment Interior Design services near me City Walk, Cheap Apartment Interior Design City Walk, Quality Apartment Interior Design City Walk, Trusted Apartment Interior Design City Walk, Apartment Interior Design transformation City Walk, Apartment Interior Design renovation City Walk, Apartment Interior Design makeover City Walk, Best Apartment Interior Design company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior Design in City Walk. Best apartment interior design City Walk Company City Walk Our luxury apartment interior design city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior design in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior design near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Muhaisnah, Wall Flooring in Design Muhaisnah, Best wall flooring Design Muhaisnah, Professional wall flooring Design Muhaisnah, Luxury wall flooring Design Muhaisnah, Wall Flooring Design Muhaisnah Dubai, Wall Flooring designer Design Muhaisnah, Wall Flooring company Design Muhaisnah, Wall Flooring contractor Design Muhaisnah, Affordable wall flooring Design Muhaisnah, Modern wall flooring Design Muhaisnah, Wall Flooring consultation Design Muhaisnah, Wall Flooring cost Design Muhaisnah, Wall Flooring price Design Muhaisnah, Top wall flooring Design Muhaisnah
+
+// SEO Keywords: Wall Flooring Design Muhaisnah, Wall Flooring in Design Muhaisnah, Best wall flooring Design Muhaisnah, Professional wall flooring Design Muhaisnah, Luxury wall flooring Design Muhaisnah, Wall Flooring Design Muhaisnah Dubai, Wall Flooring designer Design Muhaisnah, Wall Flooring company Design Muhaisnah, Wall Flooring contractor Design Muhaisnah, Affordable wall flooring Design Muhaisnah, Modern wall flooring Design Muhaisnah, Wall Flooring consultation Design Muhaisnah, Wall Flooring cost Design Muhaisnah, Wall Flooring price Design Muhaisnah, Top wall flooring Design Muhaisnah, Wall Flooring near Design Muhaisnah, Wall Flooring specialists Design Muhaisnah, Wall Flooring experts Design Muhaisnah, Wall Flooring solutions Design Muhaisnah, Wall Flooring packages Design Muhaisnah, Wall Flooring quotes Design Muhaisnah, Wall Flooring estimates Design Muhaisnah, Wall Flooring services near me Design Muhaisnah, Cheap Wall Flooring Design Muhaisnah, Quality Wall Flooring Design Muhaisnah, Trusted Wall Flooring Design Muhaisnah, Wall Flooring transformation Design Muhaisnah, Wall Flooring renovation Design Muhaisnah, Wall Flooring makeover Design Muhaisnah, Best Wall Flooring company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring in Design Muhaisnah. Best wall flooring Design Muhaisnah Company Design Muhaisnah Our luxury wall flooring design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

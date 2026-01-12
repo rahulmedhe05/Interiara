@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Al Jaddaf, Hotel Interior Design in Al Jaddaf, Best hotel interior design Al Jaddaf, Professional hotel interior design Al Jaddaf, Luxury hotel interior design Al Jaddaf, Hotel Interior Design Al Jaddaf Dubai, Hotel Interior Design designer Al Jaddaf, Hotel Interior Design company Al Jaddaf, Hotel Interior Design contractor Al Jaddaf, Affordable hotel interior design Al Jaddaf, Modern hotel interior design Al Jaddaf, Hotel Interior Design consultation Al Jaddaf, Hotel Interior Design cost Al Jaddaf, Hotel Interior Design price Al Jaddaf, Top hotel interior design Al Jaddaf
+
+// SEO Keywords: Hotel Interior Design Al Jaddaf, Hotel Interior Design in Al Jaddaf, Best hotel interior design Al Jaddaf, Professional hotel interior design Al Jaddaf, Luxury hotel interior design Al Jaddaf, Hotel Interior Design Al Jaddaf Dubai, Hotel Interior Design designer Al Jaddaf, Hotel Interior Design company Al Jaddaf, Hotel Interior Design contractor Al Jaddaf, Affordable hotel interior design Al Jaddaf, Modern hotel interior design Al Jaddaf, Hotel Interior Design consultation Al Jaddaf, Hotel Interior Design cost Al Jaddaf, Hotel Interior Design price Al Jaddaf, Top hotel interior design Al Jaddaf, Hotel Interior Design near Al Jaddaf, Hotel Interior Design specialists Al Jaddaf, Hotel Interior Design experts Al Jaddaf, Hotel Interior Design solutions Al Jaddaf, Hotel Interior Design packages Al Jaddaf, Hotel Interior Design quotes Al Jaddaf, Hotel Interior Design estimates Al Jaddaf, Hotel Interior Design services near me Al Jaddaf, Cheap Hotel Interior Design Al Jaddaf, Quality Hotel Interior Design Al Jaddaf, Trusted Hotel Interior Design Al Jaddaf, Hotel Interior Design transformation Al Jaddaf, Hotel Interior Design renovation Al Jaddaf, Hotel Interior Design makeover Al Jaddaf, Best Hotel Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in Al Jaddaf. Best hotel interior design Al Jaddaf Company Al Jaddaf Our luxury hotel interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

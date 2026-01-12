@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Lakes, Window in Curtains Lakes, Best window Curtains Lakes, Professional window Curtains Lakes, Luxury window Curtains Lakes, Window Curtains Lakes Dubai, Window designer Curtains Lakes, Window company Curtains Lakes, Window contractor Curtains Lakes, Affordable window Curtains Lakes, Modern window Curtains Lakes, Window consultation Curtains Lakes, Window cost Curtains Lakes, Window price Curtains Lakes, Top window Curtains Lakes
+
+// SEO Keywords: Window Curtains Lakes, Window in Curtains Lakes, Best window Curtains Lakes, Professional window Curtains Lakes, Luxury window Curtains Lakes, Window Curtains Lakes Dubai, Window designer Curtains Lakes, Window company Curtains Lakes, Window contractor Curtains Lakes, Affordable window Curtains Lakes, Modern window Curtains Lakes, Window consultation Curtains Lakes, Window cost Curtains Lakes, Window price Curtains Lakes, Top window Curtains Lakes, Window near Curtains Lakes, Window specialists Curtains Lakes, Window experts Curtains Lakes, Window solutions Curtains Lakes, Window packages Curtains Lakes, Window quotes Curtains Lakes, Window estimates Curtains Lakes, Window services near me Curtains Lakes, Cheap Window Curtains Lakes, Quality Window Curtains Lakes, Trusted Window Curtains Lakes, Window transformation Curtains Lakes, Window renovation Curtains Lakes, Window makeover Curtains Lakes, Best Window company Curtains Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsLakes() {
                 At Interiara, we believe that exceptional <strong>Window Curtains The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Curtains Lakes. Window Curtains Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional window curtains lakes services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains The Lakes Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in curtains lakes service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near curtains lakes.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

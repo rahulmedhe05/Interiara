@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Downtown, Wall in Coverings Downtown, Best wall Coverings Downtown, Professional wall Coverings Downtown, Luxury wall Coverings Downtown, Wall Coverings Downtown Dubai, Wall designer Coverings Downtown, Wall company Coverings Downtown, Wall contractor Coverings Downtown, Affordable wall Coverings Downtown, Modern wall Coverings Downtown, Wall consultation Coverings Downtown, Wall cost Coverings Downtown, Wall price Coverings Downtown, Top wall Coverings Downtown
+
+// SEO Keywords: Wall Coverings Downtown, Wall in Coverings Downtown, Best wall Coverings Downtown, Professional wall Coverings Downtown, Luxury wall Coverings Downtown, Wall Coverings Downtown Dubai, Wall designer Coverings Downtown, Wall company Coverings Downtown, Wall contractor Coverings Downtown, Affordable wall Coverings Downtown, Modern wall Coverings Downtown, Wall consultation Coverings Downtown, Wall cost Coverings Downtown, Wall price Coverings Downtown, Top wall Coverings Downtown, Wall near Coverings Downtown, Wall specialists Coverings Downtown, Wall experts Coverings Downtown, Wall solutions Coverings Downtown, Wall packages Coverings Downtown, Wall quotes Coverings Downtown, Wall estimates Coverings Downtown, Wall services near me Coverings Downtown, Cheap Wall Coverings Downtown, Quality Wall Coverings Downtown, Trusted Wall Coverings Downtown, Wall transformation Coverings Downtown, Wall renovation Coverings Downtown, Wall makeover Coverings Downtown, Best Wall company Coverings Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Coverings Downtown Company Coverings Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall in Coverings Downtown. Best wall Coverings Downtown Company Coverings Downtown Our luxury wall coverings downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall in coverings downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall near coverings downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

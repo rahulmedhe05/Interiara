@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings The Sustainable City, Wall Coverings The in Sustainable City, Best wall coverings the Sustainable City, Professional wall coverings the Sustainable City, Luxury wall coverings the Sustainable City, Wall Coverings The Sustainable City Dubai, Wall Coverings The designer Sustainable City, Wall Coverings The company Sustainable City, Wall Coverings The contractor Sustainable City, Affordable wall coverings the Sustainable City, Modern wall coverings the Sustainable City, Wall Coverings The consultation Sustainable City, Wall Coverings The cost Sustainable City, Wall Coverings The price Sustainable City, Top wall coverings the Sustainable City
+
+// SEO Keywords: Wall Coverings The Sustainable City, Wall Coverings The in Sustainable City, Best wall coverings the Sustainable City, Professional wall coverings the Sustainable City, Luxury wall coverings the Sustainable City, Wall Coverings The Sustainable City Dubai, Wall Coverings The designer Sustainable City, Wall Coverings The company Sustainable City, Wall Coverings The contractor Sustainable City, Affordable wall coverings the Sustainable City, Modern wall coverings the Sustainable City, Wall Coverings The consultation Sustainable City, Wall Coverings The cost Sustainable City, Wall Coverings The price Sustainable City, Top wall coverings the Sustainable City, Wall Coverings The near Sustainable City, Wall Coverings The specialists Sustainable City, Wall Coverings The experts Sustainable City, Wall Coverings The solutions Sustainable City, Wall Coverings The packages Sustainable City, Wall Coverings The quotes Sustainable City, Wall Coverings The estimates Sustainable City, Wall Coverings The services near me Sustainable City, Cheap Wall Coverings The Sustainable City, Quality Wall Coverings The Sustainable City, Trusted Wall Coverings The Sustainable City, Wall Coverings The transformation Sustainable City, Wall Coverings The renovation Sustainable City, Wall Coverings The makeover Sustainable City, Best Wall Coverings The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings The in Sustainable City. Best wall coverings the Sustainable City Company Sustainable City Our luxury wall coverings the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

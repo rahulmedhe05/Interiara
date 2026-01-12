@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Nad Al Sheba, Color Theme Consultation Nad in Al Sheba, Best color theme consultation nad Al Sheba, Professional color theme consultation nad Al Sheba, Luxury color theme consultation nad Al Sheba, Color Theme Consultation Nad Al Sheba Dubai, Color Theme Consultation Nad designer Al Sheba, Color Theme Consultation Nad company Al Sheba, Color Theme Consultation Nad contractor Al Sheba, Affordable color theme consultation nad Al Sheba, Modern color theme consultation nad Al Sheba, Color Theme Consultation Nad consultation Al Sheba, Color Theme Consultation Nad cost Al Sheba, Color Theme Consultation Nad price Al Sheba, Top color theme consultation nad Al Sheba
+
+// SEO Keywords: Color Theme Consultation Nad Al Sheba, Color Theme Consultation Nad in Al Sheba, Best color theme consultation nad Al Sheba, Professional color theme consultation nad Al Sheba, Luxury color theme consultation nad Al Sheba, Color Theme Consultation Nad Al Sheba Dubai, Color Theme Consultation Nad designer Al Sheba, Color Theme Consultation Nad company Al Sheba, Color Theme Consultation Nad contractor Al Sheba, Affordable color theme consultation nad Al Sheba, Modern color theme consultation nad Al Sheba, Color Theme Consultation Nad consultation Al Sheba, Color Theme Consultation Nad cost Al Sheba, Color Theme Consultation Nad price Al Sheba, Top color theme consultation nad Al Sheba, Color Theme Consultation Nad near Al Sheba, Color Theme Consultation Nad specialists Al Sheba, Color Theme Consultation Nad experts Al Sheba, Color Theme Consultation Nad solutions Al Sheba, Color Theme Consultation Nad packages Al Sheba, Color Theme Consultation Nad quotes Al Sheba, Color Theme Consultation Nad estimates Al Sheba, Color Theme Consultation Nad services near me Al Sheba, Cheap Color Theme Consultation Nad Al Sheba, Quality Color Theme Consultation Nad Al Sheba, Trusted Color Theme Consultation Nad Al Sheba, Color Theme Consultation Nad transformation Al Sheba, Color Theme Consultation Nad renovation Al Sheba, Color Theme Consultation Nad makeover Al Sheba, Best Color Theme Consultation Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation Nad in Al Sheba. Best color theme consultation nad Al Sheba Company Al Sheba Our luxury color theme consultation nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

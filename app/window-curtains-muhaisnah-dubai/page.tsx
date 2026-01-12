@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Muhaisnah, Window in Curtains Muhaisnah, Best window Curtains Muhaisnah, Professional window Curtains Muhaisnah, Luxury window Curtains Muhaisnah, Window Curtains Muhaisnah Dubai, Window designer Curtains Muhaisnah, Window company Curtains Muhaisnah, Window contractor Curtains Muhaisnah, Affordable window Curtains Muhaisnah, Modern window Curtains Muhaisnah, Window consultation Curtains Muhaisnah, Window cost Curtains Muhaisnah, Window price Curtains Muhaisnah, Top window Curtains Muhaisnah
+
+// SEO Keywords: Window Curtains Muhaisnah, Window in Curtains Muhaisnah, Best window Curtains Muhaisnah, Professional window Curtains Muhaisnah, Luxury window Curtains Muhaisnah, Window Curtains Muhaisnah Dubai, Window designer Curtains Muhaisnah, Window company Curtains Muhaisnah, Window contractor Curtains Muhaisnah, Affordable window Curtains Muhaisnah, Modern window Curtains Muhaisnah, Window consultation Curtains Muhaisnah, Window cost Curtains Muhaisnah, Window price Curtains Muhaisnah, Top window Curtains Muhaisnah, Window near Curtains Muhaisnah, Window specialists Curtains Muhaisnah, Window experts Curtains Muhaisnah, Window solutions Curtains Muhaisnah, Window packages Curtains Muhaisnah, Window quotes Curtains Muhaisnah, Window estimates Curtains Muhaisnah, Window services near me Curtains Muhaisnah, Cheap Window Curtains Muhaisnah, Quality Window Curtains Muhaisnah, Trusted Window Curtains Muhaisnah, Window transformation Curtains Muhaisnah, Window renovation Curtains Muhaisnah, Window makeover Curtains Muhaisnah, Best Window company Curtains Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Curtains Muhaisnah Company Curtains Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window in Curtains Muhaisnah. Best window Curtains Muhaisnah Company Curtains Muhaisnah Our luxury window curtains muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window in curtains muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window near curtains muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

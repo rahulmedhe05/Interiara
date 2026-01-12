@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Business Bay South, Sustainable Interior Design Business in Bay South, Best sustainable interior design business Bay South, Professional sustainable interior design business Bay South, Luxury sustainable interior design business Bay South, Sustainable Interior Design Business Bay South Dubai, Sustainable Interior Design Business designer Bay South, Sustainable Interior Design Business company Bay South, Sustainable Interior Design Business contractor Bay South, Affordable sustainable interior design business Bay South, Modern sustainable interior design business Bay South, Sustainable Interior Design Business consultation Bay South, Sustainable Interior Design Business cost Bay South, Sustainable Interior Design Business price Bay South, Top sustainable interior design business Bay South
+
+// SEO Keywords: Sustainable Interior Design Business Bay South, Sustainable Interior Design Business in Bay South, Best sustainable interior design business Bay South, Professional sustainable interior design business Bay South, Luxury sustainable interior design business Bay South, Sustainable Interior Design Business Bay South Dubai, Sustainable Interior Design Business designer Bay South, Sustainable Interior Design Business company Bay South, Sustainable Interior Design Business contractor Bay South, Affordable sustainable interior design business Bay South, Modern sustainable interior design business Bay South, Sustainable Interior Design Business consultation Bay South, Sustainable Interior Design Business cost Bay South, Sustainable Interior Design Business price Bay South, Top sustainable interior design business Bay South, Sustainable Interior Design Business near Bay South, Sustainable Interior Design Business specialists Bay South, Sustainable Interior Design Business experts Bay South, Sustainable Interior Design Business solutions Bay South, Sustainable Interior Design Business packages Bay South, Sustainable Interior Design Business quotes Bay South, Sustainable Interior Design Business estimates Bay South, Sustainable Interior Design Business services near me Bay South, Cheap Sustainable Interior Design Business Bay South, Quality Sustainable Interior Design Business Bay South, Trusted Sustainable Interior Design Business Bay South, Sustainable Interior Design Business transformation Bay South, Sustainable Interior Design Business renovation Bay South, Sustainable Interior Design Business makeover Bay South, Best Sustainable Interior Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design Business in Bay South. Best sustainable interior design business Bay South Company Bay South Our luxury sustainable interior design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Minimalist Interior Design Al Furjan, Minimalist Interior Design in Al Furjan, Best minimalist interior design Al Furjan, Professional minimalist interior design Al Furjan, Luxury minimalist interior design Al Furjan, Minimalist Interior Design Al Furjan Dubai, Minimalist Interior Design designer Al Furjan, Minimalist Interior Design company Al Furjan, Minimalist Interior Design contractor Al Furjan, Affordable minimalist interior design Al Furjan, Modern minimalist interior design Al Furjan, Minimalist Interior Design consultation Al Furjan, Minimalist Interior Design cost Al Furjan, Minimalist Interior Design price Al Furjan, Top minimalist interior design Al Furjan
+
+// SEO Keywords: Minimalist Interior Design Al Furjan, Minimalist Interior Design in Al Furjan, Best minimalist interior design Al Furjan, Professional minimalist interior design Al Furjan, Luxury minimalist interior design Al Furjan, Minimalist Interior Design Al Furjan Dubai, Minimalist Interior Design designer Al Furjan, Minimalist Interior Design company Al Furjan, Minimalist Interior Design contractor Al Furjan, Affordable minimalist interior design Al Furjan, Modern minimalist interior design Al Furjan, Minimalist Interior Design consultation Al Furjan, Minimalist Interior Design cost Al Furjan, Minimalist Interior Design price Al Furjan, Top minimalist interior design Al Furjan, Minimalist Interior Design near Al Furjan, Minimalist Interior Design specialists Al Furjan, Minimalist Interior Design experts Al Furjan, Minimalist Interior Design solutions Al Furjan, Minimalist Interior Design packages Al Furjan, Minimalist Interior Design quotes Al Furjan, Minimalist Interior Design estimates Al Furjan, Minimalist Interior Design services near me Al Furjan, Cheap Minimalist Interior Design Al Furjan, Quality Minimalist Interior Design Al Furjan, Trusted Minimalist Interior Design Al Furjan, Minimalist Interior Design transformation Al Furjan, Minimalist Interior Design renovation Al Furjan, Minimalist Interior Design makeover Al Furjan, Best Minimalist Interior Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MinimalistInteriorDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Minimalist Interior Design in Al Furjan. Best minimalist interior design Al Furjan Company Al Furjan Our luxury minimalist interior design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MinimalistInteriorDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our minimalist interior design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MinimalistInteriorDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in minimalist interior design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MinimalistInteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

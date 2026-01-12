@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Mall Interior Design Deira, Mall Interior in Design Deira, Best mall interior Design Deira, Professional mall interior Design Deira, Luxury mall interior Design Deira, Mall Interior Design Deira Dubai, Mall Interior designer Design Deira, Mall Interior company Design Deira, Mall Interior contractor Design Deira, Affordable mall interior Design Deira, Modern mall interior Design Deira, Mall Interior consultation Design Deira, Mall Interior cost Design Deira, Mall Interior price Design Deira, Top mall interior Design Deira
+
+// SEO Keywords: Mall Interior Design Deira, Mall Interior in Design Deira, Best mall interior Design Deira, Professional mall interior Design Deira, Luxury mall interior Design Deira, Mall Interior Design Deira Dubai, Mall Interior designer Design Deira, Mall Interior company Design Deira, Mall Interior contractor Design Deira, Affordable mall interior Design Deira, Modern mall interior Design Deira, Mall Interior consultation Design Deira, Mall Interior cost Design Deira, Mall Interior price Design Deira, Top mall interior Design Deira, Mall Interior near Design Deira, Mall Interior specialists Design Deira, Mall Interior experts Design Deira, Mall Interior solutions Design Deira, Mall Interior packages Design Deira, Mall Interior quotes Design Deira, Mall Interior estimates Design Deira, Mall Interior services near me Design Deira, Cheap Mall Interior Design Deira, Quality Mall Interior Design Deira, Trusted Mall Interior Design Deira, Mall Interior transformation Design Deira, Mall Interior renovation Design Deira, Mall Interior makeover Design Deira, Best Mall Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MallInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Mall Interior in Design Deira. Best mall interior Design Deira Company Design Deira Our luxury mall interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MallInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our mall interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MallInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in mall interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MallInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

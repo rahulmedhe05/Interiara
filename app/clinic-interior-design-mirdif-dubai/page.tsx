@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Clinic Interior Design Mirdif, Clinic Interior in Design Mirdif, Best clinic interior Design Mirdif, Professional clinic interior Design Mirdif, Luxury clinic interior Design Mirdif, Clinic Interior Design Mirdif Dubai, Clinic Interior designer Design Mirdif, Clinic Interior company Design Mirdif, Clinic Interior contractor Design Mirdif, Affordable clinic interior Design Mirdif, Modern clinic interior Design Mirdif, Clinic Interior consultation Design Mirdif, Clinic Interior cost Design Mirdif, Clinic Interior price Design Mirdif, Top clinic interior Design Mirdif
+
+// SEO Keywords: Clinic Interior Design Mirdif, Clinic Interior in Design Mirdif, Best clinic interior Design Mirdif, Professional clinic interior Design Mirdif, Luxury clinic interior Design Mirdif, Clinic Interior Design Mirdif Dubai, Clinic Interior designer Design Mirdif, Clinic Interior company Design Mirdif, Clinic Interior contractor Design Mirdif, Affordable clinic interior Design Mirdif, Modern clinic interior Design Mirdif, Clinic Interior consultation Design Mirdif, Clinic Interior cost Design Mirdif, Clinic Interior price Design Mirdif, Top clinic interior Design Mirdif, Clinic Interior near Design Mirdif, Clinic Interior specialists Design Mirdif, Clinic Interior experts Design Mirdif, Clinic Interior solutions Design Mirdif, Clinic Interior packages Design Mirdif, Clinic Interior quotes Design Mirdif, Clinic Interior estimates Design Mirdif, Clinic Interior services near me Design Mirdif, Cheap Clinic Interior Design Mirdif, Quality Clinic Interior Design Mirdif, Trusted Clinic Interior Design Mirdif, Clinic Interior transformation Design Mirdif, Clinic Interior renovation Design Mirdif, Clinic Interior makeover Design Mirdif, Best Clinic Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClinicInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Clinic Interior in Design Mirdif. Best clinic interior Design Mirdif Company Design Mirdif Our luxury clinic interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClinicInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our clinic interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClinicInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in clinic interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClinicInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

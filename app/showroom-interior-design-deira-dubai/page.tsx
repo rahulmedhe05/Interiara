@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Showroom Interior Design Deira, Showroom Interior in Design Deira, Best showroom interior Design Deira, Professional showroom interior Design Deira, Luxury showroom interior Design Deira, Showroom Interior Design Deira Dubai, Showroom Interior designer Design Deira, Showroom Interior company Design Deira, Showroom Interior contractor Design Deira, Affordable showroom interior Design Deira, Modern showroom interior Design Deira, Showroom Interior consultation Design Deira, Showroom Interior cost Design Deira, Showroom Interior price Design Deira, Top showroom interior Design Deira
+
+// SEO Keywords: Showroom Interior Design Deira, Showroom Interior in Design Deira, Best showroom interior Design Deira, Professional showroom interior Design Deira, Luxury showroom interior Design Deira, Showroom Interior Design Deira Dubai, Showroom Interior designer Design Deira, Showroom Interior company Design Deira, Showroom Interior contractor Design Deira, Affordable showroom interior Design Deira, Modern showroom interior Design Deira, Showroom Interior consultation Design Deira, Showroom Interior cost Design Deira, Showroom Interior price Design Deira, Top showroom interior Design Deira, Showroom Interior near Design Deira, Showroom Interior specialists Design Deira, Showroom Interior experts Design Deira, Showroom Interior solutions Design Deira, Showroom Interior packages Design Deira, Showroom Interior quotes Design Deira, Showroom Interior estimates Design Deira, Showroom Interior services near me Design Deira, Cheap Showroom Interior Design Deira, Quality Showroom Interior Design Deira, Trusted Showroom Interior Design Deira, Showroom Interior transformation Design Deira, Showroom Interior renovation Design Deira, Showroom Interior makeover Design Deira, Best Showroom Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ShowroomInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Showroom Interior in Design Deira. Best showroom interior Design Deira Company Design Deira Our luxury showroom interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ShowroomInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our showroom interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ShowroomInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in showroom interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ShowroomInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

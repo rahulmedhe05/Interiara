@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Bur, Kids Interior in Design Bur, Best kids interior Design Bur, Professional kids interior Design Bur, Luxury kids interior Design Bur, Kids Interior Design Bur Dubai, Kids Interior designer Design Bur, Kids Interior company Design Bur, Kids Interior contractor Design Bur, Affordable kids interior Design Bur, Modern kids interior Design Bur, Kids Interior consultation Design Bur, Kids Interior cost Design Bur, Kids Interior price Design Bur, Top kids interior Design Bur
+
+// SEO Keywords: Kids Interior Design Bur, Kids Interior in Design Bur, Best kids interior Design Bur, Professional kids interior Design Bur, Luxury kids interior Design Bur, Kids Interior Design Bur Dubai, Kids Interior designer Design Bur, Kids Interior company Design Bur, Kids Interior contractor Design Bur, Affordable kids interior Design Bur, Modern kids interior Design Bur, Kids Interior consultation Design Bur, Kids Interior cost Design Bur, Kids Interior price Design Bur, Top kids interior Design Bur, Kids Interior near Design Bur, Kids Interior specialists Design Bur, Kids Interior experts Design Bur, Kids Interior solutions Design Bur, Kids Interior packages Design Bur, Kids Interior quotes Design Bur, Kids Interior estimates Design Bur, Kids Interior services near me Design Bur, Cheap Kids Interior Design Bur, Quality Kids Interior Design Bur, Trusted Kids Interior Design Bur, Kids Interior transformation Design Bur, Kids Interior renovation Design Bur, Kids Interior makeover Design Bur, Best Kids Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function KidsInteriorDesignBur() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kids Interior in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury kids interior design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Kids Interior Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function KidsInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our kids interior in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in kids interior near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

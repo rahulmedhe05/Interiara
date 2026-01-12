@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Jbr, Home Office Interior in Design Jbr, Best home office interior Design Jbr, Professional home office interior Design Jbr, Luxury home office interior Design Jbr, Home Office Interior Design Jbr Dubai, Home Office Interior designer Design Jbr, Home Office Interior company Design Jbr, Home Office Interior contractor Design Jbr, Affordable home office interior Design Jbr, Modern home office interior Design Jbr, Home Office Interior consultation Design Jbr, Home Office Interior cost Design Jbr, Home Office Interior price Design Jbr, Top home office interior Design Jbr
+
+// SEO Keywords: Home Office Interior Design Jbr, Home Office Interior in Design Jbr, Best home office interior Design Jbr, Professional home office interior Design Jbr, Luxury home office interior Design Jbr, Home Office Interior Design Jbr Dubai, Home Office Interior designer Design Jbr, Home Office Interior company Design Jbr, Home Office Interior contractor Design Jbr, Affordable home office interior Design Jbr, Modern home office interior Design Jbr, Home Office Interior consultation Design Jbr, Home Office Interior cost Design Jbr, Home Office Interior price Design Jbr, Top home office interior Design Jbr, Home Office Interior near Design Jbr, Home Office Interior specialists Design Jbr, Home Office Interior experts Design Jbr, Home Office Interior solutions Design Jbr, Home Office Interior packages Design Jbr, Home Office Interior quotes Design Jbr, Home Office Interior estimates Design Jbr, Home Office Interior services near me Design Jbr, Cheap Home Office Interior Design Jbr, Quality Home Office Interior Design Jbr, Trusted Home Office Interior Design Jbr, Home Office Interior transformation Design Jbr, Home Office Interior renovation Design Jbr, Home Office Interior makeover Design Jbr, Best Home Office Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior Design Jbr Company Design Jbr</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior in Design Jbr. Best home office interior Design Jbr Company Design Jbr Our luxury home office interior design jbr services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HomeOfficeInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Home Office Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Office Interior Design Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Office Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignJbr() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior in design jbr service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior near design jbr.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

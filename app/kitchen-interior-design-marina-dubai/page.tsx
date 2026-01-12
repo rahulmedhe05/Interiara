@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Marina, Kitchen Interior in Design Marina, Best kitchen interior Design Marina, Professional kitchen interior Design Marina, Luxury kitchen interior Design Marina, Kitchen Interior Design Marina Dubai, Kitchen Interior designer Design Marina, Kitchen Interior company Design Marina, Kitchen Interior contractor Design Marina, Affordable kitchen interior Design Marina, Modern kitchen interior Design Marina, Kitchen Interior consultation Design Marina, Kitchen Interior cost Design Marina, Kitchen Interior price Design Marina, Top kitchen interior Design Marina
+
+// SEO Keywords: Kitchen Interior Design Marina, Kitchen Interior in Design Marina, Best kitchen interior Design Marina, Professional kitchen interior Design Marina, Luxury kitchen interior Design Marina, Kitchen Interior Design Marina Dubai, Kitchen Interior designer Design Marina, Kitchen Interior company Design Marina, Kitchen Interior contractor Design Marina, Affordable kitchen interior Design Marina, Modern kitchen interior Design Marina, Kitchen Interior consultation Design Marina, Kitchen Interior cost Design Marina, Kitchen Interior price Design Marina, Top kitchen interior Design Marina, Kitchen Interior near Design Marina, Kitchen Interior specialists Design Marina, Kitchen Interior experts Design Marina, Kitchen Interior solutions Design Marina, Kitchen Interior packages Design Marina, Kitchen Interior quotes Design Marina, Kitchen Interior estimates Design Marina, Kitchen Interior services near me Design Marina, Cheap Kitchen Interior Design Marina, Quality Kitchen Interior Design Marina, Trusted Kitchen Interior Design Marina, Kitchen Interior transformation Design Marina, Kitchen Interior renovation Design Marina, Kitchen Interior makeover Design Marina, Best Kitchen Interior company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior Design Marina Company Design Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior in Design Marina. Best kitchen interior Design Marina Company Design Marina Our professional kitchen interior design marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function KitchenInteriorDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Kitchen Interior Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kitchen Interior Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kitchen Interior Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior in design marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior near design marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

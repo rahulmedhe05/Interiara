@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Culture Village, Closet Design in Culture Village, Best closet design Culture Village, Professional closet design Culture Village, Luxury closet design Culture Village, Closet Design Culture Village Dubai, Closet Design designer Culture Village, Closet Design company Culture Village, Closet Design contractor Culture Village, Affordable closet design Culture Village, Modern closet design Culture Village, Closet Design consultation Culture Village, Closet Design cost Culture Village, Closet Design price Culture Village, Top closet design Culture Village
+
+// SEO Keywords: Closet Design Culture Village, Closet Design in Culture Village, Best closet design Culture Village, Professional closet design Culture Village, Luxury closet design Culture Village, Closet Design Culture Village Dubai, Closet Design designer Culture Village, Closet Design company Culture Village, Closet Design contractor Culture Village, Affordable closet design Culture Village, Modern closet design Culture Village, Closet Design consultation Culture Village, Closet Design cost Culture Village, Closet Design price Culture Village, Top closet design Culture Village, Closet Design near Culture Village, Closet Design specialists Culture Village, Closet Design experts Culture Village, Closet Design solutions Culture Village, Closet Design packages Culture Village, Closet Design quotes Culture Village, Closet Design estimates Culture Village, Closet Design services near me Culture Village, Cheap Closet Design Culture Village, Quality Closet Design Culture Village, Trusted Closet Design Culture Village, Closet Design transformation Culture Village, Closet Design renovation Culture Village, Closet Design makeover Culture Village, Best Closet Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet Design in Culture Village. Best closet design Culture Village Company Culture Village Our luxury closet design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Al Jaddaf, Restaurant Interior Design in Al Jaddaf, Best restaurant interior design Al Jaddaf, Professional restaurant interior design Al Jaddaf, Luxury restaurant interior design Al Jaddaf, Restaurant Interior Design Al Jaddaf Dubai, Restaurant Interior Design designer Al Jaddaf, Restaurant Interior Design company Al Jaddaf, Restaurant Interior Design contractor Al Jaddaf, Affordable restaurant interior design Al Jaddaf, Modern restaurant interior design Al Jaddaf, Restaurant Interior Design consultation Al Jaddaf, Restaurant Interior Design cost Al Jaddaf, Restaurant Interior Design price Al Jaddaf, Top restaurant interior design Al Jaddaf
+
+// SEO Keywords: Restaurant Interior Design Al Jaddaf, Restaurant Interior Design in Al Jaddaf, Best restaurant interior design Al Jaddaf, Professional restaurant interior design Al Jaddaf, Luxury restaurant interior design Al Jaddaf, Restaurant Interior Design Al Jaddaf Dubai, Restaurant Interior Design designer Al Jaddaf, Restaurant Interior Design company Al Jaddaf, Restaurant Interior Design contractor Al Jaddaf, Affordable restaurant interior design Al Jaddaf, Modern restaurant interior design Al Jaddaf, Restaurant Interior Design consultation Al Jaddaf, Restaurant Interior Design cost Al Jaddaf, Restaurant Interior Design price Al Jaddaf, Top restaurant interior design Al Jaddaf, Restaurant Interior Design near Al Jaddaf, Restaurant Interior Design specialists Al Jaddaf, Restaurant Interior Design experts Al Jaddaf, Restaurant Interior Design solutions Al Jaddaf, Restaurant Interior Design packages Al Jaddaf, Restaurant Interior Design quotes Al Jaddaf, Restaurant Interior Design estimates Al Jaddaf, Restaurant Interior Design services near me Al Jaddaf, Cheap Restaurant Interior Design Al Jaddaf, Quality Restaurant Interior Design Al Jaddaf, Trusted Restaurant Interior Design Al Jaddaf, Restaurant Interior Design transformation Al Jaddaf, Restaurant Interior Design renovation Al Jaddaf, Restaurant Interior Design makeover Al Jaddaf, Best Restaurant Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior Design in Al Jaddaf. Best restaurant interior design Al Jaddaf Company Al Jaddaf Our luxury restaurant interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

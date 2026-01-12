@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Childrens Room Interior Design Jebel Ali, Childrens Room Interior Design in Jebel Ali, Best childrens room interior design Jebel Ali, Professional childrens room interior design Jebel Ali, Luxury childrens room interior design Jebel Ali, Childrens Room Interior Design Jebel Ali Dubai, Childrens Room Interior Design designer Jebel Ali, Childrens Room Interior Design company Jebel Ali, Childrens Room Interior Design contractor Jebel Ali, Affordable childrens room interior design Jebel Ali, Modern childrens room interior design Jebel Ali, Childrens Room Interior Design consultation Jebel Ali, Childrens Room Interior Design cost Jebel Ali, Childrens Room Interior Design price Jebel Ali, Top childrens room interior design Jebel Ali
+
+// SEO Keywords: Childrens Room Interior Design Jebel Ali, Childrens Room Interior Design in Jebel Ali, Best childrens room interior design Jebel Ali, Professional childrens room interior design Jebel Ali, Luxury childrens room interior design Jebel Ali, Childrens Room Interior Design Jebel Ali Dubai, Childrens Room Interior Design designer Jebel Ali, Childrens Room Interior Design company Jebel Ali, Childrens Room Interior Design contractor Jebel Ali, Affordable childrens room interior design Jebel Ali, Modern childrens room interior design Jebel Ali, Childrens Room Interior Design consultation Jebel Ali, Childrens Room Interior Design cost Jebel Ali, Childrens Room Interior Design price Jebel Ali, Top childrens room interior design Jebel Ali, Childrens Room Interior Design near Jebel Ali, Childrens Room Interior Design specialists Jebel Ali, Childrens Room Interior Design experts Jebel Ali, Childrens Room Interior Design solutions Jebel Ali, Childrens Room Interior Design packages Jebel Ali, Childrens Room Interior Design quotes Jebel Ali, Childrens Room Interior Design estimates Jebel Ali, Childrens Room Interior Design services near me Jebel Ali, Cheap Childrens Room Interior Design Jebel Ali, Quality Childrens Room Interior Design Jebel Ali, Trusted Childrens Room Interior Design Jebel Ali, Childrens Room Interior Design transformation Jebel Ali, Childrens Room Interior Design renovation Jebel Ali, Childrens Room Interior Design makeover Jebel Ali, Best Childrens Room Interior Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ChildrensRoomInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Childrens Room Interior Design in Jebel Ali. Best childrens room interior design Jebel Ali Company Jebel Ali Our luxury childrens room interior design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ChildrensRoomInteriorDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our childrens room interior design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ChildrensRoomInteriorDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in childrens room interior design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ChildrensRoomInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

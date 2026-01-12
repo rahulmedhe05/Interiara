@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Discovery Gardens, Custom Furniture Design in Discovery Gardens, Best custom furniture design Discovery Gardens, Professional custom furniture design Discovery Gardens, Luxury custom furniture design Discovery Gardens, Custom Furniture Design Discovery Gardens Dubai, Custom Furniture Design designer Discovery Gardens, Custom Furniture Design company Discovery Gardens, Custom Furniture Design contractor Discovery Gardens, Affordable custom furniture design Discovery Gardens, Modern custom furniture design Discovery Gardens, Custom Furniture Design consultation Discovery Gardens, Custom Furniture Design cost Discovery Gardens, Custom Furniture Design price Discovery Gardens, Top custom furniture design Discovery Gardens
+
+// SEO Keywords: Custom Furniture Design Discovery Gardens, Custom Furniture Design in Discovery Gardens, Best custom furniture design Discovery Gardens, Professional custom furniture design Discovery Gardens, Luxury custom furniture design Discovery Gardens, Custom Furniture Design Discovery Gardens Dubai, Custom Furniture Design designer Discovery Gardens, Custom Furniture Design company Discovery Gardens, Custom Furniture Design contractor Discovery Gardens, Affordable custom furniture design Discovery Gardens, Modern custom furniture design Discovery Gardens, Custom Furniture Design consultation Discovery Gardens, Custom Furniture Design cost Discovery Gardens, Custom Furniture Design price Discovery Gardens, Top custom furniture design Discovery Gardens, Custom Furniture Design near Discovery Gardens, Custom Furniture Design specialists Discovery Gardens, Custom Furniture Design experts Discovery Gardens, Custom Furniture Design solutions Discovery Gardens, Custom Furniture Design packages Discovery Gardens, Custom Furniture Design quotes Discovery Gardens, Custom Furniture Design estimates Discovery Gardens, Custom Furniture Design services near me Discovery Gardens, Cheap Custom Furniture Design Discovery Gardens, Quality Custom Furniture Design Discovery Gardens, Trusted Custom Furniture Design Discovery Gardens, Custom Furniture Design transformation Discovery Gardens, Custom Furniture Design renovation Discovery Gardens, Custom Furniture Design makeover Discovery Gardens, Best Custom Furniture Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Discovery Gardens. Best custom furniture design Discovery Gardens Company Discovery Gardens Our luxury custom furniture design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

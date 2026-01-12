@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bathroom Interior Design, Bathroom in Interior Design, Best bathroom Interior Design, Professional bathroom Interior Design, Luxury bathroom Interior Design, Bathroom Interior Design Dubai, Bathroom designer Interior Design, Bathroom company Interior Design, Bathroom contractor Interior Design, Affordable bathroom Interior Design, Modern bathroom Interior Design, Bathroom consultation Interior Design, Bathroom cost Interior Design, Bathroom price Interior Design, Top bathroom Interior Design
+
+// SEO Keywords: Bathroom Interior Design, Bathroom in Interior Design, Best bathroom Interior Design, Professional bathroom Interior Design, Luxury bathroom Interior Design, Bathroom Interior Design Dubai, Bathroom designer Interior Design, Bathroom company Interior Design, Bathroom contractor Interior Design, Affordable bathroom Interior Design, Modern bathroom Interior Design, Bathroom consultation Interior Design, Bathroom cost Interior Design, Bathroom price Interior Design, Top bathroom Interior Design, Bathroom near Interior Design, Bathroom specialists Interior Design, Bathroom experts Interior Design, Bathroom solutions Interior Design, Bathroom packages Interior Design, Bathroom quotes Interior Design, Bathroom estimates Interior Design, Bathroom services near me Interior Design, Cheap Bathroom Interior Design, Quality Bathroom Interior Design, Trusted Bathroom Interior Design, Bathroom transformation Interior Design, Bathroom renovation Interior Design, Bathroom makeover Interior Design, Best Bathroom company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BathroomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bathroom in Interior Design. Best bathroom Interior Design Company Interior Design Our luxury bathroom interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BathroomInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bathroom in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BathroomInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bathroom near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BathroomInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

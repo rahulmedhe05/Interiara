@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Arabic Style Interior Design Al Hamriya, Arabic Style Interior Design in Al Hamriya, Best arabic style interior design Al Hamriya, Professional arabic style interior design Al Hamriya, Luxury arabic style interior design Al Hamriya, Arabic Style Interior Design Al Hamriya Dubai, Arabic Style Interior Design designer Al Hamriya, Arabic Style Interior Design company Al Hamriya, Arabic Style Interior Design contractor Al Hamriya, Affordable arabic style interior design Al Hamriya, Modern arabic style interior design Al Hamriya, Arabic Style Interior Design consultation Al Hamriya, Arabic Style Interior Design cost Al Hamriya, Arabic Style Interior Design price Al Hamriya, Top arabic style interior design Al Hamriya
+
+// SEO Keywords: Arabic Style Interior Design Al Hamriya, Arabic Style Interior Design in Al Hamriya, Best arabic style interior design Al Hamriya, Professional arabic style interior design Al Hamriya, Luxury arabic style interior design Al Hamriya, Arabic Style Interior Design Al Hamriya Dubai, Arabic Style Interior Design designer Al Hamriya, Arabic Style Interior Design company Al Hamriya, Arabic Style Interior Design contractor Al Hamriya, Affordable arabic style interior design Al Hamriya, Modern arabic style interior design Al Hamriya, Arabic Style Interior Design consultation Al Hamriya, Arabic Style Interior Design cost Al Hamriya, Arabic Style Interior Design price Al Hamriya, Top arabic style interior design Al Hamriya, Arabic Style Interior Design near Al Hamriya, Arabic Style Interior Design specialists Al Hamriya, Arabic Style Interior Design experts Al Hamriya, Arabic Style Interior Design solutions Al Hamriya, Arabic Style Interior Design packages Al Hamriya, Arabic Style Interior Design quotes Al Hamriya, Arabic Style Interior Design estimates Al Hamriya, Arabic Style Interior Design services near me Al Hamriya, Cheap Arabic Style Interior Design Al Hamriya, Quality Arabic Style Interior Design Al Hamriya, Trusted Arabic Style Interior Design Al Hamriya, Arabic Style Interior Design transformation Al Hamriya, Arabic Style Interior Design renovation Al Hamriya, Arabic Style Interior Design makeover Al Hamriya, Best Arabic Style Interior Design company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArabicStyleInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior design Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Arabic Style Interior Design in Al Hamriya. Best arabic style interior design Al Hamriya Company Al Hamriya Our luxury arabic style interior design al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArabicStyleInteriorDesignAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our arabic style interior design in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArabicStyleInteriorDesignAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in arabic style interior design near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArabicStyleInteriorDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

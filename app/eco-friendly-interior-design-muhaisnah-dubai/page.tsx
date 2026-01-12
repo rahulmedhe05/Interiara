@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design Muhaisnah, Eco Friendly Interior in Design Muhaisnah, Best eco friendly interior Design Muhaisnah, Professional eco friendly interior Design Muhaisnah, Luxury eco friendly interior Design Muhaisnah, Eco Friendly Interior Design Muhaisnah Dubai, Eco Friendly Interior designer Design Muhaisnah, Eco Friendly Interior company Design Muhaisnah, Eco Friendly Interior contractor Design Muhaisnah, Affordable eco friendly interior Design Muhaisnah, Modern eco friendly interior Design Muhaisnah, Eco Friendly Interior consultation Design Muhaisnah, Eco Friendly Interior cost Design Muhaisnah, Eco Friendly Interior price Design Muhaisnah, Top eco friendly interior Design Muhaisnah
+
+// SEO Keywords: Eco Friendly Interior Design Muhaisnah, Eco Friendly Interior in Design Muhaisnah, Best eco friendly interior Design Muhaisnah, Professional eco friendly interior Design Muhaisnah, Luxury eco friendly interior Design Muhaisnah, Eco Friendly Interior Design Muhaisnah Dubai, Eco Friendly Interior designer Design Muhaisnah, Eco Friendly Interior company Design Muhaisnah, Eco Friendly Interior contractor Design Muhaisnah, Affordable eco friendly interior Design Muhaisnah, Modern eco friendly interior Design Muhaisnah, Eco Friendly Interior consultation Design Muhaisnah, Eco Friendly Interior cost Design Muhaisnah, Eco Friendly Interior price Design Muhaisnah, Top eco friendly interior Design Muhaisnah, Eco Friendly Interior near Design Muhaisnah, Eco Friendly Interior specialists Design Muhaisnah, Eco Friendly Interior experts Design Muhaisnah, Eco Friendly Interior solutions Design Muhaisnah, Eco Friendly Interior packages Design Muhaisnah, Eco Friendly Interior quotes Design Muhaisnah, Eco Friendly Interior estimates Design Muhaisnah, Eco Friendly Interior services near me Design Muhaisnah, Cheap Eco Friendly Interior Design Muhaisnah, Quality Eco Friendly Interior Design Muhaisnah, Trusted Eco Friendly Interior Design Muhaisnah, Eco Friendly Interior transformation Design Muhaisnah, Eco Friendly Interior renovation Design Muhaisnah, Eco Friendly Interior makeover Design Muhaisnah, Best Eco Friendly Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior in Design Muhaisnah. Best eco friendly interior Design Muhaisnah Company Design Muhaisnah Our luxury eco friendly interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

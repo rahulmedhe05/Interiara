@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Difc, Office Fit in Out Difc, Best office fit Out Difc, Professional office fit Out Difc, Luxury office fit Out Difc, Office Fit Out Difc Dubai, Office Fit designer Out Difc, Office Fit company Out Difc, Office Fit contractor Out Difc, Affordable office fit Out Difc, Modern office fit Out Difc, Office Fit consultation Out Difc, Office Fit cost Out Difc, Office Fit price Out Difc, Top office fit Out Difc
+
+// SEO Keywords: Office Fit Out Difc, Office Fit in Out Difc, Best office fit Out Difc, Professional office fit Out Difc, Luxury office fit Out Difc, Office Fit Out Difc Dubai, Office Fit designer Out Difc, Office Fit company Out Difc, Office Fit contractor Out Difc, Affordable office fit Out Difc, Modern office fit Out Difc, Office Fit consultation Out Difc, Office Fit cost Out Difc, Office Fit price Out Difc, Top office fit Out Difc, Office Fit near Out Difc, Office Fit specialists Out Difc, Office Fit experts Out Difc, Office Fit solutions Out Difc, Office Fit packages Out Difc, Office Fit quotes Out Difc, Office Fit estimates Out Difc, Office Fit services near me Out Difc, Cheap Office Fit Out Difc, Quality Office Fit Out Difc, Trusted Office Fit Out Difc, Office Fit transformation Out Difc, Office Fit renovation Out Difc, Office Fit makeover Out Difc, Best Office Fit company Out Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutDifc() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Difc. Office Fit Out Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out difc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out DIFC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out difc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out difc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

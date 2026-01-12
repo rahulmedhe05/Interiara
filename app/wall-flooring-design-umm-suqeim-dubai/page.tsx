@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Umm Suqeim, Wall Flooring Design in Umm Suqeim, Best wall flooring design Umm Suqeim, Professional wall flooring design Umm Suqeim, Luxury wall flooring design Umm Suqeim, Wall Flooring Design Umm Suqeim Dubai, Wall Flooring Design designer Umm Suqeim, Wall Flooring Design company Umm Suqeim, Wall Flooring Design contractor Umm Suqeim, Affordable wall flooring design Umm Suqeim, Modern wall flooring design Umm Suqeim, Wall Flooring Design consultation Umm Suqeim, Wall Flooring Design cost Umm Suqeim, Wall Flooring Design price Umm Suqeim, Top wall flooring design Umm Suqeim
+
+// SEO Keywords: Wall Flooring Design Umm Suqeim, Wall Flooring Design in Umm Suqeim, Best wall flooring design Umm Suqeim, Professional wall flooring design Umm Suqeim, Luxury wall flooring design Umm Suqeim, Wall Flooring Design Umm Suqeim Dubai, Wall Flooring Design designer Umm Suqeim, Wall Flooring Design company Umm Suqeim, Wall Flooring Design contractor Umm Suqeim, Affordable wall flooring design Umm Suqeim, Modern wall flooring design Umm Suqeim, Wall Flooring Design consultation Umm Suqeim, Wall Flooring Design cost Umm Suqeim, Wall Flooring Design price Umm Suqeim, Top wall flooring design Umm Suqeim, Wall Flooring Design near Umm Suqeim, Wall Flooring Design specialists Umm Suqeim, Wall Flooring Design experts Umm Suqeim, Wall Flooring Design solutions Umm Suqeim, Wall Flooring Design packages Umm Suqeim, Wall Flooring Design quotes Umm Suqeim, Wall Flooring Design estimates Umm Suqeim, Wall Flooring Design services near me Umm Suqeim, Cheap Wall Flooring Design Umm Suqeim, Quality Wall Flooring Design Umm Suqeim, Trusted Wall Flooring Design Umm Suqeim, Wall Flooring Design transformation Umm Suqeim, Wall Flooring Design renovation Umm Suqeim, Wall Flooring Design makeover Umm Suqeim, Best Wall Flooring Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Umm Suqeim. Best wall flooring design Umm Suqeim Company Umm Suqeim Our luxury wall flooring design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

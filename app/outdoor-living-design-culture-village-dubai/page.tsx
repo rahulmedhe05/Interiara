@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Culture Village, Outdoor Living Design in Culture Village, Best outdoor living design Culture Village, Professional outdoor living design Culture Village, Luxury outdoor living design Culture Village, Outdoor Living Design Culture Village Dubai, Outdoor Living Design designer Culture Village, Outdoor Living Design company Culture Village, Outdoor Living Design contractor Culture Village, Affordable outdoor living design Culture Village, Modern outdoor living design Culture Village, Outdoor Living Design consultation Culture Village, Outdoor Living Design cost Culture Village, Outdoor Living Design price Culture Village, Top outdoor living design Culture Village
+
+// SEO Keywords: Outdoor Living Design Culture Village, Outdoor Living Design in Culture Village, Best outdoor living design Culture Village, Professional outdoor living design Culture Village, Luxury outdoor living design Culture Village, Outdoor Living Design Culture Village Dubai, Outdoor Living Design designer Culture Village, Outdoor Living Design company Culture Village, Outdoor Living Design contractor Culture Village, Affordable outdoor living design Culture Village, Modern outdoor living design Culture Village, Outdoor Living Design consultation Culture Village, Outdoor Living Design cost Culture Village, Outdoor Living Design price Culture Village, Top outdoor living design Culture Village, Outdoor Living Design near Culture Village, Outdoor Living Design specialists Culture Village, Outdoor Living Design experts Culture Village, Outdoor Living Design solutions Culture Village, Outdoor Living Design packages Culture Village, Outdoor Living Design quotes Culture Village, Outdoor Living Design estimates Culture Village, Outdoor Living Design services near me Culture Village, Cheap Outdoor Living Design Culture Village, Quality Outdoor Living Design Culture Village, Trusted Outdoor Living Design Culture Village, Outdoor Living Design transformation Culture Village, Outdoor Living Design renovation Culture Village, Outdoor Living Design makeover Culture Village, Best Outdoor Living Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design in Culture Village. Best outdoor living design Culture Village Company Culture Village Our luxury outdoor living design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

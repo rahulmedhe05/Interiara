@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Discovery Hills, Office Renovation in Discovery Hills, Best office renovation Discovery Hills, Professional office renovation Discovery Hills, Luxury office renovation Discovery Hills, Office Renovation Discovery Hills Dubai, Office Renovation designer Discovery Hills, Office Renovation company Discovery Hills, Office Renovation contractor Discovery Hills, Affordable office renovation Discovery Hills, Modern office renovation Discovery Hills, Office Renovation consultation Discovery Hills, Office Renovation cost Discovery Hills, Office Renovation price Discovery Hills, Top office renovation Discovery Hills
+
+// SEO Keywords: Office Renovation Discovery Hills, Office Renovation in Discovery Hills, Best office renovation Discovery Hills, Professional office renovation Discovery Hills, Luxury office renovation Discovery Hills, Office Renovation Discovery Hills Dubai, Office Renovation designer Discovery Hills, Office Renovation company Discovery Hills, Office Renovation contractor Discovery Hills, Affordable office renovation Discovery Hills, Modern office renovation Discovery Hills, Office Renovation consultation Discovery Hills, Office Renovation cost Discovery Hills, Office Renovation price Discovery Hills, Top office renovation Discovery Hills, Office Renovation near Discovery Hills, Office Renovation specialists Discovery Hills, Office Renovation experts Discovery Hills, Office Renovation solutions Discovery Hills, Office Renovation packages Discovery Hills, Office Renovation quotes Discovery Hills, Office Renovation estimates Discovery Hills, Office Renovation services near me Discovery Hills, Cheap Office Renovation Discovery Hills, Quality Office Renovation Discovery Hills, Trusted Office Renovation Discovery Hills, Office Renovation transformation Discovery Hills, Office Renovation renovation Discovery Hills, Office Renovation makeover Discovery Hills, Best Office Renovation company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Discovery Hills. Best office renovation Discovery Hills Company Discovery Hills Our luxury office renovation discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

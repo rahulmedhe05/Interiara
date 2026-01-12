@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Palm, Living Room Interior in Design Palm, Best living room interior Design Palm, Professional living room interior Design Palm, Luxury living room interior Design Palm, Living Room Interior Design Palm Dubai, Living Room Interior designer Design Palm, Living Room Interior company Design Palm, Living Room Interior contractor Design Palm, Affordable living room interior Design Palm, Modern living room interior Design Palm, Living Room Interior consultation Design Palm, Living Room Interior cost Design Palm, Living Room Interior price Design Palm, Top living room interior Design Palm
+
+// SEO Keywords: Living Room Interior Design Palm, Living Room Interior in Design Palm, Best living room interior Design Palm, Professional living room interior Design Palm, Luxury living room interior Design Palm, Living Room Interior Design Palm Dubai, Living Room Interior designer Design Palm, Living Room Interior company Design Palm, Living Room Interior contractor Design Palm, Affordable living room interior Design Palm, Modern living room interior Design Palm, Living Room Interior consultation Design Palm, Living Room Interior cost Design Palm, Living Room Interior price Design Palm, Top living room interior Design Palm, Living Room Interior near Design Palm, Living Room Interior specialists Design Palm, Living Room Interior experts Design Palm, Living Room Interior solutions Design Palm, Living Room Interior packages Design Palm, Living Room Interior quotes Design Palm, Living Room Interior estimates Design Palm, Living Room Interior services near me Design Palm, Cheap Living Room Interior Design Palm, Quality Living Room Interior Design Palm, Trusted Living Room Interior Design Palm, Living Room Interior transformation Design Palm, Living Room Interior renovation Design Palm, Living Room Interior makeover Design Palm, Best Living Room Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior in Design Palm. Best living room interior Design Palm Company Design Palm Our luxury living room interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

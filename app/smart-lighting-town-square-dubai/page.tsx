@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Town Square, Smart Lighting in Town Square, Best smart lighting Town Square, Professional smart lighting Town Square, Luxury smart lighting Town Square, Smart Lighting Town Square Dubai, Smart Lighting designer Town Square, Smart Lighting company Town Square, Smart Lighting contractor Town Square, Affordable smart lighting Town Square, Modern smart lighting Town Square, Smart Lighting consultation Town Square, Smart Lighting cost Town Square, Smart Lighting price Town Square, Top smart lighting Town Square
+
+// SEO Keywords: Smart Lighting Town Square, Smart Lighting in Town Square, Best smart lighting Town Square, Professional smart lighting Town Square, Luxury smart lighting Town Square, Smart Lighting Town Square Dubai, Smart Lighting designer Town Square, Smart Lighting company Town Square, Smart Lighting contractor Town Square, Affordable smart lighting Town Square, Modern smart lighting Town Square, Smart Lighting consultation Town Square, Smart Lighting cost Town Square, Smart Lighting price Town Square, Top smart lighting Town Square, Smart Lighting near Town Square, Smart Lighting specialists Town Square, Smart Lighting experts Town Square, Smart Lighting solutions Town Square, Smart Lighting packages Town Square, Smart Lighting quotes Town Square, Smart Lighting estimates Town Square, Smart Lighting services near me Town Square, Cheap Smart Lighting Town Square, Quality Smart Lighting Town Square, Trusted Smart Lighting Town Square, Smart Lighting transformation Town Square, Smart Lighting renovation Town Square, Smart Lighting makeover Town Square, Best Smart Lighting company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Lighting in Town Square. Best smart lighting Town Square Company Town Square Our luxury smart lighting town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartLightingTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart lighting in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart lighting near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

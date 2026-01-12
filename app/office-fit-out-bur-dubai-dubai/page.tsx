@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Bur Dubai, Office Fit Out in Bur Dubai, Best office fit out Bur Dubai, Professional office fit out Bur Dubai, Luxury office fit out Bur Dubai, Office Fit Out Bur Dubai Dubai, Office Fit Out designer Bur Dubai, Office Fit Out company Bur Dubai, Office Fit Out contractor Bur Dubai, Affordable office fit out Bur Dubai, Modern office fit out Bur Dubai, Office Fit Out consultation Bur Dubai, Office Fit Out cost Bur Dubai, Office Fit Out price Bur Dubai, Top office fit out Bur Dubai
+
+// SEO Keywords: Office Fit Out Bur Dubai, Office Fit Out in Bur Dubai, Best office fit out Bur Dubai, Professional office fit out Bur Dubai, Luxury office fit out Bur Dubai, Office Fit Out Bur Dubai Dubai, Office Fit Out designer Bur Dubai, Office Fit Out company Bur Dubai, Office Fit Out contractor Bur Dubai, Affordable office fit out Bur Dubai, Modern office fit out Bur Dubai, Office Fit Out consultation Bur Dubai, Office Fit Out cost Bur Dubai, Office Fit Out price Bur Dubai, Top office fit out Bur Dubai, Office Fit Out near Bur Dubai, Office Fit Out specialists Bur Dubai, Office Fit Out experts Bur Dubai, Office Fit Out solutions Bur Dubai, Office Fit Out packages Bur Dubai, Office Fit Out quotes Bur Dubai, Office Fit Out estimates Bur Dubai, Office Fit Out services near me Bur Dubai, Cheap Office Fit Out Bur Dubai, Quality Office Fit Out Bur Dubai, Trusted Office Fit Out Bur Dubai, Office Fit Out transformation Bur Dubai, Office Fit Out renovation Bur Dubai, Office Fit Out makeover Bur Dubai, Best Office Fit Out company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutBurDubai() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Mirdif, Home Office Interior in Design Mirdif, Best home office interior Design Mirdif, Professional home office interior Design Mirdif, Luxury home office interior Design Mirdif, Home Office Interior Design Mirdif Dubai, Home Office Interior designer Design Mirdif, Home Office Interior company Design Mirdif, Home Office Interior contractor Design Mirdif, Affordable home office interior Design Mirdif, Modern home office interior Design Mirdif, Home Office Interior consultation Design Mirdif, Home Office Interior cost Design Mirdif, Home Office Interior price Design Mirdif, Top home office interior Design Mirdif
+
+// SEO Keywords: Home Office Interior Design Mirdif, Home Office Interior in Design Mirdif, Best home office interior Design Mirdif, Professional home office interior Design Mirdif, Luxury home office interior Design Mirdif, Home Office Interior Design Mirdif Dubai, Home Office Interior designer Design Mirdif, Home Office Interior company Design Mirdif, Home Office Interior contractor Design Mirdif, Affordable home office interior Design Mirdif, Modern home office interior Design Mirdif, Home Office Interior consultation Design Mirdif, Home Office Interior cost Design Mirdif, Home Office Interior price Design Mirdif, Top home office interior Design Mirdif, Home Office Interior near Design Mirdif, Home Office Interior specialists Design Mirdif, Home Office Interior experts Design Mirdif, Home Office Interior solutions Design Mirdif, Home Office Interior packages Design Mirdif, Home Office Interior quotes Design Mirdif, Home Office Interior estimates Design Mirdif, Home Office Interior services near me Design Mirdif, Cheap Home Office Interior Design Mirdif, Quality Home Office Interior Design Mirdif, Trusted Home Office Interior Design Mirdif, Home Office Interior transformation Design Mirdif, Home Office Interior renovation Design Mirdif, Home Office Interior makeover Design Mirdif, Best Home Office Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior in Design Mirdif. Best home office interior Design Mirdif Company Design Mirdif Our luxury home office interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

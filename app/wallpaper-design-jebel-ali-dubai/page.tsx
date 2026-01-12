@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Jebel Ali, Wallpaper Design in Jebel Ali, Best wallpaper design Jebel Ali, Professional wallpaper design Jebel Ali, Luxury wallpaper design Jebel Ali, Wallpaper Design Jebel Ali Dubai, Wallpaper Design designer Jebel Ali, Wallpaper Design company Jebel Ali, Wallpaper Design contractor Jebel Ali, Affordable wallpaper design Jebel Ali, Modern wallpaper design Jebel Ali, Wallpaper Design consultation Jebel Ali, Wallpaper Design cost Jebel Ali, Wallpaper Design price Jebel Ali, Top wallpaper design Jebel Ali
+
+// SEO Keywords: Wallpaper Design Jebel Ali, Wallpaper Design in Jebel Ali, Best wallpaper design Jebel Ali, Professional wallpaper design Jebel Ali, Luxury wallpaper design Jebel Ali, Wallpaper Design Jebel Ali Dubai, Wallpaper Design designer Jebel Ali, Wallpaper Design company Jebel Ali, Wallpaper Design contractor Jebel Ali, Affordable wallpaper design Jebel Ali, Modern wallpaper design Jebel Ali, Wallpaper Design consultation Jebel Ali, Wallpaper Design cost Jebel Ali, Wallpaper Design price Jebel Ali, Top wallpaper design Jebel Ali, Wallpaper Design near Jebel Ali, Wallpaper Design specialists Jebel Ali, Wallpaper Design experts Jebel Ali, Wallpaper Design solutions Jebel Ali, Wallpaper Design packages Jebel Ali, Wallpaper Design quotes Jebel Ali, Wallpaper Design estimates Jebel Ali, Wallpaper Design services near me Jebel Ali, Cheap Wallpaper Design Jebel Ali, Quality Wallpaper Design Jebel Ali, Trusted Wallpaper Design Jebel Ali, Wallpaper Design transformation Jebel Ali, Wallpaper Design renovation Jebel Ali, Wallpaper Design makeover Jebel Ali, Best Wallpaper Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignJebelAli() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

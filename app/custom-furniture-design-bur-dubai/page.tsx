@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Bur, Custom Furniture in Design Bur, Best custom furniture Design Bur, Professional custom furniture Design Bur, Luxury custom furniture Design Bur, Custom Furniture Design Bur Dubai, Custom Furniture designer Design Bur, Custom Furniture company Design Bur, Custom Furniture contractor Design Bur, Affordable custom furniture Design Bur, Modern custom furniture Design Bur, Custom Furniture consultation Design Bur, Custom Furniture cost Design Bur, Custom Furniture price Design Bur, Top custom furniture Design Bur
+
+// SEO Keywords: Custom Furniture Design Bur, Custom Furniture in Design Bur, Best custom furniture Design Bur, Professional custom furniture Design Bur, Luxury custom furniture Design Bur, Custom Furniture Design Bur Dubai, Custom Furniture designer Design Bur, Custom Furniture company Design Bur, Custom Furniture contractor Design Bur, Affordable custom furniture Design Bur, Modern custom furniture Design Bur, Custom Furniture consultation Design Bur, Custom Furniture cost Design Bur, Custom Furniture price Design Bur, Top custom furniture Design Bur, Custom Furniture near Design Bur, Custom Furniture specialists Design Bur, Custom Furniture experts Design Bur, Custom Furniture solutions Design Bur, Custom Furniture packages Design Bur, Custom Furniture quotes Design Bur, Custom Furniture estimates Design Bur, Custom Furniture services near me Design Bur, Cheap Custom Furniture Design Bur, Quality Custom Furniture Design Bur, Trusted Custom Furniture Design Bur, Custom Furniture transformation Design Bur, Custom Furniture renovation Design Bur, Custom Furniture makeover Design Bur, Best Custom Furniture company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture in Design Bur. Best custom furniture Design Bur Company Design Bur Our luxury custom furniture design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

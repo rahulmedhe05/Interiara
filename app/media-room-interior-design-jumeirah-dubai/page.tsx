@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Media Room Interior Design Jumeirah, Media Room Interior in Design Jumeirah, Best media room interior Design Jumeirah, Professional media room interior Design Jumeirah, Luxury media room interior Design Jumeirah, Media Room Interior Design Jumeirah Dubai, Media Room Interior designer Design Jumeirah, Media Room Interior company Design Jumeirah, Media Room Interior contractor Design Jumeirah, Affordable media room interior Design Jumeirah, Modern media room interior Design Jumeirah, Media Room Interior consultation Design Jumeirah, Media Room Interior cost Design Jumeirah, Media Room Interior price Design Jumeirah, Top media room interior Design Jumeirah
+
+// SEO Keywords: Media Room Interior Design Jumeirah, Media Room Interior in Design Jumeirah, Best media room interior Design Jumeirah, Professional media room interior Design Jumeirah, Luxury media room interior Design Jumeirah, Media Room Interior Design Jumeirah Dubai, Media Room Interior designer Design Jumeirah, Media Room Interior company Design Jumeirah, Media Room Interior contractor Design Jumeirah, Affordable media room interior Design Jumeirah, Modern media room interior Design Jumeirah, Media Room Interior consultation Design Jumeirah, Media Room Interior cost Design Jumeirah, Media Room Interior price Design Jumeirah, Top media room interior Design Jumeirah, Media Room Interior near Design Jumeirah, Media Room Interior specialists Design Jumeirah, Media Room Interior experts Design Jumeirah, Media Room Interior solutions Design Jumeirah, Media Room Interior packages Design Jumeirah, Media Room Interior quotes Design Jumeirah, Media Room Interior estimates Design Jumeirah, Media Room Interior services near me Design Jumeirah, Cheap Media Room Interior Design Jumeirah, Quality Media Room Interior Design Jumeirah, Trusted Media Room Interior Design Jumeirah, Media Room Interior transformation Design Jumeirah, Media Room Interior renovation Design Jumeirah, Media Room Interior makeover Design Jumeirah, Best Media Room Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MediaRoomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Media Room Interior in Design Jumeirah. Best media room interior Design Jumeirah Company Design Jumeirah Our luxury media room interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MediaRoomInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our media room interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MediaRoomInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in media room interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MediaRoomInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

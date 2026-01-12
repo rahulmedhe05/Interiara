@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Arabian Ranches, Lighting Design in Arabian Ranches, Best lighting design Arabian Ranches, Professional lighting design Arabian Ranches, Luxury lighting design Arabian Ranches, Lighting Design Arabian Ranches Dubai, Lighting Design designer Arabian Ranches, Lighting Design company Arabian Ranches, Lighting Design contractor Arabian Ranches, Affordable lighting design Arabian Ranches, Modern lighting design Arabian Ranches, Lighting Design consultation Arabian Ranches, Lighting Design cost Arabian Ranches, Lighting Design price Arabian Ranches, Top lighting design Arabian Ranches
+
+// SEO Keywords: Lighting Design Arabian Ranches, Lighting Design in Arabian Ranches, Best lighting design Arabian Ranches, Professional lighting design Arabian Ranches, Luxury lighting design Arabian Ranches, Lighting Design Arabian Ranches Dubai, Lighting Design designer Arabian Ranches, Lighting Design company Arabian Ranches, Lighting Design contractor Arabian Ranches, Affordable lighting design Arabian Ranches, Modern lighting design Arabian Ranches, Lighting Design consultation Arabian Ranches, Lighting Design cost Arabian Ranches, Lighting Design price Arabian Ranches, Top lighting design Arabian Ranches, Lighting Design near Arabian Ranches, Lighting Design specialists Arabian Ranches, Lighting Design experts Arabian Ranches, Lighting Design solutions Arabian Ranches, Lighting Design packages Arabian Ranches, Lighting Design quotes Arabian Ranches, Lighting Design estimates Arabian Ranches, Lighting Design services near me Arabian Ranches, Cheap Lighting Design Arabian Ranches, Quality Lighting Design Arabian Ranches, Trusted Lighting Design Arabian Ranches, Lighting Design transformation Arabian Ranches, Lighting Design renovation Arabian Ranches, Lighting Design makeover Arabian Ranches, Best Lighting Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Design in Arabian Ranches. Best lighting design Arabian Ranches Company Arabian Ranches Our luxury lighting design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

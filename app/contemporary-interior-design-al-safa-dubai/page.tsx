@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Al Safa, Contemporary Interior Design in Al Safa, Best contemporary interior design Al Safa, Professional contemporary interior design Al Safa, Luxury contemporary interior design Al Safa, Contemporary Interior Design Al Safa Dubai, Contemporary Interior Design designer Al Safa, Contemporary Interior Design company Al Safa, Contemporary Interior Design contractor Al Safa, Affordable contemporary interior design Al Safa, Modern contemporary interior design Al Safa, Contemporary Interior Design consultation Al Safa, Contemporary Interior Design cost Al Safa, Contemporary Interior Design price Al Safa, Top contemporary interior design Al Safa
+
+// SEO Keywords: Contemporary Interior Design Al Safa, Contemporary Interior Design in Al Safa, Best contemporary interior design Al Safa, Professional contemporary interior design Al Safa, Luxury contemporary interior design Al Safa, Contemporary Interior Design Al Safa Dubai, Contemporary Interior Design designer Al Safa, Contemporary Interior Design company Al Safa, Contemporary Interior Design contractor Al Safa, Affordable contemporary interior design Al Safa, Modern contemporary interior design Al Safa, Contemporary Interior Design consultation Al Safa, Contemporary Interior Design cost Al Safa, Contemporary Interior Design price Al Safa, Top contemporary interior design Al Safa, Contemporary Interior Design near Al Safa, Contemporary Interior Design specialists Al Safa, Contemporary Interior Design experts Al Safa, Contemporary Interior Design solutions Al Safa, Contemporary Interior Design packages Al Safa, Contemporary Interior Design quotes Al Safa, Contemporary Interior Design estimates Al Safa, Contemporary Interior Design services near me Al Safa, Cheap Contemporary Interior Design Al Safa, Quality Contemporary Interior Design Al Safa, Trusted Contemporary Interior Design Al Safa, Contemporary Interior Design transformation Al Safa, Contemporary Interior Design renovation Al Safa, Contemporary Interior Design makeover Al Safa, Best Contemporary Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Al Safa Company Al Safa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Al Safa. Best contemporary interior design Al Safa Company Al Safa Our luxury contemporary interior design al safa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignAlSafa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in al safa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near al safa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

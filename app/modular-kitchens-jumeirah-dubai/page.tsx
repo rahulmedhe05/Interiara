@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Jumeirah, Modular in Kitchens Jumeirah, Best modular Kitchens Jumeirah, Professional modular Kitchens Jumeirah, Luxury modular Kitchens Jumeirah, Modular Kitchens Jumeirah Dubai, Modular designer Kitchens Jumeirah, Modular company Kitchens Jumeirah, Modular contractor Kitchens Jumeirah, Affordable modular Kitchens Jumeirah, Modern modular Kitchens Jumeirah, Modular consultation Kitchens Jumeirah, Modular cost Kitchens Jumeirah, Modular price Kitchens Jumeirah, Top modular Kitchens Jumeirah
+
+// SEO Keywords: Modular Kitchens Jumeirah, Modular in Kitchens Jumeirah, Best modular Kitchens Jumeirah, Professional modular Kitchens Jumeirah, Luxury modular Kitchens Jumeirah, Modular Kitchens Jumeirah Dubai, Modular designer Kitchens Jumeirah, Modular company Kitchens Jumeirah, Modular contractor Kitchens Jumeirah, Affordable modular Kitchens Jumeirah, Modern modular Kitchens Jumeirah, Modular consultation Kitchens Jumeirah, Modular cost Kitchens Jumeirah, Modular price Kitchens Jumeirah, Top modular Kitchens Jumeirah, Modular near Kitchens Jumeirah, Modular specialists Kitchens Jumeirah, Modular experts Kitchens Jumeirah, Modular solutions Kitchens Jumeirah, Modular packages Kitchens Jumeirah, Modular quotes Kitchens Jumeirah, Modular estimates Kitchens Jumeirah, Modular services near me Kitchens Jumeirah, Cheap Modular Kitchens Jumeirah, Quality Modular Kitchens Jumeirah, Trusted Modular Kitchens Jumeirah, Modular transformation Kitchens Jumeirah, Modular renovation Kitchens Jumeirah, Modular makeover Kitchens Jumeirah, Best Modular company Kitchens Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Jumeirah Company Kitchens Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular in Kitchens Jumeirah. Best modular Kitchens Jumeirah Company Kitchens Jumeirah Our luxury modular kitchens jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular in kitchens jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular near kitchens jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Al Hamriya, Wall Coverings in Al Hamriya, Best wall coverings Al Hamriya, Professional wall coverings Al Hamriya, Luxury wall coverings Al Hamriya, Wall Coverings Al Hamriya Dubai, Wall Coverings designer Al Hamriya, Wall Coverings company Al Hamriya, Wall Coverings contractor Al Hamriya, Affordable wall coverings Al Hamriya, Modern wall coverings Al Hamriya, Wall Coverings consultation Al Hamriya, Wall Coverings cost Al Hamriya, Wall Coverings price Al Hamriya, Top wall coverings Al Hamriya
+
+// SEO Keywords: Wall Coverings Al Hamriya, Wall Coverings in Al Hamriya, Best wall coverings Al Hamriya, Professional wall coverings Al Hamriya, Luxury wall coverings Al Hamriya, Wall Coverings Al Hamriya Dubai, Wall Coverings designer Al Hamriya, Wall Coverings company Al Hamriya, Wall Coverings contractor Al Hamriya, Affordable wall coverings Al Hamriya, Modern wall coverings Al Hamriya, Wall Coverings consultation Al Hamriya, Wall Coverings cost Al Hamriya, Wall Coverings price Al Hamriya, Top wall coverings Al Hamriya, Wall Coverings near Al Hamriya, Wall Coverings specialists Al Hamriya, Wall Coverings experts Al Hamriya, Wall Coverings solutions Al Hamriya, Wall Coverings packages Al Hamriya, Wall Coverings quotes Al Hamriya, Wall Coverings estimates Al Hamriya, Wall Coverings services near me Al Hamriya, Cheap Wall Coverings Al Hamriya, Quality Wall Coverings Al Hamriya, Trusted Wall Coverings Al Hamriya, Wall Coverings transformation Al Hamriya, Wall Coverings renovation Al Hamriya, Wall Coverings makeover Al Hamriya, Best Wall Coverings company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsAlHamriya() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Al Hamriya Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Hamriya Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings in Al Hamriya. 
                 We've completed 300+ successful projects across Al Hamriya Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Al Hamriya Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings al hamriya services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Al Hamriya Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall coverings in al hamriya service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall coverings near al hamriya.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

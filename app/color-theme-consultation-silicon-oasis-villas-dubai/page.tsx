@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Silicon Oasis Villas, Color Theme Consultation Silicon in Oasis Villas, Best color theme consultation silicon Oasis Villas, Professional color theme consultation silicon Oasis Villas, Luxury color theme consultation silicon Oasis Villas, Color Theme Consultation Silicon Oasis Villas Dubai, Color Theme Consultation Silicon designer Oasis Villas, Color Theme Consultation Silicon company Oasis Villas, Color Theme Consultation Silicon contractor Oasis Villas, Affordable color theme consultation silicon Oasis Villas, Modern color theme consultation silicon Oasis Villas, Color Theme Consultation Silicon consultation Oasis Villas, Color Theme Consultation Silicon cost Oasis Villas, Color Theme Consultation Silicon price Oasis Villas, Top color theme consultation silicon Oasis Villas
+
+// SEO Keywords: Color Theme Consultation Silicon Oasis Villas, Color Theme Consultation Silicon in Oasis Villas, Best color theme consultation silicon Oasis Villas, Professional color theme consultation silicon Oasis Villas, Luxury color theme consultation silicon Oasis Villas, Color Theme Consultation Silicon Oasis Villas Dubai, Color Theme Consultation Silicon designer Oasis Villas, Color Theme Consultation Silicon company Oasis Villas, Color Theme Consultation Silicon contractor Oasis Villas, Affordable color theme consultation silicon Oasis Villas, Modern color theme consultation silicon Oasis Villas, Color Theme Consultation Silicon consultation Oasis Villas, Color Theme Consultation Silicon cost Oasis Villas, Color Theme Consultation Silicon price Oasis Villas, Top color theme consultation silicon Oasis Villas, Color Theme Consultation Silicon near Oasis Villas, Color Theme Consultation Silicon specialists Oasis Villas, Color Theme Consultation Silicon experts Oasis Villas, Color Theme Consultation Silicon solutions Oasis Villas, Color Theme Consultation Silicon packages Oasis Villas, Color Theme Consultation Silicon quotes Oasis Villas, Color Theme Consultation Silicon estimates Oasis Villas, Color Theme Consultation Silicon services near me Oasis Villas, Cheap Color Theme Consultation Silicon Oasis Villas, Quality Color Theme Consultation Silicon Oasis Villas, Trusted Color Theme Consultation Silicon Oasis Villas, Color Theme Consultation Silicon transformation Oasis Villas, Color Theme Consultation Silicon renovation Oasis Villas, Color Theme Consultation Silicon makeover Oasis Villas, Best Color Theme Consultation Silicon company Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation silicon Oasis Villas Company Oasis Villas</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation Silicon in Oasis Villas. Best color theme consultation silicon Oasis Villas Company Oasis Villas Our luxury color theme consultation silicon oasis villas services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationSiliconOasisVillas() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation silicon in oasis villas service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationSiliconOasisVillas() {
 
               <p>
                 Interiara stands out in the crowded Silicon Oasis Villas Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation silicon near oasis villas.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationSiliconOasisVillas() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

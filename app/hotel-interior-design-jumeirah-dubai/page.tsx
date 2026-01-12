@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Jumeirah, Hotel Interior in Design Jumeirah, Best hotel interior Design Jumeirah, Professional hotel interior Design Jumeirah, Luxury hotel interior Design Jumeirah, Hotel Interior Design Jumeirah Dubai, Hotel Interior designer Design Jumeirah, Hotel Interior company Design Jumeirah, Hotel Interior contractor Design Jumeirah, Affordable hotel interior Design Jumeirah, Modern hotel interior Design Jumeirah, Hotel Interior consultation Design Jumeirah, Hotel Interior cost Design Jumeirah, Hotel Interior price Design Jumeirah, Top hotel interior Design Jumeirah
+
+// SEO Keywords: Hotel Interior Design Jumeirah, Hotel Interior in Design Jumeirah, Best hotel interior Design Jumeirah, Professional hotel interior Design Jumeirah, Luxury hotel interior Design Jumeirah, Hotel Interior Design Jumeirah Dubai, Hotel Interior designer Design Jumeirah, Hotel Interior company Design Jumeirah, Hotel Interior contractor Design Jumeirah, Affordable hotel interior Design Jumeirah, Modern hotel interior Design Jumeirah, Hotel Interior consultation Design Jumeirah, Hotel Interior cost Design Jumeirah, Hotel Interior price Design Jumeirah, Top hotel interior Design Jumeirah, Hotel Interior near Design Jumeirah, Hotel Interior specialists Design Jumeirah, Hotel Interior experts Design Jumeirah, Hotel Interior solutions Design Jumeirah, Hotel Interior packages Design Jumeirah, Hotel Interior quotes Design Jumeirah, Hotel Interior estimates Design Jumeirah, Hotel Interior services near me Design Jumeirah, Cheap Hotel Interior Design Jumeirah, Quality Hotel Interior Design Jumeirah, Trusted Hotel Interior Design Jumeirah, Hotel Interior transformation Design Jumeirah, Hotel Interior renovation Design Jumeirah, Hotel Interior makeover Design Jumeirah, Best Hotel Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior in Design Jumeirah. Best hotel interior Design Jumeirah Company Design Jumeirah Our luxury hotel interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

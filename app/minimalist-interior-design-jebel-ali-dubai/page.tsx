@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Minimalist Interior Design Jebel Ali, Minimalist Interior Design in Jebel Ali, Best minimalist interior design Jebel Ali, Professional minimalist interior design Jebel Ali, Luxury minimalist interior design Jebel Ali, Minimalist Interior Design Jebel Ali Dubai, Minimalist Interior Design designer Jebel Ali, Minimalist Interior Design company Jebel Ali, Minimalist Interior Design contractor Jebel Ali, Affordable minimalist interior design Jebel Ali, Modern minimalist interior design Jebel Ali, Minimalist Interior Design consultation Jebel Ali, Minimalist Interior Design cost Jebel Ali, Minimalist Interior Design price Jebel Ali, Top minimalist interior design Jebel Ali
+
+// SEO Keywords: Minimalist Interior Design Jebel Ali, Minimalist Interior Design in Jebel Ali, Best minimalist interior design Jebel Ali, Professional minimalist interior design Jebel Ali, Luxury minimalist interior design Jebel Ali, Minimalist Interior Design Jebel Ali Dubai, Minimalist Interior Design designer Jebel Ali, Minimalist Interior Design company Jebel Ali, Minimalist Interior Design contractor Jebel Ali, Affordable minimalist interior design Jebel Ali, Modern minimalist interior design Jebel Ali, Minimalist Interior Design consultation Jebel Ali, Minimalist Interior Design cost Jebel Ali, Minimalist Interior Design price Jebel Ali, Top minimalist interior design Jebel Ali, Minimalist Interior Design near Jebel Ali, Minimalist Interior Design specialists Jebel Ali, Minimalist Interior Design experts Jebel Ali, Minimalist Interior Design solutions Jebel Ali, Minimalist Interior Design packages Jebel Ali, Minimalist Interior Design quotes Jebel Ali, Minimalist Interior Design estimates Jebel Ali, Minimalist Interior Design services near me Jebel Ali, Cheap Minimalist Interior Design Jebel Ali, Quality Minimalist Interior Design Jebel Ali, Trusted Minimalist Interior Design Jebel Ali, Minimalist Interior Design transformation Jebel Ali, Minimalist Interior Design renovation Jebel Ali, Minimalist Interior Design makeover Jebel Ali, Best Minimalist Interior Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MinimalistInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Minimalist Interior Design in Jebel Ali. Best minimalist interior design Jebel Ali Company Jebel Ali Our luxury minimalist interior design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MinimalistInteriorDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our minimalist interior design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MinimalistInteriorDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in minimalist interior design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MinimalistInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

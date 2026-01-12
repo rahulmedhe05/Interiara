@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Satwa, Art Consultation in Al Satwa, Best art consultation Al Satwa, Professional art consultation Al Satwa, Luxury art consultation Al Satwa, Art Consultation Al Satwa Dubai, Art Consultation designer Al Satwa, Art Consultation company Al Satwa, Art Consultation contractor Al Satwa, Affordable art consultation Al Satwa, Modern art consultation Al Satwa, Art Consultation consultation Al Satwa, Art Consultation cost Al Satwa, Art Consultation price Al Satwa, Top art consultation Al Satwa
+
+// SEO Keywords: Art Consultation Al Satwa, Art Consultation in Al Satwa, Best art consultation Al Satwa, Professional art consultation Al Satwa, Luxury art consultation Al Satwa, Art Consultation Al Satwa Dubai, Art Consultation designer Al Satwa, Art Consultation company Al Satwa, Art Consultation contractor Al Satwa, Affordable art consultation Al Satwa, Modern art consultation Al Satwa, Art Consultation consultation Al Satwa, Art Consultation cost Al Satwa, Art Consultation price Al Satwa, Top art consultation Al Satwa, Art Consultation near Al Satwa, Art Consultation specialists Al Satwa, Art Consultation experts Al Satwa, Art Consultation solutions Al Satwa, Art Consultation packages Al Satwa, Art Consultation quotes Al Satwa, Art Consultation estimates Al Satwa, Art Consultation services near me Al Satwa, Cheap Art Consultation Al Satwa, Quality Art Consultation Al Satwa, Trusted Art Consultation Al Satwa, Art Consultation transformation Al Satwa, Art Consultation renovation Al Satwa, Art Consultation makeover Al Satwa, Best Art Consultation company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlSatwa() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Satwa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Satwa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Satwa. 
                 We've completed 300+ successful projects across Al Satwa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Satwa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al satwa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Satwa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al satwa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al satwa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

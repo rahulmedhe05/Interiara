@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Palm, Lighting in Design Palm, Best lighting Design Palm, Professional lighting Design Palm, Luxury lighting Design Palm, Lighting Design Palm Dubai, Lighting designer Design Palm, Lighting company Design Palm, Lighting contractor Design Palm, Affordable lighting Design Palm, Modern lighting Design Palm, Lighting consultation Design Palm, Lighting cost Design Palm, Lighting price Design Palm, Top lighting Design Palm
+
+// SEO Keywords: Lighting Design Palm, Lighting in Design Palm, Best lighting Design Palm, Professional lighting Design Palm, Luxury lighting Design Palm, Lighting Design Palm Dubai, Lighting designer Design Palm, Lighting company Design Palm, Lighting contractor Design Palm, Affordable lighting Design Palm, Modern lighting Design Palm, Lighting consultation Design Palm, Lighting cost Design Palm, Lighting price Design Palm, Top lighting Design Palm, Lighting near Design Palm, Lighting specialists Design Palm, Lighting experts Design Palm, Lighting solutions Design Palm, Lighting packages Design Palm, Lighting quotes Design Palm, Lighting estimates Design Palm, Lighting services near me Design Palm, Cheap Lighting Design Palm, Quality Lighting Design Palm, Trusted Lighting Design Palm, Lighting transformation Design Palm, Lighting renovation Design Palm, Lighting makeover Design Palm, Best Lighting company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignPalm() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Palm Jumeirah Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Palm Jumeirah Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting in Design Palm. 
                 We've completed 300+ successful projects across Palm Jumeirah Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Palm Jumeirah Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design palm services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Palm Jumeirah Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting in design palm service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting near design palm.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

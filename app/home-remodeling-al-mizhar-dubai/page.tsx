@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Al Mizhar, Home Remodeling in Al Mizhar, Best home remodeling Al Mizhar, Professional home remodeling Al Mizhar, Luxury home remodeling Al Mizhar, Home Remodeling Al Mizhar Dubai, Home Remodeling designer Al Mizhar, Home Remodeling company Al Mizhar, Home Remodeling contractor Al Mizhar, Affordable home remodeling Al Mizhar, Modern home remodeling Al Mizhar, Home Remodeling consultation Al Mizhar, Home Remodeling cost Al Mizhar, Home Remodeling price Al Mizhar, Top home remodeling Al Mizhar
+
+// SEO Keywords: Home Remodeling Al Mizhar, Home Remodeling in Al Mizhar, Best home remodeling Al Mizhar, Professional home remodeling Al Mizhar, Luxury home remodeling Al Mizhar, Home Remodeling Al Mizhar Dubai, Home Remodeling designer Al Mizhar, Home Remodeling company Al Mizhar, Home Remodeling contractor Al Mizhar, Affordable home remodeling Al Mizhar, Modern home remodeling Al Mizhar, Home Remodeling consultation Al Mizhar, Home Remodeling cost Al Mizhar, Home Remodeling price Al Mizhar, Top home remodeling Al Mizhar, Home Remodeling near Al Mizhar, Home Remodeling specialists Al Mizhar, Home Remodeling experts Al Mizhar, Home Remodeling solutions Al Mizhar, Home Remodeling packages Al Mizhar, Home Remodeling quotes Al Mizhar, Home Remodeling estimates Al Mizhar, Home Remodeling services near me Al Mizhar, Cheap Home Remodeling Al Mizhar, Quality Home Remodeling Al Mizhar, Trusted Home Remodeling Al Mizhar, Home Remodeling transformation Al Mizhar, Home Remodeling renovation Al Mizhar, Home Remodeling makeover Al Mizhar, Best Home Remodeling company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRemodelingAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Home Remodeling Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Remodeling in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Remodeling Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home remodeling al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Remodeling Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRemodelingAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home remodeling in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home remodeling near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRemodelingAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

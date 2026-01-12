@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Dubai Design District, Space Planning Dubai in Design District, Best space planning dubai Design District, Professional space planning dubai Design District, Luxury space planning dubai Design District, Space Planning Dubai Design District Dubai, Space Planning Dubai designer Design District, Space Planning Dubai company Design District, Space Planning Dubai contractor Design District, Affordable space planning dubai Design District, Modern space planning dubai Design District, Space Planning Dubai consultation Design District, Space Planning Dubai cost Design District, Space Planning Dubai price Design District, Top space planning dubai Design District
+
+// SEO Keywords: Space Planning Dubai Design District, Space Planning Dubai in Design District, Best space planning dubai Design District, Professional space planning dubai Design District, Luxury space planning dubai Design District, Space Planning Dubai Design District Dubai, Space Planning Dubai designer Design District, Space Planning Dubai company Design District, Space Planning Dubai contractor Design District, Affordable space planning dubai Design District, Modern space planning dubai Design District, Space Planning Dubai consultation Design District, Space Planning Dubai cost Design District, Space Planning Dubai price Design District, Top space planning dubai Design District, Space Planning Dubai near Design District, Space Planning Dubai specialists Design District, Space Planning Dubai experts Design District, Space Planning Dubai solutions Design District, Space Planning Dubai packages Design District, Space Planning Dubai quotes Design District, Space Planning Dubai estimates Design District, Space Planning Dubai services near me Design District, Cheap Space Planning Dubai Design District, Quality Space Planning Dubai Design District, Trusted Space Planning Dubai Design District, Space Planning Dubai transformation Design District, Space Planning Dubai renovation Design District, Space Planning Dubai makeover Design District, Best Space Planning Dubai company Design District
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDubaiDesignDistrict() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Design District Company Design District</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning Dubai in Design District. Best space planning dubai Design District Company Design District Our professional space planning dubai design district services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SpacePlanningDubaiDesignDistrict() {
                 At Interiara, we believe that exceptional <strong>Space Planning Design District Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the District Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning Dubai Design District. 
                 We've completed 300+ successful projects across District Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Design District Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SpacePlanningDubaiDesignDistrict() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning dubai in design district service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDubaiDesignDistrict() {
 
               <p>
                 Interiara stands out in the crowded District Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning dubai near design district.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDubaiDesignDistrict() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Business Bay South, Wall Flooring Design Business in Bay South, Best wall flooring design business Bay South, Professional wall flooring design business Bay South, Luxury wall flooring design business Bay South, Wall Flooring Design Business Bay South Dubai, Wall Flooring Design Business designer Bay South, Wall Flooring Design Business company Bay South, Wall Flooring Design Business contractor Bay South, Affordable wall flooring design business Bay South, Modern wall flooring design business Bay South, Wall Flooring Design Business consultation Bay South, Wall Flooring Design Business cost Bay South, Wall Flooring Design Business price Bay South, Top wall flooring design business Bay South
+
+// SEO Keywords: Wall Flooring Design Business Bay South, Wall Flooring Design Business in Bay South, Best wall flooring design business Bay South, Professional wall flooring design business Bay South, Luxury wall flooring design business Bay South, Wall Flooring Design Business Bay South Dubai, Wall Flooring Design Business designer Bay South, Wall Flooring Design Business company Bay South, Wall Flooring Design Business contractor Bay South, Affordable wall flooring design business Bay South, Modern wall flooring design business Bay South, Wall Flooring Design Business consultation Bay South, Wall Flooring Design Business cost Bay South, Wall Flooring Design Business price Bay South, Top wall flooring design business Bay South, Wall Flooring Design Business near Bay South, Wall Flooring Design Business specialists Bay South, Wall Flooring Design Business experts Bay South, Wall Flooring Design Business solutions Bay South, Wall Flooring Design Business packages Bay South, Wall Flooring Design Business quotes Bay South, Wall Flooring Design Business estimates Bay South, Wall Flooring Design Business services near me Bay South, Cheap Wall Flooring Design Business Bay South, Quality Wall Flooring Design Business Bay South, Trusted Wall Flooring Design Business Bay South, Wall Flooring Design Business transformation Bay South, Wall Flooring Design Business renovation Bay South, Wall Flooring Design Business makeover Bay South, Best Wall Flooring Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design Business in Bay South. Best wall flooring design business Bay South Company Bay South Our luxury wall flooring design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

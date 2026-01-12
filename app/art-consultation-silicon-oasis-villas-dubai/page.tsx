@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Silicon Oasis Villas, Art Consultation Silicon in Oasis Villas, Best art consultation silicon Oasis Villas, Professional art consultation silicon Oasis Villas, Luxury art consultation silicon Oasis Villas, Art Consultation Silicon Oasis Villas Dubai, Art Consultation Silicon designer Oasis Villas, Art Consultation Silicon company Oasis Villas, Art Consultation Silicon contractor Oasis Villas, Affordable art consultation silicon Oasis Villas, Modern art consultation silicon Oasis Villas, Art Consultation Silicon consultation Oasis Villas, Art Consultation Silicon cost Oasis Villas, Art Consultation Silicon price Oasis Villas, Top art consultation silicon Oasis Villas
+
+// SEO Keywords: Art Consultation Silicon Oasis Villas, Art Consultation Silicon in Oasis Villas, Best art consultation silicon Oasis Villas, Professional art consultation silicon Oasis Villas, Luxury art consultation silicon Oasis Villas, Art Consultation Silicon Oasis Villas Dubai, Art Consultation Silicon designer Oasis Villas, Art Consultation Silicon company Oasis Villas, Art Consultation Silicon contractor Oasis Villas, Affordable art consultation silicon Oasis Villas, Modern art consultation silicon Oasis Villas, Art Consultation Silicon consultation Oasis Villas, Art Consultation Silicon cost Oasis Villas, Art Consultation Silicon price Oasis Villas, Top art consultation silicon Oasis Villas, Art Consultation Silicon near Oasis Villas, Art Consultation Silicon specialists Oasis Villas, Art Consultation Silicon experts Oasis Villas, Art Consultation Silicon solutions Oasis Villas, Art Consultation Silicon packages Oasis Villas, Art Consultation Silicon quotes Oasis Villas, Art Consultation Silicon estimates Oasis Villas, Art Consultation Silicon services near me Oasis Villas, Cheap Art Consultation Silicon Oasis Villas, Quality Art Consultation Silicon Oasis Villas, Trusted Art Consultation Silicon Oasis Villas, Art Consultation Silicon transformation Oasis Villas, Art Consultation Silicon renovation Oasis Villas, Art Consultation Silicon makeover Oasis Villas, Best Art Consultation Silicon company Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation silicon Oasis Villas Company Oasis Villas</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art Consultation Silicon in Oasis Villas. Best art consultation silicon Oasis Villas Company Oasis Villas Our luxury art consultation silicon oasis villas services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationSiliconOasisVillas() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art consultation silicon in oasis villas service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationSiliconOasisVillas() {
 
               <p>
                 Interiara stands out in the crowded Silicon Oasis Villas Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art consultation silicon near oasis villas.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationSiliconOasisVillas() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Al Barsha South, Restaurant Interior Design Al in Barsha South, Best restaurant interior design al Barsha South, Professional restaurant interior design al Barsha South, Luxury restaurant interior design al Barsha South, Restaurant Interior Design Al Barsha South Dubai, Restaurant Interior Design Al designer Barsha South, Restaurant Interior Design Al company Barsha South, Restaurant Interior Design Al contractor Barsha South, Affordable restaurant interior design al Barsha South, Modern restaurant interior design al Barsha South, Restaurant Interior Design Al consultation Barsha South, Restaurant Interior Design Al cost Barsha South, Restaurant Interior Design Al price Barsha South, Top restaurant interior design al Barsha South
+
+// SEO Keywords: Restaurant Interior Design Al Barsha South, Restaurant Interior Design Al in Barsha South, Best restaurant interior design al Barsha South, Professional restaurant interior design al Barsha South, Luxury restaurant interior design al Barsha South, Restaurant Interior Design Al Barsha South Dubai, Restaurant Interior Design Al designer Barsha South, Restaurant Interior Design Al company Barsha South, Restaurant Interior Design Al contractor Barsha South, Affordable restaurant interior design al Barsha South, Modern restaurant interior design al Barsha South, Restaurant Interior Design Al consultation Barsha South, Restaurant Interior Design Al cost Barsha South, Restaurant Interior Design Al price Barsha South, Top restaurant interior design al Barsha South, Restaurant Interior Design Al near Barsha South, Restaurant Interior Design Al specialists Barsha South, Restaurant Interior Design Al experts Barsha South, Restaurant Interior Design Al solutions Barsha South, Restaurant Interior Design Al packages Barsha South, Restaurant Interior Design Al quotes Barsha South, Restaurant Interior Design Al estimates Barsha South, Restaurant Interior Design Al services near me Barsha South, Cheap Restaurant Interior Design Al Barsha South, Quality Restaurant Interior Design Al Barsha South, Trusted Restaurant Interior Design Al Barsha South, Restaurant Interior Design Al transformation Barsha South, Restaurant Interior Design Al renovation Barsha South, Restaurant Interior Design Al makeover Barsha South, Best Restaurant Interior Design Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior Design Al in Barsha South. Best restaurant interior design al Barsha South Company Barsha South Our luxury restaurant interior design al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior design al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior design al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

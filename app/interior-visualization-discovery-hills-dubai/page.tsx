@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Discovery Hills, Interior Visualization in Discovery Hills, Best interior visualization Discovery Hills, Professional interior visualization Discovery Hills, Luxury interior visualization Discovery Hills, Interior Visualization Discovery Hills Dubai, Interior Visualization designer Discovery Hills, Interior Visualization company Discovery Hills, Interior Visualization contractor Discovery Hills, Affordable interior visualization Discovery Hills, Modern interior visualization Discovery Hills, Interior Visualization consultation Discovery Hills, Interior Visualization cost Discovery Hills, Interior Visualization price Discovery Hills, Top interior visualization Discovery Hills
+
+// SEO Keywords: Interior Visualization Discovery Hills, Interior Visualization in Discovery Hills, Best interior visualization Discovery Hills, Professional interior visualization Discovery Hills, Luxury interior visualization Discovery Hills, Interior Visualization Discovery Hills Dubai, Interior Visualization designer Discovery Hills, Interior Visualization company Discovery Hills, Interior Visualization contractor Discovery Hills, Affordable interior visualization Discovery Hills, Modern interior visualization Discovery Hills, Interior Visualization consultation Discovery Hills, Interior Visualization cost Discovery Hills, Interior Visualization price Discovery Hills, Top interior visualization Discovery Hills, Interior Visualization near Discovery Hills, Interior Visualization specialists Discovery Hills, Interior Visualization experts Discovery Hills, Interior Visualization solutions Discovery Hills, Interior Visualization packages Discovery Hills, Interior Visualization quotes Discovery Hills, Interior Visualization estimates Discovery Hills, Interior Visualization services near me Discovery Hills, Cheap Interior Visualization Discovery Hills, Quality Interior Visualization Discovery Hills, Trusted Interior Visualization Discovery Hills, Interior Visualization transformation Discovery Hills, Interior Visualization renovation Discovery Hills, Interior Visualization makeover Discovery Hills, Best Interior Visualization company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in Discovery Hills. Best interior visualization Discovery Hills Company Discovery Hills Our luxury interior visualization discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

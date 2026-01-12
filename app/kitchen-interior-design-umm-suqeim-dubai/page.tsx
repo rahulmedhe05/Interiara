@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Umm Suqeim, Kitchen Interior Design in Umm Suqeim, Best kitchen interior design Umm Suqeim, Professional kitchen interior design Umm Suqeim, Luxury kitchen interior design Umm Suqeim, Kitchen Interior Design Umm Suqeim Dubai, Kitchen Interior Design designer Umm Suqeim, Kitchen Interior Design company Umm Suqeim, Kitchen Interior Design contractor Umm Suqeim, Affordable kitchen interior design Umm Suqeim, Modern kitchen interior design Umm Suqeim, Kitchen Interior Design consultation Umm Suqeim, Kitchen Interior Design cost Umm Suqeim, Kitchen Interior Design price Umm Suqeim, Top kitchen interior design Umm Suqeim
+
+// SEO Keywords: Kitchen Interior Design Umm Suqeim, Kitchen Interior Design in Umm Suqeim, Best kitchen interior design Umm Suqeim, Professional kitchen interior design Umm Suqeim, Luxury kitchen interior design Umm Suqeim, Kitchen Interior Design Umm Suqeim Dubai, Kitchen Interior Design designer Umm Suqeim, Kitchen Interior Design company Umm Suqeim, Kitchen Interior Design contractor Umm Suqeim, Affordable kitchen interior design Umm Suqeim, Modern kitchen interior design Umm Suqeim, Kitchen Interior Design consultation Umm Suqeim, Kitchen Interior Design cost Umm Suqeim, Kitchen Interior Design price Umm Suqeim, Top kitchen interior design Umm Suqeim, Kitchen Interior Design near Umm Suqeim, Kitchen Interior Design specialists Umm Suqeim, Kitchen Interior Design experts Umm Suqeim, Kitchen Interior Design solutions Umm Suqeim, Kitchen Interior Design packages Umm Suqeim, Kitchen Interior Design quotes Umm Suqeim, Kitchen Interior Design estimates Umm Suqeim, Kitchen Interior Design services near me Umm Suqeim, Cheap Kitchen Interior Design Umm Suqeim, Quality Kitchen Interior Design Umm Suqeim, Trusted Kitchen Interior Design Umm Suqeim, Kitchen Interior Design transformation Umm Suqeim, Kitchen Interior Design renovation Umm Suqeim, Kitchen Interior Design makeover Umm Suqeim, Best Kitchen Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior Design in Umm Suqeim. Best kitchen interior design Umm Suqeim Company Umm Suqeim Our luxury kitchen interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

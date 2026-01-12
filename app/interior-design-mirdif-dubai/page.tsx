@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Mirdif, Interior in Design Mirdif, Best interior Design Mirdif, Professional interior Design Mirdif, Luxury interior Design Mirdif, Interior Design Mirdif Dubai, Interior designer Design Mirdif, Interior company Design Mirdif, Interior contractor Design Mirdif, Affordable interior Design Mirdif, Modern interior Design Mirdif, Interior consultation Design Mirdif, Interior cost Design Mirdif, Interior price Design Mirdif, Top interior Design Mirdif
+
+// SEO Keywords: Interior Design Mirdif, Interior in Design Mirdif, Best interior Design Mirdif, Professional interior Design Mirdif, Luxury interior Design Mirdif, Interior Design Mirdif Dubai, Interior designer Design Mirdif, Interior company Design Mirdif, Interior contractor Design Mirdif, Affordable interior Design Mirdif, Modern interior Design Mirdif, Interior consultation Design Mirdif, Interior cost Design Mirdif, Interior price Design Mirdif, Top interior Design Mirdif, Interior near Design Mirdif, Interior specialists Design Mirdif, Interior experts Design Mirdif, Interior solutions Design Mirdif, Interior packages Design Mirdif, Interior quotes Design Mirdif, Interior estimates Design Mirdif, Interior services near me Design Mirdif, Cheap Interior Design Mirdif, Quality Interior Design Mirdif, Trusted Interior Design Mirdif, Interior transformation Design Mirdif, Interior renovation Design Mirdif, Interior makeover Design Mirdif, Best Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignMirdif() {
                 At Interiara, we believe that exceptional <strong>Interior Design Mirdif Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Mirdif Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior in Design Mirdif. 
                 We've completed 300+ successful projects across Mirdif Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Mirdif Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design mirdif services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Mirdif Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior in design mirdif service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior near design mirdif.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

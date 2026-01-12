@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation The Sustainable City, Lighting Automation The in Sustainable City, Best lighting automation the Sustainable City, Professional lighting automation the Sustainable City, Luxury lighting automation the Sustainable City, Lighting Automation The Sustainable City Dubai, Lighting Automation The designer Sustainable City, Lighting Automation The company Sustainable City, Lighting Automation The contractor Sustainable City, Affordable lighting automation the Sustainable City, Modern lighting automation the Sustainable City, Lighting Automation The consultation Sustainable City, Lighting Automation The cost Sustainable City, Lighting Automation The price Sustainable City, Top lighting automation the Sustainable City
+
+// SEO Keywords: Lighting Automation The Sustainable City, Lighting Automation The in Sustainable City, Best lighting automation the Sustainable City, Professional lighting automation the Sustainable City, Luxury lighting automation the Sustainable City, Lighting Automation The Sustainable City Dubai, Lighting Automation The designer Sustainable City, Lighting Automation The company Sustainable City, Lighting Automation The contractor Sustainable City, Affordable lighting automation the Sustainable City, Modern lighting automation the Sustainable City, Lighting Automation The consultation Sustainable City, Lighting Automation The cost Sustainable City, Lighting Automation The price Sustainable City, Top lighting automation the Sustainable City, Lighting Automation The near Sustainable City, Lighting Automation The specialists Sustainable City, Lighting Automation The experts Sustainable City, Lighting Automation The solutions Sustainable City, Lighting Automation The packages Sustainable City, Lighting Automation The quotes Sustainable City, Lighting Automation The estimates Sustainable City, Lighting Automation The services near me Sustainable City, Cheap Lighting Automation The Sustainable City, Quality Lighting Automation The Sustainable City, Trusted Lighting Automation The Sustainable City, Lighting Automation The transformation Sustainable City, Lighting Automation The renovation Sustainable City, Lighting Automation The makeover Sustainable City, Best Lighting Automation The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation The in Sustainable City. Best lighting automation the Sustainable City Company Sustainable City Our luxury lighting automation the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

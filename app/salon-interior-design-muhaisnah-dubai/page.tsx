@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Muhaisnah, Salon Interior in Design Muhaisnah, Best salon interior Design Muhaisnah, Professional salon interior Design Muhaisnah, Luxury salon interior Design Muhaisnah, Salon Interior Design Muhaisnah Dubai, Salon Interior designer Design Muhaisnah, Salon Interior company Design Muhaisnah, Salon Interior contractor Design Muhaisnah, Affordable salon interior Design Muhaisnah, Modern salon interior Design Muhaisnah, Salon Interior consultation Design Muhaisnah, Salon Interior cost Design Muhaisnah, Salon Interior price Design Muhaisnah, Top salon interior Design Muhaisnah
+
+// SEO Keywords: Salon Interior Design Muhaisnah, Salon Interior in Design Muhaisnah, Best salon interior Design Muhaisnah, Professional salon interior Design Muhaisnah, Luxury salon interior Design Muhaisnah, Salon Interior Design Muhaisnah Dubai, Salon Interior designer Design Muhaisnah, Salon Interior company Design Muhaisnah, Salon Interior contractor Design Muhaisnah, Affordable salon interior Design Muhaisnah, Modern salon interior Design Muhaisnah, Salon Interior consultation Design Muhaisnah, Salon Interior cost Design Muhaisnah, Salon Interior price Design Muhaisnah, Top salon interior Design Muhaisnah, Salon Interior near Design Muhaisnah, Salon Interior specialists Design Muhaisnah, Salon Interior experts Design Muhaisnah, Salon Interior solutions Design Muhaisnah, Salon Interior packages Design Muhaisnah, Salon Interior quotes Design Muhaisnah, Salon Interior estimates Design Muhaisnah, Salon Interior services near me Design Muhaisnah, Cheap Salon Interior Design Muhaisnah, Quality Salon Interior Design Muhaisnah, Trusted Salon Interior Design Muhaisnah, Salon Interior transformation Design Muhaisnah, Salon Interior renovation Design Muhaisnah, Salon Interior makeover Design Muhaisnah, Best Salon Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SalonInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Salon Interior in Design Muhaisnah. Best salon interior Design Muhaisnah Company Design Muhaisnah Our luxury salon interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SalonInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our salon interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SalonInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in salon interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

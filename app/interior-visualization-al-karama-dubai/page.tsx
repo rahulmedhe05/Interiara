@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Al Karama, Interior Visualization in Al Karama, Best interior visualization Al Karama, Professional interior visualization Al Karama, Luxury interior visualization Al Karama, Interior Visualization Al Karama Dubai, Interior Visualization designer Al Karama, Interior Visualization company Al Karama, Interior Visualization contractor Al Karama, Affordable interior visualization Al Karama, Modern interior visualization Al Karama, Interior Visualization consultation Al Karama, Interior Visualization cost Al Karama, Interior Visualization price Al Karama, Top interior visualization Al Karama
+
+// SEO Keywords: Interior Visualization Al Karama, Interior Visualization in Al Karama, Best interior visualization Al Karama, Professional interior visualization Al Karama, Luxury interior visualization Al Karama, Interior Visualization Al Karama Dubai, Interior Visualization designer Al Karama, Interior Visualization company Al Karama, Interior Visualization contractor Al Karama, Affordable interior visualization Al Karama, Modern interior visualization Al Karama, Interior Visualization consultation Al Karama, Interior Visualization cost Al Karama, Interior Visualization price Al Karama, Top interior visualization Al Karama, Interior Visualization near Al Karama, Interior Visualization specialists Al Karama, Interior Visualization experts Al Karama, Interior Visualization solutions Al Karama, Interior Visualization packages Al Karama, Interior Visualization quotes Al Karama, Interior Visualization estimates Al Karama, Interior Visualization services near me Al Karama, Cheap Interior Visualization Al Karama, Quality Interior Visualization Al Karama, Trusted Interior Visualization Al Karama, Interior Visualization transformation Al Karama, Interior Visualization renovation Al Karama, Interior Visualization makeover Al Karama, Best Interior Visualization company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in Al Karama. Best interior visualization Al Karama Company Al Karama Our luxury interior visualization al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

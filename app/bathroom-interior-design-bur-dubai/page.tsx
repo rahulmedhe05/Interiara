@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bathroom Interior Design Bur, Bathroom Interior in Design Bur, Best bathroom interior Design Bur, Professional bathroom interior Design Bur, Luxury bathroom interior Design Bur, Bathroom Interior Design Bur Dubai, Bathroom Interior designer Design Bur, Bathroom Interior company Design Bur, Bathroom Interior contractor Design Bur, Affordable bathroom interior Design Bur, Modern bathroom interior Design Bur, Bathroom Interior consultation Design Bur, Bathroom Interior cost Design Bur, Bathroom Interior price Design Bur, Top bathroom interior Design Bur
+
+// SEO Keywords: Bathroom Interior Design Bur, Bathroom Interior in Design Bur, Best bathroom interior Design Bur, Professional bathroom interior Design Bur, Luxury bathroom interior Design Bur, Bathroom Interior Design Bur Dubai, Bathroom Interior designer Design Bur, Bathroom Interior company Design Bur, Bathroom Interior contractor Design Bur, Affordable bathroom interior Design Bur, Modern bathroom interior Design Bur, Bathroom Interior consultation Design Bur, Bathroom Interior cost Design Bur, Bathroom Interior price Design Bur, Top bathroom interior Design Bur, Bathroom Interior near Design Bur, Bathroom Interior specialists Design Bur, Bathroom Interior experts Design Bur, Bathroom Interior solutions Design Bur, Bathroom Interior packages Design Bur, Bathroom Interior quotes Design Bur, Bathroom Interior estimates Design Bur, Bathroom Interior services near me Design Bur, Cheap Bathroom Interior Design Bur, Quality Bathroom Interior Design Bur, Trusted Bathroom Interior Design Bur, Bathroom Interior transformation Design Bur, Bathroom Interior renovation Design Bur, Bathroom Interior makeover Design Bur, Best Bathroom Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BathroomInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bathroom Interior in Design Bur. Best bathroom interior Design Bur Company Design Bur Our luxury bathroom interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BathroomInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bathroom interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BathroomInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bathroom interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BathroomInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

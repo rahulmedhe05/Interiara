@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Residential Interior Design Downtown Dubai, Residential Interior Design in Downtown Dubai, Best residential interior design Downtown Dubai, Professional residential interior design Downtown Dubai, Luxury residential interior design Downtown Dubai, Residential Interior Design Downtown Dubai Dubai, Residential Interior Design designer Downtown Dubai, Residential Interior Design company Downtown Dubai, Residential Interior Design contractor Downtown Dubai, Affordable residential interior design Downtown Dubai, Modern residential interior design Downtown Dubai, Residential Interior Design consultation Downtown Dubai, Residential Interior Design cost Downtown Dubai, Residential Interior Design price Downtown Dubai, Top residential interior design Downtown Dubai
+
+// SEO Keywords: Residential Interior Design Downtown Dubai, Residential Interior Design in Downtown Dubai, Best residential interior design Downtown Dubai, Professional residential interior design Downtown Dubai, Luxury residential interior design Downtown Dubai, Residential Interior Design Downtown Dubai Dubai, Residential Interior Design designer Downtown Dubai, Residential Interior Design company Downtown Dubai, Residential Interior Design contractor Downtown Dubai, Affordable residential interior design Downtown Dubai, Modern residential interior design Downtown Dubai, Residential Interior Design consultation Downtown Dubai, Residential Interior Design cost Downtown Dubai, Residential Interior Design price Downtown Dubai, Top residential interior design Downtown Dubai, Residential Interior Design near Downtown Dubai, Residential Interior Design specialists Downtown Dubai, Residential Interior Design experts Downtown Dubai, Residential Interior Design solutions Downtown Dubai, Residential Interior Design packages Downtown Dubai, Residential Interior Design quotes Downtown Dubai, Residential Interior Design estimates Downtown Dubai, Residential Interior Design services near me Downtown Dubai, Cheap Residential Interior Design Downtown Dubai, Quality Residential Interior Design Downtown Dubai, Trusted Residential Interior Design Downtown Dubai, Residential Interior Design transformation Downtown Dubai, Residential Interior Design renovation Downtown Dubai, Residential Interior Design makeover Downtown Dubai, Best Residential Interior Design company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ResidentialInteriorDesignDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior Design in Downtown Dubai. Best residential interior design Downtown Dubai Company Downtown Dubai Our luxury residential interior design downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ResidentialInteriorDesignDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our residential interior design in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ResidentialInteriorDesignDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in residential interior design near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ResidentialInteriorDesignDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

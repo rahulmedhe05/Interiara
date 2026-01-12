@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Showroom Interior Design Palm, Showroom Interior in Design Palm, Best showroom interior Design Palm, Professional showroom interior Design Palm, Luxury showroom interior Design Palm, Showroom Interior Design Palm Dubai, Showroom Interior designer Design Palm, Showroom Interior company Design Palm, Showroom Interior contractor Design Palm, Affordable showroom interior Design Palm, Modern showroom interior Design Palm, Showroom Interior consultation Design Palm, Showroom Interior cost Design Palm, Showroom Interior price Design Palm, Top showroom interior Design Palm
+
+// SEO Keywords: Showroom Interior Design Palm, Showroom Interior in Design Palm, Best showroom interior Design Palm, Professional showroom interior Design Palm, Luxury showroom interior Design Palm, Showroom Interior Design Palm Dubai, Showroom Interior designer Design Palm, Showroom Interior company Design Palm, Showroom Interior contractor Design Palm, Affordable showroom interior Design Palm, Modern showroom interior Design Palm, Showroom Interior consultation Design Palm, Showroom Interior cost Design Palm, Showroom Interior price Design Palm, Top showroom interior Design Palm, Showroom Interior near Design Palm, Showroom Interior specialists Design Palm, Showroom Interior experts Design Palm, Showroom Interior solutions Design Palm, Showroom Interior packages Design Palm, Showroom Interior quotes Design Palm, Showroom Interior estimates Design Palm, Showroom Interior services near me Design Palm, Cheap Showroom Interior Design Palm, Quality Showroom Interior Design Palm, Trusted Showroom Interior Design Palm, Showroom Interior transformation Design Palm, Showroom Interior renovation Design Palm, Showroom Interior makeover Design Palm, Best Showroom Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ShowroomInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Showroom Interior in Design Palm. Best showroom interior Design Palm Company Design Palm Our luxury showroom interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ShowroomInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our showroom interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ShowroomInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in showroom interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ShowroomInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

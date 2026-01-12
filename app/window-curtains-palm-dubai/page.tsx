@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Palm, Window in Curtains Palm, Best window Curtains Palm, Professional window Curtains Palm, Luxury window Curtains Palm, Window Curtains Palm Dubai, Window designer Curtains Palm, Window company Curtains Palm, Window contractor Curtains Palm, Affordable window Curtains Palm, Modern window Curtains Palm, Window consultation Curtains Palm, Window cost Curtains Palm, Window price Curtains Palm, Top window Curtains Palm
+
+// SEO Keywords: Window Curtains Palm, Window in Curtains Palm, Best window Curtains Palm, Professional window Curtains Palm, Luxury window Curtains Palm, Window Curtains Palm Dubai, Window designer Curtains Palm, Window company Curtains Palm, Window contractor Curtains Palm, Affordable window Curtains Palm, Modern window Curtains Palm, Window consultation Curtains Palm, Window cost Curtains Palm, Window price Curtains Palm, Top window Curtains Palm, Window near Curtains Palm, Window specialists Curtains Palm, Window experts Curtains Palm, Window solutions Curtains Palm, Window packages Curtains Palm, Window quotes Curtains Palm, Window estimates Curtains Palm, Window services near me Curtains Palm, Cheap Window Curtains Palm, Quality Window Curtains Palm, Trusted Window Curtains Palm, Window transformation Curtains Palm, Window renovation Curtains Palm, Window makeover Curtains Palm, Best Window company Curtains Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsPalm() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Palm Jumeirah Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Palm Jumeirah Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Curtains Palm. 
                 We've completed 300+ successful projects across Palm Jumeirah Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Palm Jumeirah Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains palm services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Palm Jumeirah Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in curtains palm service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near curtains palm.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

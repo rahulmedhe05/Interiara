@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Al Safouh, Custom Furniture Design in Al Safouh, Best custom furniture design Al Safouh, Professional custom furniture design Al Safouh, Luxury custom furniture design Al Safouh, Custom Furniture Design Al Safouh Dubai, Custom Furniture Design designer Al Safouh, Custom Furniture Design company Al Safouh, Custom Furniture Design contractor Al Safouh, Affordable custom furniture design Al Safouh, Modern custom furniture design Al Safouh, Custom Furniture Design consultation Al Safouh, Custom Furniture Design cost Al Safouh, Custom Furniture Design price Al Safouh, Top custom furniture design Al Safouh
+
+// SEO Keywords: Custom Furniture Design Al Safouh, Custom Furniture Design in Al Safouh, Best custom furniture design Al Safouh, Professional custom furniture design Al Safouh, Luxury custom furniture design Al Safouh, Custom Furniture Design Al Safouh Dubai, Custom Furniture Design designer Al Safouh, Custom Furniture Design company Al Safouh, Custom Furniture Design contractor Al Safouh, Affordable custom furniture design Al Safouh, Modern custom furniture design Al Safouh, Custom Furniture Design consultation Al Safouh, Custom Furniture Design cost Al Safouh, Custom Furniture Design price Al Safouh, Top custom furniture design Al Safouh, Custom Furniture Design near Al Safouh, Custom Furniture Design specialists Al Safouh, Custom Furniture Design experts Al Safouh, Custom Furniture Design solutions Al Safouh, Custom Furniture Design packages Al Safouh, Custom Furniture Design quotes Al Safouh, Custom Furniture Design estimates Al Safouh, Custom Furniture Design services near me Al Safouh, Cheap Custom Furniture Design Al Safouh, Quality Custom Furniture Design Al Safouh, Trusted Custom Furniture Design Al Safouh, Custom Furniture Design transformation Al Safouh, Custom Furniture Design renovation Al Safouh, Custom Furniture Design makeover Al Safouh, Best Custom Furniture Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Al Safouh. Best custom furniture design Al Safouh Company Al Safouh Our luxury custom furniture design al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

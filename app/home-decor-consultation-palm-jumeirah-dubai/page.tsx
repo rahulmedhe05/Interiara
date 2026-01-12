@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Palm Jumeirah, Home Decor Consultation in Palm Jumeirah, Best home decor consultation Palm Jumeirah, Professional home decor consultation Palm Jumeirah, Luxury home decor consultation Palm Jumeirah, Home Decor Consultation Palm Jumeirah Dubai, Home Decor Consultation designer Palm Jumeirah, Home Decor Consultation company Palm Jumeirah, Home Decor Consultation contractor Palm Jumeirah, Affordable home decor consultation Palm Jumeirah, Modern home decor consultation Palm Jumeirah, Home Decor Consultation consultation Palm Jumeirah, Home Decor Consultation cost Palm Jumeirah, Home Decor Consultation price Palm Jumeirah, Top home decor consultation Palm Jumeirah
+
+// SEO Keywords: Home Decor Consultation Palm Jumeirah, Home Decor Consultation in Palm Jumeirah, Best home decor consultation Palm Jumeirah, Professional home decor consultation Palm Jumeirah, Luxury home decor consultation Palm Jumeirah, Home Decor Consultation Palm Jumeirah Dubai, Home Decor Consultation designer Palm Jumeirah, Home Decor Consultation company Palm Jumeirah, Home Decor Consultation contractor Palm Jumeirah, Affordable home decor consultation Palm Jumeirah, Modern home decor consultation Palm Jumeirah, Home Decor Consultation consultation Palm Jumeirah, Home Decor Consultation cost Palm Jumeirah, Home Decor Consultation price Palm Jumeirah, Top home decor consultation Palm Jumeirah, Home Decor Consultation near Palm Jumeirah, Home Decor Consultation specialists Palm Jumeirah, Home Decor Consultation experts Palm Jumeirah, Home Decor Consultation solutions Palm Jumeirah, Home Decor Consultation packages Palm Jumeirah, Home Decor Consultation quotes Palm Jumeirah, Home Decor Consultation estimates Palm Jumeirah, Home Decor Consultation services near me Palm Jumeirah, Cheap Home Decor Consultation Palm Jumeirah, Quality Home Decor Consultation Palm Jumeirah, Trusted Home Decor Consultation Palm Jumeirah, Home Decor Consultation transformation Palm Jumeirah, Home Decor Consultation renovation Palm Jumeirah, Home Decor Consultation makeover Palm Jumeirah, Best Home Decor Consultation company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Palm Jumeirah. Best home decor consultation Palm Jumeirah Company Palm Jumeirah Our luxury home decor consultation palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

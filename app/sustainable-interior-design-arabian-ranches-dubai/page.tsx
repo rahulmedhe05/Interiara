@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Arabian Ranches, Sustainable Interior Design in Arabian Ranches, Best sustainable interior design Arabian Ranches, Professional sustainable interior design Arabian Ranches, Luxury sustainable interior design Arabian Ranches, Sustainable Interior Design Arabian Ranches Dubai, Sustainable Interior Design designer Arabian Ranches, Sustainable Interior Design company Arabian Ranches, Sustainable Interior Design contractor Arabian Ranches, Affordable sustainable interior design Arabian Ranches, Modern sustainable interior design Arabian Ranches, Sustainable Interior Design consultation Arabian Ranches, Sustainable Interior Design cost Arabian Ranches, Sustainable Interior Design price Arabian Ranches, Top sustainable interior design Arabian Ranches
+
+// SEO Keywords: Sustainable Interior Design Arabian Ranches, Sustainable Interior Design in Arabian Ranches, Best sustainable interior design Arabian Ranches, Professional sustainable interior design Arabian Ranches, Luxury sustainable interior design Arabian Ranches, Sustainable Interior Design Arabian Ranches Dubai, Sustainable Interior Design designer Arabian Ranches, Sustainable Interior Design company Arabian Ranches, Sustainable Interior Design contractor Arabian Ranches, Affordable sustainable interior design Arabian Ranches, Modern sustainable interior design Arabian Ranches, Sustainable Interior Design consultation Arabian Ranches, Sustainable Interior Design cost Arabian Ranches, Sustainable Interior Design price Arabian Ranches, Top sustainable interior design Arabian Ranches, Sustainable Interior Design near Arabian Ranches, Sustainable Interior Design specialists Arabian Ranches, Sustainable Interior Design experts Arabian Ranches, Sustainable Interior Design solutions Arabian Ranches, Sustainable Interior Design packages Arabian Ranches, Sustainable Interior Design quotes Arabian Ranches, Sustainable Interior Design estimates Arabian Ranches, Sustainable Interior Design services near me Arabian Ranches, Cheap Sustainable Interior Design Arabian Ranches, Quality Sustainable Interior Design Arabian Ranches, Trusted Sustainable Interior Design Arabian Ranches, Sustainable Interior Design transformation Arabian Ranches, Sustainable Interior Design renovation Arabian Ranches, Sustainable Interior Design makeover Arabian Ranches, Best Sustainable Interior Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Arabian Ranches. Best sustainable interior design Arabian Ranches Company Arabian Ranches Our luxury sustainable interior design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

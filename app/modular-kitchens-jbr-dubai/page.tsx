@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Jbr, Modular in Kitchens Jbr, Best modular Kitchens Jbr, Professional modular Kitchens Jbr, Luxury modular Kitchens Jbr, Modular Kitchens Jbr Dubai, Modular designer Kitchens Jbr, Modular company Kitchens Jbr, Modular contractor Kitchens Jbr, Affordable modular Kitchens Jbr, Modern modular Kitchens Jbr, Modular consultation Kitchens Jbr, Modular cost Kitchens Jbr, Modular price Kitchens Jbr, Top modular Kitchens Jbr
+
+// SEO Keywords: Modular Kitchens Jbr, Modular in Kitchens Jbr, Best modular Kitchens Jbr, Professional modular Kitchens Jbr, Luxury modular Kitchens Jbr, Modular Kitchens Jbr Dubai, Modular designer Kitchens Jbr, Modular company Kitchens Jbr, Modular contractor Kitchens Jbr, Affordable modular Kitchens Jbr, Modern modular Kitchens Jbr, Modular consultation Kitchens Jbr, Modular cost Kitchens Jbr, Modular price Kitchens Jbr, Top modular Kitchens Jbr, Modular near Kitchens Jbr, Modular specialists Kitchens Jbr, Modular experts Kitchens Jbr, Modular solutions Kitchens Jbr, Modular packages Kitchens Jbr, Modular quotes Kitchens Jbr, Modular estimates Kitchens Jbr, Modular services near me Kitchens Jbr, Cheap Modular Kitchens Jbr, Quality Modular Kitchens Jbr, Trusted Modular Kitchens Jbr, Modular transformation Kitchens Jbr, Modular renovation Kitchens Jbr, Modular makeover Kitchens Jbr, Best Modular company Kitchens Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensJbr() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular in Kitchens Jbr. Modular Kitchens Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular in kitchens jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular near kitchens jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

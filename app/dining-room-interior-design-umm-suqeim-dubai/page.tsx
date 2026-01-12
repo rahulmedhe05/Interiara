@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design Umm Suqeim, Dining Room Interior Design in Umm Suqeim, Best dining room interior design Umm Suqeim, Professional dining room interior design Umm Suqeim, Luxury dining room interior design Umm Suqeim, Dining Room Interior Design Umm Suqeim Dubai, Dining Room Interior Design designer Umm Suqeim, Dining Room Interior Design company Umm Suqeim, Dining Room Interior Design contractor Umm Suqeim, Affordable dining room interior design Umm Suqeim, Modern dining room interior design Umm Suqeim, Dining Room Interior Design consultation Umm Suqeim, Dining Room Interior Design cost Umm Suqeim, Dining Room Interior Design price Umm Suqeim, Top dining room interior design Umm Suqeim
+
+// SEO Keywords: Dining Room Interior Design Umm Suqeim, Dining Room Interior Design in Umm Suqeim, Best dining room interior design Umm Suqeim, Professional dining room interior design Umm Suqeim, Luxury dining room interior design Umm Suqeim, Dining Room Interior Design Umm Suqeim Dubai, Dining Room Interior Design designer Umm Suqeim, Dining Room Interior Design company Umm Suqeim, Dining Room Interior Design contractor Umm Suqeim, Affordable dining room interior design Umm Suqeim, Modern dining room interior design Umm Suqeim, Dining Room Interior Design consultation Umm Suqeim, Dining Room Interior Design cost Umm Suqeim, Dining Room Interior Design price Umm Suqeim, Top dining room interior design Umm Suqeim, Dining Room Interior Design near Umm Suqeim, Dining Room Interior Design specialists Umm Suqeim, Dining Room Interior Design experts Umm Suqeim, Dining Room Interior Design solutions Umm Suqeim, Dining Room Interior Design packages Umm Suqeim, Dining Room Interior Design quotes Umm Suqeim, Dining Room Interior Design estimates Umm Suqeim, Dining Room Interior Design services near me Umm Suqeim, Cheap Dining Room Interior Design Umm Suqeim, Quality Dining Room Interior Design Umm Suqeim, Trusted Dining Room Interior Design Umm Suqeim, Dining Room Interior Design transformation Umm Suqeim, Dining Room Interior Design renovation Umm Suqeim, Dining Room Interior Design makeover Umm Suqeim, Best Dining Room Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room Interior Design in Umm Suqeim. Best dining room interior design Umm Suqeim Company Umm Suqeim Our luxury dining room interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

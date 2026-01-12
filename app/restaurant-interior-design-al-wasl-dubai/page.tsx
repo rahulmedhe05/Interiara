@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Al Wasl, Restaurant Interior Design in Al Wasl, Best restaurant interior design Al Wasl, Professional restaurant interior design Al Wasl, Luxury restaurant interior design Al Wasl, Restaurant Interior Design Al Wasl Dubai, Restaurant Interior Design designer Al Wasl, Restaurant Interior Design company Al Wasl, Restaurant Interior Design contractor Al Wasl, Affordable restaurant interior design Al Wasl, Modern restaurant interior design Al Wasl, Restaurant Interior Design consultation Al Wasl, Restaurant Interior Design cost Al Wasl, Restaurant Interior Design price Al Wasl, Top restaurant interior design Al Wasl
+
+// SEO Keywords: Restaurant Interior Design Al Wasl, Restaurant Interior Design in Al Wasl, Best restaurant interior design Al Wasl, Professional restaurant interior design Al Wasl, Luxury restaurant interior design Al Wasl, Restaurant Interior Design Al Wasl Dubai, Restaurant Interior Design designer Al Wasl, Restaurant Interior Design company Al Wasl, Restaurant Interior Design contractor Al Wasl, Affordable restaurant interior design Al Wasl, Modern restaurant interior design Al Wasl, Restaurant Interior Design consultation Al Wasl, Restaurant Interior Design cost Al Wasl, Restaurant Interior Design price Al Wasl, Top restaurant interior design Al Wasl, Restaurant Interior Design near Al Wasl, Restaurant Interior Design specialists Al Wasl, Restaurant Interior Design experts Al Wasl, Restaurant Interior Design solutions Al Wasl, Restaurant Interior Design packages Al Wasl, Restaurant Interior Design quotes Al Wasl, Restaurant Interior Design estimates Al Wasl, Restaurant Interior Design services near me Al Wasl, Cheap Restaurant Interior Design Al Wasl, Quality Restaurant Interior Design Al Wasl, Trusted Restaurant Interior Design Al Wasl, Restaurant Interior Design transformation Al Wasl, Restaurant Interior Design renovation Al Wasl, Restaurant Interior Design makeover Al Wasl, Best Restaurant Interior Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design Al Wasl Company Al Wasl</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior Design in Al Wasl. Best restaurant interior design Al Wasl Company Al Wasl Our luxury restaurant interior design al wasl services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignAlWasl() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior design in al wasl service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior design near al wasl.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

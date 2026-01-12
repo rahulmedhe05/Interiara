@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Bur Dubai, Wallpaper Design in Bur Dubai, Best wallpaper design Bur Dubai, Professional wallpaper design Bur Dubai, Luxury wallpaper design Bur Dubai, Wallpaper Design Bur Dubai Dubai, Wallpaper Design designer Bur Dubai, Wallpaper Design company Bur Dubai, Wallpaper Design contractor Bur Dubai, Affordable wallpaper design Bur Dubai, Modern wallpaper design Bur Dubai, Wallpaper Design consultation Bur Dubai, Wallpaper Design cost Bur Dubai, Wallpaper Design price Bur Dubai, Top wallpaper design Bur Dubai
+
+// SEO Keywords: Wallpaper Design Bur Dubai, Wallpaper Design in Bur Dubai, Best wallpaper design Bur Dubai, Professional wallpaper design Bur Dubai, Luxury wallpaper design Bur Dubai, Wallpaper Design Bur Dubai Dubai, Wallpaper Design designer Bur Dubai, Wallpaper Design company Bur Dubai, Wallpaper Design contractor Bur Dubai, Affordable wallpaper design Bur Dubai, Modern wallpaper design Bur Dubai, Wallpaper Design consultation Bur Dubai, Wallpaper Design cost Bur Dubai, Wallpaper Design price Bur Dubai, Top wallpaper design Bur Dubai, Wallpaper Design near Bur Dubai, Wallpaper Design specialists Bur Dubai, Wallpaper Design experts Bur Dubai, Wallpaper Design solutions Bur Dubai, Wallpaper Design packages Bur Dubai, Wallpaper Design quotes Bur Dubai, Wallpaper Design estimates Bur Dubai, Wallpaper Design services near me Bur Dubai, Cheap Wallpaper Design Bur Dubai, Quality Wallpaper Design Bur Dubai, Trusted Wallpaper Design Bur Dubai, Wallpaper Design transformation Bur Dubai, Wallpaper Design renovation Bur Dubai, Wallpaper Design makeover Bur Dubai, Best Wallpaper Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignBurDubai() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

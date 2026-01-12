@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Business Bay, Wallpaper Design in Business Bay, Best wallpaper design Business Bay, Professional wallpaper design Business Bay, Luxury wallpaper design Business Bay, Wallpaper Design Business Bay Dubai, Wallpaper Design designer Business Bay, Wallpaper Design company Business Bay, Wallpaper Design contractor Business Bay, Affordable wallpaper design Business Bay, Modern wallpaper design Business Bay, Wallpaper Design consultation Business Bay, Wallpaper Design cost Business Bay, Wallpaper Design price Business Bay, Top wallpaper design Business Bay
+
+// SEO Keywords: Wallpaper Design Business Bay, Wallpaper Design in Business Bay, Best wallpaper design Business Bay, Professional wallpaper design Business Bay, Luxury wallpaper design Business Bay, Wallpaper Design Business Bay Dubai, Wallpaper Design designer Business Bay, Wallpaper Design company Business Bay, Wallpaper Design contractor Business Bay, Affordable wallpaper design Business Bay, Modern wallpaper design Business Bay, Wallpaper Design consultation Business Bay, Wallpaper Design cost Business Bay, Wallpaper Design price Business Bay, Top wallpaper design Business Bay, Wallpaper Design near Business Bay, Wallpaper Design specialists Business Bay, Wallpaper Design experts Business Bay, Wallpaper Design solutions Business Bay, Wallpaper Design packages Business Bay, Wallpaper Design quotes Business Bay, Wallpaper Design estimates Business Bay, Wallpaper Design services near me Business Bay, Cheap Wallpaper Design Business Bay, Quality Wallpaper Design Business Bay, Trusted Wallpaper Design Business Bay, Wallpaper Design transformation Business Bay, Wallpaper Design renovation Business Bay, Wallpaper Design makeover Business Bay, Best Wallpaper Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallpaperDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wallpaper Design in Business Bay. Best wallpaper design Business Bay Company Business Bay Our luxury wallpaper design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallpaperDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wallpaper design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallpaperDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wallpaper design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallpaperDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

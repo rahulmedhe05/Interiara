@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Jvt, Wallpaper in Design Jvt, Best wallpaper Design Jvt, Professional wallpaper Design Jvt, Luxury wallpaper Design Jvt, Wallpaper Design Jvt Dubai, Wallpaper designer Design Jvt, Wallpaper company Design Jvt, Wallpaper contractor Design Jvt, Affordable wallpaper Design Jvt, Modern wallpaper Design Jvt, Wallpaper consultation Design Jvt, Wallpaper cost Design Jvt, Wallpaper price Design Jvt, Top wallpaper Design Jvt
+
+// SEO Keywords: Wallpaper Design Jvt, Wallpaper in Design Jvt, Best wallpaper Design Jvt, Professional wallpaper Design Jvt, Luxury wallpaper Design Jvt, Wallpaper Design Jvt Dubai, Wallpaper designer Design Jvt, Wallpaper company Design Jvt, Wallpaper contractor Design Jvt, Affordable wallpaper Design Jvt, Modern wallpaper Design Jvt, Wallpaper consultation Design Jvt, Wallpaper cost Design Jvt, Wallpaper price Design Jvt, Top wallpaper Design Jvt, Wallpaper near Design Jvt, Wallpaper specialists Design Jvt, Wallpaper experts Design Jvt, Wallpaper solutions Design Jvt, Wallpaper packages Design Jvt, Wallpaper quotes Design Jvt, Wallpaper estimates Design Jvt, Wallpaper services near me Design Jvt, Cheap Wallpaper Design Jvt, Quality Wallpaper Design Jvt, Trusted Wallpaper Design Jvt, Wallpaper transformation Design Jvt, Wallpaper renovation Design Jvt, Wallpaper makeover Design Jvt, Best Wallpaper company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper in Design Jvt. Wallpaper Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper in design jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper near design jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

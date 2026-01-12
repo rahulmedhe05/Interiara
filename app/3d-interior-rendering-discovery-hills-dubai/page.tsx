@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: 3D Interior Rendering Discovery Hills, 3D Interior Rendering in Discovery Hills, Best 3d interior rendering Discovery Hills, Professional 3d interior rendering Discovery Hills, Luxury 3d interior rendering Discovery Hills, 3D Interior Rendering Discovery Hills Dubai, 3D Interior Rendering designer Discovery Hills, 3D Interior Rendering company Discovery Hills, 3D Interior Rendering contractor Discovery Hills, Affordable 3d interior rendering Discovery Hills, Modern 3d interior rendering Discovery Hills, 3D Interior Rendering consultation Discovery Hills, 3D Interior Rendering cost Discovery Hills, 3D Interior Rendering price Discovery Hills, Top 3d interior rendering Discovery Hills
+
+// SEO Keywords: 3D Interior Rendering Discovery Hills, 3D Interior Rendering in Discovery Hills, Best 3d interior rendering Discovery Hills, Professional 3d interior rendering Discovery Hills, Luxury 3d interior rendering Discovery Hills, 3D Interior Rendering Discovery Hills Dubai, 3D Interior Rendering designer Discovery Hills, 3D Interior Rendering company Discovery Hills, 3D Interior Rendering contractor Discovery Hills, Affordable 3d interior rendering Discovery Hills, Modern 3d interior rendering Discovery Hills, 3D Interior Rendering consultation Discovery Hills, 3D Interior Rendering cost Discovery Hills, 3D Interior Rendering price Discovery Hills, Top 3d interior rendering Discovery Hills, 3D Interior Rendering near Discovery Hills, 3D Interior Rendering specialists Discovery Hills, 3D Interior Rendering experts Discovery Hills, 3D Interior Rendering solutions Discovery Hills, 3D Interior Rendering packages Discovery Hills, 3D Interior Rendering quotes Discovery Hills, 3D Interior Rendering estimates Discovery Hills, 3D Interior Rendering services near me Discovery Hills, Cheap 3D Interior Rendering Discovery Hills, Quality 3D Interior Rendering Discovery Hills, Trusted 3D Interior Rendering Discovery Hills, 3D Interior Rendering transformation Discovery Hills, 3D Interior Rendering renovation Discovery Hills, 3D Interior Rendering makeover Discovery Hills, Best 3D Interior Rendering company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function 3DInteriorRenderingDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3d interior rendering Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">3D Interior Rendering in Discovery Hills. Best 3d interior rendering Discovery Hills Company Discovery Hills Our luxury 3d interior rendering discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert 3D Interior Rendering Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function 3DInteriorRenderingDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our 3d interior rendering in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function 3DInteriorRenderingDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in 3d interior rendering near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function 3DInteriorRenderingDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Al Furjan, Wardrobe Design in Al Furjan, Best wardrobe design Al Furjan, Professional wardrobe design Al Furjan, Luxury wardrobe design Al Furjan, Wardrobe Design Al Furjan Dubai, Wardrobe Design designer Al Furjan, Wardrobe Design company Al Furjan, Wardrobe Design contractor Al Furjan, Affordable wardrobe design Al Furjan, Modern wardrobe design Al Furjan, Wardrobe Design consultation Al Furjan, Wardrobe Design cost Al Furjan, Wardrobe Design price Al Furjan, Top wardrobe design Al Furjan
+
+// SEO Keywords: Wardrobe Design Al Furjan, Wardrobe Design in Al Furjan, Best wardrobe design Al Furjan, Professional wardrobe design Al Furjan, Luxury wardrobe design Al Furjan, Wardrobe Design Al Furjan Dubai, Wardrobe Design designer Al Furjan, Wardrobe Design company Al Furjan, Wardrobe Design contractor Al Furjan, Affordable wardrobe design Al Furjan, Modern wardrobe design Al Furjan, Wardrobe Design consultation Al Furjan, Wardrobe Design cost Al Furjan, Wardrobe Design price Al Furjan, Top wardrobe design Al Furjan, Wardrobe Design near Al Furjan, Wardrobe Design specialists Al Furjan, Wardrobe Design experts Al Furjan, Wardrobe Design solutions Al Furjan, Wardrobe Design packages Al Furjan, Wardrobe Design quotes Al Furjan, Wardrobe Design estimates Al Furjan, Wardrobe Design services near me Al Furjan, Cheap Wardrobe Design Al Furjan, Quality Wardrobe Design Al Furjan, Trusted Wardrobe Design Al Furjan, Wardrobe Design transformation Al Furjan, Wardrobe Design renovation Al Furjan, Wardrobe Design makeover Al Furjan, Best Wardrobe Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe design in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe design near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

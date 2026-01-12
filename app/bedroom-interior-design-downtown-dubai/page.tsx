@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Downtown, Bedroom Interior in Design Downtown, Best bedroom interior Design Downtown, Professional bedroom interior Design Downtown, Luxury bedroom interior Design Downtown, Bedroom Interior Design Downtown Dubai, Bedroom Interior designer Design Downtown, Bedroom Interior company Design Downtown, Bedroom Interior contractor Design Downtown, Affordable bedroom interior Design Downtown, Modern bedroom interior Design Downtown, Bedroom Interior consultation Design Downtown, Bedroom Interior cost Design Downtown, Bedroom Interior price Design Downtown, Top bedroom interior Design Downtown
+
+// SEO Keywords: Bedroom Interior Design Downtown, Bedroom Interior in Design Downtown, Best bedroom interior Design Downtown, Professional bedroom interior Design Downtown, Luxury bedroom interior Design Downtown, Bedroom Interior Design Downtown Dubai, Bedroom Interior designer Design Downtown, Bedroom Interior company Design Downtown, Bedroom Interior contractor Design Downtown, Affordable bedroom interior Design Downtown, Modern bedroom interior Design Downtown, Bedroom Interior consultation Design Downtown, Bedroom Interior cost Design Downtown, Bedroom Interior price Design Downtown, Top bedroom interior Design Downtown, Bedroom Interior near Design Downtown, Bedroom Interior specialists Design Downtown, Bedroom Interior experts Design Downtown, Bedroom Interior solutions Design Downtown, Bedroom Interior packages Design Downtown, Bedroom Interior quotes Design Downtown, Bedroom Interior estimates Design Downtown, Bedroom Interior services near me Design Downtown, Cheap Bedroom Interior Design Downtown, Quality Bedroom Interior Design Downtown, Trusted Bedroom Interior Design Downtown, Bedroom Interior transformation Design Downtown, Bedroom Interior renovation Design Downtown, Bedroom Interior makeover Design Downtown, Best Bedroom Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior in Design Downtown. Best bedroom interior Design Downtown Company Design Downtown Our luxury bedroom interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Banquet Hall Interior Design, Banquet Hall in Interior Design, Best banquet hall Interior Design, Professional banquet hall Interior Design, Luxury banquet hall Interior Design, Banquet Hall Interior Design Dubai, Banquet Hall designer Interior Design, Banquet Hall company Interior Design, Banquet Hall contractor Interior Design, Affordable banquet hall Interior Design, Modern banquet hall Interior Design, Banquet Hall consultation Interior Design, Banquet Hall cost Interior Design, Banquet Hall price Interior Design, Top banquet hall Interior Design
+
+// SEO Keywords: Banquet Hall Interior Design, Banquet Hall in Interior Design, Best banquet hall Interior Design, Professional banquet hall Interior Design, Luxury banquet hall Interior Design, Banquet Hall Interior Design Dubai, Banquet Hall designer Interior Design, Banquet Hall company Interior Design, Banquet Hall contractor Interior Design, Affordable banquet hall Interior Design, Modern banquet hall Interior Design, Banquet Hall consultation Interior Design, Banquet Hall cost Interior Design, Banquet Hall price Interior Design, Top banquet hall Interior Design, Banquet Hall near Interior Design, Banquet Hall specialists Interior Design, Banquet Hall experts Interior Design, Banquet Hall solutions Interior Design, Banquet Hall packages Interior Design, Banquet Hall quotes Interior Design, Banquet Hall estimates Interior Design, Banquet Hall services near me Interior Design, Cheap Banquet Hall Interior Design, Quality Banquet Hall Interior Design, Trusted Banquet Hall Interior Design, Banquet Hall transformation Interior Design, Banquet Hall renovation Interior Design, Banquet Hall makeover Interior Design, Best Banquet Hall company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BanquetHallInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Banquet Hall in Interior Design. Best banquet hall Interior Design Company Interior Design Our luxury banquet hall interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Silicon Oasis Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BanquetHallInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our banquet hall in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BanquetHallInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Oasis Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in banquet hall near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BanquetHallInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

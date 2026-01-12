@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Jbr, Outdoor Living in Design Jbr, Best outdoor living Design Jbr, Professional outdoor living Design Jbr, Luxury outdoor living Design Jbr, Outdoor Living Design Jbr Dubai, Outdoor Living designer Design Jbr, Outdoor Living company Design Jbr, Outdoor Living contractor Design Jbr, Affordable outdoor living Design Jbr, Modern outdoor living Design Jbr, Outdoor Living consultation Design Jbr, Outdoor Living cost Design Jbr, Outdoor Living price Design Jbr, Top outdoor living Design Jbr
+
+// SEO Keywords: Outdoor Living Design Jbr, Outdoor Living in Design Jbr, Best outdoor living Design Jbr, Professional outdoor living Design Jbr, Luxury outdoor living Design Jbr, Outdoor Living Design Jbr Dubai, Outdoor Living designer Design Jbr, Outdoor Living company Design Jbr, Outdoor Living contractor Design Jbr, Affordable outdoor living Design Jbr, Modern outdoor living Design Jbr, Outdoor Living consultation Design Jbr, Outdoor Living cost Design Jbr, Outdoor Living price Design Jbr, Top outdoor living Design Jbr, Outdoor Living near Design Jbr, Outdoor Living specialists Design Jbr, Outdoor Living experts Design Jbr, Outdoor Living solutions Design Jbr, Outdoor Living packages Design Jbr, Outdoor Living quotes Design Jbr, Outdoor Living estimates Design Jbr, Outdoor Living services near me Design Jbr, Cheap Outdoor Living Design Jbr, Quality Outdoor Living Design Jbr, Trusted Outdoor Living Design Jbr, Outdoor Living transformation Design Jbr, Outdoor Living renovation Design Jbr, Outdoor Living makeover Design Jbr, Best Outdoor Living company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OutdoorLivingDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Outdoor Living Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Outdoor Living in Design Jbr. Outdoor Living Design Jbr. 
+                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living in Design Jbr. Outdoor Living Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury outdoor living design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Outdoor Living Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OutdoorLivingDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our outdoor living in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in outdoor living near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

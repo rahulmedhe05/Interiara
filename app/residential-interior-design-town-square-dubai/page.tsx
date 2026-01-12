@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Residential Interior Design Town Square, Residential Interior Design in Town Square, Best residential interior design Town Square, Professional residential interior design Town Square, Luxury residential interior design Town Square, Residential Interior Design Town Square Dubai, Residential Interior Design designer Town Square, Residential Interior Design company Town Square, Residential Interior Design contractor Town Square, Affordable residential interior design Town Square, Modern residential interior design Town Square, Residential Interior Design consultation Town Square, Residential Interior Design cost Town Square, Residential Interior Design price Town Square, Top residential interior design Town Square
+
+// SEO Keywords: Residential Interior Design Town Square, Residential Interior Design in Town Square, Best residential interior design Town Square, Professional residential interior design Town Square, Luxury residential interior design Town Square, Residential Interior Design Town Square Dubai, Residential Interior Design designer Town Square, Residential Interior Design company Town Square, Residential Interior Design contractor Town Square, Affordable residential interior design Town Square, Modern residential interior design Town Square, Residential Interior Design consultation Town Square, Residential Interior Design cost Town Square, Residential Interior Design price Town Square, Top residential interior design Town Square, Residential Interior Design near Town Square, Residential Interior Design specialists Town Square, Residential Interior Design experts Town Square, Residential Interior Design solutions Town Square, Residential Interior Design packages Town Square, Residential Interior Design quotes Town Square, Residential Interior Design estimates Town Square, Residential Interior Design services near me Town Square, Cheap Residential Interior Design Town Square, Quality Residential Interior Design Town Square, Trusted Residential Interior Design Town Square, Residential Interior Design transformation Town Square, Residential Interior Design renovation Town Square, Residential Interior Design makeover Town Square, Best Residential Interior Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ResidentialInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior Design in Town Square. Best residential interior design Town Square Company Town Square Our luxury residential interior design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ResidentialInteriorDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our residential interior design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ResidentialInteriorDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in residential interior design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ResidentialInteriorDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

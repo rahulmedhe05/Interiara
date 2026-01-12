@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Jebel Ali, Apartment Interior Design in Jebel Ali, Best apartment interior design Jebel Ali, Professional apartment interior design Jebel Ali, Luxury apartment interior design Jebel Ali, Apartment Interior Design Jebel Ali Dubai, Apartment Interior Design designer Jebel Ali, Apartment Interior Design company Jebel Ali, Apartment Interior Design contractor Jebel Ali, Affordable apartment interior design Jebel Ali, Modern apartment interior design Jebel Ali, Apartment Interior Design consultation Jebel Ali, Apartment Interior Design cost Jebel Ali, Apartment Interior Design price Jebel Ali, Top apartment interior design Jebel Ali
+
+// SEO Keywords: Apartment Interior Design Jebel Ali, Apartment Interior Design in Jebel Ali, Best apartment interior design Jebel Ali, Professional apartment interior design Jebel Ali, Luxury apartment interior design Jebel Ali, Apartment Interior Design Jebel Ali Dubai, Apartment Interior Design designer Jebel Ali, Apartment Interior Design company Jebel Ali, Apartment Interior Design contractor Jebel Ali, Affordable apartment interior design Jebel Ali, Modern apartment interior design Jebel Ali, Apartment Interior Design consultation Jebel Ali, Apartment Interior Design cost Jebel Ali, Apartment Interior Design price Jebel Ali, Top apartment interior design Jebel Ali, Apartment Interior Design near Jebel Ali, Apartment Interior Design specialists Jebel Ali, Apartment Interior Design experts Jebel Ali, Apartment Interior Design solutions Jebel Ali, Apartment Interior Design packages Jebel Ali, Apartment Interior Design quotes Jebel Ali, Apartment Interior Design estimates Jebel Ali, Apartment Interior Design services near me Jebel Ali, Cheap Apartment Interior Design Jebel Ali, Quality Apartment Interior Design Jebel Ali, Trusted Apartment Interior Design Jebel Ali, Apartment Interior Design transformation Jebel Ali, Apartment Interior Design renovation Jebel Ali, Apartment Interior Design makeover Jebel Ali, Best Apartment Interior Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior Design in Jebel Ali. Best apartment interior design Jebel Ali Company Jebel Ali Our luxury apartment interior design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

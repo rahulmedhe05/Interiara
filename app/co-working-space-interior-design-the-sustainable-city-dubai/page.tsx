@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Co Working Space Interior Design The Sustainable City, Co Working Space Interior Design The in Sustainable City, Best co working space interior design the Sustainable City, Professional co working space interior design the Sustainable City, Luxury co working space interior design the Sustainable City, Co Working Space Interior Design The Sustainable City Dubai, Co Working Space Interior Design The designer Sustainable City, Co Working Space Interior Design The company Sustainable City, Co Working Space Interior Design The contractor Sustainable City, Affordable co working space interior design the Sustainable City, Modern co working space interior design the Sustainable City, Co Working Space Interior Design The consultation Sustainable City, Co Working Space Interior Design The cost Sustainable City, Co Working Space Interior Design The price Sustainable City, Top co working space interior design the Sustainable City
+
+// SEO Keywords: Co Working Space Interior Design The Sustainable City, Co Working Space Interior Design The in Sustainable City, Best co working space interior design the Sustainable City, Professional co working space interior design the Sustainable City, Luxury co working space interior design the Sustainable City, Co Working Space Interior Design The Sustainable City Dubai, Co Working Space Interior Design The designer Sustainable City, Co Working Space Interior Design The company Sustainable City, Co Working Space Interior Design The contractor Sustainable City, Affordable co working space interior design the Sustainable City, Modern co working space interior design the Sustainable City, Co Working Space Interior Design The consultation Sustainable City, Co Working Space Interior Design The cost Sustainable City, Co Working Space Interior Design The price Sustainable City, Top co working space interior design the Sustainable City, Co Working Space Interior Design The near Sustainable City, Co Working Space Interior Design The specialists Sustainable City, Co Working Space Interior Design The experts Sustainable City, Co Working Space Interior Design The solutions Sustainable City, Co Working Space Interior Design The packages Sustainable City, Co Working Space Interior Design The quotes Sustainable City, Co Working Space Interior Design The estimates Sustainable City, Co Working Space Interior Design The services near me Sustainable City, Cheap Co Working Space Interior Design The Sustainable City, Quality Co Working Space Interior Design The Sustainable City, Trusted Co Working Space Interior Design The Sustainable City, Co Working Space Interior Design The transformation Sustainable City, Co Working Space Interior Design The renovation Sustainable City, Co Working Space Interior Design The makeover Sustainable City, Best Co Working Space Interior Design The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CoWorkingSpaceInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best co working space interior design the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Co Working Space Interior Design The in Sustainable City. Best co working space interior design the Sustainable City Company Sustainable City Our luxury co working space interior design the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Co Working Space Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CoWorkingSpaceInteriorDesignTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our co working space interior design the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CoWorkingSpaceInteriorDesignTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in co working space interior design the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CoWorkingSpaceInteriorDesignTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

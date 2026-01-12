@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Al Safa, Cafe Interior Design in Al Safa, Best cafe interior design Al Safa, Professional cafe interior design Al Safa, Luxury cafe interior design Al Safa, Cafe Interior Design Al Safa Dubai, Cafe Interior Design designer Al Safa, Cafe Interior Design company Al Safa, Cafe Interior Design contractor Al Safa, Affordable cafe interior design Al Safa, Modern cafe interior design Al Safa, Cafe Interior Design consultation Al Safa, Cafe Interior Design cost Al Safa, Cafe Interior Design price Al Safa, Top cafe interior design Al Safa
+
+// SEO Keywords: Cafe Interior Design Al Safa, Cafe Interior Design in Al Safa, Best cafe interior design Al Safa, Professional cafe interior design Al Safa, Luxury cafe interior design Al Safa, Cafe Interior Design Al Safa Dubai, Cafe Interior Design designer Al Safa, Cafe Interior Design company Al Safa, Cafe Interior Design contractor Al Safa, Affordable cafe interior design Al Safa, Modern cafe interior design Al Safa, Cafe Interior Design consultation Al Safa, Cafe Interior Design cost Al Safa, Cafe Interior Design price Al Safa, Top cafe interior design Al Safa, Cafe Interior Design near Al Safa, Cafe Interior Design specialists Al Safa, Cafe Interior Design experts Al Safa, Cafe Interior Design solutions Al Safa, Cafe Interior Design packages Al Safa, Cafe Interior Design quotes Al Safa, Cafe Interior Design estimates Al Safa, Cafe Interior Design services near me Al Safa, Cheap Cafe Interior Design Al Safa, Quality Cafe Interior Design Al Safa, Trusted Cafe Interior Design Al Safa, Cafe Interior Design transformation Al Safa, Cafe Interior Design renovation Al Safa, Cafe Interior Design makeover Al Safa, Best Cafe Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function CafeInteriorDesignAlSafa() {
                 At Interiara, we believe that exceptional <strong>Cafe Interior Design Al Safa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Cafe Interior Design in Al Safa. 
                 We've completed 300+ successful projects across Al Safa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Cafe Interior Design Al Safa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury cafe interior design al safa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Cafe Interior Design Al Safa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function CafeInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our cafe interior design in al safa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in cafe interior design near al safa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

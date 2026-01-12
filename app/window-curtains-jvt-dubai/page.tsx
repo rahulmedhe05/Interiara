@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Jvt, Window in Curtains Jvt, Best window Curtains Jvt, Professional window Curtains Jvt, Luxury window Curtains Jvt, Window Curtains Jvt Dubai, Window designer Curtains Jvt, Window company Curtains Jvt, Window contractor Curtains Jvt, Affordable window Curtains Jvt, Modern window Curtains Jvt, Window consultation Curtains Jvt, Window cost Curtains Jvt, Window price Curtains Jvt, Top window Curtains Jvt
+
+// SEO Keywords: Window Curtains Jvt, Window in Curtains Jvt, Best window Curtains Jvt, Professional window Curtains Jvt, Luxury window Curtains Jvt, Window Curtains Jvt Dubai, Window designer Curtains Jvt, Window company Curtains Jvt, Window contractor Curtains Jvt, Affordable window Curtains Jvt, Modern window Curtains Jvt, Window consultation Curtains Jvt, Window cost Curtains Jvt, Window price Curtains Jvt, Top window Curtains Jvt, Window near Curtains Jvt, Window specialists Curtains Jvt, Window experts Curtains Jvt, Window solutions Curtains Jvt, Window packages Curtains Jvt, Window quotes Curtains Jvt, Window estimates Curtains Jvt, Window services near me Curtains Jvt, Cheap Window Curtains Jvt, Quality Window Curtains Jvt, Trusted Window Curtains Jvt, Window transformation Curtains Jvt, Window renovation Curtains Jvt, Window makeover Curtains Jvt, Best Window company Curtains Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsJvt() {
                 At Interiara, we believe that exceptional <strong>Window Curtains JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Curtains Jvt. Window Curtains Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in curtains jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near curtains jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Jebel Ali, Art Consultation in Jebel Ali, Best art consultation Jebel Ali, Professional art consultation Jebel Ali, Luxury art consultation Jebel Ali, Art Consultation Jebel Ali Dubai, Art Consultation designer Jebel Ali, Art Consultation company Jebel Ali, Art Consultation contractor Jebel Ali, Affordable art consultation Jebel Ali, Modern art consultation Jebel Ali, Art Consultation consultation Jebel Ali, Art Consultation cost Jebel Ali, Art Consultation price Jebel Ali, Top art consultation Jebel Ali
+
+// SEO Keywords: Art Consultation Jebel Ali, Art Consultation in Jebel Ali, Best art consultation Jebel Ali, Professional art consultation Jebel Ali, Luxury art consultation Jebel Ali, Art Consultation Jebel Ali Dubai, Art Consultation designer Jebel Ali, Art Consultation company Jebel Ali, Art Consultation contractor Jebel Ali, Affordable art consultation Jebel Ali, Modern art consultation Jebel Ali, Art Consultation consultation Jebel Ali, Art Consultation cost Jebel Ali, Art Consultation price Jebel Ali, Top art consultation Jebel Ali, Art Consultation near Jebel Ali, Art Consultation specialists Jebel Ali, Art Consultation experts Jebel Ali, Art Consultation solutions Jebel Ali, Art Consultation packages Jebel Ali, Art Consultation quotes Jebel Ali, Art Consultation estimates Jebel Ali, Art Consultation services near me Jebel Ali, Cheap Art Consultation Jebel Ali, Quality Art Consultation Jebel Ali, Trusted Art Consultation Jebel Ali, Art Consultation transformation Jebel Ali, Art Consultation renovation Jebel Ali, Art Consultation makeover Jebel Ali, Best Art Consultation company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationJebelAli() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

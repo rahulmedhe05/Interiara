@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design Business Bay South, Eco Friendly Interior Design Business in Bay South, Best eco friendly interior design business Bay South, Professional eco friendly interior design business Bay South, Luxury eco friendly interior design business Bay South, Eco Friendly Interior Design Business Bay South Dubai, Eco Friendly Interior Design Business designer Bay South, Eco Friendly Interior Design Business company Bay South, Eco Friendly Interior Design Business contractor Bay South, Affordable eco friendly interior design business Bay South, Modern eco friendly interior design business Bay South, Eco Friendly Interior Design Business consultation Bay South, Eco Friendly Interior Design Business cost Bay South, Eco Friendly Interior Design Business price Bay South, Top eco friendly interior design business Bay South
+
+// SEO Keywords: Eco Friendly Interior Design Business Bay South, Eco Friendly Interior Design Business in Bay South, Best eco friendly interior design business Bay South, Professional eco friendly interior design business Bay South, Luxury eco friendly interior design business Bay South, Eco Friendly Interior Design Business Bay South Dubai, Eco Friendly Interior Design Business designer Bay South, Eco Friendly Interior Design Business company Bay South, Eco Friendly Interior Design Business contractor Bay South, Affordable eco friendly interior design business Bay South, Modern eco friendly interior design business Bay South, Eco Friendly Interior Design Business consultation Bay South, Eco Friendly Interior Design Business cost Bay South, Eco Friendly Interior Design Business price Bay South, Top eco friendly interior design business Bay South, Eco Friendly Interior Design Business near Bay South, Eco Friendly Interior Design Business specialists Bay South, Eco Friendly Interior Design Business experts Bay South, Eco Friendly Interior Design Business solutions Bay South, Eco Friendly Interior Design Business packages Bay South, Eco Friendly Interior Design Business quotes Bay South, Eco Friendly Interior Design Business estimates Bay South, Eco Friendly Interior Design Business services near me Bay South, Cheap Eco Friendly Interior Design Business Bay South, Quality Eco Friendly Interior Design Business Bay South, Trusted Eco Friendly Interior Design Business Bay South, Eco Friendly Interior Design Business transformation Bay South, Eco Friendly Interior Design Business renovation Bay South, Eco Friendly Interior Design Business makeover Bay South, Best Eco Friendly Interior Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior Design Business in Bay South. Best eco friendly interior design business Bay South Company Bay South Our luxury eco friendly interior design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

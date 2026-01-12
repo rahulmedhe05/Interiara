@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Palm, Closet in Design Palm, Best closet Design Palm, Professional closet Design Palm, Luxury closet Design Palm, Closet Design Palm Dubai, Closet designer Design Palm, Closet company Design Palm, Closet contractor Design Palm, Affordable closet Design Palm, Modern closet Design Palm, Closet consultation Design Palm, Closet cost Design Palm, Closet price Design Palm, Top closet Design Palm
+
+// SEO Keywords: Closet Design Palm, Closet in Design Palm, Best closet Design Palm, Professional closet Design Palm, Luxury closet Design Palm, Closet Design Palm Dubai, Closet designer Design Palm, Closet company Design Palm, Closet contractor Design Palm, Affordable closet Design Palm, Modern closet Design Palm, Closet consultation Design Palm, Closet cost Design Palm, Closet price Design Palm, Top closet Design Palm, Closet near Design Palm, Closet specialists Design Palm, Closet experts Design Palm, Closet solutions Design Palm, Closet packages Design Palm, Closet quotes Design Palm, Closet estimates Design Palm, Closet services near me Design Palm, Cheap Closet Design Palm, Quality Closet Design Palm, Trusted Closet Design Palm, Closet transformation Design Palm, Closet renovation Design Palm, Closet makeover Design Palm, Best Closet company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignPalm() {
                 At Interiara, we believe that exceptional <strong>Closet Design Palm Jumeirah Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Palm Jumeirah Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet in Design Palm. 
                 We've completed 300+ successful projects across Palm Jumeirah Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Palm Jumeirah Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design palm services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Palm Jumeirah Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet in design palm service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet near design palm.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

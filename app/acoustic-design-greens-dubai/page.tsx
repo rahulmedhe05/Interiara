@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Greens, Acoustic in Design Greens, Best acoustic Design Greens, Professional acoustic Design Greens, Luxury acoustic Design Greens, Acoustic Design Greens Dubai, Acoustic designer Design Greens, Acoustic company Design Greens, Acoustic contractor Design Greens, Affordable acoustic Design Greens, Modern acoustic Design Greens, Acoustic consultation Design Greens, Acoustic cost Design Greens, Acoustic price Design Greens, Top acoustic Design Greens
+
+// SEO Keywords: Acoustic Design Greens, Acoustic in Design Greens, Best acoustic Design Greens, Professional acoustic Design Greens, Luxury acoustic Design Greens, Acoustic Design Greens Dubai, Acoustic designer Design Greens, Acoustic company Design Greens, Acoustic contractor Design Greens, Affordable acoustic Design Greens, Modern acoustic Design Greens, Acoustic consultation Design Greens, Acoustic cost Design Greens, Acoustic price Design Greens, Top acoustic Design Greens, Acoustic near Design Greens, Acoustic specialists Design Greens, Acoustic experts Design Greens, Acoustic solutions Design Greens, Acoustic packages Design Greens, Acoustic quotes Design Greens, Acoustic estimates Design Greens, Acoustic services near me Design Greens, Cheap Acoustic Design Greens, Quality Acoustic Design Greens, Trusted Acoustic Design Greens, Acoustic transformation Design Greens, Acoustic renovation Design Greens, Acoustic makeover Design Greens, Best Acoustic company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic in Design Greens. Acoustic Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional acoustic design greens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design The Greens Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic in design greens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic near design greens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

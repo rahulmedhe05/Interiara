@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Al Safa, Hotel Interior Design in Al Safa, Best hotel interior design Al Safa, Professional hotel interior design Al Safa, Luxury hotel interior design Al Safa, Hotel Interior Design Al Safa Dubai, Hotel Interior Design designer Al Safa, Hotel Interior Design company Al Safa, Hotel Interior Design contractor Al Safa, Affordable hotel interior design Al Safa, Modern hotel interior design Al Safa, Hotel Interior Design consultation Al Safa, Hotel Interior Design cost Al Safa, Hotel Interior Design price Al Safa, Top hotel interior design Al Safa
+
+// SEO Keywords: Hotel Interior Design Al Safa, Hotel Interior Design in Al Safa, Best hotel interior design Al Safa, Professional hotel interior design Al Safa, Luxury hotel interior design Al Safa, Hotel Interior Design Al Safa Dubai, Hotel Interior Design designer Al Safa, Hotel Interior Design company Al Safa, Hotel Interior Design contractor Al Safa, Affordable hotel interior design Al Safa, Modern hotel interior design Al Safa, Hotel Interior Design consultation Al Safa, Hotel Interior Design cost Al Safa, Hotel Interior Design price Al Safa, Top hotel interior design Al Safa, Hotel Interior Design near Al Safa, Hotel Interior Design specialists Al Safa, Hotel Interior Design experts Al Safa, Hotel Interior Design solutions Al Safa, Hotel Interior Design packages Al Safa, Hotel Interior Design quotes Al Safa, Hotel Interior Design estimates Al Safa, Hotel Interior Design services near me Al Safa, Cheap Hotel Interior Design Al Safa, Quality Hotel Interior Design Al Safa, Trusted Hotel Interior Design Al Safa, Hotel Interior Design transformation Al Safa, Hotel Interior Design renovation Al Safa, Hotel Interior Design makeover Al Safa, Best Hotel Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Al Safa Company Al Safa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in Al Safa. Best hotel interior design Al Safa Company Al Safa Our luxury hotel interior design al safa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignAlSafa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in al safa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near al safa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

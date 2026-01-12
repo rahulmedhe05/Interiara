@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Banquet Hall Interior Design Al Jaddaf, Banquet Hall Interior Design in Al Jaddaf, Best banquet hall interior design Al Jaddaf, Professional banquet hall interior design Al Jaddaf, Luxury banquet hall interior design Al Jaddaf, Banquet Hall Interior Design Al Jaddaf Dubai, Banquet Hall Interior Design designer Al Jaddaf, Banquet Hall Interior Design company Al Jaddaf, Banquet Hall Interior Design contractor Al Jaddaf, Affordable banquet hall interior design Al Jaddaf, Modern banquet hall interior design Al Jaddaf, Banquet Hall Interior Design consultation Al Jaddaf, Banquet Hall Interior Design cost Al Jaddaf, Banquet Hall Interior Design price Al Jaddaf, Top banquet hall interior design Al Jaddaf
+
+// SEO Keywords: Banquet Hall Interior Design Al Jaddaf, Banquet Hall Interior Design in Al Jaddaf, Best banquet hall interior design Al Jaddaf, Professional banquet hall interior design Al Jaddaf, Luxury banquet hall interior design Al Jaddaf, Banquet Hall Interior Design Al Jaddaf Dubai, Banquet Hall Interior Design designer Al Jaddaf, Banquet Hall Interior Design company Al Jaddaf, Banquet Hall Interior Design contractor Al Jaddaf, Affordable banquet hall interior design Al Jaddaf, Modern banquet hall interior design Al Jaddaf, Banquet Hall Interior Design consultation Al Jaddaf, Banquet Hall Interior Design cost Al Jaddaf, Banquet Hall Interior Design price Al Jaddaf, Top banquet hall interior design Al Jaddaf, Banquet Hall Interior Design near Al Jaddaf, Banquet Hall Interior Design specialists Al Jaddaf, Banquet Hall Interior Design experts Al Jaddaf, Banquet Hall Interior Design solutions Al Jaddaf, Banquet Hall Interior Design packages Al Jaddaf, Banquet Hall Interior Design quotes Al Jaddaf, Banquet Hall Interior Design estimates Al Jaddaf, Banquet Hall Interior Design services near me Al Jaddaf, Cheap Banquet Hall Interior Design Al Jaddaf, Quality Banquet Hall Interior Design Al Jaddaf, Trusted Banquet Hall Interior Design Al Jaddaf, Banquet Hall Interior Design transformation Al Jaddaf, Banquet Hall Interior Design renovation Al Jaddaf, Banquet Hall Interior Design makeover Al Jaddaf, Best Banquet Hall Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BanquetHallInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Banquet Hall Interior Design in Al Jaddaf. Best banquet hall interior design Al Jaddaf Company Al Jaddaf Our luxury banquet hall interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BanquetHallInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our banquet hall interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BanquetHallInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in banquet hall interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BanquetHallInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

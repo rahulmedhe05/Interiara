@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Al Khawaneej, Affordable Interior Solutions in Al Khawaneej, Best affordable interior solutions Al Khawaneej, Professional affordable interior solutions Al Khawaneej, Luxury affordable interior solutions Al Khawaneej, Affordable Interior Solutions Al Khawaneej Dubai, Affordable Interior Solutions designer Al Khawaneej, Affordable Interior Solutions company Al Khawaneej, Affordable Interior Solutions contractor Al Khawaneej, Affordable affordable interior solutions Al Khawaneej, Modern affordable interior solutions Al Khawaneej, Affordable Interior Solutions consultation Al Khawaneej, Affordable Interior Solutions cost Al Khawaneej, Affordable Interior Solutions price Al Khawaneej, Top affordable interior solutions Al Khawaneej
+
+// SEO Keywords: Affordable Interior Solutions Al Khawaneej, Affordable Interior Solutions in Al Khawaneej, Best affordable interior solutions Al Khawaneej, Professional affordable interior solutions Al Khawaneej, Luxury affordable interior solutions Al Khawaneej, Affordable Interior Solutions Al Khawaneej Dubai, Affordable Interior Solutions designer Al Khawaneej, Affordable Interior Solutions company Al Khawaneej, Affordable Interior Solutions contractor Al Khawaneej, Affordable affordable interior solutions Al Khawaneej, Modern affordable interior solutions Al Khawaneej, Affordable Interior Solutions consultation Al Khawaneej, Affordable Interior Solutions cost Al Khawaneej, Affordable Interior Solutions price Al Khawaneej, Top affordable interior solutions Al Khawaneej, Affordable Interior Solutions near Al Khawaneej, Affordable Interior Solutions specialists Al Khawaneej, Affordable Interior Solutions experts Al Khawaneej, Affordable Interior Solutions solutions Al Khawaneej, Affordable Interior Solutions packages Al Khawaneej, Affordable Interior Solutions quotes Al Khawaneej, Affordable Interior Solutions estimates Al Khawaneej, Affordable Interior Solutions services near me Al Khawaneej, Cheap Affordable Interior Solutions Al Khawaneej, Quality Affordable Interior Solutions Al Khawaneej, Trusted Affordable Interior Solutions Al Khawaneej, Affordable Interior Solutions transformation Al Khawaneej, Affordable Interior Solutions renovation Al Khawaneej, Affordable Interior Solutions makeover Al Khawaneej, Best Affordable Interior Solutions company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Al Khawaneej. Best affordable interior solutions Al Khawaneej Company Al Khawaneej Our luxury affordable interior solutions al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

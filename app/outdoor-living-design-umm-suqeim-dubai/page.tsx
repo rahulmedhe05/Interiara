@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Umm Suqeim, Outdoor Living Design in Umm Suqeim, Best outdoor living design Umm Suqeim, Professional outdoor living design Umm Suqeim, Luxury outdoor living design Umm Suqeim, Outdoor Living Design Umm Suqeim Dubai, Outdoor Living Design designer Umm Suqeim, Outdoor Living Design company Umm Suqeim, Outdoor Living Design contractor Umm Suqeim, Affordable outdoor living design Umm Suqeim, Modern outdoor living design Umm Suqeim, Outdoor Living Design consultation Umm Suqeim, Outdoor Living Design cost Umm Suqeim, Outdoor Living Design price Umm Suqeim, Top outdoor living design Umm Suqeim
+
+// SEO Keywords: Outdoor Living Design Umm Suqeim, Outdoor Living Design in Umm Suqeim, Best outdoor living design Umm Suqeim, Professional outdoor living design Umm Suqeim, Luxury outdoor living design Umm Suqeim, Outdoor Living Design Umm Suqeim Dubai, Outdoor Living Design designer Umm Suqeim, Outdoor Living Design company Umm Suqeim, Outdoor Living Design contractor Umm Suqeim, Affordable outdoor living design Umm Suqeim, Modern outdoor living design Umm Suqeim, Outdoor Living Design consultation Umm Suqeim, Outdoor Living Design cost Umm Suqeim, Outdoor Living Design price Umm Suqeim, Top outdoor living design Umm Suqeim, Outdoor Living Design near Umm Suqeim, Outdoor Living Design specialists Umm Suqeim, Outdoor Living Design experts Umm Suqeim, Outdoor Living Design solutions Umm Suqeim, Outdoor Living Design packages Umm Suqeim, Outdoor Living Design quotes Umm Suqeim, Outdoor Living Design estimates Umm Suqeim, Outdoor Living Design services near me Umm Suqeim, Cheap Outdoor Living Design Umm Suqeim, Quality Outdoor Living Design Umm Suqeim, Trusted Outdoor Living Design Umm Suqeim, Outdoor Living Design transformation Umm Suqeim, Outdoor Living Design renovation Umm Suqeim, Outdoor Living Design makeover Umm Suqeim, Best Outdoor Living Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design in Umm Suqeim. Best outdoor living design Umm Suqeim Company Umm Suqeim Our luxury outdoor living design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

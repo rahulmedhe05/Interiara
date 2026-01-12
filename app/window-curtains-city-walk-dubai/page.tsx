@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains City Walk, Window Curtains in City Walk, Best window curtains City Walk, Professional window curtains City Walk, Luxury window curtains City Walk, Window Curtains City Walk Dubai, Window Curtains designer City Walk, Window Curtains company City Walk, Window Curtains contractor City Walk, Affordable window curtains City Walk, Modern window curtains City Walk, Window Curtains consultation City Walk, Window Curtains cost City Walk, Window Curtains price City Walk, Top window curtains City Walk
+
+// SEO Keywords: Window Curtains City Walk, Window Curtains in City Walk, Best window curtains City Walk, Professional window curtains City Walk, Luxury window curtains City Walk, Window Curtains City Walk Dubai, Window Curtains designer City Walk, Window Curtains company City Walk, Window Curtains contractor City Walk, Affordable window curtains City Walk, Modern window curtains City Walk, Window Curtains consultation City Walk, Window Curtains cost City Walk, Window Curtains price City Walk, Top window curtains City Walk, Window Curtains near City Walk, Window Curtains specialists City Walk, Window Curtains experts City Walk, Window Curtains solutions City Walk, Window Curtains packages City Walk, Window Curtains quotes City Walk, Window Curtains estimates City Walk, Window Curtains services near me City Walk, Cheap Window Curtains City Walk, Quality Window Curtains City Walk, Trusted Window Curtains City Walk, Window Curtains transformation City Walk, Window Curtains renovation City Walk, Window Curtains makeover City Walk, Best Window Curtains company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsCityWalk() {
                 At Interiara, we believe that exceptional <strong>Window Curtains City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

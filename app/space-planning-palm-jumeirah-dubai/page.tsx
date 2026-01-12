@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Palm Jumeirah, Space Planning in Palm Jumeirah, Best space planning Palm Jumeirah, Professional space planning Palm Jumeirah, Luxury space planning Palm Jumeirah, Space Planning Palm Jumeirah Dubai, Space Planning designer Palm Jumeirah, Space Planning company Palm Jumeirah, Space Planning contractor Palm Jumeirah, Affordable space planning Palm Jumeirah, Modern space planning Palm Jumeirah, Space Planning consultation Palm Jumeirah, Space Planning cost Palm Jumeirah, Space Planning price Palm Jumeirah, Top space planning Palm Jumeirah
+
+// SEO Keywords: Space Planning Palm Jumeirah, Space Planning in Palm Jumeirah, Best space planning Palm Jumeirah, Professional space planning Palm Jumeirah, Luxury space planning Palm Jumeirah, Space Planning Palm Jumeirah Dubai, Space Planning designer Palm Jumeirah, Space Planning company Palm Jumeirah, Space Planning contractor Palm Jumeirah, Affordable space planning Palm Jumeirah, Modern space planning Palm Jumeirah, Space Planning consultation Palm Jumeirah, Space Planning cost Palm Jumeirah, Space Planning price Palm Jumeirah, Top space planning Palm Jumeirah, Space Planning near Palm Jumeirah, Space Planning specialists Palm Jumeirah, Space Planning experts Palm Jumeirah, Space Planning solutions Palm Jumeirah, Space Planning packages Palm Jumeirah, Space Planning quotes Palm Jumeirah, Space Planning estimates Palm Jumeirah, Space Planning services near me Palm Jumeirah, Cheap Space Planning Palm Jumeirah, Quality Space Planning Palm Jumeirah, Trusted Space Planning Palm Jumeirah, Space Planning transformation Palm Jumeirah, Space Planning renovation Palm Jumeirah, Space Planning makeover Palm Jumeirah, Best Space Planning company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Palm Jumeirah. Best space planning Palm Jumeirah Company Palm Jumeirah Our luxury space planning palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Al Khawaneej, Home Renovation in Al Khawaneej, Best home renovation Al Khawaneej, Professional home renovation Al Khawaneej, Luxury home renovation Al Khawaneej, Home Renovation Al Khawaneej Dubai, Home Renovation designer Al Khawaneej, Home Renovation company Al Khawaneej, Home Renovation contractor Al Khawaneej, Affordable home renovation Al Khawaneej, Modern home renovation Al Khawaneej, Home Renovation consultation Al Khawaneej, Home Renovation cost Al Khawaneej, Home Renovation price Al Khawaneej, Top home renovation Al Khawaneej
+
+// SEO Keywords: Home Renovation Al Khawaneej, Home Renovation in Al Khawaneej, Best home renovation Al Khawaneej, Professional home renovation Al Khawaneej, Luxury home renovation Al Khawaneej, Home Renovation Al Khawaneej Dubai, Home Renovation designer Al Khawaneej, Home Renovation company Al Khawaneej, Home Renovation contractor Al Khawaneej, Affordable home renovation Al Khawaneej, Modern home renovation Al Khawaneej, Home Renovation consultation Al Khawaneej, Home Renovation cost Al Khawaneej, Home Renovation price Al Khawaneej, Top home renovation Al Khawaneej, Home Renovation near Al Khawaneej, Home Renovation specialists Al Khawaneej, Home Renovation experts Al Khawaneej, Home Renovation solutions Al Khawaneej, Home Renovation packages Al Khawaneej, Home Renovation quotes Al Khawaneej, Home Renovation estimates Al Khawaneej, Home Renovation services near me Al Khawaneej, Cheap Home Renovation Al Khawaneej, Quality Home Renovation Al Khawaneej, Trusted Home Renovation Al Khawaneej, Home Renovation transformation Al Khawaneej, Home Renovation renovation Al Khawaneej, Home Renovation makeover Al Khawaneej, Best Home Renovation company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation in Al Khawaneej. Best home renovation Al Khawaneej Company Al Khawaneej Our luxury home renovation al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRenovationAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

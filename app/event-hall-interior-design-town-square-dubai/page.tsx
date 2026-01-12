@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Event Hall Interior Design Town Square, Event Hall Interior Design in Town Square, Best event hall interior design Town Square, Professional event hall interior design Town Square, Luxury event hall interior design Town Square, Event Hall Interior Design Town Square Dubai, Event Hall Interior Design designer Town Square, Event Hall Interior Design company Town Square, Event Hall Interior Design contractor Town Square, Affordable event hall interior design Town Square, Modern event hall interior design Town Square, Event Hall Interior Design consultation Town Square, Event Hall Interior Design cost Town Square, Event Hall Interior Design price Town Square, Top event hall interior design Town Square
+
+// SEO Keywords: Event Hall Interior Design Town Square, Event Hall Interior Design in Town Square, Best event hall interior design Town Square, Professional event hall interior design Town Square, Luxury event hall interior design Town Square, Event Hall Interior Design Town Square Dubai, Event Hall Interior Design designer Town Square, Event Hall Interior Design company Town Square, Event Hall Interior Design contractor Town Square, Affordable event hall interior design Town Square, Modern event hall interior design Town Square, Event Hall Interior Design consultation Town Square, Event Hall Interior Design cost Town Square, Event Hall Interior Design price Town Square, Top event hall interior design Town Square, Event Hall Interior Design near Town Square, Event Hall Interior Design specialists Town Square, Event Hall Interior Design experts Town Square, Event Hall Interior Design solutions Town Square, Event Hall Interior Design packages Town Square, Event Hall Interior Design quotes Town Square, Event Hall Interior Design estimates Town Square, Event Hall Interior Design services near me Town Square, Cheap Event Hall Interior Design Town Square, Quality Event Hall Interior Design Town Square, Trusted Event Hall Interior Design Town Square, Event Hall Interior Design transformation Town Square, Event Hall Interior Design renovation Town Square, Event Hall Interior Design makeover Town Square, Best Event Hall Interior Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EventHallInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall interior design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Event Hall Interior Design in Town Square. Best event hall interior design Town Square Company Town Square Our luxury event hall interior design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EventHallInteriorDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our event hall interior design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EventHallInteriorDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in event hall interior design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EventHallInteriorDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

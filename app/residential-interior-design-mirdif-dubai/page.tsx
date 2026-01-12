@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Residential Interior Design Mirdif, Residential Interior in Design Mirdif, Best residential interior Design Mirdif, Professional residential interior Design Mirdif, Luxury residential interior Design Mirdif, Residential Interior Design Mirdif Dubai, Residential Interior designer Design Mirdif, Residential Interior company Design Mirdif, Residential Interior contractor Design Mirdif, Affordable residential interior Design Mirdif, Modern residential interior Design Mirdif, Residential Interior consultation Design Mirdif, Residential Interior cost Design Mirdif, Residential Interior price Design Mirdif, Top residential interior Design Mirdif
+
+// SEO Keywords: Residential Interior Design Mirdif, Residential Interior in Design Mirdif, Best residential interior Design Mirdif, Professional residential interior Design Mirdif, Luxury residential interior Design Mirdif, Residential Interior Design Mirdif Dubai, Residential Interior designer Design Mirdif, Residential Interior company Design Mirdif, Residential Interior contractor Design Mirdif, Affordable residential interior Design Mirdif, Modern residential interior Design Mirdif, Residential Interior consultation Design Mirdif, Residential Interior cost Design Mirdif, Residential Interior price Design Mirdif, Top residential interior Design Mirdif, Residential Interior near Design Mirdif, Residential Interior specialists Design Mirdif, Residential Interior experts Design Mirdif, Residential Interior solutions Design Mirdif, Residential Interior packages Design Mirdif, Residential Interior quotes Design Mirdif, Residential Interior estimates Design Mirdif, Residential Interior services near me Design Mirdif, Cheap Residential Interior Design Mirdif, Quality Residential Interior Design Mirdif, Trusted Residential Interior Design Mirdif, Residential Interior transformation Design Mirdif, Residential Interior renovation Design Mirdif, Residential Interior makeover Design Mirdif, Best Residential Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ResidentialInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior in Design Mirdif. Best residential interior Design Mirdif Company Design Mirdif Our luxury residential interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ResidentialInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our residential interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ResidentialInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in residential interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ResidentialInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

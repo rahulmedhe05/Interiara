@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Jbr, Office Fit in Out Jbr, Best office fit Out Jbr, Professional office fit Out Jbr, Luxury office fit Out Jbr, Office Fit Out Jbr Dubai, Office Fit designer Out Jbr, Office Fit company Out Jbr, Office Fit contractor Out Jbr, Affordable office fit Out Jbr, Modern office fit Out Jbr, Office Fit consultation Out Jbr, Office Fit cost Out Jbr, Office Fit price Out Jbr, Top office fit Out Jbr
+
+// SEO Keywords: Office Fit Out Jbr, Office Fit in Out Jbr, Best office fit Out Jbr, Professional office fit Out Jbr, Luxury office fit Out Jbr, Office Fit Out Jbr Dubai, Office Fit designer Out Jbr, Office Fit company Out Jbr, Office Fit contractor Out Jbr, Affordable office fit Out Jbr, Modern office fit Out Jbr, Office Fit consultation Out Jbr, Office Fit cost Out Jbr, Office Fit price Out Jbr, Top office fit Out Jbr, Office Fit near Out Jbr, Office Fit specialists Out Jbr, Office Fit experts Out Jbr, Office Fit solutions Out Jbr, Office Fit packages Out Jbr, Office Fit quotes Out Jbr, Office Fit estimates Out Jbr, Office Fit services near me Out Jbr, Cheap Office Fit Out Jbr, Quality Office Fit Out Jbr, Trusted Office Fit Out Jbr, Office Fit transformation Out Jbr, Office Fit renovation Out Jbr, Office Fit makeover Out Jbr, Best Office Fit company Out Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutJbr() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Jbr. Office Fit Out Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

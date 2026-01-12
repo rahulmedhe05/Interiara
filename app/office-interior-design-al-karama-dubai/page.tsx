@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Al Karama, Office Interior Design in Al Karama, Best office interior design Al Karama, Professional office interior design Al Karama, Luxury office interior design Al Karama, Office Interior Design Al Karama Dubai, Office Interior Design designer Al Karama, Office Interior Design company Al Karama, Office Interior Design contractor Al Karama, Affordable office interior design Al Karama, Modern office interior design Al Karama, Office Interior Design consultation Al Karama, Office Interior Design cost Al Karama, Office Interior Design price Al Karama, Top office interior design Al Karama
+
+// SEO Keywords: Office Interior Design Al Karama, Office Interior Design in Al Karama, Best office interior design Al Karama, Professional office interior design Al Karama, Luxury office interior design Al Karama, Office Interior Design Al Karama Dubai, Office Interior Design designer Al Karama, Office Interior Design company Al Karama, Office Interior Design contractor Al Karama, Affordable office interior design Al Karama, Modern office interior design Al Karama, Office Interior Design consultation Al Karama, Office Interior Design cost Al Karama, Office Interior Design price Al Karama, Top office interior design Al Karama, Office Interior Design near Al Karama, Office Interior Design specialists Al Karama, Office Interior Design experts Al Karama, Office Interior Design solutions Al Karama, Office Interior Design packages Al Karama, Office Interior Design quotes Al Karama, Office Interior Design estimates Al Karama, Office Interior Design services near me Al Karama, Cheap Office Interior Design Al Karama, Quality Office Interior Design Al Karama, Trusted Office Interior Design Al Karama, Office Interior Design transformation Al Karama, Office Interior Design renovation Al Karama, Office Interior Design makeover Al Karama, Best Office Interior Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior design Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior Design in Al Karama. Best office interior design Al Karama Company Al Karama Our luxury office interior design al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior design in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior design near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

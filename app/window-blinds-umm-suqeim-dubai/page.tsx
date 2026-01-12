@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Umm Suqeim, Window Blinds in Umm Suqeim, Best window blinds Umm Suqeim, Professional window blinds Umm Suqeim, Luxury window blinds Umm Suqeim, Window Blinds Umm Suqeim Dubai, Window Blinds designer Umm Suqeim, Window Blinds company Umm Suqeim, Window Blinds contractor Umm Suqeim, Affordable window blinds Umm Suqeim, Modern window blinds Umm Suqeim, Window Blinds consultation Umm Suqeim, Window Blinds cost Umm Suqeim, Window Blinds price Umm Suqeim, Top window blinds Umm Suqeim
+
+// SEO Keywords: Window Blinds Umm Suqeim, Window Blinds in Umm Suqeim, Best window blinds Umm Suqeim, Professional window blinds Umm Suqeim, Luxury window blinds Umm Suqeim, Window Blinds Umm Suqeim Dubai, Window Blinds designer Umm Suqeim, Window Blinds company Umm Suqeim, Window Blinds contractor Umm Suqeim, Affordable window blinds Umm Suqeim, Modern window blinds Umm Suqeim, Window Blinds consultation Umm Suqeim, Window Blinds cost Umm Suqeim, Window Blinds price Umm Suqeim, Top window blinds Umm Suqeim, Window Blinds near Umm Suqeim, Window Blinds specialists Umm Suqeim, Window Blinds experts Umm Suqeim, Window Blinds solutions Umm Suqeim, Window Blinds packages Umm Suqeim, Window Blinds quotes Umm Suqeim, Window Blinds estimates Umm Suqeim, Window Blinds services near me Umm Suqeim, Cheap Window Blinds Umm Suqeim, Quality Window Blinds Umm Suqeim, Trusted Window Blinds Umm Suqeim, Window Blinds transformation Umm Suqeim, Window Blinds renovation Umm Suqeim, Window Blinds makeover Umm Suqeim, Best Window Blinds company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsUmmSuqeim() {
                 At Interiara, we believe that exceptional <strong>Window Blinds Umm Suqeim Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Umm Suqeim Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Blinds in Umm Suqeim. 
                 We've completed 300+ successful projects across Umm Suqeim Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds Umm Suqeim Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window blinds umm suqeim services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds Umm Suqeim Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window blinds in umm suqeim service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window blinds near umm suqeim.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

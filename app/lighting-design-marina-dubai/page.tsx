@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Marina, Lighting in Design Marina, Best lighting Design Marina, Professional lighting Design Marina, Luxury lighting Design Marina, Lighting Design Marina Dubai, Lighting designer Design Marina, Lighting company Design Marina, Lighting contractor Design Marina, Affordable lighting Design Marina, Modern lighting Design Marina, Lighting consultation Design Marina, Lighting cost Design Marina, Lighting price Design Marina, Top lighting Design Marina
+
+// SEO Keywords: Lighting Design Marina, Lighting in Design Marina, Best lighting Design Marina, Professional lighting Design Marina, Luxury lighting Design Marina, Lighting Design Marina Dubai, Lighting designer Design Marina, Lighting company Design Marina, Lighting contractor Design Marina, Affordable lighting Design Marina, Modern lighting Design Marina, Lighting consultation Design Marina, Lighting cost Design Marina, Lighting price Design Marina, Top lighting Design Marina, Lighting near Design Marina, Lighting specialists Design Marina, Lighting experts Design Marina, Lighting solutions Design Marina, Lighting packages Design Marina, Lighting quotes Design Marina, Lighting estimates Design Marina, Lighting services near me Design Marina, Cheap Lighting Design Marina, Quality Lighting Design Marina, Trusted Lighting Design Marina, Lighting transformation Design Marina, Lighting renovation Design Marina, Lighting makeover Design Marina, Best Lighting company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting in Design Marina. Lighting Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional lighting design marina services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Dubai Marina Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting in design marina service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting near design marina.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

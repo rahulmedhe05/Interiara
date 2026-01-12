@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Drapes Lakes,  in Drapes Lakes, Best  Drapes Lakes, Professional  Drapes Lakes, Luxury  Drapes Lakes,  Drapes Lakes Dubai,  designer Drapes Lakes,  company Drapes Lakes,  contractor Drapes Lakes, Affordable  Drapes Lakes, Modern  Drapes Lakes,  consultation Drapes Lakes,  cost Drapes Lakes,  price Drapes Lakes, Top  Drapes Lakes
+
+// SEO Keywords:  Drapes Lakes,  in Drapes Lakes, Best  Drapes Lakes, Professional  Drapes Lakes, Luxury  Drapes Lakes,  Drapes Lakes Dubai,  designer Drapes Lakes,  company Drapes Lakes,  contractor Drapes Lakes, Affordable  Drapes Lakes, Modern  Drapes Lakes,  consultation Drapes Lakes,  cost Drapes Lakes,  price Drapes Lakes, Top  Drapes Lakes,  near Drapes Lakes,  specialists Drapes Lakes,  experts Drapes Lakes,  solutions Drapes Lakes,  packages Drapes Lakes,  quotes Drapes Lakes,  estimates Drapes Lakes,  services near me Drapes Lakes, Cheap  Drapes Lakes, Quality  Drapes Lakes, Trusted  Drapes Lakes,  transformation Drapes Lakes,  renovation Drapes Lakes,  makeover Drapes Lakes, Best  company Drapes Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesLakes() {
                 At Interiara, we believe that exceptional <strong>Drapes The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p> in Drapes Lakes.  Drapes Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional  drapes lakes services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes The Lakes Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our  in drapes lakes service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near drapes lakes.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

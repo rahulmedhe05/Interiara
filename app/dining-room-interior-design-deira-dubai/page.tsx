@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design Deira, Dining Room Interior in Design Deira, Best dining room interior Design Deira, Professional dining room interior Design Deira, Luxury dining room interior Design Deira, Dining Room Interior Design Deira Dubai, Dining Room Interior designer Design Deira, Dining Room Interior company Design Deira, Dining Room Interior contractor Design Deira, Affordable dining room interior Design Deira, Modern dining room interior Design Deira, Dining Room Interior consultation Design Deira, Dining Room Interior cost Design Deira, Dining Room Interior price Design Deira, Top dining room interior Design Deira
+
+// SEO Keywords: Dining Room Interior Design Deira, Dining Room Interior in Design Deira, Best dining room interior Design Deira, Professional dining room interior Design Deira, Luxury dining room interior Design Deira, Dining Room Interior Design Deira Dubai, Dining Room Interior designer Design Deira, Dining Room Interior company Design Deira, Dining Room Interior contractor Design Deira, Affordable dining room interior Design Deira, Modern dining room interior Design Deira, Dining Room Interior consultation Design Deira, Dining Room Interior cost Design Deira, Dining Room Interior price Design Deira, Top dining room interior Design Deira, Dining Room Interior near Design Deira, Dining Room Interior specialists Design Deira, Dining Room Interior experts Design Deira, Dining Room Interior solutions Design Deira, Dining Room Interior packages Design Deira, Dining Room Interior quotes Design Deira, Dining Room Interior estimates Design Deira, Dining Room Interior services near me Design Deira, Cheap Dining Room Interior Design Deira, Quality Dining Room Interior Design Deira, Trusted Dining Room Interior Design Deira, Dining Room Interior transformation Design Deira, Dining Room Interior renovation Design Deira, Dining Room Interior makeover Design Deira, Best Dining Room Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room Interior in Design Deira. Best dining room interior Design Deira Company Design Deira Our luxury dining room interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

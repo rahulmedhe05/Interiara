@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Modular Kitchens,  in Modular Kitchens, Best  Modular Kitchens, Professional  Modular Kitchens, Luxury  Modular Kitchens,  Modular Kitchens Dubai,  designer Modular Kitchens,  company Modular Kitchens,  contractor Modular Kitchens, Affordable  Modular Kitchens, Modern  Modular Kitchens,  consultation Modular Kitchens,  cost Modular Kitchens,  price Modular Kitchens, Top  Modular Kitchens
+
+// SEO Keywords:  Modular Kitchens,  in Modular Kitchens, Best  Modular Kitchens, Professional  Modular Kitchens, Luxury  Modular Kitchens,  Modular Kitchens Dubai,  designer Modular Kitchens,  company Modular Kitchens,  contractor Modular Kitchens, Affordable  Modular Kitchens, Modern  Modular Kitchens,  consultation Modular Kitchens,  cost Modular Kitchens,  price Modular Kitchens, Top  Modular Kitchens,  near Modular Kitchens,  specialists Modular Kitchens,  experts Modular Kitchens,  solutions Modular Kitchens,  packages Modular Kitchens,  quotes Modular Kitchens,  estimates Modular Kitchens,  services near me Modular Kitchens, Cheap  Modular Kitchens, Quality  Modular Kitchens, Trusted  Modular Kitchens,  transformation Modular Kitchens,  renovation Modular Kitchens,  makeover Modular Kitchens, Best  company Modular Kitchens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchens() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Modular Kitchens. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  modular kitchens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Harbour Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchens() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  modular kitchens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near modular kitchens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

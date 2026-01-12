@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Arabian Ranches, Home Decor Consultation in Arabian Ranches, Best home decor consultation Arabian Ranches, Professional home decor consultation Arabian Ranches, Luxury home decor consultation Arabian Ranches, Home Decor Consultation Arabian Ranches Dubai, Home Decor Consultation designer Arabian Ranches, Home Decor Consultation company Arabian Ranches, Home Decor Consultation contractor Arabian Ranches, Affordable home decor consultation Arabian Ranches, Modern home decor consultation Arabian Ranches, Home Decor Consultation consultation Arabian Ranches, Home Decor Consultation cost Arabian Ranches, Home Decor Consultation price Arabian Ranches, Top home decor consultation Arabian Ranches
+
+// SEO Keywords: Home Decor Consultation Arabian Ranches, Home Decor Consultation in Arabian Ranches, Best home decor consultation Arabian Ranches, Professional home decor consultation Arabian Ranches, Luxury home decor consultation Arabian Ranches, Home Decor Consultation Arabian Ranches Dubai, Home Decor Consultation designer Arabian Ranches, Home Decor Consultation company Arabian Ranches, Home Decor Consultation contractor Arabian Ranches, Affordable home decor consultation Arabian Ranches, Modern home decor consultation Arabian Ranches, Home Decor Consultation consultation Arabian Ranches, Home Decor Consultation cost Arabian Ranches, Home Decor Consultation price Arabian Ranches, Top home decor consultation Arabian Ranches, Home Decor Consultation near Arabian Ranches, Home Decor Consultation specialists Arabian Ranches, Home Decor Consultation experts Arabian Ranches, Home Decor Consultation solutions Arabian Ranches, Home Decor Consultation packages Arabian Ranches, Home Decor Consultation quotes Arabian Ranches, Home Decor Consultation estimates Arabian Ranches, Home Decor Consultation services near me Arabian Ranches, Cheap Home Decor Consultation Arabian Ranches, Quality Home Decor Consultation Arabian Ranches, Trusted Home Decor Consultation Arabian Ranches, Home Decor Consultation transformation Arabian Ranches, Home Decor Consultation renovation Arabian Ranches, Home Decor Consultation makeover Arabian Ranches, Best Home Decor Consultation company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Arabian Ranches. Best home decor consultation Arabian Ranches Company Arabian Ranches Our luxury home decor consultation arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

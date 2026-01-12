@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Creek, Healthcare Interior in Design Creek, Best healthcare interior Design Creek, Professional healthcare interior Design Creek, Luxury healthcare interior Design Creek, Healthcare Interior Design Creek Dubai, Healthcare Interior designer Design Creek, Healthcare Interior company Design Creek, Healthcare Interior contractor Design Creek, Affordable healthcare interior Design Creek, Modern healthcare interior Design Creek, Healthcare Interior consultation Design Creek, Healthcare Interior cost Design Creek, Healthcare Interior price Design Creek, Top healthcare interior Design Creek
+
+// SEO Keywords: Healthcare Interior Design Creek, Healthcare Interior in Design Creek, Best healthcare interior Design Creek, Professional healthcare interior Design Creek, Luxury healthcare interior Design Creek, Healthcare Interior Design Creek Dubai, Healthcare Interior designer Design Creek, Healthcare Interior company Design Creek, Healthcare Interior contractor Design Creek, Affordable healthcare interior Design Creek, Modern healthcare interior Design Creek, Healthcare Interior consultation Design Creek, Healthcare Interior cost Design Creek, Healthcare Interior price Design Creek, Top healthcare interior Design Creek, Healthcare Interior near Design Creek, Healthcare Interior specialists Design Creek, Healthcare Interior experts Design Creek, Healthcare Interior solutions Design Creek, Healthcare Interior packages Design Creek, Healthcare Interior quotes Design Creek, Healthcare Interior estimates Design Creek, Healthcare Interior services near me Design Creek, Cheap Healthcare Interior Design Creek, Quality Healthcare Interior Design Creek, Trusted Healthcare Interior Design Creek, Healthcare Interior transformation Design Creek, Healthcare Interior renovation Design Creek, Healthcare Interior makeover Design Creek, Best Healthcare Interior company Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Creek Company Design Creek</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior in Design Creek. Best healthcare interior Design Creek Company Design Creek Our professional healthcare interior design creek services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HealthcareInteriorDesignCreek() {
                 At Interiara, we believe that exceptional <strong>Healthcare Interior Design Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Healthcare Interior Design Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Healthcare Interior Design Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignCreek() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior in design creek service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior near design creek.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

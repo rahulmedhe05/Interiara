@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Jumeirah, Bedroom Interior in Design Jumeirah, Best bedroom interior Design Jumeirah, Professional bedroom interior Design Jumeirah, Luxury bedroom interior Design Jumeirah, Bedroom Interior Design Jumeirah Dubai, Bedroom Interior designer Design Jumeirah, Bedroom Interior company Design Jumeirah, Bedroom Interior contractor Design Jumeirah, Affordable bedroom interior Design Jumeirah, Modern bedroom interior Design Jumeirah, Bedroom Interior consultation Design Jumeirah, Bedroom Interior cost Design Jumeirah, Bedroom Interior price Design Jumeirah, Top bedroom interior Design Jumeirah
+
+// SEO Keywords: Bedroom Interior Design Jumeirah, Bedroom Interior in Design Jumeirah, Best bedroom interior Design Jumeirah, Professional bedroom interior Design Jumeirah, Luxury bedroom interior Design Jumeirah, Bedroom Interior Design Jumeirah Dubai, Bedroom Interior designer Design Jumeirah, Bedroom Interior company Design Jumeirah, Bedroom Interior contractor Design Jumeirah, Affordable bedroom interior Design Jumeirah, Modern bedroom interior Design Jumeirah, Bedroom Interior consultation Design Jumeirah, Bedroom Interior cost Design Jumeirah, Bedroom Interior price Design Jumeirah, Top bedroom interior Design Jumeirah, Bedroom Interior near Design Jumeirah, Bedroom Interior specialists Design Jumeirah, Bedroom Interior experts Design Jumeirah, Bedroom Interior solutions Design Jumeirah, Bedroom Interior packages Design Jumeirah, Bedroom Interior quotes Design Jumeirah, Bedroom Interior estimates Design Jumeirah, Bedroom Interior services near me Design Jumeirah, Cheap Bedroom Interior Design Jumeirah, Quality Bedroom Interior Design Jumeirah, Trusted Bedroom Interior Design Jumeirah, Bedroom Interior transformation Design Jumeirah, Bedroom Interior renovation Design Jumeirah, Bedroom Interior makeover Design Jumeirah, Best Bedroom Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior in Design Jumeirah. Best bedroom interior Design Jumeirah Company Design Jumeirah Our luxury bedroom interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

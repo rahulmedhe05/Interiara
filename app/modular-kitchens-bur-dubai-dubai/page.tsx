@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Bur Dubai, Modular Kitchens in Bur Dubai, Best modular kitchens Bur Dubai, Professional modular kitchens Bur Dubai, Luxury modular kitchens Bur Dubai, Modular Kitchens Bur Dubai Dubai, Modular Kitchens designer Bur Dubai, Modular Kitchens company Bur Dubai, Modular Kitchens contractor Bur Dubai, Affordable modular kitchens Bur Dubai, Modern modular kitchens Bur Dubai, Modular Kitchens consultation Bur Dubai, Modular Kitchens cost Bur Dubai, Modular Kitchens price Bur Dubai, Top modular kitchens Bur Dubai
+
+// SEO Keywords: Modular Kitchens Bur Dubai, Modular Kitchens in Bur Dubai, Best modular kitchens Bur Dubai, Professional modular kitchens Bur Dubai, Luxury modular kitchens Bur Dubai, Modular Kitchens Bur Dubai Dubai, Modular Kitchens designer Bur Dubai, Modular Kitchens company Bur Dubai, Modular Kitchens contractor Bur Dubai, Affordable modular kitchens Bur Dubai, Modern modular kitchens Bur Dubai, Modular Kitchens consultation Bur Dubai, Modular Kitchens cost Bur Dubai, Modular Kitchens price Bur Dubai, Top modular kitchens Bur Dubai, Modular Kitchens near Bur Dubai, Modular Kitchens specialists Bur Dubai, Modular Kitchens experts Bur Dubai, Modular Kitchens solutions Bur Dubai, Modular Kitchens packages Bur Dubai, Modular Kitchens quotes Bur Dubai, Modular Kitchens estimates Bur Dubai, Modular Kitchens services near me Bur Dubai, Cheap Modular Kitchens Bur Dubai, Quality Modular Kitchens Bur Dubai, Trusted Modular Kitchens Bur Dubai, Modular Kitchens transformation Bur Dubai, Modular Kitchens renovation Bur Dubai, Modular Kitchens makeover Bur Dubai, Best Modular Kitchens company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensBurDubai() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

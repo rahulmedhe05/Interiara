@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Arabian Ranches, Modular Kitchens in Arabian Ranches, Best modular kitchens Arabian Ranches, Professional modular kitchens Arabian Ranches, Luxury modular kitchens Arabian Ranches, Modular Kitchens Arabian Ranches Dubai, Modular Kitchens designer Arabian Ranches, Modular Kitchens company Arabian Ranches, Modular Kitchens contractor Arabian Ranches, Affordable modular kitchens Arabian Ranches, Modern modular kitchens Arabian Ranches, Modular Kitchens consultation Arabian Ranches, Modular Kitchens cost Arabian Ranches, Modular Kitchens price Arabian Ranches, Top modular kitchens Arabian Ranches
+
+// SEO Keywords: Modular Kitchens Arabian Ranches, Modular Kitchens in Arabian Ranches, Best modular kitchens Arabian Ranches, Professional modular kitchens Arabian Ranches, Luxury modular kitchens Arabian Ranches, Modular Kitchens Arabian Ranches Dubai, Modular Kitchens designer Arabian Ranches, Modular Kitchens company Arabian Ranches, Modular Kitchens contractor Arabian Ranches, Affordable modular kitchens Arabian Ranches, Modern modular kitchens Arabian Ranches, Modular Kitchens consultation Arabian Ranches, Modular Kitchens cost Arabian Ranches, Modular Kitchens price Arabian Ranches, Top modular kitchens Arabian Ranches, Modular Kitchens near Arabian Ranches, Modular Kitchens specialists Arabian Ranches, Modular Kitchens experts Arabian Ranches, Modular Kitchens solutions Arabian Ranches, Modular Kitchens packages Arabian Ranches, Modular Kitchens quotes Arabian Ranches, Modular Kitchens estimates Arabian Ranches, Modular Kitchens services near me Arabian Ranches, Cheap Modular Kitchens Arabian Ranches, Quality Modular Kitchens Arabian Ranches, Trusted Modular Kitchens Arabian Ranches, Modular Kitchens transformation Arabian Ranches, Modular Kitchens renovation Arabian Ranches, Modular Kitchens makeover Arabian Ranches, Best Modular Kitchens company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens in Arabian Ranches. Best modular kitchens Arabian Ranches Company Arabian Ranches Our luxury modular kitchens arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

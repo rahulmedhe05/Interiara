@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Muhaisnah, Space in Planning Muhaisnah, Best space Planning Muhaisnah, Professional space Planning Muhaisnah, Luxury space Planning Muhaisnah, Space Planning Muhaisnah Dubai, Space designer Planning Muhaisnah, Space company Planning Muhaisnah, Space contractor Planning Muhaisnah, Affordable space Planning Muhaisnah, Modern space Planning Muhaisnah, Space consultation Planning Muhaisnah, Space cost Planning Muhaisnah, Space price Planning Muhaisnah, Top space Planning Muhaisnah
+
+// SEO Keywords: Space Planning Muhaisnah, Space in Planning Muhaisnah, Best space Planning Muhaisnah, Professional space Planning Muhaisnah, Luxury space Planning Muhaisnah, Space Planning Muhaisnah Dubai, Space designer Planning Muhaisnah, Space company Planning Muhaisnah, Space contractor Planning Muhaisnah, Affordable space Planning Muhaisnah, Modern space Planning Muhaisnah, Space consultation Planning Muhaisnah, Space cost Planning Muhaisnah, Space price Planning Muhaisnah, Top space Planning Muhaisnah, Space near Planning Muhaisnah, Space specialists Planning Muhaisnah, Space experts Planning Muhaisnah, Space solutions Planning Muhaisnah, Space packages Planning Muhaisnah, Space quotes Planning Muhaisnah, Space estimates Planning Muhaisnah, Space services near me Planning Muhaisnah, Cheap Space Planning Muhaisnah, Quality Space Planning Muhaisnah, Trusted Space Planning Muhaisnah, Space transformation Planning Muhaisnah, Space renovation Planning Muhaisnah, Space makeover Planning Muhaisnah, Best Space company Planning Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space Planning Muhaisnah Company Planning Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space in Planning Muhaisnah. Best space Planning Muhaisnah Company Planning Muhaisnah Our luxury space planning muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space in planning muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space near planning muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

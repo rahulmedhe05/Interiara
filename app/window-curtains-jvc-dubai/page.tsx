@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Jvc, Window in Curtains Jvc, Best window Curtains Jvc, Professional window Curtains Jvc, Luxury window Curtains Jvc, Window Curtains Jvc Dubai, Window designer Curtains Jvc, Window company Curtains Jvc, Window contractor Curtains Jvc, Affordable window Curtains Jvc, Modern window Curtains Jvc, Window consultation Curtains Jvc, Window cost Curtains Jvc, Window price Curtains Jvc, Top window Curtains Jvc
+
+// SEO Keywords: Window Curtains Jvc, Window in Curtains Jvc, Best window Curtains Jvc, Professional window Curtains Jvc, Luxury window Curtains Jvc, Window Curtains Jvc Dubai, Window designer Curtains Jvc, Window company Curtains Jvc, Window contractor Curtains Jvc, Affordable window Curtains Jvc, Modern window Curtains Jvc, Window consultation Curtains Jvc, Window cost Curtains Jvc, Window price Curtains Jvc, Top window Curtains Jvc, Window near Curtains Jvc, Window specialists Curtains Jvc, Window experts Curtains Jvc, Window solutions Curtains Jvc, Window packages Curtains Jvc, Window quotes Curtains Jvc, Window estimates Curtains Jvc, Window services near me Curtains Jvc, Cheap Window Curtains Jvc, Quality Window Curtains Jvc, Trusted Window Curtains Jvc, Window transformation Curtains Jvc, Window renovation Curtains Jvc, Window makeover Curtains Jvc, Best Window company Curtains Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsJvc() {
                 At Interiara, we believe that exceptional <strong>Window Curtains JVC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Curtains Jvc. Window Curtains Jvc. 
                 We've completed 300+ successful projects across JVC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains JVC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains jvc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains JVC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsJvc() {
 
               <p>
                 Interiara stands out in the crowded JVC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in curtains jvc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near curtains jvc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsJvc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

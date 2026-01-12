@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Al Barsha South, Home Remodeling Al in Barsha South, Best home remodeling al Barsha South, Professional home remodeling al Barsha South, Luxury home remodeling al Barsha South, Home Remodeling Al Barsha South Dubai, Home Remodeling Al designer Barsha South, Home Remodeling Al company Barsha South, Home Remodeling Al contractor Barsha South, Affordable home remodeling al Barsha South, Modern home remodeling al Barsha South, Home Remodeling Al consultation Barsha South, Home Remodeling Al cost Barsha South, Home Remodeling Al price Barsha South, Top home remodeling al Barsha South
+
+// SEO Keywords: Home Remodeling Al Barsha South, Home Remodeling Al in Barsha South, Best home remodeling al Barsha South, Professional home remodeling al Barsha South, Luxury home remodeling al Barsha South, Home Remodeling Al Barsha South Dubai, Home Remodeling Al designer Barsha South, Home Remodeling Al company Barsha South, Home Remodeling Al contractor Barsha South, Affordable home remodeling al Barsha South, Modern home remodeling al Barsha South, Home Remodeling Al consultation Barsha South, Home Remodeling Al cost Barsha South, Home Remodeling Al price Barsha South, Top home remodeling al Barsha South, Home Remodeling Al near Barsha South, Home Remodeling Al specialists Barsha South, Home Remodeling Al experts Barsha South, Home Remodeling Al solutions Barsha South, Home Remodeling Al packages Barsha South, Home Remodeling Al quotes Barsha South, Home Remodeling Al estimates Barsha South, Home Remodeling Al services near me Barsha South, Cheap Home Remodeling Al Barsha South, Quality Home Remodeling Al Barsha South, Trusted Home Remodeling Al Barsha South, Home Remodeling Al transformation Barsha South, Home Remodeling Al renovation Barsha South, Home Remodeling Al makeover Barsha South, Best Home Remodeling Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling Al in Barsha South. Best home remodeling al Barsha South Company Barsha South Our luxury home remodeling al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

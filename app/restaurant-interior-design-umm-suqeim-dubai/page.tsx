@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Umm Suqeim, Restaurant Interior Design in Umm Suqeim, Best restaurant interior design Umm Suqeim, Professional restaurant interior design Umm Suqeim, Luxury restaurant interior design Umm Suqeim, Restaurant Interior Design Umm Suqeim Dubai, Restaurant Interior Design designer Umm Suqeim, Restaurant Interior Design company Umm Suqeim, Restaurant Interior Design contractor Umm Suqeim, Affordable restaurant interior design Umm Suqeim, Modern restaurant interior design Umm Suqeim, Restaurant Interior Design consultation Umm Suqeim, Restaurant Interior Design cost Umm Suqeim, Restaurant Interior Design price Umm Suqeim, Top restaurant interior design Umm Suqeim
+
+// SEO Keywords: Restaurant Interior Design Umm Suqeim, Restaurant Interior Design in Umm Suqeim, Best restaurant interior design Umm Suqeim, Professional restaurant interior design Umm Suqeim, Luxury restaurant interior design Umm Suqeim, Restaurant Interior Design Umm Suqeim Dubai, Restaurant Interior Design designer Umm Suqeim, Restaurant Interior Design company Umm Suqeim, Restaurant Interior Design contractor Umm Suqeim, Affordable restaurant interior design Umm Suqeim, Modern restaurant interior design Umm Suqeim, Restaurant Interior Design consultation Umm Suqeim, Restaurant Interior Design cost Umm Suqeim, Restaurant Interior Design price Umm Suqeim, Top restaurant interior design Umm Suqeim, Restaurant Interior Design near Umm Suqeim, Restaurant Interior Design specialists Umm Suqeim, Restaurant Interior Design experts Umm Suqeim, Restaurant Interior Design solutions Umm Suqeim, Restaurant Interior Design packages Umm Suqeim, Restaurant Interior Design quotes Umm Suqeim, Restaurant Interior Design estimates Umm Suqeim, Restaurant Interior Design services near me Umm Suqeim, Cheap Restaurant Interior Design Umm Suqeim, Quality Restaurant Interior Design Umm Suqeim, Trusted Restaurant Interior Design Umm Suqeim, Restaurant Interior Design transformation Umm Suqeim, Restaurant Interior Design renovation Umm Suqeim, Restaurant Interior Design makeover Umm Suqeim, Best Restaurant Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior Design in Umm Suqeim. Best restaurant interior design Umm Suqeim Company Umm Suqeim Our luxury restaurant interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

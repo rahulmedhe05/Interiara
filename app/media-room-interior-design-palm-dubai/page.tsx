@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Media Room Interior Design Palm, Media Room Interior in Design Palm, Best media room interior Design Palm, Professional media room interior Design Palm, Luxury media room interior Design Palm, Media Room Interior Design Palm Dubai, Media Room Interior designer Design Palm, Media Room Interior company Design Palm, Media Room Interior contractor Design Palm, Affordable media room interior Design Palm, Modern media room interior Design Palm, Media Room Interior consultation Design Palm, Media Room Interior cost Design Palm, Media Room Interior price Design Palm, Top media room interior Design Palm
+
+// SEO Keywords: Media Room Interior Design Palm, Media Room Interior in Design Palm, Best media room interior Design Palm, Professional media room interior Design Palm, Luxury media room interior Design Palm, Media Room Interior Design Palm Dubai, Media Room Interior designer Design Palm, Media Room Interior company Design Palm, Media Room Interior contractor Design Palm, Affordable media room interior Design Palm, Modern media room interior Design Palm, Media Room Interior consultation Design Palm, Media Room Interior cost Design Palm, Media Room Interior price Design Palm, Top media room interior Design Palm, Media Room Interior near Design Palm, Media Room Interior specialists Design Palm, Media Room Interior experts Design Palm, Media Room Interior solutions Design Palm, Media Room Interior packages Design Palm, Media Room Interior quotes Design Palm, Media Room Interior estimates Design Palm, Media Room Interior services near me Design Palm, Cheap Media Room Interior Design Palm, Quality Media Room Interior Design Palm, Trusted Media Room Interior Design Palm, Media Room Interior transformation Design Palm, Media Room Interior renovation Design Palm, Media Room Interior makeover Design Palm, Best Media Room Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MediaRoomInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Media Room Interior in Design Palm. Best media room interior Design Palm Company Design Palm Our luxury media room interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MediaRoomInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our media room interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MediaRoomInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in media room interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MediaRoomInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

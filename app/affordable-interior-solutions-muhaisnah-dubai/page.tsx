@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Muhaisnah, Affordable Interior in Solutions Muhaisnah, Best affordable interior Solutions Muhaisnah, Professional affordable interior Solutions Muhaisnah, Luxury affordable interior Solutions Muhaisnah, Affordable Interior Solutions Muhaisnah Dubai, Affordable Interior designer Solutions Muhaisnah, Affordable Interior company Solutions Muhaisnah, Affordable Interior contractor Solutions Muhaisnah, Affordable affordable interior Solutions Muhaisnah, Modern affordable interior Solutions Muhaisnah, Affordable Interior consultation Solutions Muhaisnah, Affordable Interior cost Solutions Muhaisnah, Affordable Interior price Solutions Muhaisnah, Top affordable interior Solutions Muhaisnah
+
+// SEO Keywords: Affordable Interior Solutions Muhaisnah, Affordable Interior in Solutions Muhaisnah, Best affordable interior Solutions Muhaisnah, Professional affordable interior Solutions Muhaisnah, Luxury affordable interior Solutions Muhaisnah, Affordable Interior Solutions Muhaisnah Dubai, Affordable Interior designer Solutions Muhaisnah, Affordable Interior company Solutions Muhaisnah, Affordable Interior contractor Solutions Muhaisnah, Affordable affordable interior Solutions Muhaisnah, Modern affordable interior Solutions Muhaisnah, Affordable Interior consultation Solutions Muhaisnah, Affordable Interior cost Solutions Muhaisnah, Affordable Interior price Solutions Muhaisnah, Top affordable interior Solutions Muhaisnah, Affordable Interior near Solutions Muhaisnah, Affordable Interior specialists Solutions Muhaisnah, Affordable Interior experts Solutions Muhaisnah, Affordable Interior solutions Solutions Muhaisnah, Affordable Interior packages Solutions Muhaisnah, Affordable Interior quotes Solutions Muhaisnah, Affordable Interior estimates Solutions Muhaisnah, Affordable Interior services near me Solutions Muhaisnah, Cheap Affordable Interior Solutions Muhaisnah, Quality Affordable Interior Solutions Muhaisnah, Trusted Affordable Interior Solutions Muhaisnah, Affordable Interior transformation Solutions Muhaisnah, Affordable Interior renovation Solutions Muhaisnah, Affordable Interior makeover Solutions Muhaisnah, Best Affordable Interior company Solutions Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Muhaisnah Company Solutions Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior in Solutions Muhaisnah. Best affordable interior Solutions Muhaisnah Company Solutions Muhaisnah Our luxury affordable interior solutions muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior in solutions muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior near solutions muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

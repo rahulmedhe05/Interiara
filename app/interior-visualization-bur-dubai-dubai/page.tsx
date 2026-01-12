@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Bur Dubai, Interior Visualization in Bur Dubai, Best interior visualization Bur Dubai, Professional interior visualization Bur Dubai, Luxury interior visualization Bur Dubai, Interior Visualization Bur Dubai Dubai, Interior Visualization designer Bur Dubai, Interior Visualization company Bur Dubai, Interior Visualization contractor Bur Dubai, Affordable interior visualization Bur Dubai, Modern interior visualization Bur Dubai, Interior Visualization consultation Bur Dubai, Interior Visualization cost Bur Dubai, Interior Visualization price Bur Dubai, Top interior visualization Bur Dubai
+
+// SEO Keywords: Interior Visualization Bur Dubai, Interior Visualization in Bur Dubai, Best interior visualization Bur Dubai, Professional interior visualization Bur Dubai, Luxury interior visualization Bur Dubai, Interior Visualization Bur Dubai Dubai, Interior Visualization designer Bur Dubai, Interior Visualization company Bur Dubai, Interior Visualization contractor Bur Dubai, Affordable interior visualization Bur Dubai, Modern interior visualization Bur Dubai, Interior Visualization consultation Bur Dubai, Interior Visualization cost Bur Dubai, Interior Visualization price Bur Dubai, Top interior visualization Bur Dubai, Interior Visualization near Bur Dubai, Interior Visualization specialists Bur Dubai, Interior Visualization experts Bur Dubai, Interior Visualization solutions Bur Dubai, Interior Visualization packages Bur Dubai, Interior Visualization quotes Bur Dubai, Interior Visualization estimates Bur Dubai, Interior Visualization services near me Bur Dubai, Cheap Interior Visualization Bur Dubai, Quality Interior Visualization Bur Dubai, Trusted Interior Visualization Bur Dubai, Interior Visualization transformation Bur Dubai, Interior Visualization renovation Bur Dubai, Interior Visualization makeover Bur Dubai, Best Interior Visualization company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in Bur Dubai. Best interior visualization Bur Dubai Company Bur Dubai Our luxury interior visualization bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

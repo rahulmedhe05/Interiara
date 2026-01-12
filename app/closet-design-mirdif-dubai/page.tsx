@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Mirdif, Closet in Design Mirdif, Best closet Design Mirdif, Professional closet Design Mirdif, Luxury closet Design Mirdif, Closet Design Mirdif Dubai, Closet designer Design Mirdif, Closet company Design Mirdif, Closet contractor Design Mirdif, Affordable closet Design Mirdif, Modern closet Design Mirdif, Closet consultation Design Mirdif, Closet cost Design Mirdif, Closet price Design Mirdif, Top closet Design Mirdif
+
+// SEO Keywords: Closet Design Mirdif, Closet in Design Mirdif, Best closet Design Mirdif, Professional closet Design Mirdif, Luxury closet Design Mirdif, Closet Design Mirdif Dubai, Closet designer Design Mirdif, Closet company Design Mirdif, Closet contractor Design Mirdif, Affordable closet Design Mirdif, Modern closet Design Mirdif, Closet consultation Design Mirdif, Closet cost Design Mirdif, Closet price Design Mirdif, Top closet Design Mirdif, Closet near Design Mirdif, Closet specialists Design Mirdif, Closet experts Design Mirdif, Closet solutions Design Mirdif, Closet packages Design Mirdif, Closet quotes Design Mirdif, Closet estimates Design Mirdif, Closet services near me Design Mirdif, Cheap Closet Design Mirdif, Quality Closet Design Mirdif, Trusted Closet Design Mirdif, Closet transformation Design Mirdif, Closet renovation Design Mirdif, Closet makeover Design Mirdif, Best Closet company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignMirdif() {
                 At Interiara, we believe that exceptional <strong>Closet Design Mirdif Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Mirdif Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet in Design Mirdif. 
                 We've completed 300+ successful projects across Mirdif Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Mirdif Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design mirdif services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Mirdif Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet in design mirdif service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet near design mirdif.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

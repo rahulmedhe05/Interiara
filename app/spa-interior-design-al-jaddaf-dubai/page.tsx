@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Spa Interior Design Al Jaddaf, Spa Interior Design in Al Jaddaf, Best spa interior design Al Jaddaf, Professional spa interior design Al Jaddaf, Luxury spa interior design Al Jaddaf, Spa Interior Design Al Jaddaf Dubai, Spa Interior Design designer Al Jaddaf, Spa Interior Design company Al Jaddaf, Spa Interior Design contractor Al Jaddaf, Affordable spa interior design Al Jaddaf, Modern spa interior design Al Jaddaf, Spa Interior Design consultation Al Jaddaf, Spa Interior Design cost Al Jaddaf, Spa Interior Design price Al Jaddaf, Top spa interior design Al Jaddaf
+
+// SEO Keywords: Spa Interior Design Al Jaddaf, Spa Interior Design in Al Jaddaf, Best spa interior design Al Jaddaf, Professional spa interior design Al Jaddaf, Luxury spa interior design Al Jaddaf, Spa Interior Design Al Jaddaf Dubai, Spa Interior Design designer Al Jaddaf, Spa Interior Design company Al Jaddaf, Spa Interior Design contractor Al Jaddaf, Affordable spa interior design Al Jaddaf, Modern spa interior design Al Jaddaf, Spa Interior Design consultation Al Jaddaf, Spa Interior Design cost Al Jaddaf, Spa Interior Design price Al Jaddaf, Top spa interior design Al Jaddaf, Spa Interior Design near Al Jaddaf, Spa Interior Design specialists Al Jaddaf, Spa Interior Design experts Al Jaddaf, Spa Interior Design solutions Al Jaddaf, Spa Interior Design packages Al Jaddaf, Spa Interior Design quotes Al Jaddaf, Spa Interior Design estimates Al Jaddaf, Spa Interior Design services near me Al Jaddaf, Cheap Spa Interior Design Al Jaddaf, Quality Spa Interior Design Al Jaddaf, Trusted Spa Interior Design Al Jaddaf, Spa Interior Design transformation Al Jaddaf, Spa Interior Design renovation Al Jaddaf, Spa Interior Design makeover Al Jaddaf, Best Spa Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpaInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best spa interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Spa Interior Design in Al Jaddaf. Best spa interior design Al Jaddaf Company Al Jaddaf Our luxury spa interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Spa Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpaInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our spa interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpaInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in spa interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpaInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

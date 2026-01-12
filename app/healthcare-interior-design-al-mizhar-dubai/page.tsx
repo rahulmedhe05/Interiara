@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Al Mizhar, Healthcare Interior Design in Al Mizhar, Best healthcare interior design Al Mizhar, Professional healthcare interior design Al Mizhar, Luxury healthcare interior design Al Mizhar, Healthcare Interior Design Al Mizhar Dubai, Healthcare Interior Design designer Al Mizhar, Healthcare Interior Design company Al Mizhar, Healthcare Interior Design contractor Al Mizhar, Affordable healthcare interior design Al Mizhar, Modern healthcare interior design Al Mizhar, Healthcare Interior Design consultation Al Mizhar, Healthcare Interior Design cost Al Mizhar, Healthcare Interior Design price Al Mizhar, Top healthcare interior design Al Mizhar
+
+// SEO Keywords: Healthcare Interior Design Al Mizhar, Healthcare Interior Design in Al Mizhar, Best healthcare interior design Al Mizhar, Professional healthcare interior design Al Mizhar, Luxury healthcare interior design Al Mizhar, Healthcare Interior Design Al Mizhar Dubai, Healthcare Interior Design designer Al Mizhar, Healthcare Interior Design company Al Mizhar, Healthcare Interior Design contractor Al Mizhar, Affordable healthcare interior design Al Mizhar, Modern healthcare interior design Al Mizhar, Healthcare Interior Design consultation Al Mizhar, Healthcare Interior Design cost Al Mizhar, Healthcare Interior Design price Al Mizhar, Top healthcare interior design Al Mizhar, Healthcare Interior Design near Al Mizhar, Healthcare Interior Design specialists Al Mizhar, Healthcare Interior Design experts Al Mizhar, Healthcare Interior Design solutions Al Mizhar, Healthcare Interior Design packages Al Mizhar, Healthcare Interior Design quotes Al Mizhar, Healthcare Interior Design estimates Al Mizhar, Healthcare Interior Design services near me Al Mizhar, Cheap Healthcare Interior Design Al Mizhar, Quality Healthcare Interior Design Al Mizhar, Trusted Healthcare Interior Design Al Mizhar, Healthcare Interior Design transformation Al Mizhar, Healthcare Interior Design renovation Al Mizhar, Healthcare Interior Design makeover Al Mizhar, Best Healthcare Interior Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design Al Mizhar Company Al Mizhar</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior Design in Al Mizhar. Best healthcare interior design Al Mizhar Company Al Mizhar Our luxury healthcare interior design al mizhar services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignAlMizhar() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior design in al mizhar service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior design near al mizhar.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

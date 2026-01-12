@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Difc, Art in Consultation Difc, Best art Consultation Difc, Professional art Consultation Difc, Luxury art Consultation Difc, Art Consultation Difc Dubai, Art designer Consultation Difc, Art company Consultation Difc, Art contractor Consultation Difc, Affordable art Consultation Difc, Modern art Consultation Difc, Art consultation Consultation Difc, Art cost Consultation Difc, Art price Consultation Difc, Top art Consultation Difc
+
+// SEO Keywords: Art Consultation Difc, Art in Consultation Difc, Best art Consultation Difc, Professional art Consultation Difc, Luxury art Consultation Difc, Art Consultation Difc Dubai, Art designer Consultation Difc, Art company Consultation Difc, Art contractor Consultation Difc, Affordable art Consultation Difc, Modern art Consultation Difc, Art consultation Consultation Difc, Art cost Consultation Difc, Art price Consultation Difc, Top art Consultation Difc, Art near Consultation Difc, Art specialists Consultation Difc, Art experts Consultation Difc, Art solutions Consultation Difc, Art packages Consultation Difc, Art quotes Consultation Difc, Art estimates Consultation Difc, Art services near me Consultation Difc, Cheap Art Consultation Difc, Quality Art Consultation Difc, Trusted Art Consultation Difc, Art transformation Consultation Difc, Art renovation Consultation Difc, Art makeover Consultation Difc, Best Art company Consultation Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art Consultation Difc Company Consultation Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art in Consultation Difc. Best art Consultation Difc Company Consultation Difc Our luxury art consultation difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ArtConsultationDifc() {
                 At Interiara, we believe that exceptional <strong>Art Consultation DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ArtConsultationDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art in consultation difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art near consultation difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

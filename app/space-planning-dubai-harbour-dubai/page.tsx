@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Dubai Harbour, Space Planning in Dubai Harbour, Best space planning Dubai Harbour, Professional space planning Dubai Harbour, Luxury space planning Dubai Harbour, Space Planning Dubai Harbour Dubai, Space Planning designer Dubai Harbour, Space Planning company Dubai Harbour, Space Planning contractor Dubai Harbour, Affordable space planning Dubai Harbour, Modern space planning Dubai Harbour, Space Planning consultation Dubai Harbour, Space Planning cost Dubai Harbour, Space Planning price Dubai Harbour, Top space planning Dubai Harbour
+
+// SEO Keywords: Space Planning Dubai Harbour, Space Planning in Dubai Harbour, Best space planning Dubai Harbour, Professional space planning Dubai Harbour, Luxury space planning Dubai Harbour, Space Planning Dubai Harbour Dubai, Space Planning designer Dubai Harbour, Space Planning company Dubai Harbour, Space Planning contractor Dubai Harbour, Affordable space planning Dubai Harbour, Modern space planning Dubai Harbour, Space Planning consultation Dubai Harbour, Space Planning cost Dubai Harbour, Space Planning price Dubai Harbour, Top space planning Dubai Harbour, Space Planning near Dubai Harbour, Space Planning specialists Dubai Harbour, Space Planning experts Dubai Harbour, Space Planning solutions Dubai Harbour, Space Planning packages Dubai Harbour, Space Planning quotes Dubai Harbour, Space Planning estimates Dubai Harbour, Space Planning services near me Dubai Harbour, Cheap Space Planning Dubai Harbour, Quality Space Planning Dubai Harbour, Trusted Space Planning Dubai Harbour, Space Planning transformation Dubai Harbour, Space Planning renovation Dubai Harbour, Space Planning makeover Dubai Harbour, Best Space Planning company Dubai Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Dubai Harbour Company Dubai Harbour</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Dubai Harbour. Best space planning Dubai Harbour Company Dubai Harbour Our professional space planning dubai harbour services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SpacePlanningDubaiHarbour() {
                 At Interiara, we believe that exceptional <strong>Space Planning Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning Dubai Harbour. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SpacePlanningDubaiHarbour() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in dubai harbour service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDubaiHarbour() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near dubai harbour.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDubaiHarbour() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Arabian Ranches, Acoustic Design in Arabian Ranches, Best acoustic design Arabian Ranches, Professional acoustic design Arabian Ranches, Luxury acoustic design Arabian Ranches, Acoustic Design Arabian Ranches Dubai, Acoustic Design designer Arabian Ranches, Acoustic Design company Arabian Ranches, Acoustic Design contractor Arabian Ranches, Affordable acoustic design Arabian Ranches, Modern acoustic design Arabian Ranches, Acoustic Design consultation Arabian Ranches, Acoustic Design cost Arabian Ranches, Acoustic Design price Arabian Ranches, Top acoustic design Arabian Ranches
+
+// SEO Keywords: Acoustic Design Arabian Ranches, Acoustic Design in Arabian Ranches, Best acoustic design Arabian Ranches, Professional acoustic design Arabian Ranches, Luxury acoustic design Arabian Ranches, Acoustic Design Arabian Ranches Dubai, Acoustic Design designer Arabian Ranches, Acoustic Design company Arabian Ranches, Acoustic Design contractor Arabian Ranches, Affordable acoustic design Arabian Ranches, Modern acoustic design Arabian Ranches, Acoustic Design consultation Arabian Ranches, Acoustic Design cost Arabian Ranches, Acoustic Design price Arabian Ranches, Top acoustic design Arabian Ranches, Acoustic Design near Arabian Ranches, Acoustic Design specialists Arabian Ranches, Acoustic Design experts Arabian Ranches, Acoustic Design solutions Arabian Ranches, Acoustic Design packages Arabian Ranches, Acoustic Design quotes Arabian Ranches, Acoustic Design estimates Arabian Ranches, Acoustic Design services near me Arabian Ranches, Cheap Acoustic Design Arabian Ranches, Quality Acoustic Design Arabian Ranches, Trusted Acoustic Design Arabian Ranches, Acoustic Design transformation Arabian Ranches, Acoustic Design renovation Arabian Ranches, Acoustic Design makeover Arabian Ranches, Best Acoustic Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AcousticDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Acoustic Design in Arabian Ranches. Best acoustic design Arabian Ranches Company Arabian Ranches Our luxury acoustic design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AcousticDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our acoustic design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AcousticDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in acoustic design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AcousticDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Jumeirah, Commercial Interior in Design Jumeirah, Best commercial interior Design Jumeirah, Professional commercial interior Design Jumeirah, Luxury commercial interior Design Jumeirah, Commercial Interior Design Jumeirah Dubai, Commercial Interior designer Design Jumeirah, Commercial Interior company Design Jumeirah, Commercial Interior contractor Design Jumeirah, Affordable commercial interior Design Jumeirah, Modern commercial interior Design Jumeirah, Commercial Interior consultation Design Jumeirah, Commercial Interior cost Design Jumeirah, Commercial Interior price Design Jumeirah, Top commercial interior Design Jumeirah
+
+// SEO Keywords: Commercial Interior Design Jumeirah, Commercial Interior in Design Jumeirah, Best commercial interior Design Jumeirah, Professional commercial interior Design Jumeirah, Luxury commercial interior Design Jumeirah, Commercial Interior Design Jumeirah Dubai, Commercial Interior designer Design Jumeirah, Commercial Interior company Design Jumeirah, Commercial Interior contractor Design Jumeirah, Affordable commercial interior Design Jumeirah, Modern commercial interior Design Jumeirah, Commercial Interior consultation Design Jumeirah, Commercial Interior cost Design Jumeirah, Commercial Interior price Design Jumeirah, Top commercial interior Design Jumeirah, Commercial Interior near Design Jumeirah, Commercial Interior specialists Design Jumeirah, Commercial Interior experts Design Jumeirah, Commercial Interior solutions Design Jumeirah, Commercial Interior packages Design Jumeirah, Commercial Interior quotes Design Jumeirah, Commercial Interior estimates Design Jumeirah, Commercial Interior services near me Design Jumeirah, Cheap Commercial Interior Design Jumeirah, Quality Commercial Interior Design Jumeirah, Trusted Commercial Interior Design Jumeirah, Commercial Interior transformation Design Jumeirah, Commercial Interior renovation Design Jumeirah, Commercial Interior makeover Design Jumeirah, Best Commercial Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior in Design Jumeirah. Best commercial interior Design Jumeirah Company Design Jumeirah Our luxury commercial interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

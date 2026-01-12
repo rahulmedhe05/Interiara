@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Deira, Color Theme in Consultation Deira, Best color theme Consultation Deira, Professional color theme Consultation Deira, Luxury color theme Consultation Deira, Color Theme Consultation Deira Dubai, Color Theme designer Consultation Deira, Color Theme company Consultation Deira, Color Theme contractor Consultation Deira, Affordable color theme Consultation Deira, Modern color theme Consultation Deira, Color Theme consultation Consultation Deira, Color Theme cost Consultation Deira, Color Theme price Consultation Deira, Top color theme Consultation Deira
+
+// SEO Keywords: Color Theme Consultation Deira, Color Theme in Consultation Deira, Best color theme Consultation Deira, Professional color theme Consultation Deira, Luxury color theme Consultation Deira, Color Theme Consultation Deira Dubai, Color Theme designer Consultation Deira, Color Theme company Consultation Deira, Color Theme contractor Consultation Deira, Affordable color theme Consultation Deira, Modern color theme Consultation Deira, Color Theme consultation Consultation Deira, Color Theme cost Consultation Deira, Color Theme price Consultation Deira, Top color theme Consultation Deira, Color Theme near Consultation Deira, Color Theme specialists Consultation Deira, Color Theme experts Consultation Deira, Color Theme solutions Consultation Deira, Color Theme packages Consultation Deira, Color Theme quotes Consultation Deira, Color Theme estimates Consultation Deira, Color Theme services near me Consultation Deira, Cheap Color Theme Consultation Deira, Quality Color Theme Consultation Deira, Trusted Color Theme Consultation Deira, Color Theme transformation Consultation Deira, Color Theme renovation Consultation Deira, Color Theme makeover Consultation Deira, Best Color Theme company Consultation Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Deira Company Consultation Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme in Consultation Deira. Best color theme Consultation Deira Company Consultation Deira Our luxury color theme consultation deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme in consultation deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme near consultation deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Discovery Gardens, Terrace Interior Design in Discovery Gardens, Best terrace interior design Discovery Gardens, Professional terrace interior design Discovery Gardens, Luxury terrace interior design Discovery Gardens, Terrace Interior Design Discovery Gardens Dubai, Terrace Interior Design designer Discovery Gardens, Terrace Interior Design company Discovery Gardens, Terrace Interior Design contractor Discovery Gardens, Affordable terrace interior design Discovery Gardens, Modern terrace interior design Discovery Gardens, Terrace Interior Design consultation Discovery Gardens, Terrace Interior Design cost Discovery Gardens, Terrace Interior Design price Discovery Gardens, Top terrace interior design Discovery Gardens
+
+// SEO Keywords: Terrace Interior Design Discovery Gardens, Terrace Interior Design in Discovery Gardens, Best terrace interior design Discovery Gardens, Professional terrace interior design Discovery Gardens, Luxury terrace interior design Discovery Gardens, Terrace Interior Design Discovery Gardens Dubai, Terrace Interior Design designer Discovery Gardens, Terrace Interior Design company Discovery Gardens, Terrace Interior Design contractor Discovery Gardens, Affordable terrace interior design Discovery Gardens, Modern terrace interior design Discovery Gardens, Terrace Interior Design consultation Discovery Gardens, Terrace Interior Design cost Discovery Gardens, Terrace Interior Design price Discovery Gardens, Top terrace interior design Discovery Gardens, Terrace Interior Design near Discovery Gardens, Terrace Interior Design specialists Discovery Gardens, Terrace Interior Design experts Discovery Gardens, Terrace Interior Design solutions Discovery Gardens, Terrace Interior Design packages Discovery Gardens, Terrace Interior Design quotes Discovery Gardens, Terrace Interior Design estimates Discovery Gardens, Terrace Interior Design services near me Discovery Gardens, Cheap Terrace Interior Design Discovery Gardens, Quality Terrace Interior Design Discovery Gardens, Trusted Terrace Interior Design Discovery Gardens, Terrace Interior Design transformation Discovery Gardens, Terrace Interior Design renovation Discovery Gardens, Terrace Interior Design makeover Discovery Gardens, Best Terrace Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior Design in Discovery Gardens. Best terrace interior design Discovery Gardens Company Discovery Gardens Our luxury terrace interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

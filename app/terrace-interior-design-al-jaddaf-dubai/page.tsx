@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Al Jaddaf, Terrace Interior Design in Al Jaddaf, Best terrace interior design Al Jaddaf, Professional terrace interior design Al Jaddaf, Luxury terrace interior design Al Jaddaf, Terrace Interior Design Al Jaddaf Dubai, Terrace Interior Design designer Al Jaddaf, Terrace Interior Design company Al Jaddaf, Terrace Interior Design contractor Al Jaddaf, Affordable terrace interior design Al Jaddaf, Modern terrace interior design Al Jaddaf, Terrace Interior Design consultation Al Jaddaf, Terrace Interior Design cost Al Jaddaf, Terrace Interior Design price Al Jaddaf, Top terrace interior design Al Jaddaf
+
+// SEO Keywords: Terrace Interior Design Al Jaddaf, Terrace Interior Design in Al Jaddaf, Best terrace interior design Al Jaddaf, Professional terrace interior design Al Jaddaf, Luxury terrace interior design Al Jaddaf, Terrace Interior Design Al Jaddaf Dubai, Terrace Interior Design designer Al Jaddaf, Terrace Interior Design company Al Jaddaf, Terrace Interior Design contractor Al Jaddaf, Affordable terrace interior design Al Jaddaf, Modern terrace interior design Al Jaddaf, Terrace Interior Design consultation Al Jaddaf, Terrace Interior Design cost Al Jaddaf, Terrace Interior Design price Al Jaddaf, Top terrace interior design Al Jaddaf, Terrace Interior Design near Al Jaddaf, Terrace Interior Design specialists Al Jaddaf, Terrace Interior Design experts Al Jaddaf, Terrace Interior Design solutions Al Jaddaf, Terrace Interior Design packages Al Jaddaf, Terrace Interior Design quotes Al Jaddaf, Terrace Interior Design estimates Al Jaddaf, Terrace Interior Design services near me Al Jaddaf, Cheap Terrace Interior Design Al Jaddaf, Quality Terrace Interior Design Al Jaddaf, Trusted Terrace Interior Design Al Jaddaf, Terrace Interior Design transformation Al Jaddaf, Terrace Interior Design renovation Al Jaddaf, Terrace Interior Design makeover Al Jaddaf, Best Terrace Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior Design in Al Jaddaf. Best terrace interior design Al Jaddaf Company Al Jaddaf Our luxury terrace interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

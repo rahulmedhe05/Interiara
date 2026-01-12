@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Jumeirah, Window in Blinds Jumeirah, Best window Blinds Jumeirah, Professional window Blinds Jumeirah, Luxury window Blinds Jumeirah, Window Blinds Jumeirah Dubai, Window designer Blinds Jumeirah, Window company Blinds Jumeirah, Window contractor Blinds Jumeirah, Affordable window Blinds Jumeirah, Modern window Blinds Jumeirah, Window consultation Blinds Jumeirah, Window cost Blinds Jumeirah, Window price Blinds Jumeirah, Top window Blinds Jumeirah
+
+// SEO Keywords: Window Blinds Jumeirah, Window in Blinds Jumeirah, Best window Blinds Jumeirah, Professional window Blinds Jumeirah, Luxury window Blinds Jumeirah, Window Blinds Jumeirah Dubai, Window designer Blinds Jumeirah, Window company Blinds Jumeirah, Window contractor Blinds Jumeirah, Affordable window Blinds Jumeirah, Modern window Blinds Jumeirah, Window consultation Blinds Jumeirah, Window cost Blinds Jumeirah, Window price Blinds Jumeirah, Top window Blinds Jumeirah, Window near Blinds Jumeirah, Window specialists Blinds Jumeirah, Window experts Blinds Jumeirah, Window solutions Blinds Jumeirah, Window packages Blinds Jumeirah, Window quotes Blinds Jumeirah, Window estimates Blinds Jumeirah, Window services near me Blinds Jumeirah, Cheap Window Blinds Jumeirah, Quality Window Blinds Jumeirah, Trusted Window Blinds Jumeirah, Window transformation Blinds Jumeirah, Window renovation Blinds Jumeirah, Window makeover Blinds Jumeirah, Best Window company Blinds Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Blinds Jumeirah Company Blinds Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window in Blinds Jumeirah. Best window Blinds Jumeirah Company Blinds Jumeirah Our luxury window blinds jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window in blinds jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window near blinds jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

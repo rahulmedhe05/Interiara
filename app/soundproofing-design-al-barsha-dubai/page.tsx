@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Al Barsha, Soundproofing Design in Al Barsha, Best soundproofing design Al Barsha, Professional soundproofing design Al Barsha, Luxury soundproofing design Al Barsha, Soundproofing Design Al Barsha Dubai, Soundproofing Design designer Al Barsha, Soundproofing Design company Al Barsha, Soundproofing Design contractor Al Barsha, Affordable soundproofing design Al Barsha, Modern soundproofing design Al Barsha, Soundproofing Design consultation Al Barsha, Soundproofing Design cost Al Barsha, Soundproofing Design price Al Barsha, Top soundproofing design Al Barsha
+
+// SEO Keywords: Soundproofing Design Al Barsha, Soundproofing Design in Al Barsha, Best soundproofing design Al Barsha, Professional soundproofing design Al Barsha, Luxury soundproofing design Al Barsha, Soundproofing Design Al Barsha Dubai, Soundproofing Design designer Al Barsha, Soundproofing Design company Al Barsha, Soundproofing Design contractor Al Barsha, Affordable soundproofing design Al Barsha, Modern soundproofing design Al Barsha, Soundproofing Design consultation Al Barsha, Soundproofing Design cost Al Barsha, Soundproofing Design price Al Barsha, Top soundproofing design Al Barsha, Soundproofing Design near Al Barsha, Soundproofing Design specialists Al Barsha, Soundproofing Design experts Al Barsha, Soundproofing Design solutions Al Barsha, Soundproofing Design packages Al Barsha, Soundproofing Design quotes Al Barsha, Soundproofing Design estimates Al Barsha, Soundproofing Design services near me Al Barsha, Cheap Soundproofing Design Al Barsha, Quality Soundproofing Design Al Barsha, Trusted Soundproofing Design Al Barsha, Soundproofing Design transformation Al Barsha, Soundproofing Design renovation Al Barsha, Soundproofing Design makeover Al Barsha, Best Soundproofing Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Al Barsha. Best soundproofing design Al Barsha Company Al Barsha Our luxury soundproofing design al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

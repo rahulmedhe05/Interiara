@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Safouh, Art Consultation in Al Safouh, Best art consultation Al Safouh, Professional art consultation Al Safouh, Luxury art consultation Al Safouh, Art Consultation Al Safouh Dubai, Art Consultation designer Al Safouh, Art Consultation company Al Safouh, Art Consultation contractor Al Safouh, Affordable art consultation Al Safouh, Modern art consultation Al Safouh, Art Consultation consultation Al Safouh, Art Consultation cost Al Safouh, Art Consultation price Al Safouh, Top art consultation Al Safouh
+
+// SEO Keywords: Art Consultation Al Safouh, Art Consultation in Al Safouh, Best art consultation Al Safouh, Professional art consultation Al Safouh, Luxury art consultation Al Safouh, Art Consultation Al Safouh Dubai, Art Consultation designer Al Safouh, Art Consultation company Al Safouh, Art Consultation contractor Al Safouh, Affordable art consultation Al Safouh, Modern art consultation Al Safouh, Art Consultation consultation Al Safouh, Art Consultation cost Al Safouh, Art Consultation price Al Safouh, Top art consultation Al Safouh, Art Consultation near Al Safouh, Art Consultation specialists Al Safouh, Art Consultation experts Al Safouh, Art Consultation solutions Al Safouh, Art Consultation packages Al Safouh, Art Consultation quotes Al Safouh, Art Consultation estimates Al Safouh, Art Consultation services near me Al Safouh, Cheap Art Consultation Al Safouh, Quality Art Consultation Al Safouh, Trusted Art Consultation Al Safouh, Art Consultation transformation Al Safouh, Art Consultation renovation Al Safouh, Art Consultation makeover Al Safouh, Best Art Consultation company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlSafouh() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Safouh Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safouh Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Safouh. 
                 We've completed 300+ successful projects across Al Safouh Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Safouh Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al safouh services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Safouh Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al safouh service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al safouh.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

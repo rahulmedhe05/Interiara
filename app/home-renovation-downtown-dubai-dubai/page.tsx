@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Downtown Dubai, Home Renovation in Downtown Dubai, Best home renovation Downtown Dubai, Professional home renovation Downtown Dubai, Luxury home renovation Downtown Dubai, Home Renovation Downtown Dubai Dubai, Home Renovation designer Downtown Dubai, Home Renovation company Downtown Dubai, Home Renovation contractor Downtown Dubai, Affordable home renovation Downtown Dubai, Modern home renovation Downtown Dubai, Home Renovation consultation Downtown Dubai, Home Renovation cost Downtown Dubai, Home Renovation price Downtown Dubai, Top home renovation Downtown Dubai
+
+// SEO Keywords: Home Renovation Downtown Dubai, Home Renovation in Downtown Dubai, Best home renovation Downtown Dubai, Professional home renovation Downtown Dubai, Luxury home renovation Downtown Dubai, Home Renovation Downtown Dubai Dubai, Home Renovation designer Downtown Dubai, Home Renovation company Downtown Dubai, Home Renovation contractor Downtown Dubai, Affordable home renovation Downtown Dubai, Modern home renovation Downtown Dubai, Home Renovation consultation Downtown Dubai, Home Renovation cost Downtown Dubai, Home Renovation price Downtown Dubai, Top home renovation Downtown Dubai, Home Renovation near Downtown Dubai, Home Renovation specialists Downtown Dubai, Home Renovation experts Downtown Dubai, Home Renovation solutions Downtown Dubai, Home Renovation packages Downtown Dubai, Home Renovation quotes Downtown Dubai, Home Renovation estimates Downtown Dubai, Home Renovation services near me Downtown Dubai, Cheap Home Renovation Downtown Dubai, Quality Home Renovation Downtown Dubai, Trusted Home Renovation Downtown Dubai, Home Renovation transformation Downtown Dubai, Home Renovation renovation Downtown Dubai, Home Renovation makeover Downtown Dubai, Best Home Renovation company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation in Downtown Dubai. Best home renovation Downtown Dubai Company Downtown Dubai Our luxury home renovation downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRenovationDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Nad Al Sheba, Wall Coverings Nad in Al Sheba, Best wall coverings nad Al Sheba, Professional wall coverings nad Al Sheba, Luxury wall coverings nad Al Sheba, Wall Coverings Nad Al Sheba Dubai, Wall Coverings Nad designer Al Sheba, Wall Coverings Nad company Al Sheba, Wall Coverings Nad contractor Al Sheba, Affordable wall coverings nad Al Sheba, Modern wall coverings nad Al Sheba, Wall Coverings Nad consultation Al Sheba, Wall Coverings Nad cost Al Sheba, Wall Coverings Nad price Al Sheba, Top wall coverings nad Al Sheba
+
+// SEO Keywords: Wall Coverings Nad Al Sheba, Wall Coverings Nad in Al Sheba, Best wall coverings nad Al Sheba, Professional wall coverings nad Al Sheba, Luxury wall coverings nad Al Sheba, Wall Coverings Nad Al Sheba Dubai, Wall Coverings Nad designer Al Sheba, Wall Coverings Nad company Al Sheba, Wall Coverings Nad contractor Al Sheba, Affordable wall coverings nad Al Sheba, Modern wall coverings nad Al Sheba, Wall Coverings Nad consultation Al Sheba, Wall Coverings Nad cost Al Sheba, Wall Coverings Nad price Al Sheba, Top wall coverings nad Al Sheba, Wall Coverings Nad near Al Sheba, Wall Coverings Nad specialists Al Sheba, Wall Coverings Nad experts Al Sheba, Wall Coverings Nad solutions Al Sheba, Wall Coverings Nad packages Al Sheba, Wall Coverings Nad quotes Al Sheba, Wall Coverings Nad estimates Al Sheba, Wall Coverings Nad services near me Al Sheba, Cheap Wall Coverings Nad Al Sheba, Quality Wall Coverings Nad Al Sheba, Trusted Wall Coverings Nad Al Sheba, Wall Coverings Nad transformation Al Sheba, Wall Coverings Nad renovation Al Sheba, Wall Coverings Nad makeover Al Sheba, Best Wall Coverings Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsNadAlSheba() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Nad Al Sheba Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Nad Al Sheba Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings Nad in Al Sheba. 
                 We've completed 300+ successful projects across Nad Al Sheba Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Nad Al Sheba Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings nad al sheba services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Nad Al Sheba Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall coverings nad in al sheba service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall coverings nad near al sheba.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

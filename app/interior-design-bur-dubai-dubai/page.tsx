@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Bur Dubai, Interior Design in Bur Dubai, Best interior design Bur Dubai, Professional interior design Bur Dubai, Luxury interior design Bur Dubai, Interior Design Bur Dubai Dubai, Interior Design designer Bur Dubai, Interior Design company Bur Dubai, Interior Design contractor Bur Dubai, Affordable interior design Bur Dubai, Modern interior design Bur Dubai, Interior Design consultation Bur Dubai, Interior Design cost Bur Dubai, Interior Design price Bur Dubai, Top interior design Bur Dubai
+
+// SEO Keywords: Interior Design Bur Dubai, Interior Design in Bur Dubai, Best interior design Bur Dubai, Professional interior design Bur Dubai, Luxury interior design Bur Dubai, Interior Design Bur Dubai Dubai, Interior Design designer Bur Dubai, Interior Design company Bur Dubai, Interior Design contractor Bur Dubai, Affordable interior design Bur Dubai, Modern interior design Bur Dubai, Interior Design consultation Bur Dubai, Interior Design cost Bur Dubai, Interior Design price Bur Dubai, Top interior design Bur Dubai, Interior Design near Bur Dubai, Interior Design specialists Bur Dubai, Interior Design experts Bur Dubai, Interior Design solutions Bur Dubai, Interior Design packages Bur Dubai, Interior Design quotes Bur Dubai, Interior Design estimates Bur Dubai, Interior Design services near me Bur Dubai, Cheap Interior Design Bur Dubai, Quality Interior Design Bur Dubai, Trusted Interior Design Bur Dubai, Interior Design transformation Bur Dubai, Interior Design renovation Bur Dubai, Interior Design makeover Bur Dubai, Best Interior Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignBurDubai() {
                 At Interiara, we believe that exceptional <strong>Interior Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior Design in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior design in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior design near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

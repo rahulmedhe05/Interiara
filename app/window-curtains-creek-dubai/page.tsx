@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Creek, Window in Curtains Creek, Best window Curtains Creek, Professional window Curtains Creek, Luxury window Curtains Creek, Window Curtains Creek Dubai, Window designer Curtains Creek, Window company Curtains Creek, Window contractor Curtains Creek, Affordable window Curtains Creek, Modern window Curtains Creek, Window consultation Curtains Creek, Window cost Curtains Creek, Window price Curtains Creek, Top window Curtains Creek
+
+// SEO Keywords: Window Curtains Creek, Window in Curtains Creek, Best window Curtains Creek, Professional window Curtains Creek, Luxury window Curtains Creek, Window Curtains Creek Dubai, Window designer Curtains Creek, Window company Curtains Creek, Window contractor Curtains Creek, Affordable window Curtains Creek, Modern window Curtains Creek, Window consultation Curtains Creek, Window cost Curtains Creek, Window price Curtains Creek, Top window Curtains Creek, Window near Curtains Creek, Window specialists Curtains Creek, Window experts Curtains Creek, Window solutions Curtains Creek, Window packages Curtains Creek, Window quotes Curtains Creek, Window estimates Curtains Creek, Window services near me Curtains Creek, Cheap Window Curtains Creek, Quality Window Curtains Creek, Trusted Window Curtains Creek, Window transformation Curtains Creek, Window renovation Curtains Creek, Window makeover Curtains Creek, Best Window company Curtains Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsCreek() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Curtains Creek. Window Curtains Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional window curtains creek services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Dubai Creek Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in curtains creek service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near curtains creek.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

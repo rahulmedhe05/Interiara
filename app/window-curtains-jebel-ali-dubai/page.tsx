@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Jebel Ali, Window Curtains in Jebel Ali, Best window curtains Jebel Ali, Professional window curtains Jebel Ali, Luxury window curtains Jebel Ali, Window Curtains Jebel Ali Dubai, Window Curtains designer Jebel Ali, Window Curtains company Jebel Ali, Window Curtains contractor Jebel Ali, Affordable window curtains Jebel Ali, Modern window curtains Jebel Ali, Window Curtains consultation Jebel Ali, Window Curtains cost Jebel Ali, Window Curtains price Jebel Ali, Top window curtains Jebel Ali
+
+// SEO Keywords: Window Curtains Jebel Ali, Window Curtains in Jebel Ali, Best window curtains Jebel Ali, Professional window curtains Jebel Ali, Luxury window curtains Jebel Ali, Window Curtains Jebel Ali Dubai, Window Curtains designer Jebel Ali, Window Curtains company Jebel Ali, Window Curtains contractor Jebel Ali, Affordable window curtains Jebel Ali, Modern window curtains Jebel Ali, Window Curtains consultation Jebel Ali, Window Curtains cost Jebel Ali, Window Curtains price Jebel Ali, Top window curtains Jebel Ali, Window Curtains near Jebel Ali, Window Curtains specialists Jebel Ali, Window Curtains experts Jebel Ali, Window Curtains solutions Jebel Ali, Window Curtains packages Jebel Ali, Window Curtains quotes Jebel Ali, Window Curtains estimates Jebel Ali, Window Curtains services near me Jebel Ali, Cheap Window Curtains Jebel Ali, Quality Window Curtains Jebel Ali, Trusted Window Curtains Jebel Ali, Window Curtains transformation Jebel Ali, Window Curtains renovation Jebel Ali, Window Curtains makeover Jebel Ali, Best Window Curtains company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsJebelAli() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

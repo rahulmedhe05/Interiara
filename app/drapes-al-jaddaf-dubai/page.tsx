@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Al Jaddaf, Drapes in Al Jaddaf, Best drapes Al Jaddaf, Professional drapes Al Jaddaf, Luxury drapes Al Jaddaf, Drapes Al Jaddaf Dubai, Drapes designer Al Jaddaf, Drapes company Al Jaddaf, Drapes contractor Al Jaddaf, Affordable drapes Al Jaddaf, Modern drapes Al Jaddaf, Drapes consultation Al Jaddaf, Drapes cost Al Jaddaf, Drapes price Al Jaddaf, Top drapes Al Jaddaf
+
+// SEO Keywords: Drapes Al Jaddaf, Drapes in Al Jaddaf, Best drapes Al Jaddaf, Professional drapes Al Jaddaf, Luxury drapes Al Jaddaf, Drapes Al Jaddaf Dubai, Drapes designer Al Jaddaf, Drapes company Al Jaddaf, Drapes contractor Al Jaddaf, Affordable drapes Al Jaddaf, Modern drapes Al Jaddaf, Drapes consultation Al Jaddaf, Drapes cost Al Jaddaf, Drapes price Al Jaddaf, Top drapes Al Jaddaf, Drapes near Al Jaddaf, Drapes specialists Al Jaddaf, Drapes experts Al Jaddaf, Drapes solutions Al Jaddaf, Drapes packages Al Jaddaf, Drapes quotes Al Jaddaf, Drapes estimates Al Jaddaf, Drapes services near me Al Jaddaf, Cheap Drapes Al Jaddaf, Quality Drapes Al Jaddaf, Trusted Drapes Al Jaddaf, Drapes transformation Al Jaddaf, Drapes renovation Al Jaddaf, Drapes makeover Al Jaddaf, Best Drapes company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Drapes Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

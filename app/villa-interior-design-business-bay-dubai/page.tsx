@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Villa Interior Design Business Bay, Villa Interior Design in Business Bay, Best villa interior design Business Bay, Professional villa interior design Business Bay, Luxury villa interior design Business Bay, Villa Interior Design Business Bay Dubai, Villa Interior Design designer Business Bay, Villa Interior Design company Business Bay, Villa Interior Design contractor Business Bay, Affordable villa interior design Business Bay, Modern villa interior design Business Bay, Villa Interior Design consultation Business Bay, Villa Interior Design cost Business Bay, Villa Interior Design price Business Bay, Top villa interior design Business Bay
+
+// SEO Keywords: Villa Interior Design Business Bay, Villa Interior Design in Business Bay, Best villa interior design Business Bay, Professional villa interior design Business Bay, Luxury villa interior design Business Bay, Villa Interior Design Business Bay Dubai, Villa Interior Design designer Business Bay, Villa Interior Design company Business Bay, Villa Interior Design contractor Business Bay, Affordable villa interior design Business Bay, Modern villa interior design Business Bay, Villa Interior Design consultation Business Bay, Villa Interior Design cost Business Bay, Villa Interior Design price Business Bay, Top villa interior design Business Bay, Villa Interior Design near Business Bay, Villa Interior Design specialists Business Bay, Villa Interior Design experts Business Bay, Villa Interior Design solutions Business Bay, Villa Interior Design packages Business Bay, Villa Interior Design quotes Business Bay, Villa Interior Design estimates Business Bay, Villa Interior Design services near me Business Bay, Cheap Villa Interior Design Business Bay, Quality Villa Interior Design Business Bay, Trusted Villa Interior Design Business Bay, Villa Interior Design transformation Business Bay, Villa Interior Design renovation Business Bay, Villa Interior Design makeover Business Bay, Best Villa Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function VillaInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Villa Interior Design in Business Bay. Best villa interior design Business Bay Company Business Bay Our luxury villa interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function VillaInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our villa interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function VillaInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in villa interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function VillaInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

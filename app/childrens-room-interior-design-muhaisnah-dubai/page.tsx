@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Childrens Room Interior Design Muhaisnah, Childrens Room Interior in Design Muhaisnah, Best childrens room interior Design Muhaisnah, Professional childrens room interior Design Muhaisnah, Luxury childrens room interior Design Muhaisnah, Childrens Room Interior Design Muhaisnah Dubai, Childrens Room Interior designer Design Muhaisnah, Childrens Room Interior company Design Muhaisnah, Childrens Room Interior contractor Design Muhaisnah, Affordable childrens room interior Design Muhaisnah, Modern childrens room interior Design Muhaisnah, Childrens Room Interior consultation Design Muhaisnah, Childrens Room Interior cost Design Muhaisnah, Childrens Room Interior price Design Muhaisnah, Top childrens room interior Design Muhaisnah
+
+// SEO Keywords: Childrens Room Interior Design Muhaisnah, Childrens Room Interior in Design Muhaisnah, Best childrens room interior Design Muhaisnah, Professional childrens room interior Design Muhaisnah, Luxury childrens room interior Design Muhaisnah, Childrens Room Interior Design Muhaisnah Dubai, Childrens Room Interior designer Design Muhaisnah, Childrens Room Interior company Design Muhaisnah, Childrens Room Interior contractor Design Muhaisnah, Affordable childrens room interior Design Muhaisnah, Modern childrens room interior Design Muhaisnah, Childrens Room Interior consultation Design Muhaisnah, Childrens Room Interior cost Design Muhaisnah, Childrens Room Interior price Design Muhaisnah, Top childrens room interior Design Muhaisnah, Childrens Room Interior near Design Muhaisnah, Childrens Room Interior specialists Design Muhaisnah, Childrens Room Interior experts Design Muhaisnah, Childrens Room Interior solutions Design Muhaisnah, Childrens Room Interior packages Design Muhaisnah, Childrens Room Interior quotes Design Muhaisnah, Childrens Room Interior estimates Design Muhaisnah, Childrens Room Interior services near me Design Muhaisnah, Cheap Childrens Room Interior Design Muhaisnah, Quality Childrens Room Interior Design Muhaisnah, Trusted Childrens Room Interior Design Muhaisnah, Childrens Room Interior transformation Design Muhaisnah, Childrens Room Interior renovation Design Muhaisnah, Childrens Room Interior makeover Design Muhaisnah, Best Childrens Room Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ChildrensRoomInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Childrens Room Interior in Design Muhaisnah. Best childrens room interior Design Muhaisnah Company Design Muhaisnah Our luxury childrens room interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ChildrensRoomInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our childrens room interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ChildrensRoomInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in childrens room interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ChildrensRoomInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

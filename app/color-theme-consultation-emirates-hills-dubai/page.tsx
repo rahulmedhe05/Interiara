@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Emirates Hills, Color Theme Consultation in Emirates Hills, Best color theme consultation Emirates Hills, Professional color theme consultation Emirates Hills, Luxury color theme consultation Emirates Hills, Color Theme Consultation Emirates Hills Dubai, Color Theme Consultation designer Emirates Hills, Color Theme Consultation company Emirates Hills, Color Theme Consultation contractor Emirates Hills, Affordable color theme consultation Emirates Hills, Modern color theme consultation Emirates Hills, Color Theme Consultation consultation Emirates Hills, Color Theme Consultation cost Emirates Hills, Color Theme Consultation price Emirates Hills, Top color theme consultation Emirates Hills
+
+// SEO Keywords: Color Theme Consultation Emirates Hills, Color Theme Consultation in Emirates Hills, Best color theme consultation Emirates Hills, Professional color theme consultation Emirates Hills, Luxury color theme consultation Emirates Hills, Color Theme Consultation Emirates Hills Dubai, Color Theme Consultation designer Emirates Hills, Color Theme Consultation company Emirates Hills, Color Theme Consultation contractor Emirates Hills, Affordable color theme consultation Emirates Hills, Modern color theme consultation Emirates Hills, Color Theme Consultation consultation Emirates Hills, Color Theme Consultation cost Emirates Hills, Color Theme Consultation price Emirates Hills, Top color theme consultation Emirates Hills, Color Theme Consultation near Emirates Hills, Color Theme Consultation specialists Emirates Hills, Color Theme Consultation experts Emirates Hills, Color Theme Consultation solutions Emirates Hills, Color Theme Consultation packages Emirates Hills, Color Theme Consultation quotes Emirates Hills, Color Theme Consultation estimates Emirates Hills, Color Theme Consultation services near me Emirates Hills, Cheap Color Theme Consultation Emirates Hills, Quality Color Theme Consultation Emirates Hills, Trusted Color Theme Consultation Emirates Hills, Color Theme Consultation transformation Emirates Hills, Color Theme Consultation renovation Emirates Hills, Color Theme Consultation makeover Emirates Hills, Best Color Theme Consultation company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Emirates Hills. Best color theme consultation Emirates Hills Company Emirates Hills Our luxury color theme consultation emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

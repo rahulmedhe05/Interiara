@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Al Barsha South, Office Renovation Al in Barsha South, Best office renovation al Barsha South, Professional office renovation al Barsha South, Luxury office renovation al Barsha South, Office Renovation Al Barsha South Dubai, Office Renovation Al designer Barsha South, Office Renovation Al company Barsha South, Office Renovation Al contractor Barsha South, Affordable office renovation al Barsha South, Modern office renovation al Barsha South, Office Renovation Al consultation Barsha South, Office Renovation Al cost Barsha South, Office Renovation Al price Barsha South, Top office renovation al Barsha South
+
+// SEO Keywords: Office Renovation Al Barsha South, Office Renovation Al in Barsha South, Best office renovation al Barsha South, Professional office renovation al Barsha South, Luxury office renovation al Barsha South, Office Renovation Al Barsha South Dubai, Office Renovation Al designer Barsha South, Office Renovation Al company Barsha South, Office Renovation Al contractor Barsha South, Affordable office renovation al Barsha South, Modern office renovation al Barsha South, Office Renovation Al consultation Barsha South, Office Renovation Al cost Barsha South, Office Renovation Al price Barsha South, Top office renovation al Barsha South, Office Renovation Al near Barsha South, Office Renovation Al specialists Barsha South, Office Renovation Al experts Barsha South, Office Renovation Al solutions Barsha South, Office Renovation Al packages Barsha South, Office Renovation Al quotes Barsha South, Office Renovation Al estimates Barsha South, Office Renovation Al services near me Barsha South, Cheap Office Renovation Al Barsha South, Quality Office Renovation Al Barsha South, Trusted Office Renovation Al Barsha South, Office Renovation Al transformation Barsha South, Office Renovation Al renovation Barsha South, Office Renovation Al makeover Barsha South, Best Office Renovation Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation Al in Barsha South. Best office renovation al Barsha South Company Barsha South Our luxury office renovation al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

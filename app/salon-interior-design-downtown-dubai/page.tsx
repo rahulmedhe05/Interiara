@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Downtown, Salon Interior in Design Downtown, Best salon interior Design Downtown, Professional salon interior Design Downtown, Luxury salon interior Design Downtown, Salon Interior Design Downtown Dubai, Salon Interior designer Design Downtown, Salon Interior company Design Downtown, Salon Interior contractor Design Downtown, Affordable salon interior Design Downtown, Modern salon interior Design Downtown, Salon Interior consultation Design Downtown, Salon Interior cost Design Downtown, Salon Interior price Design Downtown, Top salon interior Design Downtown
+
+// SEO Keywords: Salon Interior Design Downtown, Salon Interior in Design Downtown, Best salon interior Design Downtown, Professional salon interior Design Downtown, Luxury salon interior Design Downtown, Salon Interior Design Downtown Dubai, Salon Interior designer Design Downtown, Salon Interior company Design Downtown, Salon Interior contractor Design Downtown, Affordable salon interior Design Downtown, Modern salon interior Design Downtown, Salon Interior consultation Design Downtown, Salon Interior cost Design Downtown, Salon Interior price Design Downtown, Top salon interior Design Downtown, Salon Interior near Design Downtown, Salon Interior specialists Design Downtown, Salon Interior experts Design Downtown, Salon Interior solutions Design Downtown, Salon Interior packages Design Downtown, Salon Interior quotes Design Downtown, Salon Interior estimates Design Downtown, Salon Interior services near me Design Downtown, Cheap Salon Interior Design Downtown, Quality Salon Interior Design Downtown, Trusted Salon Interior Design Downtown, Salon Interior transformation Design Downtown, Salon Interior renovation Design Downtown, Salon Interior makeover Design Downtown, Best Salon Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SalonInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Salon Interior in Design Downtown. Best salon interior Design Downtown Company Design Downtown Our luxury salon interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SalonInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our salon interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SalonInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in salon interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

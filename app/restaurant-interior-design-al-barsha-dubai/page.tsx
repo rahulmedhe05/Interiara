@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Al Barsha, Restaurant Interior Design in Al Barsha, Best restaurant interior design Al Barsha, Professional restaurant interior design Al Barsha, Luxury restaurant interior design Al Barsha, Restaurant Interior Design Al Barsha Dubai, Restaurant Interior Design designer Al Barsha, Restaurant Interior Design company Al Barsha, Restaurant Interior Design contractor Al Barsha, Affordable restaurant interior design Al Barsha, Modern restaurant interior design Al Barsha, Restaurant Interior Design consultation Al Barsha, Restaurant Interior Design cost Al Barsha, Restaurant Interior Design price Al Barsha, Top restaurant interior design Al Barsha
+
+// SEO Keywords: Restaurant Interior Design Al Barsha, Restaurant Interior Design in Al Barsha, Best restaurant interior design Al Barsha, Professional restaurant interior design Al Barsha, Luxury restaurant interior design Al Barsha, Restaurant Interior Design Al Barsha Dubai, Restaurant Interior Design designer Al Barsha, Restaurant Interior Design company Al Barsha, Restaurant Interior Design contractor Al Barsha, Affordable restaurant interior design Al Barsha, Modern restaurant interior design Al Barsha, Restaurant Interior Design consultation Al Barsha, Restaurant Interior Design cost Al Barsha, Restaurant Interior Design price Al Barsha, Top restaurant interior design Al Barsha, Restaurant Interior Design near Al Barsha, Restaurant Interior Design specialists Al Barsha, Restaurant Interior Design experts Al Barsha, Restaurant Interior Design solutions Al Barsha, Restaurant Interior Design packages Al Barsha, Restaurant Interior Design quotes Al Barsha, Restaurant Interior Design estimates Al Barsha, Restaurant Interior Design services near me Al Barsha, Cheap Restaurant Interior Design Al Barsha, Quality Restaurant Interior Design Al Barsha, Trusted Restaurant Interior Design Al Barsha, Restaurant Interior Design transformation Al Barsha, Restaurant Interior Design renovation Al Barsha, Restaurant Interior Design makeover Al Barsha, Best Restaurant Interior Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior Design in Al Barsha. Best restaurant interior design Al Barsha Company Al Barsha Our luxury restaurant interior design al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior design in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior design near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Karama, Color Theme Consultation in Al Karama, Best color theme consultation Al Karama, Professional color theme consultation Al Karama, Luxury color theme consultation Al Karama, Color Theme Consultation Al Karama Dubai, Color Theme Consultation designer Al Karama, Color Theme Consultation company Al Karama, Color Theme Consultation contractor Al Karama, Affordable color theme consultation Al Karama, Modern color theme consultation Al Karama, Color Theme Consultation consultation Al Karama, Color Theme Consultation cost Al Karama, Color Theme Consultation price Al Karama, Top color theme consultation Al Karama
+
+// SEO Keywords: Color Theme Consultation Al Karama, Color Theme Consultation in Al Karama, Best color theme consultation Al Karama, Professional color theme consultation Al Karama, Luxury color theme consultation Al Karama, Color Theme Consultation Al Karama Dubai, Color Theme Consultation designer Al Karama, Color Theme Consultation company Al Karama, Color Theme Consultation contractor Al Karama, Affordable color theme consultation Al Karama, Modern color theme consultation Al Karama, Color Theme Consultation consultation Al Karama, Color Theme Consultation cost Al Karama, Color Theme Consultation price Al Karama, Top color theme consultation Al Karama, Color Theme Consultation near Al Karama, Color Theme Consultation specialists Al Karama, Color Theme Consultation experts Al Karama, Color Theme Consultation solutions Al Karama, Color Theme Consultation packages Al Karama, Color Theme Consultation quotes Al Karama, Color Theme Consultation estimates Al Karama, Color Theme Consultation services near me Al Karama, Cheap Color Theme Consultation Al Karama, Quality Color Theme Consultation Al Karama, Trusted Color Theme Consultation Al Karama, Color Theme Consultation transformation Al Karama, Color Theme Consultation renovation Al Karama, Color Theme Consultation makeover Al Karama, Best Color Theme Consultation company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Al Karama. Best color theme consultation Al Karama Company Al Karama Our luxury color theme consultation al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

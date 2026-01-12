@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Emirates Hills, Window Curtains in Emirates Hills, Best window curtains Emirates Hills, Professional window curtains Emirates Hills, Luxury window curtains Emirates Hills, Window Curtains Emirates Hills Dubai, Window Curtains designer Emirates Hills, Window Curtains company Emirates Hills, Window Curtains contractor Emirates Hills, Affordable window curtains Emirates Hills, Modern window curtains Emirates Hills, Window Curtains consultation Emirates Hills, Window Curtains cost Emirates Hills, Window Curtains price Emirates Hills, Top window curtains Emirates Hills
+
+// SEO Keywords: Window Curtains Emirates Hills, Window Curtains in Emirates Hills, Best window curtains Emirates Hills, Professional window curtains Emirates Hills, Luxury window curtains Emirates Hills, Window Curtains Emirates Hills Dubai, Window Curtains designer Emirates Hills, Window Curtains company Emirates Hills, Window Curtains contractor Emirates Hills, Affordable window curtains Emirates Hills, Modern window curtains Emirates Hills, Window Curtains consultation Emirates Hills, Window Curtains cost Emirates Hills, Window Curtains price Emirates Hills, Top window curtains Emirates Hills, Window Curtains near Emirates Hills, Window Curtains specialists Emirates Hills, Window Curtains experts Emirates Hills, Window Curtains solutions Emirates Hills, Window Curtains packages Emirates Hills, Window Curtains quotes Emirates Hills, Window Curtains estimates Emirates Hills, Window Curtains services near me Emirates Hills, Cheap Window Curtains Emirates Hills, Quality Window Curtains Emirates Hills, Trusted Window Curtains Emirates Hills, Window Curtains transformation Emirates Hills, Window Curtains renovation Emirates Hills, Window Curtains makeover Emirates Hills, Best Window Curtains company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains in Emirates Hills. Best window curtains Emirates Hills Company Emirates Hills Our luxury window curtains emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

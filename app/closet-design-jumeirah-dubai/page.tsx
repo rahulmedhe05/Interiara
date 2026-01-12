@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Jumeirah, Closet in Design Jumeirah, Best closet Design Jumeirah, Professional closet Design Jumeirah, Luxury closet Design Jumeirah, Closet Design Jumeirah Dubai, Closet designer Design Jumeirah, Closet company Design Jumeirah, Closet contractor Design Jumeirah, Affordable closet Design Jumeirah, Modern closet Design Jumeirah, Closet consultation Design Jumeirah, Closet cost Design Jumeirah, Closet price Design Jumeirah, Top closet Design Jumeirah
+
+// SEO Keywords: Closet Design Jumeirah, Closet in Design Jumeirah, Best closet Design Jumeirah, Professional closet Design Jumeirah, Luxury closet Design Jumeirah, Closet Design Jumeirah Dubai, Closet designer Design Jumeirah, Closet company Design Jumeirah, Closet contractor Design Jumeirah, Affordable closet Design Jumeirah, Modern closet Design Jumeirah, Closet consultation Design Jumeirah, Closet cost Design Jumeirah, Closet price Design Jumeirah, Top closet Design Jumeirah, Closet near Design Jumeirah, Closet specialists Design Jumeirah, Closet experts Design Jumeirah, Closet solutions Design Jumeirah, Closet packages Design Jumeirah, Closet quotes Design Jumeirah, Closet estimates Design Jumeirah, Closet services near me Design Jumeirah, Cheap Closet Design Jumeirah, Quality Closet Design Jumeirah, Trusted Closet Design Jumeirah, Closet transformation Design Jumeirah, Closet renovation Design Jumeirah, Closet makeover Design Jumeirah, Best Closet company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet in Design Jumeirah. Best closet Design Jumeirah Company Design Jumeirah Our luxury closet design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

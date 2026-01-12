@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Business Bay, Sustainable Interior Design in Business Bay, Best sustainable interior design Business Bay, Professional sustainable interior design Business Bay, Luxury sustainable interior design Business Bay, Sustainable Interior Design Business Bay Dubai, Sustainable Interior Design designer Business Bay, Sustainable Interior Design company Business Bay, Sustainable Interior Design contractor Business Bay, Affordable sustainable interior design Business Bay, Modern sustainable interior design Business Bay, Sustainable Interior Design consultation Business Bay, Sustainable Interior Design cost Business Bay, Sustainable Interior Design price Business Bay, Top sustainable interior design Business Bay
+
+// SEO Keywords: Sustainable Interior Design Business Bay, Sustainable Interior Design in Business Bay, Best sustainable interior design Business Bay, Professional sustainable interior design Business Bay, Luxury sustainable interior design Business Bay, Sustainable Interior Design Business Bay Dubai, Sustainable Interior Design designer Business Bay, Sustainable Interior Design company Business Bay, Sustainable Interior Design contractor Business Bay, Affordable sustainable interior design Business Bay, Modern sustainable interior design Business Bay, Sustainable Interior Design consultation Business Bay, Sustainable Interior Design cost Business Bay, Sustainable Interior Design price Business Bay, Top sustainable interior design Business Bay, Sustainable Interior Design near Business Bay, Sustainable Interior Design specialists Business Bay, Sustainable Interior Design experts Business Bay, Sustainable Interior Design solutions Business Bay, Sustainable Interior Design packages Business Bay, Sustainable Interior Design quotes Business Bay, Sustainable Interior Design estimates Business Bay, Sustainable Interior Design services near me Business Bay, Cheap Sustainable Interior Design Business Bay, Quality Sustainable Interior Design Business Bay, Trusted Sustainable Interior Design Business Bay, Sustainable Interior Design transformation Business Bay, Sustainable Interior Design renovation Business Bay, Sustainable Interior Design makeover Business Bay, Best Sustainable Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Business Bay. Best sustainable interior design Business Bay Company Business Bay Our luxury sustainable interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Al Barsha, Wallpaper Design in Al Barsha, Best wallpaper design Al Barsha, Professional wallpaper design Al Barsha, Luxury wallpaper design Al Barsha, Wallpaper Design Al Barsha Dubai, Wallpaper Design designer Al Barsha, Wallpaper Design company Al Barsha, Wallpaper Design contractor Al Barsha, Affordable wallpaper design Al Barsha, Modern wallpaper design Al Barsha, Wallpaper Design consultation Al Barsha, Wallpaper Design cost Al Barsha, Wallpaper Design price Al Barsha, Top wallpaper design Al Barsha
+
+// SEO Keywords: Wallpaper Design Al Barsha, Wallpaper Design in Al Barsha, Best wallpaper design Al Barsha, Professional wallpaper design Al Barsha, Luxury wallpaper design Al Barsha, Wallpaper Design Al Barsha Dubai, Wallpaper Design designer Al Barsha, Wallpaper Design company Al Barsha, Wallpaper Design contractor Al Barsha, Affordable wallpaper design Al Barsha, Modern wallpaper design Al Barsha, Wallpaper Design consultation Al Barsha, Wallpaper Design cost Al Barsha, Wallpaper Design price Al Barsha, Top wallpaper design Al Barsha, Wallpaper Design near Al Barsha, Wallpaper Design specialists Al Barsha, Wallpaper Design experts Al Barsha, Wallpaper Design solutions Al Barsha, Wallpaper Design packages Al Barsha, Wallpaper Design quotes Al Barsha, Wallpaper Design estimates Al Barsha, Wallpaper Design services near me Al Barsha, Cheap Wallpaper Design Al Barsha, Quality Wallpaper Design Al Barsha, Trusted Wallpaper Design Al Barsha, Wallpaper Design transformation Al Barsha, Wallpaper Design renovation Al Barsha, Wallpaper Design makeover Al Barsha, Best Wallpaper Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Emirates Hills, Office Fit Out in Emirates Hills, Best office fit out Emirates Hills, Professional office fit out Emirates Hills, Luxury office fit out Emirates Hills, Office Fit Out Emirates Hills Dubai, Office Fit Out designer Emirates Hills, Office Fit Out company Emirates Hills, Office Fit Out contractor Emirates Hills, Affordable office fit out Emirates Hills, Modern office fit out Emirates Hills, Office Fit Out consultation Emirates Hills, Office Fit Out cost Emirates Hills, Office Fit Out price Emirates Hills, Top office fit out Emirates Hills
+
+// SEO Keywords: Office Fit Out Emirates Hills, Office Fit Out in Emirates Hills, Best office fit out Emirates Hills, Professional office fit out Emirates Hills, Luxury office fit out Emirates Hills, Office Fit Out Emirates Hills Dubai, Office Fit Out designer Emirates Hills, Office Fit Out company Emirates Hills, Office Fit Out contractor Emirates Hills, Affordable office fit out Emirates Hills, Modern office fit out Emirates Hills, Office Fit Out consultation Emirates Hills, Office Fit Out cost Emirates Hills, Office Fit Out price Emirates Hills, Top office fit out Emirates Hills, Office Fit Out near Emirates Hills, Office Fit Out specialists Emirates Hills, Office Fit Out experts Emirates Hills, Office Fit Out solutions Emirates Hills, Office Fit Out packages Emirates Hills, Office Fit Out quotes Emirates Hills, Office Fit Out estimates Emirates Hills, Office Fit Out services near me Emirates Hills, Cheap Office Fit Out Emirates Hills, Quality Office Fit Out Emirates Hills, Trusted Office Fit Out Emirates Hills, Office Fit Out transformation Emirates Hills, Office Fit Out renovation Emirates Hills, Office Fit Out makeover Emirates Hills, Best Office Fit Out company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeFitOutEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Fit Out in Emirates Hills. Best office fit out Emirates Hills Company Emirates Hills Our luxury office fit out emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeFitOutEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office fit out in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeFitOutEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office fit out near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeFitOutEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

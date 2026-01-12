@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Silicon Oasis Villas, Healthcare Interior Design Silicon in Oasis Villas, Best healthcare interior design silicon Oasis Villas, Professional healthcare interior design silicon Oasis Villas, Luxury healthcare interior design silicon Oasis Villas, Healthcare Interior Design Silicon Oasis Villas Dubai, Healthcare Interior Design Silicon designer Oasis Villas, Healthcare Interior Design Silicon company Oasis Villas, Healthcare Interior Design Silicon contractor Oasis Villas, Affordable healthcare interior design silicon Oasis Villas, Modern healthcare interior design silicon Oasis Villas, Healthcare Interior Design Silicon consultation Oasis Villas, Healthcare Interior Design Silicon cost Oasis Villas, Healthcare Interior Design Silicon price Oasis Villas, Top healthcare interior design silicon Oasis Villas
+
+// SEO Keywords: Healthcare Interior Design Silicon Oasis Villas, Healthcare Interior Design Silicon in Oasis Villas, Best healthcare interior design silicon Oasis Villas, Professional healthcare interior design silicon Oasis Villas, Luxury healthcare interior design silicon Oasis Villas, Healthcare Interior Design Silicon Oasis Villas Dubai, Healthcare Interior Design Silicon designer Oasis Villas, Healthcare Interior Design Silicon company Oasis Villas, Healthcare Interior Design Silicon contractor Oasis Villas, Affordable healthcare interior design silicon Oasis Villas, Modern healthcare interior design silicon Oasis Villas, Healthcare Interior Design Silicon consultation Oasis Villas, Healthcare Interior Design Silicon cost Oasis Villas, Healthcare Interior Design Silicon price Oasis Villas, Top healthcare interior design silicon Oasis Villas, Healthcare Interior Design Silicon near Oasis Villas, Healthcare Interior Design Silicon specialists Oasis Villas, Healthcare Interior Design Silicon experts Oasis Villas, Healthcare Interior Design Silicon solutions Oasis Villas, Healthcare Interior Design Silicon packages Oasis Villas, Healthcare Interior Design Silicon quotes Oasis Villas, Healthcare Interior Design Silicon estimates Oasis Villas, Healthcare Interior Design Silicon services near me Oasis Villas, Cheap Healthcare Interior Design Silicon Oasis Villas, Quality Healthcare Interior Design Silicon Oasis Villas, Trusted Healthcare Interior Design Silicon Oasis Villas, Healthcare Interior Design Silicon transformation Oasis Villas, Healthcare Interior Design Silicon renovation Oasis Villas, Healthcare Interior Design Silicon makeover Oasis Villas, Best Healthcare Interior Design Silicon company Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design silicon Oasis Villas Company Oasis Villas</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior Design Silicon in Oasis Villas. Best healthcare interior design silicon Oasis Villas Company Oasis Villas Our luxury healthcare interior design silicon oasis villas services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignSiliconOasisVillas() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior design silicon in oasis villas service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignSiliconOasisVillas() {
 
               <p>
                 Interiara stands out in the crowded Silicon Oasis Villas Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior design silicon near oasis villas.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignSiliconOasisVillas() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

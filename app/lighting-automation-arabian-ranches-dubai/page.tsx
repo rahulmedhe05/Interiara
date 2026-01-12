@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Arabian Ranches, Lighting Automation in Arabian Ranches, Best lighting automation Arabian Ranches, Professional lighting automation Arabian Ranches, Luxury lighting automation Arabian Ranches, Lighting Automation Arabian Ranches Dubai, Lighting Automation designer Arabian Ranches, Lighting Automation company Arabian Ranches, Lighting Automation contractor Arabian Ranches, Affordable lighting automation Arabian Ranches, Modern lighting automation Arabian Ranches, Lighting Automation consultation Arabian Ranches, Lighting Automation cost Arabian Ranches, Lighting Automation price Arabian Ranches, Top lighting automation Arabian Ranches
+
+// SEO Keywords: Lighting Automation Arabian Ranches, Lighting Automation in Arabian Ranches, Best lighting automation Arabian Ranches, Professional lighting automation Arabian Ranches, Luxury lighting automation Arabian Ranches, Lighting Automation Arabian Ranches Dubai, Lighting Automation designer Arabian Ranches, Lighting Automation company Arabian Ranches, Lighting Automation contractor Arabian Ranches, Affordable lighting automation Arabian Ranches, Modern lighting automation Arabian Ranches, Lighting Automation consultation Arabian Ranches, Lighting Automation cost Arabian Ranches, Lighting Automation price Arabian Ranches, Top lighting automation Arabian Ranches, Lighting Automation near Arabian Ranches, Lighting Automation specialists Arabian Ranches, Lighting Automation experts Arabian Ranches, Lighting Automation solutions Arabian Ranches, Lighting Automation packages Arabian Ranches, Lighting Automation quotes Arabian Ranches, Lighting Automation estimates Arabian Ranches, Lighting Automation services near me Arabian Ranches, Cheap Lighting Automation Arabian Ranches, Quality Lighting Automation Arabian Ranches, Trusted Lighting Automation Arabian Ranches, Lighting Automation transformation Arabian Ranches, Lighting Automation renovation Arabian Ranches, Lighting Automation makeover Arabian Ranches, Best Lighting Automation company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Arabian Ranches. Best lighting automation Arabian Ranches Company Arabian Ranches Our luxury lighting automation arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

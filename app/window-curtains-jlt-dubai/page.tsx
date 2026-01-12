@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Jlt, Window in Curtains Jlt, Best window Curtains Jlt, Professional window Curtains Jlt, Luxury window Curtains Jlt, Window Curtains Jlt Dubai, Window designer Curtains Jlt, Window company Curtains Jlt, Window contractor Curtains Jlt, Affordable window Curtains Jlt, Modern window Curtains Jlt, Window consultation Curtains Jlt, Window cost Curtains Jlt, Window price Curtains Jlt, Top window Curtains Jlt
+
+// SEO Keywords: Window Curtains Jlt, Window in Curtains Jlt, Best window Curtains Jlt, Professional window Curtains Jlt, Luxury window Curtains Jlt, Window Curtains Jlt Dubai, Window designer Curtains Jlt, Window company Curtains Jlt, Window contractor Curtains Jlt, Affordable window Curtains Jlt, Modern window Curtains Jlt, Window consultation Curtains Jlt, Window cost Curtains Jlt, Window price Curtains Jlt, Top window Curtains Jlt, Window near Curtains Jlt, Window specialists Curtains Jlt, Window experts Curtains Jlt, Window solutions Curtains Jlt, Window packages Curtains Jlt, Window quotes Curtains Jlt, Window estimates Curtains Jlt, Window services near me Curtains Jlt, Cheap Window Curtains Jlt, Quality Window Curtains Jlt, Trusted Window Curtains Jlt, Window transformation Curtains Jlt, Window renovation Curtains Jlt, Window makeover Curtains Jlt, Best Window company Curtains Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsJlt() {
                 At Interiara, we believe that exceptional <strong>Window Curtains JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Curtains Jlt. Window Curtains Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in curtains jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near curtains jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Sheikh Zayed Road, Smart Lighting Sheikh in Zayed Road, Best smart lighting sheikh Zayed Road, Professional smart lighting sheikh Zayed Road, Luxury smart lighting sheikh Zayed Road, Smart Lighting Sheikh Zayed Road Dubai, Smart Lighting Sheikh designer Zayed Road, Smart Lighting Sheikh company Zayed Road, Smart Lighting Sheikh contractor Zayed Road, Affordable smart lighting sheikh Zayed Road, Modern smart lighting sheikh Zayed Road, Smart Lighting Sheikh consultation Zayed Road, Smart Lighting Sheikh cost Zayed Road, Smart Lighting Sheikh price Zayed Road, Top smart lighting sheikh Zayed Road
+
+// SEO Keywords: Smart Lighting Sheikh Zayed Road, Smart Lighting Sheikh in Zayed Road, Best smart lighting sheikh Zayed Road, Professional smart lighting sheikh Zayed Road, Luxury smart lighting sheikh Zayed Road, Smart Lighting Sheikh Zayed Road Dubai, Smart Lighting Sheikh designer Zayed Road, Smart Lighting Sheikh company Zayed Road, Smart Lighting Sheikh contractor Zayed Road, Affordable smart lighting sheikh Zayed Road, Modern smart lighting sheikh Zayed Road, Smart Lighting Sheikh consultation Zayed Road, Smart Lighting Sheikh cost Zayed Road, Smart Lighting Sheikh price Zayed Road, Top smart lighting sheikh Zayed Road, Smart Lighting Sheikh near Zayed Road, Smart Lighting Sheikh specialists Zayed Road, Smart Lighting Sheikh experts Zayed Road, Smart Lighting Sheikh solutions Zayed Road, Smart Lighting Sheikh packages Zayed Road, Smart Lighting Sheikh quotes Zayed Road, Smart Lighting Sheikh estimates Zayed Road, Smart Lighting Sheikh services near me Zayed Road, Cheap Smart Lighting Sheikh Zayed Road, Quality Smart Lighting Sheikh Zayed Road, Trusted Smart Lighting Sheikh Zayed Road, Smart Lighting Sheikh transformation Zayed Road, Smart Lighting Sheikh renovation Zayed Road, Smart Lighting Sheikh makeover Zayed Road, Best Smart Lighting Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting sheikh Zayed Road Company Zayed Road</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Lighting Sheikh in Zayed Road. Best smart lighting sheikh Zayed Road Company Zayed Road Our luxury smart lighting sheikh zayed road services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartLightingSheikhZayedRoad() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart lighting sheikh in zayed road service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart lighting sheikh near zayed road.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

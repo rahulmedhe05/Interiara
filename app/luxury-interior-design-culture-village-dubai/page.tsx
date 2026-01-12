@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Culture Village, Luxury Interior Design in Culture Village, Best luxury interior design Culture Village, Professional luxury interior design Culture Village, Luxury luxury interior design Culture Village, Luxury Interior Design Culture Village Dubai, Luxury Interior Design designer Culture Village, Luxury Interior Design company Culture Village, Luxury Interior Design contractor Culture Village, Affordable luxury interior design Culture Village, Modern luxury interior design Culture Village, Luxury Interior Design consultation Culture Village, Luxury Interior Design cost Culture Village, Luxury Interior Design price Culture Village, Top luxury interior design Culture Village
+
+// SEO Keywords: Luxury Interior Design Culture Village, Luxury Interior Design in Culture Village, Best luxury interior design Culture Village, Professional luxury interior design Culture Village, Luxury luxury interior design Culture Village, Luxury Interior Design Culture Village Dubai, Luxury Interior Design designer Culture Village, Luxury Interior Design company Culture Village, Luxury Interior Design contractor Culture Village, Affordable luxury interior design Culture Village, Modern luxury interior design Culture Village, Luxury Interior Design consultation Culture Village, Luxury Interior Design cost Culture Village, Luxury Interior Design price Culture Village, Top luxury interior design Culture Village, Luxury Interior Design near Culture Village, Luxury Interior Design specialists Culture Village, Luxury Interior Design experts Culture Village, Luxury Interior Design solutions Culture Village, Luxury Interior Design packages Culture Village, Luxury Interior Design quotes Culture Village, Luxury Interior Design estimates Culture Village, Luxury Interior Design services near me Culture Village, Cheap Luxury Interior Design Culture Village, Quality Luxury Interior Design Culture Village, Trusted Luxury Interior Design Culture Village, Luxury Interior Design transformation Culture Village, Luxury Interior Design renovation Culture Village, Luxury Interior Design makeover Culture Village, Best Luxury Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior Design in Culture Village. Best luxury interior design Culture Village Company Culture Village Our luxury luxury interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

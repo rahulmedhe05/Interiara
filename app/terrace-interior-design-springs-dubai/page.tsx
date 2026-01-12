@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Springs, Terrace Interior in Design Springs, Best terrace interior Design Springs, Professional terrace interior Design Springs, Luxury terrace interior Design Springs, Terrace Interior Design Springs Dubai, Terrace Interior designer Design Springs, Terrace Interior company Design Springs, Terrace Interior contractor Design Springs, Affordable terrace interior Design Springs, Modern terrace interior Design Springs, Terrace Interior consultation Design Springs, Terrace Interior cost Design Springs, Terrace Interior price Design Springs, Top terrace interior Design Springs
+
+// SEO Keywords: Terrace Interior Design Springs, Terrace Interior in Design Springs, Best terrace interior Design Springs, Professional terrace interior Design Springs, Luxury terrace interior Design Springs, Terrace Interior Design Springs Dubai, Terrace Interior designer Design Springs, Terrace Interior company Design Springs, Terrace Interior contractor Design Springs, Affordable terrace interior Design Springs, Modern terrace interior Design Springs, Terrace Interior consultation Design Springs, Terrace Interior cost Design Springs, Terrace Interior price Design Springs, Top terrace interior Design Springs, Terrace Interior near Design Springs, Terrace Interior specialists Design Springs, Terrace Interior experts Design Springs, Terrace Interior solutions Design Springs, Terrace Interior packages Design Springs, Terrace Interior quotes Design Springs, Terrace Interior estimates Design Springs, Terrace Interior services near me Design Springs, Cheap Terrace Interior Design Springs, Quality Terrace Interior Design Springs, Trusted Terrace Interior Design Springs, Terrace Interior transformation Design Springs, Terrace Interior renovation Design Springs, Terrace Interior makeover Design Springs, Best Terrace Interior company Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior Design Springs Company Design Springs</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior in Design Springs. Best terrace interior Design Springs Company Design Springs Our professional terrace interior design springs services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function TerraceInteriorDesignSprings() {
                 At Interiara, we believe that exceptional <strong>Terrace Interior Design The Springs Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Springs Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Terrace Interior Design Springs. 
                 We've completed 300+ successful projects across The Springs Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Terrace Interior Design The Springs Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignSprings() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior in design springs service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignSprings() {
 
               <p>
                 Interiara stands out in the crowded The Springs Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior near design springs.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignSprings() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Al Satwa, Home Renovation in Al Satwa, Best home renovation Al Satwa, Professional home renovation Al Satwa, Luxury home renovation Al Satwa, Home Renovation Al Satwa Dubai, Home Renovation designer Al Satwa, Home Renovation company Al Satwa, Home Renovation contractor Al Satwa, Affordable home renovation Al Satwa, Modern home renovation Al Satwa, Home Renovation consultation Al Satwa, Home Renovation cost Al Satwa, Home Renovation price Al Satwa, Top home renovation Al Satwa
+
+// SEO Keywords: Home Renovation Al Satwa, Home Renovation in Al Satwa, Best home renovation Al Satwa, Professional home renovation Al Satwa, Luxury home renovation Al Satwa, Home Renovation Al Satwa Dubai, Home Renovation designer Al Satwa, Home Renovation company Al Satwa, Home Renovation contractor Al Satwa, Affordable home renovation Al Satwa, Modern home renovation Al Satwa, Home Renovation consultation Al Satwa, Home Renovation cost Al Satwa, Home Renovation price Al Satwa, Top home renovation Al Satwa, Home Renovation near Al Satwa, Home Renovation specialists Al Satwa, Home Renovation experts Al Satwa, Home Renovation solutions Al Satwa, Home Renovation packages Al Satwa, Home Renovation quotes Al Satwa, Home Renovation estimates Al Satwa, Home Renovation services near me Al Satwa, Cheap Home Renovation Al Satwa, Quality Home Renovation Al Satwa, Trusted Home Renovation Al Satwa, Home Renovation transformation Al Satwa, Home Renovation renovation Al Satwa, Home Renovation makeover Al Satwa, Best Home Renovation company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRenovationAlSatwa() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Al Satwa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Satwa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation in Al Satwa. 
                 We've completed 300+ successful projects across Al Satwa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Al Satwa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home renovation al satwa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Renovation Al Satwa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRenovationAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home renovation in al satwa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home renovation near al satwa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRenovationAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

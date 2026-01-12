@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Dubai Creek Harbour, Home Renovation Dubai in Creek Harbour, Best home renovation dubai Creek Harbour, Professional home renovation dubai Creek Harbour, Luxury home renovation dubai Creek Harbour, Home Renovation Dubai Creek Harbour Dubai, Home Renovation Dubai designer Creek Harbour, Home Renovation Dubai company Creek Harbour, Home Renovation Dubai contractor Creek Harbour, Affordable home renovation dubai Creek Harbour, Modern home renovation dubai Creek Harbour, Home Renovation Dubai consultation Creek Harbour, Home Renovation Dubai cost Creek Harbour, Home Renovation Dubai price Creek Harbour, Top home renovation dubai Creek Harbour
+
+// SEO Keywords: Home Renovation Dubai Creek Harbour, Home Renovation Dubai in Creek Harbour, Best home renovation dubai Creek Harbour, Professional home renovation dubai Creek Harbour, Luxury home renovation dubai Creek Harbour, Home Renovation Dubai Creek Harbour Dubai, Home Renovation Dubai designer Creek Harbour, Home Renovation Dubai company Creek Harbour, Home Renovation Dubai contractor Creek Harbour, Affordable home renovation dubai Creek Harbour, Modern home renovation dubai Creek Harbour, Home Renovation Dubai consultation Creek Harbour, Home Renovation Dubai cost Creek Harbour, Home Renovation Dubai price Creek Harbour, Top home renovation dubai Creek Harbour, Home Renovation Dubai near Creek Harbour, Home Renovation Dubai specialists Creek Harbour, Home Renovation Dubai experts Creek Harbour, Home Renovation Dubai solutions Creek Harbour, Home Renovation Dubai packages Creek Harbour, Home Renovation Dubai quotes Creek Harbour, Home Renovation Dubai estimates Creek Harbour, Home Renovation Dubai services near me Creek Harbour, Cheap Home Renovation Dubai Creek Harbour, Quality Home Renovation Dubai Creek Harbour, Trusted Home Renovation Dubai Creek Harbour, Home Renovation Dubai transformation Creek Harbour, Home Renovation Dubai renovation Creek Harbour, Home Renovation Dubai makeover Creek Harbour, Best Home Renovation Dubai company Creek Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation dubai Creek Harbour Company Creek Harbour</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation Dubai in Creek Harbour. Best home renovation dubai Creek Harbour Company Creek Harbour Our professional home renovation dubai creek harbour services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HomeRenovationDubaiCreekHarbour() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Creek Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation Dubai Creek Harbour. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Creek Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HomeRenovationDubaiCreekHarbour() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation dubai in creek harbour service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDubaiCreekHarbour() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation dubai near creek harbour.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDubaiCreekHarbour() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

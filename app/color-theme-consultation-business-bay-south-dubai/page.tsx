@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Business Bay South, Color Theme Consultation Business in Bay South, Best color theme consultation business Bay South, Professional color theme consultation business Bay South, Luxury color theme consultation business Bay South, Color Theme Consultation Business Bay South Dubai, Color Theme Consultation Business designer Bay South, Color Theme Consultation Business company Bay South, Color Theme Consultation Business contractor Bay South, Affordable color theme consultation business Bay South, Modern color theme consultation business Bay South, Color Theme Consultation Business consultation Bay South, Color Theme Consultation Business cost Bay South, Color Theme Consultation Business price Bay South, Top color theme consultation business Bay South
+
+// SEO Keywords: Color Theme Consultation Business Bay South, Color Theme Consultation Business in Bay South, Best color theme consultation business Bay South, Professional color theme consultation business Bay South, Luxury color theme consultation business Bay South, Color Theme Consultation Business Bay South Dubai, Color Theme Consultation Business designer Bay South, Color Theme Consultation Business company Bay South, Color Theme Consultation Business contractor Bay South, Affordable color theme consultation business Bay South, Modern color theme consultation business Bay South, Color Theme Consultation Business consultation Bay South, Color Theme Consultation Business cost Bay South, Color Theme Consultation Business price Bay South, Top color theme consultation business Bay South, Color Theme Consultation Business near Bay South, Color Theme Consultation Business specialists Bay South, Color Theme Consultation Business experts Bay South, Color Theme Consultation Business solutions Bay South, Color Theme Consultation Business packages Bay South, Color Theme Consultation Business quotes Bay South, Color Theme Consultation Business estimates Bay South, Color Theme Consultation Business services near me Bay South, Cheap Color Theme Consultation Business Bay South, Quality Color Theme Consultation Business Bay South, Trusted Color Theme Consultation Business Bay South, Color Theme Consultation Business transformation Bay South, Color Theme Consultation Business renovation Bay South, Color Theme Consultation Business makeover Bay South, Best Color Theme Consultation Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation Business in Bay South. Best color theme consultation business Bay South Company Bay South Our luxury color theme consultation business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

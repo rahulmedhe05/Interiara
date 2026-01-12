@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Showroom Interior Design Bur, Showroom Interior in Design Bur, Best showroom interior Design Bur, Professional showroom interior Design Bur, Luxury showroom interior Design Bur, Showroom Interior Design Bur Dubai, Showroom Interior designer Design Bur, Showroom Interior company Design Bur, Showroom Interior contractor Design Bur, Affordable showroom interior Design Bur, Modern showroom interior Design Bur, Showroom Interior consultation Design Bur, Showroom Interior cost Design Bur, Showroom Interior price Design Bur, Top showroom interior Design Bur
+
+// SEO Keywords: Showroom Interior Design Bur, Showroom Interior in Design Bur, Best showroom interior Design Bur, Professional showroom interior Design Bur, Luxury showroom interior Design Bur, Showroom Interior Design Bur Dubai, Showroom Interior designer Design Bur, Showroom Interior company Design Bur, Showroom Interior contractor Design Bur, Affordable showroom interior Design Bur, Modern showroom interior Design Bur, Showroom Interior consultation Design Bur, Showroom Interior cost Design Bur, Showroom Interior price Design Bur, Top showroom interior Design Bur, Showroom Interior near Design Bur, Showroom Interior specialists Design Bur, Showroom Interior experts Design Bur, Showroom Interior solutions Design Bur, Showroom Interior packages Design Bur, Showroom Interior quotes Design Bur, Showroom Interior estimates Design Bur, Showroom Interior services near me Design Bur, Cheap Showroom Interior Design Bur, Quality Showroom Interior Design Bur, Trusted Showroom Interior Design Bur, Showroom Interior transformation Design Bur, Showroom Interior renovation Design Bur, Showroom Interior makeover Design Bur, Best Showroom Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ShowroomInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Showroom Interior in Design Bur. Best showroom interior Design Bur Company Design Bur Our luxury showroom interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ShowroomInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our showroom interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ShowroomInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in showroom interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ShowroomInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

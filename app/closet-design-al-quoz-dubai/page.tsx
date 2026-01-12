@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Quoz, Closet Design in Al Quoz, Best closet design Al Quoz, Professional closet design Al Quoz, Luxury closet design Al Quoz, Closet Design Al Quoz Dubai, Closet Design designer Al Quoz, Closet Design company Al Quoz, Closet Design contractor Al Quoz, Affordable closet design Al Quoz, Modern closet design Al Quoz, Closet Design consultation Al Quoz, Closet Design cost Al Quoz, Closet Design price Al Quoz, Top closet design Al Quoz
+
+// SEO Keywords: Closet Design Al Quoz, Closet Design in Al Quoz, Best closet design Al Quoz, Professional closet design Al Quoz, Luxury closet design Al Quoz, Closet Design Al Quoz Dubai, Closet Design designer Al Quoz, Closet Design company Al Quoz, Closet Design contractor Al Quoz, Affordable closet design Al Quoz, Modern closet design Al Quoz, Closet Design consultation Al Quoz, Closet Design cost Al Quoz, Closet Design price Al Quoz, Top closet design Al Quoz, Closet Design near Al Quoz, Closet Design specialists Al Quoz, Closet Design experts Al Quoz, Closet Design solutions Al Quoz, Closet Design packages Al Quoz, Closet Design quotes Al Quoz, Closet Design estimates Al Quoz, Closet Design services near me Al Quoz, Cheap Closet Design Al Quoz, Quality Closet Design Al Quoz, Trusted Closet Design Al Quoz, Closet Design transformation Al Quoz, Closet Design renovation Al Quoz, Closet Design makeover Al Quoz, Best Closet Design company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Closet Design Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

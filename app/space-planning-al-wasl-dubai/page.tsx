@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Al Wasl, Space Planning in Al Wasl, Best space planning Al Wasl, Professional space planning Al Wasl, Luxury space planning Al Wasl, Space Planning Al Wasl Dubai, Space Planning designer Al Wasl, Space Planning company Al Wasl, Space Planning contractor Al Wasl, Affordable space planning Al Wasl, Modern space planning Al Wasl, Space Planning consultation Al Wasl, Space Planning cost Al Wasl, Space Planning price Al Wasl, Top space planning Al Wasl
+
+// SEO Keywords: Space Planning Al Wasl, Space Planning in Al Wasl, Best space planning Al Wasl, Professional space planning Al Wasl, Luxury space planning Al Wasl, Space Planning Al Wasl Dubai, Space Planning designer Al Wasl, Space Planning company Al Wasl, Space Planning contractor Al Wasl, Affordable space planning Al Wasl, Modern space planning Al Wasl, Space Planning consultation Al Wasl, Space Planning cost Al Wasl, Space Planning price Al Wasl, Top space planning Al Wasl, Space Planning near Al Wasl, Space Planning specialists Al Wasl, Space Planning experts Al Wasl, Space Planning solutions Al Wasl, Space Planning packages Al Wasl, Space Planning quotes Al Wasl, Space Planning estimates Al Wasl, Space Planning services near me Al Wasl, Cheap Space Planning Al Wasl, Quality Space Planning Al Wasl, Trusted Space Planning Al Wasl, Space Planning transformation Al Wasl, Space Planning renovation Al Wasl, Space Planning makeover Al Wasl, Best Space Planning company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningAlWasl() {
                 At Interiara, we believe that exceptional <strong>Space Planning Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

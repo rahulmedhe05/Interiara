@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Al Barsha South, Commercial Interior Design Al in Barsha South, Best commercial interior design al Barsha South, Professional commercial interior design al Barsha South, Luxury commercial interior design al Barsha South, Commercial Interior Design Al Barsha South Dubai, Commercial Interior Design Al designer Barsha South, Commercial Interior Design Al company Barsha South, Commercial Interior Design Al contractor Barsha South, Affordable commercial interior design al Barsha South, Modern commercial interior design al Barsha South, Commercial Interior Design Al consultation Barsha South, Commercial Interior Design Al cost Barsha South, Commercial Interior Design Al price Barsha South, Top commercial interior design al Barsha South
+
+// SEO Keywords: Commercial Interior Design Al Barsha South, Commercial Interior Design Al in Barsha South, Best commercial interior design al Barsha South, Professional commercial interior design al Barsha South, Luxury commercial interior design al Barsha South, Commercial Interior Design Al Barsha South Dubai, Commercial Interior Design Al designer Barsha South, Commercial Interior Design Al company Barsha South, Commercial Interior Design Al contractor Barsha South, Affordable commercial interior design al Barsha South, Modern commercial interior design al Barsha South, Commercial Interior Design Al consultation Barsha South, Commercial Interior Design Al cost Barsha South, Commercial Interior Design Al price Barsha South, Top commercial interior design al Barsha South, Commercial Interior Design Al near Barsha South, Commercial Interior Design Al specialists Barsha South, Commercial Interior Design Al experts Barsha South, Commercial Interior Design Al solutions Barsha South, Commercial Interior Design Al packages Barsha South, Commercial Interior Design Al quotes Barsha South, Commercial Interior Design Al estimates Barsha South, Commercial Interior Design Al services near me Barsha South, Cheap Commercial Interior Design Al Barsha South, Quality Commercial Interior Design Al Barsha South, Trusted Commercial Interior Design Al Barsha South, Commercial Interior Design Al transformation Barsha South, Commercial Interior Design Al renovation Barsha South, Commercial Interior Design Al makeover Barsha South, Best Commercial Interior Design Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design Al in Barsha South. Best commercial interior design al Barsha South Company Barsha South Our luxury commercial interior design al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

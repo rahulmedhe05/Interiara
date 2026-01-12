@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Palm Jumeirah, Window Blinds in Palm Jumeirah, Best window blinds Palm Jumeirah, Professional window blinds Palm Jumeirah, Luxury window blinds Palm Jumeirah, Window Blinds Palm Jumeirah Dubai, Window Blinds designer Palm Jumeirah, Window Blinds company Palm Jumeirah, Window Blinds contractor Palm Jumeirah, Affordable window blinds Palm Jumeirah, Modern window blinds Palm Jumeirah, Window Blinds consultation Palm Jumeirah, Window Blinds cost Palm Jumeirah, Window Blinds price Palm Jumeirah, Top window blinds Palm Jumeirah
+
+// SEO Keywords: Window Blinds Palm Jumeirah, Window Blinds in Palm Jumeirah, Best window blinds Palm Jumeirah, Professional window blinds Palm Jumeirah, Luxury window blinds Palm Jumeirah, Window Blinds Palm Jumeirah Dubai, Window Blinds designer Palm Jumeirah, Window Blinds company Palm Jumeirah, Window Blinds contractor Palm Jumeirah, Affordable window blinds Palm Jumeirah, Modern window blinds Palm Jumeirah, Window Blinds consultation Palm Jumeirah, Window Blinds cost Palm Jumeirah, Window Blinds price Palm Jumeirah, Top window blinds Palm Jumeirah, Window Blinds near Palm Jumeirah, Window Blinds specialists Palm Jumeirah, Window Blinds experts Palm Jumeirah, Window Blinds solutions Palm Jumeirah, Window Blinds packages Palm Jumeirah, Window Blinds quotes Palm Jumeirah, Window Blinds estimates Palm Jumeirah, Window Blinds services near me Palm Jumeirah, Cheap Window Blinds Palm Jumeirah, Quality Window Blinds Palm Jumeirah, Trusted Window Blinds Palm Jumeirah, Window Blinds transformation Palm Jumeirah, Window Blinds renovation Palm Jumeirah, Window Blinds makeover Palm Jumeirah, Best Window Blinds company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Palm Jumeirah. Best window blinds Palm Jumeirah Company Palm Jumeirah Our luxury window blinds palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

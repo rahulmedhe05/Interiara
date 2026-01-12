@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Culture Village, Commercial Interior Design in Culture Village, Best commercial interior design Culture Village, Professional commercial interior design Culture Village, Luxury commercial interior design Culture Village, Commercial Interior Design Culture Village Dubai, Commercial Interior Design designer Culture Village, Commercial Interior Design company Culture Village, Commercial Interior Design contractor Culture Village, Affordable commercial interior design Culture Village, Modern commercial interior design Culture Village, Commercial Interior Design consultation Culture Village, Commercial Interior Design cost Culture Village, Commercial Interior Design price Culture Village, Top commercial interior design Culture Village
+
+// SEO Keywords: Commercial Interior Design Culture Village, Commercial Interior Design in Culture Village, Best commercial interior design Culture Village, Professional commercial interior design Culture Village, Luxury commercial interior design Culture Village, Commercial Interior Design Culture Village Dubai, Commercial Interior Design designer Culture Village, Commercial Interior Design company Culture Village, Commercial Interior Design contractor Culture Village, Affordable commercial interior design Culture Village, Modern commercial interior design Culture Village, Commercial Interior Design consultation Culture Village, Commercial Interior Design cost Culture Village, Commercial Interior Design price Culture Village, Top commercial interior design Culture Village, Commercial Interior Design near Culture Village, Commercial Interior Design specialists Culture Village, Commercial Interior Design experts Culture Village, Commercial Interior Design solutions Culture Village, Commercial Interior Design packages Culture Village, Commercial Interior Design quotes Culture Village, Commercial Interior Design estimates Culture Village, Commercial Interior Design services near me Culture Village, Cheap Commercial Interior Design Culture Village, Quality Commercial Interior Design Culture Village, Trusted Commercial Interior Design Culture Village, Commercial Interior Design transformation Culture Village, Commercial Interior Design renovation Culture Village, Commercial Interior Design makeover Culture Village, Best Commercial Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design in Culture Village. Best commercial interior design Culture Village Company Culture Village Our luxury commercial interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

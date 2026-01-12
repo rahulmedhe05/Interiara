@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Media Room Interior Design The Sustainable City, Media Room Interior Design The in Sustainable City, Best media room interior design the Sustainable City, Professional media room interior design the Sustainable City, Luxury media room interior design the Sustainable City, Media Room Interior Design The Sustainable City Dubai, Media Room Interior Design The designer Sustainable City, Media Room Interior Design The company Sustainable City, Media Room Interior Design The contractor Sustainable City, Affordable media room interior design the Sustainable City, Modern media room interior design the Sustainable City, Media Room Interior Design The consultation Sustainable City, Media Room Interior Design The cost Sustainable City, Media Room Interior Design The price Sustainable City, Top media room interior design the Sustainable City
+
+// SEO Keywords: Media Room Interior Design The Sustainable City, Media Room Interior Design The in Sustainable City, Best media room interior design the Sustainable City, Professional media room interior design the Sustainable City, Luxury media room interior design the Sustainable City, Media Room Interior Design The Sustainable City Dubai, Media Room Interior Design The designer Sustainable City, Media Room Interior Design The company Sustainable City, Media Room Interior Design The contractor Sustainable City, Affordable media room interior design the Sustainable City, Modern media room interior design the Sustainable City, Media Room Interior Design The consultation Sustainable City, Media Room Interior Design The cost Sustainable City, Media Room Interior Design The price Sustainable City, Top media room interior design the Sustainable City, Media Room Interior Design The near Sustainable City, Media Room Interior Design The specialists Sustainable City, Media Room Interior Design The experts Sustainable City, Media Room Interior Design The solutions Sustainable City, Media Room Interior Design The packages Sustainable City, Media Room Interior Design The quotes Sustainable City, Media Room Interior Design The estimates Sustainable City, Media Room Interior Design The services near me Sustainable City, Cheap Media Room Interior Design The Sustainable City, Quality Media Room Interior Design The Sustainable City, Trusted Media Room Interior Design The Sustainable City, Media Room Interior Design The transformation Sustainable City, Media Room Interior Design The renovation Sustainable City, Media Room Interior Design The makeover Sustainable City, Best Media Room Interior Design The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MediaRoomInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior design the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Media Room Interior Design The in Sustainable City. Best media room interior design the Sustainable City Company Sustainable City Our luxury media room interior design the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MediaRoomInteriorDesignTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our media room interior design the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MediaRoomInteriorDesignTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in media room interior design the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MediaRoomInteriorDesignTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

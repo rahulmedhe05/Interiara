@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Banquet Hall Interior Design Palm Jumeirah, Banquet Hall Interior Design in Palm Jumeirah, Best banquet hall interior design Palm Jumeirah, Professional banquet hall interior design Palm Jumeirah, Luxury banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design Palm Jumeirah Dubai, Banquet Hall Interior Design designer Palm Jumeirah, Banquet Hall Interior Design company Palm Jumeirah, Banquet Hall Interior Design contractor Palm Jumeirah, Affordable banquet hall interior design Palm Jumeirah, Modern banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design consultation Palm Jumeirah, Banquet Hall Interior Design cost Palm Jumeirah, Banquet Hall Interior Design price Palm Jumeirah, Top banquet hall interior design Palm Jumeirah
+
+// SEO Keywords: Banquet Hall Interior Design Palm Jumeirah, Banquet Hall Interior Design in Palm Jumeirah, Best banquet hall interior design Palm Jumeirah, Professional banquet hall interior design Palm Jumeirah, Luxury banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design Palm Jumeirah Dubai, Banquet Hall Interior Design designer Palm Jumeirah, Banquet Hall Interior Design company Palm Jumeirah, Banquet Hall Interior Design contractor Palm Jumeirah, Affordable banquet hall interior design Palm Jumeirah, Modern banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design consultation Palm Jumeirah, Banquet Hall Interior Design cost Palm Jumeirah, Banquet Hall Interior Design price Palm Jumeirah, Top banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design near Palm Jumeirah, Banquet Hall Interior Design specialists Palm Jumeirah, Banquet Hall Interior Design experts Palm Jumeirah, Banquet Hall Interior Design solutions Palm Jumeirah, Banquet Hall Interior Design packages Palm Jumeirah, Banquet Hall Interior Design quotes Palm Jumeirah, Banquet Hall Interior Design estimates Palm Jumeirah, Banquet Hall Interior Design services near me Palm Jumeirah, Cheap Banquet Hall Interior Design Palm Jumeirah, Quality Banquet Hall Interior Design Palm Jumeirah, Trusted Banquet Hall Interior Design Palm Jumeirah, Banquet Hall Interior Design transformation Palm Jumeirah, Banquet Hall Interior Design renovation Palm Jumeirah, Banquet Hall Interior Design makeover Palm Jumeirah, Best Banquet Hall Interior Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BanquetHallInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Banquet Hall Interior Design in Palm Jumeirah. Best banquet hall interior design Palm Jumeirah Company Palm Jumeirah Our luxury banquet hall interior design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BanquetHallInteriorDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our banquet hall interior design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BanquetHallInteriorDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in banquet hall interior design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BanquetHallInteriorDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

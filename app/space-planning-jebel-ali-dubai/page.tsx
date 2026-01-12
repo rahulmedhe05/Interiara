@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Jebel Ali, Space Planning in Jebel Ali, Best space planning Jebel Ali, Professional space planning Jebel Ali, Luxury space planning Jebel Ali, Space Planning Jebel Ali Dubai, Space Planning designer Jebel Ali, Space Planning company Jebel Ali, Space Planning contractor Jebel Ali, Affordable space planning Jebel Ali, Modern space planning Jebel Ali, Space Planning consultation Jebel Ali, Space Planning cost Jebel Ali, Space Planning price Jebel Ali, Top space planning Jebel Ali
+
+// SEO Keywords: Space Planning Jebel Ali, Space Planning in Jebel Ali, Best space planning Jebel Ali, Professional space planning Jebel Ali, Luxury space planning Jebel Ali, Space Planning Jebel Ali Dubai, Space Planning designer Jebel Ali, Space Planning company Jebel Ali, Space Planning contractor Jebel Ali, Affordable space planning Jebel Ali, Modern space planning Jebel Ali, Space Planning consultation Jebel Ali, Space Planning cost Jebel Ali, Space Planning price Jebel Ali, Top space planning Jebel Ali, Space Planning near Jebel Ali, Space Planning specialists Jebel Ali, Space Planning experts Jebel Ali, Space Planning solutions Jebel Ali, Space Planning packages Jebel Ali, Space Planning quotes Jebel Ali, Space Planning estimates Jebel Ali, Space Planning services near me Jebel Ali, Cheap Space Planning Jebel Ali, Quality Space Planning Jebel Ali, Trusted Space Planning Jebel Ali, Space Planning transformation Jebel Ali, Space Planning renovation Jebel Ali, Space Planning makeover Jebel Ali, Best Space Planning company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningJebelAli() {
                 At Interiara, we believe that exceptional <strong>Space Planning Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Culture Village, Soundproofing Design in Culture Village, Best soundproofing design Culture Village, Professional soundproofing design Culture Village, Luxury soundproofing design Culture Village, Soundproofing Design Culture Village Dubai, Soundproofing Design designer Culture Village, Soundproofing Design company Culture Village, Soundproofing Design contractor Culture Village, Affordable soundproofing design Culture Village, Modern soundproofing design Culture Village, Soundproofing Design consultation Culture Village, Soundproofing Design cost Culture Village, Soundproofing Design price Culture Village, Top soundproofing design Culture Village
+
+// SEO Keywords: Soundproofing Design Culture Village, Soundproofing Design in Culture Village, Best soundproofing design Culture Village, Professional soundproofing design Culture Village, Luxury soundproofing design Culture Village, Soundproofing Design Culture Village Dubai, Soundproofing Design designer Culture Village, Soundproofing Design company Culture Village, Soundproofing Design contractor Culture Village, Affordable soundproofing design Culture Village, Modern soundproofing design Culture Village, Soundproofing Design consultation Culture Village, Soundproofing Design cost Culture Village, Soundproofing Design price Culture Village, Top soundproofing design Culture Village, Soundproofing Design near Culture Village, Soundproofing Design specialists Culture Village, Soundproofing Design experts Culture Village, Soundproofing Design solutions Culture Village, Soundproofing Design packages Culture Village, Soundproofing Design quotes Culture Village, Soundproofing Design estimates Culture Village, Soundproofing Design services near me Culture Village, Cheap Soundproofing Design Culture Village, Quality Soundproofing Design Culture Village, Trusted Soundproofing Design Culture Village, Soundproofing Design transformation Culture Village, Soundproofing Design renovation Culture Village, Soundproofing Design makeover Culture Village, Best Soundproofing Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Culture Village. Best soundproofing design Culture Village Company Culture Village Our luxury soundproofing design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Residential Interior Design Dubai Hills Estate, Residential Interior Design Dubai in Hills Estate, Best residential interior design dubai Hills Estate, Professional residential interior design dubai Hills Estate, Luxury residential interior design dubai Hills Estate, Residential Interior Design Dubai Hills Estate Dubai, Residential Interior Design Dubai designer Hills Estate, Residential Interior Design Dubai company Hills Estate, Residential Interior Design Dubai contractor Hills Estate, Affordable residential interior design dubai Hills Estate, Modern residential interior design dubai Hills Estate, Residential Interior Design Dubai consultation Hills Estate, Residential Interior Design Dubai cost Hills Estate, Residential Interior Design Dubai price Hills Estate, Top residential interior design dubai Hills Estate
+
+// SEO Keywords: Residential Interior Design Dubai Hills Estate, Residential Interior Design Dubai in Hills Estate, Best residential interior design dubai Hills Estate, Professional residential interior design dubai Hills Estate, Luxury residential interior design dubai Hills Estate, Residential Interior Design Dubai Hills Estate Dubai, Residential Interior Design Dubai designer Hills Estate, Residential Interior Design Dubai company Hills Estate, Residential Interior Design Dubai contractor Hills Estate, Affordable residential interior design dubai Hills Estate, Modern residential interior design dubai Hills Estate, Residential Interior Design Dubai consultation Hills Estate, Residential Interior Design Dubai cost Hills Estate, Residential Interior Design Dubai price Hills Estate, Top residential interior design dubai Hills Estate, Residential Interior Design Dubai near Hills Estate, Residential Interior Design Dubai specialists Hills Estate, Residential Interior Design Dubai experts Hills Estate, Residential Interior Design Dubai solutions Hills Estate, Residential Interior Design Dubai packages Hills Estate, Residential Interior Design Dubai quotes Hills Estate, Residential Interior Design Dubai estimates Hills Estate, Residential Interior Design Dubai services near me Hills Estate, Cheap Residential Interior Design Dubai Hills Estate, Quality Residential Interior Design Dubai Hills Estate, Trusted Residential Interior Design Dubai Hills Estate, Residential Interior Design Dubai transformation Hills Estate, Residential Interior Design Dubai renovation Hills Estate, Residential Interior Design Dubai makeover Hills Estate, Best Residential Interior Design Dubai company Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ResidentialInteriorDesignDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior design dubai Hills Estate Company Hills Estate</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior Design Dubai in Hills Estate. Best residential interior design dubai Hills Estate Company Hills Estate Our professional residential interior design dubai hills estate services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ResidentialInteriorDesignDubaiHillsEstate() {
                 At Interiara, we believe that exceptional <strong>Residential Interior Design Hills Estate Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Estate Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Residential Interior Design Dubai Hills Estate. 
                 We've completed 300+ successful projects across Estate Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Residential Interior Design Hills Estate Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ResidentialInteriorDesignDubaiHillsEstate() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our residential interior design dubai in hills estate service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ResidentialInteriorDesignDubaiHillsEstate() {
 
               <p>
                 Interiara stands out in the crowded Estate Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in residential interior design dubai near hills estate.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ResidentialInteriorDesignDubaiHillsEstate() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

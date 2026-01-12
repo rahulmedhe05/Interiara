@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Business Bay South, Drapes Business in Bay South, Best drapes business Bay South, Professional drapes business Bay South, Luxury drapes business Bay South, Drapes Business Bay South Dubai, Drapes Business designer Bay South, Drapes Business company Bay South, Drapes Business contractor Bay South, Affordable drapes business Bay South, Modern drapes business Bay South, Drapes Business consultation Bay South, Drapes Business cost Bay South, Drapes Business price Bay South, Top drapes business Bay South
+
+// SEO Keywords: Drapes Business Bay South, Drapes Business in Bay South, Best drapes business Bay South, Professional drapes business Bay South, Luxury drapes business Bay South, Drapes Business Bay South Dubai, Drapes Business designer Bay South, Drapes Business company Bay South, Drapes Business contractor Bay South, Affordable drapes business Bay South, Modern drapes business Bay South, Drapes Business consultation Bay South, Drapes Business cost Bay South, Drapes Business price Bay South, Top drapes business Bay South, Drapes Business near Bay South, Drapes Business specialists Bay South, Drapes Business experts Bay South, Drapes Business solutions Bay South, Drapes Business packages Bay South, Drapes Business quotes Bay South, Drapes Business estimates Bay South, Drapes Business services near me Bay South, Cheap Drapes Business Bay South, Quality Drapes Business Bay South, Trusted Drapes Business Bay South, Drapes Business transformation Bay South, Drapes Business renovation Bay South, Drapes Business makeover Bay South, Best Drapes Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesBusinessBaySouth() {
                 At Interiara, we believe that exceptional <strong>Drapes Business Bay South Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Business Bay South Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes Business in Bay South. 
                 We've completed 300+ successful projects across Business Bay South Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Business Bay South Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes business bay south services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Business Bay South Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes business in bay south service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes business near bay south.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

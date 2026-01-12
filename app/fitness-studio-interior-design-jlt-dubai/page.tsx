@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Fitness Studio Interior Design Jlt, Fitness Studio Interior in Design Jlt, Best fitness studio interior Design Jlt, Professional fitness studio interior Design Jlt, Luxury fitness studio interior Design Jlt, Fitness Studio Interior Design Jlt Dubai, Fitness Studio Interior designer Design Jlt, Fitness Studio Interior company Design Jlt, Fitness Studio Interior contractor Design Jlt, Affordable fitness studio interior Design Jlt, Modern fitness studio interior Design Jlt, Fitness Studio Interior consultation Design Jlt, Fitness Studio Interior cost Design Jlt, Fitness Studio Interior price Design Jlt, Top fitness studio interior Design Jlt
+
+// SEO Keywords: Fitness Studio Interior Design Jlt, Fitness Studio Interior in Design Jlt, Best fitness studio interior Design Jlt, Professional fitness studio interior Design Jlt, Luxury fitness studio interior Design Jlt, Fitness Studio Interior Design Jlt Dubai, Fitness Studio Interior designer Design Jlt, Fitness Studio Interior company Design Jlt, Fitness Studio Interior contractor Design Jlt, Affordable fitness studio interior Design Jlt, Modern fitness studio interior Design Jlt, Fitness Studio Interior consultation Design Jlt, Fitness Studio Interior cost Design Jlt, Fitness Studio Interior price Design Jlt, Top fitness studio interior Design Jlt, Fitness Studio Interior near Design Jlt, Fitness Studio Interior specialists Design Jlt, Fitness Studio Interior experts Design Jlt, Fitness Studio Interior solutions Design Jlt, Fitness Studio Interior packages Design Jlt, Fitness Studio Interior quotes Design Jlt, Fitness Studio Interior estimates Design Jlt, Fitness Studio Interior services near me Design Jlt, Cheap Fitness Studio Interior Design Jlt, Quality Fitness Studio Interior Design Jlt, Trusted Fitness Studio Interior Design Jlt, Fitness Studio Interior transformation Design Jlt, Fitness Studio Interior renovation Design Jlt, Fitness Studio Interior makeover Design Jlt, Best Fitness Studio Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FitnessStudioInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior Design Jlt Company Design Jlt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Fitness Studio Interior in Design Jlt. Best fitness studio interior Design Jlt Company Design Jlt Our luxury fitness studio interior design jlt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function FitnessStudioInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Fitness Studio Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Fitness Studio Interior Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Fitness Studio Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function FitnessStudioInteriorDesignJlt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our fitness studio interior in design jlt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FitnessStudioInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in fitness studio interior near design jlt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FitnessStudioInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Palm Jumeirah, Home Renovation in Palm Jumeirah, Best home renovation Palm Jumeirah, Professional home renovation Palm Jumeirah, Luxury home renovation Palm Jumeirah, Home Renovation Palm Jumeirah Dubai, Home Renovation designer Palm Jumeirah, Home Renovation company Palm Jumeirah, Home Renovation contractor Palm Jumeirah, Affordable home renovation Palm Jumeirah, Modern home renovation Palm Jumeirah, Home Renovation consultation Palm Jumeirah, Home Renovation cost Palm Jumeirah, Home Renovation price Palm Jumeirah, Top home renovation Palm Jumeirah
+
+// SEO Keywords: Home Renovation Palm Jumeirah, Home Renovation in Palm Jumeirah, Best home renovation Palm Jumeirah, Professional home renovation Palm Jumeirah, Luxury home renovation Palm Jumeirah, Home Renovation Palm Jumeirah Dubai, Home Renovation designer Palm Jumeirah, Home Renovation company Palm Jumeirah, Home Renovation contractor Palm Jumeirah, Affordable home renovation Palm Jumeirah, Modern home renovation Palm Jumeirah, Home Renovation consultation Palm Jumeirah, Home Renovation cost Palm Jumeirah, Home Renovation price Palm Jumeirah, Top home renovation Palm Jumeirah, Home Renovation near Palm Jumeirah, Home Renovation specialists Palm Jumeirah, Home Renovation experts Palm Jumeirah, Home Renovation solutions Palm Jumeirah, Home Renovation packages Palm Jumeirah, Home Renovation quotes Palm Jumeirah, Home Renovation estimates Palm Jumeirah, Home Renovation services near me Palm Jumeirah, Cheap Home Renovation Palm Jumeirah, Quality Home Renovation Palm Jumeirah, Trusted Home Renovation Palm Jumeirah, Home Renovation transformation Palm Jumeirah, Home Renovation renovation Palm Jumeirah, Home Renovation makeover Palm Jumeirah, Best Home Renovation company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation in Palm Jumeirah. Best home renovation Palm Jumeirah Company Palm Jumeirah Our luxury home renovation palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRenovationPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

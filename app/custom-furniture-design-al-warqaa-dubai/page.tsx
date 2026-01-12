@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Al Warqaa, Custom Furniture Design in Al Warqaa, Best custom furniture design Al Warqaa, Professional custom furniture design Al Warqaa, Luxury custom furniture design Al Warqaa, Custom Furniture Design Al Warqaa Dubai, Custom Furniture Design designer Al Warqaa, Custom Furniture Design company Al Warqaa, Custom Furniture Design contractor Al Warqaa, Affordable custom furniture design Al Warqaa, Modern custom furniture design Al Warqaa, Custom Furniture Design consultation Al Warqaa, Custom Furniture Design cost Al Warqaa, Custom Furniture Design price Al Warqaa, Top custom furniture design Al Warqaa
+
+// SEO Keywords: Custom Furniture Design Al Warqaa, Custom Furniture Design in Al Warqaa, Best custom furniture design Al Warqaa, Professional custom furniture design Al Warqaa, Luxury custom furniture design Al Warqaa, Custom Furniture Design Al Warqaa Dubai, Custom Furniture Design designer Al Warqaa, Custom Furniture Design company Al Warqaa, Custom Furniture Design contractor Al Warqaa, Affordable custom furniture design Al Warqaa, Modern custom furniture design Al Warqaa, Custom Furniture Design consultation Al Warqaa, Custom Furniture Design cost Al Warqaa, Custom Furniture Design price Al Warqaa, Top custom furniture design Al Warqaa, Custom Furniture Design near Al Warqaa, Custom Furniture Design specialists Al Warqaa, Custom Furniture Design experts Al Warqaa, Custom Furniture Design solutions Al Warqaa, Custom Furniture Design packages Al Warqaa, Custom Furniture Design quotes Al Warqaa, Custom Furniture Design estimates Al Warqaa, Custom Furniture Design services near me Al Warqaa, Cheap Custom Furniture Design Al Warqaa, Quality Custom Furniture Design Al Warqaa, Trusted Custom Furniture Design Al Warqaa, Custom Furniture Design transformation Al Warqaa, Custom Furniture Design renovation Al Warqaa, Custom Furniture Design makeover Al Warqaa, Best Custom Furniture Design company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Al Warqaa Company Al Warqaa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Al Warqaa. Best custom furniture design Al Warqaa Company Al Warqaa Our luxury custom furniture design al warqaa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignAlWarqaa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in al warqaa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near al warqaa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Khawaneej, Closet Design in Al Khawaneej, Best closet design Al Khawaneej, Professional closet design Al Khawaneej, Luxury closet design Al Khawaneej, Closet Design Al Khawaneej Dubai, Closet Design designer Al Khawaneej, Closet Design company Al Khawaneej, Closet Design contractor Al Khawaneej, Affordable closet design Al Khawaneej, Modern closet design Al Khawaneej, Closet Design consultation Al Khawaneej, Closet Design cost Al Khawaneej, Closet Design price Al Khawaneej, Top closet design Al Khawaneej
+
+// SEO Keywords: Closet Design Al Khawaneej, Closet Design in Al Khawaneej, Best closet design Al Khawaneej, Professional closet design Al Khawaneej, Luxury closet design Al Khawaneej, Closet Design Al Khawaneej Dubai, Closet Design designer Al Khawaneej, Closet Design company Al Khawaneej, Closet Design contractor Al Khawaneej, Affordable closet design Al Khawaneej, Modern closet design Al Khawaneej, Closet Design consultation Al Khawaneej, Closet Design cost Al Khawaneej, Closet Design price Al Khawaneej, Top closet design Al Khawaneej, Closet Design near Al Khawaneej, Closet Design specialists Al Khawaneej, Closet Design experts Al Khawaneej, Closet Design solutions Al Khawaneej, Closet Design packages Al Khawaneej, Closet Design quotes Al Khawaneej, Closet Design estimates Al Khawaneej, Closet Design services near me Al Khawaneej, Cheap Closet Design Al Khawaneej, Quality Closet Design Al Khawaneej, Trusted Closet Design Al Khawaneej, Closet Design transformation Al Khawaneej, Closet Design renovation Al Khawaneej, Closet Design makeover Al Khawaneej, Best Closet Design company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet Design in Al Khawaneej. Best closet design Al Khawaneej Company Al Khawaneej Our luxury closet design al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet design in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet design near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

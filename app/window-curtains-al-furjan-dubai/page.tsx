@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Furjan, Window Curtains in Al Furjan, Best window curtains Al Furjan, Professional window curtains Al Furjan, Luxury window curtains Al Furjan, Window Curtains Al Furjan Dubai, Window Curtains designer Al Furjan, Window Curtains company Al Furjan, Window Curtains contractor Al Furjan, Affordable window curtains Al Furjan, Modern window curtains Al Furjan, Window Curtains consultation Al Furjan, Window Curtains cost Al Furjan, Window Curtains price Al Furjan, Top window curtains Al Furjan
+
+// SEO Keywords: Window Curtains Al Furjan, Window Curtains in Al Furjan, Best window curtains Al Furjan, Professional window curtains Al Furjan, Luxury window curtains Al Furjan, Window Curtains Al Furjan Dubai, Window Curtains designer Al Furjan, Window Curtains company Al Furjan, Window Curtains contractor Al Furjan, Affordable window curtains Al Furjan, Modern window curtains Al Furjan, Window Curtains consultation Al Furjan, Window Curtains cost Al Furjan, Window Curtains price Al Furjan, Top window curtains Al Furjan, Window Curtains near Al Furjan, Window Curtains specialists Al Furjan, Window Curtains experts Al Furjan, Window Curtains solutions Al Furjan, Window Curtains packages Al Furjan, Window Curtains quotes Al Furjan, Window Curtains estimates Al Furjan, Window Curtains services near me Al Furjan, Cheap Window Curtains Al Furjan, Quality Window Curtains Al Furjan, Trusted Window Curtains Al Furjan, Window Curtains transformation Al Furjan, Window Curtains renovation Al Furjan, Window Curtains makeover Al Furjan, Best Window Curtains company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

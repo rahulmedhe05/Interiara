@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Greens, Healthcare Interior in Design Greens, Best healthcare interior Design Greens, Professional healthcare interior Design Greens, Luxury healthcare interior Design Greens, Healthcare Interior Design Greens Dubai, Healthcare Interior designer Design Greens, Healthcare Interior company Design Greens, Healthcare Interior contractor Design Greens, Affordable healthcare interior Design Greens, Modern healthcare interior Design Greens, Healthcare Interior consultation Design Greens, Healthcare Interior cost Design Greens, Healthcare Interior price Design Greens, Top healthcare interior Design Greens
+
+// SEO Keywords: Healthcare Interior Design Greens, Healthcare Interior in Design Greens, Best healthcare interior Design Greens, Professional healthcare interior Design Greens, Luxury healthcare interior Design Greens, Healthcare Interior Design Greens Dubai, Healthcare Interior designer Design Greens, Healthcare Interior company Design Greens, Healthcare Interior contractor Design Greens, Affordable healthcare interior Design Greens, Modern healthcare interior Design Greens, Healthcare Interior consultation Design Greens, Healthcare Interior cost Design Greens, Healthcare Interior price Design Greens, Top healthcare interior Design Greens, Healthcare Interior near Design Greens, Healthcare Interior specialists Design Greens, Healthcare Interior experts Design Greens, Healthcare Interior solutions Design Greens, Healthcare Interior packages Design Greens, Healthcare Interior quotes Design Greens, Healthcare Interior estimates Design Greens, Healthcare Interior services near me Design Greens, Cheap Healthcare Interior Design Greens, Quality Healthcare Interior Design Greens, Trusted Healthcare Interior Design Greens, Healthcare Interior transformation Design Greens, Healthcare Interior renovation Design Greens, Healthcare Interior makeover Design Greens, Best Healthcare Interior company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Greens Company Design Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior in Design Greens. Best healthcare interior Design Greens Company Design Greens Our professional healthcare interior design greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HealthcareInteriorDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Healthcare Interior Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Healthcare Interior Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Healthcare Interior Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior in design greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior near design greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Downtown, Healthcare Interior in Design Downtown, Best healthcare interior Design Downtown, Professional healthcare interior Design Downtown, Luxury healthcare interior Design Downtown, Healthcare Interior Design Downtown Dubai, Healthcare Interior designer Design Downtown, Healthcare Interior company Design Downtown, Healthcare Interior contractor Design Downtown, Affordable healthcare interior Design Downtown, Modern healthcare interior Design Downtown, Healthcare Interior consultation Design Downtown, Healthcare Interior cost Design Downtown, Healthcare Interior price Design Downtown, Top healthcare interior Design Downtown
+
+// SEO Keywords: Healthcare Interior Design Downtown, Healthcare Interior in Design Downtown, Best healthcare interior Design Downtown, Professional healthcare interior Design Downtown, Luxury healthcare interior Design Downtown, Healthcare Interior Design Downtown Dubai, Healthcare Interior designer Design Downtown, Healthcare Interior company Design Downtown, Healthcare Interior contractor Design Downtown, Affordable healthcare interior Design Downtown, Modern healthcare interior Design Downtown, Healthcare Interior consultation Design Downtown, Healthcare Interior cost Design Downtown, Healthcare Interior price Design Downtown, Top healthcare interior Design Downtown, Healthcare Interior near Design Downtown, Healthcare Interior specialists Design Downtown, Healthcare Interior experts Design Downtown, Healthcare Interior solutions Design Downtown, Healthcare Interior packages Design Downtown, Healthcare Interior quotes Design Downtown, Healthcare Interior estimates Design Downtown, Healthcare Interior services near me Design Downtown, Cheap Healthcare Interior Design Downtown, Quality Healthcare Interior Design Downtown, Trusted Healthcare Interior Design Downtown, Healthcare Interior transformation Design Downtown, Healthcare Interior renovation Design Downtown, Healthcare Interior makeover Design Downtown, Best Healthcare Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior in Design Downtown. Best healthcare interior Design Downtown Company Design Downtown Our luxury healthcare interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

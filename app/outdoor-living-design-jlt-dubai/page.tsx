@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Jlt, Outdoor Living in Design Jlt, Best outdoor living Design Jlt, Professional outdoor living Design Jlt, Luxury outdoor living Design Jlt, Outdoor Living Design Jlt Dubai, Outdoor Living designer Design Jlt, Outdoor Living company Design Jlt, Outdoor Living contractor Design Jlt, Affordable outdoor living Design Jlt, Modern outdoor living Design Jlt, Outdoor Living consultation Design Jlt, Outdoor Living cost Design Jlt, Outdoor Living price Design Jlt, Top outdoor living Design Jlt
+
+// SEO Keywords: Outdoor Living Design Jlt, Outdoor Living in Design Jlt, Best outdoor living Design Jlt, Professional outdoor living Design Jlt, Luxury outdoor living Design Jlt, Outdoor Living Design Jlt Dubai, Outdoor Living designer Design Jlt, Outdoor Living company Design Jlt, Outdoor Living contractor Design Jlt, Affordable outdoor living Design Jlt, Modern outdoor living Design Jlt, Outdoor Living consultation Design Jlt, Outdoor Living cost Design Jlt, Outdoor Living price Design Jlt, Top outdoor living Design Jlt, Outdoor Living near Design Jlt, Outdoor Living specialists Design Jlt, Outdoor Living experts Design Jlt, Outdoor Living solutions Design Jlt, Outdoor Living packages Design Jlt, Outdoor Living quotes Design Jlt, Outdoor Living estimates Design Jlt, Outdoor Living services near me Design Jlt, Cheap Outdoor Living Design Jlt, Quality Outdoor Living Design Jlt, Trusted Outdoor Living Design Jlt, Outdoor Living transformation Design Jlt, Outdoor Living renovation Design Jlt, Outdoor Living makeover Design Jlt, Best Outdoor Living company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OutdoorLivingDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Outdoor Living Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Outdoor Living in Design Jlt. Outdoor Living Design Jlt. 
+                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living in Design Jlt. Outdoor Living Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury outdoor living design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Outdoor Living Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OutdoorLivingDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our outdoor living in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in outdoor living near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

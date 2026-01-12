@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Palm, Office in Renovation Palm, Best office Renovation Palm, Professional office Renovation Palm, Luxury office Renovation Palm, Office Renovation Palm Dubai, Office designer Renovation Palm, Office company Renovation Palm, Office contractor Renovation Palm, Affordable office Renovation Palm, Modern office Renovation Palm, Office consultation Renovation Palm, Office cost Renovation Palm, Office price Renovation Palm, Top office Renovation Palm
+
+// SEO Keywords: Office Renovation Palm, Office in Renovation Palm, Best office Renovation Palm, Professional office Renovation Palm, Luxury office Renovation Palm, Office Renovation Palm Dubai, Office designer Renovation Palm, Office company Renovation Palm, Office contractor Renovation Palm, Affordable office Renovation Palm, Modern office Renovation Palm, Office consultation Renovation Palm, Office cost Renovation Palm, Office price Renovation Palm, Top office Renovation Palm, Office near Renovation Palm, Office specialists Renovation Palm, Office experts Renovation Palm, Office solutions Renovation Palm, Office packages Renovation Palm, Office quotes Renovation Palm, Office estimates Renovation Palm, Office services near me Renovation Palm, Cheap Office Renovation Palm, Quality Office Renovation Palm, Trusted Office Renovation Palm, Office transformation Renovation Palm, Office renovation Renovation Palm, Office makeover Renovation Palm, Best Office company Renovation Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Renovation Palm Company Renovation Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office in Renovation Palm. Best office Renovation Palm Company Renovation Palm Our luxury office renovation palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office in renovation palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office near renovation palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

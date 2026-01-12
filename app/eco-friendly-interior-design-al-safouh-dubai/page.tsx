@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design Al Safouh, Eco Friendly Interior Design in Al Safouh, Best eco friendly interior design Al Safouh, Professional eco friendly interior design Al Safouh, Luxury eco friendly interior design Al Safouh, Eco Friendly Interior Design Al Safouh Dubai, Eco Friendly Interior Design designer Al Safouh, Eco Friendly Interior Design company Al Safouh, Eco Friendly Interior Design contractor Al Safouh, Affordable eco friendly interior design Al Safouh, Modern eco friendly interior design Al Safouh, Eco Friendly Interior Design consultation Al Safouh, Eco Friendly Interior Design cost Al Safouh, Eco Friendly Interior Design price Al Safouh, Top eco friendly interior design Al Safouh
+
+// SEO Keywords: Eco Friendly Interior Design Al Safouh, Eco Friendly Interior Design in Al Safouh, Best eco friendly interior design Al Safouh, Professional eco friendly interior design Al Safouh, Luxury eco friendly interior design Al Safouh, Eco Friendly Interior Design Al Safouh Dubai, Eco Friendly Interior Design designer Al Safouh, Eco Friendly Interior Design company Al Safouh, Eco Friendly Interior Design contractor Al Safouh, Affordable eco friendly interior design Al Safouh, Modern eco friendly interior design Al Safouh, Eco Friendly Interior Design consultation Al Safouh, Eco Friendly Interior Design cost Al Safouh, Eco Friendly Interior Design price Al Safouh, Top eco friendly interior design Al Safouh, Eco Friendly Interior Design near Al Safouh, Eco Friendly Interior Design specialists Al Safouh, Eco Friendly Interior Design experts Al Safouh, Eco Friendly Interior Design solutions Al Safouh, Eco Friendly Interior Design packages Al Safouh, Eco Friendly Interior Design quotes Al Safouh, Eco Friendly Interior Design estimates Al Safouh, Eco Friendly Interior Design services near me Al Safouh, Cheap Eco Friendly Interior Design Al Safouh, Quality Eco Friendly Interior Design Al Safouh, Trusted Eco Friendly Interior Design Al Safouh, Eco Friendly Interior Design transformation Al Safouh, Eco Friendly Interior Design renovation Al Safouh, Eco Friendly Interior Design makeover Al Safouh, Best Eco Friendly Interior Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior design Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior Design in Al Safouh. Best eco friendly interior design Al Safouh Company Al Safouh Our luxury eco friendly interior design al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior design in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior design near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

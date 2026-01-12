@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Muhaisnah, Art in Consultation Muhaisnah, Best art Consultation Muhaisnah, Professional art Consultation Muhaisnah, Luxury art Consultation Muhaisnah, Art Consultation Muhaisnah Dubai, Art designer Consultation Muhaisnah, Art company Consultation Muhaisnah, Art contractor Consultation Muhaisnah, Affordable art Consultation Muhaisnah, Modern art Consultation Muhaisnah, Art consultation Consultation Muhaisnah, Art cost Consultation Muhaisnah, Art price Consultation Muhaisnah, Top art Consultation Muhaisnah
+
+// SEO Keywords: Art Consultation Muhaisnah, Art in Consultation Muhaisnah, Best art Consultation Muhaisnah, Professional art Consultation Muhaisnah, Luxury art Consultation Muhaisnah, Art Consultation Muhaisnah Dubai, Art designer Consultation Muhaisnah, Art company Consultation Muhaisnah, Art contractor Consultation Muhaisnah, Affordable art Consultation Muhaisnah, Modern art Consultation Muhaisnah, Art consultation Consultation Muhaisnah, Art cost Consultation Muhaisnah, Art price Consultation Muhaisnah, Top art Consultation Muhaisnah, Art near Consultation Muhaisnah, Art specialists Consultation Muhaisnah, Art experts Consultation Muhaisnah, Art solutions Consultation Muhaisnah, Art packages Consultation Muhaisnah, Art quotes Consultation Muhaisnah, Art estimates Consultation Muhaisnah, Art services near me Consultation Muhaisnah, Cheap Art Consultation Muhaisnah, Quality Art Consultation Muhaisnah, Trusted Art Consultation Muhaisnah, Art transformation Consultation Muhaisnah, Art renovation Consultation Muhaisnah, Art makeover Consultation Muhaisnah, Best Art company Consultation Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art Consultation Muhaisnah Company Consultation Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art in Consultation Muhaisnah. Best art Consultation Muhaisnah Company Consultation Muhaisnah Our luxury art consultation muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art in consultation muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art near consultation muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

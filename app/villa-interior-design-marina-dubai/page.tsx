@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Villa Interior Design Marina, Villa Interior in Design Marina, Best villa interior Design Marina, Professional villa interior Design Marina, Luxury villa interior Design Marina, Villa Interior Design Marina Dubai, Villa Interior designer Design Marina, Villa Interior company Design Marina, Villa Interior contractor Design Marina, Affordable villa interior Design Marina, Modern villa interior Design Marina, Villa Interior consultation Design Marina, Villa Interior cost Design Marina, Villa Interior price Design Marina, Top villa interior Design Marina
+
+// SEO Keywords: Villa Interior Design Marina, Villa Interior in Design Marina, Best villa interior Design Marina, Professional villa interior Design Marina, Luxury villa interior Design Marina, Villa Interior Design Marina Dubai, Villa Interior designer Design Marina, Villa Interior company Design Marina, Villa Interior contractor Design Marina, Affordable villa interior Design Marina, Modern villa interior Design Marina, Villa Interior consultation Design Marina, Villa Interior cost Design Marina, Villa Interior price Design Marina, Top villa interior Design Marina, Villa Interior near Design Marina, Villa Interior specialists Design Marina, Villa Interior experts Design Marina, Villa Interior solutions Design Marina, Villa Interior packages Design Marina, Villa Interior quotes Design Marina, Villa Interior estimates Design Marina, Villa Interior services near me Design Marina, Cheap Villa Interior Design Marina, Quality Villa Interior Design Marina, Trusted Villa Interior Design Marina, Villa Interior transformation Design Marina, Villa Interior renovation Design Marina, Villa Interior makeover Design Marina, Best Villa Interior company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function VillaInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior Design Marina Company Design Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Villa Interior in Design Marina. Best villa interior Design Marina Company Design Marina Our professional villa interior design marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function VillaInteriorDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Villa Interior Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Villa Interior Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Villa Interior Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function VillaInteriorDesignMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our villa interior in design marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function VillaInteriorDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in villa interior near design marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function VillaInteriorDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

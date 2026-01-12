@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Town Square, Color Theme Consultation in Town Square, Best color theme consultation Town Square, Professional color theme consultation Town Square, Luxury color theme consultation Town Square, Color Theme Consultation Town Square Dubai, Color Theme Consultation designer Town Square, Color Theme Consultation company Town Square, Color Theme Consultation contractor Town Square, Affordable color theme consultation Town Square, Modern color theme consultation Town Square, Color Theme Consultation consultation Town Square, Color Theme Consultation cost Town Square, Color Theme Consultation price Town Square, Top color theme consultation Town Square
+
+// SEO Keywords: Color Theme Consultation Town Square, Color Theme Consultation in Town Square, Best color theme consultation Town Square, Professional color theme consultation Town Square, Luxury color theme consultation Town Square, Color Theme Consultation Town Square Dubai, Color Theme Consultation designer Town Square, Color Theme Consultation company Town Square, Color Theme Consultation contractor Town Square, Affordable color theme consultation Town Square, Modern color theme consultation Town Square, Color Theme Consultation consultation Town Square, Color Theme Consultation cost Town Square, Color Theme Consultation price Town Square, Top color theme consultation Town Square, Color Theme Consultation near Town Square, Color Theme Consultation specialists Town Square, Color Theme Consultation experts Town Square, Color Theme Consultation solutions Town Square, Color Theme Consultation packages Town Square, Color Theme Consultation quotes Town Square, Color Theme Consultation estimates Town Square, Color Theme Consultation services near me Town Square, Cheap Color Theme Consultation Town Square, Quality Color Theme Consultation Town Square, Trusted Color Theme Consultation Town Square, Color Theme Consultation transformation Town Square, Color Theme Consultation renovation Town Square, Color Theme Consultation makeover Town Square, Best Color Theme Consultation company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Town Square. Best color theme consultation Town Square Company Town Square Our luxury color theme consultation town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Al Barsha South, Sustainable Interior Design Al in Barsha South, Best sustainable interior design al Barsha South, Professional sustainable interior design al Barsha South, Luxury sustainable interior design al Barsha South, Sustainable Interior Design Al Barsha South Dubai, Sustainable Interior Design Al designer Barsha South, Sustainable Interior Design Al company Barsha South, Sustainable Interior Design Al contractor Barsha South, Affordable sustainable interior design al Barsha South, Modern sustainable interior design al Barsha South, Sustainable Interior Design Al consultation Barsha South, Sustainable Interior Design Al cost Barsha South, Sustainable Interior Design Al price Barsha South, Top sustainable interior design al Barsha South
+
+// SEO Keywords: Sustainable Interior Design Al Barsha South, Sustainable Interior Design Al in Barsha South, Best sustainable interior design al Barsha South, Professional sustainable interior design al Barsha South, Luxury sustainable interior design al Barsha South, Sustainable Interior Design Al Barsha South Dubai, Sustainable Interior Design Al designer Barsha South, Sustainable Interior Design Al company Barsha South, Sustainable Interior Design Al contractor Barsha South, Affordable sustainable interior design al Barsha South, Modern sustainable interior design al Barsha South, Sustainable Interior Design Al consultation Barsha South, Sustainable Interior Design Al cost Barsha South, Sustainable Interior Design Al price Barsha South, Top sustainable interior design al Barsha South, Sustainable Interior Design Al near Barsha South, Sustainable Interior Design Al specialists Barsha South, Sustainable Interior Design Al experts Barsha South, Sustainable Interior Design Al solutions Barsha South, Sustainable Interior Design Al packages Barsha South, Sustainable Interior Design Al quotes Barsha South, Sustainable Interior Design Al estimates Barsha South, Sustainable Interior Design Al services near me Barsha South, Cheap Sustainable Interior Design Al Barsha South, Quality Sustainable Interior Design Al Barsha South, Trusted Sustainable Interior Design Al Barsha South, Sustainable Interior Design Al transformation Barsha South, Sustainable Interior Design Al renovation Barsha South, Sustainable Interior Design Al makeover Barsha South, Best Sustainable Interior Design Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design Al in Barsha South. Best sustainable interior design al Barsha South Company Barsha South Our luxury sustainable interior design al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

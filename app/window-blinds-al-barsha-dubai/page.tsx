@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Al Barsha, Window Blinds in Al Barsha, Best window blinds Al Barsha, Professional window blinds Al Barsha, Luxury window blinds Al Barsha, Window Blinds Al Barsha Dubai, Window Blinds designer Al Barsha, Window Blinds company Al Barsha, Window Blinds contractor Al Barsha, Affordable window blinds Al Barsha, Modern window blinds Al Barsha, Window Blinds consultation Al Barsha, Window Blinds cost Al Barsha, Window Blinds price Al Barsha, Top window blinds Al Barsha
+
+// SEO Keywords: Window Blinds Al Barsha, Window Blinds in Al Barsha, Best window blinds Al Barsha, Professional window blinds Al Barsha, Luxury window blinds Al Barsha, Window Blinds Al Barsha Dubai, Window Blinds designer Al Barsha, Window Blinds company Al Barsha, Window Blinds contractor Al Barsha, Affordable window blinds Al Barsha, Modern window blinds Al Barsha, Window Blinds consultation Al Barsha, Window Blinds cost Al Barsha, Window Blinds price Al Barsha, Top window blinds Al Barsha, Window Blinds near Al Barsha, Window Blinds specialists Al Barsha, Window Blinds experts Al Barsha, Window Blinds solutions Al Barsha, Window Blinds packages Al Barsha, Window Blinds quotes Al Barsha, Window Blinds estimates Al Barsha, Window Blinds services near me Al Barsha, Cheap Window Blinds Al Barsha, Quality Window Blinds Al Barsha, Trusted Window Blinds Al Barsha, Window Blinds transformation Al Barsha, Window Blinds renovation Al Barsha, Window Blinds makeover Al Barsha, Best Window Blinds company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Window Blinds Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Blinds in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window blinds al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window blinds in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window blinds near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

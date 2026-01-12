@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Nad Al Sheba, Closet Design Nad in Al Sheba, Best closet design nad Al Sheba, Professional closet design nad Al Sheba, Luxury closet design nad Al Sheba, Closet Design Nad Al Sheba Dubai, Closet Design Nad designer Al Sheba, Closet Design Nad company Al Sheba, Closet Design Nad contractor Al Sheba, Affordable closet design nad Al Sheba, Modern closet design nad Al Sheba, Closet Design Nad consultation Al Sheba, Closet Design Nad cost Al Sheba, Closet Design Nad price Al Sheba, Top closet design nad Al Sheba
+
+// SEO Keywords: Closet Design Nad Al Sheba, Closet Design Nad in Al Sheba, Best closet design nad Al Sheba, Professional closet design nad Al Sheba, Luxury closet design nad Al Sheba, Closet Design Nad Al Sheba Dubai, Closet Design Nad designer Al Sheba, Closet Design Nad company Al Sheba, Closet Design Nad contractor Al Sheba, Affordable closet design nad Al Sheba, Modern closet design nad Al Sheba, Closet Design Nad consultation Al Sheba, Closet Design Nad cost Al Sheba, Closet Design Nad price Al Sheba, Top closet design nad Al Sheba, Closet Design Nad near Al Sheba, Closet Design Nad specialists Al Sheba, Closet Design Nad experts Al Sheba, Closet Design Nad solutions Al Sheba, Closet Design Nad packages Al Sheba, Closet Design Nad quotes Al Sheba, Closet Design Nad estimates Al Sheba, Closet Design Nad services near me Al Sheba, Cheap Closet Design Nad Al Sheba, Quality Closet Design Nad Al Sheba, Trusted Closet Design Nad Al Sheba, Closet Design Nad transformation Al Sheba, Closet Design Nad renovation Al Sheba, Closet Design Nad makeover Al Sheba, Best Closet Design Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignNadAlSheba() {
                 At Interiara, we believe that exceptional <strong>Closet Design Nad Al Sheba Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Nad Al Sheba Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design Nad in Al Sheba. 
                 We've completed 300+ successful projects across Nad Al Sheba Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Nad Al Sheba Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design nad al sheba services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Nad Al Sheba Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design nad in al sheba service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design nad near al sheba.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Town Square, Office Fit Out in Town Square, Best office fit out Town Square, Professional office fit out Town Square, Luxury office fit out Town Square, Office Fit Out Town Square Dubai, Office Fit Out designer Town Square, Office Fit Out company Town Square, Office Fit Out contractor Town Square, Affordable office fit out Town Square, Modern office fit out Town Square, Office Fit Out consultation Town Square, Office Fit Out cost Town Square, Office Fit Out price Town Square, Top office fit out Town Square
+
+// SEO Keywords: Office Fit Out Town Square, Office Fit Out in Town Square, Best office fit out Town Square, Professional office fit out Town Square, Luxury office fit out Town Square, Office Fit Out Town Square Dubai, Office Fit Out designer Town Square, Office Fit Out company Town Square, Office Fit Out contractor Town Square, Affordable office fit out Town Square, Modern office fit out Town Square, Office Fit Out consultation Town Square, Office Fit Out cost Town Square, Office Fit Out price Town Square, Top office fit out Town Square, Office Fit Out near Town Square, Office Fit Out specialists Town Square, Office Fit Out experts Town Square, Office Fit Out solutions Town Square, Office Fit Out packages Town Square, Office Fit Out quotes Town Square, Office Fit Out estimates Town Square, Office Fit Out services near me Town Square, Cheap Office Fit Out Town Square, Quality Office Fit Out Town Square, Trusted Office Fit Out Town Square, Office Fit Out transformation Town Square, Office Fit Out renovation Town Square, Office Fit Out makeover Town Square, Best Office Fit Out company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeFitOutTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Fit Out in Town Square. Best office fit out Town Square Company Town Square Our luxury office fit out town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeFitOutTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office fit out in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeFitOutTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office fit out near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeFitOutTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

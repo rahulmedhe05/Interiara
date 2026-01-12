@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Jvt, Office Interior in Design Jvt, Best office interior Design Jvt, Professional office interior Design Jvt, Luxury office interior Design Jvt, Office Interior Design Jvt Dubai, Office Interior designer Design Jvt, Office Interior company Design Jvt, Office Interior contractor Design Jvt, Affordable office interior Design Jvt, Modern office interior Design Jvt, Office Interior consultation Design Jvt, Office Interior cost Design Jvt, Office Interior price Design Jvt, Top office interior Design Jvt
+
+// SEO Keywords: Office Interior Design Jvt, Office Interior in Design Jvt, Best office interior Design Jvt, Professional office interior Design Jvt, Luxury office interior Design Jvt, Office Interior Design Jvt Dubai, Office Interior designer Design Jvt, Office Interior company Design Jvt, Office Interior contractor Design Jvt, Affordable office interior Design Jvt, Modern office interior Design Jvt, Office Interior consultation Design Jvt, Office Interior cost Design Jvt, Office Interior price Design Jvt, Top office interior Design Jvt, Office Interior near Design Jvt, Office Interior specialists Design Jvt, Office Interior experts Design Jvt, Office Interior solutions Design Jvt, Office Interior packages Design Jvt, Office Interior quotes Design Jvt, Office Interior estimates Design Jvt, Office Interior services near me Design Jvt, Cheap Office Interior Design Jvt, Quality Office Interior Design Jvt, Trusted Office Interior Design Jvt, Office Interior transformation Design Jvt, Office Interior renovation Design Jvt, Office Interior makeover Design Jvt, Best Office Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior in Design Jvt. Best office interior Design Jvt Company Design Jvt Our luxury office interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OfficeInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Office Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

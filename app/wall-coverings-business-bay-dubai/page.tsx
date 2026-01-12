@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Business Bay, Wall Coverings in Business Bay, Best wall coverings Business Bay, Professional wall coverings Business Bay, Luxury wall coverings Business Bay, Wall Coverings Business Bay Dubai, Wall Coverings designer Business Bay, Wall Coverings company Business Bay, Wall Coverings contractor Business Bay, Affordable wall coverings Business Bay, Modern wall coverings Business Bay, Wall Coverings consultation Business Bay, Wall Coverings cost Business Bay, Wall Coverings price Business Bay, Top wall coverings Business Bay
+
+// SEO Keywords: Wall Coverings Business Bay, Wall Coverings in Business Bay, Best wall coverings Business Bay, Professional wall coverings Business Bay, Luxury wall coverings Business Bay, Wall Coverings Business Bay Dubai, Wall Coverings designer Business Bay, Wall Coverings company Business Bay, Wall Coverings contractor Business Bay, Affordable wall coverings Business Bay, Modern wall coverings Business Bay, Wall Coverings consultation Business Bay, Wall Coverings cost Business Bay, Wall Coverings price Business Bay, Top wall coverings Business Bay, Wall Coverings near Business Bay, Wall Coverings specialists Business Bay, Wall Coverings experts Business Bay, Wall Coverings solutions Business Bay, Wall Coverings packages Business Bay, Wall Coverings quotes Business Bay, Wall Coverings estimates Business Bay, Wall Coverings services near me Business Bay, Cheap Wall Coverings Business Bay, Quality Wall Coverings Business Bay, Trusted Wall Coverings Business Bay, Wall Coverings transformation Business Bay, Wall Coverings renovation Business Bay, Wall Coverings makeover Business Bay, Best Wall Coverings company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings in Business Bay. Best wall coverings Business Bay Company Business Bay Our luxury wall coverings business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

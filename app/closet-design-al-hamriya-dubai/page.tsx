@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Hamriya, Closet Design in Al Hamriya, Best closet design Al Hamriya, Professional closet design Al Hamriya, Luxury closet design Al Hamriya, Closet Design Al Hamriya Dubai, Closet Design designer Al Hamriya, Closet Design company Al Hamriya, Closet Design contractor Al Hamriya, Affordable closet design Al Hamriya, Modern closet design Al Hamriya, Closet Design consultation Al Hamriya, Closet Design cost Al Hamriya, Closet Design price Al Hamriya, Top closet design Al Hamriya
+
+// SEO Keywords: Closet Design Al Hamriya, Closet Design in Al Hamriya, Best closet design Al Hamriya, Professional closet design Al Hamriya, Luxury closet design Al Hamriya, Closet Design Al Hamriya Dubai, Closet Design designer Al Hamriya, Closet Design company Al Hamriya, Closet Design contractor Al Hamriya, Affordable closet design Al Hamriya, Modern closet design Al Hamriya, Closet Design consultation Al Hamriya, Closet Design cost Al Hamriya, Closet Design price Al Hamriya, Top closet design Al Hamriya, Closet Design near Al Hamriya, Closet Design specialists Al Hamriya, Closet Design experts Al Hamriya, Closet Design solutions Al Hamriya, Closet Design packages Al Hamriya, Closet Design quotes Al Hamriya, Closet Design estimates Al Hamriya, Closet Design services near me Al Hamriya, Cheap Closet Design Al Hamriya, Quality Closet Design Al Hamriya, Trusted Closet Design Al Hamriya, Closet Design transformation Al Hamriya, Closet Design renovation Al Hamriya, Closet Design makeover Al Hamriya, Best Closet Design company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignAlHamriya() {
                 At Interiara, we believe that exceptional <strong>Closet Design Al Hamriya Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Hamriya Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Al Hamriya. 
                 We've completed 300+ successful projects across Al Hamriya Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Al Hamriya Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design al hamriya services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Al Hamriya Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in al hamriya service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near al hamriya.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

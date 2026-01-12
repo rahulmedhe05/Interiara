@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design City Walk, Interior Design in City Walk, Best interior design City Walk, Professional interior design City Walk, Luxury interior design City Walk, Interior Design City Walk Dubai, Interior Design designer City Walk, Interior Design company City Walk, Interior Design contractor City Walk, Affordable interior design City Walk, Modern interior design City Walk, Interior Design consultation City Walk, Interior Design cost City Walk, Interior Design price City Walk, Top interior design City Walk
+
+// SEO Keywords: Interior Design City Walk, Interior Design in City Walk, Best interior design City Walk, Professional interior design City Walk, Luxury interior design City Walk, Interior Design City Walk Dubai, Interior Design designer City Walk, Interior Design company City Walk, Interior Design contractor City Walk, Affordable interior design City Walk, Modern interior design City Walk, Interior Design consultation City Walk, Interior Design cost City Walk, Interior Design price City Walk, Top interior design City Walk, Interior Design near City Walk, Interior Design specialists City Walk, Interior Design experts City Walk, Interior Design solutions City Walk, Interior Design packages City Walk, Interior Design quotes City Walk, Interior Design estimates City Walk, Interior Design services near me City Walk, Cheap Interior Design City Walk, Quality Interior Design City Walk, Trusted Interior Design City Walk, Interior Design transformation City Walk, Interior Design renovation City Walk, Interior Design makeover City Walk, Best Interior Design company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignCityWalk() {
                 At Interiara, we believe that exceptional <strong>Interior Design City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior Design in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior design in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior design near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

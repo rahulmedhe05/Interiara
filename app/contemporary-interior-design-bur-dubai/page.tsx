@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Bur, Contemporary Interior in Design Bur, Best contemporary interior Design Bur, Professional contemporary interior Design Bur, Luxury contemporary interior Design Bur, Contemporary Interior Design Bur Dubai, Contemporary Interior designer Design Bur, Contemporary Interior company Design Bur, Contemporary Interior contractor Design Bur, Affordable contemporary interior Design Bur, Modern contemporary interior Design Bur, Contemporary Interior consultation Design Bur, Contemporary Interior cost Design Bur, Contemporary Interior price Design Bur, Top contemporary interior Design Bur
+
+// SEO Keywords: Contemporary Interior Design Bur, Contemporary Interior in Design Bur, Best contemporary interior Design Bur, Professional contemporary interior Design Bur, Luxury contemporary interior Design Bur, Contemporary Interior Design Bur Dubai, Contemporary Interior designer Design Bur, Contemporary Interior company Design Bur, Contemporary Interior contractor Design Bur, Affordable contemporary interior Design Bur, Modern contemporary interior Design Bur, Contemporary Interior consultation Design Bur, Contemporary Interior cost Design Bur, Contemporary Interior price Design Bur, Top contemporary interior Design Bur, Contemporary Interior near Design Bur, Contemporary Interior specialists Design Bur, Contemporary Interior experts Design Bur, Contemporary Interior solutions Design Bur, Contemporary Interior packages Design Bur, Contemporary Interior quotes Design Bur, Contemporary Interior estimates Design Bur, Contemporary Interior services near me Design Bur, Cheap Contemporary Interior Design Bur, Quality Contemporary Interior Design Bur, Trusted Contemporary Interior Design Bur, Contemporary Interior transformation Design Bur, Contemporary Interior renovation Design Bur, Contemporary Interior makeover Design Bur, Best Contemporary Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior in Design Bur. Best contemporary interior Design Bur Company Design Bur Our luxury contemporary interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

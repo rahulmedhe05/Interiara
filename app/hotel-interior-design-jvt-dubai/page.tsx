@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Jvt, Hotel Interior in Design Jvt, Best hotel interior Design Jvt, Professional hotel interior Design Jvt, Luxury hotel interior Design Jvt, Hotel Interior Design Jvt Dubai, Hotel Interior designer Design Jvt, Hotel Interior company Design Jvt, Hotel Interior contractor Design Jvt, Affordable hotel interior Design Jvt, Modern hotel interior Design Jvt, Hotel Interior consultation Design Jvt, Hotel Interior cost Design Jvt, Hotel Interior price Design Jvt, Top hotel interior Design Jvt
+
+// SEO Keywords: Hotel Interior Design Jvt, Hotel Interior in Design Jvt, Best hotel interior Design Jvt, Professional hotel interior Design Jvt, Luxury hotel interior Design Jvt, Hotel Interior Design Jvt Dubai, Hotel Interior designer Design Jvt, Hotel Interior company Design Jvt, Hotel Interior contractor Design Jvt, Affordable hotel interior Design Jvt, Modern hotel interior Design Jvt, Hotel Interior consultation Design Jvt, Hotel Interior cost Design Jvt, Hotel Interior price Design Jvt, Top hotel interior Design Jvt, Hotel Interior near Design Jvt, Hotel Interior specialists Design Jvt, Hotel Interior experts Design Jvt, Hotel Interior solutions Design Jvt, Hotel Interior packages Design Jvt, Hotel Interior quotes Design Jvt, Hotel Interior estimates Design Jvt, Hotel Interior services near me Design Jvt, Cheap Hotel Interior Design Jvt, Quality Hotel Interior Design Jvt, Trusted Hotel Interior Design Jvt, Hotel Interior transformation Design Jvt, Hotel Interior renovation Design Jvt, Hotel Interior makeover Design Jvt, Best Hotel Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HotelInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Hotel Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Hotel Interior in Design Jvt. Hotel Interior Design Jvt. 
+                We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior in Design Jvt. Hotel Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury hotel interior design jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Hotel Interior Design JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HotelInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our hotel interior in design jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in hotel interior near design jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

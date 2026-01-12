@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Discovery Hills, Office Fit Out in Discovery Hills, Best office fit out Discovery Hills, Professional office fit out Discovery Hills, Luxury office fit out Discovery Hills, Office Fit Out Discovery Hills Dubai, Office Fit Out designer Discovery Hills, Office Fit Out company Discovery Hills, Office Fit Out contractor Discovery Hills, Affordable office fit out Discovery Hills, Modern office fit out Discovery Hills, Office Fit Out consultation Discovery Hills, Office Fit Out cost Discovery Hills, Office Fit Out price Discovery Hills, Top office fit out Discovery Hills
+
+// SEO Keywords: Office Fit Out Discovery Hills, Office Fit Out in Discovery Hills, Best office fit out Discovery Hills, Professional office fit out Discovery Hills, Luxury office fit out Discovery Hills, Office Fit Out Discovery Hills Dubai, Office Fit Out designer Discovery Hills, Office Fit Out company Discovery Hills, Office Fit Out contractor Discovery Hills, Affordable office fit out Discovery Hills, Modern office fit out Discovery Hills, Office Fit Out consultation Discovery Hills, Office Fit Out cost Discovery Hills, Office Fit Out price Discovery Hills, Top office fit out Discovery Hills, Office Fit Out near Discovery Hills, Office Fit Out specialists Discovery Hills, Office Fit Out experts Discovery Hills, Office Fit Out solutions Discovery Hills, Office Fit Out packages Discovery Hills, Office Fit Out quotes Discovery Hills, Office Fit Out estimates Discovery Hills, Office Fit Out services near me Discovery Hills, Cheap Office Fit Out Discovery Hills, Quality Office Fit Out Discovery Hills, Trusted Office Fit Out Discovery Hills, Office Fit Out transformation Discovery Hills, Office Fit Out renovation Discovery Hills, Office Fit Out makeover Discovery Hills, Best Office Fit Out company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeFitOutDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Fit Out in Discovery Hills. Best office fit out Discovery Hills Company Discovery Hills Our luxury office fit out discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeFitOutDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office fit out in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeFitOutDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office fit out near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeFitOutDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

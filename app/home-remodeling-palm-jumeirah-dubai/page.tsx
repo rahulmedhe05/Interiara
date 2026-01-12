@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Palm Jumeirah, Home Remodeling in Palm Jumeirah, Best home remodeling Palm Jumeirah, Professional home remodeling Palm Jumeirah, Luxury home remodeling Palm Jumeirah, Home Remodeling Palm Jumeirah Dubai, Home Remodeling designer Palm Jumeirah, Home Remodeling company Palm Jumeirah, Home Remodeling contractor Palm Jumeirah, Affordable home remodeling Palm Jumeirah, Modern home remodeling Palm Jumeirah, Home Remodeling consultation Palm Jumeirah, Home Remodeling cost Palm Jumeirah, Home Remodeling price Palm Jumeirah, Top home remodeling Palm Jumeirah
+
+// SEO Keywords: Home Remodeling Palm Jumeirah, Home Remodeling in Palm Jumeirah, Best home remodeling Palm Jumeirah, Professional home remodeling Palm Jumeirah, Luxury home remodeling Palm Jumeirah, Home Remodeling Palm Jumeirah Dubai, Home Remodeling designer Palm Jumeirah, Home Remodeling company Palm Jumeirah, Home Remodeling contractor Palm Jumeirah, Affordable home remodeling Palm Jumeirah, Modern home remodeling Palm Jumeirah, Home Remodeling consultation Palm Jumeirah, Home Remodeling cost Palm Jumeirah, Home Remodeling price Palm Jumeirah, Top home remodeling Palm Jumeirah, Home Remodeling near Palm Jumeirah, Home Remodeling specialists Palm Jumeirah, Home Remodeling experts Palm Jumeirah, Home Remodeling solutions Palm Jumeirah, Home Remodeling packages Palm Jumeirah, Home Remodeling quotes Palm Jumeirah, Home Remodeling estimates Palm Jumeirah, Home Remodeling services near me Palm Jumeirah, Cheap Home Remodeling Palm Jumeirah, Quality Home Remodeling Palm Jumeirah, Trusted Home Remodeling Palm Jumeirah, Home Remodeling transformation Palm Jumeirah, Home Remodeling renovation Palm Jumeirah, Home Remodeling makeover Palm Jumeirah, Best Home Remodeling company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling in Palm Jumeirah. Best home remodeling Palm Jumeirah Company Palm Jumeirah Our luxury home remodeling palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

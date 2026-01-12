@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Greens, Color Theme in Consultation Greens, Best color theme Consultation Greens, Professional color theme Consultation Greens, Luxury color theme Consultation Greens, Color Theme Consultation Greens Dubai, Color Theme designer Consultation Greens, Color Theme company Consultation Greens, Color Theme contractor Consultation Greens, Affordable color theme Consultation Greens, Modern color theme Consultation Greens, Color Theme consultation Consultation Greens, Color Theme cost Consultation Greens, Color Theme price Consultation Greens, Top color theme Consultation Greens
+
+// SEO Keywords: Color Theme Consultation Greens, Color Theme in Consultation Greens, Best color theme Consultation Greens, Professional color theme Consultation Greens, Luxury color theme Consultation Greens, Color Theme Consultation Greens Dubai, Color Theme designer Consultation Greens, Color Theme company Consultation Greens, Color Theme contractor Consultation Greens, Affordable color theme Consultation Greens, Modern color theme Consultation Greens, Color Theme consultation Consultation Greens, Color Theme cost Consultation Greens, Color Theme price Consultation Greens, Top color theme Consultation Greens, Color Theme near Consultation Greens, Color Theme specialists Consultation Greens, Color Theme experts Consultation Greens, Color Theme solutions Consultation Greens, Color Theme packages Consultation Greens, Color Theme quotes Consultation Greens, Color Theme estimates Consultation Greens, Color Theme services near me Consultation Greens, Cheap Color Theme Consultation Greens, Quality Color Theme Consultation Greens, Trusted Color Theme Consultation Greens, Color Theme transformation Consultation Greens, Color Theme renovation Consultation Greens, Color Theme makeover Consultation Greens, Best Color Theme company Consultation Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Greens Company Consultation Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme in Consultation Greens. Best color theme Consultation Greens Company Consultation Greens Our professional color theme consultation greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ColorThemeConsultationGreens() {
                 At Interiara, we believe that exceptional <strong>Color Theme Consultation The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Color Theme Consultation Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Color Theme Consultation The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme in consultation greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme near consultation greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

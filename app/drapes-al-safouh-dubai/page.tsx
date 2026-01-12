@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Al Safouh, Drapes in Al Safouh, Best drapes Al Safouh, Professional drapes Al Safouh, Luxury drapes Al Safouh, Drapes Al Safouh Dubai, Drapes designer Al Safouh, Drapes company Al Safouh, Drapes contractor Al Safouh, Affordable drapes Al Safouh, Modern drapes Al Safouh, Drapes consultation Al Safouh, Drapes cost Al Safouh, Drapes price Al Safouh, Top drapes Al Safouh
+
+// SEO Keywords: Drapes Al Safouh, Drapes in Al Safouh, Best drapes Al Safouh, Professional drapes Al Safouh, Luxury drapes Al Safouh, Drapes Al Safouh Dubai, Drapes designer Al Safouh, Drapes company Al Safouh, Drapes contractor Al Safouh, Affordable drapes Al Safouh, Modern drapes Al Safouh, Drapes consultation Al Safouh, Drapes cost Al Safouh, Drapes price Al Safouh, Top drapes Al Safouh, Drapes near Al Safouh, Drapes specialists Al Safouh, Drapes experts Al Safouh, Drapes solutions Al Safouh, Drapes packages Al Safouh, Drapes quotes Al Safouh, Drapes estimates Al Safouh, Drapes services near me Al Safouh, Cheap Drapes Al Safouh, Quality Drapes Al Safouh, Trusted Drapes Al Safouh, Drapes transformation Al Safouh, Drapes renovation Al Safouh, Drapes makeover Al Safouh, Best Drapes company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesAlSafouh() {
                 At Interiara, we believe that exceptional <strong>Drapes Al Safouh Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safouh Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Al Safouh. 
                 We've completed 300+ successful projects across Al Safouh Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Al Safouh Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes al safouh services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Al Safouh Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in al safouh service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near al safouh.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Umm Suqeim, Wall Coverings in Umm Suqeim, Best wall coverings Umm Suqeim, Professional wall coverings Umm Suqeim, Luxury wall coverings Umm Suqeim, Wall Coverings Umm Suqeim Dubai, Wall Coverings designer Umm Suqeim, Wall Coverings company Umm Suqeim, Wall Coverings contractor Umm Suqeim, Affordable wall coverings Umm Suqeim, Modern wall coverings Umm Suqeim, Wall Coverings consultation Umm Suqeim, Wall Coverings cost Umm Suqeim, Wall Coverings price Umm Suqeim, Top wall coverings Umm Suqeim
+
+// SEO Keywords: Wall Coverings Umm Suqeim, Wall Coverings in Umm Suqeim, Best wall coverings Umm Suqeim, Professional wall coverings Umm Suqeim, Luxury wall coverings Umm Suqeim, Wall Coverings Umm Suqeim Dubai, Wall Coverings designer Umm Suqeim, Wall Coverings company Umm Suqeim, Wall Coverings contractor Umm Suqeim, Affordable wall coverings Umm Suqeim, Modern wall coverings Umm Suqeim, Wall Coverings consultation Umm Suqeim, Wall Coverings cost Umm Suqeim, Wall Coverings price Umm Suqeim, Top wall coverings Umm Suqeim, Wall Coverings near Umm Suqeim, Wall Coverings specialists Umm Suqeim, Wall Coverings experts Umm Suqeim, Wall Coverings solutions Umm Suqeim, Wall Coverings packages Umm Suqeim, Wall Coverings quotes Umm Suqeim, Wall Coverings estimates Umm Suqeim, Wall Coverings services near me Umm Suqeim, Cheap Wall Coverings Umm Suqeim, Quality Wall Coverings Umm Suqeim, Trusted Wall Coverings Umm Suqeim, Wall Coverings transformation Umm Suqeim, Wall Coverings renovation Umm Suqeim, Wall Coverings makeover Umm Suqeim, Best Wall Coverings company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsUmmSuqeim() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Umm Suqeim Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Umm Suqeim Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings in Umm Suqeim. 
                 We've completed 300+ successful projects across Umm Suqeim Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Umm Suqeim Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings umm suqeim services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Umm Suqeim Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall coverings in umm suqeim service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall coverings near umm suqeim.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

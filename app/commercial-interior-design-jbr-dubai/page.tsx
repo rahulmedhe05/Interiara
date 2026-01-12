@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Jbr, Commercial Interior in Design Jbr, Best commercial interior Design Jbr, Professional commercial interior Design Jbr, Luxury commercial interior Design Jbr, Commercial Interior Design Jbr Dubai, Commercial Interior designer Design Jbr, Commercial Interior company Design Jbr, Commercial Interior contractor Design Jbr, Affordable commercial interior Design Jbr, Modern commercial interior Design Jbr, Commercial Interior consultation Design Jbr, Commercial Interior cost Design Jbr, Commercial Interior price Design Jbr, Top commercial interior Design Jbr
+
+// SEO Keywords: Commercial Interior Design Jbr, Commercial Interior in Design Jbr, Best commercial interior Design Jbr, Professional commercial interior Design Jbr, Luxury commercial interior Design Jbr, Commercial Interior Design Jbr Dubai, Commercial Interior designer Design Jbr, Commercial Interior company Design Jbr, Commercial Interior contractor Design Jbr, Affordable commercial interior Design Jbr, Modern commercial interior Design Jbr, Commercial Interior consultation Design Jbr, Commercial Interior cost Design Jbr, Commercial Interior price Design Jbr, Top commercial interior Design Jbr, Commercial Interior near Design Jbr, Commercial Interior specialists Design Jbr, Commercial Interior experts Design Jbr, Commercial Interior solutions Design Jbr, Commercial Interior packages Design Jbr, Commercial Interior quotes Design Jbr, Commercial Interior estimates Design Jbr, Commercial Interior services near me Design Jbr, Cheap Commercial Interior Design Jbr, Quality Commercial Interior Design Jbr, Trusted Commercial Interior Design Jbr, Commercial Interior transformation Design Jbr, Commercial Interior renovation Design Jbr, Commercial Interior makeover Design Jbr, Best Commercial Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior Design Jbr Company Design Jbr</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior in Design Jbr. Best commercial interior Design Jbr Company Design Jbr Our luxury commercial interior design jbr services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function CommercialInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Commercial Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Commercial Interior Design Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Commercial Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignJbr() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior in design jbr service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior near design jbr.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

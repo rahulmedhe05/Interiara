@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Al Karama, Office Fit Out in Al Karama, Best office fit out Al Karama, Professional office fit out Al Karama, Luxury office fit out Al Karama, Office Fit Out Al Karama Dubai, Office Fit Out designer Al Karama, Office Fit Out company Al Karama, Office Fit Out contractor Al Karama, Affordable office fit out Al Karama, Modern office fit out Al Karama, Office Fit Out consultation Al Karama, Office Fit Out cost Al Karama, Office Fit Out price Al Karama, Top office fit out Al Karama
+
+// SEO Keywords: Office Fit Out Al Karama, Office Fit Out in Al Karama, Best office fit out Al Karama, Professional office fit out Al Karama, Luxury office fit out Al Karama, Office Fit Out Al Karama Dubai, Office Fit Out designer Al Karama, Office Fit Out company Al Karama, Office Fit Out contractor Al Karama, Affordable office fit out Al Karama, Modern office fit out Al Karama, Office Fit Out consultation Al Karama, Office Fit Out cost Al Karama, Office Fit Out price Al Karama, Top office fit out Al Karama, Office Fit Out near Al Karama, Office Fit Out specialists Al Karama, Office Fit Out experts Al Karama, Office Fit Out solutions Al Karama, Office Fit Out packages Al Karama, Office Fit Out quotes Al Karama, Office Fit Out estimates Al Karama, Office Fit Out services near me Al Karama, Cheap Office Fit Out Al Karama, Quality Office Fit Out Al Karama, Trusted Office Fit Out Al Karama, Office Fit Out transformation Al Karama, Office Fit Out renovation Al Karama, Office Fit Out makeover Al Karama, Best Office Fit Out company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutAlKarama() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

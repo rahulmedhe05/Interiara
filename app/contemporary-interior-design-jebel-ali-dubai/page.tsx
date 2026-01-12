@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Jebel Ali, Contemporary Interior Design in Jebel Ali, Best contemporary interior design Jebel Ali, Professional contemporary interior design Jebel Ali, Luxury contemporary interior design Jebel Ali, Contemporary Interior Design Jebel Ali Dubai, Contemporary Interior Design designer Jebel Ali, Contemporary Interior Design company Jebel Ali, Contemporary Interior Design contractor Jebel Ali, Affordable contemporary interior design Jebel Ali, Modern contemporary interior design Jebel Ali, Contemporary Interior Design consultation Jebel Ali, Contemporary Interior Design cost Jebel Ali, Contemporary Interior Design price Jebel Ali, Top contemporary interior design Jebel Ali
+
+// SEO Keywords: Contemporary Interior Design Jebel Ali, Contemporary Interior Design in Jebel Ali, Best contemporary interior design Jebel Ali, Professional contemporary interior design Jebel Ali, Luxury contemporary interior design Jebel Ali, Contemporary Interior Design Jebel Ali Dubai, Contemporary Interior Design designer Jebel Ali, Contemporary Interior Design company Jebel Ali, Contemporary Interior Design contractor Jebel Ali, Affordable contemporary interior design Jebel Ali, Modern contemporary interior design Jebel Ali, Contemporary Interior Design consultation Jebel Ali, Contemporary Interior Design cost Jebel Ali, Contemporary Interior Design price Jebel Ali, Top contemporary interior design Jebel Ali, Contemporary Interior Design near Jebel Ali, Contemporary Interior Design specialists Jebel Ali, Contemporary Interior Design experts Jebel Ali, Contemporary Interior Design solutions Jebel Ali, Contemporary Interior Design packages Jebel Ali, Contemporary Interior Design quotes Jebel Ali, Contemporary Interior Design estimates Jebel Ali, Contemporary Interior Design services near me Jebel Ali, Cheap Contemporary Interior Design Jebel Ali, Quality Contemporary Interior Design Jebel Ali, Trusted Contemporary Interior Design Jebel Ali, Contemporary Interior Design transformation Jebel Ali, Contemporary Interior Design renovation Jebel Ali, Contemporary Interior Design makeover Jebel Ali, Best Contemporary Interior Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Jebel Ali. Best contemporary interior design Jebel Ali Company Jebel Ali Our luxury contemporary interior design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

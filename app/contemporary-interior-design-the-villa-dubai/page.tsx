@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design The Villa, Contemporary Interior Design in The Villa, Best contemporary interior design The Villa, Professional contemporary interior design The Villa, Luxury contemporary interior design The Villa, Contemporary Interior Design The Villa Dubai, Contemporary Interior Design designer The Villa, Contemporary Interior Design company The Villa, Contemporary Interior Design contractor The Villa, Affordable contemporary interior design The Villa, Modern contemporary interior design The Villa, Contemporary Interior Design consultation The Villa, Contemporary Interior Design cost The Villa, Contemporary Interior Design price The Villa, Top contemporary interior design The Villa
+
+// SEO Keywords: Contemporary Interior Design The Villa, Contemporary Interior Design in The Villa, Best contemporary interior design The Villa, Professional contemporary interior design The Villa, Luxury contemporary interior design The Villa, Contemporary Interior Design The Villa Dubai, Contemporary Interior Design designer The Villa, Contemporary Interior Design company The Villa, Contemporary Interior Design contractor The Villa, Affordable contemporary interior design The Villa, Modern contemporary interior design The Villa, Contemporary Interior Design consultation The Villa, Contemporary Interior Design cost The Villa, Contemporary Interior Design price The Villa, Top contemporary interior design The Villa, Contemporary Interior Design near The Villa, Contemporary Interior Design specialists The Villa, Contemporary Interior Design experts The Villa, Contemporary Interior Design solutions The Villa, Contemporary Interior Design packages The Villa, Contemporary Interior Design quotes The Villa, Contemporary Interior Design estimates The Villa, Contemporary Interior Design services near me The Villa, Cheap Contemporary Interior Design The Villa, Quality Contemporary Interior Design The Villa, Trusted Contemporary Interior Design The Villa, Contemporary Interior Design transformation The Villa, Contemporary Interior Design renovation The Villa, Contemporary Interior Design makeover The Villa, Best Contemporary Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in The Villa. Best contemporary interior design The Villa Company The Villa Our luxury contemporary interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

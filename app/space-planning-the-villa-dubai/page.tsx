@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning The Villa, Space Planning in The Villa, Best space planning The Villa, Professional space planning The Villa, Luxury space planning The Villa, Space Planning The Villa Dubai, Space Planning designer The Villa, Space Planning company The Villa, Space Planning contractor The Villa, Affordable space planning The Villa, Modern space planning The Villa, Space Planning consultation The Villa, Space Planning cost The Villa, Space Planning price The Villa, Top space planning The Villa
+
+// SEO Keywords: Space Planning The Villa, Space Planning in The Villa, Best space planning The Villa, Professional space planning The Villa, Luxury space planning The Villa, Space Planning The Villa Dubai, Space Planning designer The Villa, Space Planning company The Villa, Space Planning contractor The Villa, Affordable space planning The Villa, Modern space planning The Villa, Space Planning consultation The Villa, Space Planning cost The Villa, Space Planning price The Villa, Top space planning The Villa, Space Planning near The Villa, Space Planning specialists The Villa, Space Planning experts The Villa, Space Planning solutions The Villa, Space Planning packages The Villa, Space Planning quotes The Villa, Space Planning estimates The Villa, Space Planning services near me The Villa, Cheap Space Planning The Villa, Quality Space Planning The Villa, Trusted Space Planning The Villa, Space Planning transformation The Villa, Space Planning renovation The Villa, Space Planning makeover The Villa, Best Space Planning company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningTheVilla() {
                 At Interiara, we believe that exceptional <strong>Space Planning The Villa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Villa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in The Villa. 
                 We've completed 300+ successful projects across The Villa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning The Villa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning the villa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning The Villa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in the villa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near the villa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

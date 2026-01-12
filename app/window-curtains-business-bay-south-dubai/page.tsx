@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Business Bay South, Window Curtains Business in Bay South, Best window curtains business Bay South, Professional window curtains business Bay South, Luxury window curtains business Bay South, Window Curtains Business Bay South Dubai, Window Curtains Business designer Bay South, Window Curtains Business company Bay South, Window Curtains Business contractor Bay South, Affordable window curtains business Bay South, Modern window curtains business Bay South, Window Curtains Business consultation Bay South, Window Curtains Business cost Bay South, Window Curtains Business price Bay South, Top window curtains business Bay South
+
+// SEO Keywords: Window Curtains Business Bay South, Window Curtains Business in Bay South, Best window curtains business Bay South, Professional window curtains business Bay South, Luxury window curtains business Bay South, Window Curtains Business Bay South Dubai, Window Curtains Business designer Bay South, Window Curtains Business company Bay South, Window Curtains Business contractor Bay South, Affordable window curtains business Bay South, Modern window curtains business Bay South, Window Curtains Business consultation Bay South, Window Curtains Business cost Bay South, Window Curtains Business price Bay South, Top window curtains business Bay South, Window Curtains Business near Bay South, Window Curtains Business specialists Bay South, Window Curtains Business experts Bay South, Window Curtains Business solutions Bay South, Window Curtains Business packages Bay South, Window Curtains Business quotes Bay South, Window Curtains Business estimates Bay South, Window Curtains Business services near me Bay South, Cheap Window Curtains Business Bay South, Quality Window Curtains Business Bay South, Trusted Window Curtains Business Bay South, Window Curtains Business transformation Bay South, Window Curtains Business renovation Bay South, Window Curtains Business makeover Bay South, Best Window Curtains Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains Business in Bay South. Best window curtains business Bay South Company Bay South Our luxury window curtains business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

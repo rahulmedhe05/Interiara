@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Al Quoz, Affordable Interior Solutions in Al Quoz, Best affordable interior solutions Al Quoz, Professional affordable interior solutions Al Quoz, Luxury affordable interior solutions Al Quoz, Affordable Interior Solutions Al Quoz Dubai, Affordable Interior Solutions designer Al Quoz, Affordable Interior Solutions company Al Quoz, Affordable Interior Solutions contractor Al Quoz, Affordable affordable interior solutions Al Quoz, Modern affordable interior solutions Al Quoz, Affordable Interior Solutions consultation Al Quoz, Affordable Interior Solutions cost Al Quoz, Affordable Interior Solutions price Al Quoz, Top affordable interior solutions Al Quoz
+
+// SEO Keywords: Affordable Interior Solutions Al Quoz, Affordable Interior Solutions in Al Quoz, Best affordable interior solutions Al Quoz, Professional affordable interior solutions Al Quoz, Luxury affordable interior solutions Al Quoz, Affordable Interior Solutions Al Quoz Dubai, Affordable Interior Solutions designer Al Quoz, Affordable Interior Solutions company Al Quoz, Affordable Interior Solutions contractor Al Quoz, Affordable affordable interior solutions Al Quoz, Modern affordable interior solutions Al Quoz, Affordable Interior Solutions consultation Al Quoz, Affordable Interior Solutions cost Al Quoz, Affordable Interior Solutions price Al Quoz, Top affordable interior solutions Al Quoz, Affordable Interior Solutions near Al Quoz, Affordable Interior Solutions specialists Al Quoz, Affordable Interior Solutions experts Al Quoz, Affordable Interior Solutions solutions Al Quoz, Affordable Interior Solutions packages Al Quoz, Affordable Interior Solutions quotes Al Quoz, Affordable Interior Solutions estimates Al Quoz, Affordable Interior Solutions services near me Al Quoz, Cheap Affordable Interior Solutions Al Quoz, Quality Affordable Interior Solutions Al Quoz, Trusted Affordable Interior Solutions Al Quoz, Affordable Interior Solutions transformation Al Quoz, Affordable Interior Solutions renovation Al Quoz, Affordable Interior Solutions makeover Al Quoz, Best Affordable Interior Solutions company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Quoz Company Al Quoz</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Al Quoz. Best affordable interior solutions Al Quoz Company Al Quoz Our luxury affordable interior solutions al quoz services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsAlQuoz() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in al quoz service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near al quoz.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

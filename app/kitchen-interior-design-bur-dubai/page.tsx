@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Bur, Kitchen Interior in Design Bur, Best kitchen interior Design Bur, Professional kitchen interior Design Bur, Luxury kitchen interior Design Bur, Kitchen Interior Design Bur Dubai, Kitchen Interior designer Design Bur, Kitchen Interior company Design Bur, Kitchen Interior contractor Design Bur, Affordable kitchen interior Design Bur, Modern kitchen interior Design Bur, Kitchen Interior consultation Design Bur, Kitchen Interior cost Design Bur, Kitchen Interior price Design Bur, Top kitchen interior Design Bur
+
+// SEO Keywords: Kitchen Interior Design Bur, Kitchen Interior in Design Bur, Best kitchen interior Design Bur, Professional kitchen interior Design Bur, Luxury kitchen interior Design Bur, Kitchen Interior Design Bur Dubai, Kitchen Interior designer Design Bur, Kitchen Interior company Design Bur, Kitchen Interior contractor Design Bur, Affordable kitchen interior Design Bur, Modern kitchen interior Design Bur, Kitchen Interior consultation Design Bur, Kitchen Interior cost Design Bur, Kitchen Interior price Design Bur, Top kitchen interior Design Bur, Kitchen Interior near Design Bur, Kitchen Interior specialists Design Bur, Kitchen Interior experts Design Bur, Kitchen Interior solutions Design Bur, Kitchen Interior packages Design Bur, Kitchen Interior quotes Design Bur, Kitchen Interior estimates Design Bur, Kitchen Interior services near me Design Bur, Cheap Kitchen Interior Design Bur, Quality Kitchen Interior Design Bur, Trusted Kitchen Interior Design Bur, Kitchen Interior transformation Design Bur, Kitchen Interior renovation Design Bur, Kitchen Interior makeover Design Bur, Best Kitchen Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior in Design Bur. Best kitchen interior Design Bur Company Design Bur Our luxury kitchen interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

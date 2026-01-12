@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Al Barsha, Space Planning in Al Barsha, Best space planning Al Barsha, Professional space planning Al Barsha, Luxury space planning Al Barsha, Space Planning Al Barsha Dubai, Space Planning designer Al Barsha, Space Planning company Al Barsha, Space Planning contractor Al Barsha, Affordable space planning Al Barsha, Modern space planning Al Barsha, Space Planning consultation Al Barsha, Space Planning cost Al Barsha, Space Planning price Al Barsha, Top space planning Al Barsha
+
+// SEO Keywords: Space Planning Al Barsha, Space Planning in Al Barsha, Best space planning Al Barsha, Professional space planning Al Barsha, Luxury space planning Al Barsha, Space Planning Al Barsha Dubai, Space Planning designer Al Barsha, Space Planning company Al Barsha, Space Planning contractor Al Barsha, Affordable space planning Al Barsha, Modern space planning Al Barsha, Space Planning consultation Al Barsha, Space Planning cost Al Barsha, Space Planning price Al Barsha, Top space planning Al Barsha, Space Planning near Al Barsha, Space Planning specialists Al Barsha, Space Planning experts Al Barsha, Space Planning solutions Al Barsha, Space Planning packages Al Barsha, Space Planning quotes Al Barsha, Space Planning estimates Al Barsha, Space Planning services near me Al Barsha, Cheap Space Planning Al Barsha, Quality Space Planning Al Barsha, Trusted Space Planning Al Barsha, Space Planning transformation Al Barsha, Space Planning renovation Al Barsha, Space Planning makeover Al Barsha, Best Space Planning company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Space Planning Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

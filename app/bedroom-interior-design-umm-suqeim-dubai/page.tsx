@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Umm Suqeim, Bedroom Interior Design in Umm Suqeim, Best bedroom interior design Umm Suqeim, Professional bedroom interior design Umm Suqeim, Luxury bedroom interior design Umm Suqeim, Bedroom Interior Design Umm Suqeim Dubai, Bedroom Interior Design designer Umm Suqeim, Bedroom Interior Design company Umm Suqeim, Bedroom Interior Design contractor Umm Suqeim, Affordable bedroom interior design Umm Suqeim, Modern bedroom interior design Umm Suqeim, Bedroom Interior Design consultation Umm Suqeim, Bedroom Interior Design cost Umm Suqeim, Bedroom Interior Design price Umm Suqeim, Top bedroom interior design Umm Suqeim
+
+// SEO Keywords: Bedroom Interior Design Umm Suqeim, Bedroom Interior Design in Umm Suqeim, Best bedroom interior design Umm Suqeim, Professional bedroom interior design Umm Suqeim, Luxury bedroom interior design Umm Suqeim, Bedroom Interior Design Umm Suqeim Dubai, Bedroom Interior Design designer Umm Suqeim, Bedroom Interior Design company Umm Suqeim, Bedroom Interior Design contractor Umm Suqeim, Affordable bedroom interior design Umm Suqeim, Modern bedroom interior design Umm Suqeim, Bedroom Interior Design consultation Umm Suqeim, Bedroom Interior Design cost Umm Suqeim, Bedroom Interior Design price Umm Suqeim, Top bedroom interior design Umm Suqeim, Bedroom Interior Design near Umm Suqeim, Bedroom Interior Design specialists Umm Suqeim, Bedroom Interior Design experts Umm Suqeim, Bedroom Interior Design solutions Umm Suqeim, Bedroom Interior Design packages Umm Suqeim, Bedroom Interior Design quotes Umm Suqeim, Bedroom Interior Design estimates Umm Suqeim, Bedroom Interior Design services near me Umm Suqeim, Cheap Bedroom Interior Design Umm Suqeim, Quality Bedroom Interior Design Umm Suqeim, Trusted Bedroom Interior Design Umm Suqeim, Bedroom Interior Design transformation Umm Suqeim, Bedroom Interior Design renovation Umm Suqeim, Bedroom Interior Design makeover Umm Suqeim, Best Bedroom Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior Design in Umm Suqeim. Best bedroom interior design Umm Suqeim Company Umm Suqeim Our luxury bedroom interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

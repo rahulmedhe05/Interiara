@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Al Quoz, Wardrobe Design in Al Quoz, Best wardrobe design Al Quoz, Professional wardrobe design Al Quoz, Luxury wardrobe design Al Quoz, Wardrobe Design Al Quoz Dubai, Wardrobe Design designer Al Quoz, Wardrobe Design company Al Quoz, Wardrobe Design contractor Al Quoz, Affordable wardrobe design Al Quoz, Modern wardrobe design Al Quoz, Wardrobe Design consultation Al Quoz, Wardrobe Design cost Al Quoz, Wardrobe Design price Al Quoz, Top wardrobe design Al Quoz
+
+// SEO Keywords: Wardrobe Design Al Quoz, Wardrobe Design in Al Quoz, Best wardrobe design Al Quoz, Professional wardrobe design Al Quoz, Luxury wardrobe design Al Quoz, Wardrobe Design Al Quoz Dubai, Wardrobe Design designer Al Quoz, Wardrobe Design company Al Quoz, Wardrobe Design contractor Al Quoz, Affordable wardrobe design Al Quoz, Modern wardrobe design Al Quoz, Wardrobe Design consultation Al Quoz, Wardrobe Design cost Al Quoz, Wardrobe Design price Al Quoz, Top wardrobe design Al Quoz, Wardrobe Design near Al Quoz, Wardrobe Design specialists Al Quoz, Wardrobe Design experts Al Quoz, Wardrobe Design solutions Al Quoz, Wardrobe Design packages Al Quoz, Wardrobe Design quotes Al Quoz, Wardrobe Design estimates Al Quoz, Wardrobe Design services near me Al Quoz, Cheap Wardrobe Design Al Quoz, Quality Wardrobe Design Al Quoz, Trusted Wardrobe Design Al Quoz, Wardrobe Design transformation Al Quoz, Wardrobe Design renovation Al Quoz, Wardrobe Design makeover Al Quoz, Best Wardrobe Design company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe design in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe design near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

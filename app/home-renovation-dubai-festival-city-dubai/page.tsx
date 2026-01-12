@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Dubai Festival City, Home Renovation Dubai in Festival City, Best home renovation dubai Festival City, Professional home renovation dubai Festival City, Luxury home renovation dubai Festival City, Home Renovation Dubai Festival City Dubai, Home Renovation Dubai designer Festival City, Home Renovation Dubai company Festival City, Home Renovation Dubai contractor Festival City, Affordable home renovation dubai Festival City, Modern home renovation dubai Festival City, Home Renovation Dubai consultation Festival City, Home Renovation Dubai cost Festival City, Home Renovation Dubai price Festival City, Top home renovation dubai Festival City
+
+// SEO Keywords: Home Renovation Dubai Festival City, Home Renovation Dubai in Festival City, Best home renovation dubai Festival City, Professional home renovation dubai Festival City, Luxury home renovation dubai Festival City, Home Renovation Dubai Festival City Dubai, Home Renovation Dubai designer Festival City, Home Renovation Dubai company Festival City, Home Renovation Dubai contractor Festival City, Affordable home renovation dubai Festival City, Modern home renovation dubai Festival City, Home Renovation Dubai consultation Festival City, Home Renovation Dubai cost Festival City, Home Renovation Dubai price Festival City, Top home renovation dubai Festival City, Home Renovation Dubai near Festival City, Home Renovation Dubai specialists Festival City, Home Renovation Dubai experts Festival City, Home Renovation Dubai solutions Festival City, Home Renovation Dubai packages Festival City, Home Renovation Dubai quotes Festival City, Home Renovation Dubai estimates Festival City, Home Renovation Dubai services near me Festival City, Cheap Home Renovation Dubai Festival City, Quality Home Renovation Dubai Festival City, Trusted Home Renovation Dubai Festival City, Home Renovation Dubai transformation Festival City, Home Renovation Dubai renovation Festival City, Home Renovation Dubai makeover Festival City, Best Home Renovation Dubai company Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation dubai Festival City Company Festival City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation Dubai in Festival City. Best home renovation dubai Festival City Company Festival City Our professional home renovation dubai festival city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HomeRenovationDubaiFestivalCity() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Festival City Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation Dubai Festival City. 
                 We've completed 300+ successful projects across City Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Festival City Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HomeRenovationDubaiFestivalCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation dubai in festival city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDubaiFestivalCity() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation dubai near festival city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDubaiFestivalCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

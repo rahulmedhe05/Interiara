@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Showroom Interior Design Mirdif, Showroom Interior in Design Mirdif, Best showroom interior Design Mirdif, Professional showroom interior Design Mirdif, Luxury showroom interior Design Mirdif, Showroom Interior Design Mirdif Dubai, Showroom Interior designer Design Mirdif, Showroom Interior company Design Mirdif, Showroom Interior contractor Design Mirdif, Affordable showroom interior Design Mirdif, Modern showroom interior Design Mirdif, Showroom Interior consultation Design Mirdif, Showroom Interior cost Design Mirdif, Showroom Interior price Design Mirdif, Top showroom interior Design Mirdif
+
+// SEO Keywords: Showroom Interior Design Mirdif, Showroom Interior in Design Mirdif, Best showroom interior Design Mirdif, Professional showroom interior Design Mirdif, Luxury showroom interior Design Mirdif, Showroom Interior Design Mirdif Dubai, Showroom Interior designer Design Mirdif, Showroom Interior company Design Mirdif, Showroom Interior contractor Design Mirdif, Affordable showroom interior Design Mirdif, Modern showroom interior Design Mirdif, Showroom Interior consultation Design Mirdif, Showroom Interior cost Design Mirdif, Showroom Interior price Design Mirdif, Top showroom interior Design Mirdif, Showroom Interior near Design Mirdif, Showroom Interior specialists Design Mirdif, Showroom Interior experts Design Mirdif, Showroom Interior solutions Design Mirdif, Showroom Interior packages Design Mirdif, Showroom Interior quotes Design Mirdif, Showroom Interior estimates Design Mirdif, Showroom Interior services near me Design Mirdif, Cheap Showroom Interior Design Mirdif, Quality Showroom Interior Design Mirdif, Trusted Showroom Interior Design Mirdif, Showroom Interior transformation Design Mirdif, Showroom Interior renovation Design Mirdif, Showroom Interior makeover Design Mirdif, Best Showroom Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ShowroomInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Showroom Interior in Design Mirdif. Best showroom interior Design Mirdif Company Design Mirdif Our luxury showroom interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ShowroomInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our showroom interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ShowroomInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in showroom interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ShowroomInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

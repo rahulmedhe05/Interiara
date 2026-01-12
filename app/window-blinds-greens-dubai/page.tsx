@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Greens, Window in Blinds Greens, Best window Blinds Greens, Professional window Blinds Greens, Luxury window Blinds Greens, Window Blinds Greens Dubai, Window designer Blinds Greens, Window company Blinds Greens, Window contractor Blinds Greens, Affordable window Blinds Greens, Modern window Blinds Greens, Window consultation Blinds Greens, Window cost Blinds Greens, Window price Blinds Greens, Top window Blinds Greens
+
+// SEO Keywords: Window Blinds Greens, Window in Blinds Greens, Best window Blinds Greens, Professional window Blinds Greens, Luxury window Blinds Greens, Window Blinds Greens Dubai, Window designer Blinds Greens, Window company Blinds Greens, Window contractor Blinds Greens, Affordable window Blinds Greens, Modern window Blinds Greens, Window consultation Blinds Greens, Window cost Blinds Greens, Window price Blinds Greens, Top window Blinds Greens, Window near Blinds Greens, Window specialists Blinds Greens, Window experts Blinds Greens, Window solutions Blinds Greens, Window packages Blinds Greens, Window quotes Blinds Greens, Window estimates Blinds Greens, Window services near me Blinds Greens, Cheap Window Blinds Greens, Quality Window Blinds Greens, Trusted Window Blinds Greens, Window transformation Blinds Greens, Window renovation Blinds Greens, Window makeover Blinds Greens, Best Window company Blinds Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsGreens() {
                 At Interiara, we believe that exceptional <strong>Window Blinds The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Blinds Greens. Window Blinds Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional window blinds greens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds The Greens Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in blinds greens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near blinds greens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

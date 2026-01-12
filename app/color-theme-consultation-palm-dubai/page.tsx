@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Palm, Color Theme in Consultation Palm, Best color theme Consultation Palm, Professional color theme Consultation Palm, Luxury color theme Consultation Palm, Color Theme Consultation Palm Dubai, Color Theme designer Consultation Palm, Color Theme company Consultation Palm, Color Theme contractor Consultation Palm, Affordable color theme Consultation Palm, Modern color theme Consultation Palm, Color Theme consultation Consultation Palm, Color Theme cost Consultation Palm, Color Theme price Consultation Palm, Top color theme Consultation Palm
+
+// SEO Keywords: Color Theme Consultation Palm, Color Theme in Consultation Palm, Best color theme Consultation Palm, Professional color theme Consultation Palm, Luxury color theme Consultation Palm, Color Theme Consultation Palm Dubai, Color Theme designer Consultation Palm, Color Theme company Consultation Palm, Color Theme contractor Consultation Palm, Affordable color theme Consultation Palm, Modern color theme Consultation Palm, Color Theme consultation Consultation Palm, Color Theme cost Consultation Palm, Color Theme price Consultation Palm, Top color theme Consultation Palm, Color Theme near Consultation Palm, Color Theme specialists Consultation Palm, Color Theme experts Consultation Palm, Color Theme solutions Consultation Palm, Color Theme packages Consultation Palm, Color Theme quotes Consultation Palm, Color Theme estimates Consultation Palm, Color Theme services near me Consultation Palm, Cheap Color Theme Consultation Palm, Quality Color Theme Consultation Palm, Trusted Color Theme Consultation Palm, Color Theme transformation Consultation Palm, Color Theme renovation Consultation Palm, Color Theme makeover Consultation Palm, Best Color Theme company Consultation Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Palm Company Consultation Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme in Consultation Palm. Best color theme Consultation Palm Company Consultation Palm Our luxury color theme consultation palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme in consultation palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme near consultation palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

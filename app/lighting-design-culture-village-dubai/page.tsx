@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Culture Village, Lighting Design in Culture Village, Best lighting design Culture Village, Professional lighting design Culture Village, Luxury lighting design Culture Village, Lighting Design Culture Village Dubai, Lighting Design designer Culture Village, Lighting Design company Culture Village, Lighting Design contractor Culture Village, Affordable lighting design Culture Village, Modern lighting design Culture Village, Lighting Design consultation Culture Village, Lighting Design cost Culture Village, Lighting Design price Culture Village, Top lighting design Culture Village
+
+// SEO Keywords: Lighting Design Culture Village, Lighting Design in Culture Village, Best lighting design Culture Village, Professional lighting design Culture Village, Luxury lighting design Culture Village, Lighting Design Culture Village Dubai, Lighting Design designer Culture Village, Lighting Design company Culture Village, Lighting Design contractor Culture Village, Affordable lighting design Culture Village, Modern lighting design Culture Village, Lighting Design consultation Culture Village, Lighting Design cost Culture Village, Lighting Design price Culture Village, Top lighting design Culture Village, Lighting Design near Culture Village, Lighting Design specialists Culture Village, Lighting Design experts Culture Village, Lighting Design solutions Culture Village, Lighting Design packages Culture Village, Lighting Design quotes Culture Village, Lighting Design estimates Culture Village, Lighting Design services near me Culture Village, Cheap Lighting Design Culture Village, Quality Lighting Design Culture Village, Trusted Lighting Design Culture Village, Lighting Design transformation Culture Village, Lighting Design renovation Culture Village, Lighting Design makeover Culture Village, Best Lighting Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Design in Culture Village. Best lighting design Culture Village Company Culture Village Our luxury lighting design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

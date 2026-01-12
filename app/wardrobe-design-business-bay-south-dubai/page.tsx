@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Business Bay South, Wardrobe Design Business in Bay South, Best wardrobe design business Bay South, Professional wardrobe design business Bay South, Luxury wardrobe design business Bay South, Wardrobe Design Business Bay South Dubai, Wardrobe Design Business designer Bay South, Wardrobe Design Business company Bay South, Wardrobe Design Business contractor Bay South, Affordable wardrobe design business Bay South, Modern wardrobe design business Bay South, Wardrobe Design Business consultation Bay South, Wardrobe Design Business cost Bay South, Wardrobe Design Business price Bay South, Top wardrobe design business Bay South
+
+// SEO Keywords: Wardrobe Design Business Bay South, Wardrobe Design Business in Bay South, Best wardrobe design business Bay South, Professional wardrobe design business Bay South, Luxury wardrobe design business Bay South, Wardrobe Design Business Bay South Dubai, Wardrobe Design Business designer Bay South, Wardrobe Design Business company Bay South, Wardrobe Design Business contractor Bay South, Affordable wardrobe design business Bay South, Modern wardrobe design business Bay South, Wardrobe Design Business consultation Bay South, Wardrobe Design Business cost Bay South, Wardrobe Design Business price Bay South, Top wardrobe design business Bay South, Wardrobe Design Business near Bay South, Wardrobe Design Business specialists Bay South, Wardrobe Design Business experts Bay South, Wardrobe Design Business solutions Bay South, Wardrobe Design Business packages Bay South, Wardrobe Design Business quotes Bay South, Wardrobe Design Business estimates Bay South, Wardrobe Design Business services near me Bay South, Cheap Wardrobe Design Business Bay South, Quality Wardrobe Design Business Bay South, Trusted Wardrobe Design Business Bay South, Wardrobe Design Business transformation Bay South, Wardrobe Design Business renovation Bay South, Wardrobe Design Business makeover Bay South, Best Wardrobe Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe Design Business in Bay South. Best wardrobe design business Bay South Company Bay South Our luxury wardrobe design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Deira, Kitchen Interior in Design Deira, Best kitchen interior Design Deira, Professional kitchen interior Design Deira, Luxury kitchen interior Design Deira, Kitchen Interior Design Deira Dubai, Kitchen Interior designer Design Deira, Kitchen Interior company Design Deira, Kitchen Interior contractor Design Deira, Affordable kitchen interior Design Deira, Modern kitchen interior Design Deira, Kitchen Interior consultation Design Deira, Kitchen Interior cost Design Deira, Kitchen Interior price Design Deira, Top kitchen interior Design Deira
+
+// SEO Keywords: Kitchen Interior Design Deira, Kitchen Interior in Design Deira, Best kitchen interior Design Deira, Professional kitchen interior Design Deira, Luxury kitchen interior Design Deira, Kitchen Interior Design Deira Dubai, Kitchen Interior designer Design Deira, Kitchen Interior company Design Deira, Kitchen Interior contractor Design Deira, Affordable kitchen interior Design Deira, Modern kitchen interior Design Deira, Kitchen Interior consultation Design Deira, Kitchen Interior cost Design Deira, Kitchen Interior price Design Deira, Top kitchen interior Design Deira, Kitchen Interior near Design Deira, Kitchen Interior specialists Design Deira, Kitchen Interior experts Design Deira, Kitchen Interior solutions Design Deira, Kitchen Interior packages Design Deira, Kitchen Interior quotes Design Deira, Kitchen Interior estimates Design Deira, Kitchen Interior services near me Design Deira, Cheap Kitchen Interior Design Deira, Quality Kitchen Interior Design Deira, Trusted Kitchen Interior Design Deira, Kitchen Interior transformation Design Deira, Kitchen Interior renovation Design Deira, Kitchen Interior makeover Design Deira, Best Kitchen Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior in Design Deira. Best kitchen interior Design Deira Company Design Deira Our luxury kitchen interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

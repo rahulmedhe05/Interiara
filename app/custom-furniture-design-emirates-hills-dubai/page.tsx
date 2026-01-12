@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Emirates Hills, Custom Furniture Design in Emirates Hills, Best custom furniture design Emirates Hills, Professional custom furniture design Emirates Hills, Luxury custom furniture design Emirates Hills, Custom Furniture Design Emirates Hills Dubai, Custom Furniture Design designer Emirates Hills, Custom Furniture Design company Emirates Hills, Custom Furniture Design contractor Emirates Hills, Affordable custom furniture design Emirates Hills, Modern custom furniture design Emirates Hills, Custom Furniture Design consultation Emirates Hills, Custom Furniture Design cost Emirates Hills, Custom Furniture Design price Emirates Hills, Top custom furniture design Emirates Hills
+
+// SEO Keywords: Custom Furniture Design Emirates Hills, Custom Furniture Design in Emirates Hills, Best custom furniture design Emirates Hills, Professional custom furniture design Emirates Hills, Luxury custom furniture design Emirates Hills, Custom Furniture Design Emirates Hills Dubai, Custom Furniture Design designer Emirates Hills, Custom Furniture Design company Emirates Hills, Custom Furniture Design contractor Emirates Hills, Affordable custom furniture design Emirates Hills, Modern custom furniture design Emirates Hills, Custom Furniture Design consultation Emirates Hills, Custom Furniture Design cost Emirates Hills, Custom Furniture Design price Emirates Hills, Top custom furniture design Emirates Hills, Custom Furniture Design near Emirates Hills, Custom Furniture Design specialists Emirates Hills, Custom Furniture Design experts Emirates Hills, Custom Furniture Design solutions Emirates Hills, Custom Furniture Design packages Emirates Hills, Custom Furniture Design quotes Emirates Hills, Custom Furniture Design estimates Emirates Hills, Custom Furniture Design services near me Emirates Hills, Cheap Custom Furniture Design Emirates Hills, Quality Custom Furniture Design Emirates Hills, Trusted Custom Furniture Design Emirates Hills, Custom Furniture Design transformation Emirates Hills, Custom Furniture Design renovation Emirates Hills, Custom Furniture Design makeover Emirates Hills, Best Custom Furniture Design company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Emirates Hills. Best custom furniture design Emirates Hills Company Emirates Hills Our luxury custom furniture design emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

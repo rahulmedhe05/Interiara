@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Al Safa, Wallpaper Design in Al Safa, Best wallpaper design Al Safa, Professional wallpaper design Al Safa, Luxury wallpaper design Al Safa, Wallpaper Design Al Safa Dubai, Wallpaper Design designer Al Safa, Wallpaper Design company Al Safa, Wallpaper Design contractor Al Safa, Affordable wallpaper design Al Safa, Modern wallpaper design Al Safa, Wallpaper Design consultation Al Safa, Wallpaper Design cost Al Safa, Wallpaper Design price Al Safa, Top wallpaper design Al Safa
+
+// SEO Keywords: Wallpaper Design Al Safa, Wallpaper Design in Al Safa, Best wallpaper design Al Safa, Professional wallpaper design Al Safa, Luxury wallpaper design Al Safa, Wallpaper Design Al Safa Dubai, Wallpaper Design designer Al Safa, Wallpaper Design company Al Safa, Wallpaper Design contractor Al Safa, Affordable wallpaper design Al Safa, Modern wallpaper design Al Safa, Wallpaper Design consultation Al Safa, Wallpaper Design cost Al Safa, Wallpaper Design price Al Safa, Top wallpaper design Al Safa, Wallpaper Design near Al Safa, Wallpaper Design specialists Al Safa, Wallpaper Design experts Al Safa, Wallpaper Design solutions Al Safa, Wallpaper Design packages Al Safa, Wallpaper Design quotes Al Safa, Wallpaper Design estimates Al Safa, Wallpaper Design services near me Al Safa, Cheap Wallpaper Design Al Safa, Quality Wallpaper Design Al Safa, Trusted Wallpaper Design Al Safa, Wallpaper Design transformation Al Safa, Wallpaper Design renovation Al Safa, Wallpaper Design makeover Al Safa, Best Wallpaper Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignAlSafa() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design Al Safa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in Al Safa. 
                 We've completed 300+ successful projects across Al Safa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design Al Safa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design al safa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design Al Safa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in al safa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near al safa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

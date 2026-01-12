@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Showroom Interior Design Jumeirah, Showroom Interior in Design Jumeirah, Best showroom interior Design Jumeirah, Professional showroom interior Design Jumeirah, Luxury showroom interior Design Jumeirah, Showroom Interior Design Jumeirah Dubai, Showroom Interior designer Design Jumeirah, Showroom Interior company Design Jumeirah, Showroom Interior contractor Design Jumeirah, Affordable showroom interior Design Jumeirah, Modern showroom interior Design Jumeirah, Showroom Interior consultation Design Jumeirah, Showroom Interior cost Design Jumeirah, Showroom Interior price Design Jumeirah, Top showroom interior Design Jumeirah
+
+// SEO Keywords: Showroom Interior Design Jumeirah, Showroom Interior in Design Jumeirah, Best showroom interior Design Jumeirah, Professional showroom interior Design Jumeirah, Luxury showroom interior Design Jumeirah, Showroom Interior Design Jumeirah Dubai, Showroom Interior designer Design Jumeirah, Showroom Interior company Design Jumeirah, Showroom Interior contractor Design Jumeirah, Affordable showroom interior Design Jumeirah, Modern showroom interior Design Jumeirah, Showroom Interior consultation Design Jumeirah, Showroom Interior cost Design Jumeirah, Showroom Interior price Design Jumeirah, Top showroom interior Design Jumeirah, Showroom Interior near Design Jumeirah, Showroom Interior specialists Design Jumeirah, Showroom Interior experts Design Jumeirah, Showroom Interior solutions Design Jumeirah, Showroom Interior packages Design Jumeirah, Showroom Interior quotes Design Jumeirah, Showroom Interior estimates Design Jumeirah, Showroom Interior services near me Design Jumeirah, Cheap Showroom Interior Design Jumeirah, Quality Showroom Interior Design Jumeirah, Trusted Showroom Interior Design Jumeirah, Showroom Interior transformation Design Jumeirah, Showroom Interior renovation Design Jumeirah, Showroom Interior makeover Design Jumeirah, Best Showroom Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ShowroomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Showroom Interior in Design Jumeirah. Best showroom interior Design Jumeirah Company Design Jumeirah Our luxury showroom interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ShowroomInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our showroom interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ShowroomInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in showroom interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ShowroomInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

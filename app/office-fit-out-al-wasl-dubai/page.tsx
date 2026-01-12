@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Al Wasl, Office Fit Out in Al Wasl, Best office fit out Al Wasl, Professional office fit out Al Wasl, Luxury office fit out Al Wasl, Office Fit Out Al Wasl Dubai, Office Fit Out designer Al Wasl, Office Fit Out company Al Wasl, Office Fit Out contractor Al Wasl, Affordable office fit out Al Wasl, Modern office fit out Al Wasl, Office Fit Out consultation Al Wasl, Office Fit Out cost Al Wasl, Office Fit Out price Al Wasl, Top office fit out Al Wasl
+
+// SEO Keywords: Office Fit Out Al Wasl, Office Fit Out in Al Wasl, Best office fit out Al Wasl, Professional office fit out Al Wasl, Luxury office fit out Al Wasl, Office Fit Out Al Wasl Dubai, Office Fit Out designer Al Wasl, Office Fit Out company Al Wasl, Office Fit Out contractor Al Wasl, Affordable office fit out Al Wasl, Modern office fit out Al Wasl, Office Fit Out consultation Al Wasl, Office Fit Out cost Al Wasl, Office Fit Out price Al Wasl, Top office fit out Al Wasl, Office Fit Out near Al Wasl, Office Fit Out specialists Al Wasl, Office Fit Out experts Al Wasl, Office Fit Out solutions Al Wasl, Office Fit Out packages Al Wasl, Office Fit Out quotes Al Wasl, Office Fit Out estimates Al Wasl, Office Fit Out services near me Al Wasl, Cheap Office Fit Out Al Wasl, Quality Office Fit Out Al Wasl, Trusted Office Fit Out Al Wasl, Office Fit Out transformation Al Wasl, Office Fit Out renovation Al Wasl, Office Fit Out makeover Al Wasl, Best Office Fit Out company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutAlWasl() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

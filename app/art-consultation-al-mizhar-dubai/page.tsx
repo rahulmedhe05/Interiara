@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Mizhar, Art Consultation in Al Mizhar, Best art consultation Al Mizhar, Professional art consultation Al Mizhar, Luxury art consultation Al Mizhar, Art Consultation Al Mizhar Dubai, Art Consultation designer Al Mizhar, Art Consultation company Al Mizhar, Art Consultation contractor Al Mizhar, Affordable art consultation Al Mizhar, Modern art consultation Al Mizhar, Art Consultation consultation Al Mizhar, Art Consultation cost Al Mizhar, Art Consultation price Al Mizhar, Top art consultation Al Mizhar
+
+// SEO Keywords: Art Consultation Al Mizhar, Art Consultation in Al Mizhar, Best art consultation Al Mizhar, Professional art consultation Al Mizhar, Luxury art consultation Al Mizhar, Art Consultation Al Mizhar Dubai, Art Consultation designer Al Mizhar, Art Consultation company Al Mizhar, Art Consultation contractor Al Mizhar, Affordable art consultation Al Mizhar, Modern art consultation Al Mizhar, Art Consultation consultation Al Mizhar, Art Consultation cost Al Mizhar, Art Consultation price Al Mizhar, Top art consultation Al Mizhar, Art Consultation near Al Mizhar, Art Consultation specialists Al Mizhar, Art Consultation experts Al Mizhar, Art Consultation solutions Al Mizhar, Art Consultation packages Al Mizhar, Art Consultation quotes Al Mizhar, Art Consultation estimates Al Mizhar, Art Consultation services near me Al Mizhar, Cheap Art Consultation Al Mizhar, Quality Art Consultation Al Mizhar, Trusted Art Consultation Al Mizhar, Art Consultation transformation Al Mizhar, Art Consultation renovation Al Mizhar, Art Consultation makeover Al Mizhar, Best Art Consultation company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

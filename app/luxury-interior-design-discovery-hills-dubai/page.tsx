@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Discovery Hills, Luxury Interior Design in Discovery Hills, Best luxury interior design Discovery Hills, Professional luxury interior design Discovery Hills, Luxury luxury interior design Discovery Hills, Luxury Interior Design Discovery Hills Dubai, Luxury Interior Design designer Discovery Hills, Luxury Interior Design company Discovery Hills, Luxury Interior Design contractor Discovery Hills, Affordable luxury interior design Discovery Hills, Modern luxury interior design Discovery Hills, Luxury Interior Design consultation Discovery Hills, Luxury Interior Design cost Discovery Hills, Luxury Interior Design price Discovery Hills, Top luxury interior design Discovery Hills
+
+// SEO Keywords: Luxury Interior Design Discovery Hills, Luxury Interior Design in Discovery Hills, Best luxury interior design Discovery Hills, Professional luxury interior design Discovery Hills, Luxury luxury interior design Discovery Hills, Luxury Interior Design Discovery Hills Dubai, Luxury Interior Design designer Discovery Hills, Luxury Interior Design company Discovery Hills, Luxury Interior Design contractor Discovery Hills, Affordable luxury interior design Discovery Hills, Modern luxury interior design Discovery Hills, Luxury Interior Design consultation Discovery Hills, Luxury Interior Design cost Discovery Hills, Luxury Interior Design price Discovery Hills, Top luxury interior design Discovery Hills, Luxury Interior Design near Discovery Hills, Luxury Interior Design specialists Discovery Hills, Luxury Interior Design experts Discovery Hills, Luxury Interior Design solutions Discovery Hills, Luxury Interior Design packages Discovery Hills, Luxury Interior Design quotes Discovery Hills, Luxury Interior Design estimates Discovery Hills, Luxury Interior Design services near me Discovery Hills, Cheap Luxury Interior Design Discovery Hills, Quality Luxury Interior Design Discovery Hills, Trusted Luxury Interior Design Discovery Hills, Luxury Interior Design transformation Discovery Hills, Luxury Interior Design renovation Discovery Hills, Luxury Interior Design makeover Discovery Hills, Best Luxury Interior Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior Design in Discovery Hills. Best luxury interior design Discovery Hills Company Discovery Hills Our luxury luxury interior design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Space Optimization, Interior in Space Optimization, Best interior Space Optimization, Professional interior Space Optimization, Luxury interior Space Optimization, Interior Space Optimization Dubai, Interior designer Space Optimization, Interior company Space Optimization, Interior contractor Space Optimization, Affordable interior Space Optimization, Modern interior Space Optimization, Interior consultation Space Optimization, Interior cost Space Optimization, Interior price Space Optimization, Top interior Space Optimization
+
+// SEO Keywords: Interior Space Optimization, Interior in Space Optimization, Best interior Space Optimization, Professional interior Space Optimization, Luxury interior Space Optimization, Interior Space Optimization Dubai, Interior designer Space Optimization, Interior company Space Optimization, Interior contractor Space Optimization, Affordable interior Space Optimization, Modern interior Space Optimization, Interior consultation Space Optimization, Interior cost Space Optimization, Interior price Space Optimization, Top interior Space Optimization, Interior near Space Optimization, Interior specialists Space Optimization, Interior experts Space Optimization, Interior solutions Space Optimization, Interior packages Space Optimization, Interior quotes Space Optimization, Interior estimates Space Optimization, Interior services near me Space Optimization, Cheap Interior Space Optimization, Quality Interior Space Optimization, Trusted Interior Space Optimization, Interior transformation Space Optimization, Interior renovation Space Optimization, Interior makeover Space Optimization, Best Interior company Space Optimization
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorSpaceOptimization() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior Space Optimization Company Space Optimization</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior in Space Optimization. Best interior Space Optimization Company Space Optimization Our luxury interior space optimization services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Land Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorSpaceOptimization() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior in space optimization service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorSpaceOptimization() {
 
               <p>
                 Interiara stands out in the crowded Land Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior near space optimization.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorSpaceOptimization() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

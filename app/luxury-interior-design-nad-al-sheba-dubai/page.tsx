@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Nad Al Sheba, Luxury Interior Design Nad in Al Sheba, Best luxury interior design nad Al Sheba, Professional luxury interior design nad Al Sheba, Luxury luxury interior design nad Al Sheba, Luxury Interior Design Nad Al Sheba Dubai, Luxury Interior Design Nad designer Al Sheba, Luxury Interior Design Nad company Al Sheba, Luxury Interior Design Nad contractor Al Sheba, Affordable luxury interior design nad Al Sheba, Modern luxury interior design nad Al Sheba, Luxury Interior Design Nad consultation Al Sheba, Luxury Interior Design Nad cost Al Sheba, Luxury Interior Design Nad price Al Sheba, Top luxury interior design nad Al Sheba
+
+// SEO Keywords: Luxury Interior Design Nad Al Sheba, Luxury Interior Design Nad in Al Sheba, Best luxury interior design nad Al Sheba, Professional luxury interior design nad Al Sheba, Luxury luxury interior design nad Al Sheba, Luxury Interior Design Nad Al Sheba Dubai, Luxury Interior Design Nad designer Al Sheba, Luxury Interior Design Nad company Al Sheba, Luxury Interior Design Nad contractor Al Sheba, Affordable luxury interior design nad Al Sheba, Modern luxury interior design nad Al Sheba, Luxury Interior Design Nad consultation Al Sheba, Luxury Interior Design Nad cost Al Sheba, Luxury Interior Design Nad price Al Sheba, Top luxury interior design nad Al Sheba, Luxury Interior Design Nad near Al Sheba, Luxury Interior Design Nad specialists Al Sheba, Luxury Interior Design Nad experts Al Sheba, Luxury Interior Design Nad solutions Al Sheba, Luxury Interior Design Nad packages Al Sheba, Luxury Interior Design Nad quotes Al Sheba, Luxury Interior Design Nad estimates Al Sheba, Luxury Interior Design Nad services near me Al Sheba, Cheap Luxury Interior Design Nad Al Sheba, Quality Luxury Interior Design Nad Al Sheba, Trusted Luxury Interior Design Nad Al Sheba, Luxury Interior Design Nad transformation Al Sheba, Luxury Interior Design Nad renovation Al Sheba, Luxury Interior Design Nad makeover Al Sheba, Best Luxury Interior Design Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior Design Nad in Al Sheba. Best luxury interior design nad Al Sheba Company Al Sheba Our luxury luxury interior design nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior design nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior design nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

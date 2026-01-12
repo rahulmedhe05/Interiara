@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Villa Interior Design Dubai Harbour, Villa Interior Design in Dubai Harbour, Best villa interior design Dubai Harbour, Professional villa interior design Dubai Harbour, Luxury villa interior design Dubai Harbour, Villa Interior Design Dubai Harbour Dubai, Villa Interior Design designer Dubai Harbour, Villa Interior Design company Dubai Harbour, Villa Interior Design contractor Dubai Harbour, Affordable villa interior design Dubai Harbour, Modern villa interior design Dubai Harbour, Villa Interior Design consultation Dubai Harbour, Villa Interior Design cost Dubai Harbour, Villa Interior Design price Dubai Harbour, Top villa interior design Dubai Harbour
+
+// SEO Keywords: Villa Interior Design Dubai Harbour, Villa Interior Design in Dubai Harbour, Best villa interior design Dubai Harbour, Professional villa interior design Dubai Harbour, Luxury villa interior design Dubai Harbour, Villa Interior Design Dubai Harbour Dubai, Villa Interior Design designer Dubai Harbour, Villa Interior Design company Dubai Harbour, Villa Interior Design contractor Dubai Harbour, Affordable villa interior design Dubai Harbour, Modern villa interior design Dubai Harbour, Villa Interior Design consultation Dubai Harbour, Villa Interior Design cost Dubai Harbour, Villa Interior Design price Dubai Harbour, Top villa interior design Dubai Harbour, Villa Interior Design near Dubai Harbour, Villa Interior Design specialists Dubai Harbour, Villa Interior Design experts Dubai Harbour, Villa Interior Design solutions Dubai Harbour, Villa Interior Design packages Dubai Harbour, Villa Interior Design quotes Dubai Harbour, Villa Interior Design estimates Dubai Harbour, Villa Interior Design services near me Dubai Harbour, Cheap Villa Interior Design Dubai Harbour, Quality Villa Interior Design Dubai Harbour, Trusted Villa Interior Design Dubai Harbour, Villa Interior Design transformation Dubai Harbour, Villa Interior Design renovation Dubai Harbour, Villa Interior Design makeover Dubai Harbour, Best Villa Interior Design company Dubai Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function VillaInteriorDesignDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Dubai Harbour Company Dubai Harbour</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Villa Interior Design in Dubai Harbour. Best villa interior design Dubai Harbour Company Dubai Harbour Our professional villa interior design dubai harbour services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function VillaInteriorDesignDubaiHarbour() {
                 At Interiara, we believe that exceptional <strong>Villa Interior Design Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Villa Interior Design Dubai Harbour. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Villa Interior Design Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function VillaInteriorDesignDubaiHarbour() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our villa interior design in dubai harbour service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function VillaInteriorDesignDubaiHarbour() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in villa interior design near dubai harbour.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function VillaInteriorDesignDubaiHarbour() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Bur Dubai, Soundproofing Design in Bur Dubai, Best soundproofing design Bur Dubai, Professional soundproofing design Bur Dubai, Luxury soundproofing design Bur Dubai, Soundproofing Design Bur Dubai Dubai, Soundproofing Design designer Bur Dubai, Soundproofing Design company Bur Dubai, Soundproofing Design contractor Bur Dubai, Affordable soundproofing design Bur Dubai, Modern soundproofing design Bur Dubai, Soundproofing Design consultation Bur Dubai, Soundproofing Design cost Bur Dubai, Soundproofing Design price Bur Dubai, Top soundproofing design Bur Dubai
+
+// SEO Keywords: Soundproofing Design Bur Dubai, Soundproofing Design in Bur Dubai, Best soundproofing design Bur Dubai, Professional soundproofing design Bur Dubai, Luxury soundproofing design Bur Dubai, Soundproofing Design Bur Dubai Dubai, Soundproofing Design designer Bur Dubai, Soundproofing Design company Bur Dubai, Soundproofing Design contractor Bur Dubai, Affordable soundproofing design Bur Dubai, Modern soundproofing design Bur Dubai, Soundproofing Design consultation Bur Dubai, Soundproofing Design cost Bur Dubai, Soundproofing Design price Bur Dubai, Top soundproofing design Bur Dubai, Soundproofing Design near Bur Dubai, Soundproofing Design specialists Bur Dubai, Soundproofing Design experts Bur Dubai, Soundproofing Design solutions Bur Dubai, Soundproofing Design packages Bur Dubai, Soundproofing Design quotes Bur Dubai, Soundproofing Design estimates Bur Dubai, Soundproofing Design services near me Bur Dubai, Cheap Soundproofing Design Bur Dubai, Quality Soundproofing Design Bur Dubai, Trusted Soundproofing Design Bur Dubai, Soundproofing Design transformation Bur Dubai, Soundproofing Design renovation Bur Dubai, Soundproofing Design makeover Bur Dubai, Best Soundproofing Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Bur Dubai. Best soundproofing design Bur Dubai Company Bur Dubai Our luxury soundproofing design bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

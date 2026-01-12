@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Bur Dubai, Closet Design in Bur Dubai, Best closet design Bur Dubai, Professional closet design Bur Dubai, Luxury closet design Bur Dubai, Closet Design Bur Dubai Dubai, Closet Design designer Bur Dubai, Closet Design company Bur Dubai, Closet Design contractor Bur Dubai, Affordable closet design Bur Dubai, Modern closet design Bur Dubai, Closet Design consultation Bur Dubai, Closet Design cost Bur Dubai, Closet Design price Bur Dubai, Top closet design Bur Dubai
+
+// SEO Keywords: Closet Design Bur Dubai, Closet Design in Bur Dubai, Best closet design Bur Dubai, Professional closet design Bur Dubai, Luxury closet design Bur Dubai, Closet Design Bur Dubai Dubai, Closet Design designer Bur Dubai, Closet Design company Bur Dubai, Closet Design contractor Bur Dubai, Affordable closet design Bur Dubai, Modern closet design Bur Dubai, Closet Design consultation Bur Dubai, Closet Design cost Bur Dubai, Closet Design price Bur Dubai, Top closet design Bur Dubai, Closet Design near Bur Dubai, Closet Design specialists Bur Dubai, Closet Design experts Bur Dubai, Closet Design solutions Bur Dubai, Closet Design packages Bur Dubai, Closet Design quotes Bur Dubai, Closet Design estimates Bur Dubai, Closet Design services near me Bur Dubai, Cheap Closet Design Bur Dubai, Quality Closet Design Bur Dubai, Trusted Closet Design Bur Dubai, Closet Design transformation Bur Dubai, Closet Design renovation Bur Dubai, Closet Design makeover Bur Dubai, Best Closet Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignBurDubai() {
                 At Interiara, we believe that exceptional <strong>Closet Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

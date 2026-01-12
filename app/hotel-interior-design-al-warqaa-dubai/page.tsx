@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Al Warqaa, Hotel Interior Design in Al Warqaa, Best hotel interior design Al Warqaa, Professional hotel interior design Al Warqaa, Luxury hotel interior design Al Warqaa, Hotel Interior Design Al Warqaa Dubai, Hotel Interior Design designer Al Warqaa, Hotel Interior Design company Al Warqaa, Hotel Interior Design contractor Al Warqaa, Affordable hotel interior design Al Warqaa, Modern hotel interior design Al Warqaa, Hotel Interior Design consultation Al Warqaa, Hotel Interior Design cost Al Warqaa, Hotel Interior Design price Al Warqaa, Top hotel interior design Al Warqaa
+
+// SEO Keywords: Hotel Interior Design Al Warqaa, Hotel Interior Design in Al Warqaa, Best hotel interior design Al Warqaa, Professional hotel interior design Al Warqaa, Luxury hotel interior design Al Warqaa, Hotel Interior Design Al Warqaa Dubai, Hotel Interior Design designer Al Warqaa, Hotel Interior Design company Al Warqaa, Hotel Interior Design contractor Al Warqaa, Affordable hotel interior design Al Warqaa, Modern hotel interior design Al Warqaa, Hotel Interior Design consultation Al Warqaa, Hotel Interior Design cost Al Warqaa, Hotel Interior Design price Al Warqaa, Top hotel interior design Al Warqaa, Hotel Interior Design near Al Warqaa, Hotel Interior Design specialists Al Warqaa, Hotel Interior Design experts Al Warqaa, Hotel Interior Design solutions Al Warqaa, Hotel Interior Design packages Al Warqaa, Hotel Interior Design quotes Al Warqaa, Hotel Interior Design estimates Al Warqaa, Hotel Interior Design services near me Al Warqaa, Cheap Hotel Interior Design Al Warqaa, Quality Hotel Interior Design Al Warqaa, Trusted Hotel Interior Design Al Warqaa, Hotel Interior Design transformation Al Warqaa, Hotel Interior Design renovation Al Warqaa, Hotel Interior Design makeover Al Warqaa, Best Hotel Interior Design company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Al Warqaa Company Al Warqaa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in Al Warqaa. Best hotel interior design Al Warqaa Company Al Warqaa Our luxury hotel interior design al warqaa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignAlWarqaa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in al warqaa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near al warqaa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

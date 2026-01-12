@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Muhaisnah, Wardrobe in Design Muhaisnah, Best wardrobe Design Muhaisnah, Professional wardrobe Design Muhaisnah, Luxury wardrobe Design Muhaisnah, Wardrobe Design Muhaisnah Dubai, Wardrobe designer Design Muhaisnah, Wardrobe company Design Muhaisnah, Wardrobe contractor Design Muhaisnah, Affordable wardrobe Design Muhaisnah, Modern wardrobe Design Muhaisnah, Wardrobe consultation Design Muhaisnah, Wardrobe cost Design Muhaisnah, Wardrobe price Design Muhaisnah, Top wardrobe Design Muhaisnah
+
+// SEO Keywords: Wardrobe Design Muhaisnah, Wardrobe in Design Muhaisnah, Best wardrobe Design Muhaisnah, Professional wardrobe Design Muhaisnah, Luxury wardrobe Design Muhaisnah, Wardrobe Design Muhaisnah Dubai, Wardrobe designer Design Muhaisnah, Wardrobe company Design Muhaisnah, Wardrobe contractor Design Muhaisnah, Affordable wardrobe Design Muhaisnah, Modern wardrobe Design Muhaisnah, Wardrobe consultation Design Muhaisnah, Wardrobe cost Design Muhaisnah, Wardrobe price Design Muhaisnah, Top wardrobe Design Muhaisnah, Wardrobe near Design Muhaisnah, Wardrobe specialists Design Muhaisnah, Wardrobe experts Design Muhaisnah, Wardrobe solutions Design Muhaisnah, Wardrobe packages Design Muhaisnah, Wardrobe quotes Design Muhaisnah, Wardrobe estimates Design Muhaisnah, Wardrobe services near me Design Muhaisnah, Cheap Wardrobe Design Muhaisnah, Quality Wardrobe Design Muhaisnah, Trusted Wardrobe Design Muhaisnah, Wardrobe transformation Design Muhaisnah, Wardrobe renovation Design Muhaisnah, Wardrobe makeover Design Muhaisnah, Best Wardrobe company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe in Design Muhaisnah. Best wardrobe Design Muhaisnah Company Design Muhaisnah Our luxury wardrobe design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

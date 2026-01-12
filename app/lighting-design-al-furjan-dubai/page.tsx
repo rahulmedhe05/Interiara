@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Al Furjan, Lighting Design in Al Furjan, Best lighting design Al Furjan, Professional lighting design Al Furjan, Luxury lighting design Al Furjan, Lighting Design Al Furjan Dubai, Lighting Design designer Al Furjan, Lighting Design company Al Furjan, Lighting Design contractor Al Furjan, Affordable lighting design Al Furjan, Modern lighting design Al Furjan, Lighting Design consultation Al Furjan, Lighting Design cost Al Furjan, Lighting Design price Al Furjan, Top lighting design Al Furjan
+
+// SEO Keywords: Lighting Design Al Furjan, Lighting Design in Al Furjan, Best lighting design Al Furjan, Professional lighting design Al Furjan, Luxury lighting design Al Furjan, Lighting Design Al Furjan Dubai, Lighting Design designer Al Furjan, Lighting Design company Al Furjan, Lighting Design contractor Al Furjan, Affordable lighting design Al Furjan, Modern lighting design Al Furjan, Lighting Design consultation Al Furjan, Lighting Design cost Al Furjan, Lighting Design price Al Furjan, Top lighting design Al Furjan, Lighting Design near Al Furjan, Lighting Design specialists Al Furjan, Lighting Design experts Al Furjan, Lighting Design solutions Al Furjan, Lighting Design packages Al Furjan, Lighting Design quotes Al Furjan, Lighting Design estimates Al Furjan, Lighting Design services near me Al Furjan, Cheap Lighting Design Al Furjan, Quality Lighting Design Al Furjan, Trusted Lighting Design Al Furjan, Lighting Design transformation Al Furjan, Lighting Design renovation Al Furjan, Lighting Design makeover Al Furjan, Best Lighting Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

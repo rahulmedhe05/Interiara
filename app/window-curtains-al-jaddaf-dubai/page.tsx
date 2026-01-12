@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Jaddaf, Window Curtains in Al Jaddaf, Best window curtains Al Jaddaf, Professional window curtains Al Jaddaf, Luxury window curtains Al Jaddaf, Window Curtains Al Jaddaf Dubai, Window Curtains designer Al Jaddaf, Window Curtains company Al Jaddaf, Window Curtains contractor Al Jaddaf, Affordable window curtains Al Jaddaf, Modern window curtains Al Jaddaf, Window Curtains consultation Al Jaddaf, Window Curtains cost Al Jaddaf, Window Curtains price Al Jaddaf, Top window curtains Al Jaddaf
+
+// SEO Keywords: Window Curtains Al Jaddaf, Window Curtains in Al Jaddaf, Best window curtains Al Jaddaf, Professional window curtains Al Jaddaf, Luxury window curtains Al Jaddaf, Window Curtains Al Jaddaf Dubai, Window Curtains designer Al Jaddaf, Window Curtains company Al Jaddaf, Window Curtains contractor Al Jaddaf, Affordable window curtains Al Jaddaf, Modern window curtains Al Jaddaf, Window Curtains consultation Al Jaddaf, Window Curtains cost Al Jaddaf, Window Curtains price Al Jaddaf, Top window curtains Al Jaddaf, Window Curtains near Al Jaddaf, Window Curtains specialists Al Jaddaf, Window Curtains experts Al Jaddaf, Window Curtains solutions Al Jaddaf, Window Curtains packages Al Jaddaf, Window Curtains quotes Al Jaddaf, Window Curtains estimates Al Jaddaf, Window Curtains services near me Al Jaddaf, Cheap Window Curtains Al Jaddaf, Quality Window Curtains Al Jaddaf, Trusted Window Curtains Al Jaddaf, Window Curtains transformation Al Jaddaf, Window Curtains renovation Al Jaddaf, Window Curtains makeover Al Jaddaf, Best Window Curtains company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Jumeirah, Sustainable Interior in Design Jumeirah, Best sustainable interior Design Jumeirah, Professional sustainable interior Design Jumeirah, Luxury sustainable interior Design Jumeirah, Sustainable Interior Design Jumeirah Dubai, Sustainable Interior designer Design Jumeirah, Sustainable Interior company Design Jumeirah, Sustainable Interior contractor Design Jumeirah, Affordable sustainable interior Design Jumeirah, Modern sustainable interior Design Jumeirah, Sustainable Interior consultation Design Jumeirah, Sustainable Interior cost Design Jumeirah, Sustainable Interior price Design Jumeirah, Top sustainable interior Design Jumeirah
+
+// SEO Keywords: Sustainable Interior Design Jumeirah, Sustainable Interior in Design Jumeirah, Best sustainable interior Design Jumeirah, Professional sustainable interior Design Jumeirah, Luxury sustainable interior Design Jumeirah, Sustainable Interior Design Jumeirah Dubai, Sustainable Interior designer Design Jumeirah, Sustainable Interior company Design Jumeirah, Sustainable Interior contractor Design Jumeirah, Affordable sustainable interior Design Jumeirah, Modern sustainable interior Design Jumeirah, Sustainable Interior consultation Design Jumeirah, Sustainable Interior cost Design Jumeirah, Sustainable Interior price Design Jumeirah, Top sustainable interior Design Jumeirah, Sustainable Interior near Design Jumeirah, Sustainable Interior specialists Design Jumeirah, Sustainable Interior experts Design Jumeirah, Sustainable Interior solutions Design Jumeirah, Sustainable Interior packages Design Jumeirah, Sustainable Interior quotes Design Jumeirah, Sustainable Interior estimates Design Jumeirah, Sustainable Interior services near me Design Jumeirah, Cheap Sustainable Interior Design Jumeirah, Quality Sustainable Interior Design Jumeirah, Trusted Sustainable Interior Design Jumeirah, Sustainable Interior transformation Design Jumeirah, Sustainable Interior renovation Design Jumeirah, Sustainable Interior makeover Design Jumeirah, Best Sustainable Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior in Design Jumeirah. Best sustainable interior Design Jumeirah Company Design Jumeirah Our luxury sustainable interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

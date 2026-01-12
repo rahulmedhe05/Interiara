@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Al Jaddaf, Sustainable Interior Design in Al Jaddaf, Best sustainable interior design Al Jaddaf, Professional sustainable interior design Al Jaddaf, Luxury sustainable interior design Al Jaddaf, Sustainable Interior Design Al Jaddaf Dubai, Sustainable Interior Design designer Al Jaddaf, Sustainable Interior Design company Al Jaddaf, Sustainable Interior Design contractor Al Jaddaf, Affordable sustainable interior design Al Jaddaf, Modern sustainable interior design Al Jaddaf, Sustainable Interior Design consultation Al Jaddaf, Sustainable Interior Design cost Al Jaddaf, Sustainable Interior Design price Al Jaddaf, Top sustainable interior design Al Jaddaf
+
+// SEO Keywords: Sustainable Interior Design Al Jaddaf, Sustainable Interior Design in Al Jaddaf, Best sustainable interior design Al Jaddaf, Professional sustainable interior design Al Jaddaf, Luxury sustainable interior design Al Jaddaf, Sustainable Interior Design Al Jaddaf Dubai, Sustainable Interior Design designer Al Jaddaf, Sustainable Interior Design company Al Jaddaf, Sustainable Interior Design contractor Al Jaddaf, Affordable sustainable interior design Al Jaddaf, Modern sustainable interior design Al Jaddaf, Sustainable Interior Design consultation Al Jaddaf, Sustainable Interior Design cost Al Jaddaf, Sustainable Interior Design price Al Jaddaf, Top sustainable interior design Al Jaddaf, Sustainable Interior Design near Al Jaddaf, Sustainable Interior Design specialists Al Jaddaf, Sustainable Interior Design experts Al Jaddaf, Sustainable Interior Design solutions Al Jaddaf, Sustainable Interior Design packages Al Jaddaf, Sustainable Interior Design quotes Al Jaddaf, Sustainable Interior Design estimates Al Jaddaf, Sustainable Interior Design services near me Al Jaddaf, Cheap Sustainable Interior Design Al Jaddaf, Quality Sustainable Interior Design Al Jaddaf, Trusted Sustainable Interior Design Al Jaddaf, Sustainable Interior Design transformation Al Jaddaf, Sustainable Interior Design renovation Al Jaddaf, Sustainable Interior Design makeover Al Jaddaf, Best Sustainable Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Al Jaddaf. Best sustainable interior design Al Jaddaf Company Al Jaddaf Our luxury sustainable interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

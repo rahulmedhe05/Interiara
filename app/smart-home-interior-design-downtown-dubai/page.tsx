@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design Downtown, Smart Home Interior in Design Downtown, Best smart home interior Design Downtown, Professional smart home interior Design Downtown, Luxury smart home interior Design Downtown, Smart Home Interior Design Downtown Dubai, Smart Home Interior designer Design Downtown, Smart Home Interior company Design Downtown, Smart Home Interior contractor Design Downtown, Affordable smart home interior Design Downtown, Modern smart home interior Design Downtown, Smart Home Interior consultation Design Downtown, Smart Home Interior cost Design Downtown, Smart Home Interior price Design Downtown, Top smart home interior Design Downtown
+
+// SEO Keywords: Smart Home Interior Design Downtown, Smart Home Interior in Design Downtown, Best smart home interior Design Downtown, Professional smart home interior Design Downtown, Luxury smart home interior Design Downtown, Smart Home Interior Design Downtown Dubai, Smart Home Interior designer Design Downtown, Smart Home Interior company Design Downtown, Smart Home Interior contractor Design Downtown, Affordable smart home interior Design Downtown, Modern smart home interior Design Downtown, Smart Home Interior consultation Design Downtown, Smart Home Interior cost Design Downtown, Smart Home Interior price Design Downtown, Top smart home interior Design Downtown, Smart Home Interior near Design Downtown, Smart Home Interior specialists Design Downtown, Smart Home Interior experts Design Downtown, Smart Home Interior solutions Design Downtown, Smart Home Interior packages Design Downtown, Smart Home Interior quotes Design Downtown, Smart Home Interior estimates Design Downtown, Smart Home Interior services near me Design Downtown, Cheap Smart Home Interior Design Downtown, Quality Smart Home Interior Design Downtown, Trusted Smart Home Interior Design Downtown, Smart Home Interior transformation Design Downtown, Smart Home Interior renovation Design Downtown, Smart Home Interior makeover Design Downtown, Best Smart Home Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home Interior in Design Downtown. Best smart home interior Design Downtown Company Design Downtown Our luxury smart home interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

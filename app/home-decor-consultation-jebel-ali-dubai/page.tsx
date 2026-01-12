@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Jebel Ali, Home Decor Consultation in Jebel Ali, Best home decor consultation Jebel Ali, Professional home decor consultation Jebel Ali, Luxury home decor consultation Jebel Ali, Home Decor Consultation Jebel Ali Dubai, Home Decor Consultation designer Jebel Ali, Home Decor Consultation company Jebel Ali, Home Decor Consultation contractor Jebel Ali, Affordable home decor consultation Jebel Ali, Modern home decor consultation Jebel Ali, Home Decor Consultation consultation Jebel Ali, Home Decor Consultation cost Jebel Ali, Home Decor Consultation price Jebel Ali, Top home decor consultation Jebel Ali
+
+// SEO Keywords: Home Decor Consultation Jebel Ali, Home Decor Consultation in Jebel Ali, Best home decor consultation Jebel Ali, Professional home decor consultation Jebel Ali, Luxury home decor consultation Jebel Ali, Home Decor Consultation Jebel Ali Dubai, Home Decor Consultation designer Jebel Ali, Home Decor Consultation company Jebel Ali, Home Decor Consultation contractor Jebel Ali, Affordable home decor consultation Jebel Ali, Modern home decor consultation Jebel Ali, Home Decor Consultation consultation Jebel Ali, Home Decor Consultation cost Jebel Ali, Home Decor Consultation price Jebel Ali, Top home decor consultation Jebel Ali, Home Decor Consultation near Jebel Ali, Home Decor Consultation specialists Jebel Ali, Home Decor Consultation experts Jebel Ali, Home Decor Consultation solutions Jebel Ali, Home Decor Consultation packages Jebel Ali, Home Decor Consultation quotes Jebel Ali, Home Decor Consultation estimates Jebel Ali, Home Decor Consultation services near me Jebel Ali, Cheap Home Decor Consultation Jebel Ali, Quality Home Decor Consultation Jebel Ali, Trusted Home Decor Consultation Jebel Ali, Home Decor Consultation transformation Jebel Ali, Home Decor Consultation renovation Jebel Ali, Home Decor Consultation makeover Jebel Ali, Best Home Decor Consultation company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Jebel Ali. Best home decor consultation Jebel Ali Company Jebel Ali Our luxury home decor consultation jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

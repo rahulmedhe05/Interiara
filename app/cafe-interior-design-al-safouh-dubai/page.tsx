@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Al Safouh, Cafe Interior Design in Al Safouh, Best cafe interior design Al Safouh, Professional cafe interior design Al Safouh, Luxury cafe interior design Al Safouh, Cafe Interior Design Al Safouh Dubai, Cafe Interior Design designer Al Safouh, Cafe Interior Design company Al Safouh, Cafe Interior Design contractor Al Safouh, Affordable cafe interior design Al Safouh, Modern cafe interior design Al Safouh, Cafe Interior Design consultation Al Safouh, Cafe Interior Design cost Al Safouh, Cafe Interior Design price Al Safouh, Top cafe interior design Al Safouh
+
+// SEO Keywords: Cafe Interior Design Al Safouh, Cafe Interior Design in Al Safouh, Best cafe interior design Al Safouh, Professional cafe interior design Al Safouh, Luxury cafe interior design Al Safouh, Cafe Interior Design Al Safouh Dubai, Cafe Interior Design designer Al Safouh, Cafe Interior Design company Al Safouh, Cafe Interior Design contractor Al Safouh, Affordable cafe interior design Al Safouh, Modern cafe interior design Al Safouh, Cafe Interior Design consultation Al Safouh, Cafe Interior Design cost Al Safouh, Cafe Interior Design price Al Safouh, Top cafe interior design Al Safouh, Cafe Interior Design near Al Safouh, Cafe Interior Design specialists Al Safouh, Cafe Interior Design experts Al Safouh, Cafe Interior Design solutions Al Safouh, Cafe Interior Design packages Al Safouh, Cafe Interior Design quotes Al Safouh, Cafe Interior Design estimates Al Safouh, Cafe Interior Design services near me Al Safouh, Cheap Cafe Interior Design Al Safouh, Quality Cafe Interior Design Al Safouh, Trusted Cafe Interior Design Al Safouh, Cafe Interior Design transformation Al Safouh, Cafe Interior Design renovation Al Safouh, Cafe Interior Design makeover Al Safouh, Best Cafe Interior Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CafeInteriorDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior design Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Cafe Interior Design in Al Safouh. Best cafe interior design Al Safouh Company Al Safouh Our luxury cafe interior design al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CafeInteriorDesignAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our cafe interior design in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CafeInteriorDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in cafe interior design near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Business Bay, Affordable Interior Solutions in Business Bay, Best affordable interior solutions Business Bay, Professional affordable interior solutions Business Bay, Luxury affordable interior solutions Business Bay, Affordable Interior Solutions Business Bay Dubai, Affordable Interior Solutions designer Business Bay, Affordable Interior Solutions company Business Bay, Affordable Interior Solutions contractor Business Bay, Affordable affordable interior solutions Business Bay, Modern affordable interior solutions Business Bay, Affordable Interior Solutions consultation Business Bay, Affordable Interior Solutions cost Business Bay, Affordable Interior Solutions price Business Bay, Top affordable interior solutions Business Bay
+
+// SEO Keywords: Affordable Interior Solutions Business Bay, Affordable Interior Solutions in Business Bay, Best affordable interior solutions Business Bay, Professional affordable interior solutions Business Bay, Luxury affordable interior solutions Business Bay, Affordable Interior Solutions Business Bay Dubai, Affordable Interior Solutions designer Business Bay, Affordable Interior Solutions company Business Bay, Affordable Interior Solutions contractor Business Bay, Affordable affordable interior solutions Business Bay, Modern affordable interior solutions Business Bay, Affordable Interior Solutions consultation Business Bay, Affordable Interior Solutions cost Business Bay, Affordable Interior Solutions price Business Bay, Top affordable interior solutions Business Bay, Affordable Interior Solutions near Business Bay, Affordable Interior Solutions specialists Business Bay, Affordable Interior Solutions experts Business Bay, Affordable Interior Solutions solutions Business Bay, Affordable Interior Solutions packages Business Bay, Affordable Interior Solutions quotes Business Bay, Affordable Interior Solutions estimates Business Bay, Affordable Interior Solutions services near me Business Bay, Cheap Affordable Interior Solutions Business Bay, Quality Affordable Interior Solutions Business Bay, Trusted Affordable Interior Solutions Business Bay, Affordable Interior Solutions transformation Business Bay, Affordable Interior Solutions renovation Business Bay, Affordable Interior Solutions makeover Business Bay, Best Affordable Interior Solutions company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Business Bay. Best affordable interior solutions Business Bay Company Business Bay Our luxury affordable interior solutions business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

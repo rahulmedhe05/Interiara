@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Bur Dubai, Custom Furniture Design in Bur Dubai, Best custom furniture design Bur Dubai, Professional custom furniture design Bur Dubai, Luxury custom furniture design Bur Dubai, Custom Furniture Design Bur Dubai Dubai, Custom Furniture Design designer Bur Dubai, Custom Furniture Design company Bur Dubai, Custom Furniture Design contractor Bur Dubai, Affordable custom furniture design Bur Dubai, Modern custom furniture design Bur Dubai, Custom Furniture Design consultation Bur Dubai, Custom Furniture Design cost Bur Dubai, Custom Furniture Design price Bur Dubai, Top custom furniture design Bur Dubai
+
+// SEO Keywords: Custom Furniture Design Bur Dubai, Custom Furniture Design in Bur Dubai, Best custom furniture design Bur Dubai, Professional custom furniture design Bur Dubai, Luxury custom furniture design Bur Dubai, Custom Furniture Design Bur Dubai Dubai, Custom Furniture Design designer Bur Dubai, Custom Furniture Design company Bur Dubai, Custom Furniture Design contractor Bur Dubai, Affordable custom furniture design Bur Dubai, Modern custom furniture design Bur Dubai, Custom Furniture Design consultation Bur Dubai, Custom Furniture Design cost Bur Dubai, Custom Furniture Design price Bur Dubai, Top custom furniture design Bur Dubai, Custom Furniture Design near Bur Dubai, Custom Furniture Design specialists Bur Dubai, Custom Furniture Design experts Bur Dubai, Custom Furniture Design solutions Bur Dubai, Custom Furniture Design packages Bur Dubai, Custom Furniture Design quotes Bur Dubai, Custom Furniture Design estimates Bur Dubai, Custom Furniture Design services near me Bur Dubai, Cheap Custom Furniture Design Bur Dubai, Quality Custom Furniture Design Bur Dubai, Trusted Custom Furniture Design Bur Dubai, Custom Furniture Design transformation Bur Dubai, Custom Furniture Design renovation Bur Dubai, Custom Furniture Design makeover Bur Dubai, Best Custom Furniture Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Bur Dubai. Best custom furniture design Bur Dubai Company Bur Dubai Our luxury custom furniture design bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

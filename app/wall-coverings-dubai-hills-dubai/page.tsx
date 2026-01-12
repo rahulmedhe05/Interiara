@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Dubai Hills, Wall Coverings in Dubai Hills, Best wall coverings Dubai Hills, Professional wall coverings Dubai Hills, Luxury wall coverings Dubai Hills, Wall Coverings Dubai Hills Dubai, Wall Coverings designer Dubai Hills, Wall Coverings company Dubai Hills, Wall Coverings contractor Dubai Hills, Affordable wall coverings Dubai Hills, Modern wall coverings Dubai Hills, Wall Coverings consultation Dubai Hills, Wall Coverings cost Dubai Hills, Wall Coverings price Dubai Hills, Top wall coverings Dubai Hills
+
+// SEO Keywords: Wall Coverings Dubai Hills, Wall Coverings in Dubai Hills, Best wall coverings Dubai Hills, Professional wall coverings Dubai Hills, Luxury wall coverings Dubai Hills, Wall Coverings Dubai Hills Dubai, Wall Coverings designer Dubai Hills, Wall Coverings company Dubai Hills, Wall Coverings contractor Dubai Hills, Affordable wall coverings Dubai Hills, Modern wall coverings Dubai Hills, Wall Coverings consultation Dubai Hills, Wall Coverings cost Dubai Hills, Wall Coverings price Dubai Hills, Top wall coverings Dubai Hills, Wall Coverings near Dubai Hills, Wall Coverings specialists Dubai Hills, Wall Coverings experts Dubai Hills, Wall Coverings solutions Dubai Hills, Wall Coverings packages Dubai Hills, Wall Coverings quotes Dubai Hills, Wall Coverings estimates Dubai Hills, Wall Coverings services near me Dubai Hills, Cheap Wall Coverings Dubai Hills, Quality Wall Coverings Dubai Hills, Trusted Wall Coverings Dubai Hills, Wall Coverings transformation Dubai Hills, Wall Coverings renovation Dubai Hills, Wall Coverings makeover Dubai Hills, Best Wall Coverings company Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Dubai Hills Company Dubai Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings in Dubai Hills. Best wall coverings Dubai Hills Company Dubai Hills Our professional wall coverings dubai hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function WallCoveringsDubaiHills() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Hills Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Hills Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings Dubai Hills. 
                 We've completed 300+ successful projects across Hills Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Hills Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function WallCoveringsDubaiHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings in dubai hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsDubaiHills() {
 
               <p>
                 Interiara stands out in the crowded Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings near dubai hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsDubaiHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

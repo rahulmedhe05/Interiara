@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Palm Jumeirah, Wall Flooring Design in Palm Jumeirah, Best wall flooring design Palm Jumeirah, Professional wall flooring design Palm Jumeirah, Luxury wall flooring design Palm Jumeirah, Wall Flooring Design Palm Jumeirah Dubai, Wall Flooring Design designer Palm Jumeirah, Wall Flooring Design company Palm Jumeirah, Wall Flooring Design contractor Palm Jumeirah, Affordable wall flooring design Palm Jumeirah, Modern wall flooring design Palm Jumeirah, Wall Flooring Design consultation Palm Jumeirah, Wall Flooring Design cost Palm Jumeirah, Wall Flooring Design price Palm Jumeirah, Top wall flooring design Palm Jumeirah
+
+// SEO Keywords: Wall Flooring Design Palm Jumeirah, Wall Flooring Design in Palm Jumeirah, Best wall flooring design Palm Jumeirah, Professional wall flooring design Palm Jumeirah, Luxury wall flooring design Palm Jumeirah, Wall Flooring Design Palm Jumeirah Dubai, Wall Flooring Design designer Palm Jumeirah, Wall Flooring Design company Palm Jumeirah, Wall Flooring Design contractor Palm Jumeirah, Affordable wall flooring design Palm Jumeirah, Modern wall flooring design Palm Jumeirah, Wall Flooring Design consultation Palm Jumeirah, Wall Flooring Design cost Palm Jumeirah, Wall Flooring Design price Palm Jumeirah, Top wall flooring design Palm Jumeirah, Wall Flooring Design near Palm Jumeirah, Wall Flooring Design specialists Palm Jumeirah, Wall Flooring Design experts Palm Jumeirah, Wall Flooring Design solutions Palm Jumeirah, Wall Flooring Design packages Palm Jumeirah, Wall Flooring Design quotes Palm Jumeirah, Wall Flooring Design estimates Palm Jumeirah, Wall Flooring Design services near me Palm Jumeirah, Cheap Wall Flooring Design Palm Jumeirah, Quality Wall Flooring Design Palm Jumeirah, Trusted Wall Flooring Design Palm Jumeirah, Wall Flooring Design transformation Palm Jumeirah, Wall Flooring Design renovation Palm Jumeirah, Wall Flooring Design makeover Palm Jumeirah, Best Wall Flooring Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Palm Jumeirah. Best wall flooring design Palm Jumeirah Company Palm Jumeirah Our luxury wall flooring design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

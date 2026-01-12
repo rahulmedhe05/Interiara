@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Bur, Modular in Kitchens Bur, Best modular Kitchens Bur, Professional modular Kitchens Bur, Luxury modular Kitchens Bur, Modular Kitchens Bur Dubai, Modular designer Kitchens Bur, Modular company Kitchens Bur, Modular contractor Kitchens Bur, Affordable modular Kitchens Bur, Modern modular Kitchens Bur, Modular consultation Kitchens Bur, Modular cost Kitchens Bur, Modular price Kitchens Bur, Top modular Kitchens Bur
+
+// SEO Keywords: Modular Kitchens Bur, Modular in Kitchens Bur, Best modular Kitchens Bur, Professional modular Kitchens Bur, Luxury modular Kitchens Bur, Modular Kitchens Bur Dubai, Modular designer Kitchens Bur, Modular company Kitchens Bur, Modular contractor Kitchens Bur, Affordable modular Kitchens Bur, Modern modular Kitchens Bur, Modular consultation Kitchens Bur, Modular cost Kitchens Bur, Modular price Kitchens Bur, Top modular Kitchens Bur, Modular near Kitchens Bur, Modular specialists Kitchens Bur, Modular experts Kitchens Bur, Modular solutions Kitchens Bur, Modular packages Kitchens Bur, Modular quotes Kitchens Bur, Modular estimates Kitchens Bur, Modular services near me Kitchens Bur, Cheap Modular Kitchens Bur, Quality Modular Kitchens Bur, Trusted Modular Kitchens Bur, Modular transformation Kitchens Bur, Modular renovation Kitchens Bur, Modular makeover Kitchens Bur, Best Modular company Kitchens Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensBur() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular in Kitchens Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular in kitchens bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular near kitchens bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design, Terrace in Interior Design, Best terrace Interior Design, Professional terrace Interior Design, Luxury terrace Interior Design, Terrace Interior Design Dubai, Terrace designer Interior Design, Terrace company Interior Design, Terrace contractor Interior Design, Affordable terrace Interior Design, Modern terrace Interior Design, Terrace consultation Interior Design, Terrace cost Interior Design, Terrace price Interior Design, Top terrace Interior Design
+
+// SEO Keywords: Terrace Interior Design, Terrace in Interior Design, Best terrace Interior Design, Professional terrace Interior Design, Luxury terrace Interior Design, Terrace Interior Design Dubai, Terrace designer Interior Design, Terrace company Interior Design, Terrace contractor Interior Design, Affordable terrace Interior Design, Modern terrace Interior Design, Terrace consultation Interior Design, Terrace cost Interior Design, Terrace price Interior Design, Top terrace Interior Design, Terrace near Interior Design, Terrace specialists Interior Design, Terrace experts Interior Design, Terrace solutions Interior Design, Terrace packages Interior Design, Terrace quotes Interior Design, Terrace estimates Interior Design, Terrace services near me Interior Design, Cheap Terrace Interior Design, Quality Terrace Interior Design, Trusted Terrace Interior Design, Terrace transformation Interior Design, Terrace renovation Interior Design, Terrace makeover Interior Design, Best Terrace company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace in Interior Design. Best terrace Interior Design Company Interior Design Our luxury terrace interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Heights Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

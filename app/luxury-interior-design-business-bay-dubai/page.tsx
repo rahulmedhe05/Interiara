@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Business Bay, Luxury Interior Design in Business Bay, Best luxury interior design Business Bay, Professional luxury interior design Business Bay, Luxury luxury interior design Business Bay, Luxury Interior Design Business Bay Dubai, Luxury Interior Design designer Business Bay, Luxury Interior Design company Business Bay, Luxury Interior Design contractor Business Bay, Affordable luxury interior design Business Bay, Modern luxury interior design Business Bay, Luxury Interior Design consultation Business Bay, Luxury Interior Design cost Business Bay, Luxury Interior Design price Business Bay, Top luxury interior design Business Bay
+
+// SEO Keywords: Luxury Interior Design Business Bay, Luxury Interior Design in Business Bay, Best luxury interior design Business Bay, Professional luxury interior design Business Bay, Luxury luxury interior design Business Bay, Luxury Interior Design Business Bay Dubai, Luxury Interior Design designer Business Bay, Luxury Interior Design company Business Bay, Luxury Interior Design contractor Business Bay, Affordable luxury interior design Business Bay, Modern luxury interior design Business Bay, Luxury Interior Design consultation Business Bay, Luxury Interior Design cost Business Bay, Luxury Interior Design price Business Bay, Top luxury interior design Business Bay, Luxury Interior Design near Business Bay, Luxury Interior Design specialists Business Bay, Luxury Interior Design experts Business Bay, Luxury Interior Design solutions Business Bay, Luxury Interior Design packages Business Bay, Luxury Interior Design quotes Business Bay, Luxury Interior Design estimates Business Bay, Luxury Interior Design services near me Business Bay, Cheap Luxury Interior Design Business Bay, Quality Luxury Interior Design Business Bay, Trusted Luxury Interior Design Business Bay, Luxury Interior Design transformation Business Bay, Luxury Interior Design renovation Business Bay, Luxury Interior Design makeover Business Bay, Best Luxury Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior Design in Business Bay. Best luxury interior design Business Bay Company Business Bay Our luxury luxury interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

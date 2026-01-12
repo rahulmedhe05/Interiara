@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Arabian Ranches, Closet Design in Arabian Ranches, Best closet design Arabian Ranches, Professional closet design Arabian Ranches, Luxury closet design Arabian Ranches, Closet Design Arabian Ranches Dubai, Closet Design designer Arabian Ranches, Closet Design company Arabian Ranches, Closet Design contractor Arabian Ranches, Affordable closet design Arabian Ranches, Modern closet design Arabian Ranches, Closet Design consultation Arabian Ranches, Closet Design cost Arabian Ranches, Closet Design price Arabian Ranches, Top closet design Arabian Ranches
+
+// SEO Keywords: Closet Design Arabian Ranches, Closet Design in Arabian Ranches, Best closet design Arabian Ranches, Professional closet design Arabian Ranches, Luxury closet design Arabian Ranches, Closet Design Arabian Ranches Dubai, Closet Design designer Arabian Ranches, Closet Design company Arabian Ranches, Closet Design contractor Arabian Ranches, Affordable closet design Arabian Ranches, Modern closet design Arabian Ranches, Closet Design consultation Arabian Ranches, Closet Design cost Arabian Ranches, Closet Design price Arabian Ranches, Top closet design Arabian Ranches, Closet Design near Arabian Ranches, Closet Design specialists Arabian Ranches, Closet Design experts Arabian Ranches, Closet Design solutions Arabian Ranches, Closet Design packages Arabian Ranches, Closet Design quotes Arabian Ranches, Closet Design estimates Arabian Ranches, Closet Design services near me Arabian Ranches, Cheap Closet Design Arabian Ranches, Quality Closet Design Arabian Ranches, Trusted Closet Design Arabian Ranches, Closet Design transformation Arabian Ranches, Closet Design renovation Arabian Ranches, Closet Design makeover Arabian Ranches, Best Closet Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet Design in Arabian Ranches. Best closet design Arabian Ranches Company Arabian Ranches Our luxury closet design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design Jvt, Dining Room Interior in Design Jvt, Best dining room interior Design Jvt, Professional dining room interior Design Jvt, Luxury dining room interior Design Jvt, Dining Room Interior Design Jvt Dubai, Dining Room Interior designer Design Jvt, Dining Room Interior company Design Jvt, Dining Room Interior contractor Design Jvt, Affordable dining room interior Design Jvt, Modern dining room interior Design Jvt, Dining Room Interior consultation Design Jvt, Dining Room Interior cost Design Jvt, Dining Room Interior price Design Jvt, Top dining room interior Design Jvt
+
+// SEO Keywords: Dining Room Interior Design Jvt, Dining Room Interior in Design Jvt, Best dining room interior Design Jvt, Professional dining room interior Design Jvt, Luxury dining room interior Design Jvt, Dining Room Interior Design Jvt Dubai, Dining Room Interior designer Design Jvt, Dining Room Interior company Design Jvt, Dining Room Interior contractor Design Jvt, Affordable dining room interior Design Jvt, Modern dining room interior Design Jvt, Dining Room Interior consultation Design Jvt, Dining Room Interior cost Design Jvt, Dining Room Interior price Design Jvt, Top dining room interior Design Jvt, Dining Room Interior near Design Jvt, Dining Room Interior specialists Design Jvt, Dining Room Interior experts Design Jvt, Dining Room Interior solutions Design Jvt, Dining Room Interior packages Design Jvt, Dining Room Interior quotes Design Jvt, Dining Room Interior estimates Design Jvt, Dining Room Interior services near me Design Jvt, Cheap Dining Room Interior Design Jvt, Quality Dining Room Interior Design Jvt, Trusted Dining Room Interior Design Jvt, Dining Room Interior transformation Design Jvt, Dining Room Interior renovation Design Jvt, Dining Room Interior makeover Design Jvt, Best Dining Room Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room Interior in Design Jvt. Best dining room interior Design Jvt Company Design Jvt Our luxury dining room interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function DiningRoomInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Dining Room Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Dining Room Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Dining Room Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

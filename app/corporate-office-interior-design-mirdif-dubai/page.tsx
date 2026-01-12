@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Mirdif, Corporate Office Interior in Design Mirdif, Best corporate office interior Design Mirdif, Professional corporate office interior Design Mirdif, Luxury corporate office interior Design Mirdif, Corporate Office Interior Design Mirdif Dubai, Corporate Office Interior designer Design Mirdif, Corporate Office Interior company Design Mirdif, Corporate Office Interior contractor Design Mirdif, Affordable corporate office interior Design Mirdif, Modern corporate office interior Design Mirdif, Corporate Office Interior consultation Design Mirdif, Corporate Office Interior cost Design Mirdif, Corporate Office Interior price Design Mirdif, Top corporate office interior Design Mirdif
+
+// SEO Keywords: Corporate Office Interior Design Mirdif, Corporate Office Interior in Design Mirdif, Best corporate office interior Design Mirdif, Professional corporate office interior Design Mirdif, Luxury corporate office interior Design Mirdif, Corporate Office Interior Design Mirdif Dubai, Corporate Office Interior designer Design Mirdif, Corporate Office Interior company Design Mirdif, Corporate Office Interior contractor Design Mirdif, Affordable corporate office interior Design Mirdif, Modern corporate office interior Design Mirdif, Corporate Office Interior consultation Design Mirdif, Corporate Office Interior cost Design Mirdif, Corporate Office Interior price Design Mirdif, Top corporate office interior Design Mirdif, Corporate Office Interior near Design Mirdif, Corporate Office Interior specialists Design Mirdif, Corporate Office Interior experts Design Mirdif, Corporate Office Interior solutions Design Mirdif, Corporate Office Interior packages Design Mirdif, Corporate Office Interior quotes Design Mirdif, Corporate Office Interior estimates Design Mirdif, Corporate Office Interior services near me Design Mirdif, Cheap Corporate Office Interior Design Mirdif, Quality Corporate Office Interior Design Mirdif, Trusted Corporate Office Interior Design Mirdif, Corporate Office Interior transformation Design Mirdif, Corporate Office Interior renovation Design Mirdif, Corporate Office Interior makeover Design Mirdif, Best Corporate Office Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior in Design Mirdif. Best corporate office interior Design Mirdif Company Design Mirdif Our luxury corporate office interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

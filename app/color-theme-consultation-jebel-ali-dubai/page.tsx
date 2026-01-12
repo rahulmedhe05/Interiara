@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Jebel Ali, Color Theme Consultation in Jebel Ali, Best color theme consultation Jebel Ali, Professional color theme consultation Jebel Ali, Luxury color theme consultation Jebel Ali, Color Theme Consultation Jebel Ali Dubai, Color Theme Consultation designer Jebel Ali, Color Theme Consultation company Jebel Ali, Color Theme Consultation contractor Jebel Ali, Affordable color theme consultation Jebel Ali, Modern color theme consultation Jebel Ali, Color Theme Consultation consultation Jebel Ali, Color Theme Consultation cost Jebel Ali, Color Theme Consultation price Jebel Ali, Top color theme consultation Jebel Ali
+
+// SEO Keywords: Color Theme Consultation Jebel Ali, Color Theme Consultation in Jebel Ali, Best color theme consultation Jebel Ali, Professional color theme consultation Jebel Ali, Luxury color theme consultation Jebel Ali, Color Theme Consultation Jebel Ali Dubai, Color Theme Consultation designer Jebel Ali, Color Theme Consultation company Jebel Ali, Color Theme Consultation contractor Jebel Ali, Affordable color theme consultation Jebel Ali, Modern color theme consultation Jebel Ali, Color Theme Consultation consultation Jebel Ali, Color Theme Consultation cost Jebel Ali, Color Theme Consultation price Jebel Ali, Top color theme consultation Jebel Ali, Color Theme Consultation near Jebel Ali, Color Theme Consultation specialists Jebel Ali, Color Theme Consultation experts Jebel Ali, Color Theme Consultation solutions Jebel Ali, Color Theme Consultation packages Jebel Ali, Color Theme Consultation quotes Jebel Ali, Color Theme Consultation estimates Jebel Ali, Color Theme Consultation services near me Jebel Ali, Cheap Color Theme Consultation Jebel Ali, Quality Color Theme Consultation Jebel Ali, Trusted Color Theme Consultation Jebel Ali, Color Theme Consultation transformation Jebel Ali, Color Theme Consultation renovation Jebel Ali, Color Theme Consultation makeover Jebel Ali, Best Color Theme Consultation company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Jebel Ali. Best color theme consultation Jebel Ali Company Jebel Ali Our luxury color theme consultation jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

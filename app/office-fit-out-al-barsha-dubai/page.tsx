@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Al Barsha, Office Fit Out in Al Barsha, Best office fit out Al Barsha, Professional office fit out Al Barsha, Luxury office fit out Al Barsha, Office Fit Out Al Barsha Dubai, Office Fit Out designer Al Barsha, Office Fit Out company Al Barsha, Office Fit Out contractor Al Barsha, Affordable office fit out Al Barsha, Modern office fit out Al Barsha, Office Fit Out consultation Al Barsha, Office Fit Out cost Al Barsha, Office Fit Out price Al Barsha, Top office fit out Al Barsha
+
+// SEO Keywords: Office Fit Out Al Barsha, Office Fit Out in Al Barsha, Best office fit out Al Barsha, Professional office fit out Al Barsha, Luxury office fit out Al Barsha, Office Fit Out Al Barsha Dubai, Office Fit Out designer Al Barsha, Office Fit Out company Al Barsha, Office Fit Out contractor Al Barsha, Affordable office fit out Al Barsha, Modern office fit out Al Barsha, Office Fit Out consultation Al Barsha, Office Fit Out cost Al Barsha, Office Fit Out price Al Barsha, Top office fit out Al Barsha, Office Fit Out near Al Barsha, Office Fit Out specialists Al Barsha, Office Fit Out experts Al Barsha, Office Fit Out solutions Al Barsha, Office Fit Out packages Al Barsha, Office Fit Out quotes Al Barsha, Office Fit Out estimates Al Barsha, Office Fit Out services near me Al Barsha, Cheap Office Fit Out Al Barsha, Quality Office Fit Out Al Barsha, Trusted Office Fit Out Al Barsha, Office Fit Out transformation Al Barsha, Office Fit Out renovation Al Barsha, Office Fit Out makeover Al Barsha, Best Office Fit Out company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

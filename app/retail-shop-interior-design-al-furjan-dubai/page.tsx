@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Retail Shop Interior Design Al Furjan, Retail Shop Interior Design in Al Furjan, Best retail shop interior design Al Furjan, Professional retail shop interior design Al Furjan, Luxury retail shop interior design Al Furjan, Retail Shop Interior Design Al Furjan Dubai, Retail Shop Interior Design designer Al Furjan, Retail Shop Interior Design company Al Furjan, Retail Shop Interior Design contractor Al Furjan, Affordable retail shop interior design Al Furjan, Modern retail shop interior design Al Furjan, Retail Shop Interior Design consultation Al Furjan, Retail Shop Interior Design cost Al Furjan, Retail Shop Interior Design price Al Furjan, Top retail shop interior design Al Furjan
+
+// SEO Keywords: Retail Shop Interior Design Al Furjan, Retail Shop Interior Design in Al Furjan, Best retail shop interior design Al Furjan, Professional retail shop interior design Al Furjan, Luxury retail shop interior design Al Furjan, Retail Shop Interior Design Al Furjan Dubai, Retail Shop Interior Design designer Al Furjan, Retail Shop Interior Design company Al Furjan, Retail Shop Interior Design contractor Al Furjan, Affordable retail shop interior design Al Furjan, Modern retail shop interior design Al Furjan, Retail Shop Interior Design consultation Al Furjan, Retail Shop Interior Design cost Al Furjan, Retail Shop Interior Design price Al Furjan, Top retail shop interior design Al Furjan, Retail Shop Interior Design near Al Furjan, Retail Shop Interior Design specialists Al Furjan, Retail Shop Interior Design experts Al Furjan, Retail Shop Interior Design solutions Al Furjan, Retail Shop Interior Design packages Al Furjan, Retail Shop Interior Design quotes Al Furjan, Retail Shop Interior Design estimates Al Furjan, Retail Shop Interior Design services near me Al Furjan, Cheap Retail Shop Interior Design Al Furjan, Quality Retail Shop Interior Design Al Furjan, Trusted Retail Shop Interior Design Al Furjan, Retail Shop Interior Design transformation Al Furjan, Retail Shop Interior Design renovation Al Furjan, Retail Shop Interior Design makeover Al Furjan, Best Retail Shop Interior Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RetailShopInteriorDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Retail Shop Interior Design in Al Furjan. Best retail shop interior design Al Furjan Company Al Furjan Our luxury retail shop interior design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RetailShopInteriorDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our retail shop interior design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RetailShopInteriorDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in retail shop interior design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RetailShopInteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Retail Shop Interior Design Bur, Retail Shop Interior in Design Bur, Best retail shop interior Design Bur, Professional retail shop interior Design Bur, Luxury retail shop interior Design Bur, Retail Shop Interior Design Bur Dubai, Retail Shop Interior designer Design Bur, Retail Shop Interior company Design Bur, Retail Shop Interior contractor Design Bur, Affordable retail shop interior Design Bur, Modern retail shop interior Design Bur, Retail Shop Interior consultation Design Bur, Retail Shop Interior cost Design Bur, Retail Shop Interior price Design Bur, Top retail shop interior Design Bur
+
+// SEO Keywords: Retail Shop Interior Design Bur, Retail Shop Interior in Design Bur, Best retail shop interior Design Bur, Professional retail shop interior Design Bur, Luxury retail shop interior Design Bur, Retail Shop Interior Design Bur Dubai, Retail Shop Interior designer Design Bur, Retail Shop Interior company Design Bur, Retail Shop Interior contractor Design Bur, Affordable retail shop interior Design Bur, Modern retail shop interior Design Bur, Retail Shop Interior consultation Design Bur, Retail Shop Interior cost Design Bur, Retail Shop Interior price Design Bur, Top retail shop interior Design Bur, Retail Shop Interior near Design Bur, Retail Shop Interior specialists Design Bur, Retail Shop Interior experts Design Bur, Retail Shop Interior solutions Design Bur, Retail Shop Interior packages Design Bur, Retail Shop Interior quotes Design Bur, Retail Shop Interior estimates Design Bur, Retail Shop Interior services near me Design Bur, Cheap Retail Shop Interior Design Bur, Quality Retail Shop Interior Design Bur, Trusted Retail Shop Interior Design Bur, Retail Shop Interior transformation Design Bur, Retail Shop Interior renovation Design Bur, Retail Shop Interior makeover Design Bur, Best Retail Shop Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RetailShopInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Retail Shop Interior in Design Bur. Best retail shop interior Design Bur Company Design Bur Our luxury retail shop interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RetailShopInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our retail shop interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RetailShopInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in retail shop interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RetailShopInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

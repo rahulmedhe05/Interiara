@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Furjan, Closet Design in Al Furjan, Best closet design Al Furjan, Professional closet design Al Furjan, Luxury closet design Al Furjan, Closet Design Al Furjan Dubai, Closet Design designer Al Furjan, Closet Design company Al Furjan, Closet Design contractor Al Furjan, Affordable closet design Al Furjan, Modern closet design Al Furjan, Closet Design consultation Al Furjan, Closet Design cost Al Furjan, Closet Design price Al Furjan, Top closet design Al Furjan
+
+// SEO Keywords: Closet Design Al Furjan, Closet Design in Al Furjan, Best closet design Al Furjan, Professional closet design Al Furjan, Luxury closet design Al Furjan, Closet Design Al Furjan Dubai, Closet Design designer Al Furjan, Closet Design company Al Furjan, Closet Design contractor Al Furjan, Affordable closet design Al Furjan, Modern closet design Al Furjan, Closet Design consultation Al Furjan, Closet Design cost Al Furjan, Closet Design price Al Furjan, Top closet design Al Furjan, Closet Design near Al Furjan, Closet Design specialists Al Furjan, Closet Design experts Al Furjan, Closet Design solutions Al Furjan, Closet Design packages Al Furjan, Closet Design quotes Al Furjan, Closet Design estimates Al Furjan, Closet Design services near me Al Furjan, Cheap Closet Design Al Furjan, Quality Closet Design Al Furjan, Trusted Closet Design Al Furjan, Closet Design transformation Al Furjan, Closet Design renovation Al Furjan, Closet Design makeover Al Furjan, Best Closet Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Closet Design Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Jaddaf, Art Consultation in Al Jaddaf, Best art consultation Al Jaddaf, Professional art consultation Al Jaddaf, Luxury art consultation Al Jaddaf, Art Consultation Al Jaddaf Dubai, Art Consultation designer Al Jaddaf, Art Consultation company Al Jaddaf, Art Consultation contractor Al Jaddaf, Affordable art consultation Al Jaddaf, Modern art consultation Al Jaddaf, Art Consultation consultation Al Jaddaf, Art Consultation cost Al Jaddaf, Art Consultation price Al Jaddaf, Top art consultation Al Jaddaf
+
+// SEO Keywords: Art Consultation Al Jaddaf, Art Consultation in Al Jaddaf, Best art consultation Al Jaddaf, Professional art consultation Al Jaddaf, Luxury art consultation Al Jaddaf, Art Consultation Al Jaddaf Dubai, Art Consultation designer Al Jaddaf, Art Consultation company Al Jaddaf, Art Consultation contractor Al Jaddaf, Affordable art consultation Al Jaddaf, Modern art consultation Al Jaddaf, Art Consultation consultation Al Jaddaf, Art Consultation cost Al Jaddaf, Art Consultation price Al Jaddaf, Top art consultation Al Jaddaf, Art Consultation near Al Jaddaf, Art Consultation specialists Al Jaddaf, Art Consultation experts Al Jaddaf, Art Consultation solutions Al Jaddaf, Art Consultation packages Al Jaddaf, Art Consultation quotes Al Jaddaf, Art Consultation estimates Al Jaddaf, Art Consultation services near me Al Jaddaf, Cheap Art Consultation Al Jaddaf, Quality Art Consultation Al Jaddaf, Trusted Art Consultation Al Jaddaf, Art Consultation transformation Al Jaddaf, Art Consultation renovation Al Jaddaf, Art Consultation makeover Al Jaddaf, Best Art Consultation company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

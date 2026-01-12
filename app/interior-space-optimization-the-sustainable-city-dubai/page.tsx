@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Space Optimization The Sustainable City, Interior Space Optimization The in Sustainable City, Best interior space optimization the Sustainable City, Professional interior space optimization the Sustainable City, Luxury interior space optimization the Sustainable City, Interior Space Optimization The Sustainable City Dubai, Interior Space Optimization The designer Sustainable City, Interior Space Optimization The company Sustainable City, Interior Space Optimization The contractor Sustainable City, Affordable interior space optimization the Sustainable City, Modern interior space optimization the Sustainable City, Interior Space Optimization The consultation Sustainable City, Interior Space Optimization The cost Sustainable City, Interior Space Optimization The price Sustainable City, Top interior space optimization the Sustainable City
+
+// SEO Keywords: Interior Space Optimization The Sustainable City, Interior Space Optimization The in Sustainable City, Best interior space optimization the Sustainable City, Professional interior space optimization the Sustainable City, Luxury interior space optimization the Sustainable City, Interior Space Optimization The Sustainable City Dubai, Interior Space Optimization The designer Sustainable City, Interior Space Optimization The company Sustainable City, Interior Space Optimization The contractor Sustainable City, Affordable interior space optimization the Sustainable City, Modern interior space optimization the Sustainable City, Interior Space Optimization The consultation Sustainable City, Interior Space Optimization The cost Sustainable City, Interior Space Optimization The price Sustainable City, Top interior space optimization the Sustainable City, Interior Space Optimization The near Sustainable City, Interior Space Optimization The specialists Sustainable City, Interior Space Optimization The experts Sustainable City, Interior Space Optimization The solutions Sustainable City, Interior Space Optimization The packages Sustainable City, Interior Space Optimization The quotes Sustainable City, Interior Space Optimization The estimates Sustainable City, Interior Space Optimization The services near me Sustainable City, Cheap Interior Space Optimization The Sustainable City, Quality Interior Space Optimization The Sustainable City, Trusted Interior Space Optimization The Sustainable City, Interior Space Optimization The transformation Sustainable City, Interior Space Optimization The renovation Sustainable City, Interior Space Optimization The makeover Sustainable City, Best Interior Space Optimization The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorSpaceOptimizationTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Space Optimization The in Sustainable City. Best interior space optimization the Sustainable City Company Sustainable City Our luxury interior space optimization the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorSpaceOptimizationTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior space optimization the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorSpaceOptimizationTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior space optimization the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorSpaceOptimizationTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

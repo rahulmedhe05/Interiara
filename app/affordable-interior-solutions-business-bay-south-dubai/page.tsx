@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Business Bay South, Affordable Interior Solutions Business in Bay South, Best affordable interior solutions business Bay South, Professional affordable interior solutions business Bay South, Luxury affordable interior solutions business Bay South, Affordable Interior Solutions Business Bay South Dubai, Affordable Interior Solutions Business designer Bay South, Affordable Interior Solutions Business company Bay South, Affordable Interior Solutions Business contractor Bay South, Affordable affordable interior solutions business Bay South, Modern affordable interior solutions business Bay South, Affordable Interior Solutions Business consultation Bay South, Affordable Interior Solutions Business cost Bay South, Affordable Interior Solutions Business price Bay South, Top affordable interior solutions business Bay South
+
+// SEO Keywords: Affordable Interior Solutions Business Bay South, Affordable Interior Solutions Business in Bay South, Best affordable interior solutions business Bay South, Professional affordable interior solutions business Bay South, Luxury affordable interior solutions business Bay South, Affordable Interior Solutions Business Bay South Dubai, Affordable Interior Solutions Business designer Bay South, Affordable Interior Solutions Business company Bay South, Affordable Interior Solutions Business contractor Bay South, Affordable affordable interior solutions business Bay South, Modern affordable interior solutions business Bay South, Affordable Interior Solutions Business consultation Bay South, Affordable Interior Solutions Business cost Bay South, Affordable Interior Solutions Business price Bay South, Top affordable interior solutions business Bay South, Affordable Interior Solutions Business near Bay South, Affordable Interior Solutions Business specialists Bay South, Affordable Interior Solutions Business experts Bay South, Affordable Interior Solutions Business solutions Bay South, Affordable Interior Solutions Business packages Bay South, Affordable Interior Solutions Business quotes Bay South, Affordable Interior Solutions Business estimates Bay South, Affordable Interior Solutions Business services near me Bay South, Cheap Affordable Interior Solutions Business Bay South, Quality Affordable Interior Solutions Business Bay South, Trusted Affordable Interior Solutions Business Bay South, Affordable Interior Solutions Business transformation Bay South, Affordable Interior Solutions Business renovation Bay South, Affordable Interior Solutions Business makeover Bay South, Best Affordable Interior Solutions Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions Business in Bay South. Best affordable interior solutions business Bay South Company Bay South Our luxury affordable interior solutions business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

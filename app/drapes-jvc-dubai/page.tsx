@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Drapes Jvc,  in Drapes Jvc, Best  Drapes Jvc, Professional  Drapes Jvc, Luxury  Drapes Jvc,  Drapes Jvc Dubai,  designer Drapes Jvc,  company Drapes Jvc,  contractor Drapes Jvc, Affordable  Drapes Jvc, Modern  Drapes Jvc,  consultation Drapes Jvc,  cost Drapes Jvc,  price Drapes Jvc, Top  Drapes Jvc
+
+// SEO Keywords:  Drapes Jvc,  in Drapes Jvc, Best  Drapes Jvc, Professional  Drapes Jvc, Luxury  Drapes Jvc,  Drapes Jvc Dubai,  designer Drapes Jvc,  company Drapes Jvc,  contractor Drapes Jvc, Affordable  Drapes Jvc, Modern  Drapes Jvc,  consultation Drapes Jvc,  cost Drapes Jvc,  price Drapes Jvc, Top  Drapes Jvc,  near Drapes Jvc,  specialists Drapes Jvc,  experts Drapes Jvc,  solutions Drapes Jvc,  packages Drapes Jvc,  quotes Drapes Jvc,  estimates Drapes Jvc,  services near me Drapes Jvc, Cheap  Drapes Jvc, Quality  Drapes Jvc, Trusted  Drapes Jvc,  transformation Drapes Jvc,  renovation Drapes Jvc,  makeover Drapes Jvc, Best  company Drapes Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesJvc() {
                 At Interiara, we believe that exceptional <strong>Drapes JVC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Drapes Jvc.  Drapes Jvc. 
                 We've completed 300+ successful projects across JVC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes JVC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  drapes jvc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes JVC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesJvc() {
 
               <p>
                 Interiara stands out in the crowded JVC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  drapes jvc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near drapes jvc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesJvc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Dubai Hills Estate, Office Renovation Dubai in Hills Estate, Best office renovation dubai Hills Estate, Professional office renovation dubai Hills Estate, Luxury office renovation dubai Hills Estate, Office Renovation Dubai Hills Estate Dubai, Office Renovation Dubai designer Hills Estate, Office Renovation Dubai company Hills Estate, Office Renovation Dubai contractor Hills Estate, Affordable office renovation dubai Hills Estate, Modern office renovation dubai Hills Estate, Office Renovation Dubai consultation Hills Estate, Office Renovation Dubai cost Hills Estate, Office Renovation Dubai price Hills Estate, Top office renovation dubai Hills Estate
+
+// SEO Keywords: Office Renovation Dubai Hills Estate, Office Renovation Dubai in Hills Estate, Best office renovation dubai Hills Estate, Professional office renovation dubai Hills Estate, Luxury office renovation dubai Hills Estate, Office Renovation Dubai Hills Estate Dubai, Office Renovation Dubai designer Hills Estate, Office Renovation Dubai company Hills Estate, Office Renovation Dubai contractor Hills Estate, Affordable office renovation dubai Hills Estate, Modern office renovation dubai Hills Estate, Office Renovation Dubai consultation Hills Estate, Office Renovation Dubai cost Hills Estate, Office Renovation Dubai price Hills Estate, Top office renovation dubai Hills Estate, Office Renovation Dubai near Hills Estate, Office Renovation Dubai specialists Hills Estate, Office Renovation Dubai experts Hills Estate, Office Renovation Dubai solutions Hills Estate, Office Renovation Dubai packages Hills Estate, Office Renovation Dubai quotes Hills Estate, Office Renovation Dubai estimates Hills Estate, Office Renovation Dubai services near me Hills Estate, Cheap Office Renovation Dubai Hills Estate, Quality Office Renovation Dubai Hills Estate, Trusted Office Renovation Dubai Hills Estate, Office Renovation Dubai transformation Hills Estate, Office Renovation Dubai renovation Hills Estate, Office Renovation Dubai makeover Hills Estate, Best Office Renovation Dubai company Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation dubai Hills Estate Company Hills Estate</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation Dubai in Hills Estate. Best office renovation dubai Hills Estate Company Hills Estate Our professional office renovation dubai hills estate services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OfficeRenovationDubaiHillsEstate() {
                 At Interiara, we believe that exceptional <strong>Office Renovation Hills Estate Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Estate Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Renovation Dubai Hills Estate. 
                 We've completed 300+ successful projects across Estate Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation Hills Estate Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OfficeRenovationDubaiHillsEstate() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation dubai in hills estate service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationDubaiHillsEstate() {
 
               <p>
                 Interiara stands out in the crowded Estate Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation dubai near hills estate.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationDubaiHillsEstate() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

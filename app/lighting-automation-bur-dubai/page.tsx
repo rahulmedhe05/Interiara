@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Bur, Lighting in Automation Bur, Best lighting Automation Bur, Professional lighting Automation Bur, Luxury lighting Automation Bur, Lighting Automation Bur Dubai, Lighting designer Automation Bur, Lighting company Automation Bur, Lighting contractor Automation Bur, Affordable lighting Automation Bur, Modern lighting Automation Bur, Lighting consultation Automation Bur, Lighting cost Automation Bur, Lighting price Automation Bur, Top lighting Automation Bur
+
+// SEO Keywords: Lighting Automation Bur, Lighting in Automation Bur, Best lighting Automation Bur, Professional lighting Automation Bur, Luxury lighting Automation Bur, Lighting Automation Bur Dubai, Lighting designer Automation Bur, Lighting company Automation Bur, Lighting contractor Automation Bur, Affordable lighting Automation Bur, Modern lighting Automation Bur, Lighting consultation Automation Bur, Lighting cost Automation Bur, Lighting price Automation Bur, Top lighting Automation Bur, Lighting near Automation Bur, Lighting specialists Automation Bur, Lighting experts Automation Bur, Lighting solutions Automation Bur, Lighting packages Automation Bur, Lighting quotes Automation Bur, Lighting estimates Automation Bur, Lighting services near me Automation Bur, Cheap Lighting Automation Bur, Quality Lighting Automation Bur, Trusted Lighting Automation Bur, Lighting transformation Automation Bur, Lighting renovation Automation Bur, Lighting makeover Automation Bur, Best Lighting company Automation Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Bur Company Automation Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Automation Bur. Best lighting Automation Bur Company Automation Bur Our luxury lighting automation bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in automation bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near automation bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

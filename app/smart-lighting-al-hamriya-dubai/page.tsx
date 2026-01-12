@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Hamriya, Smart Lighting in Al Hamriya, Best smart lighting Al Hamriya, Professional smart lighting Al Hamriya, Luxury smart lighting Al Hamriya, Smart Lighting Al Hamriya Dubai, Smart Lighting designer Al Hamriya, Smart Lighting company Al Hamriya, Smart Lighting contractor Al Hamriya, Affordable smart lighting Al Hamriya, Modern smart lighting Al Hamriya, Smart Lighting consultation Al Hamriya, Smart Lighting cost Al Hamriya, Smart Lighting price Al Hamriya, Top smart lighting Al Hamriya
+
+// SEO Keywords: Smart Lighting Al Hamriya, Smart Lighting in Al Hamriya, Best smart lighting Al Hamriya, Professional smart lighting Al Hamriya, Luxury smart lighting Al Hamriya, Smart Lighting Al Hamriya Dubai, Smart Lighting designer Al Hamriya, Smart Lighting company Al Hamriya, Smart Lighting contractor Al Hamriya, Affordable smart lighting Al Hamriya, Modern smart lighting Al Hamriya, Smart Lighting consultation Al Hamriya, Smart Lighting cost Al Hamriya, Smart Lighting price Al Hamriya, Top smart lighting Al Hamriya, Smart Lighting near Al Hamriya, Smart Lighting specialists Al Hamriya, Smart Lighting experts Al Hamriya, Smart Lighting solutions Al Hamriya, Smart Lighting packages Al Hamriya, Smart Lighting quotes Al Hamriya, Smart Lighting estimates Al Hamriya, Smart Lighting services near me Al Hamriya, Cheap Smart Lighting Al Hamriya, Quality Smart Lighting Al Hamriya, Trusted Smart Lighting Al Hamriya, Smart Lighting transformation Al Hamriya, Smart Lighting renovation Al Hamriya, Smart Lighting makeover Al Hamriya, Best Smart Lighting company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlHamriya() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Hamriya Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Hamriya Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Hamriya. 
                 We've completed 300+ successful projects across Al Hamriya Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Hamriya Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al hamriya services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Hamriya Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al hamriya service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al hamriya.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

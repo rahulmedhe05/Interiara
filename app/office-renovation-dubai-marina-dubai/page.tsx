@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Dubai Marina, Office Renovation in Dubai Marina, Best office renovation Dubai Marina, Professional office renovation Dubai Marina, Luxury office renovation Dubai Marina, Office Renovation Dubai Marina Dubai, Office Renovation designer Dubai Marina, Office Renovation company Dubai Marina, Office Renovation contractor Dubai Marina, Affordable office renovation Dubai Marina, Modern office renovation Dubai Marina, Office Renovation consultation Dubai Marina, Office Renovation cost Dubai Marina, Office Renovation price Dubai Marina, Top office renovation Dubai Marina
+
+// SEO Keywords: Office Renovation Dubai Marina, Office Renovation in Dubai Marina, Best office renovation Dubai Marina, Professional office renovation Dubai Marina, Luxury office renovation Dubai Marina, Office Renovation Dubai Marina Dubai, Office Renovation designer Dubai Marina, Office Renovation company Dubai Marina, Office Renovation contractor Dubai Marina, Affordable office renovation Dubai Marina, Modern office renovation Dubai Marina, Office Renovation consultation Dubai Marina, Office Renovation cost Dubai Marina, Office Renovation price Dubai Marina, Top office renovation Dubai Marina, Office Renovation near Dubai Marina, Office Renovation specialists Dubai Marina, Office Renovation experts Dubai Marina, Office Renovation solutions Dubai Marina, Office Renovation packages Dubai Marina, Office Renovation quotes Dubai Marina, Office Renovation estimates Dubai Marina, Office Renovation services near me Dubai Marina, Cheap Office Renovation Dubai Marina, Quality Office Renovation Dubai Marina, Trusted Office Renovation Dubai Marina, Office Renovation transformation Dubai Marina, Office Renovation renovation Dubai Marina, Office Renovation makeover Dubai Marina, Best Office Renovation company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Dubai Marina. Best office renovation Dubai Marina Company Dubai Marina Our luxury office renovation dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

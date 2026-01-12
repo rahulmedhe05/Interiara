@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Culture Village, Affordable Interior Solutions in Culture Village, Best affordable interior solutions Culture Village, Professional affordable interior solutions Culture Village, Luxury affordable interior solutions Culture Village, Affordable Interior Solutions Culture Village Dubai, Affordable Interior Solutions designer Culture Village, Affordable Interior Solutions company Culture Village, Affordable Interior Solutions contractor Culture Village, Affordable affordable interior solutions Culture Village, Modern affordable interior solutions Culture Village, Affordable Interior Solutions consultation Culture Village, Affordable Interior Solutions cost Culture Village, Affordable Interior Solutions price Culture Village, Top affordable interior solutions Culture Village
+
+// SEO Keywords: Affordable Interior Solutions Culture Village, Affordable Interior Solutions in Culture Village, Best affordable interior solutions Culture Village, Professional affordable interior solutions Culture Village, Luxury affordable interior solutions Culture Village, Affordable Interior Solutions Culture Village Dubai, Affordable Interior Solutions designer Culture Village, Affordable Interior Solutions company Culture Village, Affordable Interior Solutions contractor Culture Village, Affordable affordable interior solutions Culture Village, Modern affordable interior solutions Culture Village, Affordable Interior Solutions consultation Culture Village, Affordable Interior Solutions cost Culture Village, Affordable Interior Solutions price Culture Village, Top affordable interior solutions Culture Village, Affordable Interior Solutions near Culture Village, Affordable Interior Solutions specialists Culture Village, Affordable Interior Solutions experts Culture Village, Affordable Interior Solutions solutions Culture Village, Affordable Interior Solutions packages Culture Village, Affordable Interior Solutions quotes Culture Village, Affordable Interior Solutions estimates Culture Village, Affordable Interior Solutions services near me Culture Village, Cheap Affordable Interior Solutions Culture Village, Quality Affordable Interior Solutions Culture Village, Trusted Affordable Interior Solutions Culture Village, Affordable Interior Solutions transformation Culture Village, Affordable Interior Solutions renovation Culture Village, Affordable Interior Solutions makeover Culture Village, Best Affordable Interior Solutions company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Culture Village. Best affordable interior solutions Culture Village Company Culture Village Our luxury affordable interior solutions culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

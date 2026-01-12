@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Al Jaddaf, Gym Interior Design in Al Jaddaf, Best gym interior design Al Jaddaf, Professional gym interior design Al Jaddaf, Luxury gym interior design Al Jaddaf, Gym Interior Design Al Jaddaf Dubai, Gym Interior Design designer Al Jaddaf, Gym Interior Design company Al Jaddaf, Gym Interior Design contractor Al Jaddaf, Affordable gym interior design Al Jaddaf, Modern gym interior design Al Jaddaf, Gym Interior Design consultation Al Jaddaf, Gym Interior Design cost Al Jaddaf, Gym Interior Design price Al Jaddaf, Top gym interior design Al Jaddaf
+
+// SEO Keywords: Gym Interior Design Al Jaddaf, Gym Interior Design in Al Jaddaf, Best gym interior design Al Jaddaf, Professional gym interior design Al Jaddaf, Luxury gym interior design Al Jaddaf, Gym Interior Design Al Jaddaf Dubai, Gym Interior Design designer Al Jaddaf, Gym Interior Design company Al Jaddaf, Gym Interior Design contractor Al Jaddaf, Affordable gym interior design Al Jaddaf, Modern gym interior design Al Jaddaf, Gym Interior Design consultation Al Jaddaf, Gym Interior Design cost Al Jaddaf, Gym Interior Design price Al Jaddaf, Top gym interior design Al Jaddaf, Gym Interior Design near Al Jaddaf, Gym Interior Design specialists Al Jaddaf, Gym Interior Design experts Al Jaddaf, Gym Interior Design solutions Al Jaddaf, Gym Interior Design packages Al Jaddaf, Gym Interior Design quotes Al Jaddaf, Gym Interior Design estimates Al Jaddaf, Gym Interior Design services near me Al Jaddaf, Cheap Gym Interior Design Al Jaddaf, Quality Gym Interior Design Al Jaddaf, Trusted Gym Interior Design Al Jaddaf, Gym Interior Design transformation Al Jaddaf, Gym Interior Design renovation Al Jaddaf, Gym Interior Design makeover Al Jaddaf, Best Gym Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function GymInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Gym Interior Design in Al Jaddaf. Best gym interior design Al Jaddaf Company Al Jaddaf Our luxury gym interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function GymInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our gym interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function GymInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in gym interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function GymInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

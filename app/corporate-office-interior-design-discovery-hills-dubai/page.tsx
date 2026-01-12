@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Discovery Hills, Corporate Office Interior Design in Discovery Hills, Best corporate office interior design Discovery Hills, Professional corporate office interior design Discovery Hills, Luxury corporate office interior design Discovery Hills, Corporate Office Interior Design Discovery Hills Dubai, Corporate Office Interior Design designer Discovery Hills, Corporate Office Interior Design company Discovery Hills, Corporate Office Interior Design contractor Discovery Hills, Affordable corporate office interior design Discovery Hills, Modern corporate office interior design Discovery Hills, Corporate Office Interior Design consultation Discovery Hills, Corporate Office Interior Design cost Discovery Hills, Corporate Office Interior Design price Discovery Hills, Top corporate office interior design Discovery Hills
+
+// SEO Keywords: Corporate Office Interior Design Discovery Hills, Corporate Office Interior Design in Discovery Hills, Best corporate office interior design Discovery Hills, Professional corporate office interior design Discovery Hills, Luxury corporate office interior design Discovery Hills, Corporate Office Interior Design Discovery Hills Dubai, Corporate Office Interior Design designer Discovery Hills, Corporate Office Interior Design company Discovery Hills, Corporate Office Interior Design contractor Discovery Hills, Affordable corporate office interior design Discovery Hills, Modern corporate office interior design Discovery Hills, Corporate Office Interior Design consultation Discovery Hills, Corporate Office Interior Design cost Discovery Hills, Corporate Office Interior Design price Discovery Hills, Top corporate office interior design Discovery Hills, Corporate Office Interior Design near Discovery Hills, Corporate Office Interior Design specialists Discovery Hills, Corporate Office Interior Design experts Discovery Hills, Corporate Office Interior Design solutions Discovery Hills, Corporate Office Interior Design packages Discovery Hills, Corporate Office Interior Design quotes Discovery Hills, Corporate Office Interior Design estimates Discovery Hills, Corporate Office Interior Design services near me Discovery Hills, Cheap Corporate Office Interior Design Discovery Hills, Quality Corporate Office Interior Design Discovery Hills, Trusted Corporate Office Interior Design Discovery Hills, Corporate Office Interior Design transformation Discovery Hills, Corporate Office Interior Design renovation Discovery Hills, Corporate Office Interior Design makeover Discovery Hills, Best Corporate Office Interior Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior Design in Discovery Hills. Best corporate office interior design Discovery Hills Company Discovery Hills Our luxury corporate office interior design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Meadows, Corporate Office Interior in Design Meadows, Best corporate office interior Design Meadows, Professional corporate office interior Design Meadows, Luxury corporate office interior Design Meadows, Corporate Office Interior Design Meadows Dubai, Corporate Office Interior designer Design Meadows, Corporate Office Interior company Design Meadows, Corporate Office Interior contractor Design Meadows, Affordable corporate office interior Design Meadows, Modern corporate office interior Design Meadows, Corporate Office Interior consultation Design Meadows, Corporate Office Interior cost Design Meadows, Corporate Office Interior price Design Meadows, Top corporate office interior Design Meadows
+
+// SEO Keywords: Corporate Office Interior Design Meadows, Corporate Office Interior in Design Meadows, Best corporate office interior Design Meadows, Professional corporate office interior Design Meadows, Luxury corporate office interior Design Meadows, Corporate Office Interior Design Meadows Dubai, Corporate Office Interior designer Design Meadows, Corporate Office Interior company Design Meadows, Corporate Office Interior contractor Design Meadows, Affordable corporate office interior Design Meadows, Modern corporate office interior Design Meadows, Corporate Office Interior consultation Design Meadows, Corporate Office Interior cost Design Meadows, Corporate Office Interior price Design Meadows, Top corporate office interior Design Meadows, Corporate Office Interior near Design Meadows, Corporate Office Interior specialists Design Meadows, Corporate Office Interior experts Design Meadows, Corporate Office Interior solutions Design Meadows, Corporate Office Interior packages Design Meadows, Corporate Office Interior quotes Design Meadows, Corporate Office Interior estimates Design Meadows, Corporate Office Interior services near me Design Meadows, Cheap Corporate Office Interior Design Meadows, Quality Corporate Office Interior Design Meadows, Trusted Corporate Office Interior Design Meadows, Corporate Office Interior transformation Design Meadows, Corporate Office Interior renovation Design Meadows, Corporate Office Interior makeover Design Meadows, Best Corporate Office Interior company Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior Design Meadows Company Design Meadows</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior in Design Meadows. Best corporate office interior Design Meadows Company Design Meadows Our professional corporate office interior design meadows services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function CorporateOfficeInteriorDesignMeadows() {
                 At Interiara, we believe that exceptional <strong>Corporate Office Interior Design The Meadows Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Meadows Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Corporate Office Interior Design Meadows. 
                 We've completed 300+ successful projects across The Meadows Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Corporate Office Interior Design The Meadows Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignMeadows() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior in design meadows service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignMeadows() {
 
               <p>
                 Interiara stands out in the crowded The Meadows Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior near design meadows.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignMeadows() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

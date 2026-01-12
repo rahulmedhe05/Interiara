@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Khawaneej, Lighting Automation in Al Khawaneej, Best lighting automation Al Khawaneej, Professional lighting automation Al Khawaneej, Luxury lighting automation Al Khawaneej, Lighting Automation Al Khawaneej Dubai, Lighting Automation designer Al Khawaneej, Lighting Automation company Al Khawaneej, Lighting Automation contractor Al Khawaneej, Affordable lighting automation Al Khawaneej, Modern lighting automation Al Khawaneej, Lighting Automation consultation Al Khawaneej, Lighting Automation cost Al Khawaneej, Lighting Automation price Al Khawaneej, Top lighting automation Al Khawaneej
+
+// SEO Keywords: Lighting Automation Al Khawaneej, Lighting Automation in Al Khawaneej, Best lighting automation Al Khawaneej, Professional lighting automation Al Khawaneej, Luxury lighting automation Al Khawaneej, Lighting Automation Al Khawaneej Dubai, Lighting Automation designer Al Khawaneej, Lighting Automation company Al Khawaneej, Lighting Automation contractor Al Khawaneej, Affordable lighting automation Al Khawaneej, Modern lighting automation Al Khawaneej, Lighting Automation consultation Al Khawaneej, Lighting Automation cost Al Khawaneej, Lighting Automation price Al Khawaneej, Top lighting automation Al Khawaneej, Lighting Automation near Al Khawaneej, Lighting Automation specialists Al Khawaneej, Lighting Automation experts Al Khawaneej, Lighting Automation solutions Al Khawaneej, Lighting Automation packages Al Khawaneej, Lighting Automation quotes Al Khawaneej, Lighting Automation estimates Al Khawaneej, Lighting Automation services near me Al Khawaneej, Cheap Lighting Automation Al Khawaneej, Quality Lighting Automation Al Khawaneej, Trusted Lighting Automation Al Khawaneej, Lighting Automation transformation Al Khawaneej, Lighting Automation renovation Al Khawaneej, Lighting Automation makeover Al Khawaneej, Best Lighting Automation company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Al Khawaneej. Best lighting automation Al Khawaneej Company Al Khawaneej Our luxury lighting automation al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

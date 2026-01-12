@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Al Jaddaf, Healthcare Interior Design in Al Jaddaf, Best healthcare interior design Al Jaddaf, Professional healthcare interior design Al Jaddaf, Luxury healthcare interior design Al Jaddaf, Healthcare Interior Design Al Jaddaf Dubai, Healthcare Interior Design designer Al Jaddaf, Healthcare Interior Design company Al Jaddaf, Healthcare Interior Design contractor Al Jaddaf, Affordable healthcare interior design Al Jaddaf, Modern healthcare interior design Al Jaddaf, Healthcare Interior Design consultation Al Jaddaf, Healthcare Interior Design cost Al Jaddaf, Healthcare Interior Design price Al Jaddaf, Top healthcare interior design Al Jaddaf
+
+// SEO Keywords: Healthcare Interior Design Al Jaddaf, Healthcare Interior Design in Al Jaddaf, Best healthcare interior design Al Jaddaf, Professional healthcare interior design Al Jaddaf, Luxury healthcare interior design Al Jaddaf, Healthcare Interior Design Al Jaddaf Dubai, Healthcare Interior Design designer Al Jaddaf, Healthcare Interior Design company Al Jaddaf, Healthcare Interior Design contractor Al Jaddaf, Affordable healthcare interior design Al Jaddaf, Modern healthcare interior design Al Jaddaf, Healthcare Interior Design consultation Al Jaddaf, Healthcare Interior Design cost Al Jaddaf, Healthcare Interior Design price Al Jaddaf, Top healthcare interior design Al Jaddaf, Healthcare Interior Design near Al Jaddaf, Healthcare Interior Design specialists Al Jaddaf, Healthcare Interior Design experts Al Jaddaf, Healthcare Interior Design solutions Al Jaddaf, Healthcare Interior Design packages Al Jaddaf, Healthcare Interior Design quotes Al Jaddaf, Healthcare Interior Design estimates Al Jaddaf, Healthcare Interior Design services near me Al Jaddaf, Cheap Healthcare Interior Design Al Jaddaf, Quality Healthcare Interior Design Al Jaddaf, Trusted Healthcare Interior Design Al Jaddaf, Healthcare Interior Design transformation Al Jaddaf, Healthcare Interior Design renovation Al Jaddaf, Healthcare Interior Design makeover Al Jaddaf, Best Healthcare Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior Design in Al Jaddaf. Best healthcare interior design Al Jaddaf Company Al Jaddaf Our luxury healthcare interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

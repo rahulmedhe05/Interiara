@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Muhaisnah, Custom Furniture in Design Muhaisnah, Best custom furniture Design Muhaisnah, Professional custom furniture Design Muhaisnah, Luxury custom furniture Design Muhaisnah, Custom Furniture Design Muhaisnah Dubai, Custom Furniture designer Design Muhaisnah, Custom Furniture company Design Muhaisnah, Custom Furniture contractor Design Muhaisnah, Affordable custom furniture Design Muhaisnah, Modern custom furniture Design Muhaisnah, Custom Furniture consultation Design Muhaisnah, Custom Furniture cost Design Muhaisnah, Custom Furniture price Design Muhaisnah, Top custom furniture Design Muhaisnah
+
+// SEO Keywords: Custom Furniture Design Muhaisnah, Custom Furniture in Design Muhaisnah, Best custom furniture Design Muhaisnah, Professional custom furniture Design Muhaisnah, Luxury custom furniture Design Muhaisnah, Custom Furniture Design Muhaisnah Dubai, Custom Furniture designer Design Muhaisnah, Custom Furniture company Design Muhaisnah, Custom Furniture contractor Design Muhaisnah, Affordable custom furniture Design Muhaisnah, Modern custom furniture Design Muhaisnah, Custom Furniture consultation Design Muhaisnah, Custom Furniture cost Design Muhaisnah, Custom Furniture price Design Muhaisnah, Top custom furniture Design Muhaisnah, Custom Furniture near Design Muhaisnah, Custom Furniture specialists Design Muhaisnah, Custom Furniture experts Design Muhaisnah, Custom Furniture solutions Design Muhaisnah, Custom Furniture packages Design Muhaisnah, Custom Furniture quotes Design Muhaisnah, Custom Furniture estimates Design Muhaisnah, Custom Furniture services near me Design Muhaisnah, Cheap Custom Furniture Design Muhaisnah, Quality Custom Furniture Design Muhaisnah, Trusted Custom Furniture Design Muhaisnah, Custom Furniture transformation Design Muhaisnah, Custom Furniture renovation Design Muhaisnah, Custom Furniture makeover Design Muhaisnah, Best Custom Furniture company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture in Design Muhaisnah. Best custom furniture Design Muhaisnah Company Design Muhaisnah Our luxury custom furniture design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

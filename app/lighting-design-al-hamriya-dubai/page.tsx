@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Al Hamriya, Lighting Design in Al Hamriya, Best lighting design Al Hamriya, Professional lighting design Al Hamriya, Luxury lighting design Al Hamriya, Lighting Design Al Hamriya Dubai, Lighting Design designer Al Hamriya, Lighting Design company Al Hamriya, Lighting Design contractor Al Hamriya, Affordable lighting design Al Hamriya, Modern lighting design Al Hamriya, Lighting Design consultation Al Hamriya, Lighting Design cost Al Hamriya, Lighting Design price Al Hamriya, Top lighting design Al Hamriya
+
+// SEO Keywords: Lighting Design Al Hamriya, Lighting Design in Al Hamriya, Best lighting design Al Hamriya, Professional lighting design Al Hamriya, Luxury lighting design Al Hamriya, Lighting Design Al Hamriya Dubai, Lighting Design designer Al Hamriya, Lighting Design company Al Hamriya, Lighting Design contractor Al Hamriya, Affordable lighting design Al Hamriya, Modern lighting design Al Hamriya, Lighting Design consultation Al Hamriya, Lighting Design cost Al Hamriya, Lighting Design price Al Hamriya, Top lighting design Al Hamriya, Lighting Design near Al Hamriya, Lighting Design specialists Al Hamriya, Lighting Design experts Al Hamriya, Lighting Design solutions Al Hamriya, Lighting Design packages Al Hamriya, Lighting Design quotes Al Hamriya, Lighting Design estimates Al Hamriya, Lighting Design services near me Al Hamriya, Cheap Lighting Design Al Hamriya, Quality Lighting Design Al Hamriya, Trusted Lighting Design Al Hamriya, Lighting Design transformation Al Hamriya, Lighting Design renovation Al Hamriya, Lighting Design makeover Al Hamriya, Best Lighting Design company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Design in Al Hamriya. Best lighting design Al Hamriya Company Al Hamriya Our luxury lighting design al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting design in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting design near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

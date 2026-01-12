@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Furjan, Smart Lighting in Al Furjan, Best smart lighting Al Furjan, Professional smart lighting Al Furjan, Luxury smart lighting Al Furjan, Smart Lighting Al Furjan Dubai, Smart Lighting designer Al Furjan, Smart Lighting company Al Furjan, Smart Lighting contractor Al Furjan, Affordable smart lighting Al Furjan, Modern smart lighting Al Furjan, Smart Lighting consultation Al Furjan, Smart Lighting cost Al Furjan, Smart Lighting price Al Furjan, Top smart lighting Al Furjan
+
+// SEO Keywords: Smart Lighting Al Furjan, Smart Lighting in Al Furjan, Best smart lighting Al Furjan, Professional smart lighting Al Furjan, Luxury smart lighting Al Furjan, Smart Lighting Al Furjan Dubai, Smart Lighting designer Al Furjan, Smart Lighting company Al Furjan, Smart Lighting contractor Al Furjan, Affordable smart lighting Al Furjan, Modern smart lighting Al Furjan, Smart Lighting consultation Al Furjan, Smart Lighting cost Al Furjan, Smart Lighting price Al Furjan, Top smart lighting Al Furjan, Smart Lighting near Al Furjan, Smart Lighting specialists Al Furjan, Smart Lighting experts Al Furjan, Smart Lighting solutions Al Furjan, Smart Lighting packages Al Furjan, Smart Lighting quotes Al Furjan, Smart Lighting estimates Al Furjan, Smart Lighting services near me Al Furjan, Cheap Smart Lighting Al Furjan, Quality Smart Lighting Al Furjan, Trusted Smart Lighting Al Furjan, Smart Lighting transformation Al Furjan, Smart Lighting renovation Al Furjan, Smart Lighting makeover Al Furjan, Best Smart Lighting company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

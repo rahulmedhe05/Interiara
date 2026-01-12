@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Retail Shop Interior Design Palm, Retail Shop Interior in Design Palm, Best retail shop interior Design Palm, Professional retail shop interior Design Palm, Luxury retail shop interior Design Palm, Retail Shop Interior Design Palm Dubai, Retail Shop Interior designer Design Palm, Retail Shop Interior company Design Palm, Retail Shop Interior contractor Design Palm, Affordable retail shop interior Design Palm, Modern retail shop interior Design Palm, Retail Shop Interior consultation Design Palm, Retail Shop Interior cost Design Palm, Retail Shop Interior price Design Palm, Top retail shop interior Design Palm
+
+// SEO Keywords: Retail Shop Interior Design Palm, Retail Shop Interior in Design Palm, Best retail shop interior Design Palm, Professional retail shop interior Design Palm, Luxury retail shop interior Design Palm, Retail Shop Interior Design Palm Dubai, Retail Shop Interior designer Design Palm, Retail Shop Interior company Design Palm, Retail Shop Interior contractor Design Palm, Affordable retail shop interior Design Palm, Modern retail shop interior Design Palm, Retail Shop Interior consultation Design Palm, Retail Shop Interior cost Design Palm, Retail Shop Interior price Design Palm, Top retail shop interior Design Palm, Retail Shop Interior near Design Palm, Retail Shop Interior specialists Design Palm, Retail Shop Interior experts Design Palm, Retail Shop Interior solutions Design Palm, Retail Shop Interior packages Design Palm, Retail Shop Interior quotes Design Palm, Retail Shop Interior estimates Design Palm, Retail Shop Interior services near me Design Palm, Cheap Retail Shop Interior Design Palm, Quality Retail Shop Interior Design Palm, Trusted Retail Shop Interior Design Palm, Retail Shop Interior transformation Design Palm, Retail Shop Interior renovation Design Palm, Retail Shop Interior makeover Design Palm, Best Retail Shop Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RetailShopInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Retail Shop Interior in Design Palm. Best retail shop interior Design Palm Company Design Palm Our luxury retail shop interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RetailShopInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our retail shop interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RetailShopInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in retail shop interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RetailShopInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

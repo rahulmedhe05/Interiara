@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Difc, Restaurant Interior in Design Difc, Best restaurant interior Design Difc, Professional restaurant interior Design Difc, Luxury restaurant interior Design Difc, Restaurant Interior Design Difc Dubai, Restaurant Interior designer Design Difc, Restaurant Interior company Design Difc, Restaurant Interior contractor Design Difc, Affordable restaurant interior Design Difc, Modern restaurant interior Design Difc, Restaurant Interior consultation Design Difc, Restaurant Interior cost Design Difc, Restaurant Interior price Design Difc, Top restaurant interior Design Difc
+
+// SEO Keywords: Restaurant Interior Design Difc, Restaurant Interior in Design Difc, Best restaurant interior Design Difc, Professional restaurant interior Design Difc, Luxury restaurant interior Design Difc, Restaurant Interior Design Difc Dubai, Restaurant Interior designer Design Difc, Restaurant Interior company Design Difc, Restaurant Interior contractor Design Difc, Affordable restaurant interior Design Difc, Modern restaurant interior Design Difc, Restaurant Interior consultation Design Difc, Restaurant Interior cost Design Difc, Restaurant Interior price Design Difc, Top restaurant interior Design Difc, Restaurant Interior near Design Difc, Restaurant Interior specialists Design Difc, Restaurant Interior experts Design Difc, Restaurant Interior solutions Design Difc, Restaurant Interior packages Design Difc, Restaurant Interior quotes Design Difc, Restaurant Interior estimates Design Difc, Restaurant Interior services near me Design Difc, Cheap Restaurant Interior Design Difc, Quality Restaurant Interior Design Difc, Trusted Restaurant Interior Design Difc, Restaurant Interior transformation Design Difc, Restaurant Interior renovation Design Difc, Restaurant Interior makeover Design Difc, Best Restaurant Interior company Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Difc Company Design Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior in Design Difc. Best restaurant interior Design Difc Company Design Difc Our luxury restaurant interior design difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function RestaurantInteriorDesignDifc() {
                 At Interiara, we believe that exceptional <strong>Restaurant Interior Design DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Restaurant Interior Design Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Restaurant Interior Design DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior in design difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior near design difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Greens, Smart in Lighting Greens, Best smart Lighting Greens, Professional smart Lighting Greens, Luxury smart Lighting Greens, Smart Lighting Greens Dubai, Smart designer Lighting Greens, Smart company Lighting Greens, Smart contractor Lighting Greens, Affordable smart Lighting Greens, Modern smart Lighting Greens, Smart consultation Lighting Greens, Smart cost Lighting Greens, Smart price Lighting Greens, Top smart Lighting Greens
+
+// SEO Keywords: Smart Lighting Greens, Smart in Lighting Greens, Best smart Lighting Greens, Professional smart Lighting Greens, Luxury smart Lighting Greens, Smart Lighting Greens Dubai, Smart designer Lighting Greens, Smart company Lighting Greens, Smart contractor Lighting Greens, Affordable smart Lighting Greens, Modern smart Lighting Greens, Smart consultation Lighting Greens, Smart cost Lighting Greens, Smart price Lighting Greens, Top smart Lighting Greens, Smart near Lighting Greens, Smart specialists Lighting Greens, Smart experts Lighting Greens, Smart solutions Lighting Greens, Smart packages Lighting Greens, Smart quotes Lighting Greens, Smart estimates Lighting Greens, Smart services near me Lighting Greens, Cheap Smart Lighting Greens, Quality Smart Lighting Greens, Trusted Smart Lighting Greens, Smart transformation Lighting Greens, Smart renovation Lighting Greens, Smart makeover Lighting Greens, Best Smart company Lighting Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart Lighting Greens Company Lighting Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart in Lighting Greens. Best smart Lighting Greens Company Lighting Greens Our professional smart lighting greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SmartLightingGreens() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SmartLightingGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart in lighting greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart near lighting greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

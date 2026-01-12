@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Arabian Ranches, Wall Coverings in Arabian Ranches, Best wall coverings Arabian Ranches, Professional wall coverings Arabian Ranches, Luxury wall coverings Arabian Ranches, Wall Coverings Arabian Ranches Dubai, Wall Coverings designer Arabian Ranches, Wall Coverings company Arabian Ranches, Wall Coverings contractor Arabian Ranches, Affordable wall coverings Arabian Ranches, Modern wall coverings Arabian Ranches, Wall Coverings consultation Arabian Ranches, Wall Coverings cost Arabian Ranches, Wall Coverings price Arabian Ranches, Top wall coverings Arabian Ranches
+
+// SEO Keywords: Wall Coverings Arabian Ranches, Wall Coverings in Arabian Ranches, Best wall coverings Arabian Ranches, Professional wall coverings Arabian Ranches, Luxury wall coverings Arabian Ranches, Wall Coverings Arabian Ranches Dubai, Wall Coverings designer Arabian Ranches, Wall Coverings company Arabian Ranches, Wall Coverings contractor Arabian Ranches, Affordable wall coverings Arabian Ranches, Modern wall coverings Arabian Ranches, Wall Coverings consultation Arabian Ranches, Wall Coverings cost Arabian Ranches, Wall Coverings price Arabian Ranches, Top wall coverings Arabian Ranches, Wall Coverings near Arabian Ranches, Wall Coverings specialists Arabian Ranches, Wall Coverings experts Arabian Ranches, Wall Coverings solutions Arabian Ranches, Wall Coverings packages Arabian Ranches, Wall Coverings quotes Arabian Ranches, Wall Coverings estimates Arabian Ranches, Wall Coverings services near me Arabian Ranches, Cheap Wall Coverings Arabian Ranches, Quality Wall Coverings Arabian Ranches, Trusted Wall Coverings Arabian Ranches, Wall Coverings transformation Arabian Ranches, Wall Coverings renovation Arabian Ranches, Wall Coverings makeover Arabian Ranches, Best Wall Coverings company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings in Arabian Ranches. Best wall coverings Arabian Ranches Company Arabian Ranches Our luxury wall coverings arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

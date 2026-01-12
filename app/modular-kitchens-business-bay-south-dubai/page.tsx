@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Business Bay South, Modular Kitchens Business in Bay South, Best modular kitchens business Bay South, Professional modular kitchens business Bay South, Luxury modular kitchens business Bay South, Modular Kitchens Business Bay South Dubai, Modular Kitchens Business designer Bay South, Modular Kitchens Business company Bay South, Modular Kitchens Business contractor Bay South, Affordable modular kitchens business Bay South, Modern modular kitchens business Bay South, Modular Kitchens Business consultation Bay South, Modular Kitchens Business cost Bay South, Modular Kitchens Business price Bay South, Top modular kitchens business Bay South
+
+// SEO Keywords: Modular Kitchens Business Bay South, Modular Kitchens Business in Bay South, Best modular kitchens business Bay South, Professional modular kitchens business Bay South, Luxury modular kitchens business Bay South, Modular Kitchens Business Bay South Dubai, Modular Kitchens Business designer Bay South, Modular Kitchens Business company Bay South, Modular Kitchens Business contractor Bay South, Affordable modular kitchens business Bay South, Modern modular kitchens business Bay South, Modular Kitchens Business consultation Bay South, Modular Kitchens Business cost Bay South, Modular Kitchens Business price Bay South, Top modular kitchens business Bay South, Modular Kitchens Business near Bay South, Modular Kitchens Business specialists Bay South, Modular Kitchens Business experts Bay South, Modular Kitchens Business solutions Bay South, Modular Kitchens Business packages Bay South, Modular Kitchens Business quotes Bay South, Modular Kitchens Business estimates Bay South, Modular Kitchens Business services near me Bay South, Cheap Modular Kitchens Business Bay South, Quality Modular Kitchens Business Bay South, Trusted Modular Kitchens Business Bay South, Modular Kitchens Business transformation Bay South, Modular Kitchens Business renovation Bay South, Modular Kitchens Business makeover Bay South, Best Modular Kitchens Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens Business in Bay South. Best modular kitchens business Bay South Company Bay South Our luxury modular kitchens business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

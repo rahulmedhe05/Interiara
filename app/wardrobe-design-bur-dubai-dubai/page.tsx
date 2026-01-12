@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Bur Dubai, Wardrobe Design in Bur Dubai, Best wardrobe design Bur Dubai, Professional wardrobe design Bur Dubai, Luxury wardrobe design Bur Dubai, Wardrobe Design Bur Dubai Dubai, Wardrobe Design designer Bur Dubai, Wardrobe Design company Bur Dubai, Wardrobe Design contractor Bur Dubai, Affordable wardrobe design Bur Dubai, Modern wardrobe design Bur Dubai, Wardrobe Design consultation Bur Dubai, Wardrobe Design cost Bur Dubai, Wardrobe Design price Bur Dubai, Top wardrobe design Bur Dubai
+
+// SEO Keywords: Wardrobe Design Bur Dubai, Wardrobe Design in Bur Dubai, Best wardrobe design Bur Dubai, Professional wardrobe design Bur Dubai, Luxury wardrobe design Bur Dubai, Wardrobe Design Bur Dubai Dubai, Wardrobe Design designer Bur Dubai, Wardrobe Design company Bur Dubai, Wardrobe Design contractor Bur Dubai, Affordable wardrobe design Bur Dubai, Modern wardrobe design Bur Dubai, Wardrobe Design consultation Bur Dubai, Wardrobe Design cost Bur Dubai, Wardrobe Design price Bur Dubai, Top wardrobe design Bur Dubai, Wardrobe Design near Bur Dubai, Wardrobe Design specialists Bur Dubai, Wardrobe Design experts Bur Dubai, Wardrobe Design solutions Bur Dubai, Wardrobe Design packages Bur Dubai, Wardrobe Design quotes Bur Dubai, Wardrobe Design estimates Bur Dubai, Wardrobe Design services near me Bur Dubai, Cheap Wardrobe Design Bur Dubai, Quality Wardrobe Design Bur Dubai, Trusted Wardrobe Design Bur Dubai, Wardrobe Design transformation Bur Dubai, Wardrobe Design renovation Bur Dubai, Wardrobe Design makeover Bur Dubai, Best Wardrobe Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignBurDubai() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe design in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe design near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

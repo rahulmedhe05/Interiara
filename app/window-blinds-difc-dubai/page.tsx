@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Difc, Window in Blinds Difc, Best window Blinds Difc, Professional window Blinds Difc, Luxury window Blinds Difc, Window Blinds Difc Dubai, Window designer Blinds Difc, Window company Blinds Difc, Window contractor Blinds Difc, Affordable window Blinds Difc, Modern window Blinds Difc, Window consultation Blinds Difc, Window cost Blinds Difc, Window price Blinds Difc, Top window Blinds Difc
+
+// SEO Keywords: Window Blinds Difc, Window in Blinds Difc, Best window Blinds Difc, Professional window Blinds Difc, Luxury window Blinds Difc, Window Blinds Difc Dubai, Window designer Blinds Difc, Window company Blinds Difc, Window contractor Blinds Difc, Affordable window Blinds Difc, Modern window Blinds Difc, Window consultation Blinds Difc, Window cost Blinds Difc, Window price Blinds Difc, Top window Blinds Difc, Window near Blinds Difc, Window specialists Blinds Difc, Window experts Blinds Difc, Window solutions Blinds Difc, Window packages Blinds Difc, Window quotes Blinds Difc, Window estimates Blinds Difc, Window services near me Blinds Difc, Cheap Window Blinds Difc, Quality Window Blinds Difc, Trusted Window Blinds Difc, Window transformation Blinds Difc, Window renovation Blinds Difc, Window makeover Blinds Difc, Best Window company Blinds Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsDifc() {
                 At Interiara, we believe that exceptional <strong>Window Blinds DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Blinds Difc. Window Blinds Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window blinds difc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds DIFC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in blinds difc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near blinds difc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Business Bay, Office Fit Out in Business Bay, Best office fit out Business Bay, Professional office fit out Business Bay, Luxury office fit out Business Bay, Office Fit Out Business Bay Dubai, Office Fit Out designer Business Bay, Office Fit Out company Business Bay, Office Fit Out contractor Business Bay, Affordable office fit out Business Bay, Modern office fit out Business Bay, Office Fit Out consultation Business Bay, Office Fit Out cost Business Bay, Office Fit Out price Business Bay, Top office fit out Business Bay
+
+// SEO Keywords: Office Fit Out Business Bay, Office Fit Out in Business Bay, Best office fit out Business Bay, Professional office fit out Business Bay, Luxury office fit out Business Bay, Office Fit Out Business Bay Dubai, Office Fit Out designer Business Bay, Office Fit Out company Business Bay, Office Fit Out contractor Business Bay, Affordable office fit out Business Bay, Modern office fit out Business Bay, Office Fit Out consultation Business Bay, Office Fit Out cost Business Bay, Office Fit Out price Business Bay, Top office fit out Business Bay, Office Fit Out near Business Bay, Office Fit Out specialists Business Bay, Office Fit Out experts Business Bay, Office Fit Out solutions Business Bay, Office Fit Out packages Business Bay, Office Fit Out quotes Business Bay, Office Fit Out estimates Business Bay, Office Fit Out services near me Business Bay, Cheap Office Fit Out Business Bay, Quality Office Fit Out Business Bay, Trusted Office Fit Out Business Bay, Office Fit Out transformation Business Bay, Office Fit Out renovation Business Bay, Office Fit Out makeover Business Bay, Best Office Fit Out company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeFitOutBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Fit Out in Business Bay. Best office fit out Business Bay Company Business Bay Our luxury office fit out business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeFitOutBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office fit out in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeFitOutBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office fit out near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeFitOutBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

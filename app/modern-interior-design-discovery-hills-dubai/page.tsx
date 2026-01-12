@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modern Interior Design Discovery Hills, Modern Interior Design in Discovery Hills, Best modern interior design Discovery Hills, Professional modern interior design Discovery Hills, Luxury modern interior design Discovery Hills, Modern Interior Design Discovery Hills Dubai, Modern Interior Design designer Discovery Hills, Modern Interior Design company Discovery Hills, Modern Interior Design contractor Discovery Hills, Affordable modern interior design Discovery Hills, Modern modern interior design Discovery Hills, Modern Interior Design consultation Discovery Hills, Modern Interior Design cost Discovery Hills, Modern Interior Design price Discovery Hills, Top modern interior design Discovery Hills
+
+// SEO Keywords: Modern Interior Design Discovery Hills, Modern Interior Design in Discovery Hills, Best modern interior design Discovery Hills, Professional modern interior design Discovery Hills, Luxury modern interior design Discovery Hills, Modern Interior Design Discovery Hills Dubai, Modern Interior Design designer Discovery Hills, Modern Interior Design company Discovery Hills, Modern Interior Design contractor Discovery Hills, Affordable modern interior design Discovery Hills, Modern modern interior design Discovery Hills, Modern Interior Design consultation Discovery Hills, Modern Interior Design cost Discovery Hills, Modern Interior Design price Discovery Hills, Top modern interior design Discovery Hills, Modern Interior Design near Discovery Hills, Modern Interior Design specialists Discovery Hills, Modern Interior Design experts Discovery Hills, Modern Interior Design solutions Discovery Hills, Modern Interior Design packages Discovery Hills, Modern Interior Design quotes Discovery Hills, Modern Interior Design estimates Discovery Hills, Modern Interior Design services near me Discovery Hills, Cheap Modern Interior Design Discovery Hills, Quality Modern Interior Design Discovery Hills, Trusted Modern Interior Design Discovery Hills, Modern Interior Design transformation Discovery Hills, Modern Interior Design renovation Discovery Hills, Modern Interior Design makeover Discovery Hills, Best Modern Interior Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModernInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modern Interior Design in Discovery Hills. Best modern interior design Discovery Hills Company Discovery Hills Our luxury modern interior design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModernInteriorDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modern interior design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModernInteriorDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modern interior design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModernInteriorDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

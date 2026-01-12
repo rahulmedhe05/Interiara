@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Dubai Harbour, Apartment Interior Design in Dubai Harbour, Best apartment interior design Dubai Harbour, Professional apartment interior design Dubai Harbour, Luxury apartment interior design Dubai Harbour, Apartment Interior Design Dubai Harbour Dubai, Apartment Interior Design designer Dubai Harbour, Apartment Interior Design company Dubai Harbour, Apartment Interior Design contractor Dubai Harbour, Affordable apartment interior design Dubai Harbour, Modern apartment interior design Dubai Harbour, Apartment Interior Design consultation Dubai Harbour, Apartment Interior Design cost Dubai Harbour, Apartment Interior Design price Dubai Harbour, Top apartment interior design Dubai Harbour
+
+// SEO Keywords: Apartment Interior Design Dubai Harbour, Apartment Interior Design in Dubai Harbour, Best apartment interior design Dubai Harbour, Professional apartment interior design Dubai Harbour, Luxury apartment interior design Dubai Harbour, Apartment Interior Design Dubai Harbour Dubai, Apartment Interior Design designer Dubai Harbour, Apartment Interior Design company Dubai Harbour, Apartment Interior Design contractor Dubai Harbour, Affordable apartment interior design Dubai Harbour, Modern apartment interior design Dubai Harbour, Apartment Interior Design consultation Dubai Harbour, Apartment Interior Design cost Dubai Harbour, Apartment Interior Design price Dubai Harbour, Top apartment interior design Dubai Harbour, Apartment Interior Design near Dubai Harbour, Apartment Interior Design specialists Dubai Harbour, Apartment Interior Design experts Dubai Harbour, Apartment Interior Design solutions Dubai Harbour, Apartment Interior Design packages Dubai Harbour, Apartment Interior Design quotes Dubai Harbour, Apartment Interior Design estimates Dubai Harbour, Apartment Interior Design services near me Dubai Harbour, Cheap Apartment Interior Design Dubai Harbour, Quality Apartment Interior Design Dubai Harbour, Trusted Apartment Interior Design Dubai Harbour, Apartment Interior Design transformation Dubai Harbour, Apartment Interior Design renovation Dubai Harbour, Apartment Interior Design makeover Dubai Harbour, Best Apartment Interior Design company Dubai Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Dubai Harbour Company Dubai Harbour</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior Design in Dubai Harbour. Best apartment interior design Dubai Harbour Company Dubai Harbour Our professional apartment interior design dubai harbour services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ApartmentInteriorDesignDubaiHarbour() {
                 At Interiara, we believe that exceptional <strong>Apartment Interior Design Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Apartment Interior Design Dubai Harbour. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Apartment Interior Design Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignDubaiHarbour() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior design in dubai harbour service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignDubaiHarbour() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior design near dubai harbour.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignDubaiHarbour() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

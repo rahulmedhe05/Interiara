@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Town Square, Space Planning in Town Square, Best space planning Town Square, Professional space planning Town Square, Luxury space planning Town Square, Space Planning Town Square Dubai, Space Planning designer Town Square, Space Planning company Town Square, Space Planning contractor Town Square, Affordable space planning Town Square, Modern space planning Town Square, Space Planning consultation Town Square, Space Planning cost Town Square, Space Planning price Town Square, Top space planning Town Square
+
+// SEO Keywords: Space Planning Town Square, Space Planning in Town Square, Best space planning Town Square, Professional space planning Town Square, Luxury space planning Town Square, Space Planning Town Square Dubai, Space Planning designer Town Square, Space Planning company Town Square, Space Planning contractor Town Square, Affordable space planning Town Square, Modern space planning Town Square, Space Planning consultation Town Square, Space Planning cost Town Square, Space Planning price Town Square, Top space planning Town Square, Space Planning near Town Square, Space Planning specialists Town Square, Space Planning experts Town Square, Space Planning solutions Town Square, Space Planning packages Town Square, Space Planning quotes Town Square, Space Planning estimates Town Square, Space Planning services near me Town Square, Cheap Space Planning Town Square, Quality Space Planning Town Square, Trusted Space Planning Town Square, Space Planning transformation Town Square, Space Planning renovation Town Square, Space Planning makeover Town Square, Best Space Planning company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Town Square. Best space planning Town Square Company Town Square Our luxury space planning town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

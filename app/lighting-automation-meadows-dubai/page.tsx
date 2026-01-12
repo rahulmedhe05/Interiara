@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Meadows, Lighting in Automation Meadows, Best lighting Automation Meadows, Professional lighting Automation Meadows, Luxury lighting Automation Meadows, Lighting Automation Meadows Dubai, Lighting designer Automation Meadows, Lighting company Automation Meadows, Lighting contractor Automation Meadows, Affordable lighting Automation Meadows, Modern lighting Automation Meadows, Lighting consultation Automation Meadows, Lighting cost Automation Meadows, Lighting price Automation Meadows, Top lighting Automation Meadows
+
+// SEO Keywords: Lighting Automation Meadows, Lighting in Automation Meadows, Best lighting Automation Meadows, Professional lighting Automation Meadows, Luxury lighting Automation Meadows, Lighting Automation Meadows Dubai, Lighting designer Automation Meadows, Lighting company Automation Meadows, Lighting contractor Automation Meadows, Affordable lighting Automation Meadows, Modern lighting Automation Meadows, Lighting consultation Automation Meadows, Lighting cost Automation Meadows, Lighting price Automation Meadows, Top lighting Automation Meadows, Lighting near Automation Meadows, Lighting specialists Automation Meadows, Lighting experts Automation Meadows, Lighting solutions Automation Meadows, Lighting packages Automation Meadows, Lighting quotes Automation Meadows, Lighting estimates Automation Meadows, Lighting services near me Automation Meadows, Cheap Lighting Automation Meadows, Quality Lighting Automation Meadows, Trusted Lighting Automation Meadows, Lighting transformation Automation Meadows, Lighting renovation Automation Meadows, Lighting makeover Automation Meadows, Best Lighting company Automation Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Meadows Company Automation Meadows</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Automation Meadows. Best lighting Automation Meadows Company Automation Meadows Our professional lighting automation meadows services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function LightingAutomationMeadows() {
                 At Interiara, we believe that exceptional <strong>Lighting Automation The Meadows Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Meadows Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Automation Meadows. 
                 We've completed 300+ successful projects across The Meadows Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Automation The Meadows Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function LightingAutomationMeadows() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in automation meadows service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationMeadows() {
 
               <p>
                 Interiara stands out in the crowded The Meadows Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near automation meadows.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationMeadows() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

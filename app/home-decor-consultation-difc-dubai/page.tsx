@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Difc, Home Decor in Consultation Difc, Best home decor Consultation Difc, Professional home decor Consultation Difc, Luxury home decor Consultation Difc, Home Decor Consultation Difc Dubai, Home Decor designer Consultation Difc, Home Decor company Consultation Difc, Home Decor contractor Consultation Difc, Affordable home decor Consultation Difc, Modern home decor Consultation Difc, Home Decor consultation Consultation Difc, Home Decor cost Consultation Difc, Home Decor price Consultation Difc, Top home decor Consultation Difc
+
+// SEO Keywords: Home Decor Consultation Difc, Home Decor in Consultation Difc, Best home decor Consultation Difc, Professional home decor Consultation Difc, Luxury home decor Consultation Difc, Home Decor Consultation Difc Dubai, Home Decor designer Consultation Difc, Home Decor company Consultation Difc, Home Decor contractor Consultation Difc, Affordable home decor Consultation Difc, Modern home decor Consultation Difc, Home Decor consultation Consultation Difc, Home Decor cost Consultation Difc, Home Decor price Consultation Difc, Top home decor Consultation Difc, Home Decor near Consultation Difc, Home Decor specialists Consultation Difc, Home Decor experts Consultation Difc, Home Decor solutions Consultation Difc, Home Decor packages Consultation Difc, Home Decor quotes Consultation Difc, Home Decor estimates Consultation Difc, Home Decor services near me Consultation Difc, Cheap Home Decor Consultation Difc, Quality Home Decor Consultation Difc, Trusted Home Decor Consultation Difc, Home Decor transformation Consultation Difc, Home Decor renovation Consultation Difc, Home Decor makeover Consultation Difc, Best Home Decor company Consultation Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Difc Company Consultation Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor in Consultation Difc. Best home decor Consultation Difc Company Consultation Difc Our luxury home decor consultation difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HomeDecorConsultationDifc() {
                 At Interiara, we believe that exceptional <strong>Home Decor Consultation DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Decor Consultation Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Decor Consultation DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor in consultation difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor near consultation difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

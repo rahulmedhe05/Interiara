@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Mall Interior Design Jlt, Mall Interior in Design Jlt, Best mall interior Design Jlt, Professional mall interior Design Jlt, Luxury mall interior Design Jlt, Mall Interior Design Jlt Dubai, Mall Interior designer Design Jlt, Mall Interior company Design Jlt, Mall Interior contractor Design Jlt, Affordable mall interior Design Jlt, Modern mall interior Design Jlt, Mall Interior consultation Design Jlt, Mall Interior cost Design Jlt, Mall Interior price Design Jlt, Top mall interior Design Jlt
+
+// SEO Keywords: Mall Interior Design Jlt, Mall Interior in Design Jlt, Best mall interior Design Jlt, Professional mall interior Design Jlt, Luxury mall interior Design Jlt, Mall Interior Design Jlt Dubai, Mall Interior designer Design Jlt, Mall Interior company Design Jlt, Mall Interior contractor Design Jlt, Affordable mall interior Design Jlt, Modern mall interior Design Jlt, Mall Interior consultation Design Jlt, Mall Interior cost Design Jlt, Mall Interior price Design Jlt, Top mall interior Design Jlt, Mall Interior near Design Jlt, Mall Interior specialists Design Jlt, Mall Interior experts Design Jlt, Mall Interior solutions Design Jlt, Mall Interior packages Design Jlt, Mall Interior quotes Design Jlt, Mall Interior estimates Design Jlt, Mall Interior services near me Design Jlt, Cheap Mall Interior Design Jlt, Quality Mall Interior Design Jlt, Trusted Mall Interior Design Jlt, Mall Interior transformation Design Jlt, Mall Interior renovation Design Jlt, Mall Interior makeover Design Jlt, Best Mall Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function MallInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Mall Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Mall Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Mall Interior in Design Jlt. Mall Interior Design Jlt. 
+                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Mall Interior in Design Jlt. Mall Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury mall interior design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Mall Interior Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function MallInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our mall interior in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in mall interior near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function MallInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

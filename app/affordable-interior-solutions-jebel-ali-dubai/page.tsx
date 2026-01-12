@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Jebel Ali, Affordable Interior Solutions in Jebel Ali, Best affordable interior solutions Jebel Ali, Professional affordable interior solutions Jebel Ali, Luxury affordable interior solutions Jebel Ali, Affordable Interior Solutions Jebel Ali Dubai, Affordable Interior Solutions designer Jebel Ali, Affordable Interior Solutions company Jebel Ali, Affordable Interior Solutions contractor Jebel Ali, Affordable affordable interior solutions Jebel Ali, Modern affordable interior solutions Jebel Ali, Affordable Interior Solutions consultation Jebel Ali, Affordable Interior Solutions cost Jebel Ali, Affordable Interior Solutions price Jebel Ali, Top affordable interior solutions Jebel Ali
+
+// SEO Keywords: Affordable Interior Solutions Jebel Ali, Affordable Interior Solutions in Jebel Ali, Best affordable interior solutions Jebel Ali, Professional affordable interior solutions Jebel Ali, Luxury affordable interior solutions Jebel Ali, Affordable Interior Solutions Jebel Ali Dubai, Affordable Interior Solutions designer Jebel Ali, Affordable Interior Solutions company Jebel Ali, Affordable Interior Solutions contractor Jebel Ali, Affordable affordable interior solutions Jebel Ali, Modern affordable interior solutions Jebel Ali, Affordable Interior Solutions consultation Jebel Ali, Affordable Interior Solutions cost Jebel Ali, Affordable Interior Solutions price Jebel Ali, Top affordable interior solutions Jebel Ali, Affordable Interior Solutions near Jebel Ali, Affordable Interior Solutions specialists Jebel Ali, Affordable Interior Solutions experts Jebel Ali, Affordable Interior Solutions solutions Jebel Ali, Affordable Interior Solutions packages Jebel Ali, Affordable Interior Solutions quotes Jebel Ali, Affordable Interior Solutions estimates Jebel Ali, Affordable Interior Solutions services near me Jebel Ali, Cheap Affordable Interior Solutions Jebel Ali, Quality Affordable Interior Solutions Jebel Ali, Trusted Affordable Interior Solutions Jebel Ali, Affordable Interior Solutions transformation Jebel Ali, Affordable Interior Solutions renovation Jebel Ali, Affordable Interior Solutions makeover Jebel Ali, Best Affordable Interior Solutions company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Jebel Ali. Best affordable interior solutions Jebel Ali Company Jebel Ali Our luxury affordable interior solutions jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

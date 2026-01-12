@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Quoz, Window Curtains in Al Quoz, Best window curtains Al Quoz, Professional window curtains Al Quoz, Luxury window curtains Al Quoz, Window Curtains Al Quoz Dubai, Window Curtains designer Al Quoz, Window Curtains company Al Quoz, Window Curtains contractor Al Quoz, Affordable window curtains Al Quoz, Modern window curtains Al Quoz, Window Curtains consultation Al Quoz, Window Curtains cost Al Quoz, Window Curtains price Al Quoz, Top window curtains Al Quoz
+
+// SEO Keywords: Window Curtains Al Quoz, Window Curtains in Al Quoz, Best window curtains Al Quoz, Professional window curtains Al Quoz, Luxury window curtains Al Quoz, Window Curtains Al Quoz Dubai, Window Curtains designer Al Quoz, Window Curtains company Al Quoz, Window Curtains contractor Al Quoz, Affordable window curtains Al Quoz, Modern window curtains Al Quoz, Window Curtains consultation Al Quoz, Window Curtains cost Al Quoz, Window Curtains price Al Quoz, Top window curtains Al Quoz, Window Curtains near Al Quoz, Window Curtains specialists Al Quoz, Window Curtains experts Al Quoz, Window Curtains solutions Al Quoz, Window Curtains packages Al Quoz, Window Curtains quotes Al Quoz, Window Curtains estimates Al Quoz, Window Curtains services near me Al Quoz, Cheap Window Curtains Al Quoz, Quality Window Curtains Al Quoz, Trusted Window Curtains Al Quoz, Window Curtains transformation Al Quoz, Window Curtains renovation Al Quoz, Window Curtains makeover Al Quoz, Best Window Curtains company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Villa Interior Design Jumeirah, Villa Interior in Design Jumeirah, Best villa interior Design Jumeirah, Professional villa interior Design Jumeirah, Luxury villa interior Design Jumeirah, Villa Interior Design Jumeirah Dubai, Villa Interior designer Design Jumeirah, Villa Interior company Design Jumeirah, Villa Interior contractor Design Jumeirah, Affordable villa interior Design Jumeirah, Modern villa interior Design Jumeirah, Villa Interior consultation Design Jumeirah, Villa Interior cost Design Jumeirah, Villa Interior price Design Jumeirah, Top villa interior Design Jumeirah
+
+// SEO Keywords: Villa Interior Design Jumeirah, Villa Interior in Design Jumeirah, Best villa interior Design Jumeirah, Professional villa interior Design Jumeirah, Luxury villa interior Design Jumeirah, Villa Interior Design Jumeirah Dubai, Villa Interior designer Design Jumeirah, Villa Interior company Design Jumeirah, Villa Interior contractor Design Jumeirah, Affordable villa interior Design Jumeirah, Modern villa interior Design Jumeirah, Villa Interior consultation Design Jumeirah, Villa Interior cost Design Jumeirah, Villa Interior price Design Jumeirah, Top villa interior Design Jumeirah, Villa Interior near Design Jumeirah, Villa Interior specialists Design Jumeirah, Villa Interior experts Design Jumeirah, Villa Interior solutions Design Jumeirah, Villa Interior packages Design Jumeirah, Villa Interior quotes Design Jumeirah, Villa Interior estimates Design Jumeirah, Villa Interior services near me Design Jumeirah, Cheap Villa Interior Design Jumeirah, Quality Villa Interior Design Jumeirah, Trusted Villa Interior Design Jumeirah, Villa Interior transformation Design Jumeirah, Villa Interior renovation Design Jumeirah, Villa Interior makeover Design Jumeirah, Best Villa Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function VillaInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Villa Interior in Design Jumeirah. Best villa interior Design Jumeirah Company Design Jumeirah Our luxury villa interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function VillaInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our villa interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function VillaInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in villa interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function VillaInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

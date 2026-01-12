@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Dubai Creek Harbour, Space Planning Dubai in Creek Harbour, Best space planning dubai Creek Harbour, Professional space planning dubai Creek Harbour, Luxury space planning dubai Creek Harbour, Space Planning Dubai Creek Harbour Dubai, Space Planning Dubai designer Creek Harbour, Space Planning Dubai company Creek Harbour, Space Planning Dubai contractor Creek Harbour, Affordable space planning dubai Creek Harbour, Modern space planning dubai Creek Harbour, Space Planning Dubai consultation Creek Harbour, Space Planning Dubai cost Creek Harbour, Space Planning Dubai price Creek Harbour, Top space planning dubai Creek Harbour
+
+// SEO Keywords: Space Planning Dubai Creek Harbour, Space Planning Dubai in Creek Harbour, Best space planning dubai Creek Harbour, Professional space planning dubai Creek Harbour, Luxury space planning dubai Creek Harbour, Space Planning Dubai Creek Harbour Dubai, Space Planning Dubai designer Creek Harbour, Space Planning Dubai company Creek Harbour, Space Planning Dubai contractor Creek Harbour, Affordable space planning dubai Creek Harbour, Modern space planning dubai Creek Harbour, Space Planning Dubai consultation Creek Harbour, Space Planning Dubai cost Creek Harbour, Space Planning Dubai price Creek Harbour, Top space planning dubai Creek Harbour, Space Planning Dubai near Creek Harbour, Space Planning Dubai specialists Creek Harbour, Space Planning Dubai experts Creek Harbour, Space Planning Dubai solutions Creek Harbour, Space Planning Dubai packages Creek Harbour, Space Planning Dubai quotes Creek Harbour, Space Planning Dubai estimates Creek Harbour, Space Planning Dubai services near me Creek Harbour, Cheap Space Planning Dubai Creek Harbour, Quality Space Planning Dubai Creek Harbour, Trusted Space Planning Dubai Creek Harbour, Space Planning Dubai transformation Creek Harbour, Space Planning Dubai renovation Creek Harbour, Space Planning Dubai makeover Creek Harbour, Best Space Planning Dubai company Creek Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Creek Harbour Company Creek Harbour</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning Dubai in Creek Harbour. Best space planning dubai Creek Harbour Company Creek Harbour Our professional space planning dubai creek harbour services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SpacePlanningDubaiCreekHarbour() {
                 At Interiara, we believe that exceptional <strong>Space Planning Creek Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning Dubai Creek Harbour. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Creek Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SpacePlanningDubaiCreekHarbour() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning dubai in creek harbour service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDubaiCreekHarbour() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning dubai near creek harbour.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDubaiCreekHarbour() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

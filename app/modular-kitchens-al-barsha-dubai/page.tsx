@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Al Barsha, Modular Kitchens in Al Barsha, Best modular kitchens Al Barsha, Professional modular kitchens Al Barsha, Luxury modular kitchens Al Barsha, Modular Kitchens Al Barsha Dubai, Modular Kitchens designer Al Barsha, Modular Kitchens company Al Barsha, Modular Kitchens contractor Al Barsha, Affordable modular kitchens Al Barsha, Modern modular kitchens Al Barsha, Modular Kitchens consultation Al Barsha, Modular Kitchens cost Al Barsha, Modular Kitchens price Al Barsha, Top modular kitchens Al Barsha
+
+// SEO Keywords: Modular Kitchens Al Barsha, Modular Kitchens in Al Barsha, Best modular kitchens Al Barsha, Professional modular kitchens Al Barsha, Luxury modular kitchens Al Barsha, Modular Kitchens Al Barsha Dubai, Modular Kitchens designer Al Barsha, Modular Kitchens company Al Barsha, Modular Kitchens contractor Al Barsha, Affordable modular kitchens Al Barsha, Modern modular kitchens Al Barsha, Modular Kitchens consultation Al Barsha, Modular Kitchens cost Al Barsha, Modular Kitchens price Al Barsha, Top modular kitchens Al Barsha, Modular Kitchens near Al Barsha, Modular Kitchens specialists Al Barsha, Modular Kitchens experts Al Barsha, Modular Kitchens solutions Al Barsha, Modular Kitchens packages Al Barsha, Modular Kitchens quotes Al Barsha, Modular Kitchens estimates Al Barsha, Modular Kitchens services near me Al Barsha, Cheap Modular Kitchens Al Barsha, Quality Modular Kitchens Al Barsha, Trusted Modular Kitchens Al Barsha, Modular Kitchens transformation Al Barsha, Modular Kitchens renovation Al Barsha, Modular Kitchens makeover Al Barsha, Best Modular Kitchens company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

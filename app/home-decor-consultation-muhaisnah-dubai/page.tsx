@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Muhaisnah, Home Decor in Consultation Muhaisnah, Best home decor Consultation Muhaisnah, Professional home decor Consultation Muhaisnah, Luxury home decor Consultation Muhaisnah, Home Decor Consultation Muhaisnah Dubai, Home Decor designer Consultation Muhaisnah, Home Decor company Consultation Muhaisnah, Home Decor contractor Consultation Muhaisnah, Affordable home decor Consultation Muhaisnah, Modern home decor Consultation Muhaisnah, Home Decor consultation Consultation Muhaisnah, Home Decor cost Consultation Muhaisnah, Home Decor price Consultation Muhaisnah, Top home decor Consultation Muhaisnah
+
+// SEO Keywords: Home Decor Consultation Muhaisnah, Home Decor in Consultation Muhaisnah, Best home decor Consultation Muhaisnah, Professional home decor Consultation Muhaisnah, Luxury home decor Consultation Muhaisnah, Home Decor Consultation Muhaisnah Dubai, Home Decor designer Consultation Muhaisnah, Home Decor company Consultation Muhaisnah, Home Decor contractor Consultation Muhaisnah, Affordable home decor Consultation Muhaisnah, Modern home decor Consultation Muhaisnah, Home Decor consultation Consultation Muhaisnah, Home Decor cost Consultation Muhaisnah, Home Decor price Consultation Muhaisnah, Top home decor Consultation Muhaisnah, Home Decor near Consultation Muhaisnah, Home Decor specialists Consultation Muhaisnah, Home Decor experts Consultation Muhaisnah, Home Decor solutions Consultation Muhaisnah, Home Decor packages Consultation Muhaisnah, Home Decor quotes Consultation Muhaisnah, Home Decor estimates Consultation Muhaisnah, Home Decor services near me Consultation Muhaisnah, Cheap Home Decor Consultation Muhaisnah, Quality Home Decor Consultation Muhaisnah, Trusted Home Decor Consultation Muhaisnah, Home Decor transformation Consultation Muhaisnah, Home Decor renovation Consultation Muhaisnah, Home Decor makeover Consultation Muhaisnah, Best Home Decor company Consultation Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Muhaisnah Company Consultation Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor in Consultation Muhaisnah. Best home decor Consultation Muhaisnah Company Consultation Muhaisnah Our luxury home decor consultation muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor in consultation muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor near consultation muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

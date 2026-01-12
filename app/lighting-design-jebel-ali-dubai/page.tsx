@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Jebel Ali, Lighting Design in Jebel Ali, Best lighting design Jebel Ali, Professional lighting design Jebel Ali, Luxury lighting design Jebel Ali, Lighting Design Jebel Ali Dubai, Lighting Design designer Jebel Ali, Lighting Design company Jebel Ali, Lighting Design contractor Jebel Ali, Affordable lighting design Jebel Ali, Modern lighting design Jebel Ali, Lighting Design consultation Jebel Ali, Lighting Design cost Jebel Ali, Lighting Design price Jebel Ali, Top lighting design Jebel Ali
+
+// SEO Keywords: Lighting Design Jebel Ali, Lighting Design in Jebel Ali, Best lighting design Jebel Ali, Professional lighting design Jebel Ali, Luxury lighting design Jebel Ali, Lighting Design Jebel Ali Dubai, Lighting Design designer Jebel Ali, Lighting Design company Jebel Ali, Lighting Design contractor Jebel Ali, Affordable lighting design Jebel Ali, Modern lighting design Jebel Ali, Lighting Design consultation Jebel Ali, Lighting Design cost Jebel Ali, Lighting Design price Jebel Ali, Top lighting design Jebel Ali, Lighting Design near Jebel Ali, Lighting Design specialists Jebel Ali, Lighting Design experts Jebel Ali, Lighting Design solutions Jebel Ali, Lighting Design packages Jebel Ali, Lighting Design quotes Jebel Ali, Lighting Design estimates Jebel Ali, Lighting Design services near me Jebel Ali, Cheap Lighting Design Jebel Ali, Quality Lighting Design Jebel Ali, Trusted Lighting Design Jebel Ali, Lighting Design transformation Jebel Ali, Lighting Design renovation Jebel Ali, Lighting Design makeover Jebel Ali, Best Lighting Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignJebelAli() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

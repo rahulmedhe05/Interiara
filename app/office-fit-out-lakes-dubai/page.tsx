@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Lakes, Office Fit in Out Lakes, Best office fit Out Lakes, Professional office fit Out Lakes, Luxury office fit Out Lakes, Office Fit Out Lakes Dubai, Office Fit designer Out Lakes, Office Fit company Out Lakes, Office Fit contractor Out Lakes, Affordable office fit Out Lakes, Modern office fit Out Lakes, Office Fit consultation Out Lakes, Office Fit cost Out Lakes, Office Fit price Out Lakes, Top office fit Out Lakes
+
+// SEO Keywords: Office Fit Out Lakes, Office Fit in Out Lakes, Best office fit Out Lakes, Professional office fit Out Lakes, Luxury office fit Out Lakes, Office Fit Out Lakes Dubai, Office Fit designer Out Lakes, Office Fit company Out Lakes, Office Fit contractor Out Lakes, Affordable office fit Out Lakes, Modern office fit Out Lakes, Office Fit consultation Out Lakes, Office Fit cost Out Lakes, Office Fit price Out Lakes, Top office fit Out Lakes, Office Fit near Out Lakes, Office Fit specialists Out Lakes, Office Fit experts Out Lakes, Office Fit solutions Out Lakes, Office Fit packages Out Lakes, Office Fit quotes Out Lakes, Office Fit estimates Out Lakes, Office Fit services near me Out Lakes, Cheap Office Fit Out Lakes, Quality Office Fit Out Lakes, Trusted Office Fit Out Lakes, Office Fit transformation Out Lakes, Office Fit renovation Out Lakes, Office Fit makeover Out Lakes, Best Office Fit company Out Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutLakes() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Lakes. Office Fit Out Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional office fit out lakes services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out The Lakes Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out lakes service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out lakes.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

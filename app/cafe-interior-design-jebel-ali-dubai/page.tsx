@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Jebel Ali, Cafe Interior Design in Jebel Ali, Best cafe interior design Jebel Ali, Professional cafe interior design Jebel Ali, Luxury cafe interior design Jebel Ali, Cafe Interior Design Jebel Ali Dubai, Cafe Interior Design designer Jebel Ali, Cafe Interior Design company Jebel Ali, Cafe Interior Design contractor Jebel Ali, Affordable cafe interior design Jebel Ali, Modern cafe interior design Jebel Ali, Cafe Interior Design consultation Jebel Ali, Cafe Interior Design cost Jebel Ali, Cafe Interior Design price Jebel Ali, Top cafe interior design Jebel Ali
+
+// SEO Keywords: Cafe Interior Design Jebel Ali, Cafe Interior Design in Jebel Ali, Best cafe interior design Jebel Ali, Professional cafe interior design Jebel Ali, Luxury cafe interior design Jebel Ali, Cafe Interior Design Jebel Ali Dubai, Cafe Interior Design designer Jebel Ali, Cafe Interior Design company Jebel Ali, Cafe Interior Design contractor Jebel Ali, Affordable cafe interior design Jebel Ali, Modern cafe interior design Jebel Ali, Cafe Interior Design consultation Jebel Ali, Cafe Interior Design cost Jebel Ali, Cafe Interior Design price Jebel Ali, Top cafe interior design Jebel Ali, Cafe Interior Design near Jebel Ali, Cafe Interior Design specialists Jebel Ali, Cafe Interior Design experts Jebel Ali, Cafe Interior Design solutions Jebel Ali, Cafe Interior Design packages Jebel Ali, Cafe Interior Design quotes Jebel Ali, Cafe Interior Design estimates Jebel Ali, Cafe Interior Design services near me Jebel Ali, Cheap Cafe Interior Design Jebel Ali, Quality Cafe Interior Design Jebel Ali, Trusted Cafe Interior Design Jebel Ali, Cafe Interior Design transformation Jebel Ali, Cafe Interior Design renovation Jebel Ali, Cafe Interior Design makeover Jebel Ali, Best Cafe Interior Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CafeInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Cafe Interior Design in Jebel Ali. Best cafe interior design Jebel Ali Company Jebel Ali Our luxury cafe interior design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CafeInteriorDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our cafe interior design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CafeInteriorDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in cafe interior design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

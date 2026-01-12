@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Jebel Ali, Office Fit Out in Jebel Ali, Best office fit out Jebel Ali, Professional office fit out Jebel Ali, Luxury office fit out Jebel Ali, Office Fit Out Jebel Ali Dubai, Office Fit Out designer Jebel Ali, Office Fit Out company Jebel Ali, Office Fit Out contractor Jebel Ali, Affordable office fit out Jebel Ali, Modern office fit out Jebel Ali, Office Fit Out consultation Jebel Ali, Office Fit Out cost Jebel Ali, Office Fit Out price Jebel Ali, Top office fit out Jebel Ali
+
+// SEO Keywords: Office Fit Out Jebel Ali, Office Fit Out in Jebel Ali, Best office fit out Jebel Ali, Professional office fit out Jebel Ali, Luxury office fit out Jebel Ali, Office Fit Out Jebel Ali Dubai, Office Fit Out designer Jebel Ali, Office Fit Out company Jebel Ali, Office Fit Out contractor Jebel Ali, Affordable office fit out Jebel Ali, Modern office fit out Jebel Ali, Office Fit Out consultation Jebel Ali, Office Fit Out cost Jebel Ali, Office Fit Out price Jebel Ali, Top office fit out Jebel Ali, Office Fit Out near Jebel Ali, Office Fit Out specialists Jebel Ali, Office Fit Out experts Jebel Ali, Office Fit Out solutions Jebel Ali, Office Fit Out packages Jebel Ali, Office Fit Out quotes Jebel Ali, Office Fit Out estimates Jebel Ali, Office Fit Out services near me Jebel Ali, Cheap Office Fit Out Jebel Ali, Quality Office Fit Out Jebel Ali, Trusted Office Fit Out Jebel Ali, Office Fit Out transformation Jebel Ali, Office Fit Out renovation Jebel Ali, Office Fit Out makeover Jebel Ali, Best Office Fit Out company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutJebelAli() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

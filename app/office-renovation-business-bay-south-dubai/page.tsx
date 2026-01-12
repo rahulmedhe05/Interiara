@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Business Bay South, Office Renovation Business in Bay South, Best office renovation business Bay South, Professional office renovation business Bay South, Luxury office renovation business Bay South, Office Renovation Business Bay South Dubai, Office Renovation Business designer Bay South, Office Renovation Business company Bay South, Office Renovation Business contractor Bay South, Affordable office renovation business Bay South, Modern office renovation business Bay South, Office Renovation Business consultation Bay South, Office Renovation Business cost Bay South, Office Renovation Business price Bay South, Top office renovation business Bay South
+
+// SEO Keywords: Office Renovation Business Bay South, Office Renovation Business in Bay South, Best office renovation business Bay South, Professional office renovation business Bay South, Luxury office renovation business Bay South, Office Renovation Business Bay South Dubai, Office Renovation Business designer Bay South, Office Renovation Business company Bay South, Office Renovation Business contractor Bay South, Affordable office renovation business Bay South, Modern office renovation business Bay South, Office Renovation Business consultation Bay South, Office Renovation Business cost Bay South, Office Renovation Business price Bay South, Top office renovation business Bay South, Office Renovation Business near Bay South, Office Renovation Business specialists Bay South, Office Renovation Business experts Bay South, Office Renovation Business solutions Bay South, Office Renovation Business packages Bay South, Office Renovation Business quotes Bay South, Office Renovation Business estimates Bay South, Office Renovation Business services near me Bay South, Cheap Office Renovation Business Bay South, Quality Office Renovation Business Bay South, Trusted Office Renovation Business Bay South, Office Renovation Business transformation Bay South, Office Renovation Business renovation Bay South, Office Renovation Business makeover Bay South, Best Office Renovation Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation Business in Bay South. Best office renovation business Bay South Company Bay South Our luxury office renovation business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

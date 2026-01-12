@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Palm, Office Interior in Design Palm, Best office interior Design Palm, Professional office interior Design Palm, Luxury office interior Design Palm, Office Interior Design Palm Dubai, Office Interior designer Design Palm, Office Interior company Design Palm, Office Interior contractor Design Palm, Affordable office interior Design Palm, Modern office interior Design Palm, Office Interior consultation Design Palm, Office Interior cost Design Palm, Office Interior price Design Palm, Top office interior Design Palm
+
+// SEO Keywords: Office Interior Design Palm, Office Interior in Design Palm, Best office interior Design Palm, Professional office interior Design Palm, Luxury office interior Design Palm, Office Interior Design Palm Dubai, Office Interior designer Design Palm, Office Interior company Design Palm, Office Interior contractor Design Palm, Affordable office interior Design Palm, Modern office interior Design Palm, Office Interior consultation Design Palm, Office Interior cost Design Palm, Office Interior price Design Palm, Top office interior Design Palm, Office Interior near Design Palm, Office Interior specialists Design Palm, Office Interior experts Design Palm, Office Interior solutions Design Palm, Office Interior packages Design Palm, Office Interior quotes Design Palm, Office Interior estimates Design Palm, Office Interior services near me Design Palm, Cheap Office Interior Design Palm, Quality Office Interior Design Palm, Trusted Office Interior Design Palm, Office Interior transformation Design Palm, Office Interior renovation Design Palm, Office Interior makeover Design Palm, Best Office Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior in Design Palm. Best office interior Design Palm Company Design Palm Our luxury office interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

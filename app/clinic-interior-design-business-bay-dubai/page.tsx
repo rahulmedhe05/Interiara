@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Clinic Interior Design Business Bay, Clinic Interior Design in Business Bay, Best clinic interior design Business Bay, Professional clinic interior design Business Bay, Luxury clinic interior design Business Bay, Clinic Interior Design Business Bay Dubai, Clinic Interior Design designer Business Bay, Clinic Interior Design company Business Bay, Clinic Interior Design contractor Business Bay, Affordable clinic interior design Business Bay, Modern clinic interior design Business Bay, Clinic Interior Design consultation Business Bay, Clinic Interior Design cost Business Bay, Clinic Interior Design price Business Bay, Top clinic interior design Business Bay
+
+// SEO Keywords: Clinic Interior Design Business Bay, Clinic Interior Design in Business Bay, Best clinic interior design Business Bay, Professional clinic interior design Business Bay, Luxury clinic interior design Business Bay, Clinic Interior Design Business Bay Dubai, Clinic Interior Design designer Business Bay, Clinic Interior Design company Business Bay, Clinic Interior Design contractor Business Bay, Affordable clinic interior design Business Bay, Modern clinic interior design Business Bay, Clinic Interior Design consultation Business Bay, Clinic Interior Design cost Business Bay, Clinic Interior Design price Business Bay, Top clinic interior design Business Bay, Clinic Interior Design near Business Bay, Clinic Interior Design specialists Business Bay, Clinic Interior Design experts Business Bay, Clinic Interior Design solutions Business Bay, Clinic Interior Design packages Business Bay, Clinic Interior Design quotes Business Bay, Clinic Interior Design estimates Business Bay, Clinic Interior Design services near me Business Bay, Cheap Clinic Interior Design Business Bay, Quality Clinic Interior Design Business Bay, Trusted Clinic Interior Design Business Bay, Clinic Interior Design transformation Business Bay, Clinic Interior Design renovation Business Bay, Clinic Interior Design makeover Business Bay, Best Clinic Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClinicInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Clinic Interior Design in Business Bay. Best clinic interior design Business Bay Company Business Bay Our luxury clinic interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClinicInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our clinic interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClinicInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in clinic interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClinicInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

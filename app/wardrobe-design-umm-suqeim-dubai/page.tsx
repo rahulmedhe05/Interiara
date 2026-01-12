@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Umm Suqeim, Wardrobe Design in Umm Suqeim, Best wardrobe design Umm Suqeim, Professional wardrobe design Umm Suqeim, Luxury wardrobe design Umm Suqeim, Wardrobe Design Umm Suqeim Dubai, Wardrobe Design designer Umm Suqeim, Wardrobe Design company Umm Suqeim, Wardrobe Design contractor Umm Suqeim, Affordable wardrobe design Umm Suqeim, Modern wardrobe design Umm Suqeim, Wardrobe Design consultation Umm Suqeim, Wardrobe Design cost Umm Suqeim, Wardrobe Design price Umm Suqeim, Top wardrobe design Umm Suqeim
+
+// SEO Keywords: Wardrobe Design Umm Suqeim, Wardrobe Design in Umm Suqeim, Best wardrobe design Umm Suqeim, Professional wardrobe design Umm Suqeim, Luxury wardrobe design Umm Suqeim, Wardrobe Design Umm Suqeim Dubai, Wardrobe Design designer Umm Suqeim, Wardrobe Design company Umm Suqeim, Wardrobe Design contractor Umm Suqeim, Affordable wardrobe design Umm Suqeim, Modern wardrobe design Umm Suqeim, Wardrobe Design consultation Umm Suqeim, Wardrobe Design cost Umm Suqeim, Wardrobe Design price Umm Suqeim, Top wardrobe design Umm Suqeim, Wardrobe Design near Umm Suqeim, Wardrobe Design specialists Umm Suqeim, Wardrobe Design experts Umm Suqeim, Wardrobe Design solutions Umm Suqeim, Wardrobe Design packages Umm Suqeim, Wardrobe Design quotes Umm Suqeim, Wardrobe Design estimates Umm Suqeim, Wardrobe Design services near me Umm Suqeim, Cheap Wardrobe Design Umm Suqeim, Quality Wardrobe Design Umm Suqeim, Trusted Wardrobe Design Umm Suqeim, Wardrobe Design transformation Umm Suqeim, Wardrobe Design renovation Umm Suqeim, Wardrobe Design makeover Umm Suqeim, Best Wardrobe Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe Design in Umm Suqeim. Best wardrobe design Umm Suqeim Company Umm Suqeim Our luxury wardrobe design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

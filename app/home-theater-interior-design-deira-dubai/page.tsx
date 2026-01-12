@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Theater Interior Design Deira, Home Theater Interior in Design Deira, Best home theater interior Design Deira, Professional home theater interior Design Deira, Luxury home theater interior Design Deira, Home Theater Interior Design Deira Dubai, Home Theater Interior designer Design Deira, Home Theater Interior company Design Deira, Home Theater Interior contractor Design Deira, Affordable home theater interior Design Deira, Modern home theater interior Design Deira, Home Theater Interior consultation Design Deira, Home Theater Interior cost Design Deira, Home Theater Interior price Design Deira, Top home theater interior Design Deira
+
+// SEO Keywords: Home Theater Interior Design Deira, Home Theater Interior in Design Deira, Best home theater interior Design Deira, Professional home theater interior Design Deira, Luxury home theater interior Design Deira, Home Theater Interior Design Deira Dubai, Home Theater Interior designer Design Deira, Home Theater Interior company Design Deira, Home Theater Interior contractor Design Deira, Affordable home theater interior Design Deira, Modern home theater interior Design Deira, Home Theater Interior consultation Design Deira, Home Theater Interior cost Design Deira, Home Theater Interior price Design Deira, Top home theater interior Design Deira, Home Theater Interior near Design Deira, Home Theater Interior specialists Design Deira, Home Theater Interior experts Design Deira, Home Theater Interior solutions Design Deira, Home Theater Interior packages Design Deira, Home Theater Interior quotes Design Deira, Home Theater Interior estimates Design Deira, Home Theater Interior services near me Design Deira, Cheap Home Theater Interior Design Deira, Quality Home Theater Interior Design Deira, Trusted Home Theater Interior Design Deira, Home Theater Interior transformation Design Deira, Home Theater Interior renovation Design Deira, Home Theater Interior makeover Design Deira, Best Home Theater Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeTheaterInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home theater interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Theater Interior in Design Deira. Best home theater interior Design Deira Company Design Deira Our luxury home theater interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Theater Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeTheaterInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home theater interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeTheaterInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home theater interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeTheaterInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

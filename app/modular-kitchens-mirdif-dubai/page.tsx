@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Mirdif, Modular in Kitchens Mirdif, Best modular Kitchens Mirdif, Professional modular Kitchens Mirdif, Luxury modular Kitchens Mirdif, Modular Kitchens Mirdif Dubai, Modular designer Kitchens Mirdif, Modular company Kitchens Mirdif, Modular contractor Kitchens Mirdif, Affordable modular Kitchens Mirdif, Modern modular Kitchens Mirdif, Modular consultation Kitchens Mirdif, Modular cost Kitchens Mirdif, Modular price Kitchens Mirdif, Top modular Kitchens Mirdif
+
+// SEO Keywords: Modular Kitchens Mirdif, Modular in Kitchens Mirdif, Best modular Kitchens Mirdif, Professional modular Kitchens Mirdif, Luxury modular Kitchens Mirdif, Modular Kitchens Mirdif Dubai, Modular designer Kitchens Mirdif, Modular company Kitchens Mirdif, Modular contractor Kitchens Mirdif, Affordable modular Kitchens Mirdif, Modern modular Kitchens Mirdif, Modular consultation Kitchens Mirdif, Modular cost Kitchens Mirdif, Modular price Kitchens Mirdif, Top modular Kitchens Mirdif, Modular near Kitchens Mirdif, Modular specialists Kitchens Mirdif, Modular experts Kitchens Mirdif, Modular solutions Kitchens Mirdif, Modular packages Kitchens Mirdif, Modular quotes Kitchens Mirdif, Modular estimates Kitchens Mirdif, Modular services near me Kitchens Mirdif, Cheap Modular Kitchens Mirdif, Quality Modular Kitchens Mirdif, Trusted Modular Kitchens Mirdif, Modular transformation Kitchens Mirdif, Modular renovation Kitchens Mirdif, Modular makeover Kitchens Mirdif, Best Modular company Kitchens Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Mirdif Company Kitchens Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular in Kitchens Mirdif. Best modular Kitchens Mirdif Company Kitchens Mirdif Our luxury modular kitchens mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular in kitchens mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular near kitchens mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Jbr, Cafe Interior in Design Jbr, Best cafe interior Design Jbr, Professional cafe interior Design Jbr, Luxury cafe interior Design Jbr, Cafe Interior Design Jbr Dubai, Cafe Interior designer Design Jbr, Cafe Interior company Design Jbr, Cafe Interior contractor Design Jbr, Affordable cafe interior Design Jbr, Modern cafe interior Design Jbr, Cafe Interior consultation Design Jbr, Cafe Interior cost Design Jbr, Cafe Interior price Design Jbr, Top cafe interior Design Jbr
+
+// SEO Keywords: Cafe Interior Design Jbr, Cafe Interior in Design Jbr, Best cafe interior Design Jbr, Professional cafe interior Design Jbr, Luxury cafe interior Design Jbr, Cafe Interior Design Jbr Dubai, Cafe Interior designer Design Jbr, Cafe Interior company Design Jbr, Cafe Interior contractor Design Jbr, Affordable cafe interior Design Jbr, Modern cafe interior Design Jbr, Cafe Interior consultation Design Jbr, Cafe Interior cost Design Jbr, Cafe Interior price Design Jbr, Top cafe interior Design Jbr, Cafe Interior near Design Jbr, Cafe Interior specialists Design Jbr, Cafe Interior experts Design Jbr, Cafe Interior solutions Design Jbr, Cafe Interior packages Design Jbr, Cafe Interior quotes Design Jbr, Cafe Interior estimates Design Jbr, Cafe Interior services near me Design Jbr, Cheap Cafe Interior Design Jbr, Quality Cafe Interior Design Jbr, Trusted Cafe Interior Design Jbr, Cafe Interior transformation Design Jbr, Cafe Interior renovation Design Jbr, Cafe Interior makeover Design Jbr, Best Cafe Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function CafeInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Cafe Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Cafe Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Cafe Interior in Design Jbr. Cafe Interior Design Jbr. 
+                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Cafe Interior in Design Jbr. Cafe Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury cafe interior design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Cafe Interior Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function CafeInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our cafe interior in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in cafe interior near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

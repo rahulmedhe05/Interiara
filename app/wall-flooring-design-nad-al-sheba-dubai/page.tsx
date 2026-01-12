@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Nad Al Sheba, Wall Flooring Design Nad in Al Sheba, Best wall flooring design nad Al Sheba, Professional wall flooring design nad Al Sheba, Luxury wall flooring design nad Al Sheba, Wall Flooring Design Nad Al Sheba Dubai, Wall Flooring Design Nad designer Al Sheba, Wall Flooring Design Nad company Al Sheba, Wall Flooring Design Nad contractor Al Sheba, Affordable wall flooring design nad Al Sheba, Modern wall flooring design nad Al Sheba, Wall Flooring Design Nad consultation Al Sheba, Wall Flooring Design Nad cost Al Sheba, Wall Flooring Design Nad price Al Sheba, Top wall flooring design nad Al Sheba
+
+// SEO Keywords: Wall Flooring Design Nad Al Sheba, Wall Flooring Design Nad in Al Sheba, Best wall flooring design nad Al Sheba, Professional wall flooring design nad Al Sheba, Luxury wall flooring design nad Al Sheba, Wall Flooring Design Nad Al Sheba Dubai, Wall Flooring Design Nad designer Al Sheba, Wall Flooring Design Nad company Al Sheba, Wall Flooring Design Nad contractor Al Sheba, Affordable wall flooring design nad Al Sheba, Modern wall flooring design nad Al Sheba, Wall Flooring Design Nad consultation Al Sheba, Wall Flooring Design Nad cost Al Sheba, Wall Flooring Design Nad price Al Sheba, Top wall flooring design nad Al Sheba, Wall Flooring Design Nad near Al Sheba, Wall Flooring Design Nad specialists Al Sheba, Wall Flooring Design Nad experts Al Sheba, Wall Flooring Design Nad solutions Al Sheba, Wall Flooring Design Nad packages Al Sheba, Wall Flooring Design Nad quotes Al Sheba, Wall Flooring Design Nad estimates Al Sheba, Wall Flooring Design Nad services near me Al Sheba, Cheap Wall Flooring Design Nad Al Sheba, Quality Wall Flooring Design Nad Al Sheba, Trusted Wall Flooring Design Nad Al Sheba, Wall Flooring Design Nad transformation Al Sheba, Wall Flooring Design Nad renovation Al Sheba, Wall Flooring Design Nad makeover Al Sheba, Best Wall Flooring Design Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design Nad in Al Sheba. Best wall flooring design nad Al Sheba Company Al Sheba Our luxury wall flooring design nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

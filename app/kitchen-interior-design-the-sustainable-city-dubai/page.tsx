@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design The Sustainable City, Kitchen Interior Design The in Sustainable City, Best kitchen interior design the Sustainable City, Professional kitchen interior design the Sustainable City, Luxury kitchen interior design the Sustainable City, Kitchen Interior Design The Sustainable City Dubai, Kitchen Interior Design The designer Sustainable City, Kitchen Interior Design The company Sustainable City, Kitchen Interior Design The contractor Sustainable City, Affordable kitchen interior design the Sustainable City, Modern kitchen interior design the Sustainable City, Kitchen Interior Design The consultation Sustainable City, Kitchen Interior Design The cost Sustainable City, Kitchen Interior Design The price Sustainable City, Top kitchen interior design the Sustainable City
+
+// SEO Keywords: Kitchen Interior Design The Sustainable City, Kitchen Interior Design The in Sustainable City, Best kitchen interior design the Sustainable City, Professional kitchen interior design the Sustainable City, Luxury kitchen interior design the Sustainable City, Kitchen Interior Design The Sustainable City Dubai, Kitchen Interior Design The designer Sustainable City, Kitchen Interior Design The company Sustainable City, Kitchen Interior Design The contractor Sustainable City, Affordable kitchen interior design the Sustainable City, Modern kitchen interior design the Sustainable City, Kitchen Interior Design The consultation Sustainable City, Kitchen Interior Design The cost Sustainable City, Kitchen Interior Design The price Sustainable City, Top kitchen interior design the Sustainable City, Kitchen Interior Design The near Sustainable City, Kitchen Interior Design The specialists Sustainable City, Kitchen Interior Design The experts Sustainable City, Kitchen Interior Design The solutions Sustainable City, Kitchen Interior Design The packages Sustainable City, Kitchen Interior Design The quotes Sustainable City, Kitchen Interior Design The estimates Sustainable City, Kitchen Interior Design The services near me Sustainable City, Cheap Kitchen Interior Design The Sustainable City, Quality Kitchen Interior Design The Sustainable City, Trusted Kitchen Interior Design The Sustainable City, Kitchen Interior Design The transformation Sustainable City, Kitchen Interior Design The renovation Sustainable City, Kitchen Interior Design The makeover Sustainable City, Best Kitchen Interior Design The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior Design The in Sustainable City. Best kitchen interior design the Sustainable City Company Sustainable City Our luxury kitchen interior design the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior design the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior design the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modern Interior Design Jvt, Modern Interior in Design Jvt, Best modern interior Design Jvt, Professional modern interior Design Jvt, Luxury modern interior Design Jvt, Modern Interior Design Jvt Dubai, Modern Interior designer Design Jvt, Modern Interior company Design Jvt, Modern Interior contractor Design Jvt, Affordable modern interior Design Jvt, Modern modern interior Design Jvt, Modern Interior consultation Design Jvt, Modern Interior cost Design Jvt, Modern Interior price Design Jvt, Top modern interior Design Jvt
+
+// SEO Keywords: Modern Interior Design Jvt, Modern Interior in Design Jvt, Best modern interior Design Jvt, Professional modern interior Design Jvt, Luxury modern interior Design Jvt, Modern Interior Design Jvt Dubai, Modern Interior designer Design Jvt, Modern Interior company Design Jvt, Modern Interior contractor Design Jvt, Affordable modern interior Design Jvt, Modern modern interior Design Jvt, Modern Interior consultation Design Jvt, Modern Interior cost Design Jvt, Modern Interior price Design Jvt, Top modern interior Design Jvt, Modern Interior near Design Jvt, Modern Interior specialists Design Jvt, Modern Interior experts Design Jvt, Modern Interior solutions Design Jvt, Modern Interior packages Design Jvt, Modern Interior quotes Design Jvt, Modern Interior estimates Design Jvt, Modern Interior services near me Design Jvt, Cheap Modern Interior Design Jvt, Quality Modern Interior Design Jvt, Trusted Modern Interior Design Jvt, Modern Interior transformation Design Jvt, Modern Interior renovation Design Jvt, Modern Interior makeover Design Jvt, Best Modern Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModernInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modern Interior in Design Jvt. Best modern interior Design Jvt Company Design Jvt Our luxury modern interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ModernInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Modern Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modern Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modern Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ModernInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modern interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModernInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modern interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModernInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

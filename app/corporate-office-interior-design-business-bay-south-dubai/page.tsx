@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Business Bay South, Corporate Office Interior Design Business in Bay South, Best corporate office interior design business Bay South, Professional corporate office interior design business Bay South, Luxury corporate office interior design business Bay South, Corporate Office Interior Design Business Bay South Dubai, Corporate Office Interior Design Business designer Bay South, Corporate Office Interior Design Business company Bay South, Corporate Office Interior Design Business contractor Bay South, Affordable corporate office interior design business Bay South, Modern corporate office interior design business Bay South, Corporate Office Interior Design Business consultation Bay South, Corporate Office Interior Design Business cost Bay South, Corporate Office Interior Design Business price Bay South, Top corporate office interior design business Bay South
+
+// SEO Keywords: Corporate Office Interior Design Business Bay South, Corporate Office Interior Design Business in Bay South, Best corporate office interior design business Bay South, Professional corporate office interior design business Bay South, Luxury corporate office interior design business Bay South, Corporate Office Interior Design Business Bay South Dubai, Corporate Office Interior Design Business designer Bay South, Corporate Office Interior Design Business company Bay South, Corporate Office Interior Design Business contractor Bay South, Affordable corporate office interior design business Bay South, Modern corporate office interior design business Bay South, Corporate Office Interior Design Business consultation Bay South, Corporate Office Interior Design Business cost Bay South, Corporate Office Interior Design Business price Bay South, Top corporate office interior design business Bay South, Corporate Office Interior Design Business near Bay South, Corporate Office Interior Design Business specialists Bay South, Corporate Office Interior Design Business experts Bay South, Corporate Office Interior Design Business solutions Bay South, Corporate Office Interior Design Business packages Bay South, Corporate Office Interior Design Business quotes Bay South, Corporate Office Interior Design Business estimates Bay South, Corporate Office Interior Design Business services near me Bay South, Cheap Corporate Office Interior Design Business Bay South, Quality Corporate Office Interior Design Business Bay South, Trusted Corporate Office Interior Design Business Bay South, Corporate Office Interior Design Business transformation Bay South, Corporate Office Interior Design Business renovation Bay South, Corporate Office Interior Design Business makeover Bay South, Best Corporate Office Interior Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior Design Business in Bay South. Best corporate office interior design business Bay South Company Bay South Our luxury corporate office interior design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

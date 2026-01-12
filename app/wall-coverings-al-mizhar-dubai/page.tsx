@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Al Mizhar, Wall Coverings in Al Mizhar, Best wall coverings Al Mizhar, Professional wall coverings Al Mizhar, Luxury wall coverings Al Mizhar, Wall Coverings Al Mizhar Dubai, Wall Coverings designer Al Mizhar, Wall Coverings company Al Mizhar, Wall Coverings contractor Al Mizhar, Affordable wall coverings Al Mizhar, Modern wall coverings Al Mizhar, Wall Coverings consultation Al Mizhar, Wall Coverings cost Al Mizhar, Wall Coverings price Al Mizhar, Top wall coverings Al Mizhar
+
+// SEO Keywords: Wall Coverings Al Mizhar, Wall Coverings in Al Mizhar, Best wall coverings Al Mizhar, Professional wall coverings Al Mizhar, Luxury wall coverings Al Mizhar, Wall Coverings Al Mizhar Dubai, Wall Coverings designer Al Mizhar, Wall Coverings company Al Mizhar, Wall Coverings contractor Al Mizhar, Affordable wall coverings Al Mizhar, Modern wall coverings Al Mizhar, Wall Coverings consultation Al Mizhar, Wall Coverings cost Al Mizhar, Wall Coverings price Al Mizhar, Top wall coverings Al Mizhar, Wall Coverings near Al Mizhar, Wall Coverings specialists Al Mizhar, Wall Coverings experts Al Mizhar, Wall Coverings solutions Al Mizhar, Wall Coverings packages Al Mizhar, Wall Coverings quotes Al Mizhar, Wall Coverings estimates Al Mizhar, Wall Coverings services near me Al Mizhar, Cheap Wall Coverings Al Mizhar, Quality Wall Coverings Al Mizhar, Trusted Wall Coverings Al Mizhar, Wall Coverings transformation Al Mizhar, Wall Coverings renovation Al Mizhar, Wall Coverings makeover Al Mizhar, Best Wall Coverings company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall coverings in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall coverings near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Dubai Marina, Office Fit Out in Dubai Marina, Best office fit out Dubai Marina, Professional office fit out Dubai Marina, Luxury office fit out Dubai Marina, Office Fit Out Dubai Marina Dubai, Office Fit Out designer Dubai Marina, Office Fit Out company Dubai Marina, Office Fit Out contractor Dubai Marina, Affordable office fit out Dubai Marina, Modern office fit out Dubai Marina, Office Fit Out consultation Dubai Marina, Office Fit Out cost Dubai Marina, Office Fit Out price Dubai Marina, Top office fit out Dubai Marina
+
+// SEO Keywords: Office Fit Out Dubai Marina, Office Fit Out in Dubai Marina, Best office fit out Dubai Marina, Professional office fit out Dubai Marina, Luxury office fit out Dubai Marina, Office Fit Out Dubai Marina Dubai, Office Fit Out designer Dubai Marina, Office Fit Out company Dubai Marina, Office Fit Out contractor Dubai Marina, Affordable office fit out Dubai Marina, Modern office fit out Dubai Marina, Office Fit Out consultation Dubai Marina, Office Fit Out cost Dubai Marina, Office Fit Out price Dubai Marina, Top office fit out Dubai Marina, Office Fit Out near Dubai Marina, Office Fit Out specialists Dubai Marina, Office Fit Out experts Dubai Marina, Office Fit Out solutions Dubai Marina, Office Fit Out packages Dubai Marina, Office Fit Out quotes Dubai Marina, Office Fit Out estimates Dubai Marina, Office Fit Out services near me Dubai Marina, Cheap Office Fit Out Dubai Marina, Quality Office Fit Out Dubai Marina, Trusted Office Fit Out Dubai Marina, Office Fit Out transformation Dubai Marina, Office Fit Out renovation Dubai Marina, Office Fit Out makeover Dubai Marina, Best Office Fit Out company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeFitOutDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Fit Out in Dubai Marina. Best office fit out Dubai Marina Company Dubai Marina Our luxury office fit out dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeFitOutDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office fit out in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeFitOutDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office fit out near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeFitOutDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

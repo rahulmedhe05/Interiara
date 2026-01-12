@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Town Square, Contemporary Interior Design in Town Square, Best contemporary interior design Town Square, Professional contemporary interior design Town Square, Luxury contemporary interior design Town Square, Contemporary Interior Design Town Square Dubai, Contemporary Interior Design designer Town Square, Contemporary Interior Design company Town Square, Contemporary Interior Design contractor Town Square, Affordable contemporary interior design Town Square, Modern contemporary interior design Town Square, Contemporary Interior Design consultation Town Square, Contemporary Interior Design cost Town Square, Contemporary Interior Design price Town Square, Top contemporary interior design Town Square
+
+// SEO Keywords: Contemporary Interior Design Town Square, Contemporary Interior Design in Town Square, Best contemporary interior design Town Square, Professional contemporary interior design Town Square, Luxury contemporary interior design Town Square, Contemporary Interior Design Town Square Dubai, Contemporary Interior Design designer Town Square, Contemporary Interior Design company Town Square, Contemporary Interior Design contractor Town Square, Affordable contemporary interior design Town Square, Modern contemporary interior design Town Square, Contemporary Interior Design consultation Town Square, Contemporary Interior Design cost Town Square, Contemporary Interior Design price Town Square, Top contemporary interior design Town Square, Contemporary Interior Design near Town Square, Contemporary Interior Design specialists Town Square, Contemporary Interior Design experts Town Square, Contemporary Interior Design solutions Town Square, Contemporary Interior Design packages Town Square, Contemporary Interior Design quotes Town Square, Contemporary Interior Design estimates Town Square, Contemporary Interior Design services near me Town Square, Cheap Contemporary Interior Design Town Square, Quality Contemporary Interior Design Town Square, Trusted Contemporary Interior Design Town Square, Contemporary Interior Design transformation Town Square, Contemporary Interior Design renovation Town Square, Contemporary Interior Design makeover Town Square, Best Contemporary Interior Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Town Square. Best contemporary interior design Town Square Company Town Square Our luxury contemporary interior design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

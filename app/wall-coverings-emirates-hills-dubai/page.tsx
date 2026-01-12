@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Emirates Hills, Wall Coverings in Emirates Hills, Best wall coverings Emirates Hills, Professional wall coverings Emirates Hills, Luxury wall coverings Emirates Hills, Wall Coverings Emirates Hills Dubai, Wall Coverings designer Emirates Hills, Wall Coverings company Emirates Hills, Wall Coverings contractor Emirates Hills, Affordable wall coverings Emirates Hills, Modern wall coverings Emirates Hills, Wall Coverings consultation Emirates Hills, Wall Coverings cost Emirates Hills, Wall Coverings price Emirates Hills, Top wall coverings Emirates Hills
+
+// SEO Keywords: Wall Coverings Emirates Hills, Wall Coverings in Emirates Hills, Best wall coverings Emirates Hills, Professional wall coverings Emirates Hills, Luxury wall coverings Emirates Hills, Wall Coverings Emirates Hills Dubai, Wall Coverings designer Emirates Hills, Wall Coverings company Emirates Hills, Wall Coverings contractor Emirates Hills, Affordable wall coverings Emirates Hills, Modern wall coverings Emirates Hills, Wall Coverings consultation Emirates Hills, Wall Coverings cost Emirates Hills, Wall Coverings price Emirates Hills, Top wall coverings Emirates Hills, Wall Coverings near Emirates Hills, Wall Coverings specialists Emirates Hills, Wall Coverings experts Emirates Hills, Wall Coverings solutions Emirates Hills, Wall Coverings packages Emirates Hills, Wall Coverings quotes Emirates Hills, Wall Coverings estimates Emirates Hills, Wall Coverings services near me Emirates Hills, Cheap Wall Coverings Emirates Hills, Quality Wall Coverings Emirates Hills, Trusted Wall Coverings Emirates Hills, Wall Coverings transformation Emirates Hills, Wall Coverings renovation Emirates Hills, Wall Coverings makeover Emirates Hills, Best Wall Coverings company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings in Emirates Hills. Best wall coverings Emirates Hills Company Emirates Hills Our luxury wall coverings emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Bur Dubai, Lighting Design in Bur Dubai, Best lighting design Bur Dubai, Professional lighting design Bur Dubai, Luxury lighting design Bur Dubai, Lighting Design Bur Dubai Dubai, Lighting Design designer Bur Dubai, Lighting Design company Bur Dubai, Lighting Design contractor Bur Dubai, Affordable lighting design Bur Dubai, Modern lighting design Bur Dubai, Lighting Design consultation Bur Dubai, Lighting Design cost Bur Dubai, Lighting Design price Bur Dubai, Top lighting design Bur Dubai
+
+// SEO Keywords: Lighting Design Bur Dubai, Lighting Design in Bur Dubai, Best lighting design Bur Dubai, Professional lighting design Bur Dubai, Luxury lighting design Bur Dubai, Lighting Design Bur Dubai Dubai, Lighting Design designer Bur Dubai, Lighting Design company Bur Dubai, Lighting Design contractor Bur Dubai, Affordable lighting design Bur Dubai, Modern lighting design Bur Dubai, Lighting Design consultation Bur Dubai, Lighting Design cost Bur Dubai, Lighting Design price Bur Dubai, Top lighting design Bur Dubai, Lighting Design near Bur Dubai, Lighting Design specialists Bur Dubai, Lighting Design experts Bur Dubai, Lighting Design solutions Bur Dubai, Lighting Design packages Bur Dubai, Lighting Design quotes Bur Dubai, Lighting Design estimates Bur Dubai, Lighting Design services near me Bur Dubai, Cheap Lighting Design Bur Dubai, Quality Lighting Design Bur Dubai, Trusted Lighting Design Bur Dubai, Lighting Design transformation Bur Dubai, Lighting Design renovation Bur Dubai, Lighting Design makeover Bur Dubai, Best Lighting Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignBurDubai() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

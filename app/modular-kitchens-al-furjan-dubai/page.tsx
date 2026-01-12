@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Al Furjan, Modular Kitchens in Al Furjan, Best modular kitchens Al Furjan, Professional modular kitchens Al Furjan, Luxury modular kitchens Al Furjan, Modular Kitchens Al Furjan Dubai, Modular Kitchens designer Al Furjan, Modular Kitchens company Al Furjan, Modular Kitchens contractor Al Furjan, Affordable modular kitchens Al Furjan, Modern modular kitchens Al Furjan, Modular Kitchens consultation Al Furjan, Modular Kitchens cost Al Furjan, Modular Kitchens price Al Furjan, Top modular kitchens Al Furjan
+
+// SEO Keywords: Modular Kitchens Al Furjan, Modular Kitchens in Al Furjan, Best modular kitchens Al Furjan, Professional modular kitchens Al Furjan, Luxury modular kitchens Al Furjan, Modular Kitchens Al Furjan Dubai, Modular Kitchens designer Al Furjan, Modular Kitchens company Al Furjan, Modular Kitchens contractor Al Furjan, Affordable modular kitchens Al Furjan, Modern modular kitchens Al Furjan, Modular Kitchens consultation Al Furjan, Modular Kitchens cost Al Furjan, Modular Kitchens price Al Furjan, Top modular kitchens Al Furjan, Modular Kitchens near Al Furjan, Modular Kitchens specialists Al Furjan, Modular Kitchens experts Al Furjan, Modular Kitchens solutions Al Furjan, Modular Kitchens packages Al Furjan, Modular Kitchens quotes Al Furjan, Modular Kitchens estimates Al Furjan, Modular Kitchens services near me Al Furjan, Cheap Modular Kitchens Al Furjan, Quality Modular Kitchens Al Furjan, Trusted Modular Kitchens Al Furjan, Modular Kitchens transformation Al Furjan, Modular Kitchens renovation Al Furjan, Modular Kitchens makeover Al Furjan, Best Modular Kitchens company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

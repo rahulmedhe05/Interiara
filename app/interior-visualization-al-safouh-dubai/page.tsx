@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Al Safouh, Interior Visualization in Al Safouh, Best interior visualization Al Safouh, Professional interior visualization Al Safouh, Luxury interior visualization Al Safouh, Interior Visualization Al Safouh Dubai, Interior Visualization designer Al Safouh, Interior Visualization company Al Safouh, Interior Visualization contractor Al Safouh, Affordable interior visualization Al Safouh, Modern interior visualization Al Safouh, Interior Visualization consultation Al Safouh, Interior Visualization cost Al Safouh, Interior Visualization price Al Safouh, Top interior visualization Al Safouh
+
+// SEO Keywords: Interior Visualization Al Safouh, Interior Visualization in Al Safouh, Best interior visualization Al Safouh, Professional interior visualization Al Safouh, Luxury interior visualization Al Safouh, Interior Visualization Al Safouh Dubai, Interior Visualization designer Al Safouh, Interior Visualization company Al Safouh, Interior Visualization contractor Al Safouh, Affordable interior visualization Al Safouh, Modern interior visualization Al Safouh, Interior Visualization consultation Al Safouh, Interior Visualization cost Al Safouh, Interior Visualization price Al Safouh, Top interior visualization Al Safouh, Interior Visualization near Al Safouh, Interior Visualization specialists Al Safouh, Interior Visualization experts Al Safouh, Interior Visualization solutions Al Safouh, Interior Visualization packages Al Safouh, Interior Visualization quotes Al Safouh, Interior Visualization estimates Al Safouh, Interior Visualization services near me Al Safouh, Cheap Interior Visualization Al Safouh, Quality Interior Visualization Al Safouh, Trusted Interior Visualization Al Safouh, Interior Visualization transformation Al Safouh, Interior Visualization renovation Al Safouh, Interior Visualization makeover Al Safouh, Best Interior Visualization company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in Al Safouh. Best interior visualization Al Safouh Company Al Safouh Our luxury interior visualization al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

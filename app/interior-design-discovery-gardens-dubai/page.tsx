@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Discovery Gardens, Interior Design in Discovery Gardens, Best interior design Discovery Gardens, Professional interior design Discovery Gardens, Luxury interior design Discovery Gardens, Interior Design Discovery Gardens Dubai, Interior Design designer Discovery Gardens, Interior Design company Discovery Gardens, Interior Design contractor Discovery Gardens, Affordable interior design Discovery Gardens, Modern interior design Discovery Gardens, Interior Design consultation Discovery Gardens, Interior Design cost Discovery Gardens, Interior Design price Discovery Gardens, Top interior design Discovery Gardens
+
+// SEO Keywords: Interior Design Discovery Gardens, Interior Design in Discovery Gardens, Best interior design Discovery Gardens, Professional interior design Discovery Gardens, Luxury interior design Discovery Gardens, Interior Design Discovery Gardens Dubai, Interior Design designer Discovery Gardens, Interior Design company Discovery Gardens, Interior Design contractor Discovery Gardens, Affordable interior design Discovery Gardens, Modern interior design Discovery Gardens, Interior Design consultation Discovery Gardens, Interior Design cost Discovery Gardens, Interior Design price Discovery Gardens, Top interior design Discovery Gardens, Interior Design near Discovery Gardens, Interior Design specialists Discovery Gardens, Interior Design experts Discovery Gardens, Interior Design solutions Discovery Gardens, Interior Design packages Discovery Gardens, Interior Design quotes Discovery Gardens, Interior Design estimates Discovery Gardens, Interior Design services near me Discovery Gardens, Cheap Interior Design Discovery Gardens, Quality Interior Design Discovery Gardens, Trusted Interior Design Discovery Gardens, Interior Design transformation Discovery Gardens, Interior Design renovation Discovery Gardens, Interior Design makeover Discovery Gardens, Best Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Design in Discovery Gardens. Best interior design Discovery Gardens Company Discovery Gardens Our luxury interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

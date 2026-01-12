@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Palm, Space in Planning Palm, Best space Planning Palm, Professional space Planning Palm, Luxury space Planning Palm, Space Planning Palm Dubai, Space designer Planning Palm, Space company Planning Palm, Space contractor Planning Palm, Affordable space Planning Palm, Modern space Planning Palm, Space consultation Planning Palm, Space cost Planning Palm, Space price Planning Palm, Top space Planning Palm
+
+// SEO Keywords: Space Planning Palm, Space in Planning Palm, Best space Planning Palm, Professional space Planning Palm, Luxury space Planning Palm, Space Planning Palm Dubai, Space designer Planning Palm, Space company Planning Palm, Space contractor Planning Palm, Affordable space Planning Palm, Modern space Planning Palm, Space consultation Planning Palm, Space cost Planning Palm, Space price Planning Palm, Top space Planning Palm, Space near Planning Palm, Space specialists Planning Palm, Space experts Planning Palm, Space solutions Planning Palm, Space packages Planning Palm, Space quotes Planning Palm, Space estimates Planning Palm, Space services near me Planning Palm, Cheap Space Planning Palm, Quality Space Planning Palm, Trusted Space Planning Palm, Space transformation Planning Palm, Space renovation Planning Palm, Space makeover Planning Palm, Best Space company Planning Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningPalm() {
                 At Interiara, we believe that exceptional <strong>Space Planning Palm Jumeirah Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Palm Jumeirah Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space in Planning Palm. 
                 We've completed 300+ successful projects across Palm Jumeirah Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Palm Jumeirah Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning palm services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Palm Jumeirah Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space in planning palm service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space near planning palm.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

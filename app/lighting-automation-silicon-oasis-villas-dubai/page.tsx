@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Silicon Oasis Villas, Lighting Automation Silicon in Oasis Villas, Best lighting automation silicon Oasis Villas, Professional lighting automation silicon Oasis Villas, Luxury lighting automation silicon Oasis Villas, Lighting Automation Silicon Oasis Villas Dubai, Lighting Automation Silicon designer Oasis Villas, Lighting Automation Silicon company Oasis Villas, Lighting Automation Silicon contractor Oasis Villas, Affordable lighting automation silicon Oasis Villas, Modern lighting automation silicon Oasis Villas, Lighting Automation Silicon consultation Oasis Villas, Lighting Automation Silicon cost Oasis Villas, Lighting Automation Silicon price Oasis Villas, Top lighting automation silicon Oasis Villas
+
+// SEO Keywords: Lighting Automation Silicon Oasis Villas, Lighting Automation Silicon in Oasis Villas, Best lighting automation silicon Oasis Villas, Professional lighting automation silicon Oasis Villas, Luxury lighting automation silicon Oasis Villas, Lighting Automation Silicon Oasis Villas Dubai, Lighting Automation Silicon designer Oasis Villas, Lighting Automation Silicon company Oasis Villas, Lighting Automation Silicon contractor Oasis Villas, Affordable lighting automation silicon Oasis Villas, Modern lighting automation silicon Oasis Villas, Lighting Automation Silicon consultation Oasis Villas, Lighting Automation Silicon cost Oasis Villas, Lighting Automation Silicon price Oasis Villas, Top lighting automation silicon Oasis Villas, Lighting Automation Silicon near Oasis Villas, Lighting Automation Silicon specialists Oasis Villas, Lighting Automation Silicon experts Oasis Villas, Lighting Automation Silicon solutions Oasis Villas, Lighting Automation Silicon packages Oasis Villas, Lighting Automation Silicon quotes Oasis Villas, Lighting Automation Silicon estimates Oasis Villas, Lighting Automation Silicon services near me Oasis Villas, Cheap Lighting Automation Silicon Oasis Villas, Quality Lighting Automation Silicon Oasis Villas, Trusted Lighting Automation Silicon Oasis Villas, Lighting Automation Silicon transformation Oasis Villas, Lighting Automation Silicon renovation Oasis Villas, Lighting Automation Silicon makeover Oasis Villas, Best Lighting Automation Silicon company Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation silicon Oasis Villas Company Oasis Villas</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation Silicon in Oasis Villas. Best lighting automation silicon Oasis Villas Company Oasis Villas Our luxury lighting automation silicon oasis villas services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationSiliconOasisVillas() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation silicon in oasis villas service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationSiliconOasisVillas() {
 
               <p>
                 Interiara stands out in the crowded Silicon Oasis Villas Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation silicon near oasis villas.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationSiliconOasisVillas() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Drapes Greens,  in Drapes Greens, Best  Drapes Greens, Professional  Drapes Greens, Luxury  Drapes Greens,  Drapes Greens Dubai,  designer Drapes Greens,  company Drapes Greens,  contractor Drapes Greens, Affordable  Drapes Greens, Modern  Drapes Greens,  consultation Drapes Greens,  cost Drapes Greens,  price Drapes Greens, Top  Drapes Greens
+
+// SEO Keywords:  Drapes Greens,  in Drapes Greens, Best  Drapes Greens, Professional  Drapes Greens, Luxury  Drapes Greens,  Drapes Greens Dubai,  designer Drapes Greens,  company Drapes Greens,  contractor Drapes Greens, Affordable  Drapes Greens, Modern  Drapes Greens,  consultation Drapes Greens,  cost Drapes Greens,  price Drapes Greens, Top  Drapes Greens,  near Drapes Greens,  specialists Drapes Greens,  experts Drapes Greens,  solutions Drapes Greens,  packages Drapes Greens,  quotes Drapes Greens,  estimates Drapes Greens,  services near me Drapes Greens, Cheap  Drapes Greens, Quality  Drapes Greens, Trusted  Drapes Greens,  transformation Drapes Greens,  renovation Drapes Greens,  makeover Drapes Greens, Best  company Drapes Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesGreens() {
                 At Interiara, we believe that exceptional <strong>Drapes The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p> in Drapes Greens.  Drapes Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional  drapes greens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes The Greens Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our  in drapes greens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near drapes greens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

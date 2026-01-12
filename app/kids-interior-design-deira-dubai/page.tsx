@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Deira, Kids Interior in Design Deira, Best kids interior Design Deira, Professional kids interior Design Deira, Luxury kids interior Design Deira, Kids Interior Design Deira Dubai, Kids Interior designer Design Deira, Kids Interior company Design Deira, Kids Interior contractor Design Deira, Affordable kids interior Design Deira, Modern kids interior Design Deira, Kids Interior consultation Design Deira, Kids Interior cost Design Deira, Kids Interior price Design Deira, Top kids interior Design Deira
+
+// SEO Keywords: Kids Interior Design Deira, Kids Interior in Design Deira, Best kids interior Design Deira, Professional kids interior Design Deira, Luxury kids interior Design Deira, Kids Interior Design Deira Dubai, Kids Interior designer Design Deira, Kids Interior company Design Deira, Kids Interior contractor Design Deira, Affordable kids interior Design Deira, Modern kids interior Design Deira, Kids Interior consultation Design Deira, Kids Interior cost Design Deira, Kids Interior price Design Deira, Top kids interior Design Deira, Kids Interior near Design Deira, Kids Interior specialists Design Deira, Kids Interior experts Design Deira, Kids Interior solutions Design Deira, Kids Interior packages Design Deira, Kids Interior quotes Design Deira, Kids Interior estimates Design Deira, Kids Interior services near me Design Deira, Cheap Kids Interior Design Deira, Quality Kids Interior Design Deira, Trusted Kids Interior Design Deira, Kids Interior transformation Design Deira, Kids Interior renovation Design Deira, Kids Interior makeover Design Deira, Best Kids Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KidsInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kids interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kids Interior in Design Deira. Best kids interior Design Deira Company Design Deira Our luxury kids interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kids Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KidsInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kids interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KidsInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kids interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

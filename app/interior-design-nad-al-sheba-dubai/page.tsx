@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Nad Al Sheba, Interior Design Nad in Al Sheba, Best interior design nad Al Sheba, Professional interior design nad Al Sheba, Luxury interior design nad Al Sheba, Interior Design Nad Al Sheba Dubai, Interior Design Nad designer Al Sheba, Interior Design Nad company Al Sheba, Interior Design Nad contractor Al Sheba, Affordable interior design nad Al Sheba, Modern interior design nad Al Sheba, Interior Design Nad consultation Al Sheba, Interior Design Nad cost Al Sheba, Interior Design Nad price Al Sheba, Top interior design nad Al Sheba
+
+// SEO Keywords: Interior Design Nad Al Sheba, Interior Design Nad in Al Sheba, Best interior design nad Al Sheba, Professional interior design nad Al Sheba, Luxury interior design nad Al Sheba, Interior Design Nad Al Sheba Dubai, Interior Design Nad designer Al Sheba, Interior Design Nad company Al Sheba, Interior Design Nad contractor Al Sheba, Affordable interior design nad Al Sheba, Modern interior design nad Al Sheba, Interior Design Nad consultation Al Sheba, Interior Design Nad cost Al Sheba, Interior Design Nad price Al Sheba, Top interior design nad Al Sheba, Interior Design Nad near Al Sheba, Interior Design Nad specialists Al Sheba, Interior Design Nad experts Al Sheba, Interior Design Nad solutions Al Sheba, Interior Design Nad packages Al Sheba, Interior Design Nad quotes Al Sheba, Interior Design Nad estimates Al Sheba, Interior Design Nad services near me Al Sheba, Cheap Interior Design Nad Al Sheba, Quality Interior Design Nad Al Sheba, Trusted Interior Design Nad Al Sheba, Interior Design Nad transformation Al Sheba, Interior Design Nad renovation Al Sheba, Interior Design Nad makeover Al Sheba, Best Interior Design Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Design Nad in Al Sheba. Best interior design nad Al Sheba Company Al Sheba Our luxury interior design nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorDesignNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior design nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorDesignNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior design nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorDesignNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

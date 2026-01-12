@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Lakes, Kids Interior in Design Lakes, Best kids interior Design Lakes, Professional kids interior Design Lakes, Luxury kids interior Design Lakes, Kids Interior Design Lakes Dubai, Kids Interior designer Design Lakes, Kids Interior company Design Lakes, Kids Interior contractor Design Lakes, Affordable kids interior Design Lakes, Modern kids interior Design Lakes, Kids Interior consultation Design Lakes, Kids Interior cost Design Lakes, Kids Interior price Design Lakes, Top kids interior Design Lakes
+
+// SEO Keywords: Kids Interior Design Lakes, Kids Interior in Design Lakes, Best kids interior Design Lakes, Professional kids interior Design Lakes, Luxury kids interior Design Lakes, Kids Interior Design Lakes Dubai, Kids Interior designer Design Lakes, Kids Interior company Design Lakes, Kids Interior contractor Design Lakes, Affordable kids interior Design Lakes, Modern kids interior Design Lakes, Kids Interior consultation Design Lakes, Kids Interior cost Design Lakes, Kids Interior price Design Lakes, Top kids interior Design Lakes, Kids Interior near Design Lakes, Kids Interior specialists Design Lakes, Kids Interior experts Design Lakes, Kids Interior solutions Design Lakes, Kids Interior packages Design Lakes, Kids Interior quotes Design Lakes, Kids Interior estimates Design Lakes, Kids Interior services near me Design Lakes, Cheap Kids Interior Design Lakes, Quality Kids Interior Design Lakes, Trusted Kids Interior Design Lakes, Kids Interior transformation Design Lakes, Kids Interior renovation Design Lakes, Kids Interior makeover Design Lakes, Best Kids Interior company Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KidsInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kids interior Design Lakes Company Design Lakes</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kids Interior in Design Lakes. Best kids interior Design Lakes Company Design Lakes Our professional kids interior design lakes services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kids Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function KidsInteriorDesignLakes() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kids Interior Design Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function KidsInteriorDesignLakes() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kids interior in design lakes service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KidsInteriorDesignLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kids interior near design lakes.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

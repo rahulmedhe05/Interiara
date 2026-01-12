@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Jlt, Smart in Lighting Jlt, Best smart Lighting Jlt, Professional smart Lighting Jlt, Luxury smart Lighting Jlt, Smart Lighting Jlt Dubai, Smart designer Lighting Jlt, Smart company Lighting Jlt, Smart contractor Lighting Jlt, Affordable smart Lighting Jlt, Modern smart Lighting Jlt, Smart consultation Lighting Jlt, Smart cost Lighting Jlt, Smart price Lighting Jlt, Top smart Lighting Jlt
+
+// SEO Keywords: Smart Lighting Jlt, Smart in Lighting Jlt, Best smart Lighting Jlt, Professional smart Lighting Jlt, Luxury smart Lighting Jlt, Smart Lighting Jlt Dubai, Smart designer Lighting Jlt, Smart company Lighting Jlt, Smart contractor Lighting Jlt, Affordable smart Lighting Jlt, Modern smart Lighting Jlt, Smart consultation Lighting Jlt, Smart cost Lighting Jlt, Smart price Lighting Jlt, Top smart Lighting Jlt, Smart near Lighting Jlt, Smart specialists Lighting Jlt, Smart experts Lighting Jlt, Smart solutions Lighting Jlt, Smart packages Lighting Jlt, Smart quotes Lighting Jlt, Smart estimates Lighting Jlt, Smart services near me Lighting Jlt, Cheap Smart Lighting Jlt, Quality Smart Lighting Jlt, Trusted Smart Lighting Jlt, Smart transformation Lighting Jlt, Smart renovation Lighting Jlt, Smart makeover Lighting Jlt, Best Smart company Lighting Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingJlt() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart in Lighting Jlt. Smart Lighting Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart in lighting jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart near lighting jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Al Mizhar, Kitchen Interior Design in Al Mizhar, Best kitchen interior design Al Mizhar, Professional kitchen interior design Al Mizhar, Luxury kitchen interior design Al Mizhar, Kitchen Interior Design Al Mizhar Dubai, Kitchen Interior Design designer Al Mizhar, Kitchen Interior Design company Al Mizhar, Kitchen Interior Design contractor Al Mizhar, Affordable kitchen interior design Al Mizhar, Modern kitchen interior design Al Mizhar, Kitchen Interior Design consultation Al Mizhar, Kitchen Interior Design cost Al Mizhar, Kitchen Interior Design price Al Mizhar, Top kitchen interior design Al Mizhar
+
+// SEO Keywords: Kitchen Interior Design Al Mizhar, Kitchen Interior Design in Al Mizhar, Best kitchen interior design Al Mizhar, Professional kitchen interior design Al Mizhar, Luxury kitchen interior design Al Mizhar, Kitchen Interior Design Al Mizhar Dubai, Kitchen Interior Design designer Al Mizhar, Kitchen Interior Design company Al Mizhar, Kitchen Interior Design contractor Al Mizhar, Affordable kitchen interior design Al Mizhar, Modern kitchen interior design Al Mizhar, Kitchen Interior Design consultation Al Mizhar, Kitchen Interior Design cost Al Mizhar, Kitchen Interior Design price Al Mizhar, Top kitchen interior design Al Mizhar, Kitchen Interior Design near Al Mizhar, Kitchen Interior Design specialists Al Mizhar, Kitchen Interior Design experts Al Mizhar, Kitchen Interior Design solutions Al Mizhar, Kitchen Interior Design packages Al Mizhar, Kitchen Interior Design quotes Al Mizhar, Kitchen Interior Design estimates Al Mizhar, Kitchen Interior Design services near me Al Mizhar, Cheap Kitchen Interior Design Al Mizhar, Quality Kitchen Interior Design Al Mizhar, Trusted Kitchen Interior Design Al Mizhar, Kitchen Interior Design transformation Al Mizhar, Kitchen Interior Design renovation Al Mizhar, Kitchen Interior Design makeover Al Mizhar, Best Kitchen Interior Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design Al Mizhar Company Al Mizhar</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior Design in Al Mizhar. Best kitchen interior design Al Mizhar Company Al Mizhar Our luxury kitchen interior design al mizhar services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignAlMizhar() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior design in al mizhar service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior design near al mizhar.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Emirates Hills, Space Planning in Emirates Hills, Best space planning Emirates Hills, Professional space planning Emirates Hills, Luxury space planning Emirates Hills, Space Planning Emirates Hills Dubai, Space Planning designer Emirates Hills, Space Planning company Emirates Hills, Space Planning contractor Emirates Hills, Affordable space planning Emirates Hills, Modern space planning Emirates Hills, Space Planning consultation Emirates Hills, Space Planning cost Emirates Hills, Space Planning price Emirates Hills, Top space planning Emirates Hills
+
+// SEO Keywords: Space Planning Emirates Hills, Space Planning in Emirates Hills, Best space planning Emirates Hills, Professional space planning Emirates Hills, Luxury space planning Emirates Hills, Space Planning Emirates Hills Dubai, Space Planning designer Emirates Hills, Space Planning company Emirates Hills, Space Planning contractor Emirates Hills, Affordable space planning Emirates Hills, Modern space planning Emirates Hills, Space Planning consultation Emirates Hills, Space Planning cost Emirates Hills, Space Planning price Emirates Hills, Top space planning Emirates Hills, Space Planning near Emirates Hills, Space Planning specialists Emirates Hills, Space Planning experts Emirates Hills, Space Planning solutions Emirates Hills, Space Planning packages Emirates Hills, Space Planning quotes Emirates Hills, Space Planning estimates Emirates Hills, Space Planning services near me Emirates Hills, Cheap Space Planning Emirates Hills, Quality Space Planning Emirates Hills, Trusted Space Planning Emirates Hills, Space Planning transformation Emirates Hills, Space Planning renovation Emirates Hills, Space Planning makeover Emirates Hills, Best Space Planning company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Emirates Hills. Best space planning Emirates Hills Company Emirates Hills Our luxury space planning emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

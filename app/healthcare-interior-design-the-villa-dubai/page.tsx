@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design The Villa, Healthcare Interior Design in The Villa, Best healthcare interior design The Villa, Professional healthcare interior design The Villa, Luxury healthcare interior design The Villa, Healthcare Interior Design The Villa Dubai, Healthcare Interior Design designer The Villa, Healthcare Interior Design company The Villa, Healthcare Interior Design contractor The Villa, Affordable healthcare interior design The Villa, Modern healthcare interior design The Villa, Healthcare Interior Design consultation The Villa, Healthcare Interior Design cost The Villa, Healthcare Interior Design price The Villa, Top healthcare interior design The Villa
+
+// SEO Keywords: Healthcare Interior Design The Villa, Healthcare Interior Design in The Villa, Best healthcare interior design The Villa, Professional healthcare interior design The Villa, Luxury healthcare interior design The Villa, Healthcare Interior Design The Villa Dubai, Healthcare Interior Design designer The Villa, Healthcare Interior Design company The Villa, Healthcare Interior Design contractor The Villa, Affordable healthcare interior design The Villa, Modern healthcare interior design The Villa, Healthcare Interior Design consultation The Villa, Healthcare Interior Design cost The Villa, Healthcare Interior Design price The Villa, Top healthcare interior design The Villa, Healthcare Interior Design near The Villa, Healthcare Interior Design specialists The Villa, Healthcare Interior Design experts The Villa, Healthcare Interior Design solutions The Villa, Healthcare Interior Design packages The Villa, Healthcare Interior Design quotes The Villa, Healthcare Interior Design estimates The Villa, Healthcare Interior Design services near me The Villa, Cheap Healthcare Interior Design The Villa, Quality Healthcare Interior Design The Villa, Trusted Healthcare Interior Design The Villa, Healthcare Interior Design transformation The Villa, Healthcare Interior Design renovation The Villa, Healthcare Interior Design makeover The Villa, Best Healthcare Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior Design in The Villa. Best healthcare interior design The Villa Company The Villa Our luxury healthcare interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

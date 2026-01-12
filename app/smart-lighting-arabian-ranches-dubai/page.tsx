@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Arabian Ranches, Smart Lighting in Arabian Ranches, Best smart lighting Arabian Ranches, Professional smart lighting Arabian Ranches, Luxury smart lighting Arabian Ranches, Smart Lighting Arabian Ranches Dubai, Smart Lighting designer Arabian Ranches, Smart Lighting company Arabian Ranches, Smart Lighting contractor Arabian Ranches, Affordable smart lighting Arabian Ranches, Modern smart lighting Arabian Ranches, Smart Lighting consultation Arabian Ranches, Smart Lighting cost Arabian Ranches, Smart Lighting price Arabian Ranches, Top smart lighting Arabian Ranches
+
+// SEO Keywords: Smart Lighting Arabian Ranches, Smart Lighting in Arabian Ranches, Best smart lighting Arabian Ranches, Professional smart lighting Arabian Ranches, Luxury smart lighting Arabian Ranches, Smart Lighting Arabian Ranches Dubai, Smart Lighting designer Arabian Ranches, Smart Lighting company Arabian Ranches, Smart Lighting contractor Arabian Ranches, Affordable smart lighting Arabian Ranches, Modern smart lighting Arabian Ranches, Smart Lighting consultation Arabian Ranches, Smart Lighting cost Arabian Ranches, Smart Lighting price Arabian Ranches, Top smart lighting Arabian Ranches, Smart Lighting near Arabian Ranches, Smart Lighting specialists Arabian Ranches, Smart Lighting experts Arabian Ranches, Smart Lighting solutions Arabian Ranches, Smart Lighting packages Arabian Ranches, Smart Lighting quotes Arabian Ranches, Smart Lighting estimates Arabian Ranches, Smart Lighting services near me Arabian Ranches, Cheap Smart Lighting Arabian Ranches, Quality Smart Lighting Arabian Ranches, Trusted Smart Lighting Arabian Ranches, Smart Lighting transformation Arabian Ranches, Smart Lighting renovation Arabian Ranches, Smart Lighting makeover Arabian Ranches, Best Smart Lighting company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Lighting in Arabian Ranches. Best smart lighting Arabian Ranches Company Arabian Ranches Our luxury smart lighting arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartLightingArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart lighting in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart lighting near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

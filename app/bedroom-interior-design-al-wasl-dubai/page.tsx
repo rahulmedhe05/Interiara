@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Al Wasl, Bedroom Interior Design in Al Wasl, Best bedroom interior design Al Wasl, Professional bedroom interior design Al Wasl, Luxury bedroom interior design Al Wasl, Bedroom Interior Design Al Wasl Dubai, Bedroom Interior Design designer Al Wasl, Bedroom Interior Design company Al Wasl, Bedroom Interior Design contractor Al Wasl, Affordable bedroom interior design Al Wasl, Modern bedroom interior design Al Wasl, Bedroom Interior Design consultation Al Wasl, Bedroom Interior Design cost Al Wasl, Bedroom Interior Design price Al Wasl, Top bedroom interior design Al Wasl
+
+// SEO Keywords: Bedroom Interior Design Al Wasl, Bedroom Interior Design in Al Wasl, Best bedroom interior design Al Wasl, Professional bedroom interior design Al Wasl, Luxury bedroom interior design Al Wasl, Bedroom Interior Design Al Wasl Dubai, Bedroom Interior Design designer Al Wasl, Bedroom Interior Design company Al Wasl, Bedroom Interior Design contractor Al Wasl, Affordable bedroom interior design Al Wasl, Modern bedroom interior design Al Wasl, Bedroom Interior Design consultation Al Wasl, Bedroom Interior Design cost Al Wasl, Bedroom Interior Design price Al Wasl, Top bedroom interior design Al Wasl, Bedroom Interior Design near Al Wasl, Bedroom Interior Design specialists Al Wasl, Bedroom Interior Design experts Al Wasl, Bedroom Interior Design solutions Al Wasl, Bedroom Interior Design packages Al Wasl, Bedroom Interior Design quotes Al Wasl, Bedroom Interior Design estimates Al Wasl, Bedroom Interior Design services near me Al Wasl, Cheap Bedroom Interior Design Al Wasl, Quality Bedroom Interior Design Al Wasl, Trusted Bedroom Interior Design Al Wasl, Bedroom Interior Design transformation Al Wasl, Bedroom Interior Design renovation Al Wasl, Bedroom Interior Design makeover Al Wasl, Best Bedroom Interior Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior design Al Wasl Company Al Wasl</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior Design in Al Wasl. Best bedroom interior design Al Wasl Company Al Wasl Our luxury bedroom interior design al wasl services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignAlWasl() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior design in al wasl service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior design near al wasl.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

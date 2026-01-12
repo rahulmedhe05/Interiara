@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens The Sustainable City, Modular Kitchens The in Sustainable City, Best modular kitchens the Sustainable City, Professional modular kitchens the Sustainable City, Luxury modular kitchens the Sustainable City, Modular Kitchens The Sustainable City Dubai, Modular Kitchens The designer Sustainable City, Modular Kitchens The company Sustainable City, Modular Kitchens The contractor Sustainable City, Affordable modular kitchens the Sustainable City, Modern modular kitchens the Sustainable City, Modular Kitchens The consultation Sustainable City, Modular Kitchens The cost Sustainable City, Modular Kitchens The price Sustainable City, Top modular kitchens the Sustainable City
+
+// SEO Keywords: Modular Kitchens The Sustainable City, Modular Kitchens The in Sustainable City, Best modular kitchens the Sustainable City, Professional modular kitchens the Sustainable City, Luxury modular kitchens the Sustainable City, Modular Kitchens The Sustainable City Dubai, Modular Kitchens The designer Sustainable City, Modular Kitchens The company Sustainable City, Modular Kitchens The contractor Sustainable City, Affordable modular kitchens the Sustainable City, Modern modular kitchens the Sustainable City, Modular Kitchens The consultation Sustainable City, Modular Kitchens The cost Sustainable City, Modular Kitchens The price Sustainable City, Top modular kitchens the Sustainable City, Modular Kitchens The near Sustainable City, Modular Kitchens The specialists Sustainable City, Modular Kitchens The experts Sustainable City, Modular Kitchens The solutions Sustainable City, Modular Kitchens The packages Sustainable City, Modular Kitchens The quotes Sustainable City, Modular Kitchens The estimates Sustainable City, Modular Kitchens The services near me Sustainable City, Cheap Modular Kitchens The Sustainable City, Quality Modular Kitchens The Sustainable City, Trusted Modular Kitchens The Sustainable City, Modular Kitchens The transformation Sustainable City, Modular Kitchens The renovation Sustainable City, Modular Kitchens The makeover Sustainable City, Best Modular Kitchens The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens The in Sustainable City. Best modular kitchens the Sustainable City Company Sustainable City Our luxury modular kitchens the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

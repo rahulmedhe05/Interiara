@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design Muhaisnah, Bespoke Furniture in Design Muhaisnah, Best bespoke furniture Design Muhaisnah, Professional bespoke furniture Design Muhaisnah, Luxury bespoke furniture Design Muhaisnah, Bespoke Furniture Design Muhaisnah Dubai, Bespoke Furniture designer Design Muhaisnah, Bespoke Furniture company Design Muhaisnah, Bespoke Furniture contractor Design Muhaisnah, Affordable bespoke furniture Design Muhaisnah, Modern bespoke furniture Design Muhaisnah, Bespoke Furniture consultation Design Muhaisnah, Bespoke Furniture cost Design Muhaisnah, Bespoke Furniture price Design Muhaisnah, Top bespoke furniture Design Muhaisnah
+
+// SEO Keywords: Bespoke Furniture Design Muhaisnah, Bespoke Furniture in Design Muhaisnah, Best bespoke furniture Design Muhaisnah, Professional bespoke furniture Design Muhaisnah, Luxury bespoke furniture Design Muhaisnah, Bespoke Furniture Design Muhaisnah Dubai, Bespoke Furniture designer Design Muhaisnah, Bespoke Furniture company Design Muhaisnah, Bespoke Furniture contractor Design Muhaisnah, Affordable bespoke furniture Design Muhaisnah, Modern bespoke furniture Design Muhaisnah, Bespoke Furniture consultation Design Muhaisnah, Bespoke Furniture cost Design Muhaisnah, Bespoke Furniture price Design Muhaisnah, Top bespoke furniture Design Muhaisnah, Bespoke Furniture near Design Muhaisnah, Bespoke Furniture specialists Design Muhaisnah, Bespoke Furniture experts Design Muhaisnah, Bespoke Furniture solutions Design Muhaisnah, Bespoke Furniture packages Design Muhaisnah, Bespoke Furniture quotes Design Muhaisnah, Bespoke Furniture estimates Design Muhaisnah, Bespoke Furniture services near me Design Muhaisnah, Cheap Bespoke Furniture Design Muhaisnah, Quality Bespoke Furniture Design Muhaisnah, Trusted Bespoke Furniture Design Muhaisnah, Bespoke Furniture transformation Design Muhaisnah, Bespoke Furniture renovation Design Muhaisnah, Bespoke Furniture makeover Design Muhaisnah, Best Bespoke Furniture company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture in Design Muhaisnah. Best bespoke furniture Design Muhaisnah Company Design Muhaisnah Our luxury bespoke furniture design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

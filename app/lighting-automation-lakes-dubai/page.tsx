@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Lakes, Lighting in Automation Lakes, Best lighting Automation Lakes, Professional lighting Automation Lakes, Luxury lighting Automation Lakes, Lighting Automation Lakes Dubai, Lighting designer Automation Lakes, Lighting company Automation Lakes, Lighting contractor Automation Lakes, Affordable lighting Automation Lakes, Modern lighting Automation Lakes, Lighting consultation Automation Lakes, Lighting cost Automation Lakes, Lighting price Automation Lakes, Top lighting Automation Lakes
+
+// SEO Keywords: Lighting Automation Lakes, Lighting in Automation Lakes, Best lighting Automation Lakes, Professional lighting Automation Lakes, Luxury lighting Automation Lakes, Lighting Automation Lakes Dubai, Lighting designer Automation Lakes, Lighting company Automation Lakes, Lighting contractor Automation Lakes, Affordable lighting Automation Lakes, Modern lighting Automation Lakes, Lighting consultation Automation Lakes, Lighting cost Automation Lakes, Lighting price Automation Lakes, Top lighting Automation Lakes, Lighting near Automation Lakes, Lighting specialists Automation Lakes, Lighting experts Automation Lakes, Lighting solutions Automation Lakes, Lighting packages Automation Lakes, Lighting quotes Automation Lakes, Lighting estimates Automation Lakes, Lighting services near me Automation Lakes, Cheap Lighting Automation Lakes, Quality Lighting Automation Lakes, Trusted Lighting Automation Lakes, Lighting transformation Automation Lakes, Lighting renovation Automation Lakes, Lighting makeover Automation Lakes, Best Lighting company Automation Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Lakes Company Automation Lakes</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Automation Lakes. Best lighting Automation Lakes Company Automation Lakes Our professional lighting automation lakes services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function LightingAutomationLakes() {
                 At Interiara, we believe that exceptional <strong>Lighting Automation The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Automation Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Automation The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function LightingAutomationLakes() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in automation lakes service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near automation lakes.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

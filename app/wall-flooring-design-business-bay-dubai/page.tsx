@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Business Bay, Wall Flooring Design in Business Bay, Best wall flooring design Business Bay, Professional wall flooring design Business Bay, Luxury wall flooring design Business Bay, Wall Flooring Design Business Bay Dubai, Wall Flooring Design designer Business Bay, Wall Flooring Design company Business Bay, Wall Flooring Design contractor Business Bay, Affordable wall flooring design Business Bay, Modern wall flooring design Business Bay, Wall Flooring Design consultation Business Bay, Wall Flooring Design cost Business Bay, Wall Flooring Design price Business Bay, Top wall flooring design Business Bay
+
+// SEO Keywords: Wall Flooring Design Business Bay, Wall Flooring Design in Business Bay, Best wall flooring design Business Bay, Professional wall flooring design Business Bay, Luxury wall flooring design Business Bay, Wall Flooring Design Business Bay Dubai, Wall Flooring Design designer Business Bay, Wall Flooring Design company Business Bay, Wall Flooring Design contractor Business Bay, Affordable wall flooring design Business Bay, Modern wall flooring design Business Bay, Wall Flooring Design consultation Business Bay, Wall Flooring Design cost Business Bay, Wall Flooring Design price Business Bay, Top wall flooring design Business Bay, Wall Flooring Design near Business Bay, Wall Flooring Design specialists Business Bay, Wall Flooring Design experts Business Bay, Wall Flooring Design solutions Business Bay, Wall Flooring Design packages Business Bay, Wall Flooring Design quotes Business Bay, Wall Flooring Design estimates Business Bay, Wall Flooring Design services near me Business Bay, Cheap Wall Flooring Design Business Bay, Quality Wall Flooring Design Business Bay, Trusted Wall Flooring Design Business Bay, Wall Flooring Design transformation Business Bay, Wall Flooring Design renovation Business Bay, Wall Flooring Design makeover Business Bay, Best Wall Flooring Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Business Bay. Best wall flooring design Business Bay Company Business Bay Our luxury wall flooring design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

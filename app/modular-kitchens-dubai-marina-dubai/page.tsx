@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Dubai Marina, Modular Kitchens in Dubai Marina, Best modular kitchens Dubai Marina, Professional modular kitchens Dubai Marina, Luxury modular kitchens Dubai Marina, Modular Kitchens Dubai Marina Dubai, Modular Kitchens designer Dubai Marina, Modular Kitchens company Dubai Marina, Modular Kitchens contractor Dubai Marina, Affordable modular kitchens Dubai Marina, Modern modular kitchens Dubai Marina, Modular Kitchens consultation Dubai Marina, Modular Kitchens cost Dubai Marina, Modular Kitchens price Dubai Marina, Top modular kitchens Dubai Marina
+
+// SEO Keywords: Modular Kitchens Dubai Marina, Modular Kitchens in Dubai Marina, Best modular kitchens Dubai Marina, Professional modular kitchens Dubai Marina, Luxury modular kitchens Dubai Marina, Modular Kitchens Dubai Marina Dubai, Modular Kitchens designer Dubai Marina, Modular Kitchens company Dubai Marina, Modular Kitchens contractor Dubai Marina, Affordable modular kitchens Dubai Marina, Modern modular kitchens Dubai Marina, Modular Kitchens consultation Dubai Marina, Modular Kitchens cost Dubai Marina, Modular Kitchens price Dubai Marina, Top modular kitchens Dubai Marina, Modular Kitchens near Dubai Marina, Modular Kitchens specialists Dubai Marina, Modular Kitchens experts Dubai Marina, Modular Kitchens solutions Dubai Marina, Modular Kitchens packages Dubai Marina, Modular Kitchens quotes Dubai Marina, Modular Kitchens estimates Dubai Marina, Modular Kitchens services near me Dubai Marina, Cheap Modular Kitchens Dubai Marina, Quality Modular Kitchens Dubai Marina, Trusted Modular Kitchens Dubai Marina, Modular Kitchens transformation Dubai Marina, Modular Kitchens renovation Dubai Marina, Modular Kitchens makeover Dubai Marina, Best Modular Kitchens company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens in Dubai Marina. Best modular kitchens Dubai Marina Company Dubai Marina Our luxury modular kitchens dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

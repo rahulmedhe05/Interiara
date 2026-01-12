@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design, Kids in Interior Design, Best kids Interior Design, Professional kids Interior Design, Luxury kids Interior Design, Kids Interior Design Dubai, Kids designer Interior Design, Kids company Interior Design, Kids contractor Interior Design, Affordable kids Interior Design, Modern kids Interior Design, Kids consultation Interior Design, Kids cost Interior Design, Kids price Interior Design, Top kids Interior Design
+
+// SEO Keywords: Kids Interior Design, Kids in Interior Design, Best kids Interior Design, Professional kids Interior Design, Luxury kids Interior Design, Kids Interior Design Dubai, Kids designer Interior Design, Kids company Interior Design, Kids contractor Interior Design, Affordable kids Interior Design, Modern kids Interior Design, Kids consultation Interior Design, Kids cost Interior Design, Kids price Interior Design, Top kids Interior Design, Kids near Interior Design, Kids specialists Interior Design, Kids experts Interior Design, Kids solutions Interior Design, Kids packages Interior Design, Kids quotes Interior Design, Kids estimates Interior Design, Kids services near me Interior Design, Cheap Kids Interior Design, Quality Kids Interior Design, Trusted Kids Interior Design, Kids transformation Interior Design, Kids renovation Interior Design, Kids makeover Interior Design, Best Kids company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function KidsInteriorDesign() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design Sports City Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kids in Interior Design. 
                 We've completed 300+ successful projects across City Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design Sports City Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury kids interior design services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Kids Interior Design Sports City Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function KidsInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our kids in interior design service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in kids near interior design.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function KidsInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

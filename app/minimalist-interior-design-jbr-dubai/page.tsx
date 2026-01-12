@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Minimalist Interior Design Jbr, Minimalist Interior in Design Jbr, Best minimalist interior Design Jbr, Professional minimalist interior Design Jbr, Luxury minimalist interior Design Jbr, Minimalist Interior Design Jbr Dubai, Minimalist Interior designer Design Jbr, Minimalist Interior company Design Jbr, Minimalist Interior contractor Design Jbr, Affordable minimalist interior Design Jbr, Modern minimalist interior Design Jbr, Minimalist Interior consultation Design Jbr, Minimalist Interior cost Design Jbr, Minimalist Interior price Design Jbr, Top minimalist interior Design Jbr
+
+// SEO Keywords: Minimalist Interior Design Jbr, Minimalist Interior in Design Jbr, Best minimalist interior Design Jbr, Professional minimalist interior Design Jbr, Luxury minimalist interior Design Jbr, Minimalist Interior Design Jbr Dubai, Minimalist Interior designer Design Jbr, Minimalist Interior company Design Jbr, Minimalist Interior contractor Design Jbr, Affordable minimalist interior Design Jbr, Modern minimalist interior Design Jbr, Minimalist Interior consultation Design Jbr, Minimalist Interior cost Design Jbr, Minimalist Interior price Design Jbr, Top minimalist interior Design Jbr, Minimalist Interior near Design Jbr, Minimalist Interior specialists Design Jbr, Minimalist Interior experts Design Jbr, Minimalist Interior solutions Design Jbr, Minimalist Interior packages Design Jbr, Minimalist Interior quotes Design Jbr, Minimalist Interior estimates Design Jbr, Minimalist Interior services near me Design Jbr, Cheap Minimalist Interior Design Jbr, Quality Minimalist Interior Design Jbr, Trusted Minimalist Interior Design Jbr, Minimalist Interior transformation Design Jbr, Minimalist Interior renovation Design Jbr, Minimalist Interior makeover Design Jbr, Best Minimalist Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MinimalistInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Jbr Company Design Jbr</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Minimalist Interior in Design Jbr. Best minimalist interior Design Jbr Company Design Jbr Our luxury minimalist interior design jbr services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function MinimalistInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Minimalist Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Minimalist Interior Design Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Minimalist Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function MinimalistInteriorDesignJbr() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our minimalist interior in design jbr service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MinimalistInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in minimalist interior near design jbr.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MinimalistInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

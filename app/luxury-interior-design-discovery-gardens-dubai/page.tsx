@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Discovery Gardens, Luxury Interior Design in Discovery Gardens, Best luxury interior design Discovery Gardens, Professional luxury interior design Discovery Gardens, Luxury luxury interior design Discovery Gardens, Luxury Interior Design Discovery Gardens Dubai, Luxury Interior Design designer Discovery Gardens, Luxury Interior Design company Discovery Gardens, Luxury Interior Design contractor Discovery Gardens, Affordable luxury interior design Discovery Gardens, Modern luxury interior design Discovery Gardens, Luxury Interior Design consultation Discovery Gardens, Luxury Interior Design cost Discovery Gardens, Luxury Interior Design price Discovery Gardens, Top luxury interior design Discovery Gardens
+
+// SEO Keywords: Luxury Interior Design Discovery Gardens, Luxury Interior Design in Discovery Gardens, Best luxury interior design Discovery Gardens, Professional luxury interior design Discovery Gardens, Luxury luxury interior design Discovery Gardens, Luxury Interior Design Discovery Gardens Dubai, Luxury Interior Design designer Discovery Gardens, Luxury Interior Design company Discovery Gardens, Luxury Interior Design contractor Discovery Gardens, Affordable luxury interior design Discovery Gardens, Modern luxury interior design Discovery Gardens, Luxury Interior Design consultation Discovery Gardens, Luxury Interior Design cost Discovery Gardens, Luxury Interior Design price Discovery Gardens, Top luxury interior design Discovery Gardens, Luxury Interior Design near Discovery Gardens, Luxury Interior Design specialists Discovery Gardens, Luxury Interior Design experts Discovery Gardens, Luxury Interior Design solutions Discovery Gardens, Luxury Interior Design packages Discovery Gardens, Luxury Interior Design quotes Discovery Gardens, Luxury Interior Design estimates Discovery Gardens, Luxury Interior Design services near me Discovery Gardens, Cheap Luxury Interior Design Discovery Gardens, Quality Luxury Interior Design Discovery Gardens, Trusted Luxury Interior Design Discovery Gardens, Luxury Interior Design transformation Discovery Gardens, Luxury Interior Design renovation Discovery Gardens, Luxury Interior Design makeover Discovery Gardens, Best Luxury Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior Design in Discovery Gardens. Best luxury interior design Discovery Gardens Company Discovery Gardens Our luxury luxury interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

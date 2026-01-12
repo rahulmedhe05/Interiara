@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Town Square, Home Office Interior Design in Town Square, Best home office interior design Town Square, Professional home office interior design Town Square, Luxury home office interior design Town Square, Home Office Interior Design Town Square Dubai, Home Office Interior Design designer Town Square, Home Office Interior Design company Town Square, Home Office Interior Design contractor Town Square, Affordable home office interior design Town Square, Modern home office interior design Town Square, Home Office Interior Design consultation Town Square, Home Office Interior Design cost Town Square, Home Office Interior Design price Town Square, Top home office interior design Town Square
+
+// SEO Keywords: Home Office Interior Design Town Square, Home Office Interior Design in Town Square, Best home office interior design Town Square, Professional home office interior design Town Square, Luxury home office interior design Town Square, Home Office Interior Design Town Square Dubai, Home Office Interior Design designer Town Square, Home Office Interior Design company Town Square, Home Office Interior Design contractor Town Square, Affordable home office interior design Town Square, Modern home office interior design Town Square, Home Office Interior Design consultation Town Square, Home Office Interior Design cost Town Square, Home Office Interior Design price Town Square, Top home office interior design Town Square, Home Office Interior Design near Town Square, Home Office Interior Design specialists Town Square, Home Office Interior Design experts Town Square, Home Office Interior Design solutions Town Square, Home Office Interior Design packages Town Square, Home Office Interior Design quotes Town Square, Home Office Interior Design estimates Town Square, Home Office Interior Design services near me Town Square, Cheap Home Office Interior Design Town Square, Quality Home Office Interior Design Town Square, Trusted Home Office Interior Design Town Square, Home Office Interior Design transformation Town Square, Home Office Interior Design renovation Town Square, Home Office Interior Design makeover Town Square, Best Home Office Interior Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior Design in Town Square. Best home office interior design Town Square Company Town Square Our luxury home office interior design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

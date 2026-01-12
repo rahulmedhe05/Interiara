@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design Jebel Ali, Bespoke Furniture Design in Jebel Ali, Best bespoke furniture design Jebel Ali, Professional bespoke furniture design Jebel Ali, Luxury bespoke furniture design Jebel Ali, Bespoke Furniture Design Jebel Ali Dubai, Bespoke Furniture Design designer Jebel Ali, Bespoke Furniture Design company Jebel Ali, Bespoke Furniture Design contractor Jebel Ali, Affordable bespoke furniture design Jebel Ali, Modern bespoke furniture design Jebel Ali, Bespoke Furniture Design consultation Jebel Ali, Bespoke Furniture Design cost Jebel Ali, Bespoke Furniture Design price Jebel Ali, Top bespoke furniture design Jebel Ali
+
+// SEO Keywords: Bespoke Furniture Design Jebel Ali, Bespoke Furniture Design in Jebel Ali, Best bespoke furniture design Jebel Ali, Professional bespoke furniture design Jebel Ali, Luxury bespoke furniture design Jebel Ali, Bespoke Furniture Design Jebel Ali Dubai, Bespoke Furniture Design designer Jebel Ali, Bespoke Furniture Design company Jebel Ali, Bespoke Furniture Design contractor Jebel Ali, Affordable bespoke furniture design Jebel Ali, Modern bespoke furniture design Jebel Ali, Bespoke Furniture Design consultation Jebel Ali, Bespoke Furniture Design cost Jebel Ali, Bespoke Furniture Design price Jebel Ali, Top bespoke furniture design Jebel Ali, Bespoke Furniture Design near Jebel Ali, Bespoke Furniture Design specialists Jebel Ali, Bespoke Furniture Design experts Jebel Ali, Bespoke Furniture Design solutions Jebel Ali, Bespoke Furniture Design packages Jebel Ali, Bespoke Furniture Design quotes Jebel Ali, Bespoke Furniture Design estimates Jebel Ali, Bespoke Furniture Design services near me Jebel Ali, Cheap Bespoke Furniture Design Jebel Ali, Quality Bespoke Furniture Design Jebel Ali, Trusted Bespoke Furniture Design Jebel Ali, Bespoke Furniture Design transformation Jebel Ali, Bespoke Furniture Design renovation Jebel Ali, Bespoke Furniture Design makeover Jebel Ali, Best Bespoke Furniture Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture Design in Jebel Ali. Best bespoke furniture design Jebel Ali Company Jebel Ali Our luxury bespoke furniture design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

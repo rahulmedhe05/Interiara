@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Art Consultation, Wall in Art Consultation, Best wall Art Consultation, Professional wall Art Consultation, Luxury wall Art Consultation, Wall Art Consultation Dubai, Wall designer Art Consultation, Wall company Art Consultation, Wall contractor Art Consultation, Affordable wall Art Consultation, Modern wall Art Consultation, Wall consultation Art Consultation, Wall cost Art Consultation, Wall price Art Consultation, Top wall Art Consultation
+
+// SEO Keywords: Wall Art Consultation, Wall in Art Consultation, Best wall Art Consultation, Professional wall Art Consultation, Luxury wall Art Consultation, Wall Art Consultation Dubai, Wall designer Art Consultation, Wall company Art Consultation, Wall contractor Art Consultation, Affordable wall Art Consultation, Modern wall Art Consultation, Wall consultation Art Consultation, Wall cost Art Consultation, Wall price Art Consultation, Top wall Art Consultation, Wall near Art Consultation, Wall specialists Art Consultation, Wall experts Art Consultation, Wall solutions Art Consultation, Wall packages Art Consultation, Wall quotes Art Consultation, Wall estimates Art Consultation, Wall services near me Art Consultation, Cheap Wall Art Consultation, Quality Wall Art Consultation, Trusted Wall Art Consultation, Wall transformation Art Consultation, Wall renovation Art Consultation, Wall makeover Art Consultation, Best Wall company Art Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallArtConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Art Consultation Company Art Consultation</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall in Art Consultation. Best wall Art Consultation Company Art Consultation Our luxury wall art consultation services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Art Consultation Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallArtConsultation() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall in art consultation service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallArtConsultation() {
 
               <p>
                 Interiara stands out in the crowded Consultation Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall near art consultation.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallArtConsultation() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

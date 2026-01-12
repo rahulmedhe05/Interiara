@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Quoz, Lighting Automation in Al Quoz, Best lighting automation Al Quoz, Professional lighting automation Al Quoz, Luxury lighting automation Al Quoz, Lighting Automation Al Quoz Dubai, Lighting Automation designer Al Quoz, Lighting Automation company Al Quoz, Lighting Automation contractor Al Quoz, Affordable lighting automation Al Quoz, Modern lighting automation Al Quoz, Lighting Automation consultation Al Quoz, Lighting Automation cost Al Quoz, Lighting Automation price Al Quoz, Top lighting automation Al Quoz
+
+// SEO Keywords: Lighting Automation Al Quoz, Lighting Automation in Al Quoz, Best lighting automation Al Quoz, Professional lighting automation Al Quoz, Luxury lighting automation Al Quoz, Lighting Automation Al Quoz Dubai, Lighting Automation designer Al Quoz, Lighting Automation company Al Quoz, Lighting Automation contractor Al Quoz, Affordable lighting automation Al Quoz, Modern lighting automation Al Quoz, Lighting Automation consultation Al Quoz, Lighting Automation cost Al Quoz, Lighting Automation price Al Quoz, Top lighting automation Al Quoz, Lighting Automation near Al Quoz, Lighting Automation specialists Al Quoz, Lighting Automation experts Al Quoz, Lighting Automation solutions Al Quoz, Lighting Automation packages Al Quoz, Lighting Automation quotes Al Quoz, Lighting Automation estimates Al Quoz, Lighting Automation services near me Al Quoz, Cheap Lighting Automation Al Quoz, Quality Lighting Automation Al Quoz, Trusted Lighting Automation Al Quoz, Lighting Automation transformation Al Quoz, Lighting Automation renovation Al Quoz, Lighting Automation makeover Al Quoz, Best Lighting Automation company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingAutomationAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Lighting Automation Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Automation in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Automation Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting automation al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Automation Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingAutomationAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting automation in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting automation near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingAutomationAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

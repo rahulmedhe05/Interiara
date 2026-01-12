@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Safouh, Lighting Automation in Al Safouh, Best lighting automation Al Safouh, Professional lighting automation Al Safouh, Luxury lighting automation Al Safouh, Lighting Automation Al Safouh Dubai, Lighting Automation designer Al Safouh, Lighting Automation company Al Safouh, Lighting Automation contractor Al Safouh, Affordable lighting automation Al Safouh, Modern lighting automation Al Safouh, Lighting Automation consultation Al Safouh, Lighting Automation cost Al Safouh, Lighting Automation price Al Safouh, Top lighting automation Al Safouh
+
+// SEO Keywords: Lighting Automation Al Safouh, Lighting Automation in Al Safouh, Best lighting automation Al Safouh, Professional lighting automation Al Safouh, Luxury lighting automation Al Safouh, Lighting Automation Al Safouh Dubai, Lighting Automation designer Al Safouh, Lighting Automation company Al Safouh, Lighting Automation contractor Al Safouh, Affordable lighting automation Al Safouh, Modern lighting automation Al Safouh, Lighting Automation consultation Al Safouh, Lighting Automation cost Al Safouh, Lighting Automation price Al Safouh, Top lighting automation Al Safouh, Lighting Automation near Al Safouh, Lighting Automation specialists Al Safouh, Lighting Automation experts Al Safouh, Lighting Automation solutions Al Safouh, Lighting Automation packages Al Safouh, Lighting Automation quotes Al Safouh, Lighting Automation estimates Al Safouh, Lighting Automation services near me Al Safouh, Cheap Lighting Automation Al Safouh, Quality Lighting Automation Al Safouh, Trusted Lighting Automation Al Safouh, Lighting Automation transformation Al Safouh, Lighting Automation renovation Al Safouh, Lighting Automation makeover Al Safouh, Best Lighting Automation company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Al Safouh. Best lighting automation Al Safouh Company Al Safouh Our luxury lighting automation al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Umm Suqeim, Space Planning in Umm Suqeim, Best space planning Umm Suqeim, Professional space planning Umm Suqeim, Luxury space planning Umm Suqeim, Space Planning Umm Suqeim Dubai, Space Planning designer Umm Suqeim, Space Planning company Umm Suqeim, Space Planning contractor Umm Suqeim, Affordable space planning Umm Suqeim, Modern space planning Umm Suqeim, Space Planning consultation Umm Suqeim, Space Planning cost Umm Suqeim, Space Planning price Umm Suqeim, Top space planning Umm Suqeim
+
+// SEO Keywords: Space Planning Umm Suqeim, Space Planning in Umm Suqeim, Best space planning Umm Suqeim, Professional space planning Umm Suqeim, Luxury space planning Umm Suqeim, Space Planning Umm Suqeim Dubai, Space Planning designer Umm Suqeim, Space Planning company Umm Suqeim, Space Planning contractor Umm Suqeim, Affordable space planning Umm Suqeim, Modern space planning Umm Suqeim, Space Planning consultation Umm Suqeim, Space Planning cost Umm Suqeim, Space Planning price Umm Suqeim, Top space planning Umm Suqeim, Space Planning near Umm Suqeim, Space Planning specialists Umm Suqeim, Space Planning experts Umm Suqeim, Space Planning solutions Umm Suqeim, Space Planning packages Umm Suqeim, Space Planning quotes Umm Suqeim, Space Planning estimates Umm Suqeim, Space Planning services near me Umm Suqeim, Cheap Space Planning Umm Suqeim, Quality Space Planning Umm Suqeim, Trusted Space Planning Umm Suqeim, Space Planning transformation Umm Suqeim, Space Planning renovation Umm Suqeim, Space Planning makeover Umm Suqeim, Best Space Planning company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningUmmSuqeim() {
                 At Interiara, we believe that exceptional <strong>Space Planning Umm Suqeim Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Umm Suqeim Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in Umm Suqeim. 
                 We've completed 300+ successful projects across Umm Suqeim Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Umm Suqeim Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning umm suqeim services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Umm Suqeim Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in umm suqeim service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near umm suqeim.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

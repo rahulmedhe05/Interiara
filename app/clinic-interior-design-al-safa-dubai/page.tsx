@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Clinic Interior Design Al Safa, Clinic Interior Design in Al Safa, Best clinic interior design Al Safa, Professional clinic interior design Al Safa, Luxury clinic interior design Al Safa, Clinic Interior Design Al Safa Dubai, Clinic Interior Design designer Al Safa, Clinic Interior Design company Al Safa, Clinic Interior Design contractor Al Safa, Affordable clinic interior design Al Safa, Modern clinic interior design Al Safa, Clinic Interior Design consultation Al Safa, Clinic Interior Design cost Al Safa, Clinic Interior Design price Al Safa, Top clinic interior design Al Safa
+
+// SEO Keywords: Clinic Interior Design Al Safa, Clinic Interior Design in Al Safa, Best clinic interior design Al Safa, Professional clinic interior design Al Safa, Luxury clinic interior design Al Safa, Clinic Interior Design Al Safa Dubai, Clinic Interior Design designer Al Safa, Clinic Interior Design company Al Safa, Clinic Interior Design contractor Al Safa, Affordable clinic interior design Al Safa, Modern clinic interior design Al Safa, Clinic Interior Design consultation Al Safa, Clinic Interior Design cost Al Safa, Clinic Interior Design price Al Safa, Top clinic interior design Al Safa, Clinic Interior Design near Al Safa, Clinic Interior Design specialists Al Safa, Clinic Interior Design experts Al Safa, Clinic Interior Design solutions Al Safa, Clinic Interior Design packages Al Safa, Clinic Interior Design quotes Al Safa, Clinic Interior Design estimates Al Safa, Clinic Interior Design services near me Al Safa, Cheap Clinic Interior Design Al Safa, Quality Clinic Interior Design Al Safa, Trusted Clinic Interior Design Al Safa, Clinic Interior Design transformation Al Safa, Clinic Interior Design renovation Al Safa, Clinic Interior Design makeover Al Safa, Best Clinic Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClinicInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior design Al Safa Company Al Safa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Clinic Interior Design in Al Safa. Best clinic interior design Al Safa Company Al Safa Our luxury clinic interior design al safa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClinicInteriorDesignAlSafa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our clinic interior design in al safa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClinicInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in clinic interior design near al safa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClinicInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

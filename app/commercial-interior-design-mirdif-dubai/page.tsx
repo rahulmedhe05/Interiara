@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Mirdif, Commercial Interior in Design Mirdif, Best commercial interior Design Mirdif, Professional commercial interior Design Mirdif, Luxury commercial interior Design Mirdif, Commercial Interior Design Mirdif Dubai, Commercial Interior designer Design Mirdif, Commercial Interior company Design Mirdif, Commercial Interior contractor Design Mirdif, Affordable commercial interior Design Mirdif, Modern commercial interior Design Mirdif, Commercial Interior consultation Design Mirdif, Commercial Interior cost Design Mirdif, Commercial Interior price Design Mirdif, Top commercial interior Design Mirdif
+
+// SEO Keywords: Commercial Interior Design Mirdif, Commercial Interior in Design Mirdif, Best commercial interior Design Mirdif, Professional commercial interior Design Mirdif, Luxury commercial interior Design Mirdif, Commercial Interior Design Mirdif Dubai, Commercial Interior designer Design Mirdif, Commercial Interior company Design Mirdif, Commercial Interior contractor Design Mirdif, Affordable commercial interior Design Mirdif, Modern commercial interior Design Mirdif, Commercial Interior consultation Design Mirdif, Commercial Interior cost Design Mirdif, Commercial Interior price Design Mirdif, Top commercial interior Design Mirdif, Commercial Interior near Design Mirdif, Commercial Interior specialists Design Mirdif, Commercial Interior experts Design Mirdif, Commercial Interior solutions Design Mirdif, Commercial Interior packages Design Mirdif, Commercial Interior quotes Design Mirdif, Commercial Interior estimates Design Mirdif, Commercial Interior services near me Design Mirdif, Cheap Commercial Interior Design Mirdif, Quality Commercial Interior Design Mirdif, Trusted Commercial Interior Design Mirdif, Commercial Interior transformation Design Mirdif, Commercial Interior renovation Design Mirdif, Commercial Interior makeover Design Mirdif, Best Commercial Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior in Design Mirdif. Best commercial interior Design Mirdif Company Design Mirdif Our luxury commercial interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

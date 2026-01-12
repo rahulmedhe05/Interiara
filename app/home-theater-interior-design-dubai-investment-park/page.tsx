@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Theater Interior Design, Home Theater in Interior Design, Best home theater Interior Design, Professional home theater Interior Design, Luxury home theater Interior Design, Home Theater Interior Design Dubai, Home Theater designer Interior Design, Home Theater company Interior Design, Home Theater contractor Interior Design, Affordable home theater Interior Design, Modern home theater Interior Design, Home Theater consultation Interior Design, Home Theater cost Interior Design, Home Theater price Interior Design, Top home theater Interior Design
+
+// SEO Keywords: Home Theater Interior Design, Home Theater in Interior Design, Best home theater Interior Design, Professional home theater Interior Design, Luxury home theater Interior Design, Home Theater Interior Design Dubai, Home Theater designer Interior Design, Home Theater company Interior Design, Home Theater contractor Interior Design, Affordable home theater Interior Design, Modern home theater Interior Design, Home Theater consultation Interior Design, Home Theater cost Interior Design, Home Theater price Interior Design, Top home theater Interior Design, Home Theater near Interior Design, Home Theater specialists Interior Design, Home Theater experts Interior Design, Home Theater solutions Interior Design, Home Theater packages Interior Design, Home Theater quotes Interior Design, Home Theater estimates Interior Design, Home Theater services near me Interior Design, Cheap Home Theater Interior Design, Quality Home Theater Interior Design, Trusted Home Theater Interior Design, Home Theater transformation Interior Design, Home Theater renovation Interior Design, Home Theater makeover Interior Design, Best Home Theater company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeTheaterInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home theater Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Theater in Interior Design. Best home theater Interior Design Company Interior Design Our luxury home theater interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Theater Interior Design Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeTheaterInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home theater in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeTheaterInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home theater near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeTheaterInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

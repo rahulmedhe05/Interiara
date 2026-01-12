@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Arabian Ranches, Gym Interior Design in Arabian Ranches, Best gym interior design Arabian Ranches, Professional gym interior design Arabian Ranches, Luxury gym interior design Arabian Ranches, Gym Interior Design Arabian Ranches Dubai, Gym Interior Design designer Arabian Ranches, Gym Interior Design company Arabian Ranches, Gym Interior Design contractor Arabian Ranches, Affordable gym interior design Arabian Ranches, Modern gym interior design Arabian Ranches, Gym Interior Design consultation Arabian Ranches, Gym Interior Design cost Arabian Ranches, Gym Interior Design price Arabian Ranches, Top gym interior design Arabian Ranches
+
+// SEO Keywords: Gym Interior Design Arabian Ranches, Gym Interior Design in Arabian Ranches, Best gym interior design Arabian Ranches, Professional gym interior design Arabian Ranches, Luxury gym interior design Arabian Ranches, Gym Interior Design Arabian Ranches Dubai, Gym Interior Design designer Arabian Ranches, Gym Interior Design company Arabian Ranches, Gym Interior Design contractor Arabian Ranches, Affordable gym interior design Arabian Ranches, Modern gym interior design Arabian Ranches, Gym Interior Design consultation Arabian Ranches, Gym Interior Design cost Arabian Ranches, Gym Interior Design price Arabian Ranches, Top gym interior design Arabian Ranches, Gym Interior Design near Arabian Ranches, Gym Interior Design specialists Arabian Ranches, Gym Interior Design experts Arabian Ranches, Gym Interior Design solutions Arabian Ranches, Gym Interior Design packages Arabian Ranches, Gym Interior Design quotes Arabian Ranches, Gym Interior Design estimates Arabian Ranches, Gym Interior Design services near me Arabian Ranches, Cheap Gym Interior Design Arabian Ranches, Quality Gym Interior Design Arabian Ranches, Trusted Gym Interior Design Arabian Ranches, Gym Interior Design transformation Arabian Ranches, Gym Interior Design renovation Arabian Ranches, Gym Interior Design makeover Arabian Ranches, Best Gym Interior Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function GymInteriorDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Gym Interior Design in Arabian Ranches. Best gym interior design Arabian Ranches Company Arabian Ranches Our luxury gym interior design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function GymInteriorDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our gym interior design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function GymInteriorDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in gym interior design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function GymInteriorDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

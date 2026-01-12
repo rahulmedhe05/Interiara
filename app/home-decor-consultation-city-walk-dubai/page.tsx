@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation City Walk, Home Decor Consultation in City Walk, Best home decor consultation City Walk, Professional home decor consultation City Walk, Luxury home decor consultation City Walk, Home Decor Consultation City Walk Dubai, Home Decor Consultation designer City Walk, Home Decor Consultation company City Walk, Home Decor Consultation contractor City Walk, Affordable home decor consultation City Walk, Modern home decor consultation City Walk, Home Decor Consultation consultation City Walk, Home Decor Consultation cost City Walk, Home Decor Consultation price City Walk, Top home decor consultation City Walk
+
+// SEO Keywords: Home Decor Consultation City Walk, Home Decor Consultation in City Walk, Best home decor consultation City Walk, Professional home decor consultation City Walk, Luxury home decor consultation City Walk, Home Decor Consultation City Walk Dubai, Home Decor Consultation designer City Walk, Home Decor Consultation company City Walk, Home Decor Consultation contractor City Walk, Affordable home decor consultation City Walk, Modern home decor consultation City Walk, Home Decor Consultation consultation City Walk, Home Decor Consultation cost City Walk, Home Decor Consultation price City Walk, Top home decor consultation City Walk, Home Decor Consultation near City Walk, Home Decor Consultation specialists City Walk, Home Decor Consultation experts City Walk, Home Decor Consultation solutions City Walk, Home Decor Consultation packages City Walk, Home Decor Consultation quotes City Walk, Home Decor Consultation estimates City Walk, Home Decor Consultation services near me City Walk, Cheap Home Decor Consultation City Walk, Quality Home Decor Consultation City Walk, Trusted Home Decor Consultation City Walk, Home Decor Consultation transformation City Walk, Home Decor Consultation renovation City Walk, Home Decor Consultation makeover City Walk, Best Home Decor Consultation company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in City Walk. Best home decor consultation City Walk Company City Walk Our luxury home decor consultation city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Culture Village, Smart Lighting in Culture Village, Best smart lighting Culture Village, Professional smart lighting Culture Village, Luxury smart lighting Culture Village, Smart Lighting Culture Village Dubai, Smart Lighting designer Culture Village, Smart Lighting company Culture Village, Smart Lighting contractor Culture Village, Affordable smart lighting Culture Village, Modern smart lighting Culture Village, Smart Lighting consultation Culture Village, Smart Lighting cost Culture Village, Smart Lighting price Culture Village, Top smart lighting Culture Village
+
+// SEO Keywords: Smart Lighting Culture Village, Smart Lighting in Culture Village, Best smart lighting Culture Village, Professional smart lighting Culture Village, Luxury smart lighting Culture Village, Smart Lighting Culture Village Dubai, Smart Lighting designer Culture Village, Smart Lighting company Culture Village, Smart Lighting contractor Culture Village, Affordable smart lighting Culture Village, Modern smart lighting Culture Village, Smart Lighting consultation Culture Village, Smart Lighting cost Culture Village, Smart Lighting price Culture Village, Top smart lighting Culture Village, Smart Lighting near Culture Village, Smart Lighting specialists Culture Village, Smart Lighting experts Culture Village, Smart Lighting solutions Culture Village, Smart Lighting packages Culture Village, Smart Lighting quotes Culture Village, Smart Lighting estimates Culture Village, Smart Lighting services near me Culture Village, Cheap Smart Lighting Culture Village, Quality Smart Lighting Culture Village, Trusted Smart Lighting Culture Village, Smart Lighting transformation Culture Village, Smart Lighting renovation Culture Village, Smart Lighting makeover Culture Village, Best Smart Lighting company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Lighting in Culture Village. Best smart lighting Culture Village Company Culture Village Our luxury smart lighting culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartLightingCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart lighting in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart lighting near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

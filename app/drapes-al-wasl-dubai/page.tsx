@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Al Wasl, Drapes in Al Wasl, Best drapes Al Wasl, Professional drapes Al Wasl, Luxury drapes Al Wasl, Drapes Al Wasl Dubai, Drapes designer Al Wasl, Drapes company Al Wasl, Drapes contractor Al Wasl, Affordable drapes Al Wasl, Modern drapes Al Wasl, Drapes consultation Al Wasl, Drapes cost Al Wasl, Drapes price Al Wasl, Top drapes Al Wasl
+
+// SEO Keywords: Drapes Al Wasl, Drapes in Al Wasl, Best drapes Al Wasl, Professional drapes Al Wasl, Luxury drapes Al Wasl, Drapes Al Wasl Dubai, Drapes designer Al Wasl, Drapes company Al Wasl, Drapes contractor Al Wasl, Affordable drapes Al Wasl, Modern drapes Al Wasl, Drapes consultation Al Wasl, Drapes cost Al Wasl, Drapes price Al Wasl, Top drapes Al Wasl, Drapes near Al Wasl, Drapes specialists Al Wasl, Drapes experts Al Wasl, Drapes solutions Al Wasl, Drapes packages Al Wasl, Drapes quotes Al Wasl, Drapes estimates Al Wasl, Drapes services near me Al Wasl, Cheap Drapes Al Wasl, Quality Drapes Al Wasl, Trusted Drapes Al Wasl, Drapes transformation Al Wasl, Drapes renovation Al Wasl, Drapes makeover Al Wasl, Best Drapes company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesAlWasl() {
                 At Interiara, we believe that exceptional <strong>Drapes Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

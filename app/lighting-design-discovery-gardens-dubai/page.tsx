@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Discovery Gardens, Lighting Design in Discovery Gardens, Best lighting design Discovery Gardens, Professional lighting design Discovery Gardens, Luxury lighting design Discovery Gardens, Lighting Design Discovery Gardens Dubai, Lighting Design designer Discovery Gardens, Lighting Design company Discovery Gardens, Lighting Design contractor Discovery Gardens, Affordable lighting design Discovery Gardens, Modern lighting design Discovery Gardens, Lighting Design consultation Discovery Gardens, Lighting Design cost Discovery Gardens, Lighting Design price Discovery Gardens, Top lighting design Discovery Gardens
+
+// SEO Keywords: Lighting Design Discovery Gardens, Lighting Design in Discovery Gardens, Best lighting design Discovery Gardens, Professional lighting design Discovery Gardens, Luxury lighting design Discovery Gardens, Lighting Design Discovery Gardens Dubai, Lighting Design designer Discovery Gardens, Lighting Design company Discovery Gardens, Lighting Design contractor Discovery Gardens, Affordable lighting design Discovery Gardens, Modern lighting design Discovery Gardens, Lighting Design consultation Discovery Gardens, Lighting Design cost Discovery Gardens, Lighting Design price Discovery Gardens, Top lighting design Discovery Gardens, Lighting Design near Discovery Gardens, Lighting Design specialists Discovery Gardens, Lighting Design experts Discovery Gardens, Lighting Design solutions Discovery Gardens, Lighting Design packages Discovery Gardens, Lighting Design quotes Discovery Gardens, Lighting Design estimates Discovery Gardens, Lighting Design services near me Discovery Gardens, Cheap Lighting Design Discovery Gardens, Quality Lighting Design Discovery Gardens, Trusted Lighting Design Discovery Gardens, Lighting Design transformation Discovery Gardens, Lighting Design renovation Discovery Gardens, Lighting Design makeover Discovery Gardens, Best Lighting Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Design in Discovery Gardens. Best lighting design Discovery Gardens Company Discovery Gardens Our luxury lighting design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

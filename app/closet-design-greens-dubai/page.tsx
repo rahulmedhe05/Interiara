@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Greens, Closet in Design Greens, Best closet Design Greens, Professional closet Design Greens, Luxury closet Design Greens, Closet Design Greens Dubai, Closet designer Design Greens, Closet company Design Greens, Closet contractor Design Greens, Affordable closet Design Greens, Modern closet Design Greens, Closet consultation Design Greens, Closet cost Design Greens, Closet price Design Greens, Top closet Design Greens
+
+// SEO Keywords: Closet Design Greens, Closet in Design Greens, Best closet Design Greens, Professional closet Design Greens, Luxury closet Design Greens, Closet Design Greens Dubai, Closet designer Design Greens, Closet company Design Greens, Closet contractor Design Greens, Affordable closet Design Greens, Modern closet Design Greens, Closet consultation Design Greens, Closet cost Design Greens, Closet price Design Greens, Top closet Design Greens, Closet near Design Greens, Closet specialists Design Greens, Closet experts Design Greens, Closet solutions Design Greens, Closet packages Design Greens, Closet quotes Design Greens, Closet estimates Design Greens, Closet services near me Design Greens, Cheap Closet Design Greens, Quality Closet Design Greens, Trusted Closet Design Greens, Closet transformation Design Greens, Closet renovation Design Greens, Closet makeover Design Greens, Best Closet company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Closet Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet in Design Greens. Closet Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional closet design greens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design The Greens Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet in design greens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet near design greens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

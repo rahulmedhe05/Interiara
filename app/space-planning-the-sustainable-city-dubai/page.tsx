@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning The Sustainable City, Space Planning The in Sustainable City, Best space planning the Sustainable City, Professional space planning the Sustainable City, Luxury space planning the Sustainable City, Space Planning The Sustainable City Dubai, Space Planning The designer Sustainable City, Space Planning The company Sustainable City, Space Planning The contractor Sustainable City, Affordable space planning the Sustainable City, Modern space planning the Sustainable City, Space Planning The consultation Sustainable City, Space Planning The cost Sustainable City, Space Planning The price Sustainable City, Top space planning the Sustainable City
+
+// SEO Keywords: Space Planning The Sustainable City, Space Planning The in Sustainable City, Best space planning the Sustainable City, Professional space planning the Sustainable City, Luxury space planning the Sustainable City, Space Planning The Sustainable City Dubai, Space Planning The designer Sustainable City, Space Planning The company Sustainable City, Space Planning The contractor Sustainable City, Affordable space planning the Sustainable City, Modern space planning the Sustainable City, Space Planning The consultation Sustainable City, Space Planning The cost Sustainable City, Space Planning The price Sustainable City, Top space planning the Sustainable City, Space Planning The near Sustainable City, Space Planning The specialists Sustainable City, Space Planning The experts Sustainable City, Space Planning The solutions Sustainable City, Space Planning The packages Sustainable City, Space Planning The quotes Sustainable City, Space Planning The estimates Sustainable City, Space Planning The services near me Sustainable City, Cheap Space Planning The Sustainable City, Quality Space Planning The Sustainable City, Trusted Space Planning The Sustainable City, Space Planning The transformation Sustainable City, Space Planning The renovation Sustainable City, Space Planning The makeover Sustainable City, Best Space Planning The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning The in Sustainable City. Best space planning the Sustainable City Company Sustainable City Our luxury space planning the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

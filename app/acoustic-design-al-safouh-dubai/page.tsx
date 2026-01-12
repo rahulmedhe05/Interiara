@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Al Safouh, Acoustic Design in Al Safouh, Best acoustic design Al Safouh, Professional acoustic design Al Safouh, Luxury acoustic design Al Safouh, Acoustic Design Al Safouh Dubai, Acoustic Design designer Al Safouh, Acoustic Design company Al Safouh, Acoustic Design contractor Al Safouh, Affordable acoustic design Al Safouh, Modern acoustic design Al Safouh, Acoustic Design consultation Al Safouh, Acoustic Design cost Al Safouh, Acoustic Design price Al Safouh, Top acoustic design Al Safouh
+
+// SEO Keywords: Acoustic Design Al Safouh, Acoustic Design in Al Safouh, Best acoustic design Al Safouh, Professional acoustic design Al Safouh, Luxury acoustic design Al Safouh, Acoustic Design Al Safouh Dubai, Acoustic Design designer Al Safouh, Acoustic Design company Al Safouh, Acoustic Design contractor Al Safouh, Affordable acoustic design Al Safouh, Modern acoustic design Al Safouh, Acoustic Design consultation Al Safouh, Acoustic Design cost Al Safouh, Acoustic Design price Al Safouh, Top acoustic design Al Safouh, Acoustic Design near Al Safouh, Acoustic Design specialists Al Safouh, Acoustic Design experts Al Safouh, Acoustic Design solutions Al Safouh, Acoustic Design packages Al Safouh, Acoustic Design quotes Al Safouh, Acoustic Design estimates Al Safouh, Acoustic Design services near me Al Safouh, Cheap Acoustic Design Al Safouh, Quality Acoustic Design Al Safouh, Trusted Acoustic Design Al Safouh, Acoustic Design transformation Al Safouh, Acoustic Design renovation Al Safouh, Acoustic Design makeover Al Safouh, Best Acoustic Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignAlSafouh() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design Al Safouh Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safouh Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic Design in Al Safouh. 
                 We've completed 300+ successful projects across Al Safouh Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design Al Safouh Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury acoustic design al safouh services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design Al Safouh Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic design in al safouh service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic design near al safouh.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Fitness Studio Interior Design Greens, Fitness Studio Interior in Design Greens, Best fitness studio interior Design Greens, Professional fitness studio interior Design Greens, Luxury fitness studio interior Design Greens, Fitness Studio Interior Design Greens Dubai, Fitness Studio Interior designer Design Greens, Fitness Studio Interior company Design Greens, Fitness Studio Interior contractor Design Greens, Affordable fitness studio interior Design Greens, Modern fitness studio interior Design Greens, Fitness Studio Interior consultation Design Greens, Fitness Studio Interior cost Design Greens, Fitness Studio Interior price Design Greens, Top fitness studio interior Design Greens
+
+// SEO Keywords: Fitness Studio Interior Design Greens, Fitness Studio Interior in Design Greens, Best fitness studio interior Design Greens, Professional fitness studio interior Design Greens, Luxury fitness studio interior Design Greens, Fitness Studio Interior Design Greens Dubai, Fitness Studio Interior designer Design Greens, Fitness Studio Interior company Design Greens, Fitness Studio Interior contractor Design Greens, Affordable fitness studio interior Design Greens, Modern fitness studio interior Design Greens, Fitness Studio Interior consultation Design Greens, Fitness Studio Interior cost Design Greens, Fitness Studio Interior price Design Greens, Top fitness studio interior Design Greens, Fitness Studio Interior near Design Greens, Fitness Studio Interior specialists Design Greens, Fitness Studio Interior experts Design Greens, Fitness Studio Interior solutions Design Greens, Fitness Studio Interior packages Design Greens, Fitness Studio Interior quotes Design Greens, Fitness Studio Interior estimates Design Greens, Fitness Studio Interior services near me Design Greens, Cheap Fitness Studio Interior Design Greens, Quality Fitness Studio Interior Design Greens, Trusted Fitness Studio Interior Design Greens, Fitness Studio Interior transformation Design Greens, Fitness Studio Interior renovation Design Greens, Fitness Studio Interior makeover Design Greens, Best Fitness Studio Interior company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FitnessStudioInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior Design Greens Company Design Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Fitness Studio Interior in Design Greens. Best fitness studio interior Design Greens Company Design Greens Our professional fitness studio interior design greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function FitnessStudioInteriorDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Fitness Studio Interior Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Fitness Studio Interior Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Fitness Studio Interior Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function FitnessStudioInteriorDesignGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our fitness studio interior in design greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FitnessStudioInteriorDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in fitness studio interior near design greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FitnessStudioInteriorDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

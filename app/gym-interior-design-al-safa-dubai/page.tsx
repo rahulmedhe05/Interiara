@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Al Safa, Gym Interior Design in Al Safa, Best gym interior design Al Safa, Professional gym interior design Al Safa, Luxury gym interior design Al Safa, Gym Interior Design Al Safa Dubai, Gym Interior Design designer Al Safa, Gym Interior Design company Al Safa, Gym Interior Design contractor Al Safa, Affordable gym interior design Al Safa, Modern gym interior design Al Safa, Gym Interior Design consultation Al Safa, Gym Interior Design cost Al Safa, Gym Interior Design price Al Safa, Top gym interior design Al Safa
+
+// SEO Keywords: Gym Interior Design Al Safa, Gym Interior Design in Al Safa, Best gym interior design Al Safa, Professional gym interior design Al Safa, Luxury gym interior design Al Safa, Gym Interior Design Al Safa Dubai, Gym Interior Design designer Al Safa, Gym Interior Design company Al Safa, Gym Interior Design contractor Al Safa, Affordable gym interior design Al Safa, Modern gym interior design Al Safa, Gym Interior Design consultation Al Safa, Gym Interior Design cost Al Safa, Gym Interior Design price Al Safa, Top gym interior design Al Safa, Gym Interior Design near Al Safa, Gym Interior Design specialists Al Safa, Gym Interior Design experts Al Safa, Gym Interior Design solutions Al Safa, Gym Interior Design packages Al Safa, Gym Interior Design quotes Al Safa, Gym Interior Design estimates Al Safa, Gym Interior Design services near me Al Safa, Cheap Gym Interior Design Al Safa, Quality Gym Interior Design Al Safa, Trusted Gym Interior Design Al Safa, Gym Interior Design transformation Al Safa, Gym Interior Design renovation Al Safa, Gym Interior Design makeover Al Safa, Best Gym Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function GymInteriorDesignAlSafa() {
                 At Interiara, we believe that exceptional <strong>Gym Interior Design Al Safa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Gym Interior Design in Al Safa. 
                 We've completed 300+ successful projects across Al Safa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Gym Interior Design Al Safa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury gym interior design al safa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Gym Interior Design Al Safa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function GymInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our gym interior design in al safa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in gym interior design near al safa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function GymInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

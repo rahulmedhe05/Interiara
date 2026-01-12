@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Downtown Dubai, Office Renovation in Downtown Dubai, Best office renovation Downtown Dubai, Professional office renovation Downtown Dubai, Luxury office renovation Downtown Dubai, Office Renovation Downtown Dubai Dubai, Office Renovation designer Downtown Dubai, Office Renovation company Downtown Dubai, Office Renovation contractor Downtown Dubai, Affordable office renovation Downtown Dubai, Modern office renovation Downtown Dubai, Office Renovation consultation Downtown Dubai, Office Renovation cost Downtown Dubai, Office Renovation price Downtown Dubai, Top office renovation Downtown Dubai
+
+// SEO Keywords: Office Renovation Downtown Dubai, Office Renovation in Downtown Dubai, Best office renovation Downtown Dubai, Professional office renovation Downtown Dubai, Luxury office renovation Downtown Dubai, Office Renovation Downtown Dubai Dubai, Office Renovation designer Downtown Dubai, Office Renovation company Downtown Dubai, Office Renovation contractor Downtown Dubai, Affordable office renovation Downtown Dubai, Modern office renovation Downtown Dubai, Office Renovation consultation Downtown Dubai, Office Renovation cost Downtown Dubai, Office Renovation price Downtown Dubai, Top office renovation Downtown Dubai, Office Renovation near Downtown Dubai, Office Renovation specialists Downtown Dubai, Office Renovation experts Downtown Dubai, Office Renovation solutions Downtown Dubai, Office Renovation packages Downtown Dubai, Office Renovation quotes Downtown Dubai, Office Renovation estimates Downtown Dubai, Office Renovation services near me Downtown Dubai, Cheap Office Renovation Downtown Dubai, Quality Office Renovation Downtown Dubai, Trusted Office Renovation Downtown Dubai, Office Renovation transformation Downtown Dubai, Office Renovation renovation Downtown Dubai, Office Renovation makeover Downtown Dubai, Best Office Renovation company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Downtown Dubai. Best office renovation Downtown Dubai Company Downtown Dubai Our luxury office renovation downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Greens, Interior in Design Greens, Best interior Design Greens, Professional interior Design Greens, Luxury interior Design Greens, Interior Design Greens Dubai, Interior designer Design Greens, Interior company Design Greens, Interior contractor Design Greens, Affordable interior Design Greens, Modern interior Design Greens, Interior consultation Design Greens, Interior cost Design Greens, Interior price Design Greens, Top interior Design Greens
+
+// SEO Keywords: Interior Design Greens, Interior in Design Greens, Best interior Design Greens, Professional interior Design Greens, Luxury interior Design Greens, Interior Design Greens Dubai, Interior designer Design Greens, Interior company Design Greens, Interior contractor Design Greens, Affordable interior Design Greens, Modern interior Design Greens, Interior consultation Design Greens, Interior cost Design Greens, Interior price Design Greens, Top interior Design Greens, Interior near Design Greens, Interior specialists Design Greens, Interior experts Design Greens, Interior solutions Design Greens, Interior packages Design Greens, Interior quotes Design Greens, Interior estimates Design Greens, Interior services near me Design Greens, Cheap Interior Design Greens, Quality Interior Design Greens, Trusted Interior Design Greens, Interior transformation Design Greens, Interior renovation Design Greens, Interior makeover Design Greens, Best Interior company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Interior Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior in Design Greens. Interior Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional interior design greens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design The Greens Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior in design greens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior near design greens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

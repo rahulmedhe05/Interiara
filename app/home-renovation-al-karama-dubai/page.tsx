@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Al Karama, Home Renovation in Al Karama, Best home renovation Al Karama, Professional home renovation Al Karama, Luxury home renovation Al Karama, Home Renovation Al Karama Dubai, Home Renovation designer Al Karama, Home Renovation company Al Karama, Home Renovation contractor Al Karama, Affordable home renovation Al Karama, Modern home renovation Al Karama, Home Renovation consultation Al Karama, Home Renovation cost Al Karama, Home Renovation price Al Karama, Top home renovation Al Karama
+
+// SEO Keywords: Home Renovation Al Karama, Home Renovation in Al Karama, Best home renovation Al Karama, Professional home renovation Al Karama, Luxury home renovation Al Karama, Home Renovation Al Karama Dubai, Home Renovation designer Al Karama, Home Renovation company Al Karama, Home Renovation contractor Al Karama, Affordable home renovation Al Karama, Modern home renovation Al Karama, Home Renovation consultation Al Karama, Home Renovation cost Al Karama, Home Renovation price Al Karama, Top home renovation Al Karama, Home Renovation near Al Karama, Home Renovation specialists Al Karama, Home Renovation experts Al Karama, Home Renovation solutions Al Karama, Home Renovation packages Al Karama, Home Renovation quotes Al Karama, Home Renovation estimates Al Karama, Home Renovation services near me Al Karama, Cheap Home Renovation Al Karama, Quality Home Renovation Al Karama, Trusted Home Renovation Al Karama, Home Renovation transformation Al Karama, Home Renovation renovation Al Karama, Home Renovation makeover Al Karama, Best Home Renovation company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRenovationAlKarama() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home renovation al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Renovation Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRenovationAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home renovation in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home renovation near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRenovationAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design The Villa, Hotel Interior Design in The Villa, Best hotel interior design The Villa, Professional hotel interior design The Villa, Luxury hotel interior design The Villa, Hotel Interior Design The Villa Dubai, Hotel Interior Design designer The Villa, Hotel Interior Design company The Villa, Hotel Interior Design contractor The Villa, Affordable hotel interior design The Villa, Modern hotel interior design The Villa, Hotel Interior Design consultation The Villa, Hotel Interior Design cost The Villa, Hotel Interior Design price The Villa, Top hotel interior design The Villa
+
+// SEO Keywords: Hotel Interior Design The Villa, Hotel Interior Design in The Villa, Best hotel interior design The Villa, Professional hotel interior design The Villa, Luxury hotel interior design The Villa, Hotel Interior Design The Villa Dubai, Hotel Interior Design designer The Villa, Hotel Interior Design company The Villa, Hotel Interior Design contractor The Villa, Affordable hotel interior design The Villa, Modern hotel interior design The Villa, Hotel Interior Design consultation The Villa, Hotel Interior Design cost The Villa, Hotel Interior Design price The Villa, Top hotel interior design The Villa, Hotel Interior Design near The Villa, Hotel Interior Design specialists The Villa, Hotel Interior Design experts The Villa, Hotel Interior Design solutions The Villa, Hotel Interior Design packages The Villa, Hotel Interior Design quotes The Villa, Hotel Interior Design estimates The Villa, Hotel Interior Design services near me The Villa, Cheap Hotel Interior Design The Villa, Quality Hotel Interior Design The Villa, Trusted Hotel Interior Design The Villa, Hotel Interior Design transformation The Villa, Hotel Interior Design renovation The Villa, Hotel Interior Design makeover The Villa, Best Hotel Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in The Villa. Best hotel interior design The Villa Company The Villa Our luxury hotel interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

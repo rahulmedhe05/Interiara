@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Al Warqaa, Terrace Interior Design in Al Warqaa, Best terrace interior design Al Warqaa, Professional terrace interior design Al Warqaa, Luxury terrace interior design Al Warqaa, Terrace Interior Design Al Warqaa Dubai, Terrace Interior Design designer Al Warqaa, Terrace Interior Design company Al Warqaa, Terrace Interior Design contractor Al Warqaa, Affordable terrace interior design Al Warqaa, Modern terrace interior design Al Warqaa, Terrace Interior Design consultation Al Warqaa, Terrace Interior Design cost Al Warqaa, Terrace Interior Design price Al Warqaa, Top terrace interior design Al Warqaa
+
+// SEO Keywords: Terrace Interior Design Al Warqaa, Terrace Interior Design in Al Warqaa, Best terrace interior design Al Warqaa, Professional terrace interior design Al Warqaa, Luxury terrace interior design Al Warqaa, Terrace Interior Design Al Warqaa Dubai, Terrace Interior Design designer Al Warqaa, Terrace Interior Design company Al Warqaa, Terrace Interior Design contractor Al Warqaa, Affordable terrace interior design Al Warqaa, Modern terrace interior design Al Warqaa, Terrace Interior Design consultation Al Warqaa, Terrace Interior Design cost Al Warqaa, Terrace Interior Design price Al Warqaa, Top terrace interior design Al Warqaa, Terrace Interior Design near Al Warqaa, Terrace Interior Design specialists Al Warqaa, Terrace Interior Design experts Al Warqaa, Terrace Interior Design solutions Al Warqaa, Terrace Interior Design packages Al Warqaa, Terrace Interior Design quotes Al Warqaa, Terrace Interior Design estimates Al Warqaa, Terrace Interior Design services near me Al Warqaa, Cheap Terrace Interior Design Al Warqaa, Quality Terrace Interior Design Al Warqaa, Trusted Terrace Interior Design Al Warqaa, Terrace Interior Design transformation Al Warqaa, Terrace Interior Design renovation Al Warqaa, Terrace Interior Design makeover Al Warqaa, Best Terrace Interior Design company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Al Warqaa Company Al Warqaa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior Design in Al Warqaa. Best terrace interior design Al Warqaa Company Al Warqaa Our luxury terrace interior design al warqaa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignAlWarqaa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior design in al warqaa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior design near al warqaa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

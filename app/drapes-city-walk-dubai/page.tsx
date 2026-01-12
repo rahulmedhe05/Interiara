@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes City Walk, Drapes in City Walk, Best drapes City Walk, Professional drapes City Walk, Luxury drapes City Walk, Drapes City Walk Dubai, Drapes designer City Walk, Drapes company City Walk, Drapes contractor City Walk, Affordable drapes City Walk, Modern drapes City Walk, Drapes consultation City Walk, Drapes cost City Walk, Drapes price City Walk, Top drapes City Walk
+
+// SEO Keywords: Drapes City Walk, Drapes in City Walk, Best drapes City Walk, Professional drapes City Walk, Luxury drapes City Walk, Drapes City Walk Dubai, Drapes designer City Walk, Drapes company City Walk, Drapes contractor City Walk, Affordable drapes City Walk, Modern drapes City Walk, Drapes consultation City Walk, Drapes cost City Walk, Drapes price City Walk, Top drapes City Walk, Drapes near City Walk, Drapes specialists City Walk, Drapes experts City Walk, Drapes solutions City Walk, Drapes packages City Walk, Drapes quotes City Walk, Drapes estimates City Walk, Drapes services near me City Walk, Cheap Drapes City Walk, Quality Drapes City Walk, Trusted Drapes City Walk, Drapes transformation City Walk, Drapes renovation City Walk, Drapes makeover City Walk, Best Drapes company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesCityWalk() {
                 At Interiara, we believe that exceptional <strong>Drapes City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

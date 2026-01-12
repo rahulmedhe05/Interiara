@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Bur, Space in Planning Bur, Best space Planning Bur, Professional space Planning Bur, Luxury space Planning Bur, Space Planning Bur Dubai, Space designer Planning Bur, Space company Planning Bur, Space contractor Planning Bur, Affordable space Planning Bur, Modern space Planning Bur, Space consultation Planning Bur, Space cost Planning Bur, Space price Planning Bur, Top space Planning Bur
+
+// SEO Keywords: Space Planning Bur, Space in Planning Bur, Best space Planning Bur, Professional space Planning Bur, Luxury space Planning Bur, Space Planning Bur Dubai, Space designer Planning Bur, Space company Planning Bur, Space contractor Planning Bur, Affordable space Planning Bur, Modern space Planning Bur, Space consultation Planning Bur, Space cost Planning Bur, Space price Planning Bur, Top space Planning Bur, Space near Planning Bur, Space specialists Planning Bur, Space experts Planning Bur, Space solutions Planning Bur, Space packages Planning Bur, Space quotes Planning Bur, Space estimates Planning Bur, Space services near me Planning Bur, Cheap Space Planning Bur, Quality Space Planning Bur, Trusted Space Planning Bur, Space transformation Planning Bur, Space renovation Planning Bur, Space makeover Planning Bur, Best Space company Planning Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningBur() {
                 At Interiara, we believe that exceptional <strong>Space Planning Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space in Planning Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space in planning bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space near planning bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

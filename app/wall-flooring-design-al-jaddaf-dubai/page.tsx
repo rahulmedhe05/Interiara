@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Al Jaddaf, Wall Flooring Design in Al Jaddaf, Best wall flooring design Al Jaddaf, Professional wall flooring design Al Jaddaf, Luxury wall flooring design Al Jaddaf, Wall Flooring Design Al Jaddaf Dubai, Wall Flooring Design designer Al Jaddaf, Wall Flooring Design company Al Jaddaf, Wall Flooring Design contractor Al Jaddaf, Affordable wall flooring design Al Jaddaf, Modern wall flooring design Al Jaddaf, Wall Flooring Design consultation Al Jaddaf, Wall Flooring Design cost Al Jaddaf, Wall Flooring Design price Al Jaddaf, Top wall flooring design Al Jaddaf
+
+// SEO Keywords: Wall Flooring Design Al Jaddaf, Wall Flooring Design in Al Jaddaf, Best wall flooring design Al Jaddaf, Professional wall flooring design Al Jaddaf, Luxury wall flooring design Al Jaddaf, Wall Flooring Design Al Jaddaf Dubai, Wall Flooring Design designer Al Jaddaf, Wall Flooring Design company Al Jaddaf, Wall Flooring Design contractor Al Jaddaf, Affordable wall flooring design Al Jaddaf, Modern wall flooring design Al Jaddaf, Wall Flooring Design consultation Al Jaddaf, Wall Flooring Design cost Al Jaddaf, Wall Flooring Design price Al Jaddaf, Top wall flooring design Al Jaddaf, Wall Flooring Design near Al Jaddaf, Wall Flooring Design specialists Al Jaddaf, Wall Flooring Design experts Al Jaddaf, Wall Flooring Design solutions Al Jaddaf, Wall Flooring Design packages Al Jaddaf, Wall Flooring Design quotes Al Jaddaf, Wall Flooring Design estimates Al Jaddaf, Wall Flooring Design services near me Al Jaddaf, Cheap Wall Flooring Design Al Jaddaf, Quality Wall Flooring Design Al Jaddaf, Trusted Wall Flooring Design Al Jaddaf, Wall Flooring Design transformation Al Jaddaf, Wall Flooring Design renovation Al Jaddaf, Wall Flooring Design makeover Al Jaddaf, Best Wall Flooring Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Al Jaddaf. Best wall flooring design Al Jaddaf Company Al Jaddaf Our luxury wall flooring design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

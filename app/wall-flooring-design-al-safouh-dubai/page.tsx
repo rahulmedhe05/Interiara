@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Al Safouh, Wall Flooring Design in Al Safouh, Best wall flooring design Al Safouh, Professional wall flooring design Al Safouh, Luxury wall flooring design Al Safouh, Wall Flooring Design Al Safouh Dubai, Wall Flooring Design designer Al Safouh, Wall Flooring Design company Al Safouh, Wall Flooring Design contractor Al Safouh, Affordable wall flooring design Al Safouh, Modern wall flooring design Al Safouh, Wall Flooring Design consultation Al Safouh, Wall Flooring Design cost Al Safouh, Wall Flooring Design price Al Safouh, Top wall flooring design Al Safouh
+
+// SEO Keywords: Wall Flooring Design Al Safouh, Wall Flooring Design in Al Safouh, Best wall flooring design Al Safouh, Professional wall flooring design Al Safouh, Luxury wall flooring design Al Safouh, Wall Flooring Design Al Safouh Dubai, Wall Flooring Design designer Al Safouh, Wall Flooring Design company Al Safouh, Wall Flooring Design contractor Al Safouh, Affordable wall flooring design Al Safouh, Modern wall flooring design Al Safouh, Wall Flooring Design consultation Al Safouh, Wall Flooring Design cost Al Safouh, Wall Flooring Design price Al Safouh, Top wall flooring design Al Safouh, Wall Flooring Design near Al Safouh, Wall Flooring Design specialists Al Safouh, Wall Flooring Design experts Al Safouh, Wall Flooring Design solutions Al Safouh, Wall Flooring Design packages Al Safouh, Wall Flooring Design quotes Al Safouh, Wall Flooring Design estimates Al Safouh, Wall Flooring Design services near me Al Safouh, Cheap Wall Flooring Design Al Safouh, Quality Wall Flooring Design Al Safouh, Trusted Wall Flooring Design Al Safouh, Wall Flooring Design transformation Al Safouh, Wall Flooring Design renovation Al Safouh, Wall Flooring Design makeover Al Safouh, Best Wall Flooring Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Al Safouh. Best wall flooring design Al Safouh Company Al Safouh Our luxury wall flooring design al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

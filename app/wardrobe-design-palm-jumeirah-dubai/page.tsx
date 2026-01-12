@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Palm Jumeirah, Wardrobe Design in Palm Jumeirah, Best wardrobe design Palm Jumeirah, Professional wardrobe design Palm Jumeirah, Luxury wardrobe design Palm Jumeirah, Wardrobe Design Palm Jumeirah Dubai, Wardrobe Design designer Palm Jumeirah, Wardrobe Design company Palm Jumeirah, Wardrobe Design contractor Palm Jumeirah, Affordable wardrobe design Palm Jumeirah, Modern wardrobe design Palm Jumeirah, Wardrobe Design consultation Palm Jumeirah, Wardrobe Design cost Palm Jumeirah, Wardrobe Design price Palm Jumeirah, Top wardrobe design Palm Jumeirah
+
+// SEO Keywords: Wardrobe Design Palm Jumeirah, Wardrobe Design in Palm Jumeirah, Best wardrobe design Palm Jumeirah, Professional wardrobe design Palm Jumeirah, Luxury wardrobe design Palm Jumeirah, Wardrobe Design Palm Jumeirah Dubai, Wardrobe Design designer Palm Jumeirah, Wardrobe Design company Palm Jumeirah, Wardrobe Design contractor Palm Jumeirah, Affordable wardrobe design Palm Jumeirah, Modern wardrobe design Palm Jumeirah, Wardrobe Design consultation Palm Jumeirah, Wardrobe Design cost Palm Jumeirah, Wardrobe Design price Palm Jumeirah, Top wardrobe design Palm Jumeirah, Wardrobe Design near Palm Jumeirah, Wardrobe Design specialists Palm Jumeirah, Wardrobe Design experts Palm Jumeirah, Wardrobe Design solutions Palm Jumeirah, Wardrobe Design packages Palm Jumeirah, Wardrobe Design quotes Palm Jumeirah, Wardrobe Design estimates Palm Jumeirah, Wardrobe Design services near me Palm Jumeirah, Cheap Wardrobe Design Palm Jumeirah, Quality Wardrobe Design Palm Jumeirah, Trusted Wardrobe Design Palm Jumeirah, Wardrobe Design transformation Palm Jumeirah, Wardrobe Design renovation Palm Jumeirah, Wardrobe Design makeover Palm Jumeirah, Best Wardrobe Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe Design in Palm Jumeirah. Best wardrobe design Palm Jumeirah Company Palm Jumeirah Our luxury wardrobe design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

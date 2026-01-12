@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Mall Interior Design Marina, Mall Interior in Design Marina, Best mall interior Design Marina, Professional mall interior Design Marina, Luxury mall interior Design Marina, Mall Interior Design Marina Dubai, Mall Interior designer Design Marina, Mall Interior company Design Marina, Mall Interior contractor Design Marina, Affordable mall interior Design Marina, Modern mall interior Design Marina, Mall Interior consultation Design Marina, Mall Interior cost Design Marina, Mall Interior price Design Marina, Top mall interior Design Marina
+
+// SEO Keywords: Mall Interior Design Marina, Mall Interior in Design Marina, Best mall interior Design Marina, Professional mall interior Design Marina, Luxury mall interior Design Marina, Mall Interior Design Marina Dubai, Mall Interior designer Design Marina, Mall Interior company Design Marina, Mall Interior contractor Design Marina, Affordable mall interior Design Marina, Modern mall interior Design Marina, Mall Interior consultation Design Marina, Mall Interior cost Design Marina, Mall Interior price Design Marina, Top mall interior Design Marina, Mall Interior near Design Marina, Mall Interior specialists Design Marina, Mall Interior experts Design Marina, Mall Interior solutions Design Marina, Mall Interior packages Design Marina, Mall Interior quotes Design Marina, Mall Interior estimates Design Marina, Mall Interior services near me Design Marina, Cheap Mall Interior Design Marina, Quality Mall Interior Design Marina, Trusted Mall Interior Design Marina, Mall Interior transformation Design Marina, Mall Interior renovation Design Marina, Mall Interior makeover Design Marina, Best Mall Interior company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MallInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior Design Marina Company Design Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Mall Interior in Design Marina. Best mall interior Design Marina Company Design Marina Our professional mall interior design marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function MallInteriorDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Mall Interior Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Mall Interior Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Mall Interior Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function MallInteriorDesignMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our mall interior in design marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MallInteriorDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in mall interior near design marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MallInteriorDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

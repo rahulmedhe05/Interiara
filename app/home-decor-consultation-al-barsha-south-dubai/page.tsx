@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Al Barsha South, Home Decor Consultation Al in Barsha South, Best home decor consultation al Barsha South, Professional home decor consultation al Barsha South, Luxury home decor consultation al Barsha South, Home Decor Consultation Al Barsha South Dubai, Home Decor Consultation Al designer Barsha South, Home Decor Consultation Al company Barsha South, Home Decor Consultation Al contractor Barsha South, Affordable home decor consultation al Barsha South, Modern home decor consultation al Barsha South, Home Decor Consultation Al consultation Barsha South, Home Decor Consultation Al cost Barsha South, Home Decor Consultation Al price Barsha South, Top home decor consultation al Barsha South
+
+// SEO Keywords: Home Decor Consultation Al Barsha South, Home Decor Consultation Al in Barsha South, Best home decor consultation al Barsha South, Professional home decor consultation al Barsha South, Luxury home decor consultation al Barsha South, Home Decor Consultation Al Barsha South Dubai, Home Decor Consultation Al designer Barsha South, Home Decor Consultation Al company Barsha South, Home Decor Consultation Al contractor Barsha South, Affordable home decor consultation al Barsha South, Modern home decor consultation al Barsha South, Home Decor Consultation Al consultation Barsha South, Home Decor Consultation Al cost Barsha South, Home Decor Consultation Al price Barsha South, Top home decor consultation al Barsha South, Home Decor Consultation Al near Barsha South, Home Decor Consultation Al specialists Barsha South, Home Decor Consultation Al experts Barsha South, Home Decor Consultation Al solutions Barsha South, Home Decor Consultation Al packages Barsha South, Home Decor Consultation Al quotes Barsha South, Home Decor Consultation Al estimates Barsha South, Home Decor Consultation Al services near me Barsha South, Cheap Home Decor Consultation Al Barsha South, Quality Home Decor Consultation Al Barsha South, Trusted Home Decor Consultation Al Barsha South, Home Decor Consultation Al transformation Barsha South, Home Decor Consultation Al renovation Barsha South, Home Decor Consultation Al makeover Barsha South, Best Home Decor Consultation Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation Al in Barsha South. Best home decor consultation al Barsha South Company Barsha South Our luxury home decor consultation al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design City Walk, Sustainable Interior Design in City Walk, Best sustainable interior design City Walk, Professional sustainable interior design City Walk, Luxury sustainable interior design City Walk, Sustainable Interior Design City Walk Dubai, Sustainable Interior Design designer City Walk, Sustainable Interior Design company City Walk, Sustainable Interior Design contractor City Walk, Affordable sustainable interior design City Walk, Modern sustainable interior design City Walk, Sustainable Interior Design consultation City Walk, Sustainable Interior Design cost City Walk, Sustainable Interior Design price City Walk, Top sustainable interior design City Walk
+
+// SEO Keywords: Sustainable Interior Design City Walk, Sustainable Interior Design in City Walk, Best sustainable interior design City Walk, Professional sustainable interior design City Walk, Luxury sustainable interior design City Walk, Sustainable Interior Design City Walk Dubai, Sustainable Interior Design designer City Walk, Sustainable Interior Design company City Walk, Sustainable Interior Design contractor City Walk, Affordable sustainable interior design City Walk, Modern sustainable interior design City Walk, Sustainable Interior Design consultation City Walk, Sustainable Interior Design cost City Walk, Sustainable Interior Design price City Walk, Top sustainable interior design City Walk, Sustainable Interior Design near City Walk, Sustainable Interior Design specialists City Walk, Sustainable Interior Design experts City Walk, Sustainable Interior Design solutions City Walk, Sustainable Interior Design packages City Walk, Sustainable Interior Design quotes City Walk, Sustainable Interior Design estimates City Walk, Sustainable Interior Design services near me City Walk, Cheap Sustainable Interior Design City Walk, Quality Sustainable Interior Design City Walk, Trusted Sustainable Interior Design City Walk, Sustainable Interior Design transformation City Walk, Sustainable Interior Design renovation City Walk, Sustainable Interior Design makeover City Walk, Best Sustainable Interior Design company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in City Walk. Best sustainable interior design City Walk Company City Walk Our luxury sustainable interior design city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

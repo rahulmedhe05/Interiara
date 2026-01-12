@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Nad Al Sheba, Drapes Nad in Al Sheba, Best drapes nad Al Sheba, Professional drapes nad Al Sheba, Luxury drapes nad Al Sheba, Drapes Nad Al Sheba Dubai, Drapes Nad designer Al Sheba, Drapes Nad company Al Sheba, Drapes Nad contractor Al Sheba, Affordable drapes nad Al Sheba, Modern drapes nad Al Sheba, Drapes Nad consultation Al Sheba, Drapes Nad cost Al Sheba, Drapes Nad price Al Sheba, Top drapes nad Al Sheba
+
+// SEO Keywords: Drapes Nad Al Sheba, Drapes Nad in Al Sheba, Best drapes nad Al Sheba, Professional drapes nad Al Sheba, Luxury drapes nad Al Sheba, Drapes Nad Al Sheba Dubai, Drapes Nad designer Al Sheba, Drapes Nad company Al Sheba, Drapes Nad contractor Al Sheba, Affordable drapes nad Al Sheba, Modern drapes nad Al Sheba, Drapes Nad consultation Al Sheba, Drapes Nad cost Al Sheba, Drapes Nad price Al Sheba, Top drapes nad Al Sheba, Drapes Nad near Al Sheba, Drapes Nad specialists Al Sheba, Drapes Nad experts Al Sheba, Drapes Nad solutions Al Sheba, Drapes Nad packages Al Sheba, Drapes Nad quotes Al Sheba, Drapes Nad estimates Al Sheba, Drapes Nad services near me Al Sheba, Cheap Drapes Nad Al Sheba, Quality Drapes Nad Al Sheba, Trusted Drapes Nad Al Sheba, Drapes Nad transformation Al Sheba, Drapes Nad renovation Al Sheba, Drapes Nad makeover Al Sheba, Best Drapes Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesNadAlSheba() {
                 At Interiara, we believe that exceptional <strong>Drapes Nad Al Sheba Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Nad Al Sheba Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes Nad in Al Sheba. 
                 We've completed 300+ successful projects across Nad Al Sheba Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Nad Al Sheba Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes nad al sheba services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Nad Al Sheba Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes nad in al sheba service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes nad near al sheba.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

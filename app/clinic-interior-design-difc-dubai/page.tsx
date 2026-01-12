@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Clinic Interior Design Difc, Clinic Interior in Design Difc, Best clinic interior Design Difc, Professional clinic interior Design Difc, Luxury clinic interior Design Difc, Clinic Interior Design Difc Dubai, Clinic Interior designer Design Difc, Clinic Interior company Design Difc, Clinic Interior contractor Design Difc, Affordable clinic interior Design Difc, Modern clinic interior Design Difc, Clinic Interior consultation Design Difc, Clinic Interior cost Design Difc, Clinic Interior price Design Difc, Top clinic interior Design Difc
+
+// SEO Keywords: Clinic Interior Design Difc, Clinic Interior in Design Difc, Best clinic interior Design Difc, Professional clinic interior Design Difc, Luxury clinic interior Design Difc, Clinic Interior Design Difc Dubai, Clinic Interior designer Design Difc, Clinic Interior company Design Difc, Clinic Interior contractor Design Difc, Affordable clinic interior Design Difc, Modern clinic interior Design Difc, Clinic Interior consultation Design Difc, Clinic Interior cost Design Difc, Clinic Interior price Design Difc, Top clinic interior Design Difc, Clinic Interior near Design Difc, Clinic Interior specialists Design Difc, Clinic Interior experts Design Difc, Clinic Interior solutions Design Difc, Clinic Interior packages Design Difc, Clinic Interior quotes Design Difc, Clinic Interior estimates Design Difc, Clinic Interior services near me Design Difc, Cheap Clinic Interior Design Difc, Quality Clinic Interior Design Difc, Trusted Clinic Interior Design Difc, Clinic Interior transformation Design Difc, Clinic Interior renovation Design Difc, Clinic Interior makeover Design Difc, Best Clinic Interior company Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClinicInteriorDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior Design Difc Company Design Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Clinic Interior in Design Difc. Best clinic interior Design Difc Company Design Difc Our luxury clinic interior design difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ClinicInteriorDesignDifc() {
                 At Interiara, we believe that exceptional <strong>Clinic Interior Design DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Clinic Interior Design Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Clinic Interior Design DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ClinicInteriorDesignDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our clinic interior in design difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClinicInteriorDesignDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in clinic interior near design difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClinicInteriorDesignDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

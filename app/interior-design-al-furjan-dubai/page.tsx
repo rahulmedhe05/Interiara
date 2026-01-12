@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Al Furjan, Interior Design in Al Furjan, Best interior design Al Furjan, Professional interior design Al Furjan, Luxury interior design Al Furjan, Interior Design Al Furjan Dubai, Interior Design designer Al Furjan, Interior Design company Al Furjan, Interior Design contractor Al Furjan, Affordable interior design Al Furjan, Modern interior design Al Furjan, Interior Design consultation Al Furjan, Interior Design cost Al Furjan, Interior Design price Al Furjan, Top interior design Al Furjan
+
+// SEO Keywords: Interior Design Al Furjan, Interior Design in Al Furjan, Best interior design Al Furjan, Professional interior design Al Furjan, Luxury interior design Al Furjan, Interior Design Al Furjan Dubai, Interior Design designer Al Furjan, Interior Design company Al Furjan, Interior Design contractor Al Furjan, Affordable interior design Al Furjan, Modern interior design Al Furjan, Interior Design consultation Al Furjan, Interior Design cost Al Furjan, Interior Design price Al Furjan, Top interior design Al Furjan, Interior Design near Al Furjan, Interior Design specialists Al Furjan, Interior Design experts Al Furjan, Interior Design solutions Al Furjan, Interior Design packages Al Furjan, Interior Design quotes Al Furjan, Interior Design estimates Al Furjan, Interior Design services near me Al Furjan, Cheap Interior Design Al Furjan, Quality Interior Design Al Furjan, Trusted Interior Design Al Furjan, Interior Design transformation Al Furjan, Interior Design renovation Al Furjan, Interior Design makeover Al Furjan, Best Interior Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignAlFurjan() {
                 At Interiara, we believe that exceptional <strong>Interior Design Al Furjan Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Furjan Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior Design in Al Furjan. 
                 We've completed 300+ successful projects across Al Furjan Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Al Furjan Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design al furjan services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Al Furjan Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior design in al furjan service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior design near al furjan.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

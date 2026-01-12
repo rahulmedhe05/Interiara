@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Dubai Festival City, Custom Furniture Design Dubai in Festival City, Best custom furniture design dubai Festival City, Professional custom furniture design dubai Festival City, Luxury custom furniture design dubai Festival City, Custom Furniture Design Dubai Festival City Dubai, Custom Furniture Design Dubai designer Festival City, Custom Furniture Design Dubai company Festival City, Custom Furniture Design Dubai contractor Festival City, Affordable custom furniture design dubai Festival City, Modern custom furniture design dubai Festival City, Custom Furniture Design Dubai consultation Festival City, Custom Furniture Design Dubai cost Festival City, Custom Furniture Design Dubai price Festival City, Top custom furniture design dubai Festival City
+
+// SEO Keywords: Custom Furniture Design Dubai Festival City, Custom Furniture Design Dubai in Festival City, Best custom furniture design dubai Festival City, Professional custom furniture design dubai Festival City, Luxury custom furniture design dubai Festival City, Custom Furniture Design Dubai Festival City Dubai, Custom Furniture Design Dubai designer Festival City, Custom Furniture Design Dubai company Festival City, Custom Furniture Design Dubai contractor Festival City, Affordable custom furniture design dubai Festival City, Modern custom furniture design dubai Festival City, Custom Furniture Design Dubai consultation Festival City, Custom Furniture Design Dubai cost Festival City, Custom Furniture Design Dubai price Festival City, Top custom furniture design dubai Festival City, Custom Furniture Design Dubai near Festival City, Custom Furniture Design Dubai specialists Festival City, Custom Furniture Design Dubai experts Festival City, Custom Furniture Design Dubai solutions Festival City, Custom Furniture Design Dubai packages Festival City, Custom Furniture Design Dubai quotes Festival City, Custom Furniture Design Dubai estimates Festival City, Custom Furniture Design Dubai services near me Festival City, Cheap Custom Furniture Design Dubai Festival City, Quality Custom Furniture Design Dubai Festival City, Trusted Custom Furniture Design Dubai Festival City, Custom Furniture Design Dubai transformation Festival City, Custom Furniture Design Dubai renovation Festival City, Custom Furniture Design Dubai makeover Festival City, Best Custom Furniture Design Dubai company Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design dubai Festival City Company Festival City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design Dubai in Festival City. Best custom furniture design dubai Festival City Company Festival City Our professional custom furniture design dubai festival city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function CustomFurnitureDesignDubaiFestivalCity() {
                 At Interiara, we believe that exceptional <strong>Custom Furniture Design Festival City Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Custom Furniture Design Dubai Festival City. 
                 We've completed 300+ successful projects across City Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Custom Furniture Design Festival City Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignDubaiFestivalCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design dubai in festival city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignDubaiFestivalCity() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design dubai near festival city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignDubaiFestivalCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Minimalist Interior Design Difc, Minimalist Interior in Design Difc, Best minimalist interior Design Difc, Professional minimalist interior Design Difc, Luxury minimalist interior Design Difc, Minimalist Interior Design Difc Dubai, Minimalist Interior designer Design Difc, Minimalist Interior company Design Difc, Minimalist Interior contractor Design Difc, Affordable minimalist interior Design Difc, Modern minimalist interior Design Difc, Minimalist Interior consultation Design Difc, Minimalist Interior cost Design Difc, Minimalist Interior price Design Difc, Top minimalist interior Design Difc
+
+// SEO Keywords: Minimalist Interior Design Difc, Minimalist Interior in Design Difc, Best minimalist interior Design Difc, Professional minimalist interior Design Difc, Luxury minimalist interior Design Difc, Minimalist Interior Design Difc Dubai, Minimalist Interior designer Design Difc, Minimalist Interior company Design Difc, Minimalist Interior contractor Design Difc, Affordable minimalist interior Design Difc, Modern minimalist interior Design Difc, Minimalist Interior consultation Design Difc, Minimalist Interior cost Design Difc, Minimalist Interior price Design Difc, Top minimalist interior Design Difc, Minimalist Interior near Design Difc, Minimalist Interior specialists Design Difc, Minimalist Interior experts Design Difc, Minimalist Interior solutions Design Difc, Minimalist Interior packages Design Difc, Minimalist Interior quotes Design Difc, Minimalist Interior estimates Design Difc, Minimalist Interior services near me Design Difc, Cheap Minimalist Interior Design Difc, Quality Minimalist Interior Design Difc, Trusted Minimalist Interior Design Difc, Minimalist Interior transformation Design Difc, Minimalist Interior renovation Design Difc, Minimalist Interior makeover Design Difc, Best Minimalist Interior company Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MinimalistInteriorDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Difc Company Design Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Minimalist Interior in Design Difc. Best minimalist interior Design Difc Company Design Difc Our luxury minimalist interior design difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function MinimalistInteriorDesignDifc() {
                 At Interiara, we believe that exceptional <strong>Minimalist Interior Design DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Minimalist Interior Design Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Minimalist Interior Design DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function MinimalistInteriorDesignDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our minimalist interior in design difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MinimalistInteriorDesignDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in minimalist interior near design difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MinimalistInteriorDesignDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

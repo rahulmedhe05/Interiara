@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Downtown, Color Theme in Consultation Downtown, Best color theme Consultation Downtown, Professional color theme Consultation Downtown, Luxury color theme Consultation Downtown, Color Theme Consultation Downtown Dubai, Color Theme designer Consultation Downtown, Color Theme company Consultation Downtown, Color Theme contractor Consultation Downtown, Affordable color theme Consultation Downtown, Modern color theme Consultation Downtown, Color Theme consultation Consultation Downtown, Color Theme cost Consultation Downtown, Color Theme price Consultation Downtown, Top color theme Consultation Downtown
+
+// SEO Keywords: Color Theme Consultation Downtown, Color Theme in Consultation Downtown, Best color theme Consultation Downtown, Professional color theme Consultation Downtown, Luxury color theme Consultation Downtown, Color Theme Consultation Downtown Dubai, Color Theme designer Consultation Downtown, Color Theme company Consultation Downtown, Color Theme contractor Consultation Downtown, Affordable color theme Consultation Downtown, Modern color theme Consultation Downtown, Color Theme consultation Consultation Downtown, Color Theme cost Consultation Downtown, Color Theme price Consultation Downtown, Top color theme Consultation Downtown, Color Theme near Consultation Downtown, Color Theme specialists Consultation Downtown, Color Theme experts Consultation Downtown, Color Theme solutions Consultation Downtown, Color Theme packages Consultation Downtown, Color Theme quotes Consultation Downtown, Color Theme estimates Consultation Downtown, Color Theme services near me Consultation Downtown, Cheap Color Theme Consultation Downtown, Quality Color Theme Consultation Downtown, Trusted Color Theme Consultation Downtown, Color Theme transformation Consultation Downtown, Color Theme renovation Consultation Downtown, Color Theme makeover Consultation Downtown, Best Color Theme company Consultation Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Downtown Company Consultation Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme in Consultation Downtown. Best color theme Consultation Downtown Company Consultation Downtown Our luxury color theme consultation downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme in consultation downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme near consultation downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

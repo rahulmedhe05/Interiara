@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design Arabian Ranches, Bespoke Furniture Design in Arabian Ranches, Best bespoke furniture design Arabian Ranches, Professional bespoke furniture design Arabian Ranches, Luxury bespoke furniture design Arabian Ranches, Bespoke Furniture Design Arabian Ranches Dubai, Bespoke Furniture Design designer Arabian Ranches, Bespoke Furniture Design company Arabian Ranches, Bespoke Furniture Design contractor Arabian Ranches, Affordable bespoke furniture design Arabian Ranches, Modern bespoke furniture design Arabian Ranches, Bespoke Furniture Design consultation Arabian Ranches, Bespoke Furniture Design cost Arabian Ranches, Bespoke Furniture Design price Arabian Ranches, Top bespoke furniture design Arabian Ranches
+
+// SEO Keywords: Bespoke Furniture Design Arabian Ranches, Bespoke Furniture Design in Arabian Ranches, Best bespoke furniture design Arabian Ranches, Professional bespoke furniture design Arabian Ranches, Luxury bespoke furniture design Arabian Ranches, Bespoke Furniture Design Arabian Ranches Dubai, Bespoke Furniture Design designer Arabian Ranches, Bespoke Furniture Design company Arabian Ranches, Bespoke Furniture Design contractor Arabian Ranches, Affordable bespoke furniture design Arabian Ranches, Modern bespoke furniture design Arabian Ranches, Bespoke Furniture Design consultation Arabian Ranches, Bespoke Furniture Design cost Arabian Ranches, Bespoke Furniture Design price Arabian Ranches, Top bespoke furniture design Arabian Ranches, Bespoke Furniture Design near Arabian Ranches, Bespoke Furniture Design specialists Arabian Ranches, Bespoke Furniture Design experts Arabian Ranches, Bespoke Furniture Design solutions Arabian Ranches, Bespoke Furniture Design packages Arabian Ranches, Bespoke Furniture Design quotes Arabian Ranches, Bespoke Furniture Design estimates Arabian Ranches, Bespoke Furniture Design services near me Arabian Ranches, Cheap Bespoke Furniture Design Arabian Ranches, Quality Bespoke Furniture Design Arabian Ranches, Trusted Bespoke Furniture Design Arabian Ranches, Bespoke Furniture Design transformation Arabian Ranches, Bespoke Furniture Design renovation Arabian Ranches, Bespoke Furniture Design makeover Arabian Ranches, Best Bespoke Furniture Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture Design in Arabian Ranches. Best bespoke furniture design Arabian Ranches Company Arabian Ranches Our luxury bespoke furniture design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

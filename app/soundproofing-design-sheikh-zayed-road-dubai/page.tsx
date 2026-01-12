@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Sheikh Zayed Road, Soundproofing Design Sheikh in Zayed Road, Best soundproofing design sheikh Zayed Road, Professional soundproofing design sheikh Zayed Road, Luxury soundproofing design sheikh Zayed Road, Soundproofing Design Sheikh Zayed Road Dubai, Soundproofing Design Sheikh designer Zayed Road, Soundproofing Design Sheikh company Zayed Road, Soundproofing Design Sheikh contractor Zayed Road, Affordable soundproofing design sheikh Zayed Road, Modern soundproofing design sheikh Zayed Road, Soundproofing Design Sheikh consultation Zayed Road, Soundproofing Design Sheikh cost Zayed Road, Soundproofing Design Sheikh price Zayed Road, Top soundproofing design sheikh Zayed Road
+
+// SEO Keywords: Soundproofing Design Sheikh Zayed Road, Soundproofing Design Sheikh in Zayed Road, Best soundproofing design sheikh Zayed Road, Professional soundproofing design sheikh Zayed Road, Luxury soundproofing design sheikh Zayed Road, Soundproofing Design Sheikh Zayed Road Dubai, Soundproofing Design Sheikh designer Zayed Road, Soundproofing Design Sheikh company Zayed Road, Soundproofing Design Sheikh contractor Zayed Road, Affordable soundproofing design sheikh Zayed Road, Modern soundproofing design sheikh Zayed Road, Soundproofing Design Sheikh consultation Zayed Road, Soundproofing Design Sheikh cost Zayed Road, Soundproofing Design Sheikh price Zayed Road, Top soundproofing design sheikh Zayed Road, Soundproofing Design Sheikh near Zayed Road, Soundproofing Design Sheikh specialists Zayed Road, Soundproofing Design Sheikh experts Zayed Road, Soundproofing Design Sheikh solutions Zayed Road, Soundproofing Design Sheikh packages Zayed Road, Soundproofing Design Sheikh quotes Zayed Road, Soundproofing Design Sheikh estimates Zayed Road, Soundproofing Design Sheikh services near me Zayed Road, Cheap Soundproofing Design Sheikh Zayed Road, Quality Soundproofing Design Sheikh Zayed Road, Trusted Soundproofing Design Sheikh Zayed Road, Soundproofing Design Sheikh transformation Zayed Road, Soundproofing Design Sheikh renovation Zayed Road, Soundproofing Design Sheikh makeover Zayed Road, Best Soundproofing Design Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design sheikh Zayed Road Company Zayed Road</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design Sheikh in Zayed Road. Best soundproofing design sheikh Zayed Road Company Zayed Road Our luxury soundproofing design sheikh zayed road services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignSheikhZayedRoad() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design sheikh in zayed road service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design sheikh near zayed road.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

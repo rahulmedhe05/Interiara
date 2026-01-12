@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Spa Interior Design Discovery Gardens, Spa Interior Design in Discovery Gardens, Best spa interior design Discovery Gardens, Professional spa interior design Discovery Gardens, Luxury spa interior design Discovery Gardens, Spa Interior Design Discovery Gardens Dubai, Spa Interior Design designer Discovery Gardens, Spa Interior Design company Discovery Gardens, Spa Interior Design contractor Discovery Gardens, Affordable spa interior design Discovery Gardens, Modern spa interior design Discovery Gardens, Spa Interior Design consultation Discovery Gardens, Spa Interior Design cost Discovery Gardens, Spa Interior Design price Discovery Gardens, Top spa interior design Discovery Gardens
+
+// SEO Keywords: Spa Interior Design Discovery Gardens, Spa Interior Design in Discovery Gardens, Best spa interior design Discovery Gardens, Professional spa interior design Discovery Gardens, Luxury spa interior design Discovery Gardens, Spa Interior Design Discovery Gardens Dubai, Spa Interior Design designer Discovery Gardens, Spa Interior Design company Discovery Gardens, Spa Interior Design contractor Discovery Gardens, Affordable spa interior design Discovery Gardens, Modern spa interior design Discovery Gardens, Spa Interior Design consultation Discovery Gardens, Spa Interior Design cost Discovery Gardens, Spa Interior Design price Discovery Gardens, Top spa interior design Discovery Gardens, Spa Interior Design near Discovery Gardens, Spa Interior Design specialists Discovery Gardens, Spa Interior Design experts Discovery Gardens, Spa Interior Design solutions Discovery Gardens, Spa Interior Design packages Discovery Gardens, Spa Interior Design quotes Discovery Gardens, Spa Interior Design estimates Discovery Gardens, Spa Interior Design services near me Discovery Gardens, Cheap Spa Interior Design Discovery Gardens, Quality Spa Interior Design Discovery Gardens, Trusted Spa Interior Design Discovery Gardens, Spa Interior Design transformation Discovery Gardens, Spa Interior Design renovation Discovery Gardens, Spa Interior Design makeover Discovery Gardens, Best Spa Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpaInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best spa interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Spa Interior Design in Discovery Gardens. Best spa interior design Discovery Gardens Company Discovery Gardens Our luxury spa interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Spa Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpaInteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our spa interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpaInteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in spa interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpaInteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

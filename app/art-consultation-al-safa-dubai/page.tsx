@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Safa, Art Consultation in Al Safa, Best art consultation Al Safa, Professional art consultation Al Safa, Luxury art consultation Al Safa, Art Consultation Al Safa Dubai, Art Consultation designer Al Safa, Art Consultation company Al Safa, Art Consultation contractor Al Safa, Affordable art consultation Al Safa, Modern art consultation Al Safa, Art Consultation consultation Al Safa, Art Consultation cost Al Safa, Art Consultation price Al Safa, Top art consultation Al Safa
+
+// SEO Keywords: Art Consultation Al Safa, Art Consultation in Al Safa, Best art consultation Al Safa, Professional art consultation Al Safa, Luxury art consultation Al Safa, Art Consultation Al Safa Dubai, Art Consultation designer Al Safa, Art Consultation company Al Safa, Art Consultation contractor Al Safa, Affordable art consultation Al Safa, Modern art consultation Al Safa, Art Consultation consultation Al Safa, Art Consultation cost Al Safa, Art Consultation price Al Safa, Top art consultation Al Safa, Art Consultation near Al Safa, Art Consultation specialists Al Safa, Art Consultation experts Al Safa, Art Consultation solutions Al Safa, Art Consultation packages Al Safa, Art Consultation quotes Al Safa, Art Consultation estimates Al Safa, Art Consultation services near me Al Safa, Cheap Art Consultation Al Safa, Quality Art Consultation Al Safa, Trusted Art Consultation Al Safa, Art Consultation transformation Al Safa, Art Consultation renovation Al Safa, Art Consultation makeover Al Safa, Best Art Consultation company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlSafa() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Safa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Safa. 
                 We've completed 300+ successful projects across Al Safa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Safa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al safa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Safa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al safa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al safa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

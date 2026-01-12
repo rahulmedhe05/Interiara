@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Palm Jumeirah, Lighting Automation in Palm Jumeirah, Best lighting automation Palm Jumeirah, Professional lighting automation Palm Jumeirah, Luxury lighting automation Palm Jumeirah, Lighting Automation Palm Jumeirah Dubai, Lighting Automation designer Palm Jumeirah, Lighting Automation company Palm Jumeirah, Lighting Automation contractor Palm Jumeirah, Affordable lighting automation Palm Jumeirah, Modern lighting automation Palm Jumeirah, Lighting Automation consultation Palm Jumeirah, Lighting Automation cost Palm Jumeirah, Lighting Automation price Palm Jumeirah, Top lighting automation Palm Jumeirah
+
+// SEO Keywords: Lighting Automation Palm Jumeirah, Lighting Automation in Palm Jumeirah, Best lighting automation Palm Jumeirah, Professional lighting automation Palm Jumeirah, Luxury lighting automation Palm Jumeirah, Lighting Automation Palm Jumeirah Dubai, Lighting Automation designer Palm Jumeirah, Lighting Automation company Palm Jumeirah, Lighting Automation contractor Palm Jumeirah, Affordable lighting automation Palm Jumeirah, Modern lighting automation Palm Jumeirah, Lighting Automation consultation Palm Jumeirah, Lighting Automation cost Palm Jumeirah, Lighting Automation price Palm Jumeirah, Top lighting automation Palm Jumeirah, Lighting Automation near Palm Jumeirah, Lighting Automation specialists Palm Jumeirah, Lighting Automation experts Palm Jumeirah, Lighting Automation solutions Palm Jumeirah, Lighting Automation packages Palm Jumeirah, Lighting Automation quotes Palm Jumeirah, Lighting Automation estimates Palm Jumeirah, Lighting Automation services near me Palm Jumeirah, Cheap Lighting Automation Palm Jumeirah, Quality Lighting Automation Palm Jumeirah, Trusted Lighting Automation Palm Jumeirah, Lighting Automation transformation Palm Jumeirah, Lighting Automation renovation Palm Jumeirah, Lighting Automation makeover Palm Jumeirah, Best Lighting Automation company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Palm Jumeirah. Best lighting automation Palm Jumeirah Company Palm Jumeirah Our luxury lighting automation palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

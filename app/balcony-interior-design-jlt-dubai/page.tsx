@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Balcony Interior Design Jlt, Balcony Interior in Design Jlt, Best balcony interior Design Jlt, Professional balcony interior Design Jlt, Luxury balcony interior Design Jlt, Balcony Interior Design Jlt Dubai, Balcony Interior designer Design Jlt, Balcony Interior company Design Jlt, Balcony Interior contractor Design Jlt, Affordable balcony interior Design Jlt, Modern balcony interior Design Jlt, Balcony Interior consultation Design Jlt, Balcony Interior cost Design Jlt, Balcony Interior price Design Jlt, Top balcony interior Design Jlt
+
+// SEO Keywords: Balcony Interior Design Jlt, Balcony Interior in Design Jlt, Best balcony interior Design Jlt, Professional balcony interior Design Jlt, Luxury balcony interior Design Jlt, Balcony Interior Design Jlt Dubai, Balcony Interior designer Design Jlt, Balcony Interior company Design Jlt, Balcony Interior contractor Design Jlt, Affordable balcony interior Design Jlt, Modern balcony interior Design Jlt, Balcony Interior consultation Design Jlt, Balcony Interior cost Design Jlt, Balcony Interior price Design Jlt, Top balcony interior Design Jlt, Balcony Interior near Design Jlt, Balcony Interior specialists Design Jlt, Balcony Interior experts Design Jlt, Balcony Interior solutions Design Jlt, Balcony Interior packages Design Jlt, Balcony Interior quotes Design Jlt, Balcony Interior estimates Design Jlt, Balcony Interior services near me Design Jlt, Cheap Balcony Interior Design Jlt, Quality Balcony Interior Design Jlt, Trusted Balcony Interior Design Jlt, Balcony Interior transformation Design Jlt, Balcony Interior renovation Design Jlt, Balcony Interior makeover Design Jlt, Best Balcony Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BalconyInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best balcony interior Design Jlt Company Design Jlt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Balcony Interior in Design Jlt. Best balcony interior Design Jlt Company Design Jlt Our luxury balcony interior design jlt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Balcony Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function BalconyInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Balcony Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Balcony Interior Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Balcony Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function BalconyInteriorDesignJlt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our balcony interior in design jlt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BalconyInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in balcony interior near design jlt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BalconyInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

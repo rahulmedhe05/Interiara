@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation The Villa, Office Renovation in The Villa, Best office renovation The Villa, Professional office renovation The Villa, Luxury office renovation The Villa, Office Renovation The Villa Dubai, Office Renovation designer The Villa, Office Renovation company The Villa, Office Renovation contractor The Villa, Affordable office renovation The Villa, Modern office renovation The Villa, Office Renovation consultation The Villa, Office Renovation cost The Villa, Office Renovation price The Villa, Top office renovation The Villa
+
+// SEO Keywords: Office Renovation The Villa, Office Renovation in The Villa, Best office renovation The Villa, Professional office renovation The Villa, Luxury office renovation The Villa, Office Renovation The Villa Dubai, Office Renovation designer The Villa, Office Renovation company The Villa, Office Renovation contractor The Villa, Affordable office renovation The Villa, Modern office renovation The Villa, Office Renovation consultation The Villa, Office Renovation cost The Villa, Office Renovation price The Villa, Top office renovation The Villa, Office Renovation near The Villa, Office Renovation specialists The Villa, Office Renovation experts The Villa, Office Renovation solutions The Villa, Office Renovation packages The Villa, Office Renovation quotes The Villa, Office Renovation estimates The Villa, Office Renovation services near me The Villa, Cheap Office Renovation The Villa, Quality Office Renovation The Villa, Trusted Office Renovation The Villa, Office Renovation transformation The Villa, Office Renovation renovation The Villa, Office Renovation makeover The Villa, Best Office Renovation company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in The Villa. Best office renovation The Villa Company The Villa Our luxury office renovation the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

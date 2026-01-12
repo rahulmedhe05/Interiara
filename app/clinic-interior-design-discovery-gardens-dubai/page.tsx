@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Clinic Interior Design Discovery Gardens, Clinic Interior Design in Discovery Gardens, Best clinic interior design Discovery Gardens, Professional clinic interior design Discovery Gardens, Luxury clinic interior design Discovery Gardens, Clinic Interior Design Discovery Gardens Dubai, Clinic Interior Design designer Discovery Gardens, Clinic Interior Design company Discovery Gardens, Clinic Interior Design contractor Discovery Gardens, Affordable clinic interior design Discovery Gardens, Modern clinic interior design Discovery Gardens, Clinic Interior Design consultation Discovery Gardens, Clinic Interior Design cost Discovery Gardens, Clinic Interior Design price Discovery Gardens, Top clinic interior design Discovery Gardens
+
+// SEO Keywords: Clinic Interior Design Discovery Gardens, Clinic Interior Design in Discovery Gardens, Best clinic interior design Discovery Gardens, Professional clinic interior design Discovery Gardens, Luxury clinic interior design Discovery Gardens, Clinic Interior Design Discovery Gardens Dubai, Clinic Interior Design designer Discovery Gardens, Clinic Interior Design company Discovery Gardens, Clinic Interior Design contractor Discovery Gardens, Affordable clinic interior design Discovery Gardens, Modern clinic interior design Discovery Gardens, Clinic Interior Design consultation Discovery Gardens, Clinic Interior Design cost Discovery Gardens, Clinic Interior Design price Discovery Gardens, Top clinic interior design Discovery Gardens, Clinic Interior Design near Discovery Gardens, Clinic Interior Design specialists Discovery Gardens, Clinic Interior Design experts Discovery Gardens, Clinic Interior Design solutions Discovery Gardens, Clinic Interior Design packages Discovery Gardens, Clinic Interior Design quotes Discovery Gardens, Clinic Interior Design estimates Discovery Gardens, Clinic Interior Design services near me Discovery Gardens, Cheap Clinic Interior Design Discovery Gardens, Quality Clinic Interior Design Discovery Gardens, Trusted Clinic Interior Design Discovery Gardens, Clinic Interior Design transformation Discovery Gardens, Clinic Interior Design renovation Discovery Gardens, Clinic Interior Design makeover Discovery Gardens, Best Clinic Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClinicInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Clinic Interior Design in Discovery Gardens. Best clinic interior design Discovery Gardens Company Discovery Gardens Our luxury clinic interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClinicInteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our clinic interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClinicInteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in clinic interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClinicInteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Culture Village, Wall Flooring Design in Culture Village, Best wall flooring design Culture Village, Professional wall flooring design Culture Village, Luxury wall flooring design Culture Village, Wall Flooring Design Culture Village Dubai, Wall Flooring Design designer Culture Village, Wall Flooring Design company Culture Village, Wall Flooring Design contractor Culture Village, Affordable wall flooring design Culture Village, Modern wall flooring design Culture Village, Wall Flooring Design consultation Culture Village, Wall Flooring Design cost Culture Village, Wall Flooring Design price Culture Village, Top wall flooring design Culture Village
+
+// SEO Keywords: Wall Flooring Design Culture Village, Wall Flooring Design in Culture Village, Best wall flooring design Culture Village, Professional wall flooring design Culture Village, Luxury wall flooring design Culture Village, Wall Flooring Design Culture Village Dubai, Wall Flooring Design designer Culture Village, Wall Flooring Design company Culture Village, Wall Flooring Design contractor Culture Village, Affordable wall flooring design Culture Village, Modern wall flooring design Culture Village, Wall Flooring Design consultation Culture Village, Wall Flooring Design cost Culture Village, Wall Flooring Design price Culture Village, Top wall flooring design Culture Village, Wall Flooring Design near Culture Village, Wall Flooring Design specialists Culture Village, Wall Flooring Design experts Culture Village, Wall Flooring Design solutions Culture Village, Wall Flooring Design packages Culture Village, Wall Flooring Design quotes Culture Village, Wall Flooring Design estimates Culture Village, Wall Flooring Design services near me Culture Village, Cheap Wall Flooring Design Culture Village, Quality Wall Flooring Design Culture Village, Trusted Wall Flooring Design Culture Village, Wall Flooring Design transformation Culture Village, Wall Flooring Design renovation Culture Village, Wall Flooring Design makeover Culture Village, Best Wall Flooring Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Culture Village. Best wall flooring design Culture Village Company Culture Village Our luxury wall flooring design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

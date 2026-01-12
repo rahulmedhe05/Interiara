@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Business Bay South, Lighting Automation Business in Bay South, Best lighting automation business Bay South, Professional lighting automation business Bay South, Luxury lighting automation business Bay South, Lighting Automation Business Bay South Dubai, Lighting Automation Business designer Bay South, Lighting Automation Business company Bay South, Lighting Automation Business contractor Bay South, Affordable lighting automation business Bay South, Modern lighting automation business Bay South, Lighting Automation Business consultation Bay South, Lighting Automation Business cost Bay South, Lighting Automation Business price Bay South, Top lighting automation business Bay South
+
+// SEO Keywords: Lighting Automation Business Bay South, Lighting Automation Business in Bay South, Best lighting automation business Bay South, Professional lighting automation business Bay South, Luxury lighting automation business Bay South, Lighting Automation Business Bay South Dubai, Lighting Automation Business designer Bay South, Lighting Automation Business company Bay South, Lighting Automation Business contractor Bay South, Affordable lighting automation business Bay South, Modern lighting automation business Bay South, Lighting Automation Business consultation Bay South, Lighting Automation Business cost Bay South, Lighting Automation Business price Bay South, Top lighting automation business Bay South, Lighting Automation Business near Bay South, Lighting Automation Business specialists Bay South, Lighting Automation Business experts Bay South, Lighting Automation Business solutions Bay South, Lighting Automation Business packages Bay South, Lighting Automation Business quotes Bay South, Lighting Automation Business estimates Bay South, Lighting Automation Business services near me Bay South, Cheap Lighting Automation Business Bay South, Quality Lighting Automation Business Bay South, Trusted Lighting Automation Business Bay South, Lighting Automation Business transformation Bay South, Lighting Automation Business renovation Bay South, Lighting Automation Business makeover Bay South, Best Lighting Automation Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation Business in Bay South. Best lighting automation business Bay South Company Bay South Our luxury lighting automation business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

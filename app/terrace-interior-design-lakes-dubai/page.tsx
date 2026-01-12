@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Lakes, Terrace Interior in Design Lakes, Best terrace interior Design Lakes, Professional terrace interior Design Lakes, Luxury terrace interior Design Lakes, Terrace Interior Design Lakes Dubai, Terrace Interior designer Design Lakes, Terrace Interior company Design Lakes, Terrace Interior contractor Design Lakes, Affordable terrace interior Design Lakes, Modern terrace interior Design Lakes, Terrace Interior consultation Design Lakes, Terrace Interior cost Design Lakes, Terrace Interior price Design Lakes, Top terrace interior Design Lakes
+
+// SEO Keywords: Terrace Interior Design Lakes, Terrace Interior in Design Lakes, Best terrace interior Design Lakes, Professional terrace interior Design Lakes, Luxury terrace interior Design Lakes, Terrace Interior Design Lakes Dubai, Terrace Interior designer Design Lakes, Terrace Interior company Design Lakes, Terrace Interior contractor Design Lakes, Affordable terrace interior Design Lakes, Modern terrace interior Design Lakes, Terrace Interior consultation Design Lakes, Terrace Interior cost Design Lakes, Terrace Interior price Design Lakes, Top terrace interior Design Lakes, Terrace Interior near Design Lakes, Terrace Interior specialists Design Lakes, Terrace Interior experts Design Lakes, Terrace Interior solutions Design Lakes, Terrace Interior packages Design Lakes, Terrace Interior quotes Design Lakes, Terrace Interior estimates Design Lakes, Terrace Interior services near me Design Lakes, Cheap Terrace Interior Design Lakes, Quality Terrace Interior Design Lakes, Trusted Terrace Interior Design Lakes, Terrace Interior transformation Design Lakes, Terrace Interior renovation Design Lakes, Terrace Interior makeover Design Lakes, Best Terrace Interior company Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior Design Lakes Company Design Lakes</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior in Design Lakes. Best terrace interior Design Lakes Company Design Lakes Our professional terrace interior design lakes services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function TerraceInteriorDesignLakes() {
                 At Interiara, we believe that exceptional <strong>Terrace Interior Design The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Terrace Interior Design Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Terrace Interior Design The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignLakes() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior in design lakes service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior near design lakes.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

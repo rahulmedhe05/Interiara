@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Al Wasl, Living Room Interior Design in Al Wasl, Best living room interior design Al Wasl, Professional living room interior design Al Wasl, Luxury living room interior design Al Wasl, Living Room Interior Design Al Wasl Dubai, Living Room Interior Design designer Al Wasl, Living Room Interior Design company Al Wasl, Living Room Interior Design contractor Al Wasl, Affordable living room interior design Al Wasl, Modern living room interior design Al Wasl, Living Room Interior Design consultation Al Wasl, Living Room Interior Design cost Al Wasl, Living Room Interior Design price Al Wasl, Top living room interior design Al Wasl
+
+// SEO Keywords: Living Room Interior Design Al Wasl, Living Room Interior Design in Al Wasl, Best living room interior design Al Wasl, Professional living room interior design Al Wasl, Luxury living room interior design Al Wasl, Living Room Interior Design Al Wasl Dubai, Living Room Interior Design designer Al Wasl, Living Room Interior Design company Al Wasl, Living Room Interior Design contractor Al Wasl, Affordable living room interior design Al Wasl, Modern living room interior design Al Wasl, Living Room Interior Design consultation Al Wasl, Living Room Interior Design cost Al Wasl, Living Room Interior Design price Al Wasl, Top living room interior design Al Wasl, Living Room Interior Design near Al Wasl, Living Room Interior Design specialists Al Wasl, Living Room Interior Design experts Al Wasl, Living Room Interior Design solutions Al Wasl, Living Room Interior Design packages Al Wasl, Living Room Interior Design quotes Al Wasl, Living Room Interior Design estimates Al Wasl, Living Room Interior Design services near me Al Wasl, Cheap Living Room Interior Design Al Wasl, Quality Living Room Interior Design Al Wasl, Trusted Living Room Interior Design Al Wasl, Living Room Interior Design transformation Al Wasl, Living Room Interior Design renovation Al Wasl, Living Room Interior Design makeover Al Wasl, Best Living Room Interior Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior design Al Wasl Company Al Wasl</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior Design in Al Wasl. Best living room interior design Al Wasl Company Al Wasl Our luxury living room interior design al wasl services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignAlWasl() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior design in al wasl service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior design near al wasl.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

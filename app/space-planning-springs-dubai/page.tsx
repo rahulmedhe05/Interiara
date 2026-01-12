@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Springs, Space in Planning Springs, Best space Planning Springs, Professional space Planning Springs, Luxury space Planning Springs, Space Planning Springs Dubai, Space designer Planning Springs, Space company Planning Springs, Space contractor Planning Springs, Affordable space Planning Springs, Modern space Planning Springs, Space consultation Planning Springs, Space cost Planning Springs, Space price Planning Springs, Top space Planning Springs
+
+// SEO Keywords: Space Planning Springs, Space in Planning Springs, Best space Planning Springs, Professional space Planning Springs, Luxury space Planning Springs, Space Planning Springs Dubai, Space designer Planning Springs, Space company Planning Springs, Space contractor Planning Springs, Affordable space Planning Springs, Modern space Planning Springs, Space consultation Planning Springs, Space cost Planning Springs, Space price Planning Springs, Top space Planning Springs, Space near Planning Springs, Space specialists Planning Springs, Space experts Planning Springs, Space solutions Planning Springs, Space packages Planning Springs, Space quotes Planning Springs, Space estimates Planning Springs, Space services near me Planning Springs, Cheap Space Planning Springs, Quality Space Planning Springs, Trusted Space Planning Springs, Space transformation Planning Springs, Space renovation Planning Springs, Space makeover Planning Springs, Best Space company Planning Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space Planning Springs Company Planning Springs</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space in Planning Springs. Best space Planning Springs Company Planning Springs Our professional space planning springs services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SpacePlanningSprings() {
                 At Interiara, we believe that exceptional <strong>Space Planning The Springs Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Springs Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning Springs. 
                 We've completed 300+ successful projects across The Springs Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning The Springs Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SpacePlanningSprings() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space in planning springs service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningSprings() {
 
               <p>
                 Interiara stands out in the crowded The Springs Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space near planning springs.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningSprings() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

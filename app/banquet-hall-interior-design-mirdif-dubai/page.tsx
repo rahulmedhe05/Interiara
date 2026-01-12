@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Banquet Hall Interior Design Mirdif, Banquet Hall Interior in Design Mirdif, Best banquet hall interior Design Mirdif, Professional banquet hall interior Design Mirdif, Luxury banquet hall interior Design Mirdif, Banquet Hall Interior Design Mirdif Dubai, Banquet Hall Interior designer Design Mirdif, Banquet Hall Interior company Design Mirdif, Banquet Hall Interior contractor Design Mirdif, Affordable banquet hall interior Design Mirdif, Modern banquet hall interior Design Mirdif, Banquet Hall Interior consultation Design Mirdif, Banquet Hall Interior cost Design Mirdif, Banquet Hall Interior price Design Mirdif, Top banquet hall interior Design Mirdif
+
+// SEO Keywords: Banquet Hall Interior Design Mirdif, Banquet Hall Interior in Design Mirdif, Best banquet hall interior Design Mirdif, Professional banquet hall interior Design Mirdif, Luxury banquet hall interior Design Mirdif, Banquet Hall Interior Design Mirdif Dubai, Banquet Hall Interior designer Design Mirdif, Banquet Hall Interior company Design Mirdif, Banquet Hall Interior contractor Design Mirdif, Affordable banquet hall interior Design Mirdif, Modern banquet hall interior Design Mirdif, Banquet Hall Interior consultation Design Mirdif, Banquet Hall Interior cost Design Mirdif, Banquet Hall Interior price Design Mirdif, Top banquet hall interior Design Mirdif, Banquet Hall Interior near Design Mirdif, Banquet Hall Interior specialists Design Mirdif, Banquet Hall Interior experts Design Mirdif, Banquet Hall Interior solutions Design Mirdif, Banquet Hall Interior packages Design Mirdif, Banquet Hall Interior quotes Design Mirdif, Banquet Hall Interior estimates Design Mirdif, Banquet Hall Interior services near me Design Mirdif, Cheap Banquet Hall Interior Design Mirdif, Quality Banquet Hall Interior Design Mirdif, Trusted Banquet Hall Interior Design Mirdif, Banquet Hall Interior transformation Design Mirdif, Banquet Hall Interior renovation Design Mirdif, Banquet Hall Interior makeover Design Mirdif, Best Banquet Hall Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BanquetHallInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Banquet Hall Interior in Design Mirdif. Best banquet hall interior Design Mirdif Company Design Mirdif Our luxury banquet hall interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BanquetHallInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our banquet hall interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BanquetHallInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in banquet hall interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BanquetHallInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

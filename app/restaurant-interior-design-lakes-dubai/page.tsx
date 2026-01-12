@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Lakes, Restaurant Interior in Design Lakes, Best restaurant interior Design Lakes, Professional restaurant interior Design Lakes, Luxury restaurant interior Design Lakes, Restaurant Interior Design Lakes Dubai, Restaurant Interior designer Design Lakes, Restaurant Interior company Design Lakes, Restaurant Interior contractor Design Lakes, Affordable restaurant interior Design Lakes, Modern restaurant interior Design Lakes, Restaurant Interior consultation Design Lakes, Restaurant Interior cost Design Lakes, Restaurant Interior price Design Lakes, Top restaurant interior Design Lakes
+
+// SEO Keywords: Restaurant Interior Design Lakes, Restaurant Interior in Design Lakes, Best restaurant interior Design Lakes, Professional restaurant interior Design Lakes, Luxury restaurant interior Design Lakes, Restaurant Interior Design Lakes Dubai, Restaurant Interior designer Design Lakes, Restaurant Interior company Design Lakes, Restaurant Interior contractor Design Lakes, Affordable restaurant interior Design Lakes, Modern restaurant interior Design Lakes, Restaurant Interior consultation Design Lakes, Restaurant Interior cost Design Lakes, Restaurant Interior price Design Lakes, Top restaurant interior Design Lakes, Restaurant Interior near Design Lakes, Restaurant Interior specialists Design Lakes, Restaurant Interior experts Design Lakes, Restaurant Interior solutions Design Lakes, Restaurant Interior packages Design Lakes, Restaurant Interior quotes Design Lakes, Restaurant Interior estimates Design Lakes, Restaurant Interior services near me Design Lakes, Cheap Restaurant Interior Design Lakes, Quality Restaurant Interior Design Lakes, Trusted Restaurant Interior Design Lakes, Restaurant Interior transformation Design Lakes, Restaurant Interior renovation Design Lakes, Restaurant Interior makeover Design Lakes, Best Restaurant Interior company Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Lakes Company Design Lakes</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior in Design Lakes. Best restaurant interior Design Lakes Company Design Lakes Our professional restaurant interior design lakes services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function RestaurantInteriorDesignLakes() {
                 At Interiara, we believe that exceptional <strong>Restaurant Interior Design The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Restaurant Interior Design Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Restaurant Interior Design The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignLakes() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior in design lakes service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior near design lakes.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

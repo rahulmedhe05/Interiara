@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Al Quoz, Home Office Interior Design in Al Quoz, Best home office interior design Al Quoz, Professional home office interior design Al Quoz, Luxury home office interior design Al Quoz, Home Office Interior Design Al Quoz Dubai, Home Office Interior Design designer Al Quoz, Home Office Interior Design company Al Quoz, Home Office Interior Design contractor Al Quoz, Affordable home office interior design Al Quoz, Modern home office interior design Al Quoz, Home Office Interior Design consultation Al Quoz, Home Office Interior Design cost Al Quoz, Home Office Interior Design price Al Quoz, Top home office interior design Al Quoz
+
+// SEO Keywords: Home Office Interior Design Al Quoz, Home Office Interior Design in Al Quoz, Best home office interior design Al Quoz, Professional home office interior design Al Quoz, Luxury home office interior design Al Quoz, Home Office Interior Design Al Quoz Dubai, Home Office Interior Design designer Al Quoz, Home Office Interior Design company Al Quoz, Home Office Interior Design contractor Al Quoz, Affordable home office interior design Al Quoz, Modern home office interior design Al Quoz, Home Office Interior Design consultation Al Quoz, Home Office Interior Design cost Al Quoz, Home Office Interior Design price Al Quoz, Top home office interior design Al Quoz, Home Office Interior Design near Al Quoz, Home Office Interior Design specialists Al Quoz, Home Office Interior Design experts Al Quoz, Home Office Interior Design solutions Al Quoz, Home Office Interior Design packages Al Quoz, Home Office Interior Design quotes Al Quoz, Home Office Interior Design estimates Al Quoz, Home Office Interior Design services near me Al Quoz, Cheap Home Office Interior Design Al Quoz, Quality Home Office Interior Design Al Quoz, Trusted Home Office Interior Design Al Quoz, Home Office Interior Design transformation Al Quoz, Home Office Interior Design renovation Al Quoz, Home Office Interior Design makeover Al Quoz, Best Home Office Interior Design company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior design Al Quoz Company Al Quoz</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior Design in Al Quoz. Best home office interior design Al Quoz Company Al Quoz Our luxury home office interior design al quoz services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignAlQuoz() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior design in al quoz service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior design near al quoz.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

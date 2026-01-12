@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Business Bay, Modular Kitchens in Business Bay, Best modular kitchens Business Bay, Professional modular kitchens Business Bay, Luxury modular kitchens Business Bay, Modular Kitchens Business Bay Dubai, Modular Kitchens designer Business Bay, Modular Kitchens company Business Bay, Modular Kitchens contractor Business Bay, Affordable modular kitchens Business Bay, Modern modular kitchens Business Bay, Modular Kitchens consultation Business Bay, Modular Kitchens cost Business Bay, Modular Kitchens price Business Bay, Top modular kitchens Business Bay
+
+// SEO Keywords: Modular Kitchens Business Bay, Modular Kitchens in Business Bay, Best modular kitchens Business Bay, Professional modular kitchens Business Bay, Luxury modular kitchens Business Bay, Modular Kitchens Business Bay Dubai, Modular Kitchens designer Business Bay, Modular Kitchens company Business Bay, Modular Kitchens contractor Business Bay, Affordable modular kitchens Business Bay, Modern modular kitchens Business Bay, Modular Kitchens consultation Business Bay, Modular Kitchens cost Business Bay, Modular Kitchens price Business Bay, Top modular kitchens Business Bay, Modular Kitchens near Business Bay, Modular Kitchens specialists Business Bay, Modular Kitchens experts Business Bay, Modular Kitchens solutions Business Bay, Modular Kitchens packages Business Bay, Modular Kitchens quotes Business Bay, Modular Kitchens estimates Business Bay, Modular Kitchens services near me Business Bay, Cheap Modular Kitchens Business Bay, Quality Modular Kitchens Business Bay, Trusted Modular Kitchens Business Bay, Modular Kitchens transformation Business Bay, Modular Kitchens renovation Business Bay, Modular Kitchens makeover Business Bay, Best Modular Kitchens company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens in Business Bay. Best modular kitchens Business Bay Company Business Bay Our luxury modular kitchens business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

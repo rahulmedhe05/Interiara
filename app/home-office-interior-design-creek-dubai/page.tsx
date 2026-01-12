@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Creek, Home Office Interior in Design Creek, Best home office interior Design Creek, Professional home office interior Design Creek, Luxury home office interior Design Creek, Home Office Interior Design Creek Dubai, Home Office Interior designer Design Creek, Home Office Interior company Design Creek, Home Office Interior contractor Design Creek, Affordable home office interior Design Creek, Modern home office interior Design Creek, Home Office Interior consultation Design Creek, Home Office Interior cost Design Creek, Home Office Interior price Design Creek, Top home office interior Design Creek
+
+// SEO Keywords: Home Office Interior Design Creek, Home Office Interior in Design Creek, Best home office interior Design Creek, Professional home office interior Design Creek, Luxury home office interior Design Creek, Home Office Interior Design Creek Dubai, Home Office Interior designer Design Creek, Home Office Interior company Design Creek, Home Office Interior contractor Design Creek, Affordable home office interior Design Creek, Modern home office interior Design Creek, Home Office Interior consultation Design Creek, Home Office Interior cost Design Creek, Home Office Interior price Design Creek, Top home office interior Design Creek, Home Office Interior near Design Creek, Home Office Interior specialists Design Creek, Home Office Interior experts Design Creek, Home Office Interior solutions Design Creek, Home Office Interior packages Design Creek, Home Office Interior quotes Design Creek, Home Office Interior estimates Design Creek, Home Office Interior services near me Design Creek, Cheap Home Office Interior Design Creek, Quality Home Office Interior Design Creek, Trusted Home Office Interior Design Creek, Home Office Interior transformation Design Creek, Home Office Interior renovation Design Creek, Home Office Interior makeover Design Creek, Best Home Office Interior company Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior Design Creek Company Design Creek</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior in Design Creek. Best home office interior Design Creek Company Design Creek Our professional home office interior design creek services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HomeOfficeInteriorDesignCreek() {
                 At Interiara, we believe that exceptional <strong>Home Office Interior Design Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Office Interior Design Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Office Interior Design Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignCreek() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior in design creek service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior near design creek.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation The Villa, Home Decor Consultation in The Villa, Best home decor consultation The Villa, Professional home decor consultation The Villa, Luxury home decor consultation The Villa, Home Decor Consultation The Villa Dubai, Home Decor Consultation designer The Villa, Home Decor Consultation company The Villa, Home Decor Consultation contractor The Villa, Affordable home decor consultation The Villa, Modern home decor consultation The Villa, Home Decor Consultation consultation The Villa, Home Decor Consultation cost The Villa, Home Decor Consultation price The Villa, Top home decor consultation The Villa
+
+// SEO Keywords: Home Decor Consultation The Villa, Home Decor Consultation in The Villa, Best home decor consultation The Villa, Professional home decor consultation The Villa, Luxury home decor consultation The Villa, Home Decor Consultation The Villa Dubai, Home Decor Consultation designer The Villa, Home Decor Consultation company The Villa, Home Decor Consultation contractor The Villa, Affordable home decor consultation The Villa, Modern home decor consultation The Villa, Home Decor Consultation consultation The Villa, Home Decor Consultation cost The Villa, Home Decor Consultation price The Villa, Top home decor consultation The Villa, Home Decor Consultation near The Villa, Home Decor Consultation specialists The Villa, Home Decor Consultation experts The Villa, Home Decor Consultation solutions The Villa, Home Decor Consultation packages The Villa, Home Decor Consultation quotes The Villa, Home Decor Consultation estimates The Villa, Home Decor Consultation services near me The Villa, Cheap Home Decor Consultation The Villa, Quality Home Decor Consultation The Villa, Trusted Home Decor Consultation The Villa, Home Decor Consultation transformation The Villa, Home Decor Consultation renovation The Villa, Home Decor Consultation makeover The Villa, Best Home Decor Consultation company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in The Villa. Best home decor consultation The Villa Company The Villa Our luxury home decor consultation the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

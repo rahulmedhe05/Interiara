@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Springs, Art in Consultation Springs, Best art Consultation Springs, Professional art Consultation Springs, Luxury art Consultation Springs, Art Consultation Springs Dubai, Art designer Consultation Springs, Art company Consultation Springs, Art contractor Consultation Springs, Affordable art Consultation Springs, Modern art Consultation Springs, Art consultation Consultation Springs, Art cost Consultation Springs, Art price Consultation Springs, Top art Consultation Springs
+
+// SEO Keywords: Art Consultation Springs, Art in Consultation Springs, Best art Consultation Springs, Professional art Consultation Springs, Luxury art Consultation Springs, Art Consultation Springs Dubai, Art designer Consultation Springs, Art company Consultation Springs, Art contractor Consultation Springs, Affordable art Consultation Springs, Modern art Consultation Springs, Art consultation Consultation Springs, Art cost Consultation Springs, Art price Consultation Springs, Top art Consultation Springs, Art near Consultation Springs, Art specialists Consultation Springs, Art experts Consultation Springs, Art solutions Consultation Springs, Art packages Consultation Springs, Art quotes Consultation Springs, Art estimates Consultation Springs, Art services near me Consultation Springs, Cheap Art Consultation Springs, Quality Art Consultation Springs, Trusted Art Consultation Springs, Art transformation Consultation Springs, Art renovation Consultation Springs, Art makeover Consultation Springs, Best Art company Consultation Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art Consultation Springs Company Consultation Springs</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art in Consultation Springs. Best art Consultation Springs Company Consultation Springs Our professional art consultation springs services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ArtConsultationSprings() {
                 At Interiara, we believe that exceptional <strong>Art Consultation The Springs Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Springs Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation Springs. 
                 We've completed 300+ successful projects across The Springs Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation The Springs Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ArtConsultationSprings() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art in consultation springs service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationSprings() {
 
               <p>
                 Interiara stands out in the crowded The Springs Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art near consultation springs.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationSprings() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

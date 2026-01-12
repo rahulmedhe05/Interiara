@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design The Sustainable City, Bespoke Furniture Design The in Sustainable City, Best bespoke furniture design the Sustainable City, Professional bespoke furniture design the Sustainable City, Luxury bespoke furniture design the Sustainable City, Bespoke Furniture Design The Sustainable City Dubai, Bespoke Furniture Design The designer Sustainable City, Bespoke Furniture Design The company Sustainable City, Bespoke Furniture Design The contractor Sustainable City, Affordable bespoke furniture design the Sustainable City, Modern bespoke furniture design the Sustainable City, Bespoke Furniture Design The consultation Sustainable City, Bespoke Furniture Design The cost Sustainable City, Bespoke Furniture Design The price Sustainable City, Top bespoke furniture design the Sustainable City
+
+// SEO Keywords: Bespoke Furniture Design The Sustainable City, Bespoke Furniture Design The in Sustainable City, Best bespoke furniture design the Sustainable City, Professional bespoke furniture design the Sustainable City, Luxury bespoke furniture design the Sustainable City, Bespoke Furniture Design The Sustainable City Dubai, Bespoke Furniture Design The designer Sustainable City, Bespoke Furniture Design The company Sustainable City, Bespoke Furniture Design The contractor Sustainable City, Affordable bespoke furniture design the Sustainable City, Modern bespoke furniture design the Sustainable City, Bespoke Furniture Design The consultation Sustainable City, Bespoke Furniture Design The cost Sustainable City, Bespoke Furniture Design The price Sustainable City, Top bespoke furniture design the Sustainable City, Bespoke Furniture Design The near Sustainable City, Bespoke Furniture Design The specialists Sustainable City, Bespoke Furniture Design The experts Sustainable City, Bespoke Furniture Design The solutions Sustainable City, Bespoke Furniture Design The packages Sustainable City, Bespoke Furniture Design The quotes Sustainable City, Bespoke Furniture Design The estimates Sustainable City, Bespoke Furniture Design The services near me Sustainable City, Cheap Bespoke Furniture Design The Sustainable City, Quality Bespoke Furniture Design The Sustainable City, Trusted Bespoke Furniture Design The Sustainable City, Bespoke Furniture Design The transformation Sustainable City, Bespoke Furniture Design The renovation Sustainable City, Bespoke Furniture Design The makeover Sustainable City, Best Bespoke Furniture Design The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture Design The in Sustainable City. Best bespoke furniture design the Sustainable City Company Sustainable City Our luxury bespoke furniture design the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture design the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture design the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

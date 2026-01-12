@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Fitness Studio Interior Design Dubai Hills, Fitness Studio Interior Design in Dubai Hills, Best fitness studio interior design Dubai Hills, Professional fitness studio interior design Dubai Hills, Luxury fitness studio interior design Dubai Hills, Fitness Studio Interior Design Dubai Hills Dubai, Fitness Studio Interior Design designer Dubai Hills, Fitness Studio Interior Design company Dubai Hills, Fitness Studio Interior Design contractor Dubai Hills, Affordable fitness studio interior design Dubai Hills, Modern fitness studio interior design Dubai Hills, Fitness Studio Interior Design consultation Dubai Hills, Fitness Studio Interior Design cost Dubai Hills, Fitness Studio Interior Design price Dubai Hills, Top fitness studio interior design Dubai Hills
+
+// SEO Keywords: Fitness Studio Interior Design Dubai Hills, Fitness Studio Interior Design in Dubai Hills, Best fitness studio interior design Dubai Hills, Professional fitness studio interior design Dubai Hills, Luxury fitness studio interior design Dubai Hills, Fitness Studio Interior Design Dubai Hills Dubai, Fitness Studio Interior Design designer Dubai Hills, Fitness Studio Interior Design company Dubai Hills, Fitness Studio Interior Design contractor Dubai Hills, Affordable fitness studio interior design Dubai Hills, Modern fitness studio interior design Dubai Hills, Fitness Studio Interior Design consultation Dubai Hills, Fitness Studio Interior Design cost Dubai Hills, Fitness Studio Interior Design price Dubai Hills, Top fitness studio interior design Dubai Hills, Fitness Studio Interior Design near Dubai Hills, Fitness Studio Interior Design specialists Dubai Hills, Fitness Studio Interior Design experts Dubai Hills, Fitness Studio Interior Design solutions Dubai Hills, Fitness Studio Interior Design packages Dubai Hills, Fitness Studio Interior Design quotes Dubai Hills, Fitness Studio Interior Design estimates Dubai Hills, Fitness Studio Interior Design services near me Dubai Hills, Cheap Fitness Studio Interior Design Dubai Hills, Quality Fitness Studio Interior Design Dubai Hills, Trusted Fitness Studio Interior Design Dubai Hills, Fitness Studio Interior Design transformation Dubai Hills, Fitness Studio Interior Design renovation Dubai Hills, Fitness Studio Interior Design makeover Dubai Hills, Best Fitness Studio Interior Design company Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FitnessStudioInteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior design Dubai Hills Company Dubai Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Fitness Studio Interior Design in Dubai Hills. Best fitness studio interior design Dubai Hills Company Dubai Hills Our professional fitness studio interior design dubai hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function FitnessStudioInteriorDesignDubaiHills() {
                 At Interiara, we believe that exceptional <strong>Fitness Studio Interior Design Hills Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Hills Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Fitness Studio Interior Design Dubai Hills. 
                 We've completed 300+ successful projects across Hills Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Fitness Studio Interior Design Hills Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function FitnessStudioInteriorDesignDubaiHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our fitness studio interior design in dubai hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FitnessStudioInteriorDesignDubaiHills() {
 
               <p>
                 Interiara stands out in the crowded Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in fitness studio interior design near dubai hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FitnessStudioInteriorDesignDubaiHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Bur Dubai, Window Blinds in Bur Dubai, Best window blinds Bur Dubai, Professional window blinds Bur Dubai, Luxury window blinds Bur Dubai, Window Blinds Bur Dubai Dubai, Window Blinds designer Bur Dubai, Window Blinds company Bur Dubai, Window Blinds contractor Bur Dubai, Affordable window blinds Bur Dubai, Modern window blinds Bur Dubai, Window Blinds consultation Bur Dubai, Window Blinds cost Bur Dubai, Window Blinds price Bur Dubai, Top window blinds Bur Dubai
+
+// SEO Keywords: Window Blinds Bur Dubai, Window Blinds in Bur Dubai, Best window blinds Bur Dubai, Professional window blinds Bur Dubai, Luxury window blinds Bur Dubai, Window Blinds Bur Dubai Dubai, Window Blinds designer Bur Dubai, Window Blinds company Bur Dubai, Window Blinds contractor Bur Dubai, Affordable window blinds Bur Dubai, Modern window blinds Bur Dubai, Window Blinds consultation Bur Dubai, Window Blinds cost Bur Dubai, Window Blinds price Bur Dubai, Top window blinds Bur Dubai, Window Blinds near Bur Dubai, Window Blinds specialists Bur Dubai, Window Blinds experts Bur Dubai, Window Blinds solutions Bur Dubai, Window Blinds packages Bur Dubai, Window Blinds quotes Bur Dubai, Window Blinds estimates Bur Dubai, Window Blinds services near me Bur Dubai, Cheap Window Blinds Bur Dubai, Quality Window Blinds Bur Dubai, Trusted Window Blinds Bur Dubai, Window Blinds transformation Bur Dubai, Window Blinds renovation Bur Dubai, Window Blinds makeover Bur Dubai, Best Window Blinds company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsBurDubai() {
                 At Interiara, we believe that exceptional <strong>Window Blinds Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Blinds in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window blinds bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window blinds in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window blinds near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Arabian Ranches, Wardrobe Design in Arabian Ranches, Best wardrobe design Arabian Ranches, Professional wardrobe design Arabian Ranches, Luxury wardrobe design Arabian Ranches, Wardrobe Design Arabian Ranches Dubai, Wardrobe Design designer Arabian Ranches, Wardrobe Design company Arabian Ranches, Wardrobe Design contractor Arabian Ranches, Affordable wardrobe design Arabian Ranches, Modern wardrobe design Arabian Ranches, Wardrobe Design consultation Arabian Ranches, Wardrobe Design cost Arabian Ranches, Wardrobe Design price Arabian Ranches, Top wardrobe design Arabian Ranches
+
+// SEO Keywords: Wardrobe Design Arabian Ranches, Wardrobe Design in Arabian Ranches, Best wardrobe design Arabian Ranches, Professional wardrobe design Arabian Ranches, Luxury wardrobe design Arabian Ranches, Wardrobe Design Arabian Ranches Dubai, Wardrobe Design designer Arabian Ranches, Wardrobe Design company Arabian Ranches, Wardrobe Design contractor Arabian Ranches, Affordable wardrobe design Arabian Ranches, Modern wardrobe design Arabian Ranches, Wardrobe Design consultation Arabian Ranches, Wardrobe Design cost Arabian Ranches, Wardrobe Design price Arabian Ranches, Top wardrobe design Arabian Ranches, Wardrobe Design near Arabian Ranches, Wardrobe Design specialists Arabian Ranches, Wardrobe Design experts Arabian Ranches, Wardrobe Design solutions Arabian Ranches, Wardrobe Design packages Arabian Ranches, Wardrobe Design quotes Arabian Ranches, Wardrobe Design estimates Arabian Ranches, Wardrobe Design services near me Arabian Ranches, Cheap Wardrobe Design Arabian Ranches, Quality Wardrobe Design Arabian Ranches, Trusted Wardrobe Design Arabian Ranches, Wardrobe Design transformation Arabian Ranches, Wardrobe Design renovation Arabian Ranches, Wardrobe Design makeover Arabian Ranches, Best Wardrobe Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe Design in Arabian Ranches. Best wardrobe design Arabian Ranches Company Arabian Ranches Our luxury wardrobe design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

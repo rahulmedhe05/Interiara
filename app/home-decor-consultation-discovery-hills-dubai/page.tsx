@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Discovery Hills, Home Decor Consultation in Discovery Hills, Best home decor consultation Discovery Hills, Professional home decor consultation Discovery Hills, Luxury home decor consultation Discovery Hills, Home Decor Consultation Discovery Hills Dubai, Home Decor Consultation designer Discovery Hills, Home Decor Consultation company Discovery Hills, Home Decor Consultation contractor Discovery Hills, Affordable home decor consultation Discovery Hills, Modern home decor consultation Discovery Hills, Home Decor Consultation consultation Discovery Hills, Home Decor Consultation cost Discovery Hills, Home Decor Consultation price Discovery Hills, Top home decor consultation Discovery Hills
+
+// SEO Keywords: Home Decor Consultation Discovery Hills, Home Decor Consultation in Discovery Hills, Best home decor consultation Discovery Hills, Professional home decor consultation Discovery Hills, Luxury home decor consultation Discovery Hills, Home Decor Consultation Discovery Hills Dubai, Home Decor Consultation designer Discovery Hills, Home Decor Consultation company Discovery Hills, Home Decor Consultation contractor Discovery Hills, Affordable home decor consultation Discovery Hills, Modern home decor consultation Discovery Hills, Home Decor Consultation consultation Discovery Hills, Home Decor Consultation cost Discovery Hills, Home Decor Consultation price Discovery Hills, Top home decor consultation Discovery Hills, Home Decor Consultation near Discovery Hills, Home Decor Consultation specialists Discovery Hills, Home Decor Consultation experts Discovery Hills, Home Decor Consultation solutions Discovery Hills, Home Decor Consultation packages Discovery Hills, Home Decor Consultation quotes Discovery Hills, Home Decor Consultation estimates Discovery Hills, Home Decor Consultation services near me Discovery Hills, Cheap Home Decor Consultation Discovery Hills, Quality Home Decor Consultation Discovery Hills, Trusted Home Decor Consultation Discovery Hills, Home Decor Consultation transformation Discovery Hills, Home Decor Consultation renovation Discovery Hills, Home Decor Consultation makeover Discovery Hills, Best Home Decor Consultation company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Discovery Hills. Best home decor consultation Discovery Hills Company Discovery Hills Our luxury home decor consultation discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

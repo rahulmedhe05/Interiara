@@ -1,38 +1,5 @@
 import { MetadataRoute } from 'next'
-
-// Services array from jvc-services.json
-const SERVICES = [
-  'residential-interior-design',
-  'office-interior-design',
-  'commercial-interior-design',
-  'villa-interior-design',
-  'apartment-interior-design',
-  'kitchen-interior-design',
-  'bathroom-interior-design',
-  'modular-kitchens',
-  'lighting-design',
-  'home-renovation',
-  'office-renovation',
-  'office-fit-out',
-  'custom-furniture-design',
-  'space-planning',
-  'home-decor-consultation',
-  '3d-interior-rendering',
-]
-
-// Dubai areas covered by Interiara
-const AREAS = [
-  'al-barsha', 'al-barsha-south', 'al-furjan', 'al-hamriya', 'al-jaddaf',
-  'al-karama', 'al-khawaneej', 'al-mizhar', 'al-quoz', 'al-safa', 'al-satwa',
-  'al-warqaa', 'al-wasl', 'arabian-ranches', 'bur-dubai', 'business-bay',
-  'city-walk', 'culture-village', 'deira', 'difc', 'discovery-gardens',
-  'discovery-hills', 'downtown-dubai', 'dubai-creek-harbour',
-  'dubai-design-district', 'dubai-festival-city', 'dubai-harbour',
-  'dubai-hills', 'dubai-hills-estate', 'dubai-marina', 'emirates-hills',
-  'jbr', 'jlt', 'jumeirah', 'jvc', 'jvt', 'lakes', 'marina', 'meadows',
-  'mirdif', 'palm-jumeirah', 'sheikh-zayed-road', 'springs',
-  'the-sustainable-city', 'town-square', 'umm-suqeim',
-]
+import keywordsData from '@/keywords-all-pages.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://interiara.ae'
@@ -57,33 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  // Add service pages (service-location combinations)
-  SERVICES.forEach(service => {
-    AREAS.forEach(area => {
-      entries.push({
-        url: `${baseUrl}/${service}-${area}-dubai`,
-        lastModified: currentDate,
-        changeFrequency: 'monthly' as const,
-        priority: 0.7,
-      })
-    })
-
-    // Also add base service pages
+  // Add all 5,165 service-location pages dynamically from keywords data
+  Object.entries(keywordsData).forEach(([pageKey, pageData]: [string, any]) => {
     entries.push({
-      url: `${baseUrl}/${service}-dubai`,
+      url: `${baseUrl}/${pageKey}`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
-      priority: 0.75,
-    })
-  })
-
-  // Add area listing pages
-  AREAS.forEach(area => {
-    entries.push({
-      url: `${baseUrl}/services/${area}`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.6,
+      priority: 0.7,
     })
   })
 

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Discovery Hills, Hotel Interior Design in Discovery Hills, Best hotel interior design Discovery Hills, Professional hotel interior design Discovery Hills, Luxury hotel interior design Discovery Hills, Hotel Interior Design Discovery Hills Dubai, Hotel Interior Design designer Discovery Hills, Hotel Interior Design company Discovery Hills, Hotel Interior Design contractor Discovery Hills, Affordable hotel interior design Discovery Hills, Modern hotel interior design Discovery Hills, Hotel Interior Design consultation Discovery Hills, Hotel Interior Design cost Discovery Hills, Hotel Interior Design price Discovery Hills, Top hotel interior design Discovery Hills
+
+// SEO Keywords: Hotel Interior Design Discovery Hills, Hotel Interior Design in Discovery Hills, Best hotel interior design Discovery Hills, Professional hotel interior design Discovery Hills, Luxury hotel interior design Discovery Hills, Hotel Interior Design Discovery Hills Dubai, Hotel Interior Design designer Discovery Hills, Hotel Interior Design company Discovery Hills, Hotel Interior Design contractor Discovery Hills, Affordable hotel interior design Discovery Hills, Modern hotel interior design Discovery Hills, Hotel Interior Design consultation Discovery Hills, Hotel Interior Design cost Discovery Hills, Hotel Interior Design price Discovery Hills, Top hotel interior design Discovery Hills, Hotel Interior Design near Discovery Hills, Hotel Interior Design specialists Discovery Hills, Hotel Interior Design experts Discovery Hills, Hotel Interior Design solutions Discovery Hills, Hotel Interior Design packages Discovery Hills, Hotel Interior Design quotes Discovery Hills, Hotel Interior Design estimates Discovery Hills, Hotel Interior Design services near me Discovery Hills, Cheap Hotel Interior Design Discovery Hills, Quality Hotel Interior Design Discovery Hills, Trusted Hotel Interior Design Discovery Hills, Hotel Interior Design transformation Discovery Hills, Hotel Interior Design renovation Discovery Hills, Hotel Interior Design makeover Discovery Hills, Best Hotel Interior Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in Discovery Hills. Best hotel interior design Discovery Hills Company Discovery Hills Our luxury hotel interior design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

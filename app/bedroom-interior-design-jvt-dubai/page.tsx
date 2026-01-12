@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Jvt, Bedroom Interior in Design Jvt, Best bedroom interior Design Jvt, Professional bedroom interior Design Jvt, Luxury bedroom interior Design Jvt, Bedroom Interior Design Jvt Dubai, Bedroom Interior designer Design Jvt, Bedroom Interior company Design Jvt, Bedroom Interior contractor Design Jvt, Affordable bedroom interior Design Jvt, Modern bedroom interior Design Jvt, Bedroom Interior consultation Design Jvt, Bedroom Interior cost Design Jvt, Bedroom Interior price Design Jvt, Top bedroom interior Design Jvt
+
+// SEO Keywords: Bedroom Interior Design Jvt, Bedroom Interior in Design Jvt, Best bedroom interior Design Jvt, Professional bedroom interior Design Jvt, Luxury bedroom interior Design Jvt, Bedroom Interior Design Jvt Dubai, Bedroom Interior designer Design Jvt, Bedroom Interior company Design Jvt, Bedroom Interior contractor Design Jvt, Affordable bedroom interior Design Jvt, Modern bedroom interior Design Jvt, Bedroom Interior consultation Design Jvt, Bedroom Interior cost Design Jvt, Bedroom Interior price Design Jvt, Top bedroom interior Design Jvt, Bedroom Interior near Design Jvt, Bedroom Interior specialists Design Jvt, Bedroom Interior experts Design Jvt, Bedroom Interior solutions Design Jvt, Bedroom Interior packages Design Jvt, Bedroom Interior quotes Design Jvt, Bedroom Interior estimates Design Jvt, Bedroom Interior services near me Design Jvt, Cheap Bedroom Interior Design Jvt, Quality Bedroom Interior Design Jvt, Trusted Bedroom Interior Design Jvt, Bedroom Interior transformation Design Jvt, Bedroom Interior renovation Design Jvt, Bedroom Interior makeover Design Jvt, Best Bedroom Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior in Design Jvt. Best bedroom interior Design Jvt Company Design Jvt Our luxury bedroom interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function BedroomInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Bedroom Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Bedroom Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Bedroom Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

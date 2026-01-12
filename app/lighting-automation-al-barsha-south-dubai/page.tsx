@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Barsha South, Lighting Automation Al in Barsha South, Best lighting automation al Barsha South, Professional lighting automation al Barsha South, Luxury lighting automation al Barsha South, Lighting Automation Al Barsha South Dubai, Lighting Automation Al designer Barsha South, Lighting Automation Al company Barsha South, Lighting Automation Al contractor Barsha South, Affordable lighting automation al Barsha South, Modern lighting automation al Barsha South, Lighting Automation Al consultation Barsha South, Lighting Automation Al cost Barsha South, Lighting Automation Al price Barsha South, Top lighting automation al Barsha South
+
+// SEO Keywords: Lighting Automation Al Barsha South, Lighting Automation Al in Barsha South, Best lighting automation al Barsha South, Professional lighting automation al Barsha South, Luxury lighting automation al Barsha South, Lighting Automation Al Barsha South Dubai, Lighting Automation Al designer Barsha South, Lighting Automation Al company Barsha South, Lighting Automation Al contractor Barsha South, Affordable lighting automation al Barsha South, Modern lighting automation al Barsha South, Lighting Automation Al consultation Barsha South, Lighting Automation Al cost Barsha South, Lighting Automation Al price Barsha South, Top lighting automation al Barsha South, Lighting Automation Al near Barsha South, Lighting Automation Al specialists Barsha South, Lighting Automation Al experts Barsha South, Lighting Automation Al solutions Barsha South, Lighting Automation Al packages Barsha South, Lighting Automation Al quotes Barsha South, Lighting Automation Al estimates Barsha South, Lighting Automation Al services near me Barsha South, Cheap Lighting Automation Al Barsha South, Quality Lighting Automation Al Barsha South, Trusted Lighting Automation Al Barsha South, Lighting Automation Al transformation Barsha South, Lighting Automation Al renovation Barsha South, Lighting Automation Al makeover Barsha South, Best Lighting Automation Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation Al in Barsha South. Best lighting automation al Barsha South Company Barsha South Our luxury lighting automation al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Nad Al Sheba, Space Planning Nad in Al Sheba, Best space planning nad Al Sheba, Professional space planning nad Al Sheba, Luxury space planning nad Al Sheba, Space Planning Nad Al Sheba Dubai, Space Planning Nad designer Al Sheba, Space Planning Nad company Al Sheba, Space Planning Nad contractor Al Sheba, Affordable space planning nad Al Sheba, Modern space planning nad Al Sheba, Space Planning Nad consultation Al Sheba, Space Planning Nad cost Al Sheba, Space Planning Nad price Al Sheba, Top space planning nad Al Sheba
+
+// SEO Keywords: Space Planning Nad Al Sheba, Space Planning Nad in Al Sheba, Best space planning nad Al Sheba, Professional space planning nad Al Sheba, Luxury space planning nad Al Sheba, Space Planning Nad Al Sheba Dubai, Space Planning Nad designer Al Sheba, Space Planning Nad company Al Sheba, Space Planning Nad contractor Al Sheba, Affordable space planning nad Al Sheba, Modern space planning nad Al Sheba, Space Planning Nad consultation Al Sheba, Space Planning Nad cost Al Sheba, Space Planning Nad price Al Sheba, Top space planning nad Al Sheba, Space Planning Nad near Al Sheba, Space Planning Nad specialists Al Sheba, Space Planning Nad experts Al Sheba, Space Planning Nad solutions Al Sheba, Space Planning Nad packages Al Sheba, Space Planning Nad quotes Al Sheba, Space Planning Nad estimates Al Sheba, Space Planning Nad services near me Al Sheba, Cheap Space Planning Nad Al Sheba, Quality Space Planning Nad Al Sheba, Trusted Space Planning Nad Al Sheba, Space Planning Nad transformation Al Sheba, Space Planning Nad renovation Al Sheba, Space Planning Nad makeover Al Sheba, Best Space Planning Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningNadAlSheba() {
                 At Interiara, we believe that exceptional <strong>Space Planning Nad Al Sheba Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Nad Al Sheba Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning Nad in Al Sheba. 
                 We've completed 300+ successful projects across Nad Al Sheba Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Nad Al Sheba Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning nad al sheba services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Nad Al Sheba Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning nad in al sheba service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning nad near al sheba.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

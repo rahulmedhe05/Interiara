@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Palm Jumeirah, Sustainable Interior Design in Palm Jumeirah, Best sustainable interior design Palm Jumeirah, Professional sustainable interior design Palm Jumeirah, Luxury sustainable interior design Palm Jumeirah, Sustainable Interior Design Palm Jumeirah Dubai, Sustainable Interior Design designer Palm Jumeirah, Sustainable Interior Design company Palm Jumeirah, Sustainable Interior Design contractor Palm Jumeirah, Affordable sustainable interior design Palm Jumeirah, Modern sustainable interior design Palm Jumeirah, Sustainable Interior Design consultation Palm Jumeirah, Sustainable Interior Design cost Palm Jumeirah, Sustainable Interior Design price Palm Jumeirah, Top sustainable interior design Palm Jumeirah
+
+// SEO Keywords: Sustainable Interior Design Palm Jumeirah, Sustainable Interior Design in Palm Jumeirah, Best sustainable interior design Palm Jumeirah, Professional sustainable interior design Palm Jumeirah, Luxury sustainable interior design Palm Jumeirah, Sustainable Interior Design Palm Jumeirah Dubai, Sustainable Interior Design designer Palm Jumeirah, Sustainable Interior Design company Palm Jumeirah, Sustainable Interior Design contractor Palm Jumeirah, Affordable sustainable interior design Palm Jumeirah, Modern sustainable interior design Palm Jumeirah, Sustainable Interior Design consultation Palm Jumeirah, Sustainable Interior Design cost Palm Jumeirah, Sustainable Interior Design price Palm Jumeirah, Top sustainable interior design Palm Jumeirah, Sustainable Interior Design near Palm Jumeirah, Sustainable Interior Design specialists Palm Jumeirah, Sustainable Interior Design experts Palm Jumeirah, Sustainable Interior Design solutions Palm Jumeirah, Sustainable Interior Design packages Palm Jumeirah, Sustainable Interior Design quotes Palm Jumeirah, Sustainable Interior Design estimates Palm Jumeirah, Sustainable Interior Design services near me Palm Jumeirah, Cheap Sustainable Interior Design Palm Jumeirah, Quality Sustainable Interior Design Palm Jumeirah, Trusted Sustainable Interior Design Palm Jumeirah, Sustainable Interior Design transformation Palm Jumeirah, Sustainable Interior Design renovation Palm Jumeirah, Sustainable Interior Design makeover Palm Jumeirah, Best Sustainable Interior Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Palm Jumeirah. Best sustainable interior design Palm Jumeirah Company Palm Jumeirah Our luxury sustainable interior design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

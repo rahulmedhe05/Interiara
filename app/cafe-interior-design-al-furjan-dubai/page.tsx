@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Al Furjan, Cafe Interior Design in Al Furjan, Best cafe interior design Al Furjan, Professional cafe interior design Al Furjan, Luxury cafe interior design Al Furjan, Cafe Interior Design Al Furjan Dubai, Cafe Interior Design designer Al Furjan, Cafe Interior Design company Al Furjan, Cafe Interior Design contractor Al Furjan, Affordable cafe interior design Al Furjan, Modern cafe interior design Al Furjan, Cafe Interior Design consultation Al Furjan, Cafe Interior Design cost Al Furjan, Cafe Interior Design price Al Furjan, Top cafe interior design Al Furjan
+
+// SEO Keywords: Cafe Interior Design Al Furjan, Cafe Interior Design in Al Furjan, Best cafe interior design Al Furjan, Professional cafe interior design Al Furjan, Luxury cafe interior design Al Furjan, Cafe Interior Design Al Furjan Dubai, Cafe Interior Design designer Al Furjan, Cafe Interior Design company Al Furjan, Cafe Interior Design contractor Al Furjan, Affordable cafe interior design Al Furjan, Modern cafe interior design Al Furjan, Cafe Interior Design consultation Al Furjan, Cafe Interior Design cost Al Furjan, Cafe Interior Design price Al Furjan, Top cafe interior design Al Furjan, Cafe Interior Design near Al Furjan, Cafe Interior Design specialists Al Furjan, Cafe Interior Design experts Al Furjan, Cafe Interior Design solutions Al Furjan, Cafe Interior Design packages Al Furjan, Cafe Interior Design quotes Al Furjan, Cafe Interior Design estimates Al Furjan, Cafe Interior Design services near me Al Furjan, Cheap Cafe Interior Design Al Furjan, Quality Cafe Interior Design Al Furjan, Trusted Cafe Interior Design Al Furjan, Cafe Interior Design transformation Al Furjan, Cafe Interior Design renovation Al Furjan, Cafe Interior Design makeover Al Furjan, Best Cafe Interior Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CafeInteriorDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Cafe Interior Design in Al Furjan. Best cafe interior design Al Furjan Company Al Furjan Our luxury cafe interior design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CafeInteriorDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our cafe interior design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CafeInteriorDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in cafe interior design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

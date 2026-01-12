@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Jbr, Hotel Interior in Design Jbr, Best hotel interior Design Jbr, Professional hotel interior Design Jbr, Luxury hotel interior Design Jbr, Hotel Interior Design Jbr Dubai, Hotel Interior designer Design Jbr, Hotel Interior company Design Jbr, Hotel Interior contractor Design Jbr, Affordable hotel interior Design Jbr, Modern hotel interior Design Jbr, Hotel Interior consultation Design Jbr, Hotel Interior cost Design Jbr, Hotel Interior price Design Jbr, Top hotel interior Design Jbr
+
+// SEO Keywords: Hotel Interior Design Jbr, Hotel Interior in Design Jbr, Best hotel interior Design Jbr, Professional hotel interior Design Jbr, Luxury hotel interior Design Jbr, Hotel Interior Design Jbr Dubai, Hotel Interior designer Design Jbr, Hotel Interior company Design Jbr, Hotel Interior contractor Design Jbr, Affordable hotel interior Design Jbr, Modern hotel interior Design Jbr, Hotel Interior consultation Design Jbr, Hotel Interior cost Design Jbr, Hotel Interior price Design Jbr, Top hotel interior Design Jbr, Hotel Interior near Design Jbr, Hotel Interior specialists Design Jbr, Hotel Interior experts Design Jbr, Hotel Interior solutions Design Jbr, Hotel Interior packages Design Jbr, Hotel Interior quotes Design Jbr, Hotel Interior estimates Design Jbr, Hotel Interior services near me Design Jbr, Cheap Hotel Interior Design Jbr, Quality Hotel Interior Design Jbr, Trusted Hotel Interior Design Jbr, Hotel Interior transformation Design Jbr, Hotel Interior renovation Design Jbr, Hotel Interior makeover Design Jbr, Best Hotel Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HotelInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Hotel Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Hotel Interior in Design Jbr. Hotel Interior Design Jbr. 
+                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior in Design Jbr. Hotel Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury hotel interior design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Hotel Interior Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HotelInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our hotel interior in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in hotel interior near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

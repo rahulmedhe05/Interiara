@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Lakes, Office in Renovation Lakes, Best office Renovation Lakes, Professional office Renovation Lakes, Luxury office Renovation Lakes, Office Renovation Lakes Dubai, Office designer Renovation Lakes, Office company Renovation Lakes, Office contractor Renovation Lakes, Affordable office Renovation Lakes, Modern office Renovation Lakes, Office consultation Renovation Lakes, Office cost Renovation Lakes, Office price Renovation Lakes, Top office Renovation Lakes
+
+// SEO Keywords: Office Renovation Lakes, Office in Renovation Lakes, Best office Renovation Lakes, Professional office Renovation Lakes, Luxury office Renovation Lakes, Office Renovation Lakes Dubai, Office designer Renovation Lakes, Office company Renovation Lakes, Office contractor Renovation Lakes, Affordable office Renovation Lakes, Modern office Renovation Lakes, Office consultation Renovation Lakes, Office cost Renovation Lakes, Office price Renovation Lakes, Top office Renovation Lakes, Office near Renovation Lakes, Office specialists Renovation Lakes, Office experts Renovation Lakes, Office solutions Renovation Lakes, Office packages Renovation Lakes, Office quotes Renovation Lakes, Office estimates Renovation Lakes, Office services near me Renovation Lakes, Cheap Office Renovation Lakes, Quality Office Renovation Lakes, Trusted Office Renovation Lakes, Office transformation Renovation Lakes, Office renovation Renovation Lakes, Office makeover Renovation Lakes, Best Office company Renovation Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Renovation Lakes Company Renovation Lakes</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office in Renovation Lakes. Best office Renovation Lakes Company Renovation Lakes Our professional office renovation lakes services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OfficeRenovationLakes() {
                 At Interiara, we believe that exceptional <strong>Office Renovation The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Renovation Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OfficeRenovationLakes() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office in renovation lakes service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office near renovation lakes.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

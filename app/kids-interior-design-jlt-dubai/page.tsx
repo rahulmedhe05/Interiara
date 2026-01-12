@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Jlt, Kids Interior in Design Jlt, Best kids interior Design Jlt, Professional kids interior Design Jlt, Luxury kids interior Design Jlt, Kids Interior Design Jlt Dubai, Kids Interior designer Design Jlt, Kids Interior company Design Jlt, Kids Interior contractor Design Jlt, Affordable kids interior Design Jlt, Modern kids interior Design Jlt, Kids Interior consultation Design Jlt, Kids Interior cost Design Jlt, Kids Interior price Design Jlt, Top kids interior Design Jlt
+
+// SEO Keywords: Kids Interior Design Jlt, Kids Interior in Design Jlt, Best kids interior Design Jlt, Professional kids interior Design Jlt, Luxury kids interior Design Jlt, Kids Interior Design Jlt Dubai, Kids Interior designer Design Jlt, Kids Interior company Design Jlt, Kids Interior contractor Design Jlt, Affordable kids interior Design Jlt, Modern kids interior Design Jlt, Kids Interior consultation Design Jlt, Kids Interior cost Design Jlt, Kids Interior price Design Jlt, Top kids interior Design Jlt, Kids Interior near Design Jlt, Kids Interior specialists Design Jlt, Kids Interior experts Design Jlt, Kids Interior solutions Design Jlt, Kids Interior packages Design Jlt, Kids Interior quotes Design Jlt, Kids Interior estimates Design Jlt, Kids Interior services near me Design Jlt, Cheap Kids Interior Design Jlt, Quality Kids Interior Design Jlt, Trusted Kids Interior Design Jlt, Kids Interior transformation Design Jlt, Kids Interior renovation Design Jlt, Kids Interior makeover Design Jlt, Best Kids Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function KidsInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Kids Interior in Design Jlt. Kids Interior Design Jlt. 
+                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior in Design Jlt. Kids Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury kids interior design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Kids Interior Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function KidsInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our kids interior in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in kids interior near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

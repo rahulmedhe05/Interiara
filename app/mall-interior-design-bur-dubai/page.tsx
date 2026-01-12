@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Mall Interior Design Bur, Mall Interior in Design Bur, Best mall interior Design Bur, Professional mall interior Design Bur, Luxury mall interior Design Bur, Mall Interior Design Bur Dubai, Mall Interior designer Design Bur, Mall Interior company Design Bur, Mall Interior contractor Design Bur, Affordable mall interior Design Bur, Modern mall interior Design Bur, Mall Interior consultation Design Bur, Mall Interior cost Design Bur, Mall Interior price Design Bur, Top mall interior Design Bur
+
+// SEO Keywords: Mall Interior Design Bur, Mall Interior in Design Bur, Best mall interior Design Bur, Professional mall interior Design Bur, Luxury mall interior Design Bur, Mall Interior Design Bur Dubai, Mall Interior designer Design Bur, Mall Interior company Design Bur, Mall Interior contractor Design Bur, Affordable mall interior Design Bur, Modern mall interior Design Bur, Mall Interior consultation Design Bur, Mall Interior cost Design Bur, Mall Interior price Design Bur, Top mall interior Design Bur, Mall Interior near Design Bur, Mall Interior specialists Design Bur, Mall Interior experts Design Bur, Mall Interior solutions Design Bur, Mall Interior packages Design Bur, Mall Interior quotes Design Bur, Mall Interior estimates Design Bur, Mall Interior services near me Design Bur, Cheap Mall Interior Design Bur, Quality Mall Interior Design Bur, Trusted Mall Interior Design Bur, Mall Interior transformation Design Bur, Mall Interior renovation Design Bur, Mall Interior makeover Design Bur, Best Mall Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function MallInteriorDesignBur() {
                 At Interiara, we believe that exceptional <strong>Mall Interior Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Mall Interior in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Mall Interior Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury mall interior design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Mall Interior Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function MallInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our mall interior in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in mall interior near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function MallInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

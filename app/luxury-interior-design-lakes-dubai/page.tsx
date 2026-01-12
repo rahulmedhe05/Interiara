@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Lakes, Luxury Interior in Design Lakes, Best luxury interior Design Lakes, Professional luxury interior Design Lakes, Luxury luxury interior Design Lakes, Luxury Interior Design Lakes Dubai, Luxury Interior designer Design Lakes, Luxury Interior company Design Lakes, Luxury Interior contractor Design Lakes, Affordable luxury interior Design Lakes, Modern luxury interior Design Lakes, Luxury Interior consultation Design Lakes, Luxury Interior cost Design Lakes, Luxury Interior price Design Lakes, Top luxury interior Design Lakes
+
+// SEO Keywords: Luxury Interior Design Lakes, Luxury Interior in Design Lakes, Best luxury interior Design Lakes, Professional luxury interior Design Lakes, Luxury luxury interior Design Lakes, Luxury Interior Design Lakes Dubai, Luxury Interior designer Design Lakes, Luxury Interior company Design Lakes, Luxury Interior contractor Design Lakes, Affordable luxury interior Design Lakes, Modern luxury interior Design Lakes, Luxury Interior consultation Design Lakes, Luxury Interior cost Design Lakes, Luxury Interior price Design Lakes, Top luxury interior Design Lakes, Luxury Interior near Design Lakes, Luxury Interior specialists Design Lakes, Luxury Interior experts Design Lakes, Luxury Interior solutions Design Lakes, Luxury Interior packages Design Lakes, Luxury Interior quotes Design Lakes, Luxury Interior estimates Design Lakes, Luxury Interior services near me Design Lakes, Cheap Luxury Interior Design Lakes, Quality Luxury Interior Design Lakes, Trusted Luxury Interior Design Lakes, Luxury Interior transformation Design Lakes, Luxury Interior renovation Design Lakes, Luxury Interior makeover Design Lakes, Best Luxury Interior company Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Lakes Company Design Lakes</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior in Design Lakes. Best luxury interior Design Lakes Company Design Lakes Our professional luxury interior design lakes services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function LuxuryInteriorDesignLakes() {
                 At Interiara, we believe that exceptional <strong>Luxury Interior Design The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Luxury Interior Design Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Luxury Interior Design The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignLakes() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior in design lakes service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior near design lakes.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

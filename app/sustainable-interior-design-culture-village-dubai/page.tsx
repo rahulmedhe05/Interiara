@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Culture Village, Sustainable Interior Design in Culture Village, Best sustainable interior design Culture Village, Professional sustainable interior design Culture Village, Luxury sustainable interior design Culture Village, Sustainable Interior Design Culture Village Dubai, Sustainable Interior Design designer Culture Village, Sustainable Interior Design company Culture Village, Sustainable Interior Design contractor Culture Village, Affordable sustainable interior design Culture Village, Modern sustainable interior design Culture Village, Sustainable Interior Design consultation Culture Village, Sustainable Interior Design cost Culture Village, Sustainable Interior Design price Culture Village, Top sustainable interior design Culture Village
+
+// SEO Keywords: Sustainable Interior Design Culture Village, Sustainable Interior Design in Culture Village, Best sustainable interior design Culture Village, Professional sustainable interior design Culture Village, Luxury sustainable interior design Culture Village, Sustainable Interior Design Culture Village Dubai, Sustainable Interior Design designer Culture Village, Sustainable Interior Design company Culture Village, Sustainable Interior Design contractor Culture Village, Affordable sustainable interior design Culture Village, Modern sustainable interior design Culture Village, Sustainable Interior Design consultation Culture Village, Sustainable Interior Design cost Culture Village, Sustainable Interior Design price Culture Village, Top sustainable interior design Culture Village, Sustainable Interior Design near Culture Village, Sustainable Interior Design specialists Culture Village, Sustainable Interior Design experts Culture Village, Sustainable Interior Design solutions Culture Village, Sustainable Interior Design packages Culture Village, Sustainable Interior Design quotes Culture Village, Sustainable Interior Design estimates Culture Village, Sustainable Interior Design services near me Culture Village, Cheap Sustainable Interior Design Culture Village, Quality Sustainable Interior Design Culture Village, Trusted Sustainable Interior Design Culture Village, Sustainable Interior Design transformation Culture Village, Sustainable Interior Design renovation Culture Village, Sustainable Interior Design makeover Culture Village, Best Sustainable Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Culture Village. Best sustainable interior design Culture Village Company Culture Village Our luxury sustainable interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

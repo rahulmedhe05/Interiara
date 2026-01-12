@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Al Furjan, Living Room Interior Design in Al Furjan, Best living room interior design Al Furjan, Professional living room interior design Al Furjan, Luxury living room interior design Al Furjan, Living Room Interior Design Al Furjan Dubai, Living Room Interior Design designer Al Furjan, Living Room Interior Design company Al Furjan, Living Room Interior Design contractor Al Furjan, Affordable living room interior design Al Furjan, Modern living room interior design Al Furjan, Living Room Interior Design consultation Al Furjan, Living Room Interior Design cost Al Furjan, Living Room Interior Design price Al Furjan, Top living room interior design Al Furjan
+
+// SEO Keywords: Living Room Interior Design Al Furjan, Living Room Interior Design in Al Furjan, Best living room interior design Al Furjan, Professional living room interior design Al Furjan, Luxury living room interior design Al Furjan, Living Room Interior Design Al Furjan Dubai, Living Room Interior Design designer Al Furjan, Living Room Interior Design company Al Furjan, Living Room Interior Design contractor Al Furjan, Affordable living room interior design Al Furjan, Modern living room interior design Al Furjan, Living Room Interior Design consultation Al Furjan, Living Room Interior Design cost Al Furjan, Living Room Interior Design price Al Furjan, Top living room interior design Al Furjan, Living Room Interior Design near Al Furjan, Living Room Interior Design specialists Al Furjan, Living Room Interior Design experts Al Furjan, Living Room Interior Design solutions Al Furjan, Living Room Interior Design packages Al Furjan, Living Room Interior Design quotes Al Furjan, Living Room Interior Design estimates Al Furjan, Living Room Interior Design services near me Al Furjan, Cheap Living Room Interior Design Al Furjan, Quality Living Room Interior Design Al Furjan, Trusted Living Room Interior Design Al Furjan, Living Room Interior Design transformation Al Furjan, Living Room Interior Design renovation Al Furjan, Living Room Interior Design makeover Al Furjan, Best Living Room Interior Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior Design in Al Furjan. Best living room interior design Al Furjan Company Al Furjan Our luxury living room interior design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

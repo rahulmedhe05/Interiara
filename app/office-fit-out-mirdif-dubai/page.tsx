@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Mirdif, Office Fit in Out Mirdif, Best office fit Out Mirdif, Professional office fit Out Mirdif, Luxury office fit Out Mirdif, Office Fit Out Mirdif Dubai, Office Fit designer Out Mirdif, Office Fit company Out Mirdif, Office Fit contractor Out Mirdif, Affordable office fit Out Mirdif, Modern office fit Out Mirdif, Office Fit consultation Out Mirdif, Office Fit cost Out Mirdif, Office Fit price Out Mirdif, Top office fit Out Mirdif
+
+// SEO Keywords: Office Fit Out Mirdif, Office Fit in Out Mirdif, Best office fit Out Mirdif, Professional office fit Out Mirdif, Luxury office fit Out Mirdif, Office Fit Out Mirdif Dubai, Office Fit designer Out Mirdif, Office Fit company Out Mirdif, Office Fit contractor Out Mirdif, Affordable office fit Out Mirdif, Modern office fit Out Mirdif, Office Fit consultation Out Mirdif, Office Fit cost Out Mirdif, Office Fit price Out Mirdif, Top office fit Out Mirdif, Office Fit near Out Mirdif, Office Fit specialists Out Mirdif, Office Fit experts Out Mirdif, Office Fit solutions Out Mirdif, Office Fit packages Out Mirdif, Office Fit quotes Out Mirdif, Office Fit estimates Out Mirdif, Office Fit services near me Out Mirdif, Cheap Office Fit Out Mirdif, Quality Office Fit Out Mirdif, Trusted Office Fit Out Mirdif, Office Fit transformation Out Mirdif, Office Fit renovation Out Mirdif, Office Fit makeover Out Mirdif, Best Office Fit company Out Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutMirdif() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Mirdif Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Mirdif Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Mirdif. 
                 We've completed 300+ successful projects across Mirdif Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Mirdif Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out mirdif services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Mirdif Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out mirdif service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out mirdif.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

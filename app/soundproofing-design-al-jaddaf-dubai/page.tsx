@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Al Jaddaf, Soundproofing Design in Al Jaddaf, Best soundproofing design Al Jaddaf, Professional soundproofing design Al Jaddaf, Luxury soundproofing design Al Jaddaf, Soundproofing Design Al Jaddaf Dubai, Soundproofing Design designer Al Jaddaf, Soundproofing Design company Al Jaddaf, Soundproofing Design contractor Al Jaddaf, Affordable soundproofing design Al Jaddaf, Modern soundproofing design Al Jaddaf, Soundproofing Design consultation Al Jaddaf, Soundproofing Design cost Al Jaddaf, Soundproofing Design price Al Jaddaf, Top soundproofing design Al Jaddaf
+
+// SEO Keywords: Soundproofing Design Al Jaddaf, Soundproofing Design in Al Jaddaf, Best soundproofing design Al Jaddaf, Professional soundproofing design Al Jaddaf, Luxury soundproofing design Al Jaddaf, Soundproofing Design Al Jaddaf Dubai, Soundproofing Design designer Al Jaddaf, Soundproofing Design company Al Jaddaf, Soundproofing Design contractor Al Jaddaf, Affordable soundproofing design Al Jaddaf, Modern soundproofing design Al Jaddaf, Soundproofing Design consultation Al Jaddaf, Soundproofing Design cost Al Jaddaf, Soundproofing Design price Al Jaddaf, Top soundproofing design Al Jaddaf, Soundproofing Design near Al Jaddaf, Soundproofing Design specialists Al Jaddaf, Soundproofing Design experts Al Jaddaf, Soundproofing Design solutions Al Jaddaf, Soundproofing Design packages Al Jaddaf, Soundproofing Design quotes Al Jaddaf, Soundproofing Design estimates Al Jaddaf, Soundproofing Design services near me Al Jaddaf, Cheap Soundproofing Design Al Jaddaf, Quality Soundproofing Design Al Jaddaf, Trusted Soundproofing Design Al Jaddaf, Soundproofing Design transformation Al Jaddaf, Soundproofing Design renovation Al Jaddaf, Soundproofing Design makeover Al Jaddaf, Best Soundproofing Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Al Jaddaf. Best soundproofing design Al Jaddaf Company Al Jaddaf Our luxury soundproofing design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

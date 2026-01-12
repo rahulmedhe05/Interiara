@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design, Corporate Office in Interior Design, Best corporate office Interior Design, Professional corporate office Interior Design, Luxury corporate office Interior Design, Corporate Office Interior Design Dubai, Corporate Office designer Interior Design, Corporate Office company Interior Design, Corporate Office contractor Interior Design, Affordable corporate office Interior Design, Modern corporate office Interior Design, Corporate Office consultation Interior Design, Corporate Office cost Interior Design, Corporate Office price Interior Design, Top corporate office Interior Design
+
+// SEO Keywords: Corporate Office Interior Design, Corporate Office in Interior Design, Best corporate office Interior Design, Professional corporate office Interior Design, Luxury corporate office Interior Design, Corporate Office Interior Design Dubai, Corporate Office designer Interior Design, Corporate Office company Interior Design, Corporate Office contractor Interior Design, Affordable corporate office Interior Design, Modern corporate office Interior Design, Corporate Office consultation Interior Design, Corporate Office cost Interior Design, Corporate Office price Interior Design, Top corporate office Interior Design, Corporate Office near Interior Design, Corporate Office specialists Interior Design, Corporate Office experts Interior Design, Corporate Office solutions Interior Design, Corporate Office packages Interior Design, Corporate Office quotes Interior Design, Corporate Office estimates Interior Design, Corporate Office services near me Interior Design, Cheap Corporate Office Interior Design, Quality Corporate Office Interior Design, Trusted Corporate Office Interior Design, Corporate Office transformation Interior Design, Corporate Office renovation Interior Design, Corporate Office makeover Interior Design, Best Corporate Office company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office in Interior Design. Best corporate office Interior Design Company Interior Design Our luxury corporate office interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Land Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Land Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

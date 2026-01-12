@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design, Contemporary in Interior Design, Best contemporary Interior Design, Professional contemporary Interior Design, Luxury contemporary Interior Design, Contemporary Interior Design Dubai, Contemporary designer Interior Design, Contemporary company Interior Design, Contemporary contractor Interior Design, Affordable contemporary Interior Design, Modern contemporary Interior Design, Contemporary consultation Interior Design, Contemporary cost Interior Design, Contemporary price Interior Design, Top contemporary Interior Design
+
+// SEO Keywords: Contemporary Interior Design, Contemporary in Interior Design, Best contemporary Interior Design, Professional contemporary Interior Design, Luxury contemporary Interior Design, Contemporary Interior Design Dubai, Contemporary designer Interior Design, Contemporary company Interior Design, Contemporary contractor Interior Design, Affordable contemporary Interior Design, Modern contemporary Interior Design, Contemporary consultation Interior Design, Contemporary cost Interior Design, Contemporary price Interior Design, Top contemporary Interior Design, Contemporary near Interior Design, Contemporary specialists Interior Design, Contemporary experts Interior Design, Contemporary solutions Interior Design, Contemporary packages Interior Design, Contemporary quotes Interior Design, Contemporary estimates Interior Design, Contemporary services near me Interior Design, Cheap Contemporary Interior Design, Quality Contemporary Interior Design, Trusted Contemporary Interior Design, Contemporary transformation Interior Design, Contemporary renovation Interior Design, Contemporary makeover Interior Design, Best Contemporary company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary in Interior Design. Best contemporary Interior Design Company Interior Design Our luxury contemporary interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Heights Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

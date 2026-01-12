@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Al Barsha, Home Renovation in Al Barsha, Best home renovation Al Barsha, Professional home renovation Al Barsha, Luxury home renovation Al Barsha, Home Renovation Al Barsha Dubai, Home Renovation designer Al Barsha, Home Renovation company Al Barsha, Home Renovation contractor Al Barsha, Affordable home renovation Al Barsha, Modern home renovation Al Barsha, Home Renovation consultation Al Barsha, Home Renovation cost Al Barsha, Home Renovation price Al Barsha, Top home renovation Al Barsha
+
+// SEO Keywords: Home Renovation Al Barsha, Home Renovation in Al Barsha, Best home renovation Al Barsha, Professional home renovation Al Barsha, Luxury home renovation Al Barsha, Home Renovation Al Barsha Dubai, Home Renovation designer Al Barsha, Home Renovation company Al Barsha, Home Renovation contractor Al Barsha, Affordable home renovation Al Barsha, Modern home renovation Al Barsha, Home Renovation consultation Al Barsha, Home Renovation cost Al Barsha, Home Renovation price Al Barsha, Top home renovation Al Barsha, Home Renovation near Al Barsha, Home Renovation specialists Al Barsha, Home Renovation experts Al Barsha, Home Renovation solutions Al Barsha, Home Renovation packages Al Barsha, Home Renovation quotes Al Barsha, Home Renovation estimates Al Barsha, Home Renovation services near me Al Barsha, Cheap Home Renovation Al Barsha, Quality Home Renovation Al Barsha, Trusted Home Renovation Al Barsha, Home Renovation transformation Al Barsha, Home Renovation renovation Al Barsha, Home Renovation makeover Al Barsha, Best Home Renovation company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRenovationAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home renovation al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Renovation Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRenovationAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home renovation in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home renovation near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRenovationAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

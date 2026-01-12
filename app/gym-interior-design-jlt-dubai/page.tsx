@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Jlt, Gym Interior in Design Jlt, Best gym interior Design Jlt, Professional gym interior Design Jlt, Luxury gym interior Design Jlt, Gym Interior Design Jlt Dubai, Gym Interior designer Design Jlt, Gym Interior company Design Jlt, Gym Interior contractor Design Jlt, Affordable gym interior Design Jlt, Modern gym interior Design Jlt, Gym Interior consultation Design Jlt, Gym Interior cost Design Jlt, Gym Interior price Design Jlt, Top gym interior Design Jlt
+
+// SEO Keywords: Gym Interior Design Jlt, Gym Interior in Design Jlt, Best gym interior Design Jlt, Professional gym interior Design Jlt, Luxury gym interior Design Jlt, Gym Interior Design Jlt Dubai, Gym Interior designer Design Jlt, Gym Interior company Design Jlt, Gym Interior contractor Design Jlt, Affordable gym interior Design Jlt, Modern gym interior Design Jlt, Gym Interior consultation Design Jlt, Gym Interior cost Design Jlt, Gym Interior price Design Jlt, Top gym interior Design Jlt, Gym Interior near Design Jlt, Gym Interior specialists Design Jlt, Gym Interior experts Design Jlt, Gym Interior solutions Design Jlt, Gym Interior packages Design Jlt, Gym Interior quotes Design Jlt, Gym Interior estimates Design Jlt, Gym Interior services near me Design Jlt, Cheap Gym Interior Design Jlt, Quality Gym Interior Design Jlt, Trusted Gym Interior Design Jlt, Gym Interior transformation Design Jlt, Gym Interior renovation Design Jlt, Gym Interior makeover Design Jlt, Best Gym Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function GymInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Gym Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Gym Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Gym Interior in Design Jlt. Gym Interior Design Jlt. 
+                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Gym Interior in Design Jlt. Gym Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury gym interior design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Gym Interior Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function GymInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our gym interior in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in gym interior near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function GymInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

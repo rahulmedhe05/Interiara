@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Sheikh Zayed Road, Lighting Automation Sheikh in Zayed Road, Best lighting automation sheikh Zayed Road, Professional lighting automation sheikh Zayed Road, Luxury lighting automation sheikh Zayed Road, Lighting Automation Sheikh Zayed Road Dubai, Lighting Automation Sheikh designer Zayed Road, Lighting Automation Sheikh company Zayed Road, Lighting Automation Sheikh contractor Zayed Road, Affordable lighting automation sheikh Zayed Road, Modern lighting automation sheikh Zayed Road, Lighting Automation Sheikh consultation Zayed Road, Lighting Automation Sheikh cost Zayed Road, Lighting Automation Sheikh price Zayed Road, Top lighting automation sheikh Zayed Road
+
+// SEO Keywords: Lighting Automation Sheikh Zayed Road, Lighting Automation Sheikh in Zayed Road, Best lighting automation sheikh Zayed Road, Professional lighting automation sheikh Zayed Road, Luxury lighting automation sheikh Zayed Road, Lighting Automation Sheikh Zayed Road Dubai, Lighting Automation Sheikh designer Zayed Road, Lighting Automation Sheikh company Zayed Road, Lighting Automation Sheikh contractor Zayed Road, Affordable lighting automation sheikh Zayed Road, Modern lighting automation sheikh Zayed Road, Lighting Automation Sheikh consultation Zayed Road, Lighting Automation Sheikh cost Zayed Road, Lighting Automation Sheikh price Zayed Road, Top lighting automation sheikh Zayed Road, Lighting Automation Sheikh near Zayed Road, Lighting Automation Sheikh specialists Zayed Road, Lighting Automation Sheikh experts Zayed Road, Lighting Automation Sheikh solutions Zayed Road, Lighting Automation Sheikh packages Zayed Road, Lighting Automation Sheikh quotes Zayed Road, Lighting Automation Sheikh estimates Zayed Road, Lighting Automation Sheikh services near me Zayed Road, Cheap Lighting Automation Sheikh Zayed Road, Quality Lighting Automation Sheikh Zayed Road, Trusted Lighting Automation Sheikh Zayed Road, Lighting Automation Sheikh transformation Zayed Road, Lighting Automation Sheikh renovation Zayed Road, Lighting Automation Sheikh makeover Zayed Road, Best Lighting Automation Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation sheikh Zayed Road Company Zayed Road</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation Sheikh in Zayed Road. Best lighting automation sheikh Zayed Road Company Zayed Road Our luxury lighting automation sheikh zayed road services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationSheikhZayedRoad() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation sheikh in zayed road service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation sheikh near zayed road.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

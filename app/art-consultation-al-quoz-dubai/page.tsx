@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Quoz, Art Consultation in Al Quoz, Best art consultation Al Quoz, Professional art consultation Al Quoz, Luxury art consultation Al Quoz, Art Consultation Al Quoz Dubai, Art Consultation designer Al Quoz, Art Consultation company Al Quoz, Art Consultation contractor Al Quoz, Affordable art consultation Al Quoz, Modern art consultation Al Quoz, Art Consultation consultation Al Quoz, Art Consultation cost Al Quoz, Art Consultation price Al Quoz, Top art consultation Al Quoz
+
+// SEO Keywords: Art Consultation Al Quoz, Art Consultation in Al Quoz, Best art consultation Al Quoz, Professional art consultation Al Quoz, Luxury art consultation Al Quoz, Art Consultation Al Quoz Dubai, Art Consultation designer Al Quoz, Art Consultation company Al Quoz, Art Consultation contractor Al Quoz, Affordable art consultation Al Quoz, Modern art consultation Al Quoz, Art Consultation consultation Al Quoz, Art Consultation cost Al Quoz, Art Consultation price Al Quoz, Top art consultation Al Quoz, Art Consultation near Al Quoz, Art Consultation specialists Al Quoz, Art Consultation experts Al Quoz, Art Consultation solutions Al Quoz, Art Consultation packages Al Quoz, Art Consultation quotes Al Quoz, Art Consultation estimates Al Quoz, Art Consultation services near me Al Quoz, Cheap Art Consultation Al Quoz, Quality Art Consultation Al Quoz, Trusted Art Consultation Al Quoz, Art Consultation transformation Al Quoz, Art Consultation renovation Al Quoz, Art Consultation makeover Al Quoz, Best Art Consultation company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

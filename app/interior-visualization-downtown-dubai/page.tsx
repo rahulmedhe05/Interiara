@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Downtown, Interior in Visualization Downtown, Best interior Visualization Downtown, Professional interior Visualization Downtown, Luxury interior Visualization Downtown, Interior Visualization Downtown Dubai, Interior designer Visualization Downtown, Interior company Visualization Downtown, Interior contractor Visualization Downtown, Affordable interior Visualization Downtown, Modern interior Visualization Downtown, Interior consultation Visualization Downtown, Interior cost Visualization Downtown, Interior price Visualization Downtown, Top interior Visualization Downtown
+
+// SEO Keywords: Interior Visualization Downtown, Interior in Visualization Downtown, Best interior Visualization Downtown, Professional interior Visualization Downtown, Luxury interior Visualization Downtown, Interior Visualization Downtown Dubai, Interior designer Visualization Downtown, Interior company Visualization Downtown, Interior contractor Visualization Downtown, Affordable interior Visualization Downtown, Modern interior Visualization Downtown, Interior consultation Visualization Downtown, Interior cost Visualization Downtown, Interior price Visualization Downtown, Top interior Visualization Downtown, Interior near Visualization Downtown, Interior specialists Visualization Downtown, Interior experts Visualization Downtown, Interior solutions Visualization Downtown, Interior packages Visualization Downtown, Interior quotes Visualization Downtown, Interior estimates Visualization Downtown, Interior services near me Visualization Downtown, Cheap Interior Visualization Downtown, Quality Interior Visualization Downtown, Trusted Interior Visualization Downtown, Interior transformation Visualization Downtown, Interior renovation Visualization Downtown, Interior makeover Visualization Downtown, Best Interior company Visualization Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior Visualization Downtown Company Visualization Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior in Visualization Downtown. Best interior Visualization Downtown Company Visualization Downtown Our luxury interior visualization downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior in visualization downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior near visualization downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

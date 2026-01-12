@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Business Bay, Window Curtains in Business Bay, Best window curtains Business Bay, Professional window curtains Business Bay, Luxury window curtains Business Bay, Window Curtains Business Bay Dubai, Window Curtains designer Business Bay, Window Curtains company Business Bay, Window Curtains contractor Business Bay, Affordable window curtains Business Bay, Modern window curtains Business Bay, Window Curtains consultation Business Bay, Window Curtains cost Business Bay, Window Curtains price Business Bay, Top window curtains Business Bay
+
+// SEO Keywords: Window Curtains Business Bay, Window Curtains in Business Bay, Best window curtains Business Bay, Professional window curtains Business Bay, Luxury window curtains Business Bay, Window Curtains Business Bay Dubai, Window Curtains designer Business Bay, Window Curtains company Business Bay, Window Curtains contractor Business Bay, Affordable window curtains Business Bay, Modern window curtains Business Bay, Window Curtains consultation Business Bay, Window Curtains cost Business Bay, Window Curtains price Business Bay, Top window curtains Business Bay, Window Curtains near Business Bay, Window Curtains specialists Business Bay, Window Curtains experts Business Bay, Window Curtains solutions Business Bay, Window Curtains packages Business Bay, Window Curtains quotes Business Bay, Window Curtains estimates Business Bay, Window Curtains services near me Business Bay, Cheap Window Curtains Business Bay, Quality Window Curtains Business Bay, Trusted Window Curtains Business Bay, Window Curtains transformation Business Bay, Window Curtains renovation Business Bay, Window Curtains makeover Business Bay, Best Window Curtains company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains in Business Bay. Best window curtains Business Bay Company Business Bay Our luxury window curtains business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

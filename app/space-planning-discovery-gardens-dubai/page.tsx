@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Discovery Gardens, Space Planning in Discovery Gardens, Best space planning Discovery Gardens, Professional space planning Discovery Gardens, Luxury space planning Discovery Gardens, Space Planning Discovery Gardens Dubai, Space Planning designer Discovery Gardens, Space Planning company Discovery Gardens, Space Planning contractor Discovery Gardens, Affordable space planning Discovery Gardens, Modern space planning Discovery Gardens, Space Planning consultation Discovery Gardens, Space Planning cost Discovery Gardens, Space Planning price Discovery Gardens, Top space planning Discovery Gardens
+
+// SEO Keywords: Space Planning Discovery Gardens, Space Planning in Discovery Gardens, Best space planning Discovery Gardens, Professional space planning Discovery Gardens, Luxury space planning Discovery Gardens, Space Planning Discovery Gardens Dubai, Space Planning designer Discovery Gardens, Space Planning company Discovery Gardens, Space Planning contractor Discovery Gardens, Affordable space planning Discovery Gardens, Modern space planning Discovery Gardens, Space Planning consultation Discovery Gardens, Space Planning cost Discovery Gardens, Space Planning price Discovery Gardens, Top space planning Discovery Gardens, Space Planning near Discovery Gardens, Space Planning specialists Discovery Gardens, Space Planning experts Discovery Gardens, Space Planning solutions Discovery Gardens, Space Planning packages Discovery Gardens, Space Planning quotes Discovery Gardens, Space Planning estimates Discovery Gardens, Space Planning services near me Discovery Gardens, Cheap Space Planning Discovery Gardens, Quality Space Planning Discovery Gardens, Trusted Space Planning Discovery Gardens, Space Planning transformation Discovery Gardens, Space Planning renovation Discovery Gardens, Space Planning makeover Discovery Gardens, Best Space Planning company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Discovery Gardens. Best space planning Discovery Gardens Company Discovery Gardens Our luxury space planning discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

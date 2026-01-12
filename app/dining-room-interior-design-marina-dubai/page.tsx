@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design Marina, Dining Room Interior in Design Marina, Best dining room interior Design Marina, Professional dining room interior Design Marina, Luxury dining room interior Design Marina, Dining Room Interior Design Marina Dubai, Dining Room Interior designer Design Marina, Dining Room Interior company Design Marina, Dining Room Interior contractor Design Marina, Affordable dining room interior Design Marina, Modern dining room interior Design Marina, Dining Room Interior consultation Design Marina, Dining Room Interior cost Design Marina, Dining Room Interior price Design Marina, Top dining room interior Design Marina
+
+// SEO Keywords: Dining Room Interior Design Marina, Dining Room Interior in Design Marina, Best dining room interior Design Marina, Professional dining room interior Design Marina, Luxury dining room interior Design Marina, Dining Room Interior Design Marina Dubai, Dining Room Interior designer Design Marina, Dining Room Interior company Design Marina, Dining Room Interior contractor Design Marina, Affordable dining room interior Design Marina, Modern dining room interior Design Marina, Dining Room Interior consultation Design Marina, Dining Room Interior cost Design Marina, Dining Room Interior price Design Marina, Top dining room interior Design Marina, Dining Room Interior near Design Marina, Dining Room Interior specialists Design Marina, Dining Room Interior experts Design Marina, Dining Room Interior solutions Design Marina, Dining Room Interior packages Design Marina, Dining Room Interior quotes Design Marina, Dining Room Interior estimates Design Marina, Dining Room Interior services near me Design Marina, Cheap Dining Room Interior Design Marina, Quality Dining Room Interior Design Marina, Trusted Dining Room Interior Design Marina, Dining Room Interior transformation Design Marina, Dining Room Interior renovation Design Marina, Dining Room Interior makeover Design Marina, Best Dining Room Interior company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room interior Design Marina Company Design Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room Interior in Design Marina. Best dining room interior Design Marina Company Design Marina Our professional dining room interior design marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function DiningRoomInteriorDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Dining Room Interior Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Dining Room Interior Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Dining Room Interior Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesignMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room interior in design marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room interior near design marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

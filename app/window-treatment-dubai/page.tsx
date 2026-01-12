@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Window Treatment,  in Window Treatment, Best  Window Treatment, Professional  Window Treatment, Luxury  Window Treatment,  Window Treatment Dubai,  designer Window Treatment,  company Window Treatment,  contractor Window Treatment, Affordable  Window Treatment, Modern  Window Treatment,  consultation Window Treatment,  cost Window Treatment,  price Window Treatment, Top  Window Treatment
+
+// SEO Keywords:  Window Treatment,  in Window Treatment, Best  Window Treatment, Professional  Window Treatment, Luxury  Window Treatment,  Window Treatment Dubai,  designer Window Treatment,  company Window Treatment,  contractor Window Treatment, Affordable  Window Treatment, Modern  Window Treatment,  consultation Window Treatment,  cost Window Treatment,  price Window Treatment, Top  Window Treatment,  near Window Treatment,  specialists Window Treatment,  experts Window Treatment,  solutions Window Treatment,  packages Window Treatment,  quotes Window Treatment,  estimates Window Treatment,  services near me Window Treatment, Cheap  Window Treatment, Quality  Window Treatment, Trusted  Window Treatment,  transformation Window Treatment,  renovation Window Treatment,  makeover Window Treatment, Best  company Window Treatment
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowTreatment() {
                 At Interiara, we believe that exceptional <strong>Window Treatment Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Treatment Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Window Treatment. 
                 We've completed 300+ successful projects across Treatment Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Treatment Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  window treatment services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Treatment Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowTreatment() {
 
               <p>
                 Interiara stands out in the crowded Treatment Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  window treatment service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near window treatment.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowTreatment() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

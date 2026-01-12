@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Al Mizhar, Wardrobe Design in Al Mizhar, Best wardrobe design Al Mizhar, Professional wardrobe design Al Mizhar, Luxury wardrobe design Al Mizhar, Wardrobe Design Al Mizhar Dubai, Wardrobe Design designer Al Mizhar, Wardrobe Design company Al Mizhar, Wardrobe Design contractor Al Mizhar, Affordable wardrobe design Al Mizhar, Modern wardrobe design Al Mizhar, Wardrobe Design consultation Al Mizhar, Wardrobe Design cost Al Mizhar, Wardrobe Design price Al Mizhar, Top wardrobe design Al Mizhar
+
+// SEO Keywords: Wardrobe Design Al Mizhar, Wardrobe Design in Al Mizhar, Best wardrobe design Al Mizhar, Professional wardrobe design Al Mizhar, Luxury wardrobe design Al Mizhar, Wardrobe Design Al Mizhar Dubai, Wardrobe Design designer Al Mizhar, Wardrobe Design company Al Mizhar, Wardrobe Design contractor Al Mizhar, Affordable wardrobe design Al Mizhar, Modern wardrobe design Al Mizhar, Wardrobe Design consultation Al Mizhar, Wardrobe Design cost Al Mizhar, Wardrobe Design price Al Mizhar, Top wardrobe design Al Mizhar, Wardrobe Design near Al Mizhar, Wardrobe Design specialists Al Mizhar, Wardrobe Design experts Al Mizhar, Wardrobe Design solutions Al Mizhar, Wardrobe Design packages Al Mizhar, Wardrobe Design quotes Al Mizhar, Wardrobe Design estimates Al Mizhar, Wardrobe Design services near me Al Mizhar, Cheap Wardrobe Design Al Mizhar, Quality Wardrobe Design Al Mizhar, Trusted Wardrobe Design Al Mizhar, Wardrobe Design transformation Al Mizhar, Wardrobe Design renovation Al Mizhar, Wardrobe Design makeover Al Mizhar, Best Wardrobe Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe design in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe design near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

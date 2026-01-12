@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Residential Interior Design Dubai Marina, Residential Interior Design in Dubai Marina, Best residential interior design Dubai Marina, Professional residential interior design Dubai Marina, Luxury residential interior design Dubai Marina, Residential Interior Design Dubai Marina Dubai, Residential Interior Design designer Dubai Marina, Residential Interior Design company Dubai Marina, Residential Interior Design contractor Dubai Marina, Affordable residential interior design Dubai Marina, Modern residential interior design Dubai Marina, Residential Interior Design consultation Dubai Marina, Residential Interior Design cost Dubai Marina, Residential Interior Design price Dubai Marina, Top residential interior design Dubai Marina
+
+// SEO Keywords: Residential Interior Design Dubai Marina, Residential Interior Design in Dubai Marina, Best residential interior design Dubai Marina, Professional residential interior design Dubai Marina, Luxury residential interior design Dubai Marina, Residential Interior Design Dubai Marina Dubai, Residential Interior Design designer Dubai Marina, Residential Interior Design company Dubai Marina, Residential Interior Design contractor Dubai Marina, Affordable residential interior design Dubai Marina, Modern residential interior design Dubai Marina, Residential Interior Design consultation Dubai Marina, Residential Interior Design cost Dubai Marina, Residential Interior Design price Dubai Marina, Top residential interior design Dubai Marina, Residential Interior Design near Dubai Marina, Residential Interior Design specialists Dubai Marina, Residential Interior Design experts Dubai Marina, Residential Interior Design solutions Dubai Marina, Residential Interior Design packages Dubai Marina, Residential Interior Design quotes Dubai Marina, Residential Interior Design estimates Dubai Marina, Residential Interior Design services near me Dubai Marina, Cheap Residential Interior Design Dubai Marina, Quality Residential Interior Design Dubai Marina, Trusted Residential Interior Design Dubai Marina, Residential Interior Design transformation Dubai Marina, Residential Interior Design renovation Dubai Marina, Residential Interior Design makeover Dubai Marina, Best Residential Interior Design company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ResidentialInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior design Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior Design in Dubai Marina. Best residential interior design Dubai Marina Company Dubai Marina Our luxury residential interior design dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ResidentialInteriorDesignDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our residential interior design in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ResidentialInteriorDesignDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in residential interior design near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ResidentialInteriorDesignDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

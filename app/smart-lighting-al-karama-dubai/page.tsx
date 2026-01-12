@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Karama, Smart Lighting in Al Karama, Best smart lighting Al Karama, Professional smart lighting Al Karama, Luxury smart lighting Al Karama, Smart Lighting Al Karama Dubai, Smart Lighting designer Al Karama, Smart Lighting company Al Karama, Smart Lighting contractor Al Karama, Affordable smart lighting Al Karama, Modern smart lighting Al Karama, Smart Lighting consultation Al Karama, Smart Lighting cost Al Karama, Smart Lighting price Al Karama, Top smart lighting Al Karama
+
+// SEO Keywords: Smart Lighting Al Karama, Smart Lighting in Al Karama, Best smart lighting Al Karama, Professional smart lighting Al Karama, Luxury smart lighting Al Karama, Smart Lighting Al Karama Dubai, Smart Lighting designer Al Karama, Smart Lighting company Al Karama, Smart Lighting contractor Al Karama, Affordable smart lighting Al Karama, Modern smart lighting Al Karama, Smart Lighting consultation Al Karama, Smart Lighting cost Al Karama, Smart Lighting price Al Karama, Top smart lighting Al Karama, Smart Lighting near Al Karama, Smart Lighting specialists Al Karama, Smart Lighting experts Al Karama, Smart Lighting solutions Al Karama, Smart Lighting packages Al Karama, Smart Lighting quotes Al Karama, Smart Lighting estimates Al Karama, Smart Lighting services near me Al Karama, Cheap Smart Lighting Al Karama, Quality Smart Lighting Al Karama, Trusted Smart Lighting Al Karama, Smart Lighting transformation Al Karama, Smart Lighting renovation Al Karama, Smart Lighting makeover Al Karama, Best Smart Lighting company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlKarama() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design Business Bay, Smart Home Interior Design in Business Bay, Best smart home interior design Business Bay, Professional smart home interior design Business Bay, Luxury smart home interior design Business Bay, Smart Home Interior Design Business Bay Dubai, Smart Home Interior Design designer Business Bay, Smart Home Interior Design company Business Bay, Smart Home Interior Design contractor Business Bay, Affordable smart home interior design Business Bay, Modern smart home interior design Business Bay, Smart Home Interior Design consultation Business Bay, Smart Home Interior Design cost Business Bay, Smart Home Interior Design price Business Bay, Top smart home interior design Business Bay
+
+// SEO Keywords: Smart Home Interior Design Business Bay, Smart Home Interior Design in Business Bay, Best smart home interior design Business Bay, Professional smart home interior design Business Bay, Luxury smart home interior design Business Bay, Smart Home Interior Design Business Bay Dubai, Smart Home Interior Design designer Business Bay, Smart Home Interior Design company Business Bay, Smart Home Interior Design contractor Business Bay, Affordable smart home interior design Business Bay, Modern smart home interior design Business Bay, Smart Home Interior Design consultation Business Bay, Smart Home Interior Design cost Business Bay, Smart Home Interior Design price Business Bay, Top smart home interior design Business Bay, Smart Home Interior Design near Business Bay, Smart Home Interior Design specialists Business Bay, Smart Home Interior Design experts Business Bay, Smart Home Interior Design solutions Business Bay, Smart Home Interior Design packages Business Bay, Smart Home Interior Design quotes Business Bay, Smart Home Interior Design estimates Business Bay, Smart Home Interior Design services near me Business Bay, Cheap Smart Home Interior Design Business Bay, Quality Smart Home Interior Design Business Bay, Trusted Smart Home Interior Design Business Bay, Smart Home Interior Design transformation Business Bay, Smart Home Interior Design renovation Business Bay, Smart Home Interior Design makeover Business Bay, Best Smart Home Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home Interior Design in Business Bay. Best smart home interior design Business Bay Company Business Bay Our luxury smart home interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

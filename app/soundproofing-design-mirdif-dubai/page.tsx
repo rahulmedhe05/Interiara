@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Mirdif, Soundproofing in Design Mirdif, Best soundproofing Design Mirdif, Professional soundproofing Design Mirdif, Luxury soundproofing Design Mirdif, Soundproofing Design Mirdif Dubai, Soundproofing designer Design Mirdif, Soundproofing company Design Mirdif, Soundproofing contractor Design Mirdif, Affordable soundproofing Design Mirdif, Modern soundproofing Design Mirdif, Soundproofing consultation Design Mirdif, Soundproofing cost Design Mirdif, Soundproofing price Design Mirdif, Top soundproofing Design Mirdif
+
+// SEO Keywords: Soundproofing Design Mirdif, Soundproofing in Design Mirdif, Best soundproofing Design Mirdif, Professional soundproofing Design Mirdif, Luxury soundproofing Design Mirdif, Soundproofing Design Mirdif Dubai, Soundproofing designer Design Mirdif, Soundproofing company Design Mirdif, Soundproofing contractor Design Mirdif, Affordable soundproofing Design Mirdif, Modern soundproofing Design Mirdif, Soundproofing consultation Design Mirdif, Soundproofing cost Design Mirdif, Soundproofing price Design Mirdif, Top soundproofing Design Mirdif, Soundproofing near Design Mirdif, Soundproofing specialists Design Mirdif, Soundproofing experts Design Mirdif, Soundproofing solutions Design Mirdif, Soundproofing packages Design Mirdif, Soundproofing quotes Design Mirdif, Soundproofing estimates Design Mirdif, Soundproofing services near me Design Mirdif, Cheap Soundproofing Design Mirdif, Quality Soundproofing Design Mirdif, Trusted Soundproofing Design Mirdif, Soundproofing transformation Design Mirdif, Soundproofing renovation Design Mirdif, Soundproofing makeover Design Mirdif, Best Soundproofing company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing in Design Mirdif. Best soundproofing Design Mirdif Company Design Mirdif Our luxury soundproofing design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

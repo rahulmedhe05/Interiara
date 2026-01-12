@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Town Square, Window Blinds in Town Square, Best window blinds Town Square, Professional window blinds Town Square, Luxury window blinds Town Square, Window Blinds Town Square Dubai, Window Blinds designer Town Square, Window Blinds company Town Square, Window Blinds contractor Town Square, Affordable window blinds Town Square, Modern window blinds Town Square, Window Blinds consultation Town Square, Window Blinds cost Town Square, Window Blinds price Town Square, Top window blinds Town Square
+
+// SEO Keywords: Window Blinds Town Square, Window Blinds in Town Square, Best window blinds Town Square, Professional window blinds Town Square, Luxury window blinds Town Square, Window Blinds Town Square Dubai, Window Blinds designer Town Square, Window Blinds company Town Square, Window Blinds contractor Town Square, Affordable window blinds Town Square, Modern window blinds Town Square, Window Blinds consultation Town Square, Window Blinds cost Town Square, Window Blinds price Town Square, Top window blinds Town Square, Window Blinds near Town Square, Window Blinds specialists Town Square, Window Blinds experts Town Square, Window Blinds solutions Town Square, Window Blinds packages Town Square, Window Blinds quotes Town Square, Window Blinds estimates Town Square, Window Blinds services near me Town Square, Cheap Window Blinds Town Square, Quality Window Blinds Town Square, Trusted Window Blinds Town Square, Window Blinds transformation Town Square, Window Blinds renovation Town Square, Window Blinds makeover Town Square, Best Window Blinds company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Town Square. Best window blinds Town Square Company Town Square Our luxury window blinds town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

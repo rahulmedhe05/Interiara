@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Jumeirah, Color Theme in Consultation Jumeirah, Best color theme Consultation Jumeirah, Professional color theme Consultation Jumeirah, Luxury color theme Consultation Jumeirah, Color Theme Consultation Jumeirah Dubai, Color Theme designer Consultation Jumeirah, Color Theme company Consultation Jumeirah, Color Theme contractor Consultation Jumeirah, Affordable color theme Consultation Jumeirah, Modern color theme Consultation Jumeirah, Color Theme consultation Consultation Jumeirah, Color Theme cost Consultation Jumeirah, Color Theme price Consultation Jumeirah, Top color theme Consultation Jumeirah
+
+// SEO Keywords: Color Theme Consultation Jumeirah, Color Theme in Consultation Jumeirah, Best color theme Consultation Jumeirah, Professional color theme Consultation Jumeirah, Luxury color theme Consultation Jumeirah, Color Theme Consultation Jumeirah Dubai, Color Theme designer Consultation Jumeirah, Color Theme company Consultation Jumeirah, Color Theme contractor Consultation Jumeirah, Affordable color theme Consultation Jumeirah, Modern color theme Consultation Jumeirah, Color Theme consultation Consultation Jumeirah, Color Theme cost Consultation Jumeirah, Color Theme price Consultation Jumeirah, Top color theme Consultation Jumeirah, Color Theme near Consultation Jumeirah, Color Theme specialists Consultation Jumeirah, Color Theme experts Consultation Jumeirah, Color Theme solutions Consultation Jumeirah, Color Theme packages Consultation Jumeirah, Color Theme quotes Consultation Jumeirah, Color Theme estimates Consultation Jumeirah, Color Theme services near me Consultation Jumeirah, Cheap Color Theme Consultation Jumeirah, Quality Color Theme Consultation Jumeirah, Trusted Color Theme Consultation Jumeirah, Color Theme transformation Consultation Jumeirah, Color Theme renovation Consultation Jumeirah, Color Theme makeover Consultation Jumeirah, Best Color Theme company Consultation Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Jumeirah Company Consultation Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme in Consultation Jumeirah. Best color theme Consultation Jumeirah Company Consultation Jumeirah Our luxury color theme consultation jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme in consultation jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme near consultation jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

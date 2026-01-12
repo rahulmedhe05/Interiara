@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Jaddaf, Closet Design in Al Jaddaf, Best closet design Al Jaddaf, Professional closet design Al Jaddaf, Luxury closet design Al Jaddaf, Closet Design Al Jaddaf Dubai, Closet Design designer Al Jaddaf, Closet Design company Al Jaddaf, Closet Design contractor Al Jaddaf, Affordable closet design Al Jaddaf, Modern closet design Al Jaddaf, Closet Design consultation Al Jaddaf, Closet Design cost Al Jaddaf, Closet Design price Al Jaddaf, Top closet design Al Jaddaf
+
+// SEO Keywords: Closet Design Al Jaddaf, Closet Design in Al Jaddaf, Best closet design Al Jaddaf, Professional closet design Al Jaddaf, Luxury closet design Al Jaddaf, Closet Design Al Jaddaf Dubai, Closet Design designer Al Jaddaf, Closet Design company Al Jaddaf, Closet Design contractor Al Jaddaf, Affordable closet design Al Jaddaf, Modern closet design Al Jaddaf, Closet Design consultation Al Jaddaf, Closet Design cost Al Jaddaf, Closet Design price Al Jaddaf, Top closet design Al Jaddaf, Closet Design near Al Jaddaf, Closet Design specialists Al Jaddaf, Closet Design experts Al Jaddaf, Closet Design solutions Al Jaddaf, Closet Design packages Al Jaddaf, Closet Design quotes Al Jaddaf, Closet Design estimates Al Jaddaf, Closet Design services near me Al Jaddaf, Cheap Closet Design Al Jaddaf, Quality Closet Design Al Jaddaf, Trusted Closet Design Al Jaddaf, Closet Design transformation Al Jaddaf, Closet Design renovation Al Jaddaf, Closet Design makeover Al Jaddaf, Best Closet Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Closet Design Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

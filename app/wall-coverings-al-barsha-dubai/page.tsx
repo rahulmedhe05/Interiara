@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Al Barsha, Wall Coverings in Al Barsha, Best wall coverings Al Barsha, Professional wall coverings Al Barsha, Luxury wall coverings Al Barsha, Wall Coverings Al Barsha Dubai, Wall Coverings designer Al Barsha, Wall Coverings company Al Barsha, Wall Coverings contractor Al Barsha, Affordable wall coverings Al Barsha, Modern wall coverings Al Barsha, Wall Coverings consultation Al Barsha, Wall Coverings cost Al Barsha, Wall Coverings price Al Barsha, Top wall coverings Al Barsha
+
+// SEO Keywords: Wall Coverings Al Barsha, Wall Coverings in Al Barsha, Best wall coverings Al Barsha, Professional wall coverings Al Barsha, Luxury wall coverings Al Barsha, Wall Coverings Al Barsha Dubai, Wall Coverings designer Al Barsha, Wall Coverings company Al Barsha, Wall Coverings contractor Al Barsha, Affordable wall coverings Al Barsha, Modern wall coverings Al Barsha, Wall Coverings consultation Al Barsha, Wall Coverings cost Al Barsha, Wall Coverings price Al Barsha, Top wall coverings Al Barsha, Wall Coverings near Al Barsha, Wall Coverings specialists Al Barsha, Wall Coverings experts Al Barsha, Wall Coverings solutions Al Barsha, Wall Coverings packages Al Barsha, Wall Coverings quotes Al Barsha, Wall Coverings estimates Al Barsha, Wall Coverings services near me Al Barsha, Cheap Wall Coverings Al Barsha, Quality Wall Coverings Al Barsha, Trusted Wall Coverings Al Barsha, Wall Coverings transformation Al Barsha, Wall Coverings renovation Al Barsha, Wall Coverings makeover Al Barsha, Best Wall Coverings company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall coverings in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall coverings near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

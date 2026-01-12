@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Muhaisnah, Wall in Coverings Muhaisnah, Best wall Coverings Muhaisnah, Professional wall Coverings Muhaisnah, Luxury wall Coverings Muhaisnah, Wall Coverings Muhaisnah Dubai, Wall designer Coverings Muhaisnah, Wall company Coverings Muhaisnah, Wall contractor Coverings Muhaisnah, Affordable wall Coverings Muhaisnah, Modern wall Coverings Muhaisnah, Wall consultation Coverings Muhaisnah, Wall cost Coverings Muhaisnah, Wall price Coverings Muhaisnah, Top wall Coverings Muhaisnah
+
+// SEO Keywords: Wall Coverings Muhaisnah, Wall in Coverings Muhaisnah, Best wall Coverings Muhaisnah, Professional wall Coverings Muhaisnah, Luxury wall Coverings Muhaisnah, Wall Coverings Muhaisnah Dubai, Wall designer Coverings Muhaisnah, Wall company Coverings Muhaisnah, Wall contractor Coverings Muhaisnah, Affordable wall Coverings Muhaisnah, Modern wall Coverings Muhaisnah, Wall consultation Coverings Muhaisnah, Wall cost Coverings Muhaisnah, Wall price Coverings Muhaisnah, Top wall Coverings Muhaisnah, Wall near Coverings Muhaisnah, Wall specialists Coverings Muhaisnah, Wall experts Coverings Muhaisnah, Wall solutions Coverings Muhaisnah, Wall packages Coverings Muhaisnah, Wall quotes Coverings Muhaisnah, Wall estimates Coverings Muhaisnah, Wall services near me Coverings Muhaisnah, Cheap Wall Coverings Muhaisnah, Quality Wall Coverings Muhaisnah, Trusted Wall Coverings Muhaisnah, Wall transformation Coverings Muhaisnah, Wall renovation Coverings Muhaisnah, Wall makeover Coverings Muhaisnah, Best Wall company Coverings Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Coverings Muhaisnah Company Coverings Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall in Coverings Muhaisnah. Best wall Coverings Muhaisnah Company Coverings Muhaisnah Our luxury wall coverings muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall in coverings muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall near coverings muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

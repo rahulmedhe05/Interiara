@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Dubai Design District, Commercial Interior Design Dubai in Design District, Best commercial interior design dubai Design District, Professional commercial interior design dubai Design District, Luxury commercial interior design dubai Design District, Commercial Interior Design Dubai Design District Dubai, Commercial Interior Design Dubai designer Design District, Commercial Interior Design Dubai company Design District, Commercial Interior Design Dubai contractor Design District, Affordable commercial interior design dubai Design District, Modern commercial interior design dubai Design District, Commercial Interior Design Dubai consultation Design District, Commercial Interior Design Dubai cost Design District, Commercial Interior Design Dubai price Design District, Top commercial interior design dubai Design District
+
+// SEO Keywords: Commercial Interior Design Dubai Design District, Commercial Interior Design Dubai in Design District, Best commercial interior design dubai Design District, Professional commercial interior design dubai Design District, Luxury commercial interior design dubai Design District, Commercial Interior Design Dubai Design District Dubai, Commercial Interior Design Dubai designer Design District, Commercial Interior Design Dubai company Design District, Commercial Interior Design Dubai contractor Design District, Affordable commercial interior design dubai Design District, Modern commercial interior design dubai Design District, Commercial Interior Design Dubai consultation Design District, Commercial Interior Design Dubai cost Design District, Commercial Interior Design Dubai price Design District, Top commercial interior design dubai Design District, Commercial Interior Design Dubai near Design District, Commercial Interior Design Dubai specialists Design District, Commercial Interior Design Dubai experts Design District, Commercial Interior Design Dubai solutions Design District, Commercial Interior Design Dubai packages Design District, Commercial Interior Design Dubai quotes Design District, Commercial Interior Design Dubai estimates Design District, Commercial Interior Design Dubai services near me Design District, Cheap Commercial Interior Design Dubai Design District, Quality Commercial Interior Design Dubai Design District, Trusted Commercial Interior Design Dubai Design District, Commercial Interior Design Dubai transformation Design District, Commercial Interior Design Dubai renovation Design District, Commercial Interior Design Dubai makeover Design District, Best Commercial Interior Design Dubai company Design District
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignDubaiDesignDistrict() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design dubai Design District Company Design District</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design Dubai in Design District. Best commercial interior design dubai Design District Company Design District Our professional commercial interior design dubai design district services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function CommercialInteriorDesignDubaiDesignDistrict() {
                 At Interiara, we believe that exceptional <strong>Commercial Interior Design Design District Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the District Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Commercial Interior Design Dubai Design District. 
                 We've completed 300+ successful projects across District Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Commercial Interior Design Design District Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignDubaiDesignDistrict() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design dubai in design district service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignDubaiDesignDistrict() {
 
               <p>
                 Interiara stands out in the crowded District Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design dubai near design district.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignDubaiDesignDistrict() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

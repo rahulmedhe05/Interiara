@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Dubai Marina, Office Interior Design in Dubai Marina, Best office interior design Dubai Marina, Professional office interior design Dubai Marina, Luxury office interior design Dubai Marina, Office Interior Design Dubai Marina Dubai, Office Interior Design designer Dubai Marina, Office Interior Design company Dubai Marina, Office Interior Design contractor Dubai Marina, Affordable office interior design Dubai Marina, Modern office interior design Dubai Marina, Office Interior Design consultation Dubai Marina, Office Interior Design cost Dubai Marina, Office Interior Design price Dubai Marina, Top office interior design Dubai Marina
+
+// SEO Keywords: Office Interior Design Dubai Marina, Office Interior Design in Dubai Marina, Best office interior design Dubai Marina, Professional office interior design Dubai Marina, Luxury office interior design Dubai Marina, Office Interior Design Dubai Marina Dubai, Office Interior Design designer Dubai Marina, Office Interior Design company Dubai Marina, Office Interior Design contractor Dubai Marina, Affordable office interior design Dubai Marina, Modern office interior design Dubai Marina, Office Interior Design consultation Dubai Marina, Office Interior Design cost Dubai Marina, Office Interior Design price Dubai Marina, Top office interior design Dubai Marina, Office Interior Design near Dubai Marina, Office Interior Design specialists Dubai Marina, Office Interior Design experts Dubai Marina, Office Interior Design solutions Dubai Marina, Office Interior Design packages Dubai Marina, Office Interior Design quotes Dubai Marina, Office Interior Design estimates Dubai Marina, Office Interior Design services near me Dubai Marina, Cheap Office Interior Design Dubai Marina, Quality Office Interior Design Dubai Marina, Trusted Office Interior Design Dubai Marina, Office Interior Design transformation Dubai Marina, Office Interior Design renovation Dubai Marina, Office Interior Design makeover Dubai Marina, Best Office Interior Design company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior design Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior Design in Dubai Marina. Best office interior design Dubai Marina Company Dubai Marina Our luxury office interior design dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior design in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior design near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

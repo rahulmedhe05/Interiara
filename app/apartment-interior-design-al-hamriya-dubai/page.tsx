@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Al Hamriya, Apartment Interior Design in Al Hamriya, Best apartment interior design Al Hamriya, Professional apartment interior design Al Hamriya, Luxury apartment interior design Al Hamriya, Apartment Interior Design Al Hamriya Dubai, Apartment Interior Design designer Al Hamriya, Apartment Interior Design company Al Hamriya, Apartment Interior Design contractor Al Hamriya, Affordable apartment interior design Al Hamriya, Modern apartment interior design Al Hamriya, Apartment Interior Design consultation Al Hamriya, Apartment Interior Design cost Al Hamriya, Apartment Interior Design price Al Hamriya, Top apartment interior design Al Hamriya
+
+// SEO Keywords: Apartment Interior Design Al Hamriya, Apartment Interior Design in Al Hamriya, Best apartment interior design Al Hamriya, Professional apartment interior design Al Hamriya, Luxury apartment interior design Al Hamriya, Apartment Interior Design Al Hamriya Dubai, Apartment Interior Design designer Al Hamriya, Apartment Interior Design company Al Hamriya, Apartment Interior Design contractor Al Hamriya, Affordable apartment interior design Al Hamriya, Modern apartment interior design Al Hamriya, Apartment Interior Design consultation Al Hamriya, Apartment Interior Design cost Al Hamriya, Apartment Interior Design price Al Hamriya, Top apartment interior design Al Hamriya, Apartment Interior Design near Al Hamriya, Apartment Interior Design specialists Al Hamriya, Apartment Interior Design experts Al Hamriya, Apartment Interior Design solutions Al Hamriya, Apartment Interior Design packages Al Hamriya, Apartment Interior Design quotes Al Hamriya, Apartment Interior Design estimates Al Hamriya, Apartment Interior Design services near me Al Hamriya, Cheap Apartment Interior Design Al Hamriya, Quality Apartment Interior Design Al Hamriya, Trusted Apartment Interior Design Al Hamriya, Apartment Interior Design transformation Al Hamriya, Apartment Interior Design renovation Al Hamriya, Apartment Interior Design makeover Al Hamriya, Best Apartment Interior Design company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior Design in Al Hamriya. Best apartment interior design Al Hamriya Company Al Hamriya Our luxury apartment interior design al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior design in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior design near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

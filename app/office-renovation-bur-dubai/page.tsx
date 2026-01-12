@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Bur, Office in Renovation Bur, Best office Renovation Bur, Professional office Renovation Bur, Luxury office Renovation Bur, Office Renovation Bur Dubai, Office designer Renovation Bur, Office company Renovation Bur, Office contractor Renovation Bur, Affordable office Renovation Bur, Modern office Renovation Bur, Office consultation Renovation Bur, Office cost Renovation Bur, Office price Renovation Bur, Top office Renovation Bur
+
+// SEO Keywords: Office Renovation Bur, Office in Renovation Bur, Best office Renovation Bur, Professional office Renovation Bur, Luxury office Renovation Bur, Office Renovation Bur Dubai, Office designer Renovation Bur, Office company Renovation Bur, Office contractor Renovation Bur, Affordable office Renovation Bur, Modern office Renovation Bur, Office consultation Renovation Bur, Office cost Renovation Bur, Office price Renovation Bur, Top office Renovation Bur, Office near Renovation Bur, Office specialists Renovation Bur, Office experts Renovation Bur, Office solutions Renovation Bur, Office packages Renovation Bur, Office quotes Renovation Bur, Office estimates Renovation Bur, Office services near me Renovation Bur, Cheap Office Renovation Bur, Quality Office Renovation Bur, Trusted Office Renovation Bur, Office transformation Renovation Bur, Office renovation Renovation Bur, Office makeover Renovation Bur, Best Office company Renovation Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeRenovationBur() {
                 At Interiara, we believe that exceptional <strong>Office Renovation Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office in Renovation Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office renovation bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Renovation Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeRenovationBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office in renovation bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office near renovation bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeRenovationBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

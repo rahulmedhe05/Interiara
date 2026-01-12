@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Jbr, Gym Interior in Design Jbr, Best gym interior Design Jbr, Professional gym interior Design Jbr, Luxury gym interior Design Jbr, Gym Interior Design Jbr Dubai, Gym Interior designer Design Jbr, Gym Interior company Design Jbr, Gym Interior contractor Design Jbr, Affordable gym interior Design Jbr, Modern gym interior Design Jbr, Gym Interior consultation Design Jbr, Gym Interior cost Design Jbr, Gym Interior price Design Jbr, Top gym interior Design Jbr
+
+// SEO Keywords: Gym Interior Design Jbr, Gym Interior in Design Jbr, Best gym interior Design Jbr, Professional gym interior Design Jbr, Luxury gym interior Design Jbr, Gym Interior Design Jbr Dubai, Gym Interior designer Design Jbr, Gym Interior company Design Jbr, Gym Interior contractor Design Jbr, Affordable gym interior Design Jbr, Modern gym interior Design Jbr, Gym Interior consultation Design Jbr, Gym Interior cost Design Jbr, Gym Interior price Design Jbr, Top gym interior Design Jbr, Gym Interior near Design Jbr, Gym Interior specialists Design Jbr, Gym Interior experts Design Jbr, Gym Interior solutions Design Jbr, Gym Interior packages Design Jbr, Gym Interior quotes Design Jbr, Gym Interior estimates Design Jbr, Gym Interior services near me Design Jbr, Cheap Gym Interior Design Jbr, Quality Gym Interior Design Jbr, Trusted Gym Interior Design Jbr, Gym Interior transformation Design Jbr, Gym Interior renovation Design Jbr, Gym Interior makeover Design Jbr, Best Gym Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function GymInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Gym Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Gym Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Gym Interior in Design Jbr. Gym Interior Design Jbr. 
+                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Gym Interior in Design Jbr. Gym Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury gym interior design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Gym Interior Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function GymInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our gym interior in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in gym interior near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function GymInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

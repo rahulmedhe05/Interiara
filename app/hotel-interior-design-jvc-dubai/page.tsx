@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Jvc, Hotel Interior in Design Jvc, Best hotel interior Design Jvc, Professional hotel interior Design Jvc, Luxury hotel interior Design Jvc, Hotel Interior Design Jvc Dubai, Hotel Interior designer Design Jvc, Hotel Interior company Design Jvc, Hotel Interior contractor Design Jvc, Affordable hotel interior Design Jvc, Modern hotel interior Design Jvc, Hotel Interior consultation Design Jvc, Hotel Interior cost Design Jvc, Hotel Interior price Design Jvc, Top hotel interior Design Jvc
+
+// SEO Keywords: Hotel Interior Design Jvc, Hotel Interior in Design Jvc, Best hotel interior Design Jvc, Professional hotel interior Design Jvc, Luxury hotel interior Design Jvc, Hotel Interior Design Jvc Dubai, Hotel Interior designer Design Jvc, Hotel Interior company Design Jvc, Hotel Interior contractor Design Jvc, Affordable hotel interior Design Jvc, Modern hotel interior Design Jvc, Hotel Interior consultation Design Jvc, Hotel Interior cost Design Jvc, Hotel Interior price Design Jvc, Top hotel interior Design Jvc, Hotel Interior near Design Jvc, Hotel Interior specialists Design Jvc, Hotel Interior experts Design Jvc, Hotel Interior solutions Design Jvc, Hotel Interior packages Design Jvc, Hotel Interior quotes Design Jvc, Hotel Interior estimates Design Jvc, Hotel Interior services near me Design Jvc, Cheap Hotel Interior Design Jvc, Quality Hotel Interior Design Jvc, Trusted Hotel Interior Design Jvc, Hotel Interior transformation Design Jvc, Hotel Interior renovation Design Jvc, Hotel Interior makeover Design Jvc, Best Hotel Interior company Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HotelInteriorDesignJvc() {
                 At Interiara, we believe that exceptional <strong>Hotel Interior Design JVC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JVC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior Design JVC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Hotel Interior in Design Jvc. Hotel Interior Design Jvc. 
+                We've completed 300+ successful projects across JVC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior in Design Jvc. Hotel Interior Design JVC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury hotel interior design jvc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Hotel Interior Design JVC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HotelInteriorDesignJvc() {
 
               <p>
                 Interiara stands out in the crowded JVC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our hotel interior in design jvc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in hotel interior near design jvc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignJvc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

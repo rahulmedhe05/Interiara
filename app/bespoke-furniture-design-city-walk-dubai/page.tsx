@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design City Walk, Bespoke Furniture Design in City Walk, Best bespoke furniture design City Walk, Professional bespoke furniture design City Walk, Luxury bespoke furniture design City Walk, Bespoke Furniture Design City Walk Dubai, Bespoke Furniture Design designer City Walk, Bespoke Furniture Design company City Walk, Bespoke Furniture Design contractor City Walk, Affordable bespoke furniture design City Walk, Modern bespoke furniture design City Walk, Bespoke Furniture Design consultation City Walk, Bespoke Furniture Design cost City Walk, Bespoke Furniture Design price City Walk, Top bespoke furniture design City Walk
+
+// SEO Keywords: Bespoke Furniture Design City Walk, Bespoke Furniture Design in City Walk, Best bespoke furniture design City Walk, Professional bespoke furniture design City Walk, Luxury bespoke furniture design City Walk, Bespoke Furniture Design City Walk Dubai, Bespoke Furniture Design designer City Walk, Bespoke Furniture Design company City Walk, Bespoke Furniture Design contractor City Walk, Affordable bespoke furniture design City Walk, Modern bespoke furniture design City Walk, Bespoke Furniture Design consultation City Walk, Bespoke Furniture Design cost City Walk, Bespoke Furniture Design price City Walk, Top bespoke furniture design City Walk, Bespoke Furniture Design near City Walk, Bespoke Furniture Design specialists City Walk, Bespoke Furniture Design experts City Walk, Bespoke Furniture Design solutions City Walk, Bespoke Furniture Design packages City Walk, Bespoke Furniture Design quotes City Walk, Bespoke Furniture Design estimates City Walk, Bespoke Furniture Design services near me City Walk, Cheap Bespoke Furniture Design City Walk, Quality Bespoke Furniture Design City Walk, Trusted Bespoke Furniture Design City Walk, Bespoke Furniture Design transformation City Walk, Bespoke Furniture Design renovation City Walk, Bespoke Furniture Design makeover City Walk, Best Bespoke Furniture Design company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture Design in City Walk. Best bespoke furniture design City Walk Company City Walk Our luxury bespoke furniture design city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture design in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture design near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

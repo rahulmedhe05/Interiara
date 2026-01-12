@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Mirdif, Art in Consultation Mirdif, Best art Consultation Mirdif, Professional art Consultation Mirdif, Luxury art Consultation Mirdif, Art Consultation Mirdif Dubai, Art designer Consultation Mirdif, Art company Consultation Mirdif, Art contractor Consultation Mirdif, Affordable art Consultation Mirdif, Modern art Consultation Mirdif, Art consultation Consultation Mirdif, Art cost Consultation Mirdif, Art price Consultation Mirdif, Top art Consultation Mirdif
+
+// SEO Keywords: Art Consultation Mirdif, Art in Consultation Mirdif, Best art Consultation Mirdif, Professional art Consultation Mirdif, Luxury art Consultation Mirdif, Art Consultation Mirdif Dubai, Art designer Consultation Mirdif, Art company Consultation Mirdif, Art contractor Consultation Mirdif, Affordable art Consultation Mirdif, Modern art Consultation Mirdif, Art consultation Consultation Mirdif, Art cost Consultation Mirdif, Art price Consultation Mirdif, Top art Consultation Mirdif, Art near Consultation Mirdif, Art specialists Consultation Mirdif, Art experts Consultation Mirdif, Art solutions Consultation Mirdif, Art packages Consultation Mirdif, Art quotes Consultation Mirdif, Art estimates Consultation Mirdif, Art services near me Consultation Mirdif, Cheap Art Consultation Mirdif, Quality Art Consultation Mirdif, Trusted Art Consultation Mirdif, Art transformation Consultation Mirdif, Art renovation Consultation Mirdif, Art makeover Consultation Mirdif, Best Art company Consultation Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art Consultation Mirdif Company Consultation Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art in Consultation Mirdif. Best art Consultation Mirdif Company Consultation Mirdif Our luxury art consultation mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art in consultation mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art near consultation mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

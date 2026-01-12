@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Mirdif, Interior in Visualization Mirdif, Best interior Visualization Mirdif, Professional interior Visualization Mirdif, Luxury interior Visualization Mirdif, Interior Visualization Mirdif Dubai, Interior designer Visualization Mirdif, Interior company Visualization Mirdif, Interior contractor Visualization Mirdif, Affordable interior Visualization Mirdif, Modern interior Visualization Mirdif, Interior consultation Visualization Mirdif, Interior cost Visualization Mirdif, Interior price Visualization Mirdif, Top interior Visualization Mirdif
+
+// SEO Keywords: Interior Visualization Mirdif, Interior in Visualization Mirdif, Best interior Visualization Mirdif, Professional interior Visualization Mirdif, Luxury interior Visualization Mirdif, Interior Visualization Mirdif Dubai, Interior designer Visualization Mirdif, Interior company Visualization Mirdif, Interior contractor Visualization Mirdif, Affordable interior Visualization Mirdif, Modern interior Visualization Mirdif, Interior consultation Visualization Mirdif, Interior cost Visualization Mirdif, Interior price Visualization Mirdif, Top interior Visualization Mirdif, Interior near Visualization Mirdif, Interior specialists Visualization Mirdif, Interior experts Visualization Mirdif, Interior solutions Visualization Mirdif, Interior packages Visualization Mirdif, Interior quotes Visualization Mirdif, Interior estimates Visualization Mirdif, Interior services near me Visualization Mirdif, Cheap Interior Visualization Mirdif, Quality Interior Visualization Mirdif, Trusted Interior Visualization Mirdif, Interior transformation Visualization Mirdif, Interior renovation Visualization Mirdif, Interior makeover Visualization Mirdif, Best Interior company Visualization Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior Visualization Mirdif Company Visualization Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior in Visualization Mirdif. Best interior Visualization Mirdif Company Visualization Mirdif Our luxury interior visualization mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior in visualization mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior near visualization mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

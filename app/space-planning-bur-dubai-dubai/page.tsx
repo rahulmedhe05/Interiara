@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Bur Dubai, Space Planning in Bur Dubai, Best space planning Bur Dubai, Professional space planning Bur Dubai, Luxury space planning Bur Dubai, Space Planning Bur Dubai Dubai, Space Planning designer Bur Dubai, Space Planning company Bur Dubai, Space Planning contractor Bur Dubai, Affordable space planning Bur Dubai, Modern space planning Bur Dubai, Space Planning consultation Bur Dubai, Space Planning cost Bur Dubai, Space Planning price Bur Dubai, Top space planning Bur Dubai
+
+// SEO Keywords: Space Planning Bur Dubai, Space Planning in Bur Dubai, Best space planning Bur Dubai, Professional space planning Bur Dubai, Luxury space planning Bur Dubai, Space Planning Bur Dubai Dubai, Space Planning designer Bur Dubai, Space Planning company Bur Dubai, Space Planning contractor Bur Dubai, Affordable space planning Bur Dubai, Modern space planning Bur Dubai, Space Planning consultation Bur Dubai, Space Planning cost Bur Dubai, Space Planning price Bur Dubai, Top space planning Bur Dubai, Space Planning near Bur Dubai, Space Planning specialists Bur Dubai, Space Planning experts Bur Dubai, Space Planning solutions Bur Dubai, Space Planning packages Bur Dubai, Space Planning quotes Bur Dubai, Space Planning estimates Bur Dubai, Space Planning services near me Bur Dubai, Cheap Space Planning Bur Dubai, Quality Space Planning Bur Dubai, Trusted Space Planning Bur Dubai, Space Planning transformation Bur Dubai, Space Planning renovation Bur Dubai, Space Planning makeover Bur Dubai, Best Space Planning company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningBurDubai() {
                 At Interiara, we believe that exceptional <strong>Space Planning Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space planning in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space planning near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

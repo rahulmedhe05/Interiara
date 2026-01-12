@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Culture Village, Healthcare Interior Design in Culture Village, Best healthcare interior design Culture Village, Professional healthcare interior design Culture Village, Luxury healthcare interior design Culture Village, Healthcare Interior Design Culture Village Dubai, Healthcare Interior Design designer Culture Village, Healthcare Interior Design company Culture Village, Healthcare Interior Design contractor Culture Village, Affordable healthcare interior design Culture Village, Modern healthcare interior design Culture Village, Healthcare Interior Design consultation Culture Village, Healthcare Interior Design cost Culture Village, Healthcare Interior Design price Culture Village, Top healthcare interior design Culture Village
+
+// SEO Keywords: Healthcare Interior Design Culture Village, Healthcare Interior Design in Culture Village, Best healthcare interior design Culture Village, Professional healthcare interior design Culture Village, Luxury healthcare interior design Culture Village, Healthcare Interior Design Culture Village Dubai, Healthcare Interior Design designer Culture Village, Healthcare Interior Design company Culture Village, Healthcare Interior Design contractor Culture Village, Affordable healthcare interior design Culture Village, Modern healthcare interior design Culture Village, Healthcare Interior Design consultation Culture Village, Healthcare Interior Design cost Culture Village, Healthcare Interior Design price Culture Village, Top healthcare interior design Culture Village, Healthcare Interior Design near Culture Village, Healthcare Interior Design specialists Culture Village, Healthcare Interior Design experts Culture Village, Healthcare Interior Design solutions Culture Village, Healthcare Interior Design packages Culture Village, Healthcare Interior Design quotes Culture Village, Healthcare Interior Design estimates Culture Village, Healthcare Interior Design services near me Culture Village, Cheap Healthcare Interior Design Culture Village, Quality Healthcare Interior Design Culture Village, Trusted Healthcare Interior Design Culture Village, Healthcare Interior Design transformation Culture Village, Healthcare Interior Design renovation Culture Village, Healthcare Interior Design makeover Culture Village, Best Healthcare Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior Design in Culture Village. Best healthcare interior design Culture Village Company Culture Village Our luxury healthcare interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

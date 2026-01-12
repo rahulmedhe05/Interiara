@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Discovery Hills, Acoustic Design in Discovery Hills, Best acoustic design Discovery Hills, Professional acoustic design Discovery Hills, Luxury acoustic design Discovery Hills, Acoustic Design Discovery Hills Dubai, Acoustic Design designer Discovery Hills, Acoustic Design company Discovery Hills, Acoustic Design contractor Discovery Hills, Affordable acoustic design Discovery Hills, Modern acoustic design Discovery Hills, Acoustic Design consultation Discovery Hills, Acoustic Design cost Discovery Hills, Acoustic Design price Discovery Hills, Top acoustic design Discovery Hills
+
+// SEO Keywords: Acoustic Design Discovery Hills, Acoustic Design in Discovery Hills, Best acoustic design Discovery Hills, Professional acoustic design Discovery Hills, Luxury acoustic design Discovery Hills, Acoustic Design Discovery Hills Dubai, Acoustic Design designer Discovery Hills, Acoustic Design company Discovery Hills, Acoustic Design contractor Discovery Hills, Affordable acoustic design Discovery Hills, Modern acoustic design Discovery Hills, Acoustic Design consultation Discovery Hills, Acoustic Design cost Discovery Hills, Acoustic Design price Discovery Hills, Top acoustic design Discovery Hills, Acoustic Design near Discovery Hills, Acoustic Design specialists Discovery Hills, Acoustic Design experts Discovery Hills, Acoustic Design solutions Discovery Hills, Acoustic Design packages Discovery Hills, Acoustic Design quotes Discovery Hills, Acoustic Design estimates Discovery Hills, Acoustic Design services near me Discovery Hills, Cheap Acoustic Design Discovery Hills, Quality Acoustic Design Discovery Hills, Trusted Acoustic Design Discovery Hills, Acoustic Design transformation Discovery Hills, Acoustic Design renovation Discovery Hills, Acoustic Design makeover Discovery Hills, Best Acoustic Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AcousticDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Acoustic Design in Discovery Hills. Best acoustic design Discovery Hills Company Discovery Hills Our luxury acoustic design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AcousticDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our acoustic design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AcousticDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in acoustic design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AcousticDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

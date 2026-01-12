@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Dubai Marina, Custom Furniture Design in Dubai Marina, Best custom furniture design Dubai Marina, Professional custom furniture design Dubai Marina, Luxury custom furniture design Dubai Marina, Custom Furniture Design Dubai Marina Dubai, Custom Furniture Design designer Dubai Marina, Custom Furniture Design company Dubai Marina, Custom Furniture Design contractor Dubai Marina, Affordable custom furniture design Dubai Marina, Modern custom furniture design Dubai Marina, Custom Furniture Design consultation Dubai Marina, Custom Furniture Design cost Dubai Marina, Custom Furniture Design price Dubai Marina, Top custom furniture design Dubai Marina
+
+// SEO Keywords: Custom Furniture Design Dubai Marina, Custom Furniture Design in Dubai Marina, Best custom furniture design Dubai Marina, Professional custom furniture design Dubai Marina, Luxury custom furniture design Dubai Marina, Custom Furniture Design Dubai Marina Dubai, Custom Furniture Design designer Dubai Marina, Custom Furniture Design company Dubai Marina, Custom Furniture Design contractor Dubai Marina, Affordable custom furniture design Dubai Marina, Modern custom furniture design Dubai Marina, Custom Furniture Design consultation Dubai Marina, Custom Furniture Design cost Dubai Marina, Custom Furniture Design price Dubai Marina, Top custom furniture design Dubai Marina, Custom Furniture Design near Dubai Marina, Custom Furniture Design specialists Dubai Marina, Custom Furniture Design experts Dubai Marina, Custom Furniture Design solutions Dubai Marina, Custom Furniture Design packages Dubai Marina, Custom Furniture Design quotes Dubai Marina, Custom Furniture Design estimates Dubai Marina, Custom Furniture Design services near me Dubai Marina, Cheap Custom Furniture Design Dubai Marina, Quality Custom Furniture Design Dubai Marina, Trusted Custom Furniture Design Dubai Marina, Custom Furniture Design transformation Dubai Marina, Custom Furniture Design renovation Dubai Marina, Custom Furniture Design makeover Dubai Marina, Best Custom Furniture Design company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Dubai Marina. Best custom furniture design Dubai Marina Company Dubai Marina Our luxury custom furniture design dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

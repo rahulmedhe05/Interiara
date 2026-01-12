@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Difc, Space in Planning Difc, Best space Planning Difc, Professional space Planning Difc, Luxury space Planning Difc, Space Planning Difc Dubai, Space designer Planning Difc, Space company Planning Difc, Space contractor Planning Difc, Affordable space Planning Difc, Modern space Planning Difc, Space consultation Planning Difc, Space cost Planning Difc, Space price Planning Difc, Top space Planning Difc
+
+// SEO Keywords: Space Planning Difc, Space in Planning Difc, Best space Planning Difc, Professional space Planning Difc, Luxury space Planning Difc, Space Planning Difc Dubai, Space designer Planning Difc, Space company Planning Difc, Space contractor Planning Difc, Affordable space Planning Difc, Modern space Planning Difc, Space consultation Planning Difc, Space cost Planning Difc, Space price Planning Difc, Top space Planning Difc, Space near Planning Difc, Space specialists Planning Difc, Space experts Planning Difc, Space solutions Planning Difc, Space packages Planning Difc, Space quotes Planning Difc, Space estimates Planning Difc, Space services near me Planning Difc, Cheap Space Planning Difc, Quality Space Planning Difc, Trusted Space Planning Difc, Space transformation Planning Difc, Space renovation Planning Difc, Space makeover Planning Difc, Best Space company Planning Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpacePlanningDifc() {
                 At Interiara, we believe that exceptional <strong>Space Planning DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space in Planning Difc. Space Planning Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury space planning difc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning DIFC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpacePlanningDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our space in planning difc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in space near planning difc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpacePlanningDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

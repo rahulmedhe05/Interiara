@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Event Hall Interior Design Bur, Event Hall Interior in Design Bur, Best event hall interior Design Bur, Professional event hall interior Design Bur, Luxury event hall interior Design Bur, Event Hall Interior Design Bur Dubai, Event Hall Interior designer Design Bur, Event Hall Interior company Design Bur, Event Hall Interior contractor Design Bur, Affordable event hall interior Design Bur, Modern event hall interior Design Bur, Event Hall Interior consultation Design Bur, Event Hall Interior cost Design Bur, Event Hall Interior price Design Bur, Top event hall interior Design Bur
+
+// SEO Keywords: Event Hall Interior Design Bur, Event Hall Interior in Design Bur, Best event hall interior Design Bur, Professional event hall interior Design Bur, Luxury event hall interior Design Bur, Event Hall Interior Design Bur Dubai, Event Hall Interior designer Design Bur, Event Hall Interior company Design Bur, Event Hall Interior contractor Design Bur, Affordable event hall interior Design Bur, Modern event hall interior Design Bur, Event Hall Interior consultation Design Bur, Event Hall Interior cost Design Bur, Event Hall Interior price Design Bur, Top event hall interior Design Bur, Event Hall Interior near Design Bur, Event Hall Interior specialists Design Bur, Event Hall Interior experts Design Bur, Event Hall Interior solutions Design Bur, Event Hall Interior packages Design Bur, Event Hall Interior quotes Design Bur, Event Hall Interior estimates Design Bur, Event Hall Interior services near me Design Bur, Cheap Event Hall Interior Design Bur, Quality Event Hall Interior Design Bur, Trusted Event Hall Interior Design Bur, Event Hall Interior transformation Design Bur, Event Hall Interior renovation Design Bur, Event Hall Interior makeover Design Bur, Best Event Hall Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EventHallInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Event Hall Interior in Design Bur. Best event hall interior Design Bur Company Design Bur Our luxury event hall interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EventHallInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our event hall interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EventHallInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in event hall interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EventHallInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

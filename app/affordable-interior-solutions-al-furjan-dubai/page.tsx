@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Al Furjan, Affordable Interior Solutions in Al Furjan, Best affordable interior solutions Al Furjan, Professional affordable interior solutions Al Furjan, Luxury affordable interior solutions Al Furjan, Affordable Interior Solutions Al Furjan Dubai, Affordable Interior Solutions designer Al Furjan, Affordable Interior Solutions company Al Furjan, Affordable Interior Solutions contractor Al Furjan, Affordable affordable interior solutions Al Furjan, Modern affordable interior solutions Al Furjan, Affordable Interior Solutions consultation Al Furjan, Affordable Interior Solutions cost Al Furjan, Affordable Interior Solutions price Al Furjan, Top affordable interior solutions Al Furjan
+
+// SEO Keywords: Affordable Interior Solutions Al Furjan, Affordable Interior Solutions in Al Furjan, Best affordable interior solutions Al Furjan, Professional affordable interior solutions Al Furjan, Luxury affordable interior solutions Al Furjan, Affordable Interior Solutions Al Furjan Dubai, Affordable Interior Solutions designer Al Furjan, Affordable Interior Solutions company Al Furjan, Affordable Interior Solutions contractor Al Furjan, Affordable affordable interior solutions Al Furjan, Modern affordable interior solutions Al Furjan, Affordable Interior Solutions consultation Al Furjan, Affordable Interior Solutions cost Al Furjan, Affordable Interior Solutions price Al Furjan, Top affordable interior solutions Al Furjan, Affordable Interior Solutions near Al Furjan, Affordable Interior Solutions specialists Al Furjan, Affordable Interior Solutions experts Al Furjan, Affordable Interior Solutions solutions Al Furjan, Affordable Interior Solutions packages Al Furjan, Affordable Interior Solutions quotes Al Furjan, Affordable Interior Solutions estimates Al Furjan, Affordable Interior Solutions services near me Al Furjan, Cheap Affordable Interior Solutions Al Furjan, Quality Affordable Interior Solutions Al Furjan, Trusted Affordable Interior Solutions Al Furjan, Affordable Interior Solutions transformation Al Furjan, Affordable Interior Solutions renovation Al Furjan, Affordable Interior Solutions makeover Al Furjan, Best Affordable Interior Solutions company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Al Furjan. Best affordable interior solutions Al Furjan Company Al Furjan Our luxury affordable interior solutions al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

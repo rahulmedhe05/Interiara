@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Bur Dubai, Window Curtains in Bur Dubai, Best window curtains Bur Dubai, Professional window curtains Bur Dubai, Luxury window curtains Bur Dubai, Window Curtains Bur Dubai Dubai, Window Curtains designer Bur Dubai, Window Curtains company Bur Dubai, Window Curtains contractor Bur Dubai, Affordable window curtains Bur Dubai, Modern window curtains Bur Dubai, Window Curtains consultation Bur Dubai, Window Curtains cost Bur Dubai, Window Curtains price Bur Dubai, Top window curtains Bur Dubai
+
+// SEO Keywords: Window Curtains Bur Dubai, Window Curtains in Bur Dubai, Best window curtains Bur Dubai, Professional window curtains Bur Dubai, Luxury window curtains Bur Dubai, Window Curtains Bur Dubai Dubai, Window Curtains designer Bur Dubai, Window Curtains company Bur Dubai, Window Curtains contractor Bur Dubai, Affordable window curtains Bur Dubai, Modern window curtains Bur Dubai, Window Curtains consultation Bur Dubai, Window Curtains cost Bur Dubai, Window Curtains price Bur Dubai, Top window curtains Bur Dubai, Window Curtains near Bur Dubai, Window Curtains specialists Bur Dubai, Window Curtains experts Bur Dubai, Window Curtains solutions Bur Dubai, Window Curtains packages Bur Dubai, Window Curtains quotes Bur Dubai, Window Curtains estimates Bur Dubai, Window Curtains services near me Bur Dubai, Cheap Window Curtains Bur Dubai, Quality Window Curtains Bur Dubai, Trusted Window Curtains Bur Dubai, Window Curtains transformation Bur Dubai, Window Curtains renovation Bur Dubai, Window Curtains makeover Bur Dubai, Best Window Curtains company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsBurDubai() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

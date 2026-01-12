@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Business Bay South, Wall Coverings Business in Bay South, Best wall coverings business Bay South, Professional wall coverings business Bay South, Luxury wall coverings business Bay South, Wall Coverings Business Bay South Dubai, Wall Coverings Business designer Bay South, Wall Coverings Business company Bay South, Wall Coverings Business contractor Bay South, Affordable wall coverings business Bay South, Modern wall coverings business Bay South, Wall Coverings Business consultation Bay South, Wall Coverings Business cost Bay South, Wall Coverings Business price Bay South, Top wall coverings business Bay South
+
+// SEO Keywords: Wall Coverings Business Bay South, Wall Coverings Business in Bay South, Best wall coverings business Bay South, Professional wall coverings business Bay South, Luxury wall coverings business Bay South, Wall Coverings Business Bay South Dubai, Wall Coverings Business designer Bay South, Wall Coverings Business company Bay South, Wall Coverings Business contractor Bay South, Affordable wall coverings business Bay South, Modern wall coverings business Bay South, Wall Coverings Business consultation Bay South, Wall Coverings Business cost Bay South, Wall Coverings Business price Bay South, Top wall coverings business Bay South, Wall Coverings Business near Bay South, Wall Coverings Business specialists Bay South, Wall Coverings Business experts Bay South, Wall Coverings Business solutions Bay South, Wall Coverings Business packages Bay South, Wall Coverings Business quotes Bay South, Wall Coverings Business estimates Bay South, Wall Coverings Business services near me Bay South, Cheap Wall Coverings Business Bay South, Quality Wall Coverings Business Bay South, Trusted Wall Coverings Business Bay South, Wall Coverings Business transformation Bay South, Wall Coverings Business renovation Bay South, Wall Coverings Business makeover Bay South, Best Wall Coverings Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings Business in Bay South. Best wall coverings business Bay South Company Bay South Our luxury wall coverings business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

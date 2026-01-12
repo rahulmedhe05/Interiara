@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design, Kitchen in Interior Design, Best kitchen Interior Design, Professional kitchen Interior Design, Luxury kitchen Interior Design, Kitchen Interior Design Dubai, Kitchen designer Interior Design, Kitchen company Interior Design, Kitchen contractor Interior Design, Affordable kitchen Interior Design, Modern kitchen Interior Design, Kitchen consultation Interior Design, Kitchen cost Interior Design, Kitchen price Interior Design, Top kitchen Interior Design
+
+// SEO Keywords: Kitchen Interior Design, Kitchen in Interior Design, Best kitchen Interior Design, Professional kitchen Interior Design, Luxury kitchen Interior Design, Kitchen Interior Design Dubai, Kitchen designer Interior Design, Kitchen company Interior Design, Kitchen contractor Interior Design, Affordable kitchen Interior Design, Modern kitchen Interior Design, Kitchen consultation Interior Design, Kitchen cost Interior Design, Kitchen price Interior Design, Top kitchen Interior Design, Kitchen near Interior Design, Kitchen specialists Interior Design, Kitchen experts Interior Design, Kitchen solutions Interior Design, Kitchen packages Interior Design, Kitchen quotes Interior Design, Kitchen estimates Interior Design, Kitchen services near me Interior Design, Cheap Kitchen Interior Design, Quality Kitchen Interior Design, Trusted Kitchen Interior Design, Kitchen transformation Interior Design, Kitchen renovation Interior Design, Kitchen makeover Interior Design, Best Kitchen company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen in Interior Design. Best kitchen Interior Design Company Interior Design Our luxury kitchen interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Al Barsha South, Wall Coverings Al in Barsha South, Best wall coverings al Barsha South, Professional wall coverings al Barsha South, Luxury wall coverings al Barsha South, Wall Coverings Al Barsha South Dubai, Wall Coverings Al designer Barsha South, Wall Coverings Al company Barsha South, Wall Coverings Al contractor Barsha South, Affordable wall coverings al Barsha South, Modern wall coverings al Barsha South, Wall Coverings Al consultation Barsha South, Wall Coverings Al cost Barsha South, Wall Coverings Al price Barsha South, Top wall coverings al Barsha South
+
+// SEO Keywords: Wall Coverings Al Barsha South, Wall Coverings Al in Barsha South, Best wall coverings al Barsha South, Professional wall coverings al Barsha South, Luxury wall coverings al Barsha South, Wall Coverings Al Barsha South Dubai, Wall Coverings Al designer Barsha South, Wall Coverings Al company Barsha South, Wall Coverings Al contractor Barsha South, Affordable wall coverings al Barsha South, Modern wall coverings al Barsha South, Wall Coverings Al consultation Barsha South, Wall Coverings Al cost Barsha South, Wall Coverings Al price Barsha South, Top wall coverings al Barsha South, Wall Coverings Al near Barsha South, Wall Coverings Al specialists Barsha South, Wall Coverings Al experts Barsha South, Wall Coverings Al solutions Barsha South, Wall Coverings Al packages Barsha South, Wall Coverings Al quotes Barsha South, Wall Coverings Al estimates Barsha South, Wall Coverings Al services near me Barsha South, Cheap Wall Coverings Al Barsha South, Quality Wall Coverings Al Barsha South, Trusted Wall Coverings Al Barsha South, Wall Coverings Al transformation Barsha South, Wall Coverings Al renovation Barsha South, Wall Coverings Al makeover Barsha South, Best Wall Coverings Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallCoveringsAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Coverings Al in Barsha South. Best wall coverings al Barsha South Company Barsha South Our luxury wall coverings al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallCoveringsAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall coverings al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallCoveringsAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall coverings al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallCoveringsAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

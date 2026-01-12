@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains The Villa, Window Curtains in The Villa, Best window curtains The Villa, Professional window curtains The Villa, Luxury window curtains The Villa, Window Curtains The Villa Dubai, Window Curtains designer The Villa, Window Curtains company The Villa, Window Curtains contractor The Villa, Affordable window curtains The Villa, Modern window curtains The Villa, Window Curtains consultation The Villa, Window Curtains cost The Villa, Window Curtains price The Villa, Top window curtains The Villa
+
+// SEO Keywords: Window Curtains The Villa, Window Curtains in The Villa, Best window curtains The Villa, Professional window curtains The Villa, Luxury window curtains The Villa, Window Curtains The Villa Dubai, Window Curtains designer The Villa, Window Curtains company The Villa, Window Curtains contractor The Villa, Affordable window curtains The Villa, Modern window curtains The Villa, Window Curtains consultation The Villa, Window Curtains cost The Villa, Window Curtains price The Villa, Top window curtains The Villa, Window Curtains near The Villa, Window Curtains specialists The Villa, Window Curtains experts The Villa, Window Curtains solutions The Villa, Window Curtains packages The Villa, Window Curtains quotes The Villa, Window Curtains estimates The Villa, Window Curtains services near me The Villa, Cheap Window Curtains The Villa, Quality Window Curtains The Villa, Trusted Window Curtains The Villa, Window Curtains transformation The Villa, Window Curtains renovation The Villa, Window Curtains makeover The Villa, Best Window Curtains company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsTheVilla() {
                 At Interiara, we believe that exceptional <strong>Window Curtains The Villa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Villa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in The Villa. 
                 We've completed 300+ successful projects across The Villa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains The Villa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains the villa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains The Villa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in the villa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near the villa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Al Karama, Wardrobe Design in Al Karama, Best wardrobe design Al Karama, Professional wardrobe design Al Karama, Luxury wardrobe design Al Karama, Wardrobe Design Al Karama Dubai, Wardrobe Design designer Al Karama, Wardrobe Design company Al Karama, Wardrobe Design contractor Al Karama, Affordable wardrobe design Al Karama, Modern wardrobe design Al Karama, Wardrobe Design consultation Al Karama, Wardrobe Design cost Al Karama, Wardrobe Design price Al Karama, Top wardrobe design Al Karama
+
+// SEO Keywords: Wardrobe Design Al Karama, Wardrobe Design in Al Karama, Best wardrobe design Al Karama, Professional wardrobe design Al Karama, Luxury wardrobe design Al Karama, Wardrobe Design Al Karama Dubai, Wardrobe Design designer Al Karama, Wardrobe Design company Al Karama, Wardrobe Design contractor Al Karama, Affordable wardrobe design Al Karama, Modern wardrobe design Al Karama, Wardrobe Design consultation Al Karama, Wardrobe Design cost Al Karama, Wardrobe Design price Al Karama, Top wardrobe design Al Karama, Wardrobe Design near Al Karama, Wardrobe Design specialists Al Karama, Wardrobe Design experts Al Karama, Wardrobe Design solutions Al Karama, Wardrobe Design packages Al Karama, Wardrobe Design quotes Al Karama, Wardrobe Design estimates Al Karama, Wardrobe Design services near me Al Karama, Cheap Wardrobe Design Al Karama, Quality Wardrobe Design Al Karama, Trusted Wardrobe Design Al Karama, Wardrobe Design transformation Al Karama, Wardrobe Design renovation Al Karama, Wardrobe Design makeover Al Karama, Best Wardrobe Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignAlKarama() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe design in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe design near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

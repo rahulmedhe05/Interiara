@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Bur, Living Room Interior in Design Bur, Best living room interior Design Bur, Professional living room interior Design Bur, Luxury living room interior Design Bur, Living Room Interior Design Bur Dubai, Living Room Interior designer Design Bur, Living Room Interior company Design Bur, Living Room Interior contractor Design Bur, Affordable living room interior Design Bur, Modern living room interior Design Bur, Living Room Interior consultation Design Bur, Living Room Interior cost Design Bur, Living Room Interior price Design Bur, Top living room interior Design Bur
+
+// SEO Keywords: Living Room Interior Design Bur, Living Room Interior in Design Bur, Best living room interior Design Bur, Professional living room interior Design Bur, Luxury living room interior Design Bur, Living Room Interior Design Bur Dubai, Living Room Interior designer Design Bur, Living Room Interior company Design Bur, Living Room Interior contractor Design Bur, Affordable living room interior Design Bur, Modern living room interior Design Bur, Living Room Interior consultation Design Bur, Living Room Interior cost Design Bur, Living Room Interior price Design Bur, Top living room interior Design Bur, Living Room Interior near Design Bur, Living Room Interior specialists Design Bur, Living Room Interior experts Design Bur, Living Room Interior solutions Design Bur, Living Room Interior packages Design Bur, Living Room Interior quotes Design Bur, Living Room Interior estimates Design Bur, Living Room Interior services near me Design Bur, Cheap Living Room Interior Design Bur, Quality Living Room Interior Design Bur, Trusted Living Room Interior Design Bur, Living Room Interior transformation Design Bur, Living Room Interior renovation Design Bur, Living Room Interior makeover Design Bur, Best Living Room Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior in Design Bur. Best living room interior Design Bur Company Design Bur Our luxury living room interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

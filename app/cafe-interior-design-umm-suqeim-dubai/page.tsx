@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Umm Suqeim, Cafe Interior Design in Umm Suqeim, Best cafe interior design Umm Suqeim, Professional cafe interior design Umm Suqeim, Luxury cafe interior design Umm Suqeim, Cafe Interior Design Umm Suqeim Dubai, Cafe Interior Design designer Umm Suqeim, Cafe Interior Design company Umm Suqeim, Cafe Interior Design contractor Umm Suqeim, Affordable cafe interior design Umm Suqeim, Modern cafe interior design Umm Suqeim, Cafe Interior Design consultation Umm Suqeim, Cafe Interior Design cost Umm Suqeim, Cafe Interior Design price Umm Suqeim, Top cafe interior design Umm Suqeim
+
+// SEO Keywords: Cafe Interior Design Umm Suqeim, Cafe Interior Design in Umm Suqeim, Best cafe interior design Umm Suqeim, Professional cafe interior design Umm Suqeim, Luxury cafe interior design Umm Suqeim, Cafe Interior Design Umm Suqeim Dubai, Cafe Interior Design designer Umm Suqeim, Cafe Interior Design company Umm Suqeim, Cafe Interior Design contractor Umm Suqeim, Affordable cafe interior design Umm Suqeim, Modern cafe interior design Umm Suqeim, Cafe Interior Design consultation Umm Suqeim, Cafe Interior Design cost Umm Suqeim, Cafe Interior Design price Umm Suqeim, Top cafe interior design Umm Suqeim, Cafe Interior Design near Umm Suqeim, Cafe Interior Design specialists Umm Suqeim, Cafe Interior Design experts Umm Suqeim, Cafe Interior Design solutions Umm Suqeim, Cafe Interior Design packages Umm Suqeim, Cafe Interior Design quotes Umm Suqeim, Cafe Interior Design estimates Umm Suqeim, Cafe Interior Design services near me Umm Suqeim, Cheap Cafe Interior Design Umm Suqeim, Quality Cafe Interior Design Umm Suqeim, Trusted Cafe Interior Design Umm Suqeim, Cafe Interior Design transformation Umm Suqeim, Cafe Interior Design renovation Umm Suqeim, Cafe Interior Design makeover Umm Suqeim, Best Cafe Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CafeInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Cafe Interior Design in Umm Suqeim. Best cafe interior design Umm Suqeim Company Umm Suqeim Our luxury cafe interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CafeInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our cafe interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CafeInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in cafe interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Umm Suqeim, Affordable Interior Solutions in Umm Suqeim, Best affordable interior solutions Umm Suqeim, Professional affordable interior solutions Umm Suqeim, Luxury affordable interior solutions Umm Suqeim, Affordable Interior Solutions Umm Suqeim Dubai, Affordable Interior Solutions designer Umm Suqeim, Affordable Interior Solutions company Umm Suqeim, Affordable Interior Solutions contractor Umm Suqeim, Affordable affordable interior solutions Umm Suqeim, Modern affordable interior solutions Umm Suqeim, Affordable Interior Solutions consultation Umm Suqeim, Affordable Interior Solutions cost Umm Suqeim, Affordable Interior Solutions price Umm Suqeim, Top affordable interior solutions Umm Suqeim
+
+// SEO Keywords: Affordable Interior Solutions Umm Suqeim, Affordable Interior Solutions in Umm Suqeim, Best affordable interior solutions Umm Suqeim, Professional affordable interior solutions Umm Suqeim, Luxury affordable interior solutions Umm Suqeim, Affordable Interior Solutions Umm Suqeim Dubai, Affordable Interior Solutions designer Umm Suqeim, Affordable Interior Solutions company Umm Suqeim, Affordable Interior Solutions contractor Umm Suqeim, Affordable affordable interior solutions Umm Suqeim, Modern affordable interior solutions Umm Suqeim, Affordable Interior Solutions consultation Umm Suqeim, Affordable Interior Solutions cost Umm Suqeim, Affordable Interior Solutions price Umm Suqeim, Top affordable interior solutions Umm Suqeim, Affordable Interior Solutions near Umm Suqeim, Affordable Interior Solutions specialists Umm Suqeim, Affordable Interior Solutions experts Umm Suqeim, Affordable Interior Solutions solutions Umm Suqeim, Affordable Interior Solutions packages Umm Suqeim, Affordable Interior Solutions quotes Umm Suqeim, Affordable Interior Solutions estimates Umm Suqeim, Affordable Interior Solutions services near me Umm Suqeim, Cheap Affordable Interior Solutions Umm Suqeim, Quality Affordable Interior Solutions Umm Suqeim, Trusted Affordable Interior Solutions Umm Suqeim, Affordable Interior Solutions transformation Umm Suqeim, Affordable Interior Solutions renovation Umm Suqeim, Affordable Interior Solutions makeover Umm Suqeim, Best Affordable Interior Solutions company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Umm Suqeim. Best affordable interior solutions Umm Suqeim Company Umm Suqeim Our luxury affordable interior solutions umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

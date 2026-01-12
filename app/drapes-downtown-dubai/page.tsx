@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Drapes Downtown,  in Drapes Downtown, Best  Drapes Downtown, Professional  Drapes Downtown, Luxury  Drapes Downtown,  Drapes Downtown Dubai,  designer Drapes Downtown,  company Drapes Downtown,  contractor Drapes Downtown, Affordable  Drapes Downtown, Modern  Drapes Downtown,  consultation Drapes Downtown,  cost Drapes Downtown,  price Drapes Downtown, Top  Drapes Downtown
+
+// SEO Keywords:  Drapes Downtown,  in Drapes Downtown, Best  Drapes Downtown, Professional  Drapes Downtown, Luxury  Drapes Downtown,  Drapes Downtown Dubai,  designer Drapes Downtown,  company Drapes Downtown,  contractor Drapes Downtown, Affordable  Drapes Downtown, Modern  Drapes Downtown,  consultation Drapes Downtown,  cost Drapes Downtown,  price Drapes Downtown, Top  Drapes Downtown,  near Drapes Downtown,  specialists Drapes Downtown,  experts Drapes Downtown,  solutions Drapes Downtown,  packages Drapes Downtown,  quotes Drapes Downtown,  estimates Drapes Downtown,  services near me Drapes Downtown, Cheap  Drapes Downtown, Quality  Drapes Downtown, Trusted  Drapes Downtown,  transformation Drapes Downtown,  renovation Drapes Downtown,  makeover Drapes Downtown, Best  company Drapes Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesDowntown() {
                 At Interiara, we believe that exceptional <strong>Drapes Downtown Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Downtown Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Drapes Downtown. 
                 We've completed 300+ successful projects across Downtown Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Downtown Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  drapes downtown services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Downtown Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  drapes downtown service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near drapes downtown.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

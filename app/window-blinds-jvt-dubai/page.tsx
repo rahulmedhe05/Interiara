@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Jvt, Window in Blinds Jvt, Best window Blinds Jvt, Professional window Blinds Jvt, Luxury window Blinds Jvt, Window Blinds Jvt Dubai, Window designer Blinds Jvt, Window company Blinds Jvt, Window contractor Blinds Jvt, Affordable window Blinds Jvt, Modern window Blinds Jvt, Window consultation Blinds Jvt, Window cost Blinds Jvt, Window price Blinds Jvt, Top window Blinds Jvt
+
+// SEO Keywords: Window Blinds Jvt, Window in Blinds Jvt, Best window Blinds Jvt, Professional window Blinds Jvt, Luxury window Blinds Jvt, Window Blinds Jvt Dubai, Window designer Blinds Jvt, Window company Blinds Jvt, Window contractor Blinds Jvt, Affordable window Blinds Jvt, Modern window Blinds Jvt, Window consultation Blinds Jvt, Window cost Blinds Jvt, Window price Blinds Jvt, Top window Blinds Jvt, Window near Blinds Jvt, Window specialists Blinds Jvt, Window experts Blinds Jvt, Window solutions Blinds Jvt, Window packages Blinds Jvt, Window quotes Blinds Jvt, Window estimates Blinds Jvt, Window services near me Blinds Jvt, Cheap Window Blinds Jvt, Quality Window Blinds Jvt, Trusted Window Blinds Jvt, Window transformation Blinds Jvt, Window renovation Blinds Jvt, Window makeover Blinds Jvt, Best Window company Blinds Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsJvt() {
                 At Interiara, we believe that exceptional <strong>Window Blinds JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Blinds Jvt. Window Blinds Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window blinds jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in blinds jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near blinds jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

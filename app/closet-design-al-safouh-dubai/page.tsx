@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Safouh, Closet Design in Al Safouh, Best closet design Al Safouh, Professional closet design Al Safouh, Luxury closet design Al Safouh, Closet Design Al Safouh Dubai, Closet Design designer Al Safouh, Closet Design company Al Safouh, Closet Design contractor Al Safouh, Affordable closet design Al Safouh, Modern closet design Al Safouh, Closet Design consultation Al Safouh, Closet Design cost Al Safouh, Closet Design price Al Safouh, Top closet design Al Safouh
+
+// SEO Keywords: Closet Design Al Safouh, Closet Design in Al Safouh, Best closet design Al Safouh, Professional closet design Al Safouh, Luxury closet design Al Safouh, Closet Design Al Safouh Dubai, Closet Design designer Al Safouh, Closet Design company Al Safouh, Closet Design contractor Al Safouh, Affordable closet design Al Safouh, Modern closet design Al Safouh, Closet Design consultation Al Safouh, Closet Design cost Al Safouh, Closet Design price Al Safouh, Top closet design Al Safouh, Closet Design near Al Safouh, Closet Design specialists Al Safouh, Closet Design experts Al Safouh, Closet Design solutions Al Safouh, Closet Design packages Al Safouh, Closet Design quotes Al Safouh, Closet Design estimates Al Safouh, Closet Design services near me Al Safouh, Cheap Closet Design Al Safouh, Quality Closet Design Al Safouh, Trusted Closet Design Al Safouh, Closet Design transformation Al Safouh, Closet Design renovation Al Safouh, Closet Design makeover Al Safouh, Best Closet Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignAlSafouh() {
                 At Interiara, we believe that exceptional <strong>Closet Design Al Safouh Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safouh Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Al Safouh. 
                 We've completed 300+ successful projects across Al Safouh Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Al Safouh Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design al safouh services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Al Safouh Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in al safouh service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near al safouh.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

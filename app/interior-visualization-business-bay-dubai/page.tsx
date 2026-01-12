@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Business Bay, Interior Visualization in Business Bay, Best interior visualization Business Bay, Professional interior visualization Business Bay, Luxury interior visualization Business Bay, Interior Visualization Business Bay Dubai, Interior Visualization designer Business Bay, Interior Visualization company Business Bay, Interior Visualization contractor Business Bay, Affordable interior visualization Business Bay, Modern interior visualization Business Bay, Interior Visualization consultation Business Bay, Interior Visualization cost Business Bay, Interior Visualization price Business Bay, Top interior visualization Business Bay
+
+// SEO Keywords: Interior Visualization Business Bay, Interior Visualization in Business Bay, Best interior visualization Business Bay, Professional interior visualization Business Bay, Luxury interior visualization Business Bay, Interior Visualization Business Bay Dubai, Interior Visualization designer Business Bay, Interior Visualization company Business Bay, Interior Visualization contractor Business Bay, Affordable interior visualization Business Bay, Modern interior visualization Business Bay, Interior Visualization consultation Business Bay, Interior Visualization cost Business Bay, Interior Visualization price Business Bay, Top interior visualization Business Bay, Interior Visualization near Business Bay, Interior Visualization specialists Business Bay, Interior Visualization experts Business Bay, Interior Visualization solutions Business Bay, Interior Visualization packages Business Bay, Interior Visualization quotes Business Bay, Interior Visualization estimates Business Bay, Interior Visualization services near me Business Bay, Cheap Interior Visualization Business Bay, Quality Interior Visualization Business Bay, Trusted Interior Visualization Business Bay, Interior Visualization transformation Business Bay, Interior Visualization renovation Business Bay, Interior Visualization makeover Business Bay, Best Interior Visualization company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in Business Bay. Best interior visualization Business Bay Company Business Bay Our luxury interior visualization business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

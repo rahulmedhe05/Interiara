@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Dubai Hills, Interior Design in Dubai Hills, Best interior design Dubai Hills, Professional interior design Dubai Hills, Luxury interior design Dubai Hills, Interior Design Dubai Hills Dubai, Interior Design designer Dubai Hills, Interior Design company Dubai Hills, Interior Design contractor Dubai Hills, Affordable interior design Dubai Hills, Modern interior design Dubai Hills, Interior Design consultation Dubai Hills, Interior Design cost Dubai Hills, Interior Design price Dubai Hills, Top interior design Dubai Hills
+
+// SEO Keywords: Interior Design Dubai Hills, Interior Design in Dubai Hills, Best interior design Dubai Hills, Professional interior design Dubai Hills, Luxury interior design Dubai Hills, Interior Design Dubai Hills Dubai, Interior Design designer Dubai Hills, Interior Design company Dubai Hills, Interior Design contractor Dubai Hills, Affordable interior design Dubai Hills, Modern interior design Dubai Hills, Interior Design consultation Dubai Hills, Interior Design cost Dubai Hills, Interior Design price Dubai Hills, Top interior design Dubai Hills, Interior Design near Dubai Hills, Interior Design specialists Dubai Hills, Interior Design experts Dubai Hills, Interior Design solutions Dubai Hills, Interior Design packages Dubai Hills, Interior Design quotes Dubai Hills, Interior Design estimates Dubai Hills, Interior Design services near me Dubai Hills, Cheap Interior Design Dubai Hills, Quality Interior Design Dubai Hills, Trusted Interior Design Dubai Hills, Interior Design transformation Dubai Hills, Interior Design renovation Dubai Hills, Interior Design makeover Dubai Hills, Best Interior Design company Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design Dubai Hills Company Dubai Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Design in Dubai Hills. Best interior design Dubai Hills Company Dubai Hills Our professional interior design dubai hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function InteriorDesignDubaiHills() {
                 At Interiara, we believe that exceptional <strong>Interior Design Hills Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Hills Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior Design Dubai Hills. 
                 We've completed 300+ successful projects across Hills Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Hills Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function InteriorDesignDubaiHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior design in dubai hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorDesignDubaiHills() {
 
               <p>
                 Interiara stands out in the crowded Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior design near dubai hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorDesignDubaiHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

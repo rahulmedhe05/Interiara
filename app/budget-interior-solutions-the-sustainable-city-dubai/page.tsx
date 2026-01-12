@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Budget Interior Solutions The Sustainable City, Budget Interior Solutions The in Sustainable City, Best budget interior solutions the Sustainable City, Professional budget interior solutions the Sustainable City, Luxury budget interior solutions the Sustainable City, Budget Interior Solutions The Sustainable City Dubai, Budget Interior Solutions The designer Sustainable City, Budget Interior Solutions The company Sustainable City, Budget Interior Solutions The contractor Sustainable City, Affordable budget interior solutions the Sustainable City, Modern budget interior solutions the Sustainable City, Budget Interior Solutions The consultation Sustainable City, Budget Interior Solutions The cost Sustainable City, Budget Interior Solutions The price Sustainable City, Top budget interior solutions the Sustainable City
+
+// SEO Keywords: Budget Interior Solutions The Sustainable City, Budget Interior Solutions The in Sustainable City, Best budget interior solutions the Sustainable City, Professional budget interior solutions the Sustainable City, Luxury budget interior solutions the Sustainable City, Budget Interior Solutions The Sustainable City Dubai, Budget Interior Solutions The designer Sustainable City, Budget Interior Solutions The company Sustainable City, Budget Interior Solutions The contractor Sustainable City, Affordable budget interior solutions the Sustainable City, Modern budget interior solutions the Sustainable City, Budget Interior Solutions The consultation Sustainable City, Budget Interior Solutions The cost Sustainable City, Budget Interior Solutions The price Sustainable City, Top budget interior solutions the Sustainable City, Budget Interior Solutions The near Sustainable City, Budget Interior Solutions The specialists Sustainable City, Budget Interior Solutions The experts Sustainable City, Budget Interior Solutions The solutions Sustainable City, Budget Interior Solutions The packages Sustainable City, Budget Interior Solutions The quotes Sustainable City, Budget Interior Solutions The estimates Sustainable City, Budget Interior Solutions The services near me Sustainable City, Cheap Budget Interior Solutions The Sustainable City, Quality Budget Interior Solutions The Sustainable City, Trusted Budget Interior Solutions The Sustainable City, Budget Interior Solutions The transformation Sustainable City, Budget Interior Solutions The renovation Sustainable City, Budget Interior Solutions The makeover Sustainable City, Best Budget Interior Solutions The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BudgetInteriorSolutionsTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Budget Interior Solutions The in Sustainable City. Best budget interior solutions the Sustainable City Company Sustainable City Our luxury budget interior solutions the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BudgetInteriorSolutionsTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our budget interior solutions the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BudgetInteriorSolutionsTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in budget interior solutions the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BudgetInteriorSolutionsTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

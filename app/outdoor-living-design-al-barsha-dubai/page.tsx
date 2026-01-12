@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Al Barsha, Outdoor Living Design in Al Barsha, Best outdoor living design Al Barsha, Professional outdoor living design Al Barsha, Luxury outdoor living design Al Barsha, Outdoor Living Design Al Barsha Dubai, Outdoor Living Design designer Al Barsha, Outdoor Living Design company Al Barsha, Outdoor Living Design contractor Al Barsha, Affordable outdoor living design Al Barsha, Modern outdoor living design Al Barsha, Outdoor Living Design consultation Al Barsha, Outdoor Living Design cost Al Barsha, Outdoor Living Design price Al Barsha, Top outdoor living design Al Barsha
+
+// SEO Keywords: Outdoor Living Design Al Barsha, Outdoor Living Design in Al Barsha, Best outdoor living design Al Barsha, Professional outdoor living design Al Barsha, Luxury outdoor living design Al Barsha, Outdoor Living Design Al Barsha Dubai, Outdoor Living Design designer Al Barsha, Outdoor Living Design company Al Barsha, Outdoor Living Design contractor Al Barsha, Affordable outdoor living design Al Barsha, Modern outdoor living design Al Barsha, Outdoor Living Design consultation Al Barsha, Outdoor Living Design cost Al Barsha, Outdoor Living Design price Al Barsha, Top outdoor living design Al Barsha, Outdoor Living Design near Al Barsha, Outdoor Living Design specialists Al Barsha, Outdoor Living Design experts Al Barsha, Outdoor Living Design solutions Al Barsha, Outdoor Living Design packages Al Barsha, Outdoor Living Design quotes Al Barsha, Outdoor Living Design estimates Al Barsha, Outdoor Living Design services near me Al Barsha, Cheap Outdoor Living Design Al Barsha, Quality Outdoor Living Design Al Barsha, Trusted Outdoor Living Design Al Barsha, Outdoor Living Design transformation Al Barsha, Outdoor Living Design renovation Al Barsha, Outdoor Living Design makeover Al Barsha, Best Outdoor Living Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design in Al Barsha. Best outdoor living design Al Barsha Company Al Barsha Our luxury outdoor living design al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

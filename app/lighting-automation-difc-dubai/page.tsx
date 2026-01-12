@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Difc, Lighting in Automation Difc, Best lighting Automation Difc, Professional lighting Automation Difc, Luxury lighting Automation Difc, Lighting Automation Difc Dubai, Lighting designer Automation Difc, Lighting company Automation Difc, Lighting contractor Automation Difc, Affordable lighting Automation Difc, Modern lighting Automation Difc, Lighting consultation Automation Difc, Lighting cost Automation Difc, Lighting price Automation Difc, Top lighting Automation Difc
+
+// SEO Keywords: Lighting Automation Difc, Lighting in Automation Difc, Best lighting Automation Difc, Professional lighting Automation Difc, Luxury lighting Automation Difc, Lighting Automation Difc Dubai, Lighting designer Automation Difc, Lighting company Automation Difc, Lighting contractor Automation Difc, Affordable lighting Automation Difc, Modern lighting Automation Difc, Lighting consultation Automation Difc, Lighting cost Automation Difc, Lighting price Automation Difc, Top lighting Automation Difc, Lighting near Automation Difc, Lighting specialists Automation Difc, Lighting experts Automation Difc, Lighting solutions Automation Difc, Lighting packages Automation Difc, Lighting quotes Automation Difc, Lighting estimates Automation Difc, Lighting services near me Automation Difc, Cheap Lighting Automation Difc, Quality Lighting Automation Difc, Trusted Lighting Automation Difc, Lighting transformation Automation Difc, Lighting renovation Automation Difc, Lighting makeover Automation Difc, Best Lighting company Automation Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Difc Company Automation Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Automation Difc. Best lighting Automation Difc Company Automation Difc Our luxury lighting automation difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function LightingAutomationDifc() {
                 At Interiara, we believe that exceptional <strong>Lighting Automation DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Automation Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Automation DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function LightingAutomationDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in automation difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near automation difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

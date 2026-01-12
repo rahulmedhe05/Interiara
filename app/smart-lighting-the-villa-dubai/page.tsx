@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting The Villa, Smart Lighting in The Villa, Best smart lighting The Villa, Professional smart lighting The Villa, Luxury smart lighting The Villa, Smart Lighting The Villa Dubai, Smart Lighting designer The Villa, Smart Lighting company The Villa, Smart Lighting contractor The Villa, Affordable smart lighting The Villa, Modern smart lighting The Villa, Smart Lighting consultation The Villa, Smart Lighting cost The Villa, Smart Lighting price The Villa, Top smart lighting The Villa
+
+// SEO Keywords: Smart Lighting The Villa, Smart Lighting in The Villa, Best smart lighting The Villa, Professional smart lighting The Villa, Luxury smart lighting The Villa, Smart Lighting The Villa Dubai, Smart Lighting designer The Villa, Smart Lighting company The Villa, Smart Lighting contractor The Villa, Affordable smart lighting The Villa, Modern smart lighting The Villa, Smart Lighting consultation The Villa, Smart Lighting cost The Villa, Smart Lighting price The Villa, Top smart lighting The Villa, Smart Lighting near The Villa, Smart Lighting specialists The Villa, Smart Lighting experts The Villa, Smart Lighting solutions The Villa, Smart Lighting packages The Villa, Smart Lighting quotes The Villa, Smart Lighting estimates The Villa, Smart Lighting services near me The Villa, Cheap Smart Lighting The Villa, Quality Smart Lighting The Villa, Trusted Smart Lighting The Villa, Smart Lighting transformation The Villa, Smart Lighting renovation The Villa, Smart Lighting makeover The Villa, Best Smart Lighting company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingTheVilla() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting The Villa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Villa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in The Villa. 
                 We've completed 300+ successful projects across The Villa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting The Villa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting the villa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting The Villa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in the villa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near the villa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

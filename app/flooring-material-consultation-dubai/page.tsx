@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Flooring Material Consultation, Flooring in Material Consultation, Best flooring Material Consultation, Professional flooring Material Consultation, Luxury flooring Material Consultation, Flooring Material Consultation Dubai, Flooring designer Material Consultation, Flooring company Material Consultation, Flooring contractor Material Consultation, Affordable flooring Material Consultation, Modern flooring Material Consultation, Flooring consultation Material Consultation, Flooring cost Material Consultation, Flooring price Material Consultation, Top flooring Material Consultation
+
+// SEO Keywords: Flooring Material Consultation, Flooring in Material Consultation, Best flooring Material Consultation, Professional flooring Material Consultation, Luxury flooring Material Consultation, Flooring Material Consultation Dubai, Flooring designer Material Consultation, Flooring company Material Consultation, Flooring contractor Material Consultation, Affordable flooring Material Consultation, Modern flooring Material Consultation, Flooring consultation Material Consultation, Flooring cost Material Consultation, Flooring price Material Consultation, Top flooring Material Consultation, Flooring near Material Consultation, Flooring specialists Material Consultation, Flooring experts Material Consultation, Flooring solutions Material Consultation, Flooring packages Material Consultation, Flooring quotes Material Consultation, Flooring estimates Material Consultation, Flooring services near me Material Consultation, Cheap Flooring Material Consultation, Quality Flooring Material Consultation, Trusted Flooring Material Consultation, Flooring transformation Material Consultation, Flooring renovation Material Consultation, Flooring makeover Material Consultation, Best Flooring company Material Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FlooringMaterialConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best flooring Material Consultation Company Material Consultation</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Flooring in Material Consultation. Best flooring Material Consultation Company Material Consultation Our luxury flooring material consultation services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Flooring Material Consultation Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function FlooringMaterialConsultation() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our flooring in material consultation service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FlooringMaterialConsultation() {
 
               <p>
                 Interiara stands out in the crowded Consultation Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in flooring near material consultation.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FlooringMaterialConsultation() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

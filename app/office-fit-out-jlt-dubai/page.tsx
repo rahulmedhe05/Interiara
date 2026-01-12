@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Jlt, Office Fit in Out Jlt, Best office fit Out Jlt, Professional office fit Out Jlt, Luxury office fit Out Jlt, Office Fit Out Jlt Dubai, Office Fit designer Out Jlt, Office Fit company Out Jlt, Office Fit contractor Out Jlt, Affordable office fit Out Jlt, Modern office fit Out Jlt, Office Fit consultation Out Jlt, Office Fit cost Out Jlt, Office Fit price Out Jlt, Top office fit Out Jlt
+
+// SEO Keywords: Office Fit Out Jlt, Office Fit in Out Jlt, Best office fit Out Jlt, Professional office fit Out Jlt, Luxury office fit Out Jlt, Office Fit Out Jlt Dubai, Office Fit designer Out Jlt, Office Fit company Out Jlt, Office Fit contractor Out Jlt, Affordable office fit Out Jlt, Modern office fit Out Jlt, Office Fit consultation Out Jlt, Office Fit cost Out Jlt, Office Fit price Out Jlt, Top office fit Out Jlt, Office Fit near Out Jlt, Office Fit specialists Out Jlt, Office Fit experts Out Jlt, Office Fit solutions Out Jlt, Office Fit packages Out Jlt, Office Fit quotes Out Jlt, Office Fit estimates Out Jlt, Office Fit services near me Out Jlt, Cheap Office Fit Out Jlt, Quality Office Fit Out Jlt, Trusted Office Fit Out Jlt, Office Fit transformation Out Jlt, Office Fit renovation Out Jlt, Office Fit makeover Out Jlt, Best Office Fit company Out Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutJlt() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Jlt. Office Fit Out Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

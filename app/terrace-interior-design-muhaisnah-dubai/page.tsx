@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Muhaisnah, Terrace Interior in Design Muhaisnah, Best terrace interior Design Muhaisnah, Professional terrace interior Design Muhaisnah, Luxury terrace interior Design Muhaisnah, Terrace Interior Design Muhaisnah Dubai, Terrace Interior designer Design Muhaisnah, Terrace Interior company Design Muhaisnah, Terrace Interior contractor Design Muhaisnah, Affordable terrace interior Design Muhaisnah, Modern terrace interior Design Muhaisnah, Terrace Interior consultation Design Muhaisnah, Terrace Interior cost Design Muhaisnah, Terrace Interior price Design Muhaisnah, Top terrace interior Design Muhaisnah
+
+// SEO Keywords: Terrace Interior Design Muhaisnah, Terrace Interior in Design Muhaisnah, Best terrace interior Design Muhaisnah, Professional terrace interior Design Muhaisnah, Luxury terrace interior Design Muhaisnah, Terrace Interior Design Muhaisnah Dubai, Terrace Interior designer Design Muhaisnah, Terrace Interior company Design Muhaisnah, Terrace Interior contractor Design Muhaisnah, Affordable terrace interior Design Muhaisnah, Modern terrace interior Design Muhaisnah, Terrace Interior consultation Design Muhaisnah, Terrace Interior cost Design Muhaisnah, Terrace Interior price Design Muhaisnah, Top terrace interior Design Muhaisnah, Terrace Interior near Design Muhaisnah, Terrace Interior specialists Design Muhaisnah, Terrace Interior experts Design Muhaisnah, Terrace Interior solutions Design Muhaisnah, Terrace Interior packages Design Muhaisnah, Terrace Interior quotes Design Muhaisnah, Terrace Interior estimates Design Muhaisnah, Terrace Interior services near me Design Muhaisnah, Cheap Terrace Interior Design Muhaisnah, Quality Terrace Interior Design Muhaisnah, Trusted Terrace Interior Design Muhaisnah, Terrace Interior transformation Design Muhaisnah, Terrace Interior renovation Design Muhaisnah, Terrace Interior makeover Design Muhaisnah, Best Terrace Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior in Design Muhaisnah. Best terrace interior Design Muhaisnah Company Design Muhaisnah Our luxury terrace interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

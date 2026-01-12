@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Bur Dubai, Kitchen Interior Design in Bur Dubai, Best kitchen interior design Bur Dubai, Professional kitchen interior design Bur Dubai, Luxury kitchen interior design Bur Dubai, Kitchen Interior Design Bur Dubai Dubai, Kitchen Interior Design designer Bur Dubai, Kitchen Interior Design company Bur Dubai, Kitchen Interior Design contractor Bur Dubai, Affordable kitchen interior design Bur Dubai, Modern kitchen interior design Bur Dubai, Kitchen Interior Design consultation Bur Dubai, Kitchen Interior Design cost Bur Dubai, Kitchen Interior Design price Bur Dubai, Top kitchen interior design Bur Dubai
+
+// SEO Keywords: Kitchen Interior Design Bur Dubai, Kitchen Interior Design in Bur Dubai, Best kitchen interior design Bur Dubai, Professional kitchen interior design Bur Dubai, Luxury kitchen interior design Bur Dubai, Kitchen Interior Design Bur Dubai Dubai, Kitchen Interior Design designer Bur Dubai, Kitchen Interior Design company Bur Dubai, Kitchen Interior Design contractor Bur Dubai, Affordable kitchen interior design Bur Dubai, Modern kitchen interior design Bur Dubai, Kitchen Interior Design consultation Bur Dubai, Kitchen Interior Design cost Bur Dubai, Kitchen Interior Design price Bur Dubai, Top kitchen interior design Bur Dubai, Kitchen Interior Design near Bur Dubai, Kitchen Interior Design specialists Bur Dubai, Kitchen Interior Design experts Bur Dubai, Kitchen Interior Design solutions Bur Dubai, Kitchen Interior Design packages Bur Dubai, Kitchen Interior Design quotes Bur Dubai, Kitchen Interior Design estimates Bur Dubai, Kitchen Interior Design services near me Bur Dubai, Cheap Kitchen Interior Design Bur Dubai, Quality Kitchen Interior Design Bur Dubai, Trusted Kitchen Interior Design Bur Dubai, Kitchen Interior Design transformation Bur Dubai, Kitchen Interior Design renovation Bur Dubai, Kitchen Interior Design makeover Bur Dubai, Best Kitchen Interior Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior Design in Bur Dubai. Best kitchen interior design Bur Dubai Company Bur Dubai Our luxury kitchen interior design bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior design in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior design near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

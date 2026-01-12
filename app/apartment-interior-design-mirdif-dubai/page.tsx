@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Mirdif, Apartment Interior in Design Mirdif, Best apartment interior Design Mirdif, Professional apartment interior Design Mirdif, Luxury apartment interior Design Mirdif, Apartment Interior Design Mirdif Dubai, Apartment Interior designer Design Mirdif, Apartment Interior company Design Mirdif, Apartment Interior contractor Design Mirdif, Affordable apartment interior Design Mirdif, Modern apartment interior Design Mirdif, Apartment Interior consultation Design Mirdif, Apartment Interior cost Design Mirdif, Apartment Interior price Design Mirdif, Top apartment interior Design Mirdif
+
+// SEO Keywords: Apartment Interior Design Mirdif, Apartment Interior in Design Mirdif, Best apartment interior Design Mirdif, Professional apartment interior Design Mirdif, Luxury apartment interior Design Mirdif, Apartment Interior Design Mirdif Dubai, Apartment Interior designer Design Mirdif, Apartment Interior company Design Mirdif, Apartment Interior contractor Design Mirdif, Affordable apartment interior Design Mirdif, Modern apartment interior Design Mirdif, Apartment Interior consultation Design Mirdif, Apartment Interior cost Design Mirdif, Apartment Interior price Design Mirdif, Top apartment interior Design Mirdif, Apartment Interior near Design Mirdif, Apartment Interior specialists Design Mirdif, Apartment Interior experts Design Mirdif, Apartment Interior solutions Design Mirdif, Apartment Interior packages Design Mirdif, Apartment Interior quotes Design Mirdif, Apartment Interior estimates Design Mirdif, Apartment Interior services near me Design Mirdif, Cheap Apartment Interior Design Mirdif, Quality Apartment Interior Design Mirdif, Trusted Apartment Interior Design Mirdif, Apartment Interior transformation Design Mirdif, Apartment Interior renovation Design Mirdif, Apartment Interior makeover Design Mirdif, Best Apartment Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior in Design Mirdif. Best apartment interior Design Mirdif Company Design Mirdif Our luxury apartment interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

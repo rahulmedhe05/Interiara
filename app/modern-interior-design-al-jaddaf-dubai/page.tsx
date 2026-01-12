@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modern Interior Design Al Jaddaf, Modern Interior Design in Al Jaddaf, Best modern interior design Al Jaddaf, Professional modern interior design Al Jaddaf, Luxury modern interior design Al Jaddaf, Modern Interior Design Al Jaddaf Dubai, Modern Interior Design designer Al Jaddaf, Modern Interior Design company Al Jaddaf, Modern Interior Design contractor Al Jaddaf, Affordable modern interior design Al Jaddaf, Modern modern interior design Al Jaddaf, Modern Interior Design consultation Al Jaddaf, Modern Interior Design cost Al Jaddaf, Modern Interior Design price Al Jaddaf, Top modern interior design Al Jaddaf
+
+// SEO Keywords: Modern Interior Design Al Jaddaf, Modern Interior Design in Al Jaddaf, Best modern interior design Al Jaddaf, Professional modern interior design Al Jaddaf, Luxury modern interior design Al Jaddaf, Modern Interior Design Al Jaddaf Dubai, Modern Interior Design designer Al Jaddaf, Modern Interior Design company Al Jaddaf, Modern Interior Design contractor Al Jaddaf, Affordable modern interior design Al Jaddaf, Modern modern interior design Al Jaddaf, Modern Interior Design consultation Al Jaddaf, Modern Interior Design cost Al Jaddaf, Modern Interior Design price Al Jaddaf, Top modern interior design Al Jaddaf, Modern Interior Design near Al Jaddaf, Modern Interior Design specialists Al Jaddaf, Modern Interior Design experts Al Jaddaf, Modern Interior Design solutions Al Jaddaf, Modern Interior Design packages Al Jaddaf, Modern Interior Design quotes Al Jaddaf, Modern Interior Design estimates Al Jaddaf, Modern Interior Design services near me Al Jaddaf, Cheap Modern Interior Design Al Jaddaf, Quality Modern Interior Design Al Jaddaf, Trusted Modern Interior Design Al Jaddaf, Modern Interior Design transformation Al Jaddaf, Modern Interior Design renovation Al Jaddaf, Modern Interior Design makeover Al Jaddaf, Best Modern Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModernInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modern Interior Design in Al Jaddaf. Best modern interior design Al Jaddaf Company Al Jaddaf Our luxury modern interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModernInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modern interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModernInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modern interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModernInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Umm Suqeim, Home Remodeling in Umm Suqeim, Best home remodeling Umm Suqeim, Professional home remodeling Umm Suqeim, Luxury home remodeling Umm Suqeim, Home Remodeling Umm Suqeim Dubai, Home Remodeling designer Umm Suqeim, Home Remodeling company Umm Suqeim, Home Remodeling contractor Umm Suqeim, Affordable home remodeling Umm Suqeim, Modern home remodeling Umm Suqeim, Home Remodeling consultation Umm Suqeim, Home Remodeling cost Umm Suqeim, Home Remodeling price Umm Suqeim, Top home remodeling Umm Suqeim
+
+// SEO Keywords: Home Remodeling Umm Suqeim, Home Remodeling in Umm Suqeim, Best home remodeling Umm Suqeim, Professional home remodeling Umm Suqeim, Luxury home remodeling Umm Suqeim, Home Remodeling Umm Suqeim Dubai, Home Remodeling designer Umm Suqeim, Home Remodeling company Umm Suqeim, Home Remodeling contractor Umm Suqeim, Affordable home remodeling Umm Suqeim, Modern home remodeling Umm Suqeim, Home Remodeling consultation Umm Suqeim, Home Remodeling cost Umm Suqeim, Home Remodeling price Umm Suqeim, Top home remodeling Umm Suqeim, Home Remodeling near Umm Suqeim, Home Remodeling specialists Umm Suqeim, Home Remodeling experts Umm Suqeim, Home Remodeling solutions Umm Suqeim, Home Remodeling packages Umm Suqeim, Home Remodeling quotes Umm Suqeim, Home Remodeling estimates Umm Suqeim, Home Remodeling services near me Umm Suqeim, Cheap Home Remodeling Umm Suqeim, Quality Home Remodeling Umm Suqeim, Trusted Home Remodeling Umm Suqeim, Home Remodeling transformation Umm Suqeim, Home Remodeling renovation Umm Suqeim, Home Remodeling makeover Umm Suqeim, Best Home Remodeling company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling in Umm Suqeim. Best home remodeling Umm Suqeim Company Umm Suqeim Our luxury home remodeling umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

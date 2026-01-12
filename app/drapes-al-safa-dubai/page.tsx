@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Al Safa, Drapes in Al Safa, Best drapes Al Safa, Professional drapes Al Safa, Luxury drapes Al Safa, Drapes Al Safa Dubai, Drapes designer Al Safa, Drapes company Al Safa, Drapes contractor Al Safa, Affordable drapes Al Safa, Modern drapes Al Safa, Drapes consultation Al Safa, Drapes cost Al Safa, Drapes price Al Safa, Top drapes Al Safa
+
+// SEO Keywords: Drapes Al Safa, Drapes in Al Safa, Best drapes Al Safa, Professional drapes Al Safa, Luxury drapes Al Safa, Drapes Al Safa Dubai, Drapes designer Al Safa, Drapes company Al Safa, Drapes contractor Al Safa, Affordable drapes Al Safa, Modern drapes Al Safa, Drapes consultation Al Safa, Drapes cost Al Safa, Drapes price Al Safa, Top drapes Al Safa, Drapes near Al Safa, Drapes specialists Al Safa, Drapes experts Al Safa, Drapes solutions Al Safa, Drapes packages Al Safa, Drapes quotes Al Safa, Drapes estimates Al Safa, Drapes services near me Al Safa, Cheap Drapes Al Safa, Quality Drapes Al Safa, Trusted Drapes Al Safa, Drapes transformation Al Safa, Drapes renovation Al Safa, Drapes makeover Al Safa, Best Drapes company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesAlSafa() {
                 At Interiara, we believe that exceptional <strong>Drapes Al Safa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Al Safa. 
                 We've completed 300+ successful projects across Al Safa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Al Safa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes al safa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Al Safa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in al safa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near al safa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

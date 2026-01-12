@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Creek, Smart in Lighting Creek, Best smart Lighting Creek, Professional smart Lighting Creek, Luxury smart Lighting Creek, Smart Lighting Creek Dubai, Smart designer Lighting Creek, Smart company Lighting Creek, Smart contractor Lighting Creek, Affordable smart Lighting Creek, Modern smart Lighting Creek, Smart consultation Lighting Creek, Smart cost Lighting Creek, Smart price Lighting Creek, Top smart Lighting Creek
+
+// SEO Keywords: Smart Lighting Creek, Smart in Lighting Creek, Best smart Lighting Creek, Professional smart Lighting Creek, Luxury smart Lighting Creek, Smart Lighting Creek Dubai, Smart designer Lighting Creek, Smart company Lighting Creek, Smart contractor Lighting Creek, Affordable smart Lighting Creek, Modern smart Lighting Creek, Smart consultation Lighting Creek, Smart cost Lighting Creek, Smart price Lighting Creek, Top smart Lighting Creek, Smart near Lighting Creek, Smart specialists Lighting Creek, Smart experts Lighting Creek, Smart solutions Lighting Creek, Smart packages Lighting Creek, Smart quotes Lighting Creek, Smart estimates Lighting Creek, Smart services near me Lighting Creek, Cheap Smart Lighting Creek, Quality Smart Lighting Creek, Trusted Smart Lighting Creek, Smart transformation Lighting Creek, Smart renovation Lighting Creek, Smart makeover Lighting Creek, Best Smart company Lighting Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingCreek() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart in Lighting Creek. Smart Lighting Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional smart lighting creek services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Dubai Creek Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart in lighting creek service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart near lighting creek.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

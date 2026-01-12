@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Creek, Interior in Design Creek, Best interior Design Creek, Professional interior Design Creek, Luxury interior Design Creek, Interior Design Creek Dubai, Interior designer Design Creek, Interior company Design Creek, Interior contractor Design Creek, Affordable interior Design Creek, Modern interior Design Creek, Interior consultation Design Creek, Interior cost Design Creek, Interior price Design Creek, Top interior Design Creek
+
+// SEO Keywords: Interior Design Creek, Interior in Design Creek, Best interior Design Creek, Professional interior Design Creek, Luxury interior Design Creek, Interior Design Creek Dubai, Interior designer Design Creek, Interior company Design Creek, Interior contractor Design Creek, Affordable interior Design Creek, Modern interior Design Creek, Interior consultation Design Creek, Interior cost Design Creek, Interior price Design Creek, Top interior Design Creek, Interior near Design Creek, Interior specialists Design Creek, Interior experts Design Creek, Interior solutions Design Creek, Interior packages Design Creek, Interior quotes Design Creek, Interior estimates Design Creek, Interior services near me Design Creek, Cheap Interior Design Creek, Quality Interior Design Creek, Trusted Interior Design Creek, Interior transformation Design Creek, Interior renovation Design Creek, Interior makeover Design Creek, Best Interior company Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignCreek() {
                 At Interiara, we believe that exceptional <strong>Interior Design Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior in Design Creek. Interior Design Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional interior design creek services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Dubai Creek Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior in design creek service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior near design creek.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

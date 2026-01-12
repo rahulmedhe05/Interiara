@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Jvc, Smart in Lighting Jvc, Best smart Lighting Jvc, Professional smart Lighting Jvc, Luxury smart Lighting Jvc, Smart Lighting Jvc Dubai, Smart designer Lighting Jvc, Smart company Lighting Jvc, Smart contractor Lighting Jvc, Affordable smart Lighting Jvc, Modern smart Lighting Jvc, Smart consultation Lighting Jvc, Smart cost Lighting Jvc, Smart price Lighting Jvc, Top smart Lighting Jvc
+
+// SEO Keywords: Smart Lighting Jvc, Smart in Lighting Jvc, Best smart Lighting Jvc, Professional smart Lighting Jvc, Luxury smart Lighting Jvc, Smart Lighting Jvc Dubai, Smart designer Lighting Jvc, Smart company Lighting Jvc, Smart contractor Lighting Jvc, Affordable smart Lighting Jvc, Modern smart Lighting Jvc, Smart consultation Lighting Jvc, Smart cost Lighting Jvc, Smart price Lighting Jvc, Top smart Lighting Jvc, Smart near Lighting Jvc, Smart specialists Lighting Jvc, Smart experts Lighting Jvc, Smart solutions Lighting Jvc, Smart packages Lighting Jvc, Smart quotes Lighting Jvc, Smart estimates Lighting Jvc, Smart services near me Lighting Jvc, Cheap Smart Lighting Jvc, Quality Smart Lighting Jvc, Trusted Smart Lighting Jvc, Smart transformation Lighting Jvc, Smart renovation Lighting Jvc, Smart makeover Lighting Jvc, Best Smart company Lighting Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingJvc() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting JVC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart in Lighting Jvc. Smart Lighting Jvc. 
                 We've completed 300+ successful projects across JVC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting JVC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting jvc services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting JVC Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingJvc() {
 
               <p>
                 Interiara stands out in the crowded JVC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart in lighting jvc service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart near lighting jvc.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingJvc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

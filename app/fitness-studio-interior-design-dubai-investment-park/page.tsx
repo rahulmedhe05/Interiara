@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Fitness Studio Interior Design, Fitness Studio in Interior Design, Best fitness studio Interior Design, Professional fitness studio Interior Design, Luxury fitness studio Interior Design, Fitness Studio Interior Design Dubai, Fitness Studio designer Interior Design, Fitness Studio company Interior Design, Fitness Studio contractor Interior Design, Affordable fitness studio Interior Design, Modern fitness studio Interior Design, Fitness Studio consultation Interior Design, Fitness Studio cost Interior Design, Fitness Studio price Interior Design, Top fitness studio Interior Design
+
+// SEO Keywords: Fitness Studio Interior Design, Fitness Studio in Interior Design, Best fitness studio Interior Design, Professional fitness studio Interior Design, Luxury fitness studio Interior Design, Fitness Studio Interior Design Dubai, Fitness Studio designer Interior Design, Fitness Studio company Interior Design, Fitness Studio contractor Interior Design, Affordable fitness studio Interior Design, Modern fitness studio Interior Design, Fitness Studio consultation Interior Design, Fitness Studio cost Interior Design, Fitness Studio price Interior Design, Top fitness studio Interior Design, Fitness Studio near Interior Design, Fitness Studio specialists Interior Design, Fitness Studio experts Interior Design, Fitness Studio solutions Interior Design, Fitness Studio packages Interior Design, Fitness Studio quotes Interior Design, Fitness Studio estimates Interior Design, Fitness Studio services near me Interior Design, Cheap Fitness Studio Interior Design, Quality Fitness Studio Interior Design, Trusted Fitness Studio Interior Design, Fitness Studio transformation Interior Design, Fitness Studio renovation Interior Design, Fitness Studio makeover Interior Design, Best Fitness Studio company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FitnessStudioInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Fitness Studio in Interior Design. Best fitness studio Interior Design Company Interior Design Our luxury fitness studio interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function FitnessStudioInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our fitness studio in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FitnessStudioInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in fitness studio near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FitnessStudioInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

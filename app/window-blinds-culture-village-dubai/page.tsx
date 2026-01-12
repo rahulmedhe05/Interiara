@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Culture Village, Window Blinds in Culture Village, Best window blinds Culture Village, Professional window blinds Culture Village, Luxury window blinds Culture Village, Window Blinds Culture Village Dubai, Window Blinds designer Culture Village, Window Blinds company Culture Village, Window Blinds contractor Culture Village, Affordable window blinds Culture Village, Modern window blinds Culture Village, Window Blinds consultation Culture Village, Window Blinds cost Culture Village, Window Blinds price Culture Village, Top window blinds Culture Village
+
+// SEO Keywords: Window Blinds Culture Village, Window Blinds in Culture Village, Best window blinds Culture Village, Professional window blinds Culture Village, Luxury window blinds Culture Village, Window Blinds Culture Village Dubai, Window Blinds designer Culture Village, Window Blinds company Culture Village, Window Blinds contractor Culture Village, Affordable window blinds Culture Village, Modern window blinds Culture Village, Window Blinds consultation Culture Village, Window Blinds cost Culture Village, Window Blinds price Culture Village, Top window blinds Culture Village, Window Blinds near Culture Village, Window Blinds specialists Culture Village, Window Blinds experts Culture Village, Window Blinds solutions Culture Village, Window Blinds packages Culture Village, Window Blinds quotes Culture Village, Window Blinds estimates Culture Village, Window Blinds services near me Culture Village, Cheap Window Blinds Culture Village, Quality Window Blinds Culture Village, Trusted Window Blinds Culture Village, Window Blinds transformation Culture Village, Window Blinds renovation Culture Village, Window Blinds makeover Culture Village, Best Window Blinds company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Culture Village. Best window blinds Culture Village Company Culture Village Our luxury window blinds culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

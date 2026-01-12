@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Al Mizhar, Soundproofing Design in Al Mizhar, Best soundproofing design Al Mizhar, Professional soundproofing design Al Mizhar, Luxury soundproofing design Al Mizhar, Soundproofing Design Al Mizhar Dubai, Soundproofing Design designer Al Mizhar, Soundproofing Design company Al Mizhar, Soundproofing Design contractor Al Mizhar, Affordable soundproofing design Al Mizhar, Modern soundproofing design Al Mizhar, Soundproofing Design consultation Al Mizhar, Soundproofing Design cost Al Mizhar, Soundproofing Design price Al Mizhar, Top soundproofing design Al Mizhar
+
+// SEO Keywords: Soundproofing Design Al Mizhar, Soundproofing Design in Al Mizhar, Best soundproofing design Al Mizhar, Professional soundproofing design Al Mizhar, Luxury soundproofing design Al Mizhar, Soundproofing Design Al Mizhar Dubai, Soundproofing Design designer Al Mizhar, Soundproofing Design company Al Mizhar, Soundproofing Design contractor Al Mizhar, Affordable soundproofing design Al Mizhar, Modern soundproofing design Al Mizhar, Soundproofing Design consultation Al Mizhar, Soundproofing Design cost Al Mizhar, Soundproofing Design price Al Mizhar, Top soundproofing design Al Mizhar, Soundproofing Design near Al Mizhar, Soundproofing Design specialists Al Mizhar, Soundproofing Design experts Al Mizhar, Soundproofing Design solutions Al Mizhar, Soundproofing Design packages Al Mizhar, Soundproofing Design quotes Al Mizhar, Soundproofing Design estimates Al Mizhar, Soundproofing Design services near me Al Mizhar, Cheap Soundproofing Design Al Mizhar, Quality Soundproofing Design Al Mizhar, Trusted Soundproofing Design Al Mizhar, Soundproofing Design transformation Al Mizhar, Soundproofing Design renovation Al Mizhar, Soundproofing Design makeover Al Mizhar, Best Soundproofing Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Al Mizhar Company Al Mizhar</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Al Mizhar. Best soundproofing design Al Mizhar Company Al Mizhar Our luxury soundproofing design al mizhar services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignAlMizhar() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in al mizhar service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near al mizhar.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

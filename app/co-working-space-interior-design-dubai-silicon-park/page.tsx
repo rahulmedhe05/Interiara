@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Co Working Space Interior Design, Co Working Space in Interior Design, Best co working space Interior Design, Professional co working space Interior Design, Luxury co working space Interior Design, Co Working Space Interior Design Dubai, Co Working Space designer Interior Design, Co Working Space company Interior Design, Co Working Space contractor Interior Design, Affordable co working space Interior Design, Modern co working space Interior Design, Co Working Space consultation Interior Design, Co Working Space cost Interior Design, Co Working Space price Interior Design, Top co working space Interior Design
+
+// SEO Keywords: Co Working Space Interior Design, Co Working Space in Interior Design, Best co working space Interior Design, Professional co working space Interior Design, Luxury co working space Interior Design, Co Working Space Interior Design Dubai, Co Working Space designer Interior Design, Co Working Space company Interior Design, Co Working Space contractor Interior Design, Affordable co working space Interior Design, Modern co working space Interior Design, Co Working Space consultation Interior Design, Co Working Space cost Interior Design, Co Working Space price Interior Design, Top co working space Interior Design, Co Working Space near Interior Design, Co Working Space specialists Interior Design, Co Working Space experts Interior Design, Co Working Space solutions Interior Design, Co Working Space packages Interior Design, Co Working Space quotes Interior Design, Co Working Space estimates Interior Design, Co Working Space services near me Interior Design, Cheap Co Working Space Interior Design, Quality Co Working Space Interior Design, Trusted Co Working Space Interior Design, Co Working Space transformation Interior Design, Co Working Space renovation Interior Design, Co Working Space makeover Interior Design, Best Co Working Space company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CoWorkingSpaceInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best co working space Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Co Working Space in Interior Design. Best co working space Interior Design Company Interior Design Our luxury co working space interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Co Working Space Interior Design Silicon Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CoWorkingSpaceInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our co working space in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CoWorkingSpaceInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in co working space near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CoWorkingSpaceInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

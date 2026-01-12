@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Space Optimization Al Barsha South, Interior Space Optimization Al in Barsha South, Best interior space optimization al Barsha South, Professional interior space optimization al Barsha South, Luxury interior space optimization al Barsha South, Interior Space Optimization Al Barsha South Dubai, Interior Space Optimization Al designer Barsha South, Interior Space Optimization Al company Barsha South, Interior Space Optimization Al contractor Barsha South, Affordable interior space optimization al Barsha South, Modern interior space optimization al Barsha South, Interior Space Optimization Al consultation Barsha South, Interior Space Optimization Al cost Barsha South, Interior Space Optimization Al price Barsha South, Top interior space optimization al Barsha South
+
+// SEO Keywords: Interior Space Optimization Al Barsha South, Interior Space Optimization Al in Barsha South, Best interior space optimization al Barsha South, Professional interior space optimization al Barsha South, Luxury interior space optimization al Barsha South, Interior Space Optimization Al Barsha South Dubai, Interior Space Optimization Al designer Barsha South, Interior Space Optimization Al company Barsha South, Interior Space Optimization Al contractor Barsha South, Affordable interior space optimization al Barsha South, Modern interior space optimization al Barsha South, Interior Space Optimization Al consultation Barsha South, Interior Space Optimization Al cost Barsha South, Interior Space Optimization Al price Barsha South, Top interior space optimization al Barsha South, Interior Space Optimization Al near Barsha South, Interior Space Optimization Al specialists Barsha South, Interior Space Optimization Al experts Barsha South, Interior Space Optimization Al solutions Barsha South, Interior Space Optimization Al packages Barsha South, Interior Space Optimization Al quotes Barsha South, Interior Space Optimization Al estimates Barsha South, Interior Space Optimization Al services near me Barsha South, Cheap Interior Space Optimization Al Barsha South, Quality Interior Space Optimization Al Barsha South, Trusted Interior Space Optimization Al Barsha South, Interior Space Optimization Al transformation Barsha South, Interior Space Optimization Al renovation Barsha South, Interior Space Optimization Al makeover Barsha South, Best Interior Space Optimization Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorSpaceOptimizationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Space Optimization Al in Barsha South. Best interior space optimization al Barsha South Company Barsha South Our luxury interior space optimization al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorSpaceOptimizationAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior space optimization al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorSpaceOptimizationAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior space optimization al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorSpaceOptimizationAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

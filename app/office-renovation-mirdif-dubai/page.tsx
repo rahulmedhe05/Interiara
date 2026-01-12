@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Mirdif, Office in Renovation Mirdif, Best office Renovation Mirdif, Professional office Renovation Mirdif, Luxury office Renovation Mirdif, Office Renovation Mirdif Dubai, Office designer Renovation Mirdif, Office company Renovation Mirdif, Office contractor Renovation Mirdif, Affordable office Renovation Mirdif, Modern office Renovation Mirdif, Office consultation Renovation Mirdif, Office cost Renovation Mirdif, Office price Renovation Mirdif, Top office Renovation Mirdif
+
+// SEO Keywords: Office Renovation Mirdif, Office in Renovation Mirdif, Best office Renovation Mirdif, Professional office Renovation Mirdif, Luxury office Renovation Mirdif, Office Renovation Mirdif Dubai, Office designer Renovation Mirdif, Office company Renovation Mirdif, Office contractor Renovation Mirdif, Affordable office Renovation Mirdif, Modern office Renovation Mirdif, Office consultation Renovation Mirdif, Office cost Renovation Mirdif, Office price Renovation Mirdif, Top office Renovation Mirdif, Office near Renovation Mirdif, Office specialists Renovation Mirdif, Office experts Renovation Mirdif, Office solutions Renovation Mirdif, Office packages Renovation Mirdif, Office quotes Renovation Mirdif, Office estimates Renovation Mirdif, Office services near me Renovation Mirdif, Cheap Office Renovation Mirdif, Quality Office Renovation Mirdif, Trusted Office Renovation Mirdif, Office transformation Renovation Mirdif, Office renovation Renovation Mirdif, Office makeover Renovation Mirdif, Best Office company Renovation Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Renovation Mirdif Company Renovation Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office in Renovation Mirdif. Best office Renovation Mirdif Company Renovation Mirdif Our luxury office renovation mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office in renovation mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office near renovation mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

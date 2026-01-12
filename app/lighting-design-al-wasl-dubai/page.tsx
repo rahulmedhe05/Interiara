@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Al Wasl, Lighting Design in Al Wasl, Best lighting design Al Wasl, Professional lighting design Al Wasl, Luxury lighting design Al Wasl, Lighting Design Al Wasl Dubai, Lighting Design designer Al Wasl, Lighting Design company Al Wasl, Lighting Design contractor Al Wasl, Affordable lighting design Al Wasl, Modern lighting design Al Wasl, Lighting Design consultation Al Wasl, Lighting Design cost Al Wasl, Lighting Design price Al Wasl, Top lighting design Al Wasl
+
+// SEO Keywords: Lighting Design Al Wasl, Lighting Design in Al Wasl, Best lighting design Al Wasl, Professional lighting design Al Wasl, Luxury lighting design Al Wasl, Lighting Design Al Wasl Dubai, Lighting Design designer Al Wasl, Lighting Design company Al Wasl, Lighting Design contractor Al Wasl, Affordable lighting design Al Wasl, Modern lighting design Al Wasl, Lighting Design consultation Al Wasl, Lighting Design cost Al Wasl, Lighting Design price Al Wasl, Top lighting design Al Wasl, Lighting Design near Al Wasl, Lighting Design specialists Al Wasl, Lighting Design experts Al Wasl, Lighting Design solutions Al Wasl, Lighting Design packages Al Wasl, Lighting Design quotes Al Wasl, Lighting Design estimates Al Wasl, Lighting Design services near me Al Wasl, Cheap Lighting Design Al Wasl, Quality Lighting Design Al Wasl, Trusted Lighting Design Al Wasl, Lighting Design transformation Al Wasl, Lighting Design renovation Al Wasl, Lighting Design makeover Al Wasl, Best Lighting Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignAlWasl() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

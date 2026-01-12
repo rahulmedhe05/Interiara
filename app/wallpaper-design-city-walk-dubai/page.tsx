@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design City Walk, Wallpaper Design in City Walk, Best wallpaper design City Walk, Professional wallpaper design City Walk, Luxury wallpaper design City Walk, Wallpaper Design City Walk Dubai, Wallpaper Design designer City Walk, Wallpaper Design company City Walk, Wallpaper Design contractor City Walk, Affordable wallpaper design City Walk, Modern wallpaper design City Walk, Wallpaper Design consultation City Walk, Wallpaper Design cost City Walk, Wallpaper Design price City Walk, Top wallpaper design City Walk
+
+// SEO Keywords: Wallpaper Design City Walk, Wallpaper Design in City Walk, Best wallpaper design City Walk, Professional wallpaper design City Walk, Luxury wallpaper design City Walk, Wallpaper Design City Walk Dubai, Wallpaper Design designer City Walk, Wallpaper Design company City Walk, Wallpaper Design contractor City Walk, Affordable wallpaper design City Walk, Modern wallpaper design City Walk, Wallpaper Design consultation City Walk, Wallpaper Design cost City Walk, Wallpaper Design price City Walk, Top wallpaper design City Walk, Wallpaper Design near City Walk, Wallpaper Design specialists City Walk, Wallpaper Design experts City Walk, Wallpaper Design solutions City Walk, Wallpaper Design packages City Walk, Wallpaper Design quotes City Walk, Wallpaper Design estimates City Walk, Wallpaper Design services near me City Walk, Cheap Wallpaper Design City Walk, Quality Wallpaper Design City Walk, Trusted Wallpaper Design City Walk, Wallpaper Design transformation City Walk, Wallpaper Design renovation City Walk, Wallpaper Design makeover City Walk, Best Wallpaper Design company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignCityWalk() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

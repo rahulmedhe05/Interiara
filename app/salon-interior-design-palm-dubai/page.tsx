@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Palm, Salon Interior in Design Palm, Best salon interior Design Palm, Professional salon interior Design Palm, Luxury salon interior Design Palm, Salon Interior Design Palm Dubai, Salon Interior designer Design Palm, Salon Interior company Design Palm, Salon Interior contractor Design Palm, Affordable salon interior Design Palm, Modern salon interior Design Palm, Salon Interior consultation Design Palm, Salon Interior cost Design Palm, Salon Interior price Design Palm, Top salon interior Design Palm
+
+// SEO Keywords: Salon Interior Design Palm, Salon Interior in Design Palm, Best salon interior Design Palm, Professional salon interior Design Palm, Luxury salon interior Design Palm, Salon Interior Design Palm Dubai, Salon Interior designer Design Palm, Salon Interior company Design Palm, Salon Interior contractor Design Palm, Affordable salon interior Design Palm, Modern salon interior Design Palm, Salon Interior consultation Design Palm, Salon Interior cost Design Palm, Salon Interior price Design Palm, Top salon interior Design Palm, Salon Interior near Design Palm, Salon Interior specialists Design Palm, Salon Interior experts Design Palm, Salon Interior solutions Design Palm, Salon Interior packages Design Palm, Salon Interior quotes Design Palm, Salon Interior estimates Design Palm, Salon Interior services near me Design Palm, Cheap Salon Interior Design Palm, Quality Salon Interior Design Palm, Trusted Salon Interior Design Palm, Salon Interior transformation Design Palm, Salon Interior renovation Design Palm, Salon Interior makeover Design Palm, Best Salon Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SalonInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Salon Interior in Design Palm. Best salon interior Design Palm Company Design Palm Our luxury salon interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SalonInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our salon interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SalonInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in salon interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

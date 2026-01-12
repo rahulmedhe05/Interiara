@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Cafe Interior Design Jumeirah, Cafe Interior in Design Jumeirah, Best cafe interior Design Jumeirah, Professional cafe interior Design Jumeirah, Luxury cafe interior Design Jumeirah, Cafe Interior Design Jumeirah Dubai, Cafe Interior designer Design Jumeirah, Cafe Interior company Design Jumeirah, Cafe Interior contractor Design Jumeirah, Affordable cafe interior Design Jumeirah, Modern cafe interior Design Jumeirah, Cafe Interior consultation Design Jumeirah, Cafe Interior cost Design Jumeirah, Cafe Interior price Design Jumeirah, Top cafe interior Design Jumeirah
+
+// SEO Keywords: Cafe Interior Design Jumeirah, Cafe Interior in Design Jumeirah, Best cafe interior Design Jumeirah, Professional cafe interior Design Jumeirah, Luxury cafe interior Design Jumeirah, Cafe Interior Design Jumeirah Dubai, Cafe Interior designer Design Jumeirah, Cafe Interior company Design Jumeirah, Cafe Interior contractor Design Jumeirah, Affordable cafe interior Design Jumeirah, Modern cafe interior Design Jumeirah, Cafe Interior consultation Design Jumeirah, Cafe Interior cost Design Jumeirah, Cafe Interior price Design Jumeirah, Top cafe interior Design Jumeirah, Cafe Interior near Design Jumeirah, Cafe Interior specialists Design Jumeirah, Cafe Interior experts Design Jumeirah, Cafe Interior solutions Design Jumeirah, Cafe Interior packages Design Jumeirah, Cafe Interior quotes Design Jumeirah, Cafe Interior estimates Design Jumeirah, Cafe Interior services near me Design Jumeirah, Cheap Cafe Interior Design Jumeirah, Quality Cafe Interior Design Jumeirah, Trusted Cafe Interior Design Jumeirah, Cafe Interior transformation Design Jumeirah, Cafe Interior renovation Design Jumeirah, Cafe Interior makeover Design Jumeirah, Best Cafe Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CafeInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Cafe Interior in Design Jumeirah. Best cafe interior Design Jumeirah Company Design Jumeirah Our luxury cafe interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CafeInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our cafe interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CafeInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in cafe interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CafeInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

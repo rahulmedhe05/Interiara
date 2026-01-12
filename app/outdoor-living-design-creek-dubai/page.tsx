@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Creek, Outdoor Living in Design Creek, Best outdoor living Design Creek, Professional outdoor living Design Creek, Luxury outdoor living Design Creek, Outdoor Living Design Creek Dubai, Outdoor Living designer Design Creek, Outdoor Living company Design Creek, Outdoor Living contractor Design Creek, Affordable outdoor living Design Creek, Modern outdoor living Design Creek, Outdoor Living consultation Design Creek, Outdoor Living cost Design Creek, Outdoor Living price Design Creek, Top outdoor living Design Creek
+
+// SEO Keywords: Outdoor Living Design Creek, Outdoor Living in Design Creek, Best outdoor living Design Creek, Professional outdoor living Design Creek, Luxury outdoor living Design Creek, Outdoor Living Design Creek Dubai, Outdoor Living designer Design Creek, Outdoor Living company Design Creek, Outdoor Living contractor Design Creek, Affordable outdoor living Design Creek, Modern outdoor living Design Creek, Outdoor Living consultation Design Creek, Outdoor Living cost Design Creek, Outdoor Living price Design Creek, Top outdoor living Design Creek, Outdoor Living near Design Creek, Outdoor Living specialists Design Creek, Outdoor Living experts Design Creek, Outdoor Living solutions Design Creek, Outdoor Living packages Design Creek, Outdoor Living quotes Design Creek, Outdoor Living estimates Design Creek, Outdoor Living services near me Design Creek, Cheap Outdoor Living Design Creek, Quality Outdoor Living Design Creek, Trusted Outdoor Living Design Creek, Outdoor Living transformation Design Creek, Outdoor Living renovation Design Creek, Outdoor Living makeover Design Creek, Best Outdoor Living company Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living Design Creek Company Design Creek</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living in Design Creek. Best outdoor living Design Creek Company Design Creek Our professional outdoor living design creek services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OutdoorLivingDesignCreek() {
                 At Interiara, we believe that exceptional <strong>Outdoor Living Design Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Outdoor Living Design Creek. 
                 We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living Design Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignCreek() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living in design creek service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignCreek() {
 
               <p>
                 Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living near design creek.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignCreek() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

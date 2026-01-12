@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Muhaisnah, Sustainable Interior in Design Muhaisnah, Best sustainable interior Design Muhaisnah, Professional sustainable interior Design Muhaisnah, Luxury sustainable interior Design Muhaisnah, Sustainable Interior Design Muhaisnah Dubai, Sustainable Interior designer Design Muhaisnah, Sustainable Interior company Design Muhaisnah, Sustainable Interior contractor Design Muhaisnah, Affordable sustainable interior Design Muhaisnah, Modern sustainable interior Design Muhaisnah, Sustainable Interior consultation Design Muhaisnah, Sustainable Interior cost Design Muhaisnah, Sustainable Interior price Design Muhaisnah, Top sustainable interior Design Muhaisnah
+
+// SEO Keywords: Sustainable Interior Design Muhaisnah, Sustainable Interior in Design Muhaisnah, Best sustainable interior Design Muhaisnah, Professional sustainable interior Design Muhaisnah, Luxury sustainable interior Design Muhaisnah, Sustainable Interior Design Muhaisnah Dubai, Sustainable Interior designer Design Muhaisnah, Sustainable Interior company Design Muhaisnah, Sustainable Interior contractor Design Muhaisnah, Affordable sustainable interior Design Muhaisnah, Modern sustainable interior Design Muhaisnah, Sustainable Interior consultation Design Muhaisnah, Sustainable Interior cost Design Muhaisnah, Sustainable Interior price Design Muhaisnah, Top sustainable interior Design Muhaisnah, Sustainable Interior near Design Muhaisnah, Sustainable Interior specialists Design Muhaisnah, Sustainable Interior experts Design Muhaisnah, Sustainable Interior solutions Design Muhaisnah, Sustainable Interior packages Design Muhaisnah, Sustainable Interior quotes Design Muhaisnah, Sustainable Interior estimates Design Muhaisnah, Sustainable Interior services near me Design Muhaisnah, Cheap Sustainable Interior Design Muhaisnah, Quality Sustainable Interior Design Muhaisnah, Trusted Sustainable Interior Design Muhaisnah, Sustainable Interior transformation Design Muhaisnah, Sustainable Interior renovation Design Muhaisnah, Sustainable Interior makeover Design Muhaisnah, Best Sustainable Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior in Design Muhaisnah. Best sustainable interior Design Muhaisnah Company Design Muhaisnah Our luxury sustainable interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

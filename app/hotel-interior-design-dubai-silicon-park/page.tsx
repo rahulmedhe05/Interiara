@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design, Hotel in Interior Design, Best hotel Interior Design, Professional hotel Interior Design, Luxury hotel Interior Design, Hotel Interior Design Dubai, Hotel designer Interior Design, Hotel company Interior Design, Hotel contractor Interior Design, Affordable hotel Interior Design, Modern hotel Interior Design, Hotel consultation Interior Design, Hotel cost Interior Design, Hotel price Interior Design, Top hotel Interior Design
+
+// SEO Keywords: Hotel Interior Design, Hotel in Interior Design, Best hotel Interior Design, Professional hotel Interior Design, Luxury hotel Interior Design, Hotel Interior Design Dubai, Hotel designer Interior Design, Hotel company Interior Design, Hotel contractor Interior Design, Affordable hotel Interior Design, Modern hotel Interior Design, Hotel consultation Interior Design, Hotel cost Interior Design, Hotel price Interior Design, Top hotel Interior Design, Hotel near Interior Design, Hotel specialists Interior Design, Hotel experts Interior Design, Hotel solutions Interior Design, Hotel packages Interior Design, Hotel quotes Interior Design, Hotel estimates Interior Design, Hotel services near me Interior Design, Cheap Hotel Interior Design, Quality Hotel Interior Design, Trusted Hotel Interior Design, Hotel transformation Interior Design, Hotel renovation Interior Design, Hotel makeover Interior Design, Best Hotel company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel in Interior Design. Best hotel Interior Design Company Interior Design Our luxury hotel interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Silicon Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

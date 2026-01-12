@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Penthouse Interior Design Al Jaddaf, Penthouse Interior Design in Al Jaddaf, Best penthouse interior design Al Jaddaf, Professional penthouse interior design Al Jaddaf, Luxury penthouse interior design Al Jaddaf, Penthouse Interior Design Al Jaddaf Dubai, Penthouse Interior Design designer Al Jaddaf, Penthouse Interior Design company Al Jaddaf, Penthouse Interior Design contractor Al Jaddaf, Affordable penthouse interior design Al Jaddaf, Modern penthouse interior design Al Jaddaf, Penthouse Interior Design consultation Al Jaddaf, Penthouse Interior Design cost Al Jaddaf, Penthouse Interior Design price Al Jaddaf, Top penthouse interior design Al Jaddaf
+
+// SEO Keywords: Penthouse Interior Design Al Jaddaf, Penthouse Interior Design in Al Jaddaf, Best penthouse interior design Al Jaddaf, Professional penthouse interior design Al Jaddaf, Luxury penthouse interior design Al Jaddaf, Penthouse Interior Design Al Jaddaf Dubai, Penthouse Interior Design designer Al Jaddaf, Penthouse Interior Design company Al Jaddaf, Penthouse Interior Design contractor Al Jaddaf, Affordable penthouse interior design Al Jaddaf, Modern penthouse interior design Al Jaddaf, Penthouse Interior Design consultation Al Jaddaf, Penthouse Interior Design cost Al Jaddaf, Penthouse Interior Design price Al Jaddaf, Top penthouse interior design Al Jaddaf, Penthouse Interior Design near Al Jaddaf, Penthouse Interior Design specialists Al Jaddaf, Penthouse Interior Design experts Al Jaddaf, Penthouse Interior Design solutions Al Jaddaf, Penthouse Interior Design packages Al Jaddaf, Penthouse Interior Design quotes Al Jaddaf, Penthouse Interior Design estimates Al Jaddaf, Penthouse Interior Design services near me Al Jaddaf, Cheap Penthouse Interior Design Al Jaddaf, Quality Penthouse Interior Design Al Jaddaf, Trusted Penthouse Interior Design Al Jaddaf, Penthouse Interior Design transformation Al Jaddaf, Penthouse Interior Design renovation Al Jaddaf, Penthouse Interior Design makeover Al Jaddaf, Best Penthouse Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function PenthouseInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Al Jaddaf Company Al Jaddaf</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Penthouse Interior Design in Al Jaddaf. Best penthouse interior design Al Jaddaf Company Al Jaddaf Our luxury penthouse interior design al jaddaf services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function PenthouseInteriorDesignAlJaddaf() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our penthouse interior design in al jaddaf service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function PenthouseInteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in penthouse interior design near al jaddaf.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function PenthouseInteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

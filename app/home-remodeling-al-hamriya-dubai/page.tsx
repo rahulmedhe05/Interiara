@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Al Hamriya, Home Remodeling in Al Hamriya, Best home remodeling Al Hamriya, Professional home remodeling Al Hamriya, Luxury home remodeling Al Hamriya, Home Remodeling Al Hamriya Dubai, Home Remodeling designer Al Hamriya, Home Remodeling company Al Hamriya, Home Remodeling contractor Al Hamriya, Affordable home remodeling Al Hamriya, Modern home remodeling Al Hamriya, Home Remodeling consultation Al Hamriya, Home Remodeling cost Al Hamriya, Home Remodeling price Al Hamriya, Top home remodeling Al Hamriya
+
+// SEO Keywords: Home Remodeling Al Hamriya, Home Remodeling in Al Hamriya, Best home remodeling Al Hamriya, Professional home remodeling Al Hamriya, Luxury home remodeling Al Hamriya, Home Remodeling Al Hamriya Dubai, Home Remodeling designer Al Hamriya, Home Remodeling company Al Hamriya, Home Remodeling contractor Al Hamriya, Affordable home remodeling Al Hamriya, Modern home remodeling Al Hamriya, Home Remodeling consultation Al Hamriya, Home Remodeling cost Al Hamriya, Home Remodeling price Al Hamriya, Top home remodeling Al Hamriya, Home Remodeling near Al Hamriya, Home Remodeling specialists Al Hamriya, Home Remodeling experts Al Hamriya, Home Remodeling solutions Al Hamriya, Home Remodeling packages Al Hamriya, Home Remodeling quotes Al Hamriya, Home Remodeling estimates Al Hamriya, Home Remodeling services near me Al Hamriya, Cheap Home Remodeling Al Hamriya, Quality Home Remodeling Al Hamriya, Trusted Home Remodeling Al Hamriya, Home Remodeling transformation Al Hamriya, Home Remodeling renovation Al Hamriya, Home Remodeling makeover Al Hamriya, Best Home Remodeling company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling in Al Hamriya. Best home remodeling Al Hamriya Company Al Hamriya Our luxury home remodeling al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

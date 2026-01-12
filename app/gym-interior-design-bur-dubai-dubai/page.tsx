@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Bur Dubai, Gym Interior Design in Bur Dubai, Best gym interior design Bur Dubai, Professional gym interior design Bur Dubai, Luxury gym interior design Bur Dubai, Gym Interior Design Bur Dubai Dubai, Gym Interior Design designer Bur Dubai, Gym Interior Design company Bur Dubai, Gym Interior Design contractor Bur Dubai, Affordable gym interior design Bur Dubai, Modern gym interior design Bur Dubai, Gym Interior Design consultation Bur Dubai, Gym Interior Design cost Bur Dubai, Gym Interior Design price Bur Dubai, Top gym interior design Bur Dubai
+
+// SEO Keywords: Gym Interior Design Bur Dubai, Gym Interior Design in Bur Dubai, Best gym interior design Bur Dubai, Professional gym interior design Bur Dubai, Luxury gym interior design Bur Dubai, Gym Interior Design Bur Dubai Dubai, Gym Interior Design designer Bur Dubai, Gym Interior Design company Bur Dubai, Gym Interior Design contractor Bur Dubai, Affordable gym interior design Bur Dubai, Modern gym interior design Bur Dubai, Gym Interior Design consultation Bur Dubai, Gym Interior Design cost Bur Dubai, Gym Interior Design price Bur Dubai, Top gym interior design Bur Dubai, Gym Interior Design near Bur Dubai, Gym Interior Design specialists Bur Dubai, Gym Interior Design experts Bur Dubai, Gym Interior Design solutions Bur Dubai, Gym Interior Design packages Bur Dubai, Gym Interior Design quotes Bur Dubai, Gym Interior Design estimates Bur Dubai, Gym Interior Design services near me Bur Dubai, Cheap Gym Interior Design Bur Dubai, Quality Gym Interior Design Bur Dubai, Trusted Gym Interior Design Bur Dubai, Gym Interior Design transformation Bur Dubai, Gym Interior Design renovation Bur Dubai, Gym Interior Design makeover Bur Dubai, Best Gym Interior Design company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function GymInteriorDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Gym Interior Design in Bur Dubai. Best gym interior design Bur Dubai Company Bur Dubai Our luxury gym interior design bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function GymInteriorDesignBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our gym interior design in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function GymInteriorDesignBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in gym interior design near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function GymInteriorDesignBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

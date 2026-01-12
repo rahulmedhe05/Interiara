@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Muhaisnah, Lighting in Design Muhaisnah, Best lighting Design Muhaisnah, Professional lighting Design Muhaisnah, Luxury lighting Design Muhaisnah, Lighting Design Muhaisnah Dubai, Lighting designer Design Muhaisnah, Lighting company Design Muhaisnah, Lighting contractor Design Muhaisnah, Affordable lighting Design Muhaisnah, Modern lighting Design Muhaisnah, Lighting consultation Design Muhaisnah, Lighting cost Design Muhaisnah, Lighting price Design Muhaisnah, Top lighting Design Muhaisnah
+
+// SEO Keywords: Lighting Design Muhaisnah, Lighting in Design Muhaisnah, Best lighting Design Muhaisnah, Professional lighting Design Muhaisnah, Luxury lighting Design Muhaisnah, Lighting Design Muhaisnah Dubai, Lighting designer Design Muhaisnah, Lighting company Design Muhaisnah, Lighting contractor Design Muhaisnah, Affordable lighting Design Muhaisnah, Modern lighting Design Muhaisnah, Lighting consultation Design Muhaisnah, Lighting cost Design Muhaisnah, Lighting price Design Muhaisnah, Top lighting Design Muhaisnah, Lighting near Design Muhaisnah, Lighting specialists Design Muhaisnah, Lighting experts Design Muhaisnah, Lighting solutions Design Muhaisnah, Lighting packages Design Muhaisnah, Lighting quotes Design Muhaisnah, Lighting estimates Design Muhaisnah, Lighting services near me Design Muhaisnah, Cheap Lighting Design Muhaisnah, Quality Lighting Design Muhaisnah, Trusted Lighting Design Muhaisnah, Lighting transformation Design Muhaisnah, Lighting renovation Design Muhaisnah, Lighting makeover Design Muhaisnah, Best Lighting company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Design Muhaisnah. Best lighting Design Muhaisnah Company Design Muhaisnah Our luxury lighting design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

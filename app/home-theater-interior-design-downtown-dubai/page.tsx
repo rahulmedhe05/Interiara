@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Theater Interior Design Downtown, Home Theater Interior in Design Downtown, Best home theater interior Design Downtown, Professional home theater interior Design Downtown, Luxury home theater interior Design Downtown, Home Theater Interior Design Downtown Dubai, Home Theater Interior designer Design Downtown, Home Theater Interior company Design Downtown, Home Theater Interior contractor Design Downtown, Affordable home theater interior Design Downtown, Modern home theater interior Design Downtown, Home Theater Interior consultation Design Downtown, Home Theater Interior cost Design Downtown, Home Theater Interior price Design Downtown, Top home theater interior Design Downtown
+
+// SEO Keywords: Home Theater Interior Design Downtown, Home Theater Interior in Design Downtown, Best home theater interior Design Downtown, Professional home theater interior Design Downtown, Luxury home theater interior Design Downtown, Home Theater Interior Design Downtown Dubai, Home Theater Interior designer Design Downtown, Home Theater Interior company Design Downtown, Home Theater Interior contractor Design Downtown, Affordable home theater interior Design Downtown, Modern home theater interior Design Downtown, Home Theater Interior consultation Design Downtown, Home Theater Interior cost Design Downtown, Home Theater Interior price Design Downtown, Top home theater interior Design Downtown, Home Theater Interior near Design Downtown, Home Theater Interior specialists Design Downtown, Home Theater Interior experts Design Downtown, Home Theater Interior solutions Design Downtown, Home Theater Interior packages Design Downtown, Home Theater Interior quotes Design Downtown, Home Theater Interior estimates Design Downtown, Home Theater Interior services near me Design Downtown, Cheap Home Theater Interior Design Downtown, Quality Home Theater Interior Design Downtown, Trusted Home Theater Interior Design Downtown, Home Theater Interior transformation Design Downtown, Home Theater Interior renovation Design Downtown, Home Theater Interior makeover Design Downtown, Best Home Theater Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeTheaterInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home theater interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Theater Interior in Design Downtown. Best home theater interior Design Downtown Company Design Downtown Our luxury home theater interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Theater Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeTheaterInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home theater interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeTheaterInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home theater interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeTheaterInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

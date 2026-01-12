@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Downtown Dubai, Space Planning in Downtown Dubai, Best space planning Downtown Dubai, Professional space planning Downtown Dubai, Luxury space planning Downtown Dubai, Space Planning Downtown Dubai Dubai, Space Planning designer Downtown Dubai, Space Planning company Downtown Dubai, Space Planning contractor Downtown Dubai, Affordable space planning Downtown Dubai, Modern space planning Downtown Dubai, Space Planning consultation Downtown Dubai, Space Planning cost Downtown Dubai, Space Planning price Downtown Dubai, Top space planning Downtown Dubai
+
+// SEO Keywords: Space Planning Downtown Dubai, Space Planning in Downtown Dubai, Best space planning Downtown Dubai, Professional space planning Downtown Dubai, Luxury space planning Downtown Dubai, Space Planning Downtown Dubai Dubai, Space Planning designer Downtown Dubai, Space Planning company Downtown Dubai, Space Planning contractor Downtown Dubai, Affordable space planning Downtown Dubai, Modern space planning Downtown Dubai, Space Planning consultation Downtown Dubai, Space Planning cost Downtown Dubai, Space Planning price Downtown Dubai, Top space planning Downtown Dubai, Space Planning near Downtown Dubai, Space Planning specialists Downtown Dubai, Space Planning experts Downtown Dubai, Space Planning solutions Downtown Dubai, Space Planning packages Downtown Dubai, Space Planning quotes Downtown Dubai, Space Planning estimates Downtown Dubai, Space Planning services near me Downtown Dubai, Cheap Space Planning Downtown Dubai, Quality Space Planning Downtown Dubai, Trusted Space Planning Downtown Dubai, Space Planning transformation Downtown Dubai, Space Planning renovation Downtown Dubai, Space Planning makeover Downtown Dubai, Best Space Planning company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Downtown Dubai. Best space planning Downtown Dubai Company Downtown Dubai Our luxury space planning downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

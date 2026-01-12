@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Greens, Office in Renovation Greens, Best office Renovation Greens, Professional office Renovation Greens, Luxury office Renovation Greens, Office Renovation Greens Dubai, Office designer Renovation Greens, Office company Renovation Greens, Office contractor Renovation Greens, Affordable office Renovation Greens, Modern office Renovation Greens, Office consultation Renovation Greens, Office cost Renovation Greens, Office price Renovation Greens, Top office Renovation Greens
+
+// SEO Keywords: Office Renovation Greens, Office in Renovation Greens, Best office Renovation Greens, Professional office Renovation Greens, Luxury office Renovation Greens, Office Renovation Greens Dubai, Office designer Renovation Greens, Office company Renovation Greens, Office contractor Renovation Greens, Affordable office Renovation Greens, Modern office Renovation Greens, Office consultation Renovation Greens, Office cost Renovation Greens, Office price Renovation Greens, Top office Renovation Greens, Office near Renovation Greens, Office specialists Renovation Greens, Office experts Renovation Greens, Office solutions Renovation Greens, Office packages Renovation Greens, Office quotes Renovation Greens, Office estimates Renovation Greens, Office services near me Renovation Greens, Cheap Office Renovation Greens, Quality Office Renovation Greens, Trusted Office Renovation Greens, Office transformation Renovation Greens, Office renovation Renovation Greens, Office makeover Renovation Greens, Best Office company Renovation Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Renovation Greens Company Renovation Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office in Renovation Greens. Best office Renovation Greens Company Renovation Greens Our professional office renovation greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OfficeRenovationGreens() {
                 At Interiara, we believe that exceptional <strong>Office Renovation The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Renovation Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OfficeRenovationGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office in renovation greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office near renovation greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

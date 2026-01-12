@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Safouh, Color Theme Consultation in Al Safouh, Best color theme consultation Al Safouh, Professional color theme consultation Al Safouh, Luxury color theme consultation Al Safouh, Color Theme Consultation Al Safouh Dubai, Color Theme Consultation designer Al Safouh, Color Theme Consultation company Al Safouh, Color Theme Consultation contractor Al Safouh, Affordable color theme consultation Al Safouh, Modern color theme consultation Al Safouh, Color Theme Consultation consultation Al Safouh, Color Theme Consultation cost Al Safouh, Color Theme Consultation price Al Safouh, Top color theme consultation Al Safouh
+
+// SEO Keywords: Color Theme Consultation Al Safouh, Color Theme Consultation in Al Safouh, Best color theme consultation Al Safouh, Professional color theme consultation Al Safouh, Luxury color theme consultation Al Safouh, Color Theme Consultation Al Safouh Dubai, Color Theme Consultation designer Al Safouh, Color Theme Consultation company Al Safouh, Color Theme Consultation contractor Al Safouh, Affordable color theme consultation Al Safouh, Modern color theme consultation Al Safouh, Color Theme Consultation consultation Al Safouh, Color Theme Consultation cost Al Safouh, Color Theme Consultation price Al Safouh, Top color theme consultation Al Safouh, Color Theme Consultation near Al Safouh, Color Theme Consultation specialists Al Safouh, Color Theme Consultation experts Al Safouh, Color Theme Consultation solutions Al Safouh, Color Theme Consultation packages Al Safouh, Color Theme Consultation quotes Al Safouh, Color Theme Consultation estimates Al Safouh, Color Theme Consultation services near me Al Safouh, Cheap Color Theme Consultation Al Safouh, Quality Color Theme Consultation Al Safouh, Trusted Color Theme Consultation Al Safouh, Color Theme Consultation transformation Al Safouh, Color Theme Consultation renovation Al Safouh, Color Theme Consultation makeover Al Safouh, Best Color Theme Consultation company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Al Safouh. Best color theme consultation Al Safouh Company Al Safouh Our luxury color theme consultation al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

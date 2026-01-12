@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Space Optimization City Walk, Interior Space Optimization in City Walk, Best interior space optimization City Walk, Professional interior space optimization City Walk, Luxury interior space optimization City Walk, Interior Space Optimization City Walk Dubai, Interior Space Optimization designer City Walk, Interior Space Optimization company City Walk, Interior Space Optimization contractor City Walk, Affordable interior space optimization City Walk, Modern interior space optimization City Walk, Interior Space Optimization consultation City Walk, Interior Space Optimization cost City Walk, Interior Space Optimization price City Walk, Top interior space optimization City Walk
+
+// SEO Keywords: Interior Space Optimization City Walk, Interior Space Optimization in City Walk, Best interior space optimization City Walk, Professional interior space optimization City Walk, Luxury interior space optimization City Walk, Interior Space Optimization City Walk Dubai, Interior Space Optimization designer City Walk, Interior Space Optimization company City Walk, Interior Space Optimization contractor City Walk, Affordable interior space optimization City Walk, Modern interior space optimization City Walk, Interior Space Optimization consultation City Walk, Interior Space Optimization cost City Walk, Interior Space Optimization price City Walk, Top interior space optimization City Walk, Interior Space Optimization near City Walk, Interior Space Optimization specialists City Walk, Interior Space Optimization experts City Walk, Interior Space Optimization solutions City Walk, Interior Space Optimization packages City Walk, Interior Space Optimization quotes City Walk, Interior Space Optimization estimates City Walk, Interior Space Optimization services near me City Walk, Cheap Interior Space Optimization City Walk, Quality Interior Space Optimization City Walk, Trusted Interior Space Optimization City Walk, Interior Space Optimization transformation City Walk, Interior Space Optimization renovation City Walk, Interior Space Optimization makeover City Walk, Best Interior Space Optimization company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorSpaceOptimizationCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Space Optimization in City Walk. Best interior space optimization City Walk Company City Walk Our luxury interior space optimization city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorSpaceOptimizationCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior space optimization in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorSpaceOptimizationCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior space optimization near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorSpaceOptimizationCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Discovery Gardens, Home Renovation in Discovery Gardens, Best home renovation Discovery Gardens, Professional home renovation Discovery Gardens, Luxury home renovation Discovery Gardens, Home Renovation Discovery Gardens Dubai, Home Renovation designer Discovery Gardens, Home Renovation company Discovery Gardens, Home Renovation contractor Discovery Gardens, Affordable home renovation Discovery Gardens, Modern home renovation Discovery Gardens, Home Renovation consultation Discovery Gardens, Home Renovation cost Discovery Gardens, Home Renovation price Discovery Gardens, Top home renovation Discovery Gardens
+
+// SEO Keywords: Home Renovation Discovery Gardens, Home Renovation in Discovery Gardens, Best home renovation Discovery Gardens, Professional home renovation Discovery Gardens, Luxury home renovation Discovery Gardens, Home Renovation Discovery Gardens Dubai, Home Renovation designer Discovery Gardens, Home Renovation company Discovery Gardens, Home Renovation contractor Discovery Gardens, Affordable home renovation Discovery Gardens, Modern home renovation Discovery Gardens, Home Renovation consultation Discovery Gardens, Home Renovation cost Discovery Gardens, Home Renovation price Discovery Gardens, Top home renovation Discovery Gardens, Home Renovation near Discovery Gardens, Home Renovation specialists Discovery Gardens, Home Renovation experts Discovery Gardens, Home Renovation solutions Discovery Gardens, Home Renovation packages Discovery Gardens, Home Renovation quotes Discovery Gardens, Home Renovation estimates Discovery Gardens, Home Renovation services near me Discovery Gardens, Cheap Home Renovation Discovery Gardens, Quality Home Renovation Discovery Gardens, Trusted Home Renovation Discovery Gardens, Home Renovation transformation Discovery Gardens, Home Renovation renovation Discovery Gardens, Home Renovation makeover Discovery Gardens, Best Home Renovation company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation in Discovery Gardens. Best home renovation Discovery Gardens Company Discovery Gardens Our luxury home renovation discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRenovationDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization Business Bay South, Interior Visualization Business in Bay South, Best interior visualization business Bay South, Professional interior visualization business Bay South, Luxury interior visualization business Bay South, Interior Visualization Business Bay South Dubai, Interior Visualization Business designer Bay South, Interior Visualization Business company Bay South, Interior Visualization Business contractor Bay South, Affordable interior visualization business Bay South, Modern interior visualization business Bay South, Interior Visualization Business consultation Bay South, Interior Visualization Business cost Bay South, Interior Visualization Business price Bay South, Top interior visualization business Bay South
+
+// SEO Keywords: Interior Visualization Business Bay South, Interior Visualization Business in Bay South, Best interior visualization business Bay South, Professional interior visualization business Bay South, Luxury interior visualization business Bay South, Interior Visualization Business Bay South Dubai, Interior Visualization Business designer Bay South, Interior Visualization Business company Bay South, Interior Visualization Business contractor Bay South, Affordable interior visualization business Bay South, Modern interior visualization business Bay South, Interior Visualization Business consultation Bay South, Interior Visualization Business cost Bay South, Interior Visualization Business price Bay South, Top interior visualization business Bay South, Interior Visualization Business near Bay South, Interior Visualization Business specialists Bay South, Interior Visualization Business experts Bay South, Interior Visualization Business solutions Bay South, Interior Visualization Business packages Bay South, Interior Visualization Business quotes Bay South, Interior Visualization Business estimates Bay South, Interior Visualization Business services near me Bay South, Cheap Interior Visualization Business Bay South, Quality Interior Visualization Business Bay South, Trusted Interior Visualization Business Bay South, Interior Visualization Business transformation Bay South, Interior Visualization Business renovation Bay South, Interior Visualization Business makeover Bay South, Best Interior Visualization Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization Business in Bay South. Best interior visualization business Bay South Company Bay South Our luxury interior visualization business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

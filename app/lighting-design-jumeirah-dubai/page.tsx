@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Jumeirah, Lighting in Design Jumeirah, Best lighting Design Jumeirah, Professional lighting Design Jumeirah, Luxury lighting Design Jumeirah, Lighting Design Jumeirah Dubai, Lighting designer Design Jumeirah, Lighting company Design Jumeirah, Lighting contractor Design Jumeirah, Affordable lighting Design Jumeirah, Modern lighting Design Jumeirah, Lighting consultation Design Jumeirah, Lighting cost Design Jumeirah, Lighting price Design Jumeirah, Top lighting Design Jumeirah
+
+// SEO Keywords: Lighting Design Jumeirah, Lighting in Design Jumeirah, Best lighting Design Jumeirah, Professional lighting Design Jumeirah, Luxury lighting Design Jumeirah, Lighting Design Jumeirah Dubai, Lighting designer Design Jumeirah, Lighting company Design Jumeirah, Lighting contractor Design Jumeirah, Affordable lighting Design Jumeirah, Modern lighting Design Jumeirah, Lighting consultation Design Jumeirah, Lighting cost Design Jumeirah, Lighting price Design Jumeirah, Top lighting Design Jumeirah, Lighting near Design Jumeirah, Lighting specialists Design Jumeirah, Lighting experts Design Jumeirah, Lighting solutions Design Jumeirah, Lighting packages Design Jumeirah, Lighting quotes Design Jumeirah, Lighting estimates Design Jumeirah, Lighting services near me Design Jumeirah, Cheap Lighting Design Jumeirah, Quality Lighting Design Jumeirah, Trusted Lighting Design Jumeirah, Lighting transformation Design Jumeirah, Lighting renovation Design Jumeirah, Lighting makeover Design Jumeirah, Best Lighting company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Design Jumeirah. Best lighting Design Jumeirah Company Design Jumeirah Our luxury lighting design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Fitness Studio Interior Design Deira, Fitness Studio Interior in Design Deira, Best fitness studio interior Design Deira, Professional fitness studio interior Design Deira, Luxury fitness studio interior Design Deira, Fitness Studio Interior Design Deira Dubai, Fitness Studio Interior designer Design Deira, Fitness Studio Interior company Design Deira, Fitness Studio Interior contractor Design Deira, Affordable fitness studio interior Design Deira, Modern fitness studio interior Design Deira, Fitness Studio Interior consultation Design Deira, Fitness Studio Interior cost Design Deira, Fitness Studio Interior price Design Deira, Top fitness studio interior Design Deira
+
+// SEO Keywords: Fitness Studio Interior Design Deira, Fitness Studio Interior in Design Deira, Best fitness studio interior Design Deira, Professional fitness studio interior Design Deira, Luxury fitness studio interior Design Deira, Fitness Studio Interior Design Deira Dubai, Fitness Studio Interior designer Design Deira, Fitness Studio Interior company Design Deira, Fitness Studio Interior contractor Design Deira, Affordable fitness studio interior Design Deira, Modern fitness studio interior Design Deira, Fitness Studio Interior consultation Design Deira, Fitness Studio Interior cost Design Deira, Fitness Studio Interior price Design Deira, Top fitness studio interior Design Deira, Fitness Studio Interior near Design Deira, Fitness Studio Interior specialists Design Deira, Fitness Studio Interior experts Design Deira, Fitness Studio Interior solutions Design Deira, Fitness Studio Interior packages Design Deira, Fitness Studio Interior quotes Design Deira, Fitness Studio Interior estimates Design Deira, Fitness Studio Interior services near me Design Deira, Cheap Fitness Studio Interior Design Deira, Quality Fitness Studio Interior Design Deira, Trusted Fitness Studio Interior Design Deira, Fitness Studio Interior transformation Design Deira, Fitness Studio Interior renovation Design Deira, Fitness Studio Interior makeover Design Deira, Best Fitness Studio Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FitnessStudioInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Fitness Studio Interior in Design Deira. Best fitness studio interior Design Deira Company Design Deira Our luxury fitness studio interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function FitnessStudioInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our fitness studio interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FitnessStudioInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in fitness studio interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FitnessStudioInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

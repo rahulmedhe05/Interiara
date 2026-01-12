@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes The Sustainable City, Drapes The in Sustainable City, Best drapes the Sustainable City, Professional drapes the Sustainable City, Luxury drapes the Sustainable City, Drapes The Sustainable City Dubai, Drapes The designer Sustainable City, Drapes The company Sustainable City, Drapes The contractor Sustainable City, Affordable drapes the Sustainable City, Modern drapes the Sustainable City, Drapes The consultation Sustainable City, Drapes The cost Sustainable City, Drapes The price Sustainable City, Top drapes the Sustainable City
+
+// SEO Keywords: Drapes The Sustainable City, Drapes The in Sustainable City, Best drapes the Sustainable City, Professional drapes the Sustainable City, Luxury drapes the Sustainable City, Drapes The Sustainable City Dubai, Drapes The designer Sustainable City, Drapes The company Sustainable City, Drapes The contractor Sustainable City, Affordable drapes the Sustainable City, Modern drapes the Sustainable City, Drapes The consultation Sustainable City, Drapes The cost Sustainable City, Drapes The price Sustainable City, Top drapes the Sustainable City, Drapes The near Sustainable City, Drapes The specialists Sustainable City, Drapes The experts Sustainable City, Drapes The solutions Sustainable City, Drapes The packages Sustainable City, Drapes The quotes Sustainable City, Drapes The estimates Sustainable City, Drapes The services near me Sustainable City, Cheap Drapes The Sustainable City, Quality Drapes The Sustainable City, Trusted Drapes The Sustainable City, Drapes The transformation Sustainable City, Drapes The renovation Sustainable City, Drapes The makeover Sustainable City, Best Drapes The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DrapesTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Drapes The in Sustainable City. Best drapes the Sustainable City Company Sustainable City Our luxury drapes the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function DrapesTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our drapes the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DrapesTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in drapes the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DrapesTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Culture Village, Contemporary Interior Design in Culture Village, Best contemporary interior design Culture Village, Professional contemporary interior design Culture Village, Luxury contemporary interior design Culture Village, Contemporary Interior Design Culture Village Dubai, Contemporary Interior Design designer Culture Village, Contemporary Interior Design company Culture Village, Contemporary Interior Design contractor Culture Village, Affordable contemporary interior design Culture Village, Modern contemporary interior design Culture Village, Contemporary Interior Design consultation Culture Village, Contemporary Interior Design cost Culture Village, Contemporary Interior Design price Culture Village, Top contemporary interior design Culture Village
+
+// SEO Keywords: Contemporary Interior Design Culture Village, Contemporary Interior Design in Culture Village, Best contemporary interior design Culture Village, Professional contemporary interior design Culture Village, Luxury contemporary interior design Culture Village, Contemporary Interior Design Culture Village Dubai, Contemporary Interior Design designer Culture Village, Contemporary Interior Design company Culture Village, Contemporary Interior Design contractor Culture Village, Affordable contemporary interior design Culture Village, Modern contemporary interior design Culture Village, Contemporary Interior Design consultation Culture Village, Contemporary Interior Design cost Culture Village, Contemporary Interior Design price Culture Village, Top contemporary interior design Culture Village, Contemporary Interior Design near Culture Village, Contemporary Interior Design specialists Culture Village, Contemporary Interior Design experts Culture Village, Contemporary Interior Design solutions Culture Village, Contemporary Interior Design packages Culture Village, Contemporary Interior Design quotes Culture Village, Contemporary Interior Design estimates Culture Village, Contemporary Interior Design services near me Culture Village, Cheap Contemporary Interior Design Culture Village, Quality Contemporary Interior Design Culture Village, Trusted Contemporary Interior Design Culture Village, Contemporary Interior Design transformation Culture Village, Contemporary Interior Design renovation Culture Village, Contemporary Interior Design makeover Culture Village, Best Contemporary Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Culture Village. Best contemporary interior design Culture Village Company Culture Village Our luxury contemporary interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

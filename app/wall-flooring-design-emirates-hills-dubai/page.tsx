@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Emirates Hills, Wall Flooring Design in Emirates Hills, Best wall flooring design Emirates Hills, Professional wall flooring design Emirates Hills, Luxury wall flooring design Emirates Hills, Wall Flooring Design Emirates Hills Dubai, Wall Flooring Design designer Emirates Hills, Wall Flooring Design company Emirates Hills, Wall Flooring Design contractor Emirates Hills, Affordable wall flooring design Emirates Hills, Modern wall flooring design Emirates Hills, Wall Flooring Design consultation Emirates Hills, Wall Flooring Design cost Emirates Hills, Wall Flooring Design price Emirates Hills, Top wall flooring design Emirates Hills
+
+// SEO Keywords: Wall Flooring Design Emirates Hills, Wall Flooring Design in Emirates Hills, Best wall flooring design Emirates Hills, Professional wall flooring design Emirates Hills, Luxury wall flooring design Emirates Hills, Wall Flooring Design Emirates Hills Dubai, Wall Flooring Design designer Emirates Hills, Wall Flooring Design company Emirates Hills, Wall Flooring Design contractor Emirates Hills, Affordable wall flooring design Emirates Hills, Modern wall flooring design Emirates Hills, Wall Flooring Design consultation Emirates Hills, Wall Flooring Design cost Emirates Hills, Wall Flooring Design price Emirates Hills, Top wall flooring design Emirates Hills, Wall Flooring Design near Emirates Hills, Wall Flooring Design specialists Emirates Hills, Wall Flooring Design experts Emirates Hills, Wall Flooring Design solutions Emirates Hills, Wall Flooring Design packages Emirates Hills, Wall Flooring Design quotes Emirates Hills, Wall Flooring Design estimates Emirates Hills, Wall Flooring Design services near me Emirates Hills, Cheap Wall Flooring Design Emirates Hills, Quality Wall Flooring Design Emirates Hills, Trusted Wall Flooring Design Emirates Hills, Wall Flooring Design transformation Emirates Hills, Wall Flooring Design renovation Emirates Hills, Wall Flooring Design makeover Emirates Hills, Best Wall Flooring Design company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Emirates Hills. Best wall flooring design Emirates Hills Company Emirates Hills Our luxury wall flooring design emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

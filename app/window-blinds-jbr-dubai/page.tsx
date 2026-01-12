@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Jbr, Window in Blinds Jbr, Best window Blinds Jbr, Professional window Blinds Jbr, Luxury window Blinds Jbr, Window Blinds Jbr Dubai, Window designer Blinds Jbr, Window company Blinds Jbr, Window contractor Blinds Jbr, Affordable window Blinds Jbr, Modern window Blinds Jbr, Window consultation Blinds Jbr, Window cost Blinds Jbr, Window price Blinds Jbr, Top window Blinds Jbr
+
+// SEO Keywords: Window Blinds Jbr, Window in Blinds Jbr, Best window Blinds Jbr, Professional window Blinds Jbr, Luxury window Blinds Jbr, Window Blinds Jbr Dubai, Window designer Blinds Jbr, Window company Blinds Jbr, Window contractor Blinds Jbr, Affordable window Blinds Jbr, Modern window Blinds Jbr, Window consultation Blinds Jbr, Window cost Blinds Jbr, Window price Blinds Jbr, Top window Blinds Jbr, Window near Blinds Jbr, Window specialists Blinds Jbr, Window experts Blinds Jbr, Window solutions Blinds Jbr, Window packages Blinds Jbr, Window quotes Blinds Jbr, Window estimates Blinds Jbr, Window services near me Blinds Jbr, Cheap Window Blinds Jbr, Quality Window Blinds Jbr, Trusted Window Blinds Jbr, Window transformation Blinds Jbr, Window renovation Blinds Jbr, Window makeover Blinds Jbr, Best Window company Blinds Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsJbr() {
                 At Interiara, we believe that exceptional <strong>Window Blinds JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Blinds Jbr. Window Blinds Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window blinds jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in blinds jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near blinds jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

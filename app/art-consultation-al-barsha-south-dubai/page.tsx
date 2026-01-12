@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Barsha South, Art Consultation Al in Barsha South, Best art consultation al Barsha South, Professional art consultation al Barsha South, Luxury art consultation al Barsha South, Art Consultation Al Barsha South Dubai, Art Consultation Al designer Barsha South, Art Consultation Al company Barsha South, Art Consultation Al contractor Barsha South, Affordable art consultation al Barsha South, Modern art consultation al Barsha South, Art Consultation Al consultation Barsha South, Art Consultation Al cost Barsha South, Art Consultation Al price Barsha South, Top art consultation al Barsha South
+
+// SEO Keywords: Art Consultation Al Barsha South, Art Consultation Al in Barsha South, Best art consultation al Barsha South, Professional art consultation al Barsha South, Luxury art consultation al Barsha South, Art Consultation Al Barsha South Dubai, Art Consultation Al designer Barsha South, Art Consultation Al company Barsha South, Art Consultation Al contractor Barsha South, Affordable art consultation al Barsha South, Modern art consultation al Barsha South, Art Consultation Al consultation Barsha South, Art Consultation Al cost Barsha South, Art Consultation Al price Barsha South, Top art consultation al Barsha South, Art Consultation Al near Barsha South, Art Consultation Al specialists Barsha South, Art Consultation Al experts Barsha South, Art Consultation Al solutions Barsha South, Art Consultation Al packages Barsha South, Art Consultation Al quotes Barsha South, Art Consultation Al estimates Barsha South, Art Consultation Al services near me Barsha South, Cheap Art Consultation Al Barsha South, Quality Art Consultation Al Barsha South, Trusted Art Consultation Al Barsha South, Art Consultation Al transformation Barsha South, Art Consultation Al renovation Barsha South, Art Consultation Al makeover Barsha South, Best Art Consultation Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art Consultation Al in Barsha South. Best art consultation al Barsha South Company Barsha South Our luxury art consultation al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art consultation al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art consultation al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

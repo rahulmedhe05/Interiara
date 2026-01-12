@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation City Walk, Lighting Automation in City Walk, Best lighting automation City Walk, Professional lighting automation City Walk, Luxury lighting automation City Walk, Lighting Automation City Walk Dubai, Lighting Automation designer City Walk, Lighting Automation company City Walk, Lighting Automation contractor City Walk, Affordable lighting automation City Walk, Modern lighting automation City Walk, Lighting Automation consultation City Walk, Lighting Automation cost City Walk, Lighting Automation price City Walk, Top lighting automation City Walk
+
+// SEO Keywords: Lighting Automation City Walk, Lighting Automation in City Walk, Best lighting automation City Walk, Professional lighting automation City Walk, Luxury lighting automation City Walk, Lighting Automation City Walk Dubai, Lighting Automation designer City Walk, Lighting Automation company City Walk, Lighting Automation contractor City Walk, Affordable lighting automation City Walk, Modern lighting automation City Walk, Lighting Automation consultation City Walk, Lighting Automation cost City Walk, Lighting Automation price City Walk, Top lighting automation City Walk, Lighting Automation near City Walk, Lighting Automation specialists City Walk, Lighting Automation experts City Walk, Lighting Automation solutions City Walk, Lighting Automation packages City Walk, Lighting Automation quotes City Walk, Lighting Automation estimates City Walk, Lighting Automation services near me City Walk, Cheap Lighting Automation City Walk, Quality Lighting Automation City Walk, Trusted Lighting Automation City Walk, Lighting Automation transformation City Walk, Lighting Automation renovation City Walk, Lighting Automation makeover City Walk, Best Lighting Automation company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation City Walk Company City Walk</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in City Walk. Best lighting automation City Walk Company City Walk Our luxury lighting automation city walk services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationCityWalk() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in city walk service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near city walk.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

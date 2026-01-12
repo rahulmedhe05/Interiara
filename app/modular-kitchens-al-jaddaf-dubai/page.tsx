@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Al Jaddaf, Modular Kitchens in Al Jaddaf, Best modular kitchens Al Jaddaf, Professional modular kitchens Al Jaddaf, Luxury modular kitchens Al Jaddaf, Modular Kitchens Al Jaddaf Dubai, Modular Kitchens designer Al Jaddaf, Modular Kitchens company Al Jaddaf, Modular Kitchens contractor Al Jaddaf, Affordable modular kitchens Al Jaddaf, Modern modular kitchens Al Jaddaf, Modular Kitchens consultation Al Jaddaf, Modular Kitchens cost Al Jaddaf, Modular Kitchens price Al Jaddaf, Top modular kitchens Al Jaddaf
+
+// SEO Keywords: Modular Kitchens Al Jaddaf, Modular Kitchens in Al Jaddaf, Best modular kitchens Al Jaddaf, Professional modular kitchens Al Jaddaf, Luxury modular kitchens Al Jaddaf, Modular Kitchens Al Jaddaf Dubai, Modular Kitchens designer Al Jaddaf, Modular Kitchens company Al Jaddaf, Modular Kitchens contractor Al Jaddaf, Affordable modular kitchens Al Jaddaf, Modern modular kitchens Al Jaddaf, Modular Kitchens consultation Al Jaddaf, Modular Kitchens cost Al Jaddaf, Modular Kitchens price Al Jaddaf, Top modular kitchens Al Jaddaf, Modular Kitchens near Al Jaddaf, Modular Kitchens specialists Al Jaddaf, Modular Kitchens experts Al Jaddaf, Modular Kitchens solutions Al Jaddaf, Modular Kitchens packages Al Jaddaf, Modular Kitchens quotes Al Jaddaf, Modular Kitchens estimates Al Jaddaf, Modular Kitchens services near me Al Jaddaf, Cheap Modular Kitchens Al Jaddaf, Quality Modular Kitchens Al Jaddaf, Trusted Modular Kitchens Al Jaddaf, Modular Kitchens transformation Al Jaddaf, Modular Kitchens renovation Al Jaddaf, Modular Kitchens makeover Al Jaddaf, Best Modular Kitchens company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

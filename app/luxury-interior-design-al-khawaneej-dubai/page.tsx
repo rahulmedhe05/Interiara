@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Al Khawaneej, Luxury Interior Design in Al Khawaneej, Best luxury interior design Al Khawaneej, Professional luxury interior design Al Khawaneej, Luxury luxury interior design Al Khawaneej, Luxury Interior Design Al Khawaneej Dubai, Luxury Interior Design designer Al Khawaneej, Luxury Interior Design company Al Khawaneej, Luxury Interior Design contractor Al Khawaneej, Affordable luxury interior design Al Khawaneej, Modern luxury interior design Al Khawaneej, Luxury Interior Design consultation Al Khawaneej, Luxury Interior Design cost Al Khawaneej, Luxury Interior Design price Al Khawaneej, Top luxury interior design Al Khawaneej
+
+// SEO Keywords: Luxury Interior Design Al Khawaneej, Luxury Interior Design in Al Khawaneej, Best luxury interior design Al Khawaneej, Professional luxury interior design Al Khawaneej, Luxury luxury interior design Al Khawaneej, Luxury Interior Design Al Khawaneej Dubai, Luxury Interior Design designer Al Khawaneej, Luxury Interior Design company Al Khawaneej, Luxury Interior Design contractor Al Khawaneej, Affordable luxury interior design Al Khawaneej, Modern luxury interior design Al Khawaneej, Luxury Interior Design consultation Al Khawaneej, Luxury Interior Design cost Al Khawaneej, Luxury Interior Design price Al Khawaneej, Top luxury interior design Al Khawaneej, Luxury Interior Design near Al Khawaneej, Luxury Interior Design specialists Al Khawaneej, Luxury Interior Design experts Al Khawaneej, Luxury Interior Design solutions Al Khawaneej, Luxury Interior Design packages Al Khawaneej, Luxury Interior Design quotes Al Khawaneej, Luxury Interior Design estimates Al Khawaneej, Luxury Interior Design services near me Al Khawaneej, Cheap Luxury Interior Design Al Khawaneej, Quality Luxury Interior Design Al Khawaneej, Trusted Luxury Interior Design Al Khawaneej, Luxury Interior Design transformation Al Khawaneej, Luxury Interior Design renovation Al Khawaneej, Luxury Interior Design makeover Al Khawaneej, Best Luxury Interior Design company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior Design in Al Khawaneej. Best luxury interior design Al Khawaneej Company Al Khawaneej Our luxury luxury interior design al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior design in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior design near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

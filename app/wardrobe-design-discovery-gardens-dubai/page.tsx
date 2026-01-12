@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Discovery Gardens, Wardrobe Design in Discovery Gardens, Best wardrobe design Discovery Gardens, Professional wardrobe design Discovery Gardens, Luxury wardrobe design Discovery Gardens, Wardrobe Design Discovery Gardens Dubai, Wardrobe Design designer Discovery Gardens, Wardrobe Design company Discovery Gardens, Wardrobe Design contractor Discovery Gardens, Affordable wardrobe design Discovery Gardens, Modern wardrobe design Discovery Gardens, Wardrobe Design consultation Discovery Gardens, Wardrobe Design cost Discovery Gardens, Wardrobe Design price Discovery Gardens, Top wardrobe design Discovery Gardens
+
+// SEO Keywords: Wardrobe Design Discovery Gardens, Wardrobe Design in Discovery Gardens, Best wardrobe design Discovery Gardens, Professional wardrobe design Discovery Gardens, Luxury wardrobe design Discovery Gardens, Wardrobe Design Discovery Gardens Dubai, Wardrobe Design designer Discovery Gardens, Wardrobe Design company Discovery Gardens, Wardrobe Design contractor Discovery Gardens, Affordable wardrobe design Discovery Gardens, Modern wardrobe design Discovery Gardens, Wardrobe Design consultation Discovery Gardens, Wardrobe Design cost Discovery Gardens, Wardrobe Design price Discovery Gardens, Top wardrobe design Discovery Gardens, Wardrobe Design near Discovery Gardens, Wardrobe Design specialists Discovery Gardens, Wardrobe Design experts Discovery Gardens, Wardrobe Design solutions Discovery Gardens, Wardrobe Design packages Discovery Gardens, Wardrobe Design quotes Discovery Gardens, Wardrobe Design estimates Discovery Gardens, Wardrobe Design services near me Discovery Gardens, Cheap Wardrobe Design Discovery Gardens, Quality Wardrobe Design Discovery Gardens, Trusted Wardrobe Design Discovery Gardens, Wardrobe Design transformation Discovery Gardens, Wardrobe Design renovation Discovery Gardens, Wardrobe Design makeover Discovery Gardens, Best Wardrobe Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WardrobeDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wardrobe Design in Discovery Gardens. Best wardrobe design Discovery Gardens Company Discovery Gardens Our luxury wardrobe design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WardrobeDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wardrobe design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WardrobeDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wardrobe design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WardrobeDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

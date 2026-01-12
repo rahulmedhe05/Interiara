@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Lighting Design,  in Lighting Design, Best  Lighting Design, Professional  Lighting Design, Luxury  Lighting Design,  Lighting Design Dubai,  designer Lighting Design,  company Lighting Design,  contractor Lighting Design, Affordable  Lighting Design, Modern  Lighting Design,  consultation Lighting Design,  cost Lighting Design,  price Lighting Design, Top  Lighting Design
+
+// SEO Keywords:  Lighting Design,  in Lighting Design, Best  Lighting Design, Professional  Lighting Design, Luxury  Lighting Design,  Lighting Design Dubai,  designer Lighting Design,  company Lighting Design,  contractor Lighting Design, Affordable  Lighting Design, Modern  Lighting Design,  consultation Lighting Design,  cost Lighting Design,  price Lighting Design, Top  Lighting Design,  near Lighting Design,  specialists Lighting Design,  experts Lighting Design,  solutions Lighting Design,  packages Lighting Design,  quotes Lighting Design,  estimates Lighting Design,  services near me Lighting Design, Cheap  Lighting Design, Quality  Lighting Design, Trusted  Lighting Design,  transformation Lighting Design,  renovation Lighting Design,  makeover Lighting Design, Best  company Lighting Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesign() {
                 At Interiara, we believe that exceptional <strong>Lighting Design South Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the South Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Lighting Design. 
                 We've completed 300+ successful projects across South Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design South Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  lighting design services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design South Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesign() {
 
               <p>
                 Interiara stands out in the crowded South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  lighting design service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near lighting design.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

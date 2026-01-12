@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Jumeirah, Corporate Office Interior in Design Jumeirah, Best corporate office interior Design Jumeirah, Professional corporate office interior Design Jumeirah, Luxury corporate office interior Design Jumeirah, Corporate Office Interior Design Jumeirah Dubai, Corporate Office Interior designer Design Jumeirah, Corporate Office Interior company Design Jumeirah, Corporate Office Interior contractor Design Jumeirah, Affordable corporate office interior Design Jumeirah, Modern corporate office interior Design Jumeirah, Corporate Office Interior consultation Design Jumeirah, Corporate Office Interior cost Design Jumeirah, Corporate Office Interior price Design Jumeirah, Top corporate office interior Design Jumeirah
+
+// SEO Keywords: Corporate Office Interior Design Jumeirah, Corporate Office Interior in Design Jumeirah, Best corporate office interior Design Jumeirah, Professional corporate office interior Design Jumeirah, Luxury corporate office interior Design Jumeirah, Corporate Office Interior Design Jumeirah Dubai, Corporate Office Interior designer Design Jumeirah, Corporate Office Interior company Design Jumeirah, Corporate Office Interior contractor Design Jumeirah, Affordable corporate office interior Design Jumeirah, Modern corporate office interior Design Jumeirah, Corporate Office Interior consultation Design Jumeirah, Corporate Office Interior cost Design Jumeirah, Corporate Office Interior price Design Jumeirah, Top corporate office interior Design Jumeirah, Corporate Office Interior near Design Jumeirah, Corporate Office Interior specialists Design Jumeirah, Corporate Office Interior experts Design Jumeirah, Corporate Office Interior solutions Design Jumeirah, Corporate Office Interior packages Design Jumeirah, Corporate Office Interior quotes Design Jumeirah, Corporate Office Interior estimates Design Jumeirah, Corporate Office Interior services near me Design Jumeirah, Cheap Corporate Office Interior Design Jumeirah, Quality Corporate Office Interior Design Jumeirah, Trusted Corporate Office Interior Design Jumeirah, Corporate Office Interior transformation Design Jumeirah, Corporate Office Interior renovation Design Jumeirah, Corporate Office Interior makeover Design Jumeirah, Best Corporate Office Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior in Design Jumeirah. Best corporate office interior Design Jumeirah Company Design Jumeirah Our luxury corporate office interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

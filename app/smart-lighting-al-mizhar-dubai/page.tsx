@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Mizhar, Smart Lighting in Al Mizhar, Best smart lighting Al Mizhar, Professional smart lighting Al Mizhar, Luxury smart lighting Al Mizhar, Smart Lighting Al Mizhar Dubai, Smart Lighting designer Al Mizhar, Smart Lighting company Al Mizhar, Smart Lighting contractor Al Mizhar, Affordable smart lighting Al Mizhar, Modern smart lighting Al Mizhar, Smart Lighting consultation Al Mizhar, Smart Lighting cost Al Mizhar, Smart Lighting price Al Mizhar, Top smart lighting Al Mizhar
+
+// SEO Keywords: Smart Lighting Al Mizhar, Smart Lighting in Al Mizhar, Best smart lighting Al Mizhar, Professional smart lighting Al Mizhar, Luxury smart lighting Al Mizhar, Smart Lighting Al Mizhar Dubai, Smart Lighting designer Al Mizhar, Smart Lighting company Al Mizhar, Smart Lighting contractor Al Mizhar, Affordable smart lighting Al Mizhar, Modern smart lighting Al Mizhar, Smart Lighting consultation Al Mizhar, Smart Lighting cost Al Mizhar, Smart Lighting price Al Mizhar, Top smart lighting Al Mizhar, Smart Lighting near Al Mizhar, Smart Lighting specialists Al Mizhar, Smart Lighting experts Al Mizhar, Smart Lighting solutions Al Mizhar, Smart Lighting packages Al Mizhar, Smart Lighting quotes Al Mizhar, Smart Lighting estimates Al Mizhar, Smart Lighting services near me Al Mizhar, Cheap Smart Lighting Al Mizhar, Quality Smart Lighting Al Mizhar, Trusted Smart Lighting Al Mizhar, Smart Lighting transformation Al Mizhar, Smart Lighting renovation Al Mizhar, Smart Lighting makeover Al Mizhar, Best Smart Lighting company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

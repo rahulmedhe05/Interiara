@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design The Villa, Lighting Design in The Villa, Best lighting design The Villa, Professional lighting design The Villa, Luxury lighting design The Villa, Lighting Design The Villa Dubai, Lighting Design designer The Villa, Lighting Design company The Villa, Lighting Design contractor The Villa, Affordable lighting design The Villa, Modern lighting design The Villa, Lighting Design consultation The Villa, Lighting Design cost The Villa, Lighting Design price The Villa, Top lighting design The Villa
+
+// SEO Keywords: Lighting Design The Villa, Lighting Design in The Villa, Best lighting design The Villa, Professional lighting design The Villa, Luxury lighting design The Villa, Lighting Design The Villa Dubai, Lighting Design designer The Villa, Lighting Design company The Villa, Lighting Design contractor The Villa, Affordable lighting design The Villa, Modern lighting design The Villa, Lighting Design consultation The Villa, Lighting Design cost The Villa, Lighting Design price The Villa, Top lighting design The Villa, Lighting Design near The Villa, Lighting Design specialists The Villa, Lighting Design experts The Villa, Lighting Design solutions The Villa, Lighting Design packages The Villa, Lighting Design quotes The Villa, Lighting Design estimates The Villa, Lighting Design services near me The Villa, Cheap Lighting Design The Villa, Quality Lighting Design The Villa, Trusted Lighting Design The Villa, Lighting Design transformation The Villa, Lighting Design renovation The Villa, Lighting Design makeover The Villa, Best Lighting Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignTheVilla() {
                 At Interiara, we believe that exceptional <strong>Lighting Design The Villa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Villa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in The Villa. 
                 We've completed 300+ successful projects across The Villa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design The Villa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design the villa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design The Villa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in the villa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near the villa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

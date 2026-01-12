@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Bur, Salon Interior in Design Bur, Best salon interior Design Bur, Professional salon interior Design Bur, Luxury salon interior Design Bur, Salon Interior Design Bur Dubai, Salon Interior designer Design Bur, Salon Interior company Design Bur, Salon Interior contractor Design Bur, Affordable salon interior Design Bur, Modern salon interior Design Bur, Salon Interior consultation Design Bur, Salon Interior cost Design Bur, Salon Interior price Design Bur, Top salon interior Design Bur
+
+// SEO Keywords: Salon Interior Design Bur, Salon Interior in Design Bur, Best salon interior Design Bur, Professional salon interior Design Bur, Luxury salon interior Design Bur, Salon Interior Design Bur Dubai, Salon Interior designer Design Bur, Salon Interior company Design Bur, Salon Interior contractor Design Bur, Affordable salon interior Design Bur, Modern salon interior Design Bur, Salon Interior consultation Design Bur, Salon Interior cost Design Bur, Salon Interior price Design Bur, Top salon interior Design Bur, Salon Interior near Design Bur, Salon Interior specialists Design Bur, Salon Interior experts Design Bur, Salon Interior solutions Design Bur, Salon Interior packages Design Bur, Salon Interior quotes Design Bur, Salon Interior estimates Design Bur, Salon Interior services near me Design Bur, Cheap Salon Interior Design Bur, Quality Salon Interior Design Bur, Trusted Salon Interior Design Bur, Salon Interior transformation Design Bur, Salon Interior renovation Design Bur, Salon Interior makeover Design Bur, Best Salon Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SalonInteriorDesignBur() {
                 At Interiara, we believe that exceptional <strong>Salon Interior Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Salon Interior in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Salon Interior Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury salon interior design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Salon Interior Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SalonInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our salon interior in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in salon interior near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

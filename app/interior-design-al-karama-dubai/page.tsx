@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Al Karama, Interior Design in Al Karama, Best interior design Al Karama, Professional interior design Al Karama, Luxury interior design Al Karama, Interior Design Al Karama Dubai, Interior Design designer Al Karama, Interior Design company Al Karama, Interior Design contractor Al Karama, Affordable interior design Al Karama, Modern interior design Al Karama, Interior Design consultation Al Karama, Interior Design cost Al Karama, Interior Design price Al Karama, Top interior design Al Karama
+
+// SEO Keywords: Interior Design Al Karama, Interior Design in Al Karama, Best interior design Al Karama, Professional interior design Al Karama, Luxury interior design Al Karama, Interior Design Al Karama Dubai, Interior Design designer Al Karama, Interior Design company Al Karama, Interior Design contractor Al Karama, Affordable interior design Al Karama, Modern interior design Al Karama, Interior Design consultation Al Karama, Interior Design cost Al Karama, Interior Design price Al Karama, Top interior design Al Karama, Interior Design near Al Karama, Interior Design specialists Al Karama, Interior Design experts Al Karama, Interior Design solutions Al Karama, Interior Design packages Al Karama, Interior Design quotes Al Karama, Interior Design estimates Al Karama, Interior Design services near me Al Karama, Cheap Interior Design Al Karama, Quality Interior Design Al Karama, Trusted Interior Design Al Karama, Interior Design transformation Al Karama, Interior Design renovation Al Karama, Interior Design makeover Al Karama, Best Interior Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignAlKarama() {
                 At Interiara, we believe that exceptional <strong>Interior Design Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior Design in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior design in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior design near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

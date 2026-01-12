@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Minimalist Interior Design Greens, Minimalist Interior in Design Greens, Best minimalist interior Design Greens, Professional minimalist interior Design Greens, Luxury minimalist interior Design Greens, Minimalist Interior Design Greens Dubai, Minimalist Interior designer Design Greens, Minimalist Interior company Design Greens, Minimalist Interior contractor Design Greens, Affordable minimalist interior Design Greens, Modern minimalist interior Design Greens, Minimalist Interior consultation Design Greens, Minimalist Interior cost Design Greens, Minimalist Interior price Design Greens, Top minimalist interior Design Greens
+
+// SEO Keywords: Minimalist Interior Design Greens, Minimalist Interior in Design Greens, Best minimalist interior Design Greens, Professional minimalist interior Design Greens, Luxury minimalist interior Design Greens, Minimalist Interior Design Greens Dubai, Minimalist Interior designer Design Greens, Minimalist Interior company Design Greens, Minimalist Interior contractor Design Greens, Affordable minimalist interior Design Greens, Modern minimalist interior Design Greens, Minimalist Interior consultation Design Greens, Minimalist Interior cost Design Greens, Minimalist Interior price Design Greens, Top minimalist interior Design Greens, Minimalist Interior near Design Greens, Minimalist Interior specialists Design Greens, Minimalist Interior experts Design Greens, Minimalist Interior solutions Design Greens, Minimalist Interior packages Design Greens, Minimalist Interior quotes Design Greens, Minimalist Interior estimates Design Greens, Minimalist Interior services near me Design Greens, Cheap Minimalist Interior Design Greens, Quality Minimalist Interior Design Greens, Trusted Minimalist Interior Design Greens, Minimalist Interior transformation Design Greens, Minimalist Interior renovation Design Greens, Minimalist Interior makeover Design Greens, Best Minimalist Interior company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MinimalistInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Greens Company Design Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Minimalist Interior in Design Greens. Best minimalist interior Design Greens Company Design Greens Our professional minimalist interior design greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function MinimalistInteriorDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Minimalist Interior Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Minimalist Interior Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Minimalist Interior Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function MinimalistInteriorDesignGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our minimalist interior in design greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MinimalistInteriorDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in minimalist interior near design greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MinimalistInteriorDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

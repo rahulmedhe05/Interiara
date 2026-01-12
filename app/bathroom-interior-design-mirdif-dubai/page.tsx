@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bathroom Interior Design Mirdif, Bathroom Interior in Design Mirdif, Best bathroom interior Design Mirdif, Professional bathroom interior Design Mirdif, Luxury bathroom interior Design Mirdif, Bathroom Interior Design Mirdif Dubai, Bathroom Interior designer Design Mirdif, Bathroom Interior company Design Mirdif, Bathroom Interior contractor Design Mirdif, Affordable bathroom interior Design Mirdif, Modern bathroom interior Design Mirdif, Bathroom Interior consultation Design Mirdif, Bathroom Interior cost Design Mirdif, Bathroom Interior price Design Mirdif, Top bathroom interior Design Mirdif
+
+// SEO Keywords: Bathroom Interior Design Mirdif, Bathroom Interior in Design Mirdif, Best bathroom interior Design Mirdif, Professional bathroom interior Design Mirdif, Luxury bathroom interior Design Mirdif, Bathroom Interior Design Mirdif Dubai, Bathroom Interior designer Design Mirdif, Bathroom Interior company Design Mirdif, Bathroom Interior contractor Design Mirdif, Affordable bathroom interior Design Mirdif, Modern bathroom interior Design Mirdif, Bathroom Interior consultation Design Mirdif, Bathroom Interior cost Design Mirdif, Bathroom Interior price Design Mirdif, Top bathroom interior Design Mirdif, Bathroom Interior near Design Mirdif, Bathroom Interior specialists Design Mirdif, Bathroom Interior experts Design Mirdif, Bathroom Interior solutions Design Mirdif, Bathroom Interior packages Design Mirdif, Bathroom Interior quotes Design Mirdif, Bathroom Interior estimates Design Mirdif, Bathroom Interior services near me Design Mirdif, Cheap Bathroom Interior Design Mirdif, Quality Bathroom Interior Design Mirdif, Trusted Bathroom Interior Design Mirdif, Bathroom Interior transformation Design Mirdif, Bathroom Interior renovation Design Mirdif, Bathroom Interior makeover Design Mirdif, Best Bathroom Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BathroomInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bathroom Interior in Design Mirdif. Best bathroom interior Design Mirdif Company Design Mirdif Our luxury bathroom interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BathroomInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bathroom interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BathroomInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bathroom interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BathroomInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

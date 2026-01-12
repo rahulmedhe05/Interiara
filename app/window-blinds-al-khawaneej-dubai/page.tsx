@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Al Khawaneej, Window Blinds in Al Khawaneej, Best window blinds Al Khawaneej, Professional window blinds Al Khawaneej, Luxury window blinds Al Khawaneej, Window Blinds Al Khawaneej Dubai, Window Blinds designer Al Khawaneej, Window Blinds company Al Khawaneej, Window Blinds contractor Al Khawaneej, Affordable window blinds Al Khawaneej, Modern window blinds Al Khawaneej, Window Blinds consultation Al Khawaneej, Window Blinds cost Al Khawaneej, Window Blinds price Al Khawaneej, Top window blinds Al Khawaneej
+
+// SEO Keywords: Window Blinds Al Khawaneej, Window Blinds in Al Khawaneej, Best window blinds Al Khawaneej, Professional window blinds Al Khawaneej, Luxury window blinds Al Khawaneej, Window Blinds Al Khawaneej Dubai, Window Blinds designer Al Khawaneej, Window Blinds company Al Khawaneej, Window Blinds contractor Al Khawaneej, Affordable window blinds Al Khawaneej, Modern window blinds Al Khawaneej, Window Blinds consultation Al Khawaneej, Window Blinds cost Al Khawaneej, Window Blinds price Al Khawaneej, Top window blinds Al Khawaneej, Window Blinds near Al Khawaneej, Window Blinds specialists Al Khawaneej, Window Blinds experts Al Khawaneej, Window Blinds solutions Al Khawaneej, Window Blinds packages Al Khawaneej, Window Blinds quotes Al Khawaneej, Window Blinds estimates Al Khawaneej, Window Blinds services near me Al Khawaneej, Cheap Window Blinds Al Khawaneej, Quality Window Blinds Al Khawaneej, Trusted Window Blinds Al Khawaneej, Window Blinds transformation Al Khawaneej, Window Blinds renovation Al Khawaneej, Window Blinds makeover Al Khawaneej, Best Window Blinds company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Al Khawaneej. Best window blinds Al Khawaneej Company Al Khawaneej Our luxury window blinds al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

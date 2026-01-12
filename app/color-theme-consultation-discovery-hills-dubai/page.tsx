@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Discovery Hills, Color Theme Consultation in Discovery Hills, Best color theme consultation Discovery Hills, Professional color theme consultation Discovery Hills, Luxury color theme consultation Discovery Hills, Color Theme Consultation Discovery Hills Dubai, Color Theme Consultation designer Discovery Hills, Color Theme Consultation company Discovery Hills, Color Theme Consultation contractor Discovery Hills, Affordable color theme consultation Discovery Hills, Modern color theme consultation Discovery Hills, Color Theme Consultation consultation Discovery Hills, Color Theme Consultation cost Discovery Hills, Color Theme Consultation price Discovery Hills, Top color theme consultation Discovery Hills
+
+// SEO Keywords: Color Theme Consultation Discovery Hills, Color Theme Consultation in Discovery Hills, Best color theme consultation Discovery Hills, Professional color theme consultation Discovery Hills, Luxury color theme consultation Discovery Hills, Color Theme Consultation Discovery Hills Dubai, Color Theme Consultation designer Discovery Hills, Color Theme Consultation company Discovery Hills, Color Theme Consultation contractor Discovery Hills, Affordable color theme consultation Discovery Hills, Modern color theme consultation Discovery Hills, Color Theme Consultation consultation Discovery Hills, Color Theme Consultation cost Discovery Hills, Color Theme Consultation price Discovery Hills, Top color theme consultation Discovery Hills, Color Theme Consultation near Discovery Hills, Color Theme Consultation specialists Discovery Hills, Color Theme Consultation experts Discovery Hills, Color Theme Consultation solutions Discovery Hills, Color Theme Consultation packages Discovery Hills, Color Theme Consultation quotes Discovery Hills, Color Theme Consultation estimates Discovery Hills, Color Theme Consultation services near me Discovery Hills, Cheap Color Theme Consultation Discovery Hills, Quality Color Theme Consultation Discovery Hills, Trusted Color Theme Consultation Discovery Hills, Color Theme Consultation transformation Discovery Hills, Color Theme Consultation renovation Discovery Hills, Color Theme Consultation makeover Discovery Hills, Best Color Theme Consultation company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Discovery Hills. Best color theme consultation Discovery Hills Company Discovery Hills Our luxury color theme consultation discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

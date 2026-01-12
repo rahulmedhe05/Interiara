@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Silicon Oasis Villas, Window Curtains Silicon in Oasis Villas, Best window curtains silicon Oasis Villas, Professional window curtains silicon Oasis Villas, Luxury window curtains silicon Oasis Villas, Window Curtains Silicon Oasis Villas Dubai, Window Curtains Silicon designer Oasis Villas, Window Curtains Silicon company Oasis Villas, Window Curtains Silicon contractor Oasis Villas, Affordable window curtains silicon Oasis Villas, Modern window curtains silicon Oasis Villas, Window Curtains Silicon consultation Oasis Villas, Window Curtains Silicon cost Oasis Villas, Window Curtains Silicon price Oasis Villas, Top window curtains silicon Oasis Villas
+
+// SEO Keywords: Window Curtains Silicon Oasis Villas, Window Curtains Silicon in Oasis Villas, Best window curtains silicon Oasis Villas, Professional window curtains silicon Oasis Villas, Luxury window curtains silicon Oasis Villas, Window Curtains Silicon Oasis Villas Dubai, Window Curtains Silicon designer Oasis Villas, Window Curtains Silicon company Oasis Villas, Window Curtains Silicon contractor Oasis Villas, Affordable window curtains silicon Oasis Villas, Modern window curtains silicon Oasis Villas, Window Curtains Silicon consultation Oasis Villas, Window Curtains Silicon cost Oasis Villas, Window Curtains Silicon price Oasis Villas, Top window curtains silicon Oasis Villas, Window Curtains Silicon near Oasis Villas, Window Curtains Silicon specialists Oasis Villas, Window Curtains Silicon experts Oasis Villas, Window Curtains Silicon solutions Oasis Villas, Window Curtains Silicon packages Oasis Villas, Window Curtains Silicon quotes Oasis Villas, Window Curtains Silicon estimates Oasis Villas, Window Curtains Silicon services near me Oasis Villas, Cheap Window Curtains Silicon Oasis Villas, Quality Window Curtains Silicon Oasis Villas, Trusted Window Curtains Silicon Oasis Villas, Window Curtains Silicon transformation Oasis Villas, Window Curtains Silicon renovation Oasis Villas, Window Curtains Silicon makeover Oasis Villas, Best Window Curtains Silicon company Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains silicon Oasis Villas Company Oasis Villas</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains Silicon in Oasis Villas. Best window curtains silicon Oasis Villas Company Oasis Villas Our luxury window curtains silicon oasis villas services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsSiliconOasisVillas() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains silicon in oasis villas service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsSiliconOasisVillas() {
 
               <p>
                 Interiara stands out in the crowded Silicon Oasis Villas Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains silicon near oasis villas.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsSiliconOasisVillas() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Dubai Marina, Apartment Interior Design in Dubai Marina, Best apartment interior design Dubai Marina, Professional apartment interior design Dubai Marina, Luxury apartment interior design Dubai Marina, Apartment Interior Design Dubai Marina Dubai, Apartment Interior Design designer Dubai Marina, Apartment Interior Design company Dubai Marina, Apartment Interior Design contractor Dubai Marina, Affordable apartment interior design Dubai Marina, Modern apartment interior design Dubai Marina, Apartment Interior Design consultation Dubai Marina, Apartment Interior Design cost Dubai Marina, Apartment Interior Design price Dubai Marina, Top apartment interior design Dubai Marina
+
+// SEO Keywords: Apartment Interior Design Dubai Marina, Apartment Interior Design in Dubai Marina, Best apartment interior design Dubai Marina, Professional apartment interior design Dubai Marina, Luxury apartment interior design Dubai Marina, Apartment Interior Design Dubai Marina Dubai, Apartment Interior Design designer Dubai Marina, Apartment Interior Design company Dubai Marina, Apartment Interior Design contractor Dubai Marina, Affordable apartment interior design Dubai Marina, Modern apartment interior design Dubai Marina, Apartment Interior Design consultation Dubai Marina, Apartment Interior Design cost Dubai Marina, Apartment Interior Design price Dubai Marina, Top apartment interior design Dubai Marina, Apartment Interior Design near Dubai Marina, Apartment Interior Design specialists Dubai Marina, Apartment Interior Design experts Dubai Marina, Apartment Interior Design solutions Dubai Marina, Apartment Interior Design packages Dubai Marina, Apartment Interior Design quotes Dubai Marina, Apartment Interior Design estimates Dubai Marina, Apartment Interior Design services near me Dubai Marina, Cheap Apartment Interior Design Dubai Marina, Quality Apartment Interior Design Dubai Marina, Trusted Apartment Interior Design Dubai Marina, Apartment Interior Design transformation Dubai Marina, Apartment Interior Design renovation Dubai Marina, Apartment Interior Design makeover Dubai Marina, Best Apartment Interior Design company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior Design in Dubai Marina. Best apartment interior design Dubai Marina Company Dubai Marina Our luxury apartment interior design dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior design in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior design near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

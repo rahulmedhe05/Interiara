@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Town Square, Outdoor Living Design in Town Square, Best outdoor living design Town Square, Professional outdoor living design Town Square, Luxury outdoor living design Town Square, Outdoor Living Design Town Square Dubai, Outdoor Living Design designer Town Square, Outdoor Living Design company Town Square, Outdoor Living Design contractor Town Square, Affordable outdoor living design Town Square, Modern outdoor living design Town Square, Outdoor Living Design consultation Town Square, Outdoor Living Design cost Town Square, Outdoor Living Design price Town Square, Top outdoor living design Town Square
+
+// SEO Keywords: Outdoor Living Design Town Square, Outdoor Living Design in Town Square, Best outdoor living design Town Square, Professional outdoor living design Town Square, Luxury outdoor living design Town Square, Outdoor Living Design Town Square Dubai, Outdoor Living Design designer Town Square, Outdoor Living Design company Town Square, Outdoor Living Design contractor Town Square, Affordable outdoor living design Town Square, Modern outdoor living design Town Square, Outdoor Living Design consultation Town Square, Outdoor Living Design cost Town Square, Outdoor Living Design price Town Square, Top outdoor living design Town Square, Outdoor Living Design near Town Square, Outdoor Living Design specialists Town Square, Outdoor Living Design experts Town Square, Outdoor Living Design solutions Town Square, Outdoor Living Design packages Town Square, Outdoor Living Design quotes Town Square, Outdoor Living Design estimates Town Square, Outdoor Living Design services near me Town Square, Cheap Outdoor Living Design Town Square, Quality Outdoor Living Design Town Square, Trusted Outdoor Living Design Town Square, Outdoor Living Design transformation Town Square, Outdoor Living Design renovation Town Square, Outdoor Living Design makeover Town Square, Best Outdoor Living Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design in Town Square. Best outdoor living design Town Square Company Town Square Our luxury outdoor living design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Bur, Restaurant Interior in Design Bur, Best restaurant interior Design Bur, Professional restaurant interior Design Bur, Luxury restaurant interior Design Bur, Restaurant Interior Design Bur Dubai, Restaurant Interior designer Design Bur, Restaurant Interior company Design Bur, Restaurant Interior contractor Design Bur, Affordable restaurant interior Design Bur, Modern restaurant interior Design Bur, Restaurant Interior consultation Design Bur, Restaurant Interior cost Design Bur, Restaurant Interior price Design Bur, Top restaurant interior Design Bur
+
+// SEO Keywords: Restaurant Interior Design Bur, Restaurant Interior in Design Bur, Best restaurant interior Design Bur, Professional restaurant interior Design Bur, Luxury restaurant interior Design Bur, Restaurant Interior Design Bur Dubai, Restaurant Interior designer Design Bur, Restaurant Interior company Design Bur, Restaurant Interior contractor Design Bur, Affordable restaurant interior Design Bur, Modern restaurant interior Design Bur, Restaurant Interior consultation Design Bur, Restaurant Interior cost Design Bur, Restaurant Interior price Design Bur, Top restaurant interior Design Bur, Restaurant Interior near Design Bur, Restaurant Interior specialists Design Bur, Restaurant Interior experts Design Bur, Restaurant Interior solutions Design Bur, Restaurant Interior packages Design Bur, Restaurant Interior quotes Design Bur, Restaurant Interior estimates Design Bur, Restaurant Interior services near me Design Bur, Cheap Restaurant Interior Design Bur, Quality Restaurant Interior Design Bur, Trusted Restaurant Interior Design Bur, Restaurant Interior transformation Design Bur, Restaurant Interior renovation Design Bur, Restaurant Interior makeover Design Bur, Best Restaurant Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior in Design Bur. Best restaurant interior Design Bur Company Design Bur Our luxury restaurant interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

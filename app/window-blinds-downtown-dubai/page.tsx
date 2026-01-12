@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Downtown, Window in Blinds Downtown, Best window Blinds Downtown, Professional window Blinds Downtown, Luxury window Blinds Downtown, Window Blinds Downtown Dubai, Window designer Blinds Downtown, Window company Blinds Downtown, Window contractor Blinds Downtown, Affordable window Blinds Downtown, Modern window Blinds Downtown, Window consultation Blinds Downtown, Window cost Blinds Downtown, Window price Blinds Downtown, Top window Blinds Downtown
+
+// SEO Keywords: Window Blinds Downtown, Window in Blinds Downtown, Best window Blinds Downtown, Professional window Blinds Downtown, Luxury window Blinds Downtown, Window Blinds Downtown Dubai, Window designer Blinds Downtown, Window company Blinds Downtown, Window contractor Blinds Downtown, Affordable window Blinds Downtown, Modern window Blinds Downtown, Window consultation Blinds Downtown, Window cost Blinds Downtown, Window price Blinds Downtown, Top window Blinds Downtown, Window near Blinds Downtown, Window specialists Blinds Downtown, Window experts Blinds Downtown, Window solutions Blinds Downtown, Window packages Blinds Downtown, Window quotes Blinds Downtown, Window estimates Blinds Downtown, Window services near me Blinds Downtown, Cheap Window Blinds Downtown, Quality Window Blinds Downtown, Trusted Window Blinds Downtown, Window transformation Blinds Downtown, Window renovation Blinds Downtown, Window makeover Blinds Downtown, Best Window company Blinds Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Blinds Downtown Company Blinds Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window in Blinds Downtown. Best window Blinds Downtown Company Blinds Downtown Our luxury window blinds downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window in blinds downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window near blinds downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

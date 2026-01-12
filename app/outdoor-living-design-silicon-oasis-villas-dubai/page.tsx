@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Silicon Oasis Villas, Outdoor Living Design Silicon in Oasis Villas, Best outdoor living design silicon Oasis Villas, Professional outdoor living design silicon Oasis Villas, Luxury outdoor living design silicon Oasis Villas, Outdoor Living Design Silicon Oasis Villas Dubai, Outdoor Living Design Silicon designer Oasis Villas, Outdoor Living Design Silicon company Oasis Villas, Outdoor Living Design Silicon contractor Oasis Villas, Affordable outdoor living design silicon Oasis Villas, Modern outdoor living design silicon Oasis Villas, Outdoor Living Design Silicon consultation Oasis Villas, Outdoor Living Design Silicon cost Oasis Villas, Outdoor Living Design Silicon price Oasis Villas, Top outdoor living design silicon Oasis Villas
+
+// SEO Keywords: Outdoor Living Design Silicon Oasis Villas, Outdoor Living Design Silicon in Oasis Villas, Best outdoor living design silicon Oasis Villas, Professional outdoor living design silicon Oasis Villas, Luxury outdoor living design silicon Oasis Villas, Outdoor Living Design Silicon Oasis Villas Dubai, Outdoor Living Design Silicon designer Oasis Villas, Outdoor Living Design Silicon company Oasis Villas, Outdoor Living Design Silicon contractor Oasis Villas, Affordable outdoor living design silicon Oasis Villas, Modern outdoor living design silicon Oasis Villas, Outdoor Living Design Silicon consultation Oasis Villas, Outdoor Living Design Silicon cost Oasis Villas, Outdoor Living Design Silicon price Oasis Villas, Top outdoor living design silicon Oasis Villas, Outdoor Living Design Silicon near Oasis Villas, Outdoor Living Design Silicon specialists Oasis Villas, Outdoor Living Design Silicon experts Oasis Villas, Outdoor Living Design Silicon solutions Oasis Villas, Outdoor Living Design Silicon packages Oasis Villas, Outdoor Living Design Silicon quotes Oasis Villas, Outdoor Living Design Silicon estimates Oasis Villas, Outdoor Living Design Silicon services near me Oasis Villas, Cheap Outdoor Living Design Silicon Oasis Villas, Quality Outdoor Living Design Silicon Oasis Villas, Trusted Outdoor Living Design Silicon Oasis Villas, Outdoor Living Design Silicon transformation Oasis Villas, Outdoor Living Design Silicon renovation Oasis Villas, Outdoor Living Design Silicon makeover Oasis Villas, Best Outdoor Living Design Silicon company Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design silicon Oasis Villas Company Oasis Villas</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design Silicon in Oasis Villas. Best outdoor living design silicon Oasis Villas Company Oasis Villas Our luxury outdoor living design silicon oasis villas services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignSiliconOasisVillas() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design silicon in oasis villas service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignSiliconOasisVillas() {
 
               <p>
                 Interiara stands out in the crowded Silicon Oasis Villas Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design silicon near oasis villas.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignSiliconOasisVillas() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

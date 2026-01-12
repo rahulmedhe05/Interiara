@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Nad Al Sheba, Smart Lighting Nad in Al Sheba, Best smart lighting nad Al Sheba, Professional smart lighting nad Al Sheba, Luxury smart lighting nad Al Sheba, Smart Lighting Nad Al Sheba Dubai, Smart Lighting Nad designer Al Sheba, Smart Lighting Nad company Al Sheba, Smart Lighting Nad contractor Al Sheba, Affordable smart lighting nad Al Sheba, Modern smart lighting nad Al Sheba, Smart Lighting Nad consultation Al Sheba, Smart Lighting Nad cost Al Sheba, Smart Lighting Nad price Al Sheba, Top smart lighting nad Al Sheba
+
+// SEO Keywords: Smart Lighting Nad Al Sheba, Smart Lighting Nad in Al Sheba, Best smart lighting nad Al Sheba, Professional smart lighting nad Al Sheba, Luxury smart lighting nad Al Sheba, Smart Lighting Nad Al Sheba Dubai, Smart Lighting Nad designer Al Sheba, Smart Lighting Nad company Al Sheba, Smart Lighting Nad contractor Al Sheba, Affordable smart lighting nad Al Sheba, Modern smart lighting nad Al Sheba, Smart Lighting Nad consultation Al Sheba, Smart Lighting Nad cost Al Sheba, Smart Lighting Nad price Al Sheba, Top smart lighting nad Al Sheba, Smart Lighting Nad near Al Sheba, Smart Lighting Nad specialists Al Sheba, Smart Lighting Nad experts Al Sheba, Smart Lighting Nad solutions Al Sheba, Smart Lighting Nad packages Al Sheba, Smart Lighting Nad quotes Al Sheba, Smart Lighting Nad estimates Al Sheba, Smart Lighting Nad services near me Al Sheba, Cheap Smart Lighting Nad Al Sheba, Quality Smart Lighting Nad Al Sheba, Trusted Smart Lighting Nad Al Sheba, Smart Lighting Nad transformation Al Sheba, Smart Lighting Nad renovation Al Sheba, Smart Lighting Nad makeover Al Sheba, Best Smart Lighting Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingNadAlSheba() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Nad Al Sheba Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Nad Al Sheba Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting Nad in Al Sheba. 
                 We've completed 300+ successful projects across Nad Al Sheba Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Nad Al Sheba Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting nad al sheba services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Nad Al Sheba Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting nad in al sheba service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting nad near al sheba.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Deira, Smart in Lighting Deira, Best smart Lighting Deira, Professional smart Lighting Deira, Luxury smart Lighting Deira, Smart Lighting Deira Dubai, Smart designer Lighting Deira, Smart company Lighting Deira, Smart contractor Lighting Deira, Affordable smart Lighting Deira, Modern smart Lighting Deira, Smart consultation Lighting Deira, Smart cost Lighting Deira, Smart price Lighting Deira, Top smart Lighting Deira
+
+// SEO Keywords: Smart Lighting Deira, Smart in Lighting Deira, Best smart Lighting Deira, Professional smart Lighting Deira, Luxury smart Lighting Deira, Smart Lighting Deira Dubai, Smart designer Lighting Deira, Smart company Lighting Deira, Smart contractor Lighting Deira, Affordable smart Lighting Deira, Modern smart Lighting Deira, Smart consultation Lighting Deira, Smart cost Lighting Deira, Smart price Lighting Deira, Top smart Lighting Deira, Smart near Lighting Deira, Smart specialists Lighting Deira, Smart experts Lighting Deira, Smart solutions Lighting Deira, Smart packages Lighting Deira, Smart quotes Lighting Deira, Smart estimates Lighting Deira, Smart services near me Lighting Deira, Cheap Smart Lighting Deira, Quality Smart Lighting Deira, Trusted Smart Lighting Deira, Smart transformation Lighting Deira, Smart renovation Lighting Deira, Smart makeover Lighting Deira, Best Smart company Lighting Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingDeira() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Deira Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Deira Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart in Lighting Deira. 
                 We've completed 300+ successful projects across Deira Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Deira Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting deira services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Deira Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart in lighting deira service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart near lighting deira.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

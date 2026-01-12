@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Palm Jumeirah, Soundproofing Design in Palm Jumeirah, Best soundproofing design Palm Jumeirah, Professional soundproofing design Palm Jumeirah, Luxury soundproofing design Palm Jumeirah, Soundproofing Design Palm Jumeirah Dubai, Soundproofing Design designer Palm Jumeirah, Soundproofing Design company Palm Jumeirah, Soundproofing Design contractor Palm Jumeirah, Affordable soundproofing design Palm Jumeirah, Modern soundproofing design Palm Jumeirah, Soundproofing Design consultation Palm Jumeirah, Soundproofing Design cost Palm Jumeirah, Soundproofing Design price Palm Jumeirah, Top soundproofing design Palm Jumeirah
+
+// SEO Keywords: Soundproofing Design Palm Jumeirah, Soundproofing Design in Palm Jumeirah, Best soundproofing design Palm Jumeirah, Professional soundproofing design Palm Jumeirah, Luxury soundproofing design Palm Jumeirah, Soundproofing Design Palm Jumeirah Dubai, Soundproofing Design designer Palm Jumeirah, Soundproofing Design company Palm Jumeirah, Soundproofing Design contractor Palm Jumeirah, Affordable soundproofing design Palm Jumeirah, Modern soundproofing design Palm Jumeirah, Soundproofing Design consultation Palm Jumeirah, Soundproofing Design cost Palm Jumeirah, Soundproofing Design price Palm Jumeirah, Top soundproofing design Palm Jumeirah, Soundproofing Design near Palm Jumeirah, Soundproofing Design specialists Palm Jumeirah, Soundproofing Design experts Palm Jumeirah, Soundproofing Design solutions Palm Jumeirah, Soundproofing Design packages Palm Jumeirah, Soundproofing Design quotes Palm Jumeirah, Soundproofing Design estimates Palm Jumeirah, Soundproofing Design services near me Palm Jumeirah, Cheap Soundproofing Design Palm Jumeirah, Quality Soundproofing Design Palm Jumeirah, Trusted Soundproofing Design Palm Jumeirah, Soundproofing Design transformation Palm Jumeirah, Soundproofing Design renovation Palm Jumeirah, Soundproofing Design makeover Palm Jumeirah, Best Soundproofing Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Palm Jumeirah. Best soundproofing design Palm Jumeirah Company Palm Jumeirah Our luxury soundproofing design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

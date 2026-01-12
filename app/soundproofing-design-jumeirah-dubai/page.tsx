@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Jumeirah, Soundproofing in Design Jumeirah, Best soundproofing Design Jumeirah, Professional soundproofing Design Jumeirah, Luxury soundproofing Design Jumeirah, Soundproofing Design Jumeirah Dubai, Soundproofing designer Design Jumeirah, Soundproofing company Design Jumeirah, Soundproofing contractor Design Jumeirah, Affordable soundproofing Design Jumeirah, Modern soundproofing Design Jumeirah, Soundproofing consultation Design Jumeirah, Soundproofing cost Design Jumeirah, Soundproofing price Design Jumeirah, Top soundproofing Design Jumeirah
+
+// SEO Keywords: Soundproofing Design Jumeirah, Soundproofing in Design Jumeirah, Best soundproofing Design Jumeirah, Professional soundproofing Design Jumeirah, Luxury soundproofing Design Jumeirah, Soundproofing Design Jumeirah Dubai, Soundproofing designer Design Jumeirah, Soundproofing company Design Jumeirah, Soundproofing contractor Design Jumeirah, Affordable soundproofing Design Jumeirah, Modern soundproofing Design Jumeirah, Soundproofing consultation Design Jumeirah, Soundproofing cost Design Jumeirah, Soundproofing price Design Jumeirah, Top soundproofing Design Jumeirah, Soundproofing near Design Jumeirah, Soundproofing specialists Design Jumeirah, Soundproofing experts Design Jumeirah, Soundproofing solutions Design Jumeirah, Soundproofing packages Design Jumeirah, Soundproofing quotes Design Jumeirah, Soundproofing estimates Design Jumeirah, Soundproofing services near me Design Jumeirah, Cheap Soundproofing Design Jumeirah, Quality Soundproofing Design Jumeirah, Trusted Soundproofing Design Jumeirah, Soundproofing transformation Design Jumeirah, Soundproofing renovation Design Jumeirah, Soundproofing makeover Design Jumeirah, Best Soundproofing company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing in Design Jumeirah. Best soundproofing Design Jumeirah Company Design Jumeirah Our luxury soundproofing design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

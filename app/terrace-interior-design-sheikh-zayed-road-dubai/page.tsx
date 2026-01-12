@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Sheikh Zayed Road, Terrace Interior Design Sheikh in Zayed Road, Best terrace interior design sheikh Zayed Road, Professional terrace interior design sheikh Zayed Road, Luxury terrace interior design sheikh Zayed Road, Terrace Interior Design Sheikh Zayed Road Dubai, Terrace Interior Design Sheikh designer Zayed Road, Terrace Interior Design Sheikh company Zayed Road, Terrace Interior Design Sheikh contractor Zayed Road, Affordable terrace interior design sheikh Zayed Road, Modern terrace interior design sheikh Zayed Road, Terrace Interior Design Sheikh consultation Zayed Road, Terrace Interior Design Sheikh cost Zayed Road, Terrace Interior Design Sheikh price Zayed Road, Top terrace interior design sheikh Zayed Road
+
+// SEO Keywords: Terrace Interior Design Sheikh Zayed Road, Terrace Interior Design Sheikh in Zayed Road, Best terrace interior design sheikh Zayed Road, Professional terrace interior design sheikh Zayed Road, Luxury terrace interior design sheikh Zayed Road, Terrace Interior Design Sheikh Zayed Road Dubai, Terrace Interior Design Sheikh designer Zayed Road, Terrace Interior Design Sheikh company Zayed Road, Terrace Interior Design Sheikh contractor Zayed Road, Affordable terrace interior design sheikh Zayed Road, Modern terrace interior design sheikh Zayed Road, Terrace Interior Design Sheikh consultation Zayed Road, Terrace Interior Design Sheikh cost Zayed Road, Terrace Interior Design Sheikh price Zayed Road, Top terrace interior design sheikh Zayed Road, Terrace Interior Design Sheikh near Zayed Road, Terrace Interior Design Sheikh specialists Zayed Road, Terrace Interior Design Sheikh experts Zayed Road, Terrace Interior Design Sheikh solutions Zayed Road, Terrace Interior Design Sheikh packages Zayed Road, Terrace Interior Design Sheikh quotes Zayed Road, Terrace Interior Design Sheikh estimates Zayed Road, Terrace Interior Design Sheikh services near me Zayed Road, Cheap Terrace Interior Design Sheikh Zayed Road, Quality Terrace Interior Design Sheikh Zayed Road, Trusted Terrace Interior Design Sheikh Zayed Road, Terrace Interior Design Sheikh transformation Zayed Road, Terrace Interior Design Sheikh renovation Zayed Road, Terrace Interior Design Sheikh makeover Zayed Road, Best Terrace Interior Design Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design sheikh Zayed Road Company Zayed Road</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior Design Sheikh in Zayed Road. Best terrace interior design sheikh Zayed Road Company Zayed Road Our luxury terrace interior design sheikh zayed road services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignSheikhZayedRoad() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior design sheikh in zayed road service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior design sheikh near zayed road.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

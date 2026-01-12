@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design Bur, Eco Friendly Interior in Design Bur, Best eco friendly interior Design Bur, Professional eco friendly interior Design Bur, Luxury eco friendly interior Design Bur, Eco Friendly Interior Design Bur Dubai, Eco Friendly Interior designer Design Bur, Eco Friendly Interior company Design Bur, Eco Friendly Interior contractor Design Bur, Affordable eco friendly interior Design Bur, Modern eco friendly interior Design Bur, Eco Friendly Interior consultation Design Bur, Eco Friendly Interior cost Design Bur, Eco Friendly Interior price Design Bur, Top eco friendly interior Design Bur
+
+// SEO Keywords: Eco Friendly Interior Design Bur, Eco Friendly Interior in Design Bur, Best eco friendly interior Design Bur, Professional eco friendly interior Design Bur, Luxury eco friendly interior Design Bur, Eco Friendly Interior Design Bur Dubai, Eco Friendly Interior designer Design Bur, Eco Friendly Interior company Design Bur, Eco Friendly Interior contractor Design Bur, Affordable eco friendly interior Design Bur, Modern eco friendly interior Design Bur, Eco Friendly Interior consultation Design Bur, Eco Friendly Interior cost Design Bur, Eco Friendly Interior price Design Bur, Top eco friendly interior Design Bur, Eco Friendly Interior near Design Bur, Eco Friendly Interior specialists Design Bur, Eco Friendly Interior experts Design Bur, Eco Friendly Interior solutions Design Bur, Eco Friendly Interior packages Design Bur, Eco Friendly Interior quotes Design Bur, Eco Friendly Interior estimates Design Bur, Eco Friendly Interior services near me Design Bur, Cheap Eco Friendly Interior Design Bur, Quality Eco Friendly Interior Design Bur, Trusted Eco Friendly Interior Design Bur, Eco Friendly Interior transformation Design Bur, Eco Friendly Interior renovation Design Bur, Eco Friendly Interior makeover Design Bur, Best Eco Friendly Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior in Design Bur. Best eco friendly interior Design Bur Company Design Bur Our luxury eco friendly interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

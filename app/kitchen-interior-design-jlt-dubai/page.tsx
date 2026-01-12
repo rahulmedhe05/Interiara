@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Jlt, Kitchen Interior in Design Jlt, Best kitchen interior Design Jlt, Professional kitchen interior Design Jlt, Luxury kitchen interior Design Jlt, Kitchen Interior Design Jlt Dubai, Kitchen Interior designer Design Jlt, Kitchen Interior company Design Jlt, Kitchen Interior contractor Design Jlt, Affordable kitchen interior Design Jlt, Modern kitchen interior Design Jlt, Kitchen Interior consultation Design Jlt, Kitchen Interior cost Design Jlt, Kitchen Interior price Design Jlt, Top kitchen interior Design Jlt
+
+// SEO Keywords: Kitchen Interior Design Jlt, Kitchen Interior in Design Jlt, Best kitchen interior Design Jlt, Professional kitchen interior Design Jlt, Luxury kitchen interior Design Jlt, Kitchen Interior Design Jlt Dubai, Kitchen Interior designer Design Jlt, Kitchen Interior company Design Jlt, Kitchen Interior contractor Design Jlt, Affordable kitchen interior Design Jlt, Modern kitchen interior Design Jlt, Kitchen Interior consultation Design Jlt, Kitchen Interior cost Design Jlt, Kitchen Interior price Design Jlt, Top kitchen interior Design Jlt, Kitchen Interior near Design Jlt, Kitchen Interior specialists Design Jlt, Kitchen Interior experts Design Jlt, Kitchen Interior solutions Design Jlt, Kitchen Interior packages Design Jlt, Kitchen Interior quotes Design Jlt, Kitchen Interior estimates Design Jlt, Kitchen Interior services near me Design Jlt, Cheap Kitchen Interior Design Jlt, Quality Kitchen Interior Design Jlt, Trusted Kitchen Interior Design Jlt, Kitchen Interior transformation Design Jlt, Kitchen Interior renovation Design Jlt, Kitchen Interior makeover Design Jlt, Best Kitchen Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior Design Jlt Company Design Jlt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior in Design Jlt. Best kitchen interior Design Jlt Company Design Jlt Our luxury kitchen interior design jlt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function KitchenInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Kitchen Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kitchen Interior Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kitchen Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignJlt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior in design jlt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior near design jlt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

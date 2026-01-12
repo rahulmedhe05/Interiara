@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Penthouse Interior Design Mirdif, Penthouse Interior in Design Mirdif, Best penthouse interior Design Mirdif, Professional penthouse interior Design Mirdif, Luxury penthouse interior Design Mirdif, Penthouse Interior Design Mirdif Dubai, Penthouse Interior designer Design Mirdif, Penthouse Interior company Design Mirdif, Penthouse Interior contractor Design Mirdif, Affordable penthouse interior Design Mirdif, Modern penthouse interior Design Mirdif, Penthouse Interior consultation Design Mirdif, Penthouse Interior cost Design Mirdif, Penthouse Interior price Design Mirdif, Top penthouse interior Design Mirdif
+
+// SEO Keywords: Penthouse Interior Design Mirdif, Penthouse Interior in Design Mirdif, Best penthouse interior Design Mirdif, Professional penthouse interior Design Mirdif, Luxury penthouse interior Design Mirdif, Penthouse Interior Design Mirdif Dubai, Penthouse Interior designer Design Mirdif, Penthouse Interior company Design Mirdif, Penthouse Interior contractor Design Mirdif, Affordable penthouse interior Design Mirdif, Modern penthouse interior Design Mirdif, Penthouse Interior consultation Design Mirdif, Penthouse Interior cost Design Mirdif, Penthouse Interior price Design Mirdif, Top penthouse interior Design Mirdif, Penthouse Interior near Design Mirdif, Penthouse Interior specialists Design Mirdif, Penthouse Interior experts Design Mirdif, Penthouse Interior solutions Design Mirdif, Penthouse Interior packages Design Mirdif, Penthouse Interior quotes Design Mirdif, Penthouse Interior estimates Design Mirdif, Penthouse Interior services near me Design Mirdif, Cheap Penthouse Interior Design Mirdif, Quality Penthouse Interior Design Mirdif, Trusted Penthouse Interior Design Mirdif, Penthouse Interior transformation Design Mirdif, Penthouse Interior renovation Design Mirdif, Penthouse Interior makeover Design Mirdif, Best Penthouse Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function PenthouseInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Penthouse Interior in Design Mirdif. Best penthouse interior Design Mirdif Company Design Mirdif Our luxury penthouse interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function PenthouseInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our penthouse interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function PenthouseInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in penthouse interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function PenthouseInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

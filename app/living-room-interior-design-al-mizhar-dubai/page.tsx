@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Al Mizhar, Living Room Interior Design in Al Mizhar, Best living room interior design Al Mizhar, Professional living room interior design Al Mizhar, Luxury living room interior design Al Mizhar, Living Room Interior Design Al Mizhar Dubai, Living Room Interior Design designer Al Mizhar, Living Room Interior Design company Al Mizhar, Living Room Interior Design contractor Al Mizhar, Affordable living room interior design Al Mizhar, Modern living room interior design Al Mizhar, Living Room Interior Design consultation Al Mizhar, Living Room Interior Design cost Al Mizhar, Living Room Interior Design price Al Mizhar, Top living room interior design Al Mizhar
+
+// SEO Keywords: Living Room Interior Design Al Mizhar, Living Room Interior Design in Al Mizhar, Best living room interior design Al Mizhar, Professional living room interior design Al Mizhar, Luxury living room interior design Al Mizhar, Living Room Interior Design Al Mizhar Dubai, Living Room Interior Design designer Al Mizhar, Living Room Interior Design company Al Mizhar, Living Room Interior Design contractor Al Mizhar, Affordable living room interior design Al Mizhar, Modern living room interior design Al Mizhar, Living Room Interior Design consultation Al Mizhar, Living Room Interior Design cost Al Mizhar, Living Room Interior Design price Al Mizhar, Top living room interior design Al Mizhar, Living Room Interior Design near Al Mizhar, Living Room Interior Design specialists Al Mizhar, Living Room Interior Design experts Al Mizhar, Living Room Interior Design solutions Al Mizhar, Living Room Interior Design packages Al Mizhar, Living Room Interior Design quotes Al Mizhar, Living Room Interior Design estimates Al Mizhar, Living Room Interior Design services near me Al Mizhar, Cheap Living Room Interior Design Al Mizhar, Quality Living Room Interior Design Al Mizhar, Trusted Living Room Interior Design Al Mizhar, Living Room Interior Design transformation Al Mizhar, Living Room Interior Design renovation Al Mizhar, Living Room Interior Design makeover Al Mizhar, Best Living Room Interior Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior design Al Mizhar Company Al Mizhar</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior Design in Al Mizhar. Best living room interior design Al Mizhar Company Al Mizhar Our luxury living room interior design al mizhar services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignAlMizhar() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior design in al mizhar service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior design near al mizhar.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

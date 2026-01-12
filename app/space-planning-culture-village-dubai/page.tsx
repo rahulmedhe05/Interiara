@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Culture Village, Space Planning in Culture Village, Best space planning Culture Village, Professional space planning Culture Village, Luxury space planning Culture Village, Space Planning Culture Village Dubai, Space Planning designer Culture Village, Space Planning company Culture Village, Space Planning contractor Culture Village, Affordable space planning Culture Village, Modern space planning Culture Village, Space Planning consultation Culture Village, Space Planning cost Culture Village, Space Planning price Culture Village, Top space planning Culture Village
+
+// SEO Keywords: Space Planning Culture Village, Space Planning in Culture Village, Best space planning Culture Village, Professional space planning Culture Village, Luxury space planning Culture Village, Space Planning Culture Village Dubai, Space Planning designer Culture Village, Space Planning company Culture Village, Space Planning contractor Culture Village, Affordable space planning Culture Village, Modern space planning Culture Village, Space Planning consultation Culture Village, Space Planning cost Culture Village, Space Planning price Culture Village, Top space planning Culture Village, Space Planning near Culture Village, Space Planning specialists Culture Village, Space Planning experts Culture Village, Space Planning solutions Culture Village, Space Planning packages Culture Village, Space Planning quotes Culture Village, Space Planning estimates Culture Village, Space Planning services near me Culture Village, Cheap Space Planning Culture Village, Quality Space Planning Culture Village, Trusted Space Planning Culture Village, Space Planning transformation Culture Village, Space Planning renovation Culture Village, Space Planning makeover Culture Village, Best Space Planning company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Culture Village. Best space planning Culture Village Company Culture Village Our luxury space planning culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

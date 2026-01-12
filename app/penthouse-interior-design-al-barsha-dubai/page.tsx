@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Penthouse Interior Design Al Barsha, Penthouse Interior Design in Al Barsha, Best penthouse interior design Al Barsha, Professional penthouse interior design Al Barsha, Luxury penthouse interior design Al Barsha, Penthouse Interior Design Al Barsha Dubai, Penthouse Interior Design designer Al Barsha, Penthouse Interior Design company Al Barsha, Penthouse Interior Design contractor Al Barsha, Affordable penthouse interior design Al Barsha, Modern penthouse interior design Al Barsha, Penthouse Interior Design consultation Al Barsha, Penthouse Interior Design cost Al Barsha, Penthouse Interior Design price Al Barsha, Top penthouse interior design Al Barsha
+
+// SEO Keywords: Penthouse Interior Design Al Barsha, Penthouse Interior Design in Al Barsha, Best penthouse interior design Al Barsha, Professional penthouse interior design Al Barsha, Luxury penthouse interior design Al Barsha, Penthouse Interior Design Al Barsha Dubai, Penthouse Interior Design designer Al Barsha, Penthouse Interior Design company Al Barsha, Penthouse Interior Design contractor Al Barsha, Affordable penthouse interior design Al Barsha, Modern penthouse interior design Al Barsha, Penthouse Interior Design consultation Al Barsha, Penthouse Interior Design cost Al Barsha, Penthouse Interior Design price Al Barsha, Top penthouse interior design Al Barsha, Penthouse Interior Design near Al Barsha, Penthouse Interior Design specialists Al Barsha, Penthouse Interior Design experts Al Barsha, Penthouse Interior Design solutions Al Barsha, Penthouse Interior Design packages Al Barsha, Penthouse Interior Design quotes Al Barsha, Penthouse Interior Design estimates Al Barsha, Penthouse Interior Design services near me Al Barsha, Cheap Penthouse Interior Design Al Barsha, Quality Penthouse Interior Design Al Barsha, Trusted Penthouse Interior Design Al Barsha, Penthouse Interior Design transformation Al Barsha, Penthouse Interior Design renovation Al Barsha, Penthouse Interior Design makeover Al Barsha, Best Penthouse Interior Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function PenthouseInteriorDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Penthouse Interior Design in Al Barsha. Best penthouse interior design Al Barsha Company Al Barsha Our luxury penthouse interior design al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function PenthouseInteriorDesignAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our penthouse interior design in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function PenthouseInteriorDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in penthouse interior design near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function PenthouseInteriorDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

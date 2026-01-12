@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Culture Village, Office Interior Design in Culture Village, Best office interior design Culture Village, Professional office interior design Culture Village, Luxury office interior design Culture Village, Office Interior Design Culture Village Dubai, Office Interior Design designer Culture Village, Office Interior Design company Culture Village, Office Interior Design contractor Culture Village, Affordable office interior design Culture Village, Modern office interior design Culture Village, Office Interior Design consultation Culture Village, Office Interior Design cost Culture Village, Office Interior Design price Culture Village, Top office interior design Culture Village
+
+// SEO Keywords: Office Interior Design Culture Village, Office Interior Design in Culture Village, Best office interior design Culture Village, Professional office interior design Culture Village, Luxury office interior design Culture Village, Office Interior Design Culture Village Dubai, Office Interior Design designer Culture Village, Office Interior Design company Culture Village, Office Interior Design contractor Culture Village, Affordable office interior design Culture Village, Modern office interior design Culture Village, Office Interior Design consultation Culture Village, Office Interior Design cost Culture Village, Office Interior Design price Culture Village, Top office interior design Culture Village, Office Interior Design near Culture Village, Office Interior Design specialists Culture Village, Office Interior Design experts Culture Village, Office Interior Design solutions Culture Village, Office Interior Design packages Culture Village, Office Interior Design quotes Culture Village, Office Interior Design estimates Culture Village, Office Interior Design services near me Culture Village, Cheap Office Interior Design Culture Village, Quality Office Interior Design Culture Village, Trusted Office Interior Design Culture Village, Office Interior Design transformation Culture Village, Office Interior Design renovation Culture Village, Office Interior Design makeover Culture Village, Best Office Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior Design in Culture Village. Best office interior design Culture Village Company Culture Village Our luxury office interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Jlt, Office in Renovation Jlt, Best office Renovation Jlt, Professional office Renovation Jlt, Luxury office Renovation Jlt, Office Renovation Jlt Dubai, Office designer Renovation Jlt, Office company Renovation Jlt, Office contractor Renovation Jlt, Affordable office Renovation Jlt, Modern office Renovation Jlt, Office consultation Renovation Jlt, Office cost Renovation Jlt, Office price Renovation Jlt, Top office Renovation Jlt
+
+// SEO Keywords: Office Renovation Jlt, Office in Renovation Jlt, Best office Renovation Jlt, Professional office Renovation Jlt, Luxury office Renovation Jlt, Office Renovation Jlt Dubai, Office designer Renovation Jlt, Office company Renovation Jlt, Office contractor Renovation Jlt, Affordable office Renovation Jlt, Modern office Renovation Jlt, Office consultation Renovation Jlt, Office cost Renovation Jlt, Office price Renovation Jlt, Top office Renovation Jlt, Office near Renovation Jlt, Office specialists Renovation Jlt, Office experts Renovation Jlt, Office solutions Renovation Jlt, Office packages Renovation Jlt, Office quotes Renovation Jlt, Office estimates Renovation Jlt, Office services near me Renovation Jlt, Cheap Office Renovation Jlt, Quality Office Renovation Jlt, Trusted Office Renovation Jlt, Office transformation Renovation Jlt, Office renovation Renovation Jlt, Office makeover Renovation Jlt, Best Office company Renovation Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeRenovationJlt() {
                 At Interiara, we believe that exceptional <strong>Office Renovation JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office in Renovation Jlt. Office Renovation Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office renovation jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Renovation JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeRenovationJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office in renovation jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office near renovation jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeRenovationJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

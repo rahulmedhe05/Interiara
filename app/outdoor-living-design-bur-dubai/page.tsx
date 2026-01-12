@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Bur, Outdoor Living in Design Bur, Best outdoor living Design Bur, Professional outdoor living Design Bur, Luxury outdoor living Design Bur, Outdoor Living Design Bur Dubai, Outdoor Living designer Design Bur, Outdoor Living company Design Bur, Outdoor Living contractor Design Bur, Affordable outdoor living Design Bur, Modern outdoor living Design Bur, Outdoor Living consultation Design Bur, Outdoor Living cost Design Bur, Outdoor Living price Design Bur, Top outdoor living Design Bur
+
+// SEO Keywords: Outdoor Living Design Bur, Outdoor Living in Design Bur, Best outdoor living Design Bur, Professional outdoor living Design Bur, Luxury outdoor living Design Bur, Outdoor Living Design Bur Dubai, Outdoor Living designer Design Bur, Outdoor Living company Design Bur, Outdoor Living contractor Design Bur, Affordable outdoor living Design Bur, Modern outdoor living Design Bur, Outdoor Living consultation Design Bur, Outdoor Living cost Design Bur, Outdoor Living price Design Bur, Top outdoor living Design Bur, Outdoor Living near Design Bur, Outdoor Living specialists Design Bur, Outdoor Living experts Design Bur, Outdoor Living solutions Design Bur, Outdoor Living packages Design Bur, Outdoor Living quotes Design Bur, Outdoor Living estimates Design Bur, Outdoor Living services near me Design Bur, Cheap Outdoor Living Design Bur, Quality Outdoor Living Design Bur, Trusted Outdoor Living Design Bur, Outdoor Living transformation Design Bur, Outdoor Living renovation Design Bur, Outdoor Living makeover Design Bur, Best Outdoor Living company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OutdoorLivingDesignBur() {
                 At Interiara, we believe that exceptional <strong>Outdoor Living Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Outdoor Living in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury outdoor living design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Outdoor Living Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OutdoorLivingDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our outdoor living in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in outdoor living near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

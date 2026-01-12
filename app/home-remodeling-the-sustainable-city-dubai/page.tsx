@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling The Sustainable City, Home Remodeling The in Sustainable City, Best home remodeling the Sustainable City, Professional home remodeling the Sustainable City, Luxury home remodeling the Sustainable City, Home Remodeling The Sustainable City Dubai, Home Remodeling The designer Sustainable City, Home Remodeling The company Sustainable City, Home Remodeling The contractor Sustainable City, Affordable home remodeling the Sustainable City, Modern home remodeling the Sustainable City, Home Remodeling The consultation Sustainable City, Home Remodeling The cost Sustainable City, Home Remodeling The price Sustainable City, Top home remodeling the Sustainable City
+
+// SEO Keywords: Home Remodeling The Sustainable City, Home Remodeling The in Sustainable City, Best home remodeling the Sustainable City, Professional home remodeling the Sustainable City, Luxury home remodeling the Sustainable City, Home Remodeling The Sustainable City Dubai, Home Remodeling The designer Sustainable City, Home Remodeling The company Sustainable City, Home Remodeling The contractor Sustainable City, Affordable home remodeling the Sustainable City, Modern home remodeling the Sustainable City, Home Remodeling The consultation Sustainable City, Home Remodeling The cost Sustainable City, Home Remodeling The price Sustainable City, Top home remodeling the Sustainable City, Home Remodeling The near Sustainable City, Home Remodeling The specialists Sustainable City, Home Remodeling The experts Sustainable City, Home Remodeling The solutions Sustainable City, Home Remodeling The packages Sustainable City, Home Remodeling The quotes Sustainable City, Home Remodeling The estimates Sustainable City, Home Remodeling The services near me Sustainable City, Cheap Home Remodeling The Sustainable City, Quality Home Remodeling The Sustainable City, Trusted Home Remodeling The Sustainable City, Home Remodeling The transformation Sustainable City, Home Remodeling The renovation Sustainable City, Home Remodeling The makeover Sustainable City, Best Home Remodeling The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling The in Sustainable City. Best home remodeling the Sustainable City Company Sustainable City Our luxury home remodeling the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

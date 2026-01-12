@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Downtown, Home in Renovation Downtown, Best home Renovation Downtown, Professional home Renovation Downtown, Luxury home Renovation Downtown, Home Renovation Downtown Dubai, Home designer Renovation Downtown, Home company Renovation Downtown, Home contractor Renovation Downtown, Affordable home Renovation Downtown, Modern home Renovation Downtown, Home consultation Renovation Downtown, Home cost Renovation Downtown, Home price Renovation Downtown, Top home Renovation Downtown
+
+// SEO Keywords: Home Renovation Downtown, Home in Renovation Downtown, Best home Renovation Downtown, Professional home Renovation Downtown, Luxury home Renovation Downtown, Home Renovation Downtown Dubai, Home designer Renovation Downtown, Home company Renovation Downtown, Home contractor Renovation Downtown, Affordable home Renovation Downtown, Modern home Renovation Downtown, Home consultation Renovation Downtown, Home cost Renovation Downtown, Home price Renovation Downtown, Top home Renovation Downtown, Home near Renovation Downtown, Home specialists Renovation Downtown, Home experts Renovation Downtown, Home solutions Renovation Downtown, Home packages Renovation Downtown, Home quotes Renovation Downtown, Home estimates Renovation Downtown, Home services near me Renovation Downtown, Cheap Home Renovation Downtown, Quality Home Renovation Downtown, Trusted Home Renovation Downtown, Home transformation Renovation Downtown, Home renovation Renovation Downtown, Home makeover Renovation Downtown, Best Home company Renovation Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Renovation Downtown Company Renovation Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home in Renovation Downtown. Best home Renovation Downtown Company Renovation Downtown Our luxury home renovation downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRenovationDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home in renovation downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home near renovation downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

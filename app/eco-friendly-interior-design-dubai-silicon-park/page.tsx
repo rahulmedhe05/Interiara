@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design, Eco Friendly in Interior Design, Best eco friendly Interior Design, Professional eco friendly Interior Design, Luxury eco friendly Interior Design, Eco Friendly Interior Design Dubai, Eco Friendly designer Interior Design, Eco Friendly company Interior Design, Eco Friendly contractor Interior Design, Affordable eco friendly Interior Design, Modern eco friendly Interior Design, Eco Friendly consultation Interior Design, Eco Friendly cost Interior Design, Eco Friendly price Interior Design, Top eco friendly Interior Design
+
+// SEO Keywords: Eco Friendly Interior Design, Eco Friendly in Interior Design, Best eco friendly Interior Design, Professional eco friendly Interior Design, Luxury eco friendly Interior Design, Eco Friendly Interior Design Dubai, Eco Friendly designer Interior Design, Eco Friendly company Interior Design, Eco Friendly contractor Interior Design, Affordable eco friendly Interior Design, Modern eco friendly Interior Design, Eco Friendly consultation Interior Design, Eco Friendly cost Interior Design, Eco Friendly price Interior Design, Top eco friendly Interior Design, Eco Friendly near Interior Design, Eco Friendly specialists Interior Design, Eco Friendly experts Interior Design, Eco Friendly solutions Interior Design, Eco Friendly packages Interior Design, Eco Friendly quotes Interior Design, Eco Friendly estimates Interior Design, Eco Friendly services near me Interior Design, Cheap Eco Friendly Interior Design, Quality Eco Friendly Interior Design, Trusted Eco Friendly Interior Design, Eco Friendly transformation Interior Design, Eco Friendly renovation Interior Design, Eco Friendly makeover Interior Design, Best Eco Friendly company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly in Interior Design. Best eco friendly Interior Design Company Interior Design Our luxury eco friendly interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Silicon Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

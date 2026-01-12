@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Business Bay South, Healthcare Interior Design Business in Bay South, Best healthcare interior design business Bay South, Professional healthcare interior design business Bay South, Luxury healthcare interior design business Bay South, Healthcare Interior Design Business Bay South Dubai, Healthcare Interior Design Business designer Bay South, Healthcare Interior Design Business company Bay South, Healthcare Interior Design Business contractor Bay South, Affordable healthcare interior design business Bay South, Modern healthcare interior design business Bay South, Healthcare Interior Design Business consultation Bay South, Healthcare Interior Design Business cost Bay South, Healthcare Interior Design Business price Bay South, Top healthcare interior design business Bay South
+
+// SEO Keywords: Healthcare Interior Design Business Bay South, Healthcare Interior Design Business in Bay South, Best healthcare interior design business Bay South, Professional healthcare interior design business Bay South, Luxury healthcare interior design business Bay South, Healthcare Interior Design Business Bay South Dubai, Healthcare Interior Design Business designer Bay South, Healthcare Interior Design Business company Bay South, Healthcare Interior Design Business contractor Bay South, Affordable healthcare interior design business Bay South, Modern healthcare interior design business Bay South, Healthcare Interior Design Business consultation Bay South, Healthcare Interior Design Business cost Bay South, Healthcare Interior Design Business price Bay South, Top healthcare interior design business Bay South, Healthcare Interior Design Business near Bay South, Healthcare Interior Design Business specialists Bay South, Healthcare Interior Design Business experts Bay South, Healthcare Interior Design Business solutions Bay South, Healthcare Interior Design Business packages Bay South, Healthcare Interior Design Business quotes Bay South, Healthcare Interior Design Business estimates Bay South, Healthcare Interior Design Business services near me Bay South, Cheap Healthcare Interior Design Business Bay South, Quality Healthcare Interior Design Business Bay South, Trusted Healthcare Interior Design Business Bay South, Healthcare Interior Design Business transformation Bay South, Healthcare Interior Design Business renovation Bay South, Healthcare Interior Design Business makeover Bay South, Best Healthcare Interior Design Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior Design Business in Bay South. Best healthcare interior design business Bay South Company Bay South Our luxury healthcare interior design business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior design business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior design business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

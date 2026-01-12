@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Bur Dubai, Affordable Interior Solutions in Bur Dubai, Best affordable interior solutions Bur Dubai, Professional affordable interior solutions Bur Dubai, Luxury affordable interior solutions Bur Dubai, Affordable Interior Solutions Bur Dubai Dubai, Affordable Interior Solutions designer Bur Dubai, Affordable Interior Solutions company Bur Dubai, Affordable Interior Solutions contractor Bur Dubai, Affordable affordable interior solutions Bur Dubai, Modern affordable interior solutions Bur Dubai, Affordable Interior Solutions consultation Bur Dubai, Affordable Interior Solutions cost Bur Dubai, Affordable Interior Solutions price Bur Dubai, Top affordable interior solutions Bur Dubai
+
+// SEO Keywords: Affordable Interior Solutions Bur Dubai, Affordable Interior Solutions in Bur Dubai, Best affordable interior solutions Bur Dubai, Professional affordable interior solutions Bur Dubai, Luxury affordable interior solutions Bur Dubai, Affordable Interior Solutions Bur Dubai Dubai, Affordable Interior Solutions designer Bur Dubai, Affordable Interior Solutions company Bur Dubai, Affordable Interior Solutions contractor Bur Dubai, Affordable affordable interior solutions Bur Dubai, Modern affordable interior solutions Bur Dubai, Affordable Interior Solutions consultation Bur Dubai, Affordable Interior Solutions cost Bur Dubai, Affordable Interior Solutions price Bur Dubai, Top affordable interior solutions Bur Dubai, Affordable Interior Solutions near Bur Dubai, Affordable Interior Solutions specialists Bur Dubai, Affordable Interior Solutions experts Bur Dubai, Affordable Interior Solutions solutions Bur Dubai, Affordable Interior Solutions packages Bur Dubai, Affordable Interior Solutions quotes Bur Dubai, Affordable Interior Solutions estimates Bur Dubai, Affordable Interior Solutions services near me Bur Dubai, Cheap Affordable Interior Solutions Bur Dubai, Quality Affordable Interior Solutions Bur Dubai, Trusted Affordable Interior Solutions Bur Dubai, Affordable Interior Solutions transformation Bur Dubai, Affordable Interior Solutions renovation Bur Dubai, Affordable Interior Solutions makeover Bur Dubai, Best Affordable Interior Solutions company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Bur Dubai. Best affordable interior solutions Bur Dubai Company Bur Dubai Our luxury affordable interior solutions bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Wasl, Smart Lighting in Al Wasl, Best smart lighting Al Wasl, Professional smart lighting Al Wasl, Luxury smart lighting Al Wasl, Smart Lighting Al Wasl Dubai, Smart Lighting designer Al Wasl, Smart Lighting company Al Wasl, Smart Lighting contractor Al Wasl, Affordable smart lighting Al Wasl, Modern smart lighting Al Wasl, Smart Lighting consultation Al Wasl, Smart Lighting cost Al Wasl, Smart Lighting price Al Wasl, Top smart lighting Al Wasl
+
+// SEO Keywords: Smart Lighting Al Wasl, Smart Lighting in Al Wasl, Best smart lighting Al Wasl, Professional smart lighting Al Wasl, Luxury smart lighting Al Wasl, Smart Lighting Al Wasl Dubai, Smart Lighting designer Al Wasl, Smart Lighting company Al Wasl, Smart Lighting contractor Al Wasl, Affordable smart lighting Al Wasl, Modern smart lighting Al Wasl, Smart Lighting consultation Al Wasl, Smart Lighting cost Al Wasl, Smart Lighting price Al Wasl, Top smart lighting Al Wasl, Smart Lighting near Al Wasl, Smart Lighting specialists Al Wasl, Smart Lighting experts Al Wasl, Smart Lighting solutions Al Wasl, Smart Lighting packages Al Wasl, Smart Lighting quotes Al Wasl, Smart Lighting estimates Al Wasl, Smart Lighting services near me Al Wasl, Cheap Smart Lighting Al Wasl, Quality Smart Lighting Al Wasl, Trusted Smart Lighting Al Wasl, Smart Lighting transformation Al Wasl, Smart Lighting renovation Al Wasl, Smart Lighting makeover Al Wasl, Best Smart Lighting company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlWasl() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

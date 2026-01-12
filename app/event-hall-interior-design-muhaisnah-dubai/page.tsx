@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Event Hall Interior Design Muhaisnah, Event Hall Interior in Design Muhaisnah, Best event hall interior Design Muhaisnah, Professional event hall interior Design Muhaisnah, Luxury event hall interior Design Muhaisnah, Event Hall Interior Design Muhaisnah Dubai, Event Hall Interior designer Design Muhaisnah, Event Hall Interior company Design Muhaisnah, Event Hall Interior contractor Design Muhaisnah, Affordable event hall interior Design Muhaisnah, Modern event hall interior Design Muhaisnah, Event Hall Interior consultation Design Muhaisnah, Event Hall Interior cost Design Muhaisnah, Event Hall Interior price Design Muhaisnah, Top event hall interior Design Muhaisnah
+
+// SEO Keywords: Event Hall Interior Design Muhaisnah, Event Hall Interior in Design Muhaisnah, Best event hall interior Design Muhaisnah, Professional event hall interior Design Muhaisnah, Luxury event hall interior Design Muhaisnah, Event Hall Interior Design Muhaisnah Dubai, Event Hall Interior designer Design Muhaisnah, Event Hall Interior company Design Muhaisnah, Event Hall Interior contractor Design Muhaisnah, Affordable event hall interior Design Muhaisnah, Modern event hall interior Design Muhaisnah, Event Hall Interior consultation Design Muhaisnah, Event Hall Interior cost Design Muhaisnah, Event Hall Interior price Design Muhaisnah, Top event hall interior Design Muhaisnah, Event Hall Interior near Design Muhaisnah, Event Hall Interior specialists Design Muhaisnah, Event Hall Interior experts Design Muhaisnah, Event Hall Interior solutions Design Muhaisnah, Event Hall Interior packages Design Muhaisnah, Event Hall Interior quotes Design Muhaisnah, Event Hall Interior estimates Design Muhaisnah, Event Hall Interior services near me Design Muhaisnah, Cheap Event Hall Interior Design Muhaisnah, Quality Event Hall Interior Design Muhaisnah, Trusted Event Hall Interior Design Muhaisnah, Event Hall Interior transformation Design Muhaisnah, Event Hall Interior renovation Design Muhaisnah, Event Hall Interior makeover Design Muhaisnah, Best Event Hall Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EventHallInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Event Hall Interior in Design Muhaisnah. Best event hall interior Design Muhaisnah Company Design Muhaisnah Our luxury event hall interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EventHallInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our event hall interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EventHallInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in event hall interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EventHallInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

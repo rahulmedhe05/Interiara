@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Muhaisnah, Outdoor Living in Design Muhaisnah, Best outdoor living Design Muhaisnah, Professional outdoor living Design Muhaisnah, Luxury outdoor living Design Muhaisnah, Outdoor Living Design Muhaisnah Dubai, Outdoor Living designer Design Muhaisnah, Outdoor Living company Design Muhaisnah, Outdoor Living contractor Design Muhaisnah, Affordable outdoor living Design Muhaisnah, Modern outdoor living Design Muhaisnah, Outdoor Living consultation Design Muhaisnah, Outdoor Living cost Design Muhaisnah, Outdoor Living price Design Muhaisnah, Top outdoor living Design Muhaisnah
+
+// SEO Keywords: Outdoor Living Design Muhaisnah, Outdoor Living in Design Muhaisnah, Best outdoor living Design Muhaisnah, Professional outdoor living Design Muhaisnah, Luxury outdoor living Design Muhaisnah, Outdoor Living Design Muhaisnah Dubai, Outdoor Living designer Design Muhaisnah, Outdoor Living company Design Muhaisnah, Outdoor Living contractor Design Muhaisnah, Affordable outdoor living Design Muhaisnah, Modern outdoor living Design Muhaisnah, Outdoor Living consultation Design Muhaisnah, Outdoor Living cost Design Muhaisnah, Outdoor Living price Design Muhaisnah, Top outdoor living Design Muhaisnah, Outdoor Living near Design Muhaisnah, Outdoor Living specialists Design Muhaisnah, Outdoor Living experts Design Muhaisnah, Outdoor Living solutions Design Muhaisnah, Outdoor Living packages Design Muhaisnah, Outdoor Living quotes Design Muhaisnah, Outdoor Living estimates Design Muhaisnah, Outdoor Living services near me Design Muhaisnah, Cheap Outdoor Living Design Muhaisnah, Quality Outdoor Living Design Muhaisnah, Trusted Outdoor Living Design Muhaisnah, Outdoor Living transformation Design Muhaisnah, Outdoor Living renovation Design Muhaisnah, Outdoor Living makeover Design Muhaisnah, Best Outdoor Living company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living in Design Muhaisnah. Best outdoor living Design Muhaisnah Company Design Muhaisnah Our luxury outdoor living design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

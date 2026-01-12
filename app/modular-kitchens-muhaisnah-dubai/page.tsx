@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Muhaisnah, Modular in Kitchens Muhaisnah, Best modular Kitchens Muhaisnah, Professional modular Kitchens Muhaisnah, Luxury modular Kitchens Muhaisnah, Modular Kitchens Muhaisnah Dubai, Modular designer Kitchens Muhaisnah, Modular company Kitchens Muhaisnah, Modular contractor Kitchens Muhaisnah, Affordable modular Kitchens Muhaisnah, Modern modular Kitchens Muhaisnah, Modular consultation Kitchens Muhaisnah, Modular cost Kitchens Muhaisnah, Modular price Kitchens Muhaisnah, Top modular Kitchens Muhaisnah
+
+// SEO Keywords: Modular Kitchens Muhaisnah, Modular in Kitchens Muhaisnah, Best modular Kitchens Muhaisnah, Professional modular Kitchens Muhaisnah, Luxury modular Kitchens Muhaisnah, Modular Kitchens Muhaisnah Dubai, Modular designer Kitchens Muhaisnah, Modular company Kitchens Muhaisnah, Modular contractor Kitchens Muhaisnah, Affordable modular Kitchens Muhaisnah, Modern modular Kitchens Muhaisnah, Modular consultation Kitchens Muhaisnah, Modular cost Kitchens Muhaisnah, Modular price Kitchens Muhaisnah, Top modular Kitchens Muhaisnah, Modular near Kitchens Muhaisnah, Modular specialists Kitchens Muhaisnah, Modular experts Kitchens Muhaisnah, Modular solutions Kitchens Muhaisnah, Modular packages Kitchens Muhaisnah, Modular quotes Kitchens Muhaisnah, Modular estimates Kitchens Muhaisnah, Modular services near me Kitchens Muhaisnah, Cheap Modular Kitchens Muhaisnah, Quality Modular Kitchens Muhaisnah, Trusted Modular Kitchens Muhaisnah, Modular transformation Kitchens Muhaisnah, Modular renovation Kitchens Muhaisnah, Modular makeover Kitchens Muhaisnah, Best Modular company Kitchens Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Muhaisnah Company Kitchens Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular in Kitchens Muhaisnah. Best modular Kitchens Muhaisnah Company Kitchens Muhaisnah Our luxury modular kitchens muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular in kitchens muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular near kitchens muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Al Safouh, Affordable Interior Solutions in Al Safouh, Best affordable interior solutions Al Safouh, Professional affordable interior solutions Al Safouh, Luxury affordable interior solutions Al Safouh, Affordable Interior Solutions Al Safouh Dubai, Affordable Interior Solutions designer Al Safouh, Affordable Interior Solutions company Al Safouh, Affordable Interior Solutions contractor Al Safouh, Affordable affordable interior solutions Al Safouh, Modern affordable interior solutions Al Safouh, Affordable Interior Solutions consultation Al Safouh, Affordable Interior Solutions cost Al Safouh, Affordable Interior Solutions price Al Safouh, Top affordable interior solutions Al Safouh
+
+// SEO Keywords: Affordable Interior Solutions Al Safouh, Affordable Interior Solutions in Al Safouh, Best affordable interior solutions Al Safouh, Professional affordable interior solutions Al Safouh, Luxury affordable interior solutions Al Safouh, Affordable Interior Solutions Al Safouh Dubai, Affordable Interior Solutions designer Al Safouh, Affordable Interior Solutions company Al Safouh, Affordable Interior Solutions contractor Al Safouh, Affordable affordable interior solutions Al Safouh, Modern affordable interior solutions Al Safouh, Affordable Interior Solutions consultation Al Safouh, Affordable Interior Solutions cost Al Safouh, Affordable Interior Solutions price Al Safouh, Top affordable interior solutions Al Safouh, Affordable Interior Solutions near Al Safouh, Affordable Interior Solutions specialists Al Safouh, Affordable Interior Solutions experts Al Safouh, Affordable Interior Solutions solutions Al Safouh, Affordable Interior Solutions packages Al Safouh, Affordable Interior Solutions quotes Al Safouh, Affordable Interior Solutions estimates Al Safouh, Affordable Interior Solutions services near me Al Safouh, Cheap Affordable Interior Solutions Al Safouh, Quality Affordable Interior Solutions Al Safouh, Trusted Affordable Interior Solutions Al Safouh, Affordable Interior Solutions transformation Al Safouh, Affordable Interior Solutions renovation Al Safouh, Affordable Interior Solutions makeover Al Safouh, Best Affordable Interior Solutions company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions in Al Safouh. Best affordable interior solutions Al Safouh Company Al Safouh Our luxury affordable interior solutions al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

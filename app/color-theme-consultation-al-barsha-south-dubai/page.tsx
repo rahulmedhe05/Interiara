@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Barsha South, Color Theme Consultation Al in Barsha South, Best color theme consultation al Barsha South, Professional color theme consultation al Barsha South, Luxury color theme consultation al Barsha South, Color Theme Consultation Al Barsha South Dubai, Color Theme Consultation Al designer Barsha South, Color Theme Consultation Al company Barsha South, Color Theme Consultation Al contractor Barsha South, Affordable color theme consultation al Barsha South, Modern color theme consultation al Barsha South, Color Theme Consultation Al consultation Barsha South, Color Theme Consultation Al cost Barsha South, Color Theme Consultation Al price Barsha South, Top color theme consultation al Barsha South
+
+// SEO Keywords: Color Theme Consultation Al Barsha South, Color Theme Consultation Al in Barsha South, Best color theme consultation al Barsha South, Professional color theme consultation al Barsha South, Luxury color theme consultation al Barsha South, Color Theme Consultation Al Barsha South Dubai, Color Theme Consultation Al designer Barsha South, Color Theme Consultation Al company Barsha South, Color Theme Consultation Al contractor Barsha South, Affordable color theme consultation al Barsha South, Modern color theme consultation al Barsha South, Color Theme Consultation Al consultation Barsha South, Color Theme Consultation Al cost Barsha South, Color Theme Consultation Al price Barsha South, Top color theme consultation al Barsha South, Color Theme Consultation Al near Barsha South, Color Theme Consultation Al specialists Barsha South, Color Theme Consultation Al experts Barsha South, Color Theme Consultation Al solutions Barsha South, Color Theme Consultation Al packages Barsha South, Color Theme Consultation Al quotes Barsha South, Color Theme Consultation Al estimates Barsha South, Color Theme Consultation Al services near me Barsha South, Cheap Color Theme Consultation Al Barsha South, Quality Color Theme Consultation Al Barsha South, Trusted Color Theme Consultation Al Barsha South, Color Theme Consultation Al transformation Barsha South, Color Theme Consultation Al renovation Barsha South, Color Theme Consultation Al makeover Barsha South, Best Color Theme Consultation Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation Al in Barsha South. Best color theme consultation al Barsha South Company Barsha South Our luxury color theme consultation al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

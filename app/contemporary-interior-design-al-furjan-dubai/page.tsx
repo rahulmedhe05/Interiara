@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Al Furjan, Contemporary Interior Design in Al Furjan, Best contemporary interior design Al Furjan, Professional contemporary interior design Al Furjan, Luxury contemporary interior design Al Furjan, Contemporary Interior Design Al Furjan Dubai, Contemporary Interior Design designer Al Furjan, Contemporary Interior Design company Al Furjan, Contemporary Interior Design contractor Al Furjan, Affordable contemporary interior design Al Furjan, Modern contemporary interior design Al Furjan, Contemporary Interior Design consultation Al Furjan, Contemporary Interior Design cost Al Furjan, Contemporary Interior Design price Al Furjan, Top contemporary interior design Al Furjan
+
+// SEO Keywords: Contemporary Interior Design Al Furjan, Contemporary Interior Design in Al Furjan, Best contemporary interior design Al Furjan, Professional contemporary interior design Al Furjan, Luxury contemporary interior design Al Furjan, Contemporary Interior Design Al Furjan Dubai, Contemporary Interior Design designer Al Furjan, Contemporary Interior Design company Al Furjan, Contemporary Interior Design contractor Al Furjan, Affordable contemporary interior design Al Furjan, Modern contemporary interior design Al Furjan, Contemporary Interior Design consultation Al Furjan, Contemporary Interior Design cost Al Furjan, Contemporary Interior Design price Al Furjan, Top contemporary interior design Al Furjan, Contemporary Interior Design near Al Furjan, Contemporary Interior Design specialists Al Furjan, Contemporary Interior Design experts Al Furjan, Contemporary Interior Design solutions Al Furjan, Contemporary Interior Design packages Al Furjan, Contemporary Interior Design quotes Al Furjan, Contemporary Interior Design estimates Al Furjan, Contemporary Interior Design services near me Al Furjan, Cheap Contemporary Interior Design Al Furjan, Quality Contemporary Interior Design Al Furjan, Trusted Contemporary Interior Design Al Furjan, Contemporary Interior Design transformation Al Furjan, Contemporary Interior Design renovation Al Furjan, Contemporary Interior Design makeover Al Furjan, Best Contemporary Interior Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Al Furjan. Best contemporary interior design Al Furjan Company Al Furjan Our luxury contemporary interior design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

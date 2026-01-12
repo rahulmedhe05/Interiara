@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Barsha, Window Curtains in Al Barsha, Best window curtains Al Barsha, Professional window curtains Al Barsha, Luxury window curtains Al Barsha, Window Curtains Al Barsha Dubai, Window Curtains designer Al Barsha, Window Curtains company Al Barsha, Window Curtains contractor Al Barsha, Affordable window curtains Al Barsha, Modern window curtains Al Barsha, Window Curtains consultation Al Barsha, Window Curtains cost Al Barsha, Window Curtains price Al Barsha, Top window curtains Al Barsha
+
+// SEO Keywords: Window Curtains Al Barsha, Window Curtains in Al Barsha, Best window curtains Al Barsha, Professional window curtains Al Barsha, Luxury window curtains Al Barsha, Window Curtains Al Barsha Dubai, Window Curtains designer Al Barsha, Window Curtains company Al Barsha, Window Curtains contractor Al Barsha, Affordable window curtains Al Barsha, Modern window curtains Al Barsha, Window Curtains consultation Al Barsha, Window Curtains cost Al Barsha, Window Curtains price Al Barsha, Top window curtains Al Barsha, Window Curtains near Al Barsha, Window Curtains specialists Al Barsha, Window Curtains experts Al Barsha, Window Curtains solutions Al Barsha, Window Curtains packages Al Barsha, Window Curtains quotes Al Barsha, Window Curtains estimates Al Barsha, Window Curtains services near me Al Barsha, Cheap Window Curtains Al Barsha, Quality Window Curtains Al Barsha, Trusted Window Curtains Al Barsha, Window Curtains transformation Al Barsha, Window Curtains renovation Al Barsha, Window Curtains makeover Al Barsha, Best Window Curtains company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

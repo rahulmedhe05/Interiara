@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Visualization The Villa, Interior Visualization in The Villa, Best interior visualization The Villa, Professional interior visualization The Villa, Luxury interior visualization The Villa, Interior Visualization The Villa Dubai, Interior Visualization designer The Villa, Interior Visualization company The Villa, Interior Visualization contractor The Villa, Affordable interior visualization The Villa, Modern interior visualization The Villa, Interior Visualization consultation The Villa, Interior Visualization cost The Villa, Interior Visualization price The Villa, Top interior visualization The Villa
+
+// SEO Keywords: Interior Visualization The Villa, Interior Visualization in The Villa, Best interior visualization The Villa, Professional interior visualization The Villa, Luxury interior visualization The Villa, Interior Visualization The Villa Dubai, Interior Visualization designer The Villa, Interior Visualization company The Villa, Interior Visualization contractor The Villa, Affordable interior visualization The Villa, Modern interior visualization The Villa, Interior Visualization consultation The Villa, Interior Visualization cost The Villa, Interior Visualization price The Villa, Top interior visualization The Villa, Interior Visualization near The Villa, Interior Visualization specialists The Villa, Interior Visualization experts The Villa, Interior Visualization solutions The Villa, Interior Visualization packages The Villa, Interior Visualization quotes The Villa, Interior Visualization estimates The Villa, Interior Visualization services near me The Villa, Cheap Interior Visualization The Villa, Quality Interior Visualization The Villa, Trusted Interior Visualization The Villa, Interior Visualization transformation The Villa, Interior Visualization renovation The Villa, Interior Visualization makeover The Villa, Best Interior Visualization company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorVisualizationTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Visualization in The Villa. Best interior visualization The Villa Company The Villa Our luxury interior visualization the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorVisualizationTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior visualization in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorVisualizationTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior visualization near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorVisualizationTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

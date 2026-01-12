@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Marina, Window in Blinds Marina, Best window Blinds Marina, Professional window Blinds Marina, Luxury window Blinds Marina, Window Blinds Marina Dubai, Window designer Blinds Marina, Window company Blinds Marina, Window contractor Blinds Marina, Affordable window Blinds Marina, Modern window Blinds Marina, Window consultation Blinds Marina, Window cost Blinds Marina, Window price Blinds Marina, Top window Blinds Marina
+
+// SEO Keywords: Window Blinds Marina, Window in Blinds Marina, Best window Blinds Marina, Professional window Blinds Marina, Luxury window Blinds Marina, Window Blinds Marina Dubai, Window designer Blinds Marina, Window company Blinds Marina, Window contractor Blinds Marina, Affordable window Blinds Marina, Modern window Blinds Marina, Window consultation Blinds Marina, Window cost Blinds Marina, Window price Blinds Marina, Top window Blinds Marina, Window near Blinds Marina, Window specialists Blinds Marina, Window experts Blinds Marina, Window solutions Blinds Marina, Window packages Blinds Marina, Window quotes Blinds Marina, Window estimates Blinds Marina, Window services near me Blinds Marina, Cheap Window Blinds Marina, Quality Window Blinds Marina, Trusted Window Blinds Marina, Window transformation Blinds Marina, Window renovation Blinds Marina, Window makeover Blinds Marina, Best Window company Blinds Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowBlindsMarina() {
                 At Interiara, we believe that exceptional <strong>Window Blinds Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window in Blinds Marina. Window Blinds Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional window blinds marina services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds Dubai Marina Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowBlindsMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window in blinds marina service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window near blinds marina.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowBlindsMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Greens, Terrace Interior in Design Greens, Best terrace interior Design Greens, Professional terrace interior Design Greens, Luxury terrace interior Design Greens, Terrace Interior Design Greens Dubai, Terrace Interior designer Design Greens, Terrace Interior company Design Greens, Terrace Interior contractor Design Greens, Affordable terrace interior Design Greens, Modern terrace interior Design Greens, Terrace Interior consultation Design Greens, Terrace Interior cost Design Greens, Terrace Interior price Design Greens, Top terrace interior Design Greens
+
+// SEO Keywords: Terrace Interior Design Greens, Terrace Interior in Design Greens, Best terrace interior Design Greens, Professional terrace interior Design Greens, Luxury terrace interior Design Greens, Terrace Interior Design Greens Dubai, Terrace Interior designer Design Greens, Terrace Interior company Design Greens, Terrace Interior contractor Design Greens, Affordable terrace interior Design Greens, Modern terrace interior Design Greens, Terrace Interior consultation Design Greens, Terrace Interior cost Design Greens, Terrace Interior price Design Greens, Top terrace interior Design Greens, Terrace Interior near Design Greens, Terrace Interior specialists Design Greens, Terrace Interior experts Design Greens, Terrace Interior solutions Design Greens, Terrace Interior packages Design Greens, Terrace Interior quotes Design Greens, Terrace Interior estimates Design Greens, Terrace Interior services near me Design Greens, Cheap Terrace Interior Design Greens, Quality Terrace Interior Design Greens, Trusted Terrace Interior Design Greens, Terrace Interior transformation Design Greens, Terrace Interior renovation Design Greens, Terrace Interior makeover Design Greens, Best Terrace Interior company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior Design Greens Company Design Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior in Design Greens. Best terrace interior Design Greens Company Design Greens Our professional terrace interior design greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function TerraceInteriorDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Terrace Interior Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Terrace Interior Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Terrace Interior Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior in design greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior near design greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

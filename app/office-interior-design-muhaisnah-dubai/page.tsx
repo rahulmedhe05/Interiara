@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Muhaisnah, Office Interior in Design Muhaisnah, Best office interior Design Muhaisnah, Professional office interior Design Muhaisnah, Luxury office interior Design Muhaisnah, Office Interior Design Muhaisnah Dubai, Office Interior designer Design Muhaisnah, Office Interior company Design Muhaisnah, Office Interior contractor Design Muhaisnah, Affordable office interior Design Muhaisnah, Modern office interior Design Muhaisnah, Office Interior consultation Design Muhaisnah, Office Interior cost Design Muhaisnah, Office Interior price Design Muhaisnah, Top office interior Design Muhaisnah
+
+// SEO Keywords: Office Interior Design Muhaisnah, Office Interior in Design Muhaisnah, Best office interior Design Muhaisnah, Professional office interior Design Muhaisnah, Luxury office interior Design Muhaisnah, Office Interior Design Muhaisnah Dubai, Office Interior designer Design Muhaisnah, Office Interior company Design Muhaisnah, Office Interior contractor Design Muhaisnah, Affordable office interior Design Muhaisnah, Modern office interior Design Muhaisnah, Office Interior consultation Design Muhaisnah, Office Interior cost Design Muhaisnah, Office Interior price Design Muhaisnah, Top office interior Design Muhaisnah, Office Interior near Design Muhaisnah, Office Interior specialists Design Muhaisnah, Office Interior experts Design Muhaisnah, Office Interior solutions Design Muhaisnah, Office Interior packages Design Muhaisnah, Office Interior quotes Design Muhaisnah, Office Interior estimates Design Muhaisnah, Office Interior services near me Design Muhaisnah, Cheap Office Interior Design Muhaisnah, Quality Office Interior Design Muhaisnah, Trusted Office Interior Design Muhaisnah, Office Interior transformation Design Muhaisnah, Office Interior renovation Design Muhaisnah, Office Interior makeover Design Muhaisnah, Best Office Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior in Design Muhaisnah. Best office interior Design Muhaisnah Company Design Muhaisnah Our luxury office interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Arabic Style Interior Design The Villa, Arabic Style Interior Design in The Villa, Best arabic style interior design The Villa, Professional arabic style interior design The Villa, Luxury arabic style interior design The Villa, Arabic Style Interior Design The Villa Dubai, Arabic Style Interior Design designer The Villa, Arabic Style Interior Design company The Villa, Arabic Style Interior Design contractor The Villa, Affordable arabic style interior design The Villa, Modern arabic style interior design The Villa, Arabic Style Interior Design consultation The Villa, Arabic Style Interior Design cost The Villa, Arabic Style Interior Design price The Villa, Top arabic style interior design The Villa
+
+// SEO Keywords: Arabic Style Interior Design The Villa, Arabic Style Interior Design in The Villa, Best arabic style interior design The Villa, Professional arabic style interior design The Villa, Luxury arabic style interior design The Villa, Arabic Style Interior Design The Villa Dubai, Arabic Style Interior Design designer The Villa, Arabic Style Interior Design company The Villa, Arabic Style Interior Design contractor The Villa, Affordable arabic style interior design The Villa, Modern arabic style interior design The Villa, Arabic Style Interior Design consultation The Villa, Arabic Style Interior Design cost The Villa, Arabic Style Interior Design price The Villa, Top arabic style interior design The Villa, Arabic Style Interior Design near The Villa, Arabic Style Interior Design specialists The Villa, Arabic Style Interior Design experts The Villa, Arabic Style Interior Design solutions The Villa, Arabic Style Interior Design packages The Villa, Arabic Style Interior Design quotes The Villa, Arabic Style Interior Design estimates The Villa, Arabic Style Interior Design services near me The Villa, Cheap Arabic Style Interior Design The Villa, Quality Arabic Style Interior Design The Villa, Trusted Arabic Style Interior Design The Villa, Arabic Style Interior Design transformation The Villa, Arabic Style Interior Design renovation The Villa, Arabic Style Interior Design makeover The Villa, Best Arabic Style Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArabicStyleInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Arabic Style Interior Design in The Villa. Best arabic style interior design The Villa Company The Villa Our luxury arabic style interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArabicStyleInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our arabic style interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArabicStyleInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in arabic style interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArabicStyleInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Jvt, Interior in Design Jvt, Best interior Design Jvt, Professional interior Design Jvt, Luxury interior Design Jvt, Interior Design Jvt Dubai, Interior designer Design Jvt, Interior company Design Jvt, Interior contractor Design Jvt, Affordable interior Design Jvt, Modern interior Design Jvt, Interior consultation Design Jvt, Interior cost Design Jvt, Interior price Design Jvt, Top interior Design Jvt
+
+// SEO Keywords: Interior Design Jvt, Interior in Design Jvt, Best interior Design Jvt, Professional interior Design Jvt, Luxury interior Design Jvt, Interior Design Jvt Dubai, Interior designer Design Jvt, Interior company Design Jvt, Interior contractor Design Jvt, Affordable interior Design Jvt, Modern interior Design Jvt, Interior consultation Design Jvt, Interior cost Design Jvt, Interior price Design Jvt, Top interior Design Jvt, Interior near Design Jvt, Interior specialists Design Jvt, Interior experts Design Jvt, Interior solutions Design Jvt, Interior packages Design Jvt, Interior quotes Design Jvt, Interior estimates Design Jvt, Interior services near me Design Jvt, Cheap Interior Design Jvt, Quality Interior Design Jvt, Trusted Interior Design Jvt, Interior transformation Design Jvt, Interior renovation Design Jvt, Interior makeover Design Jvt, Best Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior in Design Jvt. Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior in design jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior near design jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

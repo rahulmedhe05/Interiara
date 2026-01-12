@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Al Quoz, Wall Coverings in Al Quoz, Best wall coverings Al Quoz, Professional wall coverings Al Quoz, Luxury wall coverings Al Quoz, Wall Coverings Al Quoz Dubai, Wall Coverings designer Al Quoz, Wall Coverings company Al Quoz, Wall Coverings contractor Al Quoz, Affordable wall coverings Al Quoz, Modern wall coverings Al Quoz, Wall Coverings consultation Al Quoz, Wall Coverings cost Al Quoz, Wall Coverings price Al Quoz, Top wall coverings Al Quoz
+
+// SEO Keywords: Wall Coverings Al Quoz, Wall Coverings in Al Quoz, Best wall coverings Al Quoz, Professional wall coverings Al Quoz, Luxury wall coverings Al Quoz, Wall Coverings Al Quoz Dubai, Wall Coverings designer Al Quoz, Wall Coverings company Al Quoz, Wall Coverings contractor Al Quoz, Affordable wall coverings Al Quoz, Modern wall coverings Al Quoz, Wall Coverings consultation Al Quoz, Wall Coverings cost Al Quoz, Wall Coverings price Al Quoz, Top wall coverings Al Quoz, Wall Coverings near Al Quoz, Wall Coverings specialists Al Quoz, Wall Coverings experts Al Quoz, Wall Coverings solutions Al Quoz, Wall Coverings packages Al Quoz, Wall Coverings quotes Al Quoz, Wall Coverings estimates Al Quoz, Wall Coverings services near me Al Quoz, Cheap Wall Coverings Al Quoz, Quality Wall Coverings Al Quoz, Trusted Wall Coverings Al Quoz, Wall Coverings transformation Al Quoz, Wall Coverings renovation Al Quoz, Wall Coverings makeover Al Quoz, Best Wall Coverings company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Coverings in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall coverings in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall coverings near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

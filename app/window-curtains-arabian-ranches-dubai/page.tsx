@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Arabian Ranches, Window Curtains in Arabian Ranches, Best window curtains Arabian Ranches, Professional window curtains Arabian Ranches, Luxury window curtains Arabian Ranches, Window Curtains Arabian Ranches Dubai, Window Curtains designer Arabian Ranches, Window Curtains company Arabian Ranches, Window Curtains contractor Arabian Ranches, Affordable window curtains Arabian Ranches, Modern window curtains Arabian Ranches, Window Curtains consultation Arabian Ranches, Window Curtains cost Arabian Ranches, Window Curtains price Arabian Ranches, Top window curtains Arabian Ranches
+
+// SEO Keywords: Window Curtains Arabian Ranches, Window Curtains in Arabian Ranches, Best window curtains Arabian Ranches, Professional window curtains Arabian Ranches, Luxury window curtains Arabian Ranches, Window Curtains Arabian Ranches Dubai, Window Curtains designer Arabian Ranches, Window Curtains company Arabian Ranches, Window Curtains contractor Arabian Ranches, Affordable window curtains Arabian Ranches, Modern window curtains Arabian Ranches, Window Curtains consultation Arabian Ranches, Window Curtains cost Arabian Ranches, Window Curtains price Arabian Ranches, Top window curtains Arabian Ranches, Window Curtains near Arabian Ranches, Window Curtains specialists Arabian Ranches, Window Curtains experts Arabian Ranches, Window Curtains solutions Arabian Ranches, Window Curtains packages Arabian Ranches, Window Curtains quotes Arabian Ranches, Window Curtains estimates Arabian Ranches, Window Curtains services near me Arabian Ranches, Cheap Window Curtains Arabian Ranches, Quality Window Curtains Arabian Ranches, Trusted Window Curtains Arabian Ranches, Window Curtains transformation Arabian Ranches, Window Curtains renovation Arabian Ranches, Window Curtains makeover Arabian Ranches, Best Window Curtains company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains in Arabian Ranches. Best window curtains Arabian Ranches Company Arabian Ranches Our luxury window curtains arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

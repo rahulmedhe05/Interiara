@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Deira, Interior in Design Deira, Best interior Design Deira, Professional interior Design Deira, Luxury interior Design Deira, Interior Design Deira Dubai, Interior designer Design Deira, Interior company Design Deira, Interior contractor Design Deira, Affordable interior Design Deira, Modern interior Design Deira, Interior consultation Design Deira, Interior cost Design Deira, Interior price Design Deira, Top interior Design Deira
+
+// SEO Keywords: Interior Design Deira, Interior in Design Deira, Best interior Design Deira, Professional interior Design Deira, Luxury interior Design Deira, Interior Design Deira Dubai, Interior designer Design Deira, Interior company Design Deira, Interior contractor Design Deira, Affordable interior Design Deira, Modern interior Design Deira, Interior consultation Design Deira, Interior cost Design Deira, Interior price Design Deira, Top interior Design Deira, Interior near Design Deira, Interior specialists Design Deira, Interior experts Design Deira, Interior solutions Design Deira, Interior packages Design Deira, Interior quotes Design Deira, Interior estimates Design Deira, Interior services near me Design Deira, Cheap Interior Design Deira, Quality Interior Design Deira, Trusted Interior Design Deira, Interior transformation Design Deira, Interior renovation Design Deira, Interior makeover Design Deira, Best Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignDeira() {
                 At Interiara, we believe that exceptional <strong>Interior Design Deira Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Deira Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior in Design Deira. 
                 We've completed 300+ successful projects across Deira Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Deira Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design deira services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Deira Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior in design deira service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior near design deira.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

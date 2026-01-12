@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Minimalist Interior Design Bur, Minimalist Interior in Design Bur, Best minimalist interior Design Bur, Professional minimalist interior Design Bur, Luxury minimalist interior Design Bur, Minimalist Interior Design Bur Dubai, Minimalist Interior designer Design Bur, Minimalist Interior company Design Bur, Minimalist Interior contractor Design Bur, Affordable minimalist interior Design Bur, Modern minimalist interior Design Bur, Minimalist Interior consultation Design Bur, Minimalist Interior cost Design Bur, Minimalist Interior price Design Bur, Top minimalist interior Design Bur
+
+// SEO Keywords: Minimalist Interior Design Bur, Minimalist Interior in Design Bur, Best minimalist interior Design Bur, Professional minimalist interior Design Bur, Luxury minimalist interior Design Bur, Minimalist Interior Design Bur Dubai, Minimalist Interior designer Design Bur, Minimalist Interior company Design Bur, Minimalist Interior contractor Design Bur, Affordable minimalist interior Design Bur, Modern minimalist interior Design Bur, Minimalist Interior consultation Design Bur, Minimalist Interior cost Design Bur, Minimalist Interior price Design Bur, Top minimalist interior Design Bur, Minimalist Interior near Design Bur, Minimalist Interior specialists Design Bur, Minimalist Interior experts Design Bur, Minimalist Interior solutions Design Bur, Minimalist Interior packages Design Bur, Minimalist Interior quotes Design Bur, Minimalist Interior estimates Design Bur, Minimalist Interior services near me Design Bur, Cheap Minimalist Interior Design Bur, Quality Minimalist Interior Design Bur, Trusted Minimalist Interior Design Bur, Minimalist Interior transformation Design Bur, Minimalist Interior renovation Design Bur, Minimalist Interior makeover Design Bur, Best Minimalist Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MinimalistInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Minimalist Interior in Design Bur. Best minimalist interior Design Bur Company Design Bur Our luxury minimalist interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MinimalistInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our minimalist interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MinimalistInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in minimalist interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MinimalistInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Jumeirah, Affordable Interior in Solutions Jumeirah, Best affordable interior Solutions Jumeirah, Professional affordable interior Solutions Jumeirah, Luxury affordable interior Solutions Jumeirah, Affordable Interior Solutions Jumeirah Dubai, Affordable Interior designer Solutions Jumeirah, Affordable Interior company Solutions Jumeirah, Affordable Interior contractor Solutions Jumeirah, Affordable affordable interior Solutions Jumeirah, Modern affordable interior Solutions Jumeirah, Affordable Interior consultation Solutions Jumeirah, Affordable Interior cost Solutions Jumeirah, Affordable Interior price Solutions Jumeirah, Top affordable interior Solutions Jumeirah
+
+// SEO Keywords: Affordable Interior Solutions Jumeirah, Affordable Interior in Solutions Jumeirah, Best affordable interior Solutions Jumeirah, Professional affordable interior Solutions Jumeirah, Luxury affordable interior Solutions Jumeirah, Affordable Interior Solutions Jumeirah Dubai, Affordable Interior designer Solutions Jumeirah, Affordable Interior company Solutions Jumeirah, Affordable Interior contractor Solutions Jumeirah, Affordable affordable interior Solutions Jumeirah, Modern affordable interior Solutions Jumeirah, Affordable Interior consultation Solutions Jumeirah, Affordable Interior cost Solutions Jumeirah, Affordable Interior price Solutions Jumeirah, Top affordable interior Solutions Jumeirah, Affordable Interior near Solutions Jumeirah, Affordable Interior specialists Solutions Jumeirah, Affordable Interior experts Solutions Jumeirah, Affordable Interior solutions Solutions Jumeirah, Affordable Interior packages Solutions Jumeirah, Affordable Interior quotes Solutions Jumeirah, Affordable Interior estimates Solutions Jumeirah, Affordable Interior services near me Solutions Jumeirah, Cheap Affordable Interior Solutions Jumeirah, Quality Affordable Interior Solutions Jumeirah, Trusted Affordable Interior Solutions Jumeirah, Affordable Interior transformation Solutions Jumeirah, Affordable Interior renovation Solutions Jumeirah, Affordable Interior makeover Solutions Jumeirah, Best Affordable Interior company Solutions Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Jumeirah Company Solutions Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior in Solutions Jumeirah. Best affordable interior Solutions Jumeirah Company Solutions Jumeirah Our luxury affordable interior solutions jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior in solutions jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior near solutions jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

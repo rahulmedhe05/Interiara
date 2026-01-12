@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Budget Interior Solutions Nad Al Sheba, Budget Interior Solutions Nad in Al Sheba, Best budget interior solutions nad Al Sheba, Professional budget interior solutions nad Al Sheba, Luxury budget interior solutions nad Al Sheba, Budget Interior Solutions Nad Al Sheba Dubai, Budget Interior Solutions Nad designer Al Sheba, Budget Interior Solutions Nad company Al Sheba, Budget Interior Solutions Nad contractor Al Sheba, Affordable budget interior solutions nad Al Sheba, Modern budget interior solutions nad Al Sheba, Budget Interior Solutions Nad consultation Al Sheba, Budget Interior Solutions Nad cost Al Sheba, Budget Interior Solutions Nad price Al Sheba, Top budget interior solutions nad Al Sheba
+
+// SEO Keywords: Budget Interior Solutions Nad Al Sheba, Budget Interior Solutions Nad in Al Sheba, Best budget interior solutions nad Al Sheba, Professional budget interior solutions nad Al Sheba, Luxury budget interior solutions nad Al Sheba, Budget Interior Solutions Nad Al Sheba Dubai, Budget Interior Solutions Nad designer Al Sheba, Budget Interior Solutions Nad company Al Sheba, Budget Interior Solutions Nad contractor Al Sheba, Affordable budget interior solutions nad Al Sheba, Modern budget interior solutions nad Al Sheba, Budget Interior Solutions Nad consultation Al Sheba, Budget Interior Solutions Nad cost Al Sheba, Budget Interior Solutions Nad price Al Sheba, Top budget interior solutions nad Al Sheba, Budget Interior Solutions Nad near Al Sheba, Budget Interior Solutions Nad specialists Al Sheba, Budget Interior Solutions Nad experts Al Sheba, Budget Interior Solutions Nad solutions Al Sheba, Budget Interior Solutions Nad packages Al Sheba, Budget Interior Solutions Nad quotes Al Sheba, Budget Interior Solutions Nad estimates Al Sheba, Budget Interior Solutions Nad services near me Al Sheba, Cheap Budget Interior Solutions Nad Al Sheba, Quality Budget Interior Solutions Nad Al Sheba, Trusted Budget Interior Solutions Nad Al Sheba, Budget Interior Solutions Nad transformation Al Sheba, Budget Interior Solutions Nad renovation Al Sheba, Budget Interior Solutions Nad makeover Al Sheba, Best Budget Interior Solutions Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BudgetInteriorSolutionsNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Budget Interior Solutions Nad in Al Sheba. Best budget interior solutions nad Al Sheba Company Al Sheba Our luxury budget interior solutions nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BudgetInteriorSolutionsNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our budget interior solutions nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BudgetInteriorSolutionsNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in budget interior solutions nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BudgetInteriorSolutionsNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

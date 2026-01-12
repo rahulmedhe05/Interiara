@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Dubai Marina, Lighting Design in Dubai Marina, Best lighting design Dubai Marina, Professional lighting design Dubai Marina, Luxury lighting design Dubai Marina, Lighting Design Dubai Marina Dubai, Lighting Design designer Dubai Marina, Lighting Design company Dubai Marina, Lighting Design contractor Dubai Marina, Affordable lighting design Dubai Marina, Modern lighting design Dubai Marina, Lighting Design consultation Dubai Marina, Lighting Design cost Dubai Marina, Lighting Design price Dubai Marina, Top lighting design Dubai Marina
+
+// SEO Keywords: Lighting Design Dubai Marina, Lighting Design in Dubai Marina, Best lighting design Dubai Marina, Professional lighting design Dubai Marina, Luxury lighting design Dubai Marina, Lighting Design Dubai Marina Dubai, Lighting Design designer Dubai Marina, Lighting Design company Dubai Marina, Lighting Design contractor Dubai Marina, Affordable lighting design Dubai Marina, Modern lighting design Dubai Marina, Lighting Design consultation Dubai Marina, Lighting Design cost Dubai Marina, Lighting Design price Dubai Marina, Top lighting design Dubai Marina, Lighting Design near Dubai Marina, Lighting Design specialists Dubai Marina, Lighting Design experts Dubai Marina, Lighting Design solutions Dubai Marina, Lighting Design packages Dubai Marina, Lighting Design quotes Dubai Marina, Lighting Design estimates Dubai Marina, Lighting Design services near me Dubai Marina, Cheap Lighting Design Dubai Marina, Quality Lighting Design Dubai Marina, Trusted Lighting Design Dubai Marina, Lighting Design transformation Dubai Marina, Lighting Design renovation Dubai Marina, Lighting Design makeover Dubai Marina, Best Lighting Design company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Design in Dubai Marina. Best lighting design Dubai Marina Company Dubai Marina Our luxury lighting design dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting design in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting design near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

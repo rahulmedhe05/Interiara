@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Retail Shop Interior Design Mirdif, Retail Shop Interior in Design Mirdif, Best retail shop interior Design Mirdif, Professional retail shop interior Design Mirdif, Luxury retail shop interior Design Mirdif, Retail Shop Interior Design Mirdif Dubai, Retail Shop Interior designer Design Mirdif, Retail Shop Interior company Design Mirdif, Retail Shop Interior contractor Design Mirdif, Affordable retail shop interior Design Mirdif, Modern retail shop interior Design Mirdif, Retail Shop Interior consultation Design Mirdif, Retail Shop Interior cost Design Mirdif, Retail Shop Interior price Design Mirdif, Top retail shop interior Design Mirdif
+
+// SEO Keywords: Retail Shop Interior Design Mirdif, Retail Shop Interior in Design Mirdif, Best retail shop interior Design Mirdif, Professional retail shop interior Design Mirdif, Luxury retail shop interior Design Mirdif, Retail Shop Interior Design Mirdif Dubai, Retail Shop Interior designer Design Mirdif, Retail Shop Interior company Design Mirdif, Retail Shop Interior contractor Design Mirdif, Affordable retail shop interior Design Mirdif, Modern retail shop interior Design Mirdif, Retail Shop Interior consultation Design Mirdif, Retail Shop Interior cost Design Mirdif, Retail Shop Interior price Design Mirdif, Top retail shop interior Design Mirdif, Retail Shop Interior near Design Mirdif, Retail Shop Interior specialists Design Mirdif, Retail Shop Interior experts Design Mirdif, Retail Shop Interior solutions Design Mirdif, Retail Shop Interior packages Design Mirdif, Retail Shop Interior quotes Design Mirdif, Retail Shop Interior estimates Design Mirdif, Retail Shop Interior services near me Design Mirdif, Cheap Retail Shop Interior Design Mirdif, Quality Retail Shop Interior Design Mirdif, Trusted Retail Shop Interior Design Mirdif, Retail Shop Interior transformation Design Mirdif, Retail Shop Interior renovation Design Mirdif, Retail Shop Interior makeover Design Mirdif, Best Retail Shop Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RetailShopInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Retail Shop Interior in Design Mirdif. Best retail shop interior Design Mirdif Company Design Mirdif Our luxury retail shop interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RetailShopInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our retail shop interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RetailShopInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in retail shop interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RetailShopInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

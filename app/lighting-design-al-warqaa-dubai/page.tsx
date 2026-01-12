@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Al Warqaa, Lighting Design in Al Warqaa, Best lighting design Al Warqaa, Professional lighting design Al Warqaa, Luxury lighting design Al Warqaa, Lighting Design Al Warqaa Dubai, Lighting Design designer Al Warqaa, Lighting Design company Al Warqaa, Lighting Design contractor Al Warqaa, Affordable lighting design Al Warqaa, Modern lighting design Al Warqaa, Lighting Design consultation Al Warqaa, Lighting Design cost Al Warqaa, Lighting Design price Al Warqaa, Top lighting design Al Warqaa
+
+// SEO Keywords: Lighting Design Al Warqaa, Lighting Design in Al Warqaa, Best lighting design Al Warqaa, Professional lighting design Al Warqaa, Luxury lighting design Al Warqaa, Lighting Design Al Warqaa Dubai, Lighting Design designer Al Warqaa, Lighting Design company Al Warqaa, Lighting Design contractor Al Warqaa, Affordable lighting design Al Warqaa, Modern lighting design Al Warqaa, Lighting Design consultation Al Warqaa, Lighting Design cost Al Warqaa, Lighting Design price Al Warqaa, Top lighting design Al Warqaa, Lighting Design near Al Warqaa, Lighting Design specialists Al Warqaa, Lighting Design experts Al Warqaa, Lighting Design solutions Al Warqaa, Lighting Design packages Al Warqaa, Lighting Design quotes Al Warqaa, Lighting Design estimates Al Warqaa, Lighting Design services near me Al Warqaa, Cheap Lighting Design Al Warqaa, Quality Lighting Design Al Warqaa, Trusted Lighting Design Al Warqaa, Lighting Design transformation Al Warqaa, Lighting Design renovation Al Warqaa, Lighting Design makeover Al Warqaa, Best Lighting Design company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignAlWarqaa() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Al Warqaa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Warqaa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in Al Warqaa. 
                 We've completed 300+ successful projects across Al Warqaa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Al Warqaa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design al warqaa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Al Warqaa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in al warqaa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near al warqaa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

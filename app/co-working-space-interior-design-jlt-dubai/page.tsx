@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Co Working Space Interior Design Jlt, Co Working Space Interior in Design Jlt, Best co working space interior Design Jlt, Professional co working space interior Design Jlt, Luxury co working space interior Design Jlt, Co Working Space Interior Design Jlt Dubai, Co Working Space Interior designer Design Jlt, Co Working Space Interior company Design Jlt, Co Working Space Interior contractor Design Jlt, Affordable co working space interior Design Jlt, Modern co working space interior Design Jlt, Co Working Space Interior consultation Design Jlt, Co Working Space Interior cost Design Jlt, Co Working Space Interior price Design Jlt, Top co working space interior Design Jlt
+
+// SEO Keywords: Co Working Space Interior Design Jlt, Co Working Space Interior in Design Jlt, Best co working space interior Design Jlt, Professional co working space interior Design Jlt, Luxury co working space interior Design Jlt, Co Working Space Interior Design Jlt Dubai, Co Working Space Interior designer Design Jlt, Co Working Space Interior company Design Jlt, Co Working Space Interior contractor Design Jlt, Affordable co working space interior Design Jlt, Modern co working space interior Design Jlt, Co Working Space Interior consultation Design Jlt, Co Working Space Interior cost Design Jlt, Co Working Space Interior price Design Jlt, Top co working space interior Design Jlt, Co Working Space Interior near Design Jlt, Co Working Space Interior specialists Design Jlt, Co Working Space Interior experts Design Jlt, Co Working Space Interior solutions Design Jlt, Co Working Space Interior packages Design Jlt, Co Working Space Interior quotes Design Jlt, Co Working Space Interior estimates Design Jlt, Co Working Space Interior services near me Design Jlt, Cheap Co Working Space Interior Design Jlt, Quality Co Working Space Interior Design Jlt, Trusted Co Working Space Interior Design Jlt, Co Working Space Interior transformation Design Jlt, Co Working Space Interior renovation Design Jlt, Co Working Space Interior makeover Design Jlt, Best Co Working Space Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CoWorkingSpaceInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best co working space interior Design Jlt Company Design Jlt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Co Working Space Interior in Design Jlt. Best co working space interior Design Jlt Company Design Jlt Our luxury co working space interior design jlt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Co Working Space Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function CoWorkingSpaceInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Co Working Space Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Co Working Space Interior Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Co Working Space Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function CoWorkingSpaceInteriorDesignJlt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our co working space interior in design jlt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CoWorkingSpaceInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in co working space interior near design jlt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CoWorkingSpaceInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

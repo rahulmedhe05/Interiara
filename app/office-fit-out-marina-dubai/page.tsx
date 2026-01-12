@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Marina, Office Fit in Out Marina, Best office fit Out Marina, Professional office fit Out Marina, Luxury office fit Out Marina, Office Fit Out Marina Dubai, Office Fit designer Out Marina, Office Fit company Out Marina, Office Fit contractor Out Marina, Affordable office fit Out Marina, Modern office fit Out Marina, Office Fit consultation Out Marina, Office Fit cost Out Marina, Office Fit price Out Marina, Top office fit Out Marina
+
+// SEO Keywords: Office Fit Out Marina, Office Fit in Out Marina, Best office fit Out Marina, Professional office fit Out Marina, Luxury office fit Out Marina, Office Fit Out Marina Dubai, Office Fit designer Out Marina, Office Fit company Out Marina, Office Fit contractor Out Marina, Affordable office fit Out Marina, Modern office fit Out Marina, Office Fit consultation Out Marina, Office Fit cost Out Marina, Office Fit price Out Marina, Top office fit Out Marina, Office Fit near Out Marina, Office Fit specialists Out Marina, Office Fit experts Out Marina, Office Fit solutions Out Marina, Office Fit packages Out Marina, Office Fit quotes Out Marina, Office Fit estimates Out Marina, Office Fit services near me Out Marina, Cheap Office Fit Out Marina, Quality Office Fit Out Marina, Trusted Office Fit Out Marina, Office Fit transformation Out Marina, Office Fit renovation Out Marina, Office Fit makeover Out Marina, Best Office Fit company Out Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutMarina() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Marina. Office Fit Out Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional office fit out marina services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Dubai Marina Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out marina service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out marina.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

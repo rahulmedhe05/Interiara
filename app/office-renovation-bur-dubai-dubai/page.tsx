@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Bur Dubai, Office Renovation in Bur Dubai, Best office renovation Bur Dubai, Professional office renovation Bur Dubai, Luxury office renovation Bur Dubai, Office Renovation Bur Dubai Dubai, Office Renovation designer Bur Dubai, Office Renovation company Bur Dubai, Office Renovation contractor Bur Dubai, Affordable office renovation Bur Dubai, Modern office renovation Bur Dubai, Office Renovation consultation Bur Dubai, Office Renovation cost Bur Dubai, Office Renovation price Bur Dubai, Top office renovation Bur Dubai
+
+// SEO Keywords: Office Renovation Bur Dubai, Office Renovation in Bur Dubai, Best office renovation Bur Dubai, Professional office renovation Bur Dubai, Luxury office renovation Bur Dubai, Office Renovation Bur Dubai Dubai, Office Renovation designer Bur Dubai, Office Renovation company Bur Dubai, Office Renovation contractor Bur Dubai, Affordable office renovation Bur Dubai, Modern office renovation Bur Dubai, Office Renovation consultation Bur Dubai, Office Renovation cost Bur Dubai, Office Renovation price Bur Dubai, Top office renovation Bur Dubai, Office Renovation near Bur Dubai, Office Renovation specialists Bur Dubai, Office Renovation experts Bur Dubai, Office Renovation solutions Bur Dubai, Office Renovation packages Bur Dubai, Office Renovation quotes Bur Dubai, Office Renovation estimates Bur Dubai, Office Renovation services near me Bur Dubai, Cheap Office Renovation Bur Dubai, Quality Office Renovation Bur Dubai, Trusted Office Renovation Bur Dubai, Office Renovation transformation Bur Dubai, Office Renovation renovation Bur Dubai, Office Renovation makeover Bur Dubai, Best Office Renovation company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Bur Dubai. Best office renovation Bur Dubai Company Bur Dubai Our luxury office renovation bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

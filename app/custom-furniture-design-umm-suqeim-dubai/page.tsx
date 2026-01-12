@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Umm Suqeim, Custom Furniture Design in Umm Suqeim, Best custom furniture design Umm Suqeim, Professional custom furniture design Umm Suqeim, Luxury custom furniture design Umm Suqeim, Custom Furniture Design Umm Suqeim Dubai, Custom Furniture Design designer Umm Suqeim, Custom Furniture Design company Umm Suqeim, Custom Furniture Design contractor Umm Suqeim, Affordable custom furniture design Umm Suqeim, Modern custom furniture design Umm Suqeim, Custom Furniture Design consultation Umm Suqeim, Custom Furniture Design cost Umm Suqeim, Custom Furniture Design price Umm Suqeim, Top custom furniture design Umm Suqeim
+
+// SEO Keywords: Custom Furniture Design Umm Suqeim, Custom Furniture Design in Umm Suqeim, Best custom furniture design Umm Suqeim, Professional custom furniture design Umm Suqeim, Luxury custom furniture design Umm Suqeim, Custom Furniture Design Umm Suqeim Dubai, Custom Furniture Design designer Umm Suqeim, Custom Furniture Design company Umm Suqeim, Custom Furniture Design contractor Umm Suqeim, Affordable custom furniture design Umm Suqeim, Modern custom furniture design Umm Suqeim, Custom Furniture Design consultation Umm Suqeim, Custom Furniture Design cost Umm Suqeim, Custom Furniture Design price Umm Suqeim, Top custom furniture design Umm Suqeim, Custom Furniture Design near Umm Suqeim, Custom Furniture Design specialists Umm Suqeim, Custom Furniture Design experts Umm Suqeim, Custom Furniture Design solutions Umm Suqeim, Custom Furniture Design packages Umm Suqeim, Custom Furniture Design quotes Umm Suqeim, Custom Furniture Design estimates Umm Suqeim, Custom Furniture Design services near me Umm Suqeim, Cheap Custom Furniture Design Umm Suqeim, Quality Custom Furniture Design Umm Suqeim, Trusted Custom Furniture Design Umm Suqeim, Custom Furniture Design transformation Umm Suqeim, Custom Furniture Design renovation Umm Suqeim, Custom Furniture Design makeover Umm Suqeim, Best Custom Furniture Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Umm Suqeim. Best custom furniture design Umm Suqeim Company Umm Suqeim Our luxury custom furniture design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Jlt, Interior in Design Jlt, Best interior Design Jlt, Professional interior Design Jlt, Luxury interior Design Jlt, Interior Design Jlt Dubai, Interior designer Design Jlt, Interior company Design Jlt, Interior contractor Design Jlt, Affordable interior Design Jlt, Modern interior Design Jlt, Interior consultation Design Jlt, Interior cost Design Jlt, Interior price Design Jlt, Top interior Design Jlt
+
+// SEO Keywords: Interior Design Jlt, Interior in Design Jlt, Best interior Design Jlt, Professional interior Design Jlt, Luxury interior Design Jlt, Interior Design Jlt Dubai, Interior designer Design Jlt, Interior company Design Jlt, Interior contractor Design Jlt, Affordable interior Design Jlt, Modern interior Design Jlt, Interior consultation Design Jlt, Interior cost Design Jlt, Interior price Design Jlt, Top interior Design Jlt, Interior near Design Jlt, Interior specialists Design Jlt, Interior experts Design Jlt, Interior solutions Design Jlt, Interior packages Design Jlt, Interior quotes Design Jlt, Interior estimates Design Jlt, Interior services near me Design Jlt, Cheap Interior Design Jlt, Quality Interior Design Jlt, Trusted Interior Design Jlt, Interior transformation Design Jlt, Interior renovation Design Jlt, Interior makeover Design Jlt, Best Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior in Design Jlt. Interior Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Satwa, Color Theme Consultation in Al Satwa, Best color theme consultation Al Satwa, Professional color theme consultation Al Satwa, Luxury color theme consultation Al Satwa, Color Theme Consultation Al Satwa Dubai, Color Theme Consultation designer Al Satwa, Color Theme Consultation company Al Satwa, Color Theme Consultation contractor Al Satwa, Affordable color theme consultation Al Satwa, Modern color theme consultation Al Satwa, Color Theme Consultation consultation Al Satwa, Color Theme Consultation cost Al Satwa, Color Theme Consultation price Al Satwa, Top color theme consultation Al Satwa
+
+// SEO Keywords: Color Theme Consultation Al Satwa, Color Theme Consultation in Al Satwa, Best color theme consultation Al Satwa, Professional color theme consultation Al Satwa, Luxury color theme consultation Al Satwa, Color Theme Consultation Al Satwa Dubai, Color Theme Consultation designer Al Satwa, Color Theme Consultation company Al Satwa, Color Theme Consultation contractor Al Satwa, Affordable color theme consultation Al Satwa, Modern color theme consultation Al Satwa, Color Theme Consultation consultation Al Satwa, Color Theme Consultation cost Al Satwa, Color Theme Consultation price Al Satwa, Top color theme consultation Al Satwa, Color Theme Consultation near Al Satwa, Color Theme Consultation specialists Al Satwa, Color Theme Consultation experts Al Satwa, Color Theme Consultation solutions Al Satwa, Color Theme Consultation packages Al Satwa, Color Theme Consultation quotes Al Satwa, Color Theme Consultation estimates Al Satwa, Color Theme Consultation services near me Al Satwa, Cheap Color Theme Consultation Al Satwa, Quality Color Theme Consultation Al Satwa, Trusted Color Theme Consultation Al Satwa, Color Theme Consultation transformation Al Satwa, Color Theme Consultation renovation Al Satwa, Color Theme Consultation makeover Al Satwa, Best Color Theme Consultation company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Satwa Company Al Satwa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Al Satwa. Best color theme consultation Al Satwa Company Al Satwa Our luxury color theme consultation al satwa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlSatwa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in al satwa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near al satwa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

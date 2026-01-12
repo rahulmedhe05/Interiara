@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Business Bay South, Art Consultation Business in Bay South, Best art consultation business Bay South, Professional art consultation business Bay South, Luxury art consultation business Bay South, Art Consultation Business Bay South Dubai, Art Consultation Business designer Bay South, Art Consultation Business company Bay South, Art Consultation Business contractor Bay South, Affordable art consultation business Bay South, Modern art consultation business Bay South, Art Consultation Business consultation Bay South, Art Consultation Business cost Bay South, Art Consultation Business price Bay South, Top art consultation business Bay South
+
+// SEO Keywords: Art Consultation Business Bay South, Art Consultation Business in Bay South, Best art consultation business Bay South, Professional art consultation business Bay South, Luxury art consultation business Bay South, Art Consultation Business Bay South Dubai, Art Consultation Business designer Bay South, Art Consultation Business company Bay South, Art Consultation Business contractor Bay South, Affordable art consultation business Bay South, Modern art consultation business Bay South, Art Consultation Business consultation Bay South, Art Consultation Business cost Bay South, Art Consultation Business price Bay South, Top art consultation business Bay South, Art Consultation Business near Bay South, Art Consultation Business specialists Bay South, Art Consultation Business experts Bay South, Art Consultation Business solutions Bay South, Art Consultation Business packages Bay South, Art Consultation Business quotes Bay South, Art Consultation Business estimates Bay South, Art Consultation Business services near me Bay South, Cheap Art Consultation Business Bay South, Quality Art Consultation Business Bay South, Trusted Art Consultation Business Bay South, Art Consultation Business transformation Bay South, Art Consultation Business renovation Bay South, Art Consultation Business makeover Bay South, Best Art Consultation Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art Consultation Business in Bay South. Best art consultation business Bay South Company Bay South Our luxury art consultation business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art consultation business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art consultation business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

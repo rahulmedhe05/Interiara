@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design Jvt, Smart Home Interior in Design Jvt, Best smart home interior Design Jvt, Professional smart home interior Design Jvt, Luxury smart home interior Design Jvt, Smart Home Interior Design Jvt Dubai, Smart Home Interior designer Design Jvt, Smart Home Interior company Design Jvt, Smart Home Interior contractor Design Jvt, Affordable smart home interior Design Jvt, Modern smart home interior Design Jvt, Smart Home Interior consultation Design Jvt, Smart Home Interior cost Design Jvt, Smart Home Interior price Design Jvt, Top smart home interior Design Jvt
+
+// SEO Keywords: Smart Home Interior Design Jvt, Smart Home Interior in Design Jvt, Best smart home interior Design Jvt, Professional smart home interior Design Jvt, Luxury smart home interior Design Jvt, Smart Home Interior Design Jvt Dubai, Smart Home Interior designer Design Jvt, Smart Home Interior company Design Jvt, Smart Home Interior contractor Design Jvt, Affordable smart home interior Design Jvt, Modern smart home interior Design Jvt, Smart Home Interior consultation Design Jvt, Smart Home Interior cost Design Jvt, Smart Home Interior price Design Jvt, Top smart home interior Design Jvt, Smart Home Interior near Design Jvt, Smart Home Interior specialists Design Jvt, Smart Home Interior experts Design Jvt, Smart Home Interior solutions Design Jvt, Smart Home Interior packages Design Jvt, Smart Home Interior quotes Design Jvt, Smart Home Interior estimates Design Jvt, Smart Home Interior services near me Design Jvt, Cheap Smart Home Interior Design Jvt, Quality Smart Home Interior Design Jvt, Trusted Smart Home Interior Design Jvt, Smart Home Interior transformation Design Jvt, Smart Home Interior renovation Design Jvt, Smart Home Interior makeover Design Jvt, Best Smart Home Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home Interior in Design Jvt. Best smart home interior Design Jvt Company Design Jvt Our luxury smart home interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SmartHomeInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Smart Home Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Home Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Home Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

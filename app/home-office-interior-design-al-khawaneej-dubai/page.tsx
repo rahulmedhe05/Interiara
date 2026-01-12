@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Al Khawaneej, Home Office Interior Design in Al Khawaneej, Best home office interior design Al Khawaneej, Professional home office interior design Al Khawaneej, Luxury home office interior design Al Khawaneej, Home Office Interior Design Al Khawaneej Dubai, Home Office Interior Design designer Al Khawaneej, Home Office Interior Design company Al Khawaneej, Home Office Interior Design contractor Al Khawaneej, Affordable home office interior design Al Khawaneej, Modern home office interior design Al Khawaneej, Home Office Interior Design consultation Al Khawaneej, Home Office Interior Design cost Al Khawaneej, Home Office Interior Design price Al Khawaneej, Top home office interior design Al Khawaneej
+
+// SEO Keywords: Home Office Interior Design Al Khawaneej, Home Office Interior Design in Al Khawaneej, Best home office interior design Al Khawaneej, Professional home office interior design Al Khawaneej, Luxury home office interior design Al Khawaneej, Home Office Interior Design Al Khawaneej Dubai, Home Office Interior Design designer Al Khawaneej, Home Office Interior Design company Al Khawaneej, Home Office Interior Design contractor Al Khawaneej, Affordable home office interior design Al Khawaneej, Modern home office interior design Al Khawaneej, Home Office Interior Design consultation Al Khawaneej, Home Office Interior Design cost Al Khawaneej, Home Office Interior Design price Al Khawaneej, Top home office interior design Al Khawaneej, Home Office Interior Design near Al Khawaneej, Home Office Interior Design specialists Al Khawaneej, Home Office Interior Design experts Al Khawaneej, Home Office Interior Design solutions Al Khawaneej, Home Office Interior Design packages Al Khawaneej, Home Office Interior Design quotes Al Khawaneej, Home Office Interior Design estimates Al Khawaneej, Home Office Interior Design services near me Al Khawaneej, Cheap Home Office Interior Design Al Khawaneej, Quality Home Office Interior Design Al Khawaneej, Trusted Home Office Interior Design Al Khawaneej, Home Office Interior Design transformation Al Khawaneej, Home Office Interior Design renovation Al Khawaneej, Home Office Interior Design makeover Al Khawaneej, Best Home Office Interior Design company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior design Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior Design in Al Khawaneej. Best home office interior design Al Khawaneej Company Al Khawaneej Our luxury home office interior design al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior design in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior design near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design Muhaisnah, Smart Home Interior in Design Muhaisnah, Best smart home interior Design Muhaisnah, Professional smart home interior Design Muhaisnah, Luxury smart home interior Design Muhaisnah, Smart Home Interior Design Muhaisnah Dubai, Smart Home Interior designer Design Muhaisnah, Smart Home Interior company Design Muhaisnah, Smart Home Interior contractor Design Muhaisnah, Affordable smart home interior Design Muhaisnah, Modern smart home interior Design Muhaisnah, Smart Home Interior consultation Design Muhaisnah, Smart Home Interior cost Design Muhaisnah, Smart Home Interior price Design Muhaisnah, Top smart home interior Design Muhaisnah
+
+// SEO Keywords: Smart Home Interior Design Muhaisnah, Smart Home Interior in Design Muhaisnah, Best smart home interior Design Muhaisnah, Professional smart home interior Design Muhaisnah, Luxury smart home interior Design Muhaisnah, Smart Home Interior Design Muhaisnah Dubai, Smart Home Interior designer Design Muhaisnah, Smart Home Interior company Design Muhaisnah, Smart Home Interior contractor Design Muhaisnah, Affordable smart home interior Design Muhaisnah, Modern smart home interior Design Muhaisnah, Smart Home Interior consultation Design Muhaisnah, Smart Home Interior cost Design Muhaisnah, Smart Home Interior price Design Muhaisnah, Top smart home interior Design Muhaisnah, Smart Home Interior near Design Muhaisnah, Smart Home Interior specialists Design Muhaisnah, Smart Home Interior experts Design Muhaisnah, Smart Home Interior solutions Design Muhaisnah, Smart Home Interior packages Design Muhaisnah, Smart Home Interior quotes Design Muhaisnah, Smart Home Interior estimates Design Muhaisnah, Smart Home Interior services near me Design Muhaisnah, Cheap Smart Home Interior Design Muhaisnah, Quality Smart Home Interior Design Muhaisnah, Trusted Smart Home Interior Design Muhaisnah, Smart Home Interior transformation Design Muhaisnah, Smart Home Interior renovation Design Muhaisnah, Smart Home Interior makeover Design Muhaisnah, Best Smart Home Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home Interior in Design Muhaisnah. Best smart home interior Design Muhaisnah Company Design Muhaisnah Our luxury smart home interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

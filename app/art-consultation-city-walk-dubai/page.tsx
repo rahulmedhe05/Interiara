@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation City Walk, Art Consultation in City Walk, Best art consultation City Walk, Professional art consultation City Walk, Luxury art consultation City Walk, Art Consultation City Walk Dubai, Art Consultation designer City Walk, Art Consultation company City Walk, Art Consultation contractor City Walk, Affordable art consultation City Walk, Modern art consultation City Walk, Art Consultation consultation City Walk, Art Consultation cost City Walk, Art Consultation price City Walk, Top art consultation City Walk
+
+// SEO Keywords: Art Consultation City Walk, Art Consultation in City Walk, Best art consultation City Walk, Professional art consultation City Walk, Luxury art consultation City Walk, Art Consultation City Walk Dubai, Art Consultation designer City Walk, Art Consultation company City Walk, Art Consultation contractor City Walk, Affordable art consultation City Walk, Modern art consultation City Walk, Art Consultation consultation City Walk, Art Consultation cost City Walk, Art Consultation price City Walk, Top art consultation City Walk, Art Consultation near City Walk, Art Consultation specialists City Walk, Art Consultation experts City Walk, Art Consultation solutions City Walk, Art Consultation packages City Walk, Art Consultation quotes City Walk, Art Consultation estimates City Walk, Art Consultation services near me City Walk, Cheap Art Consultation City Walk, Quality Art Consultation City Walk, Trusted Art Consultation City Walk, Art Consultation transformation City Walk, Art Consultation renovation City Walk, Art Consultation makeover City Walk, Best Art Consultation company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationCityWalk() {
                 At Interiara, we believe that exceptional <strong>Art Consultation City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

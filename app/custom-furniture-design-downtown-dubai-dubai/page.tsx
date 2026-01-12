@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Downtown Dubai, Custom Furniture Design in Downtown Dubai, Best custom furniture design Downtown Dubai, Professional custom furniture design Downtown Dubai, Luxury custom furniture design Downtown Dubai, Custom Furniture Design Downtown Dubai Dubai, Custom Furniture Design designer Downtown Dubai, Custom Furniture Design company Downtown Dubai, Custom Furniture Design contractor Downtown Dubai, Affordable custom furniture design Downtown Dubai, Modern custom furniture design Downtown Dubai, Custom Furniture Design consultation Downtown Dubai, Custom Furniture Design cost Downtown Dubai, Custom Furniture Design price Downtown Dubai, Top custom furniture design Downtown Dubai
+
+// SEO Keywords: Custom Furniture Design Downtown Dubai, Custom Furniture Design in Downtown Dubai, Best custom furniture design Downtown Dubai, Professional custom furniture design Downtown Dubai, Luxury custom furniture design Downtown Dubai, Custom Furniture Design Downtown Dubai Dubai, Custom Furniture Design designer Downtown Dubai, Custom Furniture Design company Downtown Dubai, Custom Furniture Design contractor Downtown Dubai, Affordable custom furniture design Downtown Dubai, Modern custom furniture design Downtown Dubai, Custom Furniture Design consultation Downtown Dubai, Custom Furniture Design cost Downtown Dubai, Custom Furniture Design price Downtown Dubai, Top custom furniture design Downtown Dubai, Custom Furniture Design near Downtown Dubai, Custom Furniture Design specialists Downtown Dubai, Custom Furniture Design experts Downtown Dubai, Custom Furniture Design solutions Downtown Dubai, Custom Furniture Design packages Downtown Dubai, Custom Furniture Design quotes Downtown Dubai, Custom Furniture Design estimates Downtown Dubai, Custom Furniture Design services near me Downtown Dubai, Cheap Custom Furniture Design Downtown Dubai, Quality Custom Furniture Design Downtown Dubai, Trusted Custom Furniture Design Downtown Dubai, Custom Furniture Design transformation Downtown Dubai, Custom Furniture Design renovation Downtown Dubai, Custom Furniture Design makeover Downtown Dubai, Best Custom Furniture Design company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Downtown Dubai. Best custom furniture design Downtown Dubai Company Downtown Dubai Our luxury custom furniture design downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

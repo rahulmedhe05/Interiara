@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Arabian Ranches, Custom Furniture Design in Arabian Ranches, Best custom furniture design Arabian Ranches, Professional custom furniture design Arabian Ranches, Luxury custom furniture design Arabian Ranches, Custom Furniture Design Arabian Ranches Dubai, Custom Furniture Design designer Arabian Ranches, Custom Furniture Design company Arabian Ranches, Custom Furniture Design contractor Arabian Ranches, Affordable custom furniture design Arabian Ranches, Modern custom furniture design Arabian Ranches, Custom Furniture Design consultation Arabian Ranches, Custom Furniture Design cost Arabian Ranches, Custom Furniture Design price Arabian Ranches, Top custom furniture design Arabian Ranches
+
+// SEO Keywords: Custom Furniture Design Arabian Ranches, Custom Furniture Design in Arabian Ranches, Best custom furniture design Arabian Ranches, Professional custom furniture design Arabian Ranches, Luxury custom furniture design Arabian Ranches, Custom Furniture Design Arabian Ranches Dubai, Custom Furniture Design designer Arabian Ranches, Custom Furniture Design company Arabian Ranches, Custom Furniture Design contractor Arabian Ranches, Affordable custom furniture design Arabian Ranches, Modern custom furniture design Arabian Ranches, Custom Furniture Design consultation Arabian Ranches, Custom Furniture Design cost Arabian Ranches, Custom Furniture Design price Arabian Ranches, Top custom furniture design Arabian Ranches, Custom Furniture Design near Arabian Ranches, Custom Furniture Design specialists Arabian Ranches, Custom Furniture Design experts Arabian Ranches, Custom Furniture Design solutions Arabian Ranches, Custom Furniture Design packages Arabian Ranches, Custom Furniture Design quotes Arabian Ranches, Custom Furniture Design estimates Arabian Ranches, Custom Furniture Design services near me Arabian Ranches, Cheap Custom Furniture Design Arabian Ranches, Quality Custom Furniture Design Arabian Ranches, Trusted Custom Furniture Design Arabian Ranches, Custom Furniture Design transformation Arabian Ranches, Custom Furniture Design renovation Arabian Ranches, Custom Furniture Design makeover Arabian Ranches, Best Custom Furniture Design company Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Arabian Ranches Company Arabian Ranches</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Arabian Ranches. Best custom furniture design Arabian Ranches Company Arabian Ranches Our luxury custom furniture design arabian ranches services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignArabianRanches() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in arabian ranches service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignArabianRanches() {
 
               <p>
                 Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near arabian ranches.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignArabianRanches() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

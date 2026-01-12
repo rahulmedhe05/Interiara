@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting The Sustainable City, Smart Lighting The in Sustainable City, Best smart lighting the Sustainable City, Professional smart lighting the Sustainable City, Luxury smart lighting the Sustainable City, Smart Lighting The Sustainable City Dubai, Smart Lighting The designer Sustainable City, Smart Lighting The company Sustainable City, Smart Lighting The contractor Sustainable City, Affordable smart lighting the Sustainable City, Modern smart lighting the Sustainable City, Smart Lighting The consultation Sustainable City, Smart Lighting The cost Sustainable City, Smart Lighting The price Sustainable City, Top smart lighting the Sustainable City
+
+// SEO Keywords: Smart Lighting The Sustainable City, Smart Lighting The in Sustainable City, Best smart lighting the Sustainable City, Professional smart lighting the Sustainable City, Luxury smart lighting the Sustainable City, Smart Lighting The Sustainable City Dubai, Smart Lighting The designer Sustainable City, Smart Lighting The company Sustainable City, Smart Lighting The contractor Sustainable City, Affordable smart lighting the Sustainable City, Modern smart lighting the Sustainable City, Smart Lighting The consultation Sustainable City, Smart Lighting The cost Sustainable City, Smart Lighting The price Sustainable City, Top smart lighting the Sustainable City, Smart Lighting The near Sustainable City, Smart Lighting The specialists Sustainable City, Smart Lighting The experts Sustainable City, Smart Lighting The solutions Sustainable City, Smart Lighting The packages Sustainable City, Smart Lighting The quotes Sustainable City, Smart Lighting The estimates Sustainable City, Smart Lighting The services near me Sustainable City, Cheap Smart Lighting The Sustainable City, Quality Smart Lighting The Sustainable City, Trusted Smart Lighting The Sustainable City, Smart Lighting The transformation Sustainable City, Smart Lighting The renovation Sustainable City, Smart Lighting The makeover Sustainable City, Best Smart Lighting The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Lighting The in Sustainable City. Best smart lighting the Sustainable City Company Sustainable City Our luxury smart lighting the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartLightingTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart lighting the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart lighting the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

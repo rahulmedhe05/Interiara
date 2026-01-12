@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design, Dining Room in Interior Design, Best dining room Interior Design, Professional dining room Interior Design, Luxury dining room Interior Design, Dining Room Interior Design Dubai, Dining Room designer Interior Design, Dining Room company Interior Design, Dining Room contractor Interior Design, Affordable dining room Interior Design, Modern dining room Interior Design, Dining Room consultation Interior Design, Dining Room cost Interior Design, Dining Room price Interior Design, Top dining room Interior Design
+
+// SEO Keywords: Dining Room Interior Design, Dining Room in Interior Design, Best dining room Interior Design, Professional dining room Interior Design, Luxury dining room Interior Design, Dining Room Interior Design Dubai, Dining Room designer Interior Design, Dining Room company Interior Design, Dining Room contractor Interior Design, Affordable dining room Interior Design, Modern dining room Interior Design, Dining Room consultation Interior Design, Dining Room cost Interior Design, Dining Room price Interior Design, Top dining room Interior Design, Dining Room near Interior Design, Dining Room specialists Interior Design, Dining Room experts Interior Design, Dining Room solutions Interior Design, Dining Room packages Interior Design, Dining Room quotes Interior Design, Dining Room estimates Interior Design, Dining Room services near me Interior Design, Cheap Dining Room Interior Design, Quality Dining Room Interior Design, Trusted Dining Room Interior Design, Dining Room transformation Interior Design, Dining Room renovation Interior Design, Dining Room makeover Interior Design, Best Dining Room company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room in Interior Design. Best dining room Interior Design Company Interior Design Our luxury dining room interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

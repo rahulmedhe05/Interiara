@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Al Mizhar, Wallpaper Design in Al Mizhar, Best wallpaper design Al Mizhar, Professional wallpaper design Al Mizhar, Luxury wallpaper design Al Mizhar, Wallpaper Design Al Mizhar Dubai, Wallpaper Design designer Al Mizhar, Wallpaper Design company Al Mizhar, Wallpaper Design contractor Al Mizhar, Affordable wallpaper design Al Mizhar, Modern wallpaper design Al Mizhar, Wallpaper Design consultation Al Mizhar, Wallpaper Design cost Al Mizhar, Wallpaper Design price Al Mizhar, Top wallpaper design Al Mizhar
+
+// SEO Keywords: Wallpaper Design Al Mizhar, Wallpaper Design in Al Mizhar, Best wallpaper design Al Mizhar, Professional wallpaper design Al Mizhar, Luxury wallpaper design Al Mizhar, Wallpaper Design Al Mizhar Dubai, Wallpaper Design designer Al Mizhar, Wallpaper Design company Al Mizhar, Wallpaper Design contractor Al Mizhar, Affordable wallpaper design Al Mizhar, Modern wallpaper design Al Mizhar, Wallpaper Design consultation Al Mizhar, Wallpaper Design cost Al Mizhar, Wallpaper Design price Al Mizhar, Top wallpaper design Al Mizhar, Wallpaper Design near Al Mizhar, Wallpaper Design specialists Al Mizhar, Wallpaper Design experts Al Mizhar, Wallpaper Design solutions Al Mizhar, Wallpaper Design packages Al Mizhar, Wallpaper Design quotes Al Mizhar, Wallpaper Design estimates Al Mizhar, Wallpaper Design services near me Al Mizhar, Cheap Wallpaper Design Al Mizhar, Quality Wallpaper Design Al Mizhar, Trusted Wallpaper Design Al Mizhar, Wallpaper Design transformation Al Mizhar, Wallpaper Design renovation Al Mizhar, Wallpaper Design makeover Al Mizhar, Best Wallpaper Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

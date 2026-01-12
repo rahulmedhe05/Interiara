@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Al Barsha, Home Decor Consultation in Al Barsha, Best home decor consultation Al Barsha, Professional home decor consultation Al Barsha, Luxury home decor consultation Al Barsha, Home Decor Consultation Al Barsha Dubai, Home Decor Consultation designer Al Barsha, Home Decor Consultation company Al Barsha, Home Decor Consultation contractor Al Barsha, Affordable home decor consultation Al Barsha, Modern home decor consultation Al Barsha, Home Decor Consultation consultation Al Barsha, Home Decor Consultation cost Al Barsha, Home Decor Consultation price Al Barsha, Top home decor consultation Al Barsha
+
+// SEO Keywords: Home Decor Consultation Al Barsha, Home Decor Consultation in Al Barsha, Best home decor consultation Al Barsha, Professional home decor consultation Al Barsha, Luxury home decor consultation Al Barsha, Home Decor Consultation Al Barsha Dubai, Home Decor Consultation designer Al Barsha, Home Decor Consultation company Al Barsha, Home Decor Consultation contractor Al Barsha, Affordable home decor consultation Al Barsha, Modern home decor consultation Al Barsha, Home Decor Consultation consultation Al Barsha, Home Decor Consultation cost Al Barsha, Home Decor Consultation price Al Barsha, Top home decor consultation Al Barsha, Home Decor Consultation near Al Barsha, Home Decor Consultation specialists Al Barsha, Home Decor Consultation experts Al Barsha, Home Decor Consultation solutions Al Barsha, Home Decor Consultation packages Al Barsha, Home Decor Consultation quotes Al Barsha, Home Decor Consultation estimates Al Barsha, Home Decor Consultation services near me Al Barsha, Cheap Home Decor Consultation Al Barsha, Quality Home Decor Consultation Al Barsha, Trusted Home Decor Consultation Al Barsha, Home Decor Consultation transformation Al Barsha, Home Decor Consultation renovation Al Barsha, Home Decor Consultation makeover Al Barsha, Best Home Decor Consultation company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Al Barsha. Best home decor consultation Al Barsha Company Al Barsha Our luxury home decor consultation al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

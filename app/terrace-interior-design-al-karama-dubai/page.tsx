@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Al Karama, Terrace Interior Design in Al Karama, Best terrace interior design Al Karama, Professional terrace interior design Al Karama, Luxury terrace interior design Al Karama, Terrace Interior Design Al Karama Dubai, Terrace Interior Design designer Al Karama, Terrace Interior Design company Al Karama, Terrace Interior Design contractor Al Karama, Affordable terrace interior design Al Karama, Modern terrace interior design Al Karama, Terrace Interior Design consultation Al Karama, Terrace Interior Design cost Al Karama, Terrace Interior Design price Al Karama, Top terrace interior design Al Karama
+
+// SEO Keywords: Terrace Interior Design Al Karama, Terrace Interior Design in Al Karama, Best terrace interior design Al Karama, Professional terrace interior design Al Karama, Luxury terrace interior design Al Karama, Terrace Interior Design Al Karama Dubai, Terrace Interior Design designer Al Karama, Terrace Interior Design company Al Karama, Terrace Interior Design contractor Al Karama, Affordable terrace interior design Al Karama, Modern terrace interior design Al Karama, Terrace Interior Design consultation Al Karama, Terrace Interior Design cost Al Karama, Terrace Interior Design price Al Karama, Top terrace interior design Al Karama, Terrace Interior Design near Al Karama, Terrace Interior Design specialists Al Karama, Terrace Interior Design experts Al Karama, Terrace Interior Design solutions Al Karama, Terrace Interior Design packages Al Karama, Terrace Interior Design quotes Al Karama, Terrace Interior Design estimates Al Karama, Terrace Interior Design services near me Al Karama, Cheap Terrace Interior Design Al Karama, Quality Terrace Interior Design Al Karama, Trusted Terrace Interior Design Al Karama, Terrace Interior Design transformation Al Karama, Terrace Interior Design renovation Al Karama, Terrace Interior Design makeover Al Karama, Best Terrace Interior Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior Design in Al Karama. Best terrace interior design Al Karama Company Al Karama Our luxury terrace interior design al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior design in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior design near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

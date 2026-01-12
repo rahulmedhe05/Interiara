@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Culture Village, Color Theme Consultation in Culture Village, Best color theme consultation Culture Village, Professional color theme consultation Culture Village, Luxury color theme consultation Culture Village, Color Theme Consultation Culture Village Dubai, Color Theme Consultation designer Culture Village, Color Theme Consultation company Culture Village, Color Theme Consultation contractor Culture Village, Affordable color theme consultation Culture Village, Modern color theme consultation Culture Village, Color Theme Consultation consultation Culture Village, Color Theme Consultation cost Culture Village, Color Theme Consultation price Culture Village, Top color theme consultation Culture Village
+
+// SEO Keywords: Color Theme Consultation Culture Village, Color Theme Consultation in Culture Village, Best color theme consultation Culture Village, Professional color theme consultation Culture Village, Luxury color theme consultation Culture Village, Color Theme Consultation Culture Village Dubai, Color Theme Consultation designer Culture Village, Color Theme Consultation company Culture Village, Color Theme Consultation contractor Culture Village, Affordable color theme consultation Culture Village, Modern color theme consultation Culture Village, Color Theme Consultation consultation Culture Village, Color Theme Consultation cost Culture Village, Color Theme Consultation price Culture Village, Top color theme consultation Culture Village, Color Theme Consultation near Culture Village, Color Theme Consultation specialists Culture Village, Color Theme Consultation experts Culture Village, Color Theme Consultation solutions Culture Village, Color Theme Consultation packages Culture Village, Color Theme Consultation quotes Culture Village, Color Theme Consultation estimates Culture Village, Color Theme Consultation services near me Culture Village, Cheap Color Theme Consultation Culture Village, Quality Color Theme Consultation Culture Village, Trusted Color Theme Consultation Culture Village, Color Theme Consultation transformation Culture Village, Color Theme Consultation renovation Culture Village, Color Theme Consultation makeover Culture Village, Best Color Theme Consultation company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Culture Village. Best color theme consultation Culture Village Company Culture Village Our luxury color theme consultation culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

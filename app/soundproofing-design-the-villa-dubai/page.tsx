@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design The Villa, Soundproofing Design in The Villa, Best soundproofing design The Villa, Professional soundproofing design The Villa, Luxury soundproofing design The Villa, Soundproofing Design The Villa Dubai, Soundproofing Design designer The Villa, Soundproofing Design company The Villa, Soundproofing Design contractor The Villa, Affordable soundproofing design The Villa, Modern soundproofing design The Villa, Soundproofing Design consultation The Villa, Soundproofing Design cost The Villa, Soundproofing Design price The Villa, Top soundproofing design The Villa
+
+// SEO Keywords: Soundproofing Design The Villa, Soundproofing Design in The Villa, Best soundproofing design The Villa, Professional soundproofing design The Villa, Luxury soundproofing design The Villa, Soundproofing Design The Villa Dubai, Soundproofing Design designer The Villa, Soundproofing Design company The Villa, Soundproofing Design contractor The Villa, Affordable soundproofing design The Villa, Modern soundproofing design The Villa, Soundproofing Design consultation The Villa, Soundproofing Design cost The Villa, Soundproofing Design price The Villa, Top soundproofing design The Villa, Soundproofing Design near The Villa, Soundproofing Design specialists The Villa, Soundproofing Design experts The Villa, Soundproofing Design solutions The Villa, Soundproofing Design packages The Villa, Soundproofing Design quotes The Villa, Soundproofing Design estimates The Villa, Soundproofing Design services near me The Villa, Cheap Soundproofing Design The Villa, Quality Soundproofing Design The Villa, Trusted Soundproofing Design The Villa, Soundproofing Design transformation The Villa, Soundproofing Design renovation The Villa, Soundproofing Design makeover The Villa, Best Soundproofing Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in The Villa. Best soundproofing design The Villa Company The Villa Our luxury soundproofing design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

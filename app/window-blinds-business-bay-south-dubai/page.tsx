@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Business Bay South, Window Blinds Business in Bay South, Best window blinds business Bay South, Professional window blinds business Bay South, Luxury window blinds business Bay South, Window Blinds Business Bay South Dubai, Window Blinds Business designer Bay South, Window Blinds Business company Bay South, Window Blinds Business contractor Bay South, Affordable window blinds business Bay South, Modern window blinds business Bay South, Window Blinds Business consultation Bay South, Window Blinds Business cost Bay South, Window Blinds Business price Bay South, Top window blinds business Bay South
+
+// SEO Keywords: Window Blinds Business Bay South, Window Blinds Business in Bay South, Best window blinds business Bay South, Professional window blinds business Bay South, Luxury window blinds business Bay South, Window Blinds Business Bay South Dubai, Window Blinds Business designer Bay South, Window Blinds Business company Bay South, Window Blinds Business contractor Bay South, Affordable window blinds business Bay South, Modern window blinds business Bay South, Window Blinds Business consultation Bay South, Window Blinds Business cost Bay South, Window Blinds Business price Bay South, Top window blinds business Bay South, Window Blinds Business near Bay South, Window Blinds Business specialists Bay South, Window Blinds Business experts Bay South, Window Blinds Business solutions Bay South, Window Blinds Business packages Bay South, Window Blinds Business quotes Bay South, Window Blinds Business estimates Bay South, Window Blinds Business services near me Bay South, Cheap Window Blinds Business Bay South, Quality Window Blinds Business Bay South, Trusted Window Blinds Business Bay South, Window Blinds Business transformation Bay South, Window Blinds Business renovation Bay South, Window Blinds Business makeover Bay South, Best Window Blinds Business company Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds business Bay South Company Bay South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds Business in Bay South. Best window blinds business Bay South Company Bay South Our luxury window blinds business bay south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsBusinessBaySouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds business in bay south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsBusinessBaySouth() {
 
               <p>
                 Interiara stands out in the crowded Business Bay South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds business near bay south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsBusinessBaySouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modern Interior Design Deira, Modern Interior in Design Deira, Best modern interior Design Deira, Professional modern interior Design Deira, Luxury modern interior Design Deira, Modern Interior Design Deira Dubai, Modern Interior designer Design Deira, Modern Interior company Design Deira, Modern Interior contractor Design Deira, Affordable modern interior Design Deira, Modern modern interior Design Deira, Modern Interior consultation Design Deira, Modern Interior cost Design Deira, Modern Interior price Design Deira, Top modern interior Design Deira
+
+// SEO Keywords: Modern Interior Design Deira, Modern Interior in Design Deira, Best modern interior Design Deira, Professional modern interior Design Deira, Luxury modern interior Design Deira, Modern Interior Design Deira Dubai, Modern Interior designer Design Deira, Modern Interior company Design Deira, Modern Interior contractor Design Deira, Affordable modern interior Design Deira, Modern modern interior Design Deira, Modern Interior consultation Design Deira, Modern Interior cost Design Deira, Modern Interior price Design Deira, Top modern interior Design Deira, Modern Interior near Design Deira, Modern Interior specialists Design Deira, Modern Interior experts Design Deira, Modern Interior solutions Design Deira, Modern Interior packages Design Deira, Modern Interior quotes Design Deira, Modern Interior estimates Design Deira, Modern Interior services near me Design Deira, Cheap Modern Interior Design Deira, Quality Modern Interior Design Deira, Trusted Modern Interior Design Deira, Modern Interior transformation Design Deira, Modern Interior renovation Design Deira, Modern Interior makeover Design Deira, Best Modern Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModernInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modern Interior in Design Deira. Best modern interior Design Deira Company Design Deira Our luxury modern interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModernInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modern interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModernInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modern interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModernInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

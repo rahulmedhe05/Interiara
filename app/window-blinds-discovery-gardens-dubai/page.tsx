@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Discovery Gardens, Window Blinds in Discovery Gardens, Best window blinds Discovery Gardens, Professional window blinds Discovery Gardens, Luxury window blinds Discovery Gardens, Window Blinds Discovery Gardens Dubai, Window Blinds designer Discovery Gardens, Window Blinds company Discovery Gardens, Window Blinds contractor Discovery Gardens, Affordable window blinds Discovery Gardens, Modern window blinds Discovery Gardens, Window Blinds consultation Discovery Gardens, Window Blinds cost Discovery Gardens, Window Blinds price Discovery Gardens, Top window blinds Discovery Gardens
+
+// SEO Keywords: Window Blinds Discovery Gardens, Window Blinds in Discovery Gardens, Best window blinds Discovery Gardens, Professional window blinds Discovery Gardens, Luxury window blinds Discovery Gardens, Window Blinds Discovery Gardens Dubai, Window Blinds designer Discovery Gardens, Window Blinds company Discovery Gardens, Window Blinds contractor Discovery Gardens, Affordable window blinds Discovery Gardens, Modern window blinds Discovery Gardens, Window Blinds consultation Discovery Gardens, Window Blinds cost Discovery Gardens, Window Blinds price Discovery Gardens, Top window blinds Discovery Gardens, Window Blinds near Discovery Gardens, Window Blinds specialists Discovery Gardens, Window Blinds experts Discovery Gardens, Window Blinds solutions Discovery Gardens, Window Blinds packages Discovery Gardens, Window Blinds quotes Discovery Gardens, Window Blinds estimates Discovery Gardens, Window Blinds services near me Discovery Gardens, Cheap Window Blinds Discovery Gardens, Quality Window Blinds Discovery Gardens, Trusted Window Blinds Discovery Gardens, Window Blinds transformation Discovery Gardens, Window Blinds renovation Discovery Gardens, Window Blinds makeover Discovery Gardens, Best Window Blinds company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Discovery Gardens. Best window blinds Discovery Gardens Company Discovery Gardens Our luxury window blinds discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Sheikh Zayed Road, Wall Flooring Design Sheikh in Zayed Road, Best wall flooring design sheikh Zayed Road, Professional wall flooring design sheikh Zayed Road, Luxury wall flooring design sheikh Zayed Road, Wall Flooring Design Sheikh Zayed Road Dubai, Wall Flooring Design Sheikh designer Zayed Road, Wall Flooring Design Sheikh company Zayed Road, Wall Flooring Design Sheikh contractor Zayed Road, Affordable wall flooring design sheikh Zayed Road, Modern wall flooring design sheikh Zayed Road, Wall Flooring Design Sheikh consultation Zayed Road, Wall Flooring Design Sheikh cost Zayed Road, Wall Flooring Design Sheikh price Zayed Road, Top wall flooring design sheikh Zayed Road
+
+// SEO Keywords: Wall Flooring Design Sheikh Zayed Road, Wall Flooring Design Sheikh in Zayed Road, Best wall flooring design sheikh Zayed Road, Professional wall flooring design sheikh Zayed Road, Luxury wall flooring design sheikh Zayed Road, Wall Flooring Design Sheikh Zayed Road Dubai, Wall Flooring Design Sheikh designer Zayed Road, Wall Flooring Design Sheikh company Zayed Road, Wall Flooring Design Sheikh contractor Zayed Road, Affordable wall flooring design sheikh Zayed Road, Modern wall flooring design sheikh Zayed Road, Wall Flooring Design Sheikh consultation Zayed Road, Wall Flooring Design Sheikh cost Zayed Road, Wall Flooring Design Sheikh price Zayed Road, Top wall flooring design sheikh Zayed Road, Wall Flooring Design Sheikh near Zayed Road, Wall Flooring Design Sheikh specialists Zayed Road, Wall Flooring Design Sheikh experts Zayed Road, Wall Flooring Design Sheikh solutions Zayed Road, Wall Flooring Design Sheikh packages Zayed Road, Wall Flooring Design Sheikh quotes Zayed Road, Wall Flooring Design Sheikh estimates Zayed Road, Wall Flooring Design Sheikh services near me Zayed Road, Cheap Wall Flooring Design Sheikh Zayed Road, Quality Wall Flooring Design Sheikh Zayed Road, Trusted Wall Flooring Design Sheikh Zayed Road, Wall Flooring Design Sheikh transformation Zayed Road, Wall Flooring Design Sheikh renovation Zayed Road, Wall Flooring Design Sheikh makeover Zayed Road, Best Wall Flooring Design Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design sheikh Zayed Road Company Zayed Road</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design Sheikh in Zayed Road. Best wall flooring design sheikh Zayed Road Company Zayed Road Our luxury wall flooring design sheikh zayed road services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignSheikhZayedRoad() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design sheikh in zayed road service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design sheikh near zayed road.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

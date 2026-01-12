@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Jbr, Acoustic in Design Jbr, Best acoustic Design Jbr, Professional acoustic Design Jbr, Luxury acoustic Design Jbr, Acoustic Design Jbr Dubai, Acoustic designer Design Jbr, Acoustic company Design Jbr, Acoustic contractor Design Jbr, Affordable acoustic Design Jbr, Modern acoustic Design Jbr, Acoustic consultation Design Jbr, Acoustic cost Design Jbr, Acoustic price Design Jbr, Top acoustic Design Jbr
+
+// SEO Keywords: Acoustic Design Jbr, Acoustic in Design Jbr, Best acoustic Design Jbr, Professional acoustic Design Jbr, Luxury acoustic Design Jbr, Acoustic Design Jbr Dubai, Acoustic designer Design Jbr, Acoustic company Design Jbr, Acoustic contractor Design Jbr, Affordable acoustic Design Jbr, Modern acoustic Design Jbr, Acoustic consultation Design Jbr, Acoustic cost Design Jbr, Acoustic price Design Jbr, Top acoustic Design Jbr, Acoustic near Design Jbr, Acoustic specialists Design Jbr, Acoustic experts Design Jbr, Acoustic solutions Design Jbr, Acoustic packages Design Jbr, Acoustic quotes Design Jbr, Acoustic estimates Design Jbr, Acoustic services near me Design Jbr, Cheap Acoustic Design Jbr, Quality Acoustic Design Jbr, Trusted Acoustic Design Jbr, Acoustic transformation Design Jbr, Acoustic renovation Design Jbr, Acoustic makeover Design Jbr, Best Acoustic company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic in Design Jbr. Acoustic Design Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury acoustic design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

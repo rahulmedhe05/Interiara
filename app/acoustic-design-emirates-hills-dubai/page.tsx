@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Emirates Hills, Acoustic Design in Emirates Hills, Best acoustic design Emirates Hills, Professional acoustic design Emirates Hills, Luxury acoustic design Emirates Hills, Acoustic Design Emirates Hills Dubai, Acoustic Design designer Emirates Hills, Acoustic Design company Emirates Hills, Acoustic Design contractor Emirates Hills, Affordable acoustic design Emirates Hills, Modern acoustic design Emirates Hills, Acoustic Design consultation Emirates Hills, Acoustic Design cost Emirates Hills, Acoustic Design price Emirates Hills, Top acoustic design Emirates Hills
+
+// SEO Keywords: Acoustic Design Emirates Hills, Acoustic Design in Emirates Hills, Best acoustic design Emirates Hills, Professional acoustic design Emirates Hills, Luxury acoustic design Emirates Hills, Acoustic Design Emirates Hills Dubai, Acoustic Design designer Emirates Hills, Acoustic Design company Emirates Hills, Acoustic Design contractor Emirates Hills, Affordable acoustic design Emirates Hills, Modern acoustic design Emirates Hills, Acoustic Design consultation Emirates Hills, Acoustic Design cost Emirates Hills, Acoustic Design price Emirates Hills, Top acoustic design Emirates Hills, Acoustic Design near Emirates Hills, Acoustic Design specialists Emirates Hills, Acoustic Design experts Emirates Hills, Acoustic Design solutions Emirates Hills, Acoustic Design packages Emirates Hills, Acoustic Design quotes Emirates Hills, Acoustic Design estimates Emirates Hills, Acoustic Design services near me Emirates Hills, Cheap Acoustic Design Emirates Hills, Quality Acoustic Design Emirates Hills, Trusted Acoustic Design Emirates Hills, Acoustic Design transformation Emirates Hills, Acoustic Design renovation Emirates Hills, Acoustic Design makeover Emirates Hills, Best Acoustic Design company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AcousticDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Acoustic Design in Emirates Hills. Best acoustic design Emirates Hills Company Emirates Hills Our luxury acoustic design emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AcousticDesignEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our acoustic design in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AcousticDesignEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in acoustic design near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AcousticDesignEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

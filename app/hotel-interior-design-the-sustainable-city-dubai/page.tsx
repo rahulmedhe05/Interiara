@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design The Sustainable City, Hotel Interior Design The in Sustainable City, Best hotel interior design the Sustainable City, Professional hotel interior design the Sustainable City, Luxury hotel interior design the Sustainable City, Hotel Interior Design The Sustainable City Dubai, Hotel Interior Design The designer Sustainable City, Hotel Interior Design The company Sustainable City, Hotel Interior Design The contractor Sustainable City, Affordable hotel interior design the Sustainable City, Modern hotel interior design the Sustainable City, Hotel Interior Design The consultation Sustainable City, Hotel Interior Design The cost Sustainable City, Hotel Interior Design The price Sustainable City, Top hotel interior design the Sustainable City
+
+// SEO Keywords: Hotel Interior Design The Sustainable City, Hotel Interior Design The in Sustainable City, Best hotel interior design the Sustainable City, Professional hotel interior design the Sustainable City, Luxury hotel interior design the Sustainable City, Hotel Interior Design The Sustainable City Dubai, Hotel Interior Design The designer Sustainable City, Hotel Interior Design The company Sustainable City, Hotel Interior Design The contractor Sustainable City, Affordable hotel interior design the Sustainable City, Modern hotel interior design the Sustainable City, Hotel Interior Design The consultation Sustainable City, Hotel Interior Design The cost Sustainable City, Hotel Interior Design The price Sustainable City, Top hotel interior design the Sustainable City, Hotel Interior Design The near Sustainable City, Hotel Interior Design The specialists Sustainable City, Hotel Interior Design The experts Sustainable City, Hotel Interior Design The solutions Sustainable City, Hotel Interior Design The packages Sustainable City, Hotel Interior Design The quotes Sustainable City, Hotel Interior Design The estimates Sustainable City, Hotel Interior Design The services near me Sustainable City, Cheap Hotel Interior Design The Sustainable City, Quality Hotel Interior Design The Sustainable City, Trusted Hotel Interior Design The Sustainable City, Hotel Interior Design The transformation Sustainable City, Hotel Interior Design The renovation Sustainable City, Hotel Interior Design The makeover Sustainable City, Best Hotel Interior Design The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design The in Sustainable City. Best hotel interior design the Sustainable City Company Sustainable City Our luxury hotel interior design the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation The Villa, Art Consultation in The Villa, Best art consultation The Villa, Professional art consultation The Villa, Luxury art consultation The Villa, Art Consultation The Villa Dubai, Art Consultation designer The Villa, Art Consultation company The Villa, Art Consultation contractor The Villa, Affordable art consultation The Villa, Modern art consultation The Villa, Art Consultation consultation The Villa, Art Consultation cost The Villa, Art Consultation price The Villa, Top art consultation The Villa
+
+// SEO Keywords: Art Consultation The Villa, Art Consultation in The Villa, Best art consultation The Villa, Professional art consultation The Villa, Luxury art consultation The Villa, Art Consultation The Villa Dubai, Art Consultation designer The Villa, Art Consultation company The Villa, Art Consultation contractor The Villa, Affordable art consultation The Villa, Modern art consultation The Villa, Art Consultation consultation The Villa, Art Consultation cost The Villa, Art Consultation price The Villa, Top art consultation The Villa, Art Consultation near The Villa, Art Consultation specialists The Villa, Art Consultation experts The Villa, Art Consultation solutions The Villa, Art Consultation packages The Villa, Art Consultation quotes The Villa, Art Consultation estimates The Villa, Art Consultation services near me The Villa, Cheap Art Consultation The Villa, Quality Art Consultation The Villa, Trusted Art Consultation The Villa, Art Consultation transformation The Villa, Art Consultation renovation The Villa, Art Consultation makeover The Villa, Best Art Consultation company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationTheVilla() {
                 At Interiara, we believe that exceptional <strong>Art Consultation The Villa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Villa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in The Villa. 
                 We've completed 300+ successful projects across The Villa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation The Villa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation the villa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation The Villa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in the villa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near the villa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

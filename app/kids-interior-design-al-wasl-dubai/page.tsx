@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Al Wasl, Kids Interior Design in Al Wasl, Best kids interior design Al Wasl, Professional kids interior design Al Wasl, Luxury kids interior design Al Wasl, Kids Interior Design Al Wasl Dubai, Kids Interior Design designer Al Wasl, Kids Interior Design company Al Wasl, Kids Interior Design contractor Al Wasl, Affordable kids interior design Al Wasl, Modern kids interior design Al Wasl, Kids Interior Design consultation Al Wasl, Kids Interior Design cost Al Wasl, Kids Interior Design price Al Wasl, Top kids interior design Al Wasl
+
+// SEO Keywords: Kids Interior Design Al Wasl, Kids Interior Design in Al Wasl, Best kids interior design Al Wasl, Professional kids interior design Al Wasl, Luxury kids interior design Al Wasl, Kids Interior Design Al Wasl Dubai, Kids Interior Design designer Al Wasl, Kids Interior Design company Al Wasl, Kids Interior Design contractor Al Wasl, Affordable kids interior design Al Wasl, Modern kids interior design Al Wasl, Kids Interior Design consultation Al Wasl, Kids Interior Design cost Al Wasl, Kids Interior Design price Al Wasl, Top kids interior design Al Wasl, Kids Interior Design near Al Wasl, Kids Interior Design specialists Al Wasl, Kids Interior Design experts Al Wasl, Kids Interior Design solutions Al Wasl, Kids Interior Design packages Al Wasl, Kids Interior Design quotes Al Wasl, Kids Interior Design estimates Al Wasl, Kids Interior Design services near me Al Wasl, Cheap Kids Interior Design Al Wasl, Quality Kids Interior Design Al Wasl, Trusted Kids Interior Design Al Wasl, Kids Interior Design transformation Al Wasl, Kids Interior Design renovation Al Wasl, Kids Interior Design makeover Al Wasl, Best Kids Interior Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function KidsInteriorDesignAlWasl() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kids Interior Design in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury kids interior design al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Kids Interior Design Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function KidsInteriorDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our kids interior design in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in kids interior design near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

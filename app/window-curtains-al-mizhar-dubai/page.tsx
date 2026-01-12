@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Mizhar, Window Curtains in Al Mizhar, Best window curtains Al Mizhar, Professional window curtains Al Mizhar, Luxury window curtains Al Mizhar, Window Curtains Al Mizhar Dubai, Window Curtains designer Al Mizhar, Window Curtains company Al Mizhar, Window Curtains contractor Al Mizhar, Affordable window curtains Al Mizhar, Modern window curtains Al Mizhar, Window Curtains consultation Al Mizhar, Window Curtains cost Al Mizhar, Window Curtains price Al Mizhar, Top window curtains Al Mizhar
+
+// SEO Keywords: Window Curtains Al Mizhar, Window Curtains in Al Mizhar, Best window curtains Al Mizhar, Professional window curtains Al Mizhar, Luxury window curtains Al Mizhar, Window Curtains Al Mizhar Dubai, Window Curtains designer Al Mizhar, Window Curtains company Al Mizhar, Window Curtains contractor Al Mizhar, Affordable window curtains Al Mizhar, Modern window curtains Al Mizhar, Window Curtains consultation Al Mizhar, Window Curtains cost Al Mizhar, Window Curtains price Al Mizhar, Top window curtains Al Mizhar, Window Curtains near Al Mizhar, Window Curtains specialists Al Mizhar, Window Curtains experts Al Mizhar, Window Curtains solutions Al Mizhar, Window Curtains packages Al Mizhar, Window Curtains quotes Al Mizhar, Window Curtains estimates Al Mizhar, Window Curtains services near me Al Mizhar, Cheap Window Curtains Al Mizhar, Quality Window Curtains Al Mizhar, Trusted Window Curtains Al Mizhar, Window Curtains transformation Al Mizhar, Window Curtains renovation Al Mizhar, Window Curtains makeover Al Mizhar, Best Window Curtains company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

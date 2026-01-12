@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kitchen Interior Design Dubai Festival City, Kitchen Interior Design Dubai in Festival City, Best kitchen interior design dubai Festival City, Professional kitchen interior design dubai Festival City, Luxury kitchen interior design dubai Festival City, Kitchen Interior Design Dubai Festival City Dubai, Kitchen Interior Design Dubai designer Festival City, Kitchen Interior Design Dubai company Festival City, Kitchen Interior Design Dubai contractor Festival City, Affordable kitchen interior design dubai Festival City, Modern kitchen interior design dubai Festival City, Kitchen Interior Design Dubai consultation Festival City, Kitchen Interior Design Dubai cost Festival City, Kitchen Interior Design Dubai price Festival City, Top kitchen interior design dubai Festival City
+
+// SEO Keywords: Kitchen Interior Design Dubai Festival City, Kitchen Interior Design Dubai in Festival City, Best kitchen interior design dubai Festival City, Professional kitchen interior design dubai Festival City, Luxury kitchen interior design dubai Festival City, Kitchen Interior Design Dubai Festival City Dubai, Kitchen Interior Design Dubai designer Festival City, Kitchen Interior Design Dubai company Festival City, Kitchen Interior Design Dubai contractor Festival City, Affordable kitchen interior design dubai Festival City, Modern kitchen interior design dubai Festival City, Kitchen Interior Design Dubai consultation Festival City, Kitchen Interior Design Dubai cost Festival City, Kitchen Interior Design Dubai price Festival City, Top kitchen interior design dubai Festival City, Kitchen Interior Design Dubai near Festival City, Kitchen Interior Design Dubai specialists Festival City, Kitchen Interior Design Dubai experts Festival City, Kitchen Interior Design Dubai solutions Festival City, Kitchen Interior Design Dubai packages Festival City, Kitchen Interior Design Dubai quotes Festival City, Kitchen Interior Design Dubai estimates Festival City, Kitchen Interior Design Dubai services near me Festival City, Cheap Kitchen Interior Design Dubai Festival City, Quality Kitchen Interior Design Dubai Festival City, Trusted Kitchen Interior Design Dubai Festival City, Kitchen Interior Design Dubai transformation Festival City, Kitchen Interior Design Dubai renovation Festival City, Kitchen Interior Design Dubai makeover Festival City, Best Kitchen Interior Design Dubai company Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KitchenInteriorDesignDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design dubai Festival City Company Festival City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kitchen Interior Design Dubai in Festival City. Best kitchen interior design dubai Festival City Company Festival City Our professional kitchen interior design dubai festival city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function KitchenInteriorDesignDubaiFestivalCity() {
                 At Interiara, we believe that exceptional <strong>Kitchen Interior Design Festival City Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kitchen Interior Design Dubai Festival City. 
                 We've completed 300+ successful projects across City Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kitchen Interior Design Festival City Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function KitchenInteriorDesignDubaiFestivalCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kitchen interior design dubai in festival city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KitchenInteriorDesignDubaiFestivalCity() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kitchen interior design dubai near festival city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KitchenInteriorDesignDubaiFestivalCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

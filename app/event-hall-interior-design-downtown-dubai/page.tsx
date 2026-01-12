@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Event Hall Interior Design Downtown, Event Hall Interior in Design Downtown, Best event hall interior Design Downtown, Professional event hall interior Design Downtown, Luxury event hall interior Design Downtown, Event Hall Interior Design Downtown Dubai, Event Hall Interior designer Design Downtown, Event Hall Interior company Design Downtown, Event Hall Interior contractor Design Downtown, Affordable event hall interior Design Downtown, Modern event hall interior Design Downtown, Event Hall Interior consultation Design Downtown, Event Hall Interior cost Design Downtown, Event Hall Interior price Design Downtown, Top event hall interior Design Downtown
+
+// SEO Keywords: Event Hall Interior Design Downtown, Event Hall Interior in Design Downtown, Best event hall interior Design Downtown, Professional event hall interior Design Downtown, Luxury event hall interior Design Downtown, Event Hall Interior Design Downtown Dubai, Event Hall Interior designer Design Downtown, Event Hall Interior company Design Downtown, Event Hall Interior contractor Design Downtown, Affordable event hall interior Design Downtown, Modern event hall interior Design Downtown, Event Hall Interior consultation Design Downtown, Event Hall Interior cost Design Downtown, Event Hall Interior price Design Downtown, Top event hall interior Design Downtown, Event Hall Interior near Design Downtown, Event Hall Interior specialists Design Downtown, Event Hall Interior experts Design Downtown, Event Hall Interior solutions Design Downtown, Event Hall Interior packages Design Downtown, Event Hall Interior quotes Design Downtown, Event Hall Interior estimates Design Downtown, Event Hall Interior services near me Design Downtown, Cheap Event Hall Interior Design Downtown, Quality Event Hall Interior Design Downtown, Trusted Event Hall Interior Design Downtown, Event Hall Interior transformation Design Downtown, Event Hall Interior renovation Design Downtown, Event Hall Interior makeover Design Downtown, Best Event Hall Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EventHallInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Event Hall Interior in Design Downtown. Best event hall interior Design Downtown Company Design Downtown Our luxury event hall interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EventHallInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our event hall interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EventHallInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in event hall interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EventHallInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

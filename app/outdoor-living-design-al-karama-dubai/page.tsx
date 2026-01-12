@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Al Karama, Outdoor Living Design in Al Karama, Best outdoor living design Al Karama, Professional outdoor living design Al Karama, Luxury outdoor living design Al Karama, Outdoor Living Design Al Karama Dubai, Outdoor Living Design designer Al Karama, Outdoor Living Design company Al Karama, Outdoor Living Design contractor Al Karama, Affordable outdoor living design Al Karama, Modern outdoor living design Al Karama, Outdoor Living Design consultation Al Karama, Outdoor Living Design cost Al Karama, Outdoor Living Design price Al Karama, Top outdoor living design Al Karama
+
+// SEO Keywords: Outdoor Living Design Al Karama, Outdoor Living Design in Al Karama, Best outdoor living design Al Karama, Professional outdoor living design Al Karama, Luxury outdoor living design Al Karama, Outdoor Living Design Al Karama Dubai, Outdoor Living Design designer Al Karama, Outdoor Living Design company Al Karama, Outdoor Living Design contractor Al Karama, Affordable outdoor living design Al Karama, Modern outdoor living design Al Karama, Outdoor Living Design consultation Al Karama, Outdoor Living Design cost Al Karama, Outdoor Living Design price Al Karama, Top outdoor living design Al Karama, Outdoor Living Design near Al Karama, Outdoor Living Design specialists Al Karama, Outdoor Living Design experts Al Karama, Outdoor Living Design solutions Al Karama, Outdoor Living Design packages Al Karama, Outdoor Living Design quotes Al Karama, Outdoor Living Design estimates Al Karama, Outdoor Living Design services near me Al Karama, Cheap Outdoor Living Design Al Karama, Quality Outdoor Living Design Al Karama, Trusted Outdoor Living Design Al Karama, Outdoor Living Design transformation Al Karama, Outdoor Living Design renovation Al Karama, Outdoor Living Design makeover Al Karama, Best Outdoor Living Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design in Al Karama. Best outdoor living design Al Karama Company Al Karama Our luxury outdoor living design al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

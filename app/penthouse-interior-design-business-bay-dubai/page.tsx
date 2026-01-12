@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Penthouse Interior Design Business Bay, Penthouse Interior Design in Business Bay, Best penthouse interior design Business Bay, Professional penthouse interior design Business Bay, Luxury penthouse interior design Business Bay, Penthouse Interior Design Business Bay Dubai, Penthouse Interior Design designer Business Bay, Penthouse Interior Design company Business Bay, Penthouse Interior Design contractor Business Bay, Affordable penthouse interior design Business Bay, Modern penthouse interior design Business Bay, Penthouse Interior Design consultation Business Bay, Penthouse Interior Design cost Business Bay, Penthouse Interior Design price Business Bay, Top penthouse interior design Business Bay
+
+// SEO Keywords: Penthouse Interior Design Business Bay, Penthouse Interior Design in Business Bay, Best penthouse interior design Business Bay, Professional penthouse interior design Business Bay, Luxury penthouse interior design Business Bay, Penthouse Interior Design Business Bay Dubai, Penthouse Interior Design designer Business Bay, Penthouse Interior Design company Business Bay, Penthouse Interior Design contractor Business Bay, Affordable penthouse interior design Business Bay, Modern penthouse interior design Business Bay, Penthouse Interior Design consultation Business Bay, Penthouse Interior Design cost Business Bay, Penthouse Interior Design price Business Bay, Top penthouse interior design Business Bay, Penthouse Interior Design near Business Bay, Penthouse Interior Design specialists Business Bay, Penthouse Interior Design experts Business Bay, Penthouse Interior Design solutions Business Bay, Penthouse Interior Design packages Business Bay, Penthouse Interior Design quotes Business Bay, Penthouse Interior Design estimates Business Bay, Penthouse Interior Design services near me Business Bay, Cheap Penthouse Interior Design Business Bay, Quality Penthouse Interior Design Business Bay, Trusted Penthouse Interior Design Business Bay, Penthouse Interior Design transformation Business Bay, Penthouse Interior Design renovation Business Bay, Penthouse Interior Design makeover Business Bay, Best Penthouse Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function PenthouseInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Penthouse Interior Design in Business Bay. Best penthouse interior design Business Bay Company Business Bay Our luxury penthouse interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function PenthouseInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our penthouse interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function PenthouseInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in penthouse interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function PenthouseInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

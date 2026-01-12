@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Umm Suqeim, Commercial Interior Design in Umm Suqeim, Best commercial interior design Umm Suqeim, Professional commercial interior design Umm Suqeim, Luxury commercial interior design Umm Suqeim, Commercial Interior Design Umm Suqeim Dubai, Commercial Interior Design designer Umm Suqeim, Commercial Interior Design company Umm Suqeim, Commercial Interior Design contractor Umm Suqeim, Affordable commercial interior design Umm Suqeim, Modern commercial interior design Umm Suqeim, Commercial Interior Design consultation Umm Suqeim, Commercial Interior Design cost Umm Suqeim, Commercial Interior Design price Umm Suqeim, Top commercial interior design Umm Suqeim
+
+// SEO Keywords: Commercial Interior Design Umm Suqeim, Commercial Interior Design in Umm Suqeim, Best commercial interior design Umm Suqeim, Professional commercial interior design Umm Suqeim, Luxury commercial interior design Umm Suqeim, Commercial Interior Design Umm Suqeim Dubai, Commercial Interior Design designer Umm Suqeim, Commercial Interior Design company Umm Suqeim, Commercial Interior Design contractor Umm Suqeim, Affordable commercial interior design Umm Suqeim, Modern commercial interior design Umm Suqeim, Commercial Interior Design consultation Umm Suqeim, Commercial Interior Design cost Umm Suqeim, Commercial Interior Design price Umm Suqeim, Top commercial interior design Umm Suqeim, Commercial Interior Design near Umm Suqeim, Commercial Interior Design specialists Umm Suqeim, Commercial Interior Design experts Umm Suqeim, Commercial Interior Design solutions Umm Suqeim, Commercial Interior Design packages Umm Suqeim, Commercial Interior Design quotes Umm Suqeim, Commercial Interior Design estimates Umm Suqeim, Commercial Interior Design services near me Umm Suqeim, Cheap Commercial Interior Design Umm Suqeim, Quality Commercial Interior Design Umm Suqeim, Trusted Commercial Interior Design Umm Suqeim, Commercial Interior Design transformation Umm Suqeim, Commercial Interior Design renovation Umm Suqeim, Commercial Interior Design makeover Umm Suqeim, Best Commercial Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design in Umm Suqeim. Best commercial interior design Umm Suqeim Company Umm Suqeim Our luxury commercial interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

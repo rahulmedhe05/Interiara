@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Al Jaddaf, Interior Design in Al Jaddaf, Best interior design Al Jaddaf, Professional interior design Al Jaddaf, Luxury interior design Al Jaddaf, Interior Design Al Jaddaf Dubai, Interior Design designer Al Jaddaf, Interior Design company Al Jaddaf, Interior Design contractor Al Jaddaf, Affordable interior design Al Jaddaf, Modern interior design Al Jaddaf, Interior Design consultation Al Jaddaf, Interior Design cost Al Jaddaf, Interior Design price Al Jaddaf, Top interior design Al Jaddaf
+
+// SEO Keywords: Interior Design Al Jaddaf, Interior Design in Al Jaddaf, Best interior design Al Jaddaf, Professional interior design Al Jaddaf, Luxury interior design Al Jaddaf, Interior Design Al Jaddaf Dubai, Interior Design designer Al Jaddaf, Interior Design company Al Jaddaf, Interior Design contractor Al Jaddaf, Affordable interior design Al Jaddaf, Modern interior design Al Jaddaf, Interior Design consultation Al Jaddaf, Interior Design cost Al Jaddaf, Interior Design price Al Jaddaf, Top interior design Al Jaddaf, Interior Design near Al Jaddaf, Interior Design specialists Al Jaddaf, Interior Design experts Al Jaddaf, Interior Design solutions Al Jaddaf, Interior Design packages Al Jaddaf, Interior Design quotes Al Jaddaf, Interior Design estimates Al Jaddaf, Interior Design services near me Al Jaddaf, Cheap Interior Design Al Jaddaf, Quality Interior Design Al Jaddaf, Trusted Interior Design Al Jaddaf, Interior Design transformation Al Jaddaf, Interior Design renovation Al Jaddaf, Interior Design makeover Al Jaddaf, Best Interior Design company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function InteriorDesignAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Interior Design Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Interior Design in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury interior design al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function InteriorDesignAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our interior design in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in interior design near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function InteriorDesignAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

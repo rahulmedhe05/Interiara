@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Meadows, Sustainable Interior in Design Meadows, Best sustainable interior Design Meadows, Professional sustainable interior Design Meadows, Luxury sustainable interior Design Meadows, Sustainable Interior Design Meadows Dubai, Sustainable Interior designer Design Meadows, Sustainable Interior company Design Meadows, Sustainable Interior contractor Design Meadows, Affordable sustainable interior Design Meadows, Modern sustainable interior Design Meadows, Sustainable Interior consultation Design Meadows, Sustainable Interior cost Design Meadows, Sustainable Interior price Design Meadows, Top sustainable interior Design Meadows
+
+// SEO Keywords: Sustainable Interior Design Meadows, Sustainable Interior in Design Meadows, Best sustainable interior Design Meadows, Professional sustainable interior Design Meadows, Luxury sustainable interior Design Meadows, Sustainable Interior Design Meadows Dubai, Sustainable Interior designer Design Meadows, Sustainable Interior company Design Meadows, Sustainable Interior contractor Design Meadows, Affordable sustainable interior Design Meadows, Modern sustainable interior Design Meadows, Sustainable Interior consultation Design Meadows, Sustainable Interior cost Design Meadows, Sustainable Interior price Design Meadows, Top sustainable interior Design Meadows, Sustainable Interior near Design Meadows, Sustainable Interior specialists Design Meadows, Sustainable Interior experts Design Meadows, Sustainable Interior solutions Design Meadows, Sustainable Interior packages Design Meadows, Sustainable Interior quotes Design Meadows, Sustainable Interior estimates Design Meadows, Sustainable Interior services near me Design Meadows, Cheap Sustainable Interior Design Meadows, Quality Sustainable Interior Design Meadows, Trusted Sustainable Interior Design Meadows, Sustainable Interior transformation Design Meadows, Sustainable Interior renovation Design Meadows, Sustainable Interior makeover Design Meadows, Best Sustainable Interior company Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Meadows Company Design Meadows</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior in Design Meadows. Best sustainable interior Design Meadows Company Design Meadows Our professional sustainable interior design meadows services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SustainableInteriorDesignMeadows() {
                 At Interiara, we believe that exceptional <strong>Sustainable Interior Design The Meadows Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Meadows Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Sustainable Interior Design Meadows. 
                 We've completed 300+ successful projects across The Meadows Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Sustainable Interior Design The Meadows Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignMeadows() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior in design meadows service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignMeadows() {
 
               <p>
                 Interiara stands out in the crowded The Meadows Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior near design meadows.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignMeadows() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

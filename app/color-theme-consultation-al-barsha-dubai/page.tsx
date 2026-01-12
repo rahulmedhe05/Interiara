@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Barsha, Color Theme Consultation in Al Barsha, Best color theme consultation Al Barsha, Professional color theme consultation Al Barsha, Luxury color theme consultation Al Barsha, Color Theme Consultation Al Barsha Dubai, Color Theme Consultation designer Al Barsha, Color Theme Consultation company Al Barsha, Color Theme Consultation contractor Al Barsha, Affordable color theme consultation Al Barsha, Modern color theme consultation Al Barsha, Color Theme Consultation consultation Al Barsha, Color Theme Consultation cost Al Barsha, Color Theme Consultation price Al Barsha, Top color theme consultation Al Barsha
+
+// SEO Keywords: Color Theme Consultation Al Barsha, Color Theme Consultation in Al Barsha, Best color theme consultation Al Barsha, Professional color theme consultation Al Barsha, Luxury color theme consultation Al Barsha, Color Theme Consultation Al Barsha Dubai, Color Theme Consultation designer Al Barsha, Color Theme Consultation company Al Barsha, Color Theme Consultation contractor Al Barsha, Affordable color theme consultation Al Barsha, Modern color theme consultation Al Barsha, Color Theme Consultation consultation Al Barsha, Color Theme Consultation cost Al Barsha, Color Theme Consultation price Al Barsha, Top color theme consultation Al Barsha, Color Theme Consultation near Al Barsha, Color Theme Consultation specialists Al Barsha, Color Theme Consultation experts Al Barsha, Color Theme Consultation solutions Al Barsha, Color Theme Consultation packages Al Barsha, Color Theme Consultation quotes Al Barsha, Color Theme Consultation estimates Al Barsha, Color Theme Consultation services near me Al Barsha, Cheap Color Theme Consultation Al Barsha, Quality Color Theme Consultation Al Barsha, Trusted Color Theme Consultation Al Barsha, Color Theme Consultation transformation Al Barsha, Color Theme Consultation renovation Al Barsha, Color Theme Consultation makeover Al Barsha, Best Color Theme Consultation company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Al Barsha. Best color theme consultation Al Barsha Company Al Barsha Our luxury color theme consultation al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

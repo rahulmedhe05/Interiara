@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Wallpaper,  in Wallpaper, Best  Wallpaper, Professional  Wallpaper, Luxury  Wallpaper,  Wallpaper Dubai,  designer Wallpaper,  company Wallpaper,  contractor Wallpaper, Affordable  Wallpaper, Modern  Wallpaper,  consultation Wallpaper,  cost Wallpaper,  price Wallpaper, Top  Wallpaper
+
+// SEO Keywords:  Wallpaper,  in Wallpaper, Best  Wallpaper, Professional  Wallpaper, Luxury  Wallpaper,  Wallpaper Dubai,  designer Wallpaper,  company Wallpaper,  contractor Wallpaper, Affordable  Wallpaper, Modern  Wallpaper,  consultation Wallpaper,  cost Wallpaper,  price Wallpaper, Top  Wallpaper,  near Wallpaper,  specialists Wallpaper,  experts Wallpaper,  solutions Wallpaper,  packages Wallpaper,  quotes Wallpaper,  estimates Wallpaper,  services near me Wallpaper, Cheap  Wallpaper, Quality  Wallpaper, Trusted  Wallpaper,  transformation Wallpaper,  renovation Wallpaper,  makeover Wallpaper, Best  company Wallpaper
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function Wallpaper() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Dubai Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Wallpaper. 
                 We've completed 300+ successful projects across Dubai Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Dubai Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  wallpaper services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Dubai Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function Wallpaper() {
 
               <p>
                 Interiara stands out in the crowded Dubai Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  wallpaper service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near wallpaper.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function Wallpaper() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

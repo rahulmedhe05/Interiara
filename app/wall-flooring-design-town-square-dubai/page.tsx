@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Town Square, Wall Flooring Design in Town Square, Best wall flooring design Town Square, Professional wall flooring design Town Square, Luxury wall flooring design Town Square, Wall Flooring Design Town Square Dubai, Wall Flooring Design designer Town Square, Wall Flooring Design company Town Square, Wall Flooring Design contractor Town Square, Affordable wall flooring design Town Square, Modern wall flooring design Town Square, Wall Flooring Design consultation Town Square, Wall Flooring Design cost Town Square, Wall Flooring Design price Town Square, Top wall flooring design Town Square
+
+// SEO Keywords: Wall Flooring Design Town Square, Wall Flooring Design in Town Square, Best wall flooring design Town Square, Professional wall flooring design Town Square, Luxury wall flooring design Town Square, Wall Flooring Design Town Square Dubai, Wall Flooring Design designer Town Square, Wall Flooring Design company Town Square, Wall Flooring Design contractor Town Square, Affordable wall flooring design Town Square, Modern wall flooring design Town Square, Wall Flooring Design consultation Town Square, Wall Flooring Design cost Town Square, Wall Flooring Design price Town Square, Top wall flooring design Town Square, Wall Flooring Design near Town Square, Wall Flooring Design specialists Town Square, Wall Flooring Design experts Town Square, Wall Flooring Design solutions Town Square, Wall Flooring Design packages Town Square, Wall Flooring Design quotes Town Square, Wall Flooring Design estimates Town Square, Wall Flooring Design services near me Town Square, Cheap Wall Flooring Design Town Square, Quality Wall Flooring Design Town Square, Trusted Wall Flooring Design Town Square, Wall Flooring Design transformation Town Square, Wall Flooring Design renovation Town Square, Wall Flooring Design makeover Town Square, Best Wall Flooring Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Town Square. Best wall flooring design Town Square Company Town Square Our luxury wall flooring design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

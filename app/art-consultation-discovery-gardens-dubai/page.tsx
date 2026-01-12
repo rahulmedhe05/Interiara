@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Discovery Gardens, Art Consultation in Discovery Gardens, Best art consultation Discovery Gardens, Professional art consultation Discovery Gardens, Luxury art consultation Discovery Gardens, Art Consultation Discovery Gardens Dubai, Art Consultation designer Discovery Gardens, Art Consultation company Discovery Gardens, Art Consultation contractor Discovery Gardens, Affordable art consultation Discovery Gardens, Modern art consultation Discovery Gardens, Art Consultation consultation Discovery Gardens, Art Consultation cost Discovery Gardens, Art Consultation price Discovery Gardens, Top art consultation Discovery Gardens
+
+// SEO Keywords: Art Consultation Discovery Gardens, Art Consultation in Discovery Gardens, Best art consultation Discovery Gardens, Professional art consultation Discovery Gardens, Luxury art consultation Discovery Gardens, Art Consultation Discovery Gardens Dubai, Art Consultation designer Discovery Gardens, Art Consultation company Discovery Gardens, Art Consultation contractor Discovery Gardens, Affordable art consultation Discovery Gardens, Modern art consultation Discovery Gardens, Art Consultation consultation Discovery Gardens, Art Consultation cost Discovery Gardens, Art Consultation price Discovery Gardens, Top art consultation Discovery Gardens, Art Consultation near Discovery Gardens, Art Consultation specialists Discovery Gardens, Art Consultation experts Discovery Gardens, Art Consultation solutions Discovery Gardens, Art Consultation packages Discovery Gardens, Art Consultation quotes Discovery Gardens, Art Consultation estimates Discovery Gardens, Art Consultation services near me Discovery Gardens, Cheap Art Consultation Discovery Gardens, Quality Art Consultation Discovery Gardens, Trusted Art Consultation Discovery Gardens, Art Consultation transformation Discovery Gardens, Art Consultation renovation Discovery Gardens, Art Consultation makeover Discovery Gardens, Best Art Consultation company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art Consultation in Discovery Gardens. Best art consultation Discovery Gardens Company Discovery Gardens Our luxury art consultation discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art consultation in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art consultation near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

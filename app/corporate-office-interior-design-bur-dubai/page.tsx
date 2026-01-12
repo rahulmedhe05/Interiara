@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Bur, Corporate Office Interior in Design Bur, Best corporate office interior Design Bur, Professional corporate office interior Design Bur, Luxury corporate office interior Design Bur, Corporate Office Interior Design Bur Dubai, Corporate Office Interior designer Design Bur, Corporate Office Interior company Design Bur, Corporate Office Interior contractor Design Bur, Affordable corporate office interior Design Bur, Modern corporate office interior Design Bur, Corporate Office Interior consultation Design Bur, Corporate Office Interior cost Design Bur, Corporate Office Interior price Design Bur, Top corporate office interior Design Bur
+
+// SEO Keywords: Corporate Office Interior Design Bur, Corporate Office Interior in Design Bur, Best corporate office interior Design Bur, Professional corporate office interior Design Bur, Luxury corporate office interior Design Bur, Corporate Office Interior Design Bur Dubai, Corporate Office Interior designer Design Bur, Corporate Office Interior company Design Bur, Corporate Office Interior contractor Design Bur, Affordable corporate office interior Design Bur, Modern corporate office interior Design Bur, Corporate Office Interior consultation Design Bur, Corporate Office Interior cost Design Bur, Corporate Office Interior price Design Bur, Top corporate office interior Design Bur, Corporate Office Interior near Design Bur, Corporate Office Interior specialists Design Bur, Corporate Office Interior experts Design Bur, Corporate Office Interior solutions Design Bur, Corporate Office Interior packages Design Bur, Corporate Office Interior quotes Design Bur, Corporate Office Interior estimates Design Bur, Corporate Office Interior services near me Design Bur, Cheap Corporate Office Interior Design Bur, Quality Corporate Office Interior Design Bur, Trusted Corporate Office Interior Design Bur, Corporate Office Interior transformation Design Bur, Corporate Office Interior renovation Design Bur, Corporate Office Interior makeover Design Bur, Best Corporate Office Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior in Design Bur. Best corporate office interior Design Bur Company Design Bur Our luxury corporate office interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

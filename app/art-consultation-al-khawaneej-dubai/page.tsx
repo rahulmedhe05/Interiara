@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Khawaneej, Art Consultation in Al Khawaneej, Best art consultation Al Khawaneej, Professional art consultation Al Khawaneej, Luxury art consultation Al Khawaneej, Art Consultation Al Khawaneej Dubai, Art Consultation designer Al Khawaneej, Art Consultation company Al Khawaneej, Art Consultation contractor Al Khawaneej, Affordable art consultation Al Khawaneej, Modern art consultation Al Khawaneej, Art Consultation consultation Al Khawaneej, Art Consultation cost Al Khawaneej, Art Consultation price Al Khawaneej, Top art consultation Al Khawaneej
+
+// SEO Keywords: Art Consultation Al Khawaneej, Art Consultation in Al Khawaneej, Best art consultation Al Khawaneej, Professional art consultation Al Khawaneej, Luxury art consultation Al Khawaneej, Art Consultation Al Khawaneej Dubai, Art Consultation designer Al Khawaneej, Art Consultation company Al Khawaneej, Art Consultation contractor Al Khawaneej, Affordable art consultation Al Khawaneej, Modern art consultation Al Khawaneej, Art Consultation consultation Al Khawaneej, Art Consultation cost Al Khawaneej, Art Consultation price Al Khawaneej, Top art consultation Al Khawaneej, Art Consultation near Al Khawaneej, Art Consultation specialists Al Khawaneej, Art Consultation experts Al Khawaneej, Art Consultation solutions Al Khawaneej, Art Consultation packages Al Khawaneej, Art Consultation quotes Al Khawaneej, Art Consultation estimates Al Khawaneej, Art Consultation services near me Al Khawaneej, Cheap Art Consultation Al Khawaneej, Quality Art Consultation Al Khawaneej, Trusted Art Consultation Al Khawaneej, Art Consultation transformation Al Khawaneej, Art Consultation renovation Al Khawaneej, Art Consultation makeover Al Khawaneej, Best Art Consultation company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArtConsultationAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Art Consultation in Al Khawaneej. Best art consultation Al Khawaneej Company Al Khawaneej Our luxury art consultation al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArtConsultationAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our art consultation in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArtConsultationAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in art consultation near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArtConsultationAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

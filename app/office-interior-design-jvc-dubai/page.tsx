@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design Jvc, Office Interior in Design Jvc, Best office interior Design Jvc, Professional office interior Design Jvc, Luxury office interior Design Jvc, Office Interior Design Jvc Dubai, Office Interior designer Design Jvc, Office Interior company Design Jvc, Office Interior contractor Design Jvc, Affordable office interior Design Jvc, Modern office interior Design Jvc, Office Interior consultation Design Jvc, Office Interior cost Design Jvc, Office Interior price Design Jvc, Top office interior Design Jvc
+
+// SEO Keywords: Office Interior Design Jvc, Office Interior in Design Jvc, Best office interior Design Jvc, Professional office interior Design Jvc, Luxury office interior Design Jvc, Office Interior Design Jvc Dubai, Office Interior designer Design Jvc, Office Interior company Design Jvc, Office Interior contractor Design Jvc, Affordable office interior Design Jvc, Modern office interior Design Jvc, Office Interior consultation Design Jvc, Office Interior cost Design Jvc, Office Interior price Design Jvc, Top office interior Design Jvc, Office Interior near Design Jvc, Office Interior specialists Design Jvc, Office Interior experts Design Jvc, Office Interior solutions Design Jvc, Office Interior packages Design Jvc, Office Interior quotes Design Jvc, Office Interior estimates Design Jvc, Office Interior services near me Design Jvc, Cheap Office Interior Design Jvc, Quality Office Interior Design Jvc, Trusted Office Interior Design Jvc, Office Interior transformation Design Jvc, Office Interior renovation Design Jvc, Office Interior makeover Design Jvc, Best Office Interior company Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Jvc Company Design Jvc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior in Design Jvc. Best office interior Design Jvc Company Design Jvc Our luxury office interior design jvc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OfficeInteriorDesignJvc() {
                 At Interiara, we believe that exceptional <strong>Office Interior Design JVC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Interior Design Jvc. 
                 We've completed 300+ successful projects across JVC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Interior Design JVC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignJvc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior in design jvc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignJvc() {
 
               <p>
                 Interiara stands out in the crowded JVC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior near design jvc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignJvc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

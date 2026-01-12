@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Jebel Ali, Home Renovation in Jebel Ali, Best home renovation Jebel Ali, Professional home renovation Jebel Ali, Luxury home renovation Jebel Ali, Home Renovation Jebel Ali Dubai, Home Renovation designer Jebel Ali, Home Renovation company Jebel Ali, Home Renovation contractor Jebel Ali, Affordable home renovation Jebel Ali, Modern home renovation Jebel Ali, Home Renovation consultation Jebel Ali, Home Renovation cost Jebel Ali, Home Renovation price Jebel Ali, Top home renovation Jebel Ali
+
+// SEO Keywords: Home Renovation Jebel Ali, Home Renovation in Jebel Ali, Best home renovation Jebel Ali, Professional home renovation Jebel Ali, Luxury home renovation Jebel Ali, Home Renovation Jebel Ali Dubai, Home Renovation designer Jebel Ali, Home Renovation company Jebel Ali, Home Renovation contractor Jebel Ali, Affordable home renovation Jebel Ali, Modern home renovation Jebel Ali, Home Renovation consultation Jebel Ali, Home Renovation cost Jebel Ali, Home Renovation price Jebel Ali, Top home renovation Jebel Ali, Home Renovation near Jebel Ali, Home Renovation specialists Jebel Ali, Home Renovation experts Jebel Ali, Home Renovation solutions Jebel Ali, Home Renovation packages Jebel Ali, Home Renovation quotes Jebel Ali, Home Renovation estimates Jebel Ali, Home Renovation services near me Jebel Ali, Cheap Home Renovation Jebel Ali, Quality Home Renovation Jebel Ali, Trusted Home Renovation Jebel Ali, Home Renovation transformation Jebel Ali, Home Renovation renovation Jebel Ali, Home Renovation makeover Jebel Ali, Best Home Renovation company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRenovationJebelAli() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home renovation jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Renovation Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRenovationJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home renovation in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home renovation near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRenovationJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

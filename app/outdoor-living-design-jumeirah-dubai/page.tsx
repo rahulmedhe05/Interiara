@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Jumeirah, Outdoor Living in Design Jumeirah, Best outdoor living Design Jumeirah, Professional outdoor living Design Jumeirah, Luxury outdoor living Design Jumeirah, Outdoor Living Design Jumeirah Dubai, Outdoor Living designer Design Jumeirah, Outdoor Living company Design Jumeirah, Outdoor Living contractor Design Jumeirah, Affordable outdoor living Design Jumeirah, Modern outdoor living Design Jumeirah, Outdoor Living consultation Design Jumeirah, Outdoor Living cost Design Jumeirah, Outdoor Living price Design Jumeirah, Top outdoor living Design Jumeirah
+
+// SEO Keywords: Outdoor Living Design Jumeirah, Outdoor Living in Design Jumeirah, Best outdoor living Design Jumeirah, Professional outdoor living Design Jumeirah, Luxury outdoor living Design Jumeirah, Outdoor Living Design Jumeirah Dubai, Outdoor Living designer Design Jumeirah, Outdoor Living company Design Jumeirah, Outdoor Living contractor Design Jumeirah, Affordable outdoor living Design Jumeirah, Modern outdoor living Design Jumeirah, Outdoor Living consultation Design Jumeirah, Outdoor Living cost Design Jumeirah, Outdoor Living price Design Jumeirah, Top outdoor living Design Jumeirah, Outdoor Living near Design Jumeirah, Outdoor Living specialists Design Jumeirah, Outdoor Living experts Design Jumeirah, Outdoor Living solutions Design Jumeirah, Outdoor Living packages Design Jumeirah, Outdoor Living quotes Design Jumeirah, Outdoor Living estimates Design Jumeirah, Outdoor Living services near me Design Jumeirah, Cheap Outdoor Living Design Jumeirah, Quality Outdoor Living Design Jumeirah, Trusted Outdoor Living Design Jumeirah, Outdoor Living transformation Design Jumeirah, Outdoor Living renovation Design Jumeirah, Outdoor Living makeover Design Jumeirah, Best Outdoor Living company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living in Design Jumeirah. Best outdoor living Design Jumeirah Company Design Jumeirah Our luxury outdoor living design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

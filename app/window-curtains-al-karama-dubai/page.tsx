@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Karama, Window Curtains in Al Karama, Best window curtains Al Karama, Professional window curtains Al Karama, Luxury window curtains Al Karama, Window Curtains Al Karama Dubai, Window Curtains designer Al Karama, Window Curtains company Al Karama, Window Curtains contractor Al Karama, Affordable window curtains Al Karama, Modern window curtains Al Karama, Window Curtains consultation Al Karama, Window Curtains cost Al Karama, Window Curtains price Al Karama, Top window curtains Al Karama
+
+// SEO Keywords: Window Curtains Al Karama, Window Curtains in Al Karama, Best window curtains Al Karama, Professional window curtains Al Karama, Luxury window curtains Al Karama, Window Curtains Al Karama Dubai, Window Curtains designer Al Karama, Window Curtains company Al Karama, Window Curtains contractor Al Karama, Affordable window curtains Al Karama, Modern window curtains Al Karama, Window Curtains consultation Al Karama, Window Curtains cost Al Karama, Window Curtains price Al Karama, Top window curtains Al Karama, Window Curtains near Al Karama, Window Curtains specialists Al Karama, Window Curtains experts Al Karama, Window Curtains solutions Al Karama, Window Curtains packages Al Karama, Window Curtains quotes Al Karama, Window Curtains estimates Al Karama, Window Curtains services near me Al Karama, Cheap Window Curtains Al Karama, Quality Window Curtains Al Karama, Trusted Window Curtains Al Karama, Window Curtains transformation Al Karama, Window Curtains renovation Al Karama, Window Curtains makeover Al Karama, Best Window Curtains company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlKarama() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

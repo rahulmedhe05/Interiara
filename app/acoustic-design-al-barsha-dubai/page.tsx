@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Al Barsha, Acoustic Design in Al Barsha, Best acoustic design Al Barsha, Professional acoustic design Al Barsha, Luxury acoustic design Al Barsha, Acoustic Design Al Barsha Dubai, Acoustic Design designer Al Barsha, Acoustic Design company Al Barsha, Acoustic Design contractor Al Barsha, Affordable acoustic design Al Barsha, Modern acoustic design Al Barsha, Acoustic Design consultation Al Barsha, Acoustic Design cost Al Barsha, Acoustic Design price Al Barsha, Top acoustic design Al Barsha
+
+// SEO Keywords: Acoustic Design Al Barsha, Acoustic Design in Al Barsha, Best acoustic design Al Barsha, Professional acoustic design Al Barsha, Luxury acoustic design Al Barsha, Acoustic Design Al Barsha Dubai, Acoustic Design designer Al Barsha, Acoustic Design company Al Barsha, Acoustic Design contractor Al Barsha, Affordable acoustic design Al Barsha, Modern acoustic design Al Barsha, Acoustic Design consultation Al Barsha, Acoustic Design cost Al Barsha, Acoustic Design price Al Barsha, Top acoustic design Al Barsha, Acoustic Design near Al Barsha, Acoustic Design specialists Al Barsha, Acoustic Design experts Al Barsha, Acoustic Design solutions Al Barsha, Acoustic Design packages Al Barsha, Acoustic Design quotes Al Barsha, Acoustic Design estimates Al Barsha, Acoustic Design services near me Al Barsha, Cheap Acoustic Design Al Barsha, Quality Acoustic Design Al Barsha, Trusted Acoustic Design Al Barsha, Acoustic Design transformation Al Barsha, Acoustic Design renovation Al Barsha, Acoustic Design makeover Al Barsha, Best Acoustic Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic Design in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury acoustic design al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic design in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic design near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

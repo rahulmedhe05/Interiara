@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Deira, Commercial Interior in Design Deira, Best commercial interior Design Deira, Professional commercial interior Design Deira, Luxury commercial interior Design Deira, Commercial Interior Design Deira Dubai, Commercial Interior designer Design Deira, Commercial Interior company Design Deira, Commercial Interior contractor Design Deira, Affordable commercial interior Design Deira, Modern commercial interior Design Deira, Commercial Interior consultation Design Deira, Commercial Interior cost Design Deira, Commercial Interior price Design Deira, Top commercial interior Design Deira
+
+// SEO Keywords: Commercial Interior Design Deira, Commercial Interior in Design Deira, Best commercial interior Design Deira, Professional commercial interior Design Deira, Luxury commercial interior Design Deira, Commercial Interior Design Deira Dubai, Commercial Interior designer Design Deira, Commercial Interior company Design Deira, Commercial Interior contractor Design Deira, Affordable commercial interior Design Deira, Modern commercial interior Design Deira, Commercial Interior consultation Design Deira, Commercial Interior cost Design Deira, Commercial Interior price Design Deira, Top commercial interior Design Deira, Commercial Interior near Design Deira, Commercial Interior specialists Design Deira, Commercial Interior experts Design Deira, Commercial Interior solutions Design Deira, Commercial Interior packages Design Deira, Commercial Interior quotes Design Deira, Commercial Interior estimates Design Deira, Commercial Interior services near me Design Deira, Cheap Commercial Interior Design Deira, Quality Commercial Interior Design Deira, Trusted Commercial Interior Design Deira, Commercial Interior transformation Design Deira, Commercial Interior renovation Design Deira, Commercial Interior makeover Design Deira, Best Commercial Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior in Design Deira. Best commercial interior Design Deira Company Design Deira Our luxury commercial interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

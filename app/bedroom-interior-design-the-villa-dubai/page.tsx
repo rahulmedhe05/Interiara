@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design The Villa, Bedroom Interior Design in The Villa, Best bedroom interior design The Villa, Professional bedroom interior design The Villa, Luxury bedroom interior design The Villa, Bedroom Interior Design The Villa Dubai, Bedroom Interior Design designer The Villa, Bedroom Interior Design company The Villa, Bedroom Interior Design contractor The Villa, Affordable bedroom interior design The Villa, Modern bedroom interior design The Villa, Bedroom Interior Design consultation The Villa, Bedroom Interior Design cost The Villa, Bedroom Interior Design price The Villa, Top bedroom interior design The Villa
+
+// SEO Keywords: Bedroom Interior Design The Villa, Bedroom Interior Design in The Villa, Best bedroom interior design The Villa, Professional bedroom interior design The Villa, Luxury bedroom interior design The Villa, Bedroom Interior Design The Villa Dubai, Bedroom Interior Design designer The Villa, Bedroom Interior Design company The Villa, Bedroom Interior Design contractor The Villa, Affordable bedroom interior design The Villa, Modern bedroom interior design The Villa, Bedroom Interior Design consultation The Villa, Bedroom Interior Design cost The Villa, Bedroom Interior Design price The Villa, Top bedroom interior design The Villa, Bedroom Interior Design near The Villa, Bedroom Interior Design specialists The Villa, Bedroom Interior Design experts The Villa, Bedroom Interior Design solutions The Villa, Bedroom Interior Design packages The Villa, Bedroom Interior Design quotes The Villa, Bedroom Interior Design estimates The Villa, Bedroom Interior Design services near me The Villa, Cheap Bedroom Interior Design The Villa, Quality Bedroom Interior Design The Villa, Trusted Bedroom Interior Design The Villa, Bedroom Interior Design transformation The Villa, Bedroom Interior Design renovation The Villa, Bedroom Interior Design makeover The Villa, Best Bedroom Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior Design in The Villa. Best bedroom interior design The Villa Company The Villa Our luxury bedroom interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

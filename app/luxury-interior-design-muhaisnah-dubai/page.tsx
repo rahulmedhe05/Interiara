@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Muhaisnah, Luxury Interior in Design Muhaisnah, Best luxury interior Design Muhaisnah, Professional luxury interior Design Muhaisnah, Luxury luxury interior Design Muhaisnah, Luxury Interior Design Muhaisnah Dubai, Luxury Interior designer Design Muhaisnah, Luxury Interior company Design Muhaisnah, Luxury Interior contractor Design Muhaisnah, Affordable luxury interior Design Muhaisnah, Modern luxury interior Design Muhaisnah, Luxury Interior consultation Design Muhaisnah, Luxury Interior cost Design Muhaisnah, Luxury Interior price Design Muhaisnah, Top luxury interior Design Muhaisnah
+
+// SEO Keywords: Luxury Interior Design Muhaisnah, Luxury Interior in Design Muhaisnah, Best luxury interior Design Muhaisnah, Professional luxury interior Design Muhaisnah, Luxury luxury interior Design Muhaisnah, Luxury Interior Design Muhaisnah Dubai, Luxury Interior designer Design Muhaisnah, Luxury Interior company Design Muhaisnah, Luxury Interior contractor Design Muhaisnah, Affordable luxury interior Design Muhaisnah, Modern luxury interior Design Muhaisnah, Luxury Interior consultation Design Muhaisnah, Luxury Interior cost Design Muhaisnah, Luxury Interior price Design Muhaisnah, Top luxury interior Design Muhaisnah, Luxury Interior near Design Muhaisnah, Luxury Interior specialists Design Muhaisnah, Luxury Interior experts Design Muhaisnah, Luxury Interior solutions Design Muhaisnah, Luxury Interior packages Design Muhaisnah, Luxury Interior quotes Design Muhaisnah, Luxury Interior estimates Design Muhaisnah, Luxury Interior services near me Design Muhaisnah, Cheap Luxury Interior Design Muhaisnah, Quality Luxury Interior Design Muhaisnah, Trusted Luxury Interior Design Muhaisnah, Luxury Interior transformation Design Muhaisnah, Luxury Interior renovation Design Muhaisnah, Luxury Interior makeover Design Muhaisnah, Best Luxury Interior company Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Muhaisnah Company Design Muhaisnah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior in Design Muhaisnah. Best luxury interior Design Muhaisnah Company Design Muhaisnah Our luxury luxury interior design muhaisnah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignMuhaisnah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior in design muhaisnah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignMuhaisnah() {
 
               <p>
                 Interiara stands out in the crowded Muhaisnah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior near design muhaisnah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignMuhaisnah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Mirdif, Color Theme in Consultation Mirdif, Best color theme Consultation Mirdif, Professional color theme Consultation Mirdif, Luxury color theme Consultation Mirdif, Color Theme Consultation Mirdif Dubai, Color Theme designer Consultation Mirdif, Color Theme company Consultation Mirdif, Color Theme contractor Consultation Mirdif, Affordable color theme Consultation Mirdif, Modern color theme Consultation Mirdif, Color Theme consultation Consultation Mirdif, Color Theme cost Consultation Mirdif, Color Theme price Consultation Mirdif, Top color theme Consultation Mirdif
+
+// SEO Keywords: Color Theme Consultation Mirdif, Color Theme in Consultation Mirdif, Best color theme Consultation Mirdif, Professional color theme Consultation Mirdif, Luxury color theme Consultation Mirdif, Color Theme Consultation Mirdif Dubai, Color Theme designer Consultation Mirdif, Color Theme company Consultation Mirdif, Color Theme contractor Consultation Mirdif, Affordable color theme Consultation Mirdif, Modern color theme Consultation Mirdif, Color Theme consultation Consultation Mirdif, Color Theme cost Consultation Mirdif, Color Theme price Consultation Mirdif, Top color theme Consultation Mirdif, Color Theme near Consultation Mirdif, Color Theme specialists Consultation Mirdif, Color Theme experts Consultation Mirdif, Color Theme solutions Consultation Mirdif, Color Theme packages Consultation Mirdif, Color Theme quotes Consultation Mirdif, Color Theme estimates Consultation Mirdif, Color Theme services near me Consultation Mirdif, Cheap Color Theme Consultation Mirdif, Quality Color Theme Consultation Mirdif, Trusted Color Theme Consultation Mirdif, Color Theme transformation Consultation Mirdif, Color Theme renovation Consultation Mirdif, Color Theme makeover Consultation Mirdif, Best Color Theme company Consultation Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Mirdif Company Consultation Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme in Consultation Mirdif. Best color theme Consultation Mirdif Company Consultation Mirdif Our luxury color theme consultation mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme in consultation mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme near consultation mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

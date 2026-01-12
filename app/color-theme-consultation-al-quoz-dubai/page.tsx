@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Quoz, Color Theme Consultation in Al Quoz, Best color theme consultation Al Quoz, Professional color theme consultation Al Quoz, Luxury color theme consultation Al Quoz, Color Theme Consultation Al Quoz Dubai, Color Theme Consultation designer Al Quoz, Color Theme Consultation company Al Quoz, Color Theme Consultation contractor Al Quoz, Affordable color theme consultation Al Quoz, Modern color theme consultation Al Quoz, Color Theme Consultation consultation Al Quoz, Color Theme Consultation cost Al Quoz, Color Theme Consultation price Al Quoz, Top color theme consultation Al Quoz
+
+// SEO Keywords: Color Theme Consultation Al Quoz, Color Theme Consultation in Al Quoz, Best color theme consultation Al Quoz, Professional color theme consultation Al Quoz, Luxury color theme consultation Al Quoz, Color Theme Consultation Al Quoz Dubai, Color Theme Consultation designer Al Quoz, Color Theme Consultation company Al Quoz, Color Theme Consultation contractor Al Quoz, Affordable color theme consultation Al Quoz, Modern color theme consultation Al Quoz, Color Theme Consultation consultation Al Quoz, Color Theme Consultation cost Al Quoz, Color Theme Consultation price Al Quoz, Top color theme consultation Al Quoz, Color Theme Consultation near Al Quoz, Color Theme Consultation specialists Al Quoz, Color Theme Consultation experts Al Quoz, Color Theme Consultation solutions Al Quoz, Color Theme Consultation packages Al Quoz, Color Theme Consultation quotes Al Quoz, Color Theme Consultation estimates Al Quoz, Color Theme Consultation services near me Al Quoz, Cheap Color Theme Consultation Al Quoz, Quality Color Theme Consultation Al Quoz, Trusted Color Theme Consultation Al Quoz, Color Theme Consultation transformation Al Quoz, Color Theme Consultation renovation Al Quoz, Color Theme Consultation makeover Al Quoz, Best Color Theme Consultation company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Quoz Company Al Quoz</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Al Quoz. Best color theme consultation Al Quoz Company Al Quoz Our luxury color theme consultation al quoz services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlQuoz() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in al quoz service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near al quoz.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

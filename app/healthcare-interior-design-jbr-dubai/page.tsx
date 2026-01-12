@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Healthcare Interior Design Jbr, Healthcare Interior in Design Jbr, Best healthcare interior Design Jbr, Professional healthcare interior Design Jbr, Luxury healthcare interior Design Jbr, Healthcare Interior Design Jbr Dubai, Healthcare Interior designer Design Jbr, Healthcare Interior company Design Jbr, Healthcare Interior contractor Design Jbr, Affordable healthcare interior Design Jbr, Modern healthcare interior Design Jbr, Healthcare Interior consultation Design Jbr, Healthcare Interior cost Design Jbr, Healthcare Interior price Design Jbr, Top healthcare interior Design Jbr
+
+// SEO Keywords: Healthcare Interior Design Jbr, Healthcare Interior in Design Jbr, Best healthcare interior Design Jbr, Professional healthcare interior Design Jbr, Luxury healthcare interior Design Jbr, Healthcare Interior Design Jbr Dubai, Healthcare Interior designer Design Jbr, Healthcare Interior company Design Jbr, Healthcare Interior contractor Design Jbr, Affordable healthcare interior Design Jbr, Modern healthcare interior Design Jbr, Healthcare Interior consultation Design Jbr, Healthcare Interior cost Design Jbr, Healthcare Interior price Design Jbr, Top healthcare interior Design Jbr, Healthcare Interior near Design Jbr, Healthcare Interior specialists Design Jbr, Healthcare Interior experts Design Jbr, Healthcare Interior solutions Design Jbr, Healthcare Interior packages Design Jbr, Healthcare Interior quotes Design Jbr, Healthcare Interior estimates Design Jbr, Healthcare Interior services near me Design Jbr, Cheap Healthcare Interior Design Jbr, Quality Healthcare Interior Design Jbr, Trusted Healthcare Interior Design Jbr, Healthcare Interior transformation Design Jbr, Healthcare Interior renovation Design Jbr, Healthcare Interior makeover Design Jbr, Best Healthcare Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HealthcareInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Jbr Company Design Jbr</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Healthcare Interior in Design Jbr. Best healthcare interior Design Jbr Company Design Jbr Our luxury healthcare interior design jbr services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HealthcareInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Healthcare Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Healthcare Interior Design Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Healthcare Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HealthcareInteriorDesignJbr() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our healthcare interior in design jbr service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HealthcareInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in healthcare interior near design jbr.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HealthcareInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

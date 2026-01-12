@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Nad Al Sheba, Office Renovation Nad in Al Sheba, Best office renovation nad Al Sheba, Professional office renovation nad Al Sheba, Luxury office renovation nad Al Sheba, Office Renovation Nad Al Sheba Dubai, Office Renovation Nad designer Al Sheba, Office Renovation Nad company Al Sheba, Office Renovation Nad contractor Al Sheba, Affordable office renovation nad Al Sheba, Modern office renovation nad Al Sheba, Office Renovation Nad consultation Al Sheba, Office Renovation Nad cost Al Sheba, Office Renovation Nad price Al Sheba, Top office renovation nad Al Sheba
+
+// SEO Keywords: Office Renovation Nad Al Sheba, Office Renovation Nad in Al Sheba, Best office renovation nad Al Sheba, Professional office renovation nad Al Sheba, Luxury office renovation nad Al Sheba, Office Renovation Nad Al Sheba Dubai, Office Renovation Nad designer Al Sheba, Office Renovation Nad company Al Sheba, Office Renovation Nad contractor Al Sheba, Affordable office renovation nad Al Sheba, Modern office renovation nad Al Sheba, Office Renovation Nad consultation Al Sheba, Office Renovation Nad cost Al Sheba, Office Renovation Nad price Al Sheba, Top office renovation nad Al Sheba, Office Renovation Nad near Al Sheba, Office Renovation Nad specialists Al Sheba, Office Renovation Nad experts Al Sheba, Office Renovation Nad solutions Al Sheba, Office Renovation Nad packages Al Sheba, Office Renovation Nad quotes Al Sheba, Office Renovation Nad estimates Al Sheba, Office Renovation Nad services near me Al Sheba, Cheap Office Renovation Nad Al Sheba, Quality Office Renovation Nad Al Sheba, Trusted Office Renovation Nad Al Sheba, Office Renovation Nad transformation Al Sheba, Office Renovation Nad renovation Al Sheba, Office Renovation Nad makeover Al Sheba, Best Office Renovation Nad company Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation nad Al Sheba Company Al Sheba</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation Nad in Al Sheba. Best office renovation nad Al Sheba Company Al Sheba Our luxury office renovation nad al sheba services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationNadAlSheba() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation nad in al sheba service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationNadAlSheba() {
 
               <p>
                 Interiara stands out in the crowded Nad Al Sheba Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation nad near al sheba.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationNadAlSheba() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

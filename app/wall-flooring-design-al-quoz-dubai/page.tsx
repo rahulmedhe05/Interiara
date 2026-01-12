@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Al Quoz, Wall Flooring Design in Al Quoz, Best wall flooring design Al Quoz, Professional wall flooring design Al Quoz, Luxury wall flooring design Al Quoz, Wall Flooring Design Al Quoz Dubai, Wall Flooring Design designer Al Quoz, Wall Flooring Design company Al Quoz, Wall Flooring Design contractor Al Quoz, Affordable wall flooring design Al Quoz, Modern wall flooring design Al Quoz, Wall Flooring Design consultation Al Quoz, Wall Flooring Design cost Al Quoz, Wall Flooring Design price Al Quoz, Top wall flooring design Al Quoz
+
+// SEO Keywords: Wall Flooring Design Al Quoz, Wall Flooring Design in Al Quoz, Best wall flooring design Al Quoz, Professional wall flooring design Al Quoz, Luxury wall flooring design Al Quoz, Wall Flooring Design Al Quoz Dubai, Wall Flooring Design designer Al Quoz, Wall Flooring Design company Al Quoz, Wall Flooring Design contractor Al Quoz, Affordable wall flooring design Al Quoz, Modern wall flooring design Al Quoz, Wall Flooring Design consultation Al Quoz, Wall Flooring Design cost Al Quoz, Wall Flooring Design price Al Quoz, Top wall flooring design Al Quoz, Wall Flooring Design near Al Quoz, Wall Flooring Design specialists Al Quoz, Wall Flooring Design experts Al Quoz, Wall Flooring Design solutions Al Quoz, Wall Flooring Design packages Al Quoz, Wall Flooring Design quotes Al Quoz, Wall Flooring Design estimates Al Quoz, Wall Flooring Design services near me Al Quoz, Cheap Wall Flooring Design Al Quoz, Quality Wall Flooring Design Al Quoz, Trusted Wall Flooring Design Al Quoz, Wall Flooring Design transformation Al Quoz, Wall Flooring Design renovation Al Quoz, Wall Flooring Design makeover Al Quoz, Best Wall Flooring Design company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallFlooringDesignAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Wall Flooring Design Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall Flooring Design in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Flooring Design Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall flooring design al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Flooring Design Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallFlooringDesignAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall flooring design in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall flooring design near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallFlooringDesignAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

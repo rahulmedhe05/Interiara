@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out City Walk, Office Fit Out in City Walk, Best office fit out City Walk, Professional office fit out City Walk, Luxury office fit out City Walk, Office Fit Out City Walk Dubai, Office Fit Out designer City Walk, Office Fit Out company City Walk, Office Fit Out contractor City Walk, Affordable office fit out City Walk, Modern office fit out City Walk, Office Fit Out consultation City Walk, Office Fit Out cost City Walk, Office Fit Out price City Walk, Top office fit out City Walk
+
+// SEO Keywords: Office Fit Out City Walk, Office Fit Out in City Walk, Best office fit out City Walk, Professional office fit out City Walk, Luxury office fit out City Walk, Office Fit Out City Walk Dubai, Office Fit Out designer City Walk, Office Fit Out company City Walk, Office Fit Out contractor City Walk, Affordable office fit out City Walk, Modern office fit out City Walk, Office Fit Out consultation City Walk, Office Fit Out cost City Walk, Office Fit Out price City Walk, Top office fit out City Walk, Office Fit Out near City Walk, Office Fit Out specialists City Walk, Office Fit Out experts City Walk, Office Fit Out solutions City Walk, Office Fit Out packages City Walk, Office Fit Out quotes City Walk, Office Fit Out estimates City Walk, Office Fit Out services near me City Walk, Cheap Office Fit Out City Walk, Quality Office Fit Out City Walk, Trusted Office Fit Out City Walk, Office Fit Out transformation City Walk, Office Fit Out renovation City Walk, Office Fit Out makeover City Walk, Best Office Fit Out company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutCityWalk() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Jumeirah, Lighting in Automation Jumeirah, Best lighting Automation Jumeirah, Professional lighting Automation Jumeirah, Luxury lighting Automation Jumeirah, Lighting Automation Jumeirah Dubai, Lighting designer Automation Jumeirah, Lighting company Automation Jumeirah, Lighting contractor Automation Jumeirah, Affordable lighting Automation Jumeirah, Modern lighting Automation Jumeirah, Lighting consultation Automation Jumeirah, Lighting cost Automation Jumeirah, Lighting price Automation Jumeirah, Top lighting Automation Jumeirah
+
+// SEO Keywords: Lighting Automation Jumeirah, Lighting in Automation Jumeirah, Best lighting Automation Jumeirah, Professional lighting Automation Jumeirah, Luxury lighting Automation Jumeirah, Lighting Automation Jumeirah Dubai, Lighting designer Automation Jumeirah, Lighting company Automation Jumeirah, Lighting contractor Automation Jumeirah, Affordable lighting Automation Jumeirah, Modern lighting Automation Jumeirah, Lighting consultation Automation Jumeirah, Lighting cost Automation Jumeirah, Lighting price Automation Jumeirah, Top lighting Automation Jumeirah, Lighting near Automation Jumeirah, Lighting specialists Automation Jumeirah, Lighting experts Automation Jumeirah, Lighting solutions Automation Jumeirah, Lighting packages Automation Jumeirah, Lighting quotes Automation Jumeirah, Lighting estimates Automation Jumeirah, Lighting services near me Automation Jumeirah, Cheap Lighting Automation Jumeirah, Quality Lighting Automation Jumeirah, Trusted Lighting Automation Jumeirah, Lighting transformation Automation Jumeirah, Lighting renovation Automation Jumeirah, Lighting makeover Automation Jumeirah, Best Lighting company Automation Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Jumeirah Company Automation Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Automation Jumeirah. Best lighting Automation Jumeirah Company Automation Jumeirah Our luxury lighting automation jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in automation jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near automation jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

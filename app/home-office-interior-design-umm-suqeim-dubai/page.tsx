@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Umm Suqeim, Home Office Interior Design in Umm Suqeim, Best home office interior design Umm Suqeim, Professional home office interior design Umm Suqeim, Luxury home office interior design Umm Suqeim, Home Office Interior Design Umm Suqeim Dubai, Home Office Interior Design designer Umm Suqeim, Home Office Interior Design company Umm Suqeim, Home Office Interior Design contractor Umm Suqeim, Affordable home office interior design Umm Suqeim, Modern home office interior design Umm Suqeim, Home Office Interior Design consultation Umm Suqeim, Home Office Interior Design cost Umm Suqeim, Home Office Interior Design price Umm Suqeim, Top home office interior design Umm Suqeim
+
+// SEO Keywords: Home Office Interior Design Umm Suqeim, Home Office Interior Design in Umm Suqeim, Best home office interior design Umm Suqeim, Professional home office interior design Umm Suqeim, Luxury home office interior design Umm Suqeim, Home Office Interior Design Umm Suqeim Dubai, Home Office Interior Design designer Umm Suqeim, Home Office Interior Design company Umm Suqeim, Home Office Interior Design contractor Umm Suqeim, Affordable home office interior design Umm Suqeim, Modern home office interior design Umm Suqeim, Home Office Interior Design consultation Umm Suqeim, Home Office Interior Design cost Umm Suqeim, Home Office Interior Design price Umm Suqeim, Top home office interior design Umm Suqeim, Home Office Interior Design near Umm Suqeim, Home Office Interior Design specialists Umm Suqeim, Home Office Interior Design experts Umm Suqeim, Home Office Interior Design solutions Umm Suqeim, Home Office Interior Design packages Umm Suqeim, Home Office Interior Design quotes Umm Suqeim, Home Office Interior Design estimates Umm Suqeim, Home Office Interior Design services near me Umm Suqeim, Cheap Home Office Interior Design Umm Suqeim, Quality Home Office Interior Design Umm Suqeim, Trusted Home Office Interior Design Umm Suqeim, Home Office Interior Design transformation Umm Suqeim, Home Office Interior Design renovation Umm Suqeim, Home Office Interior Design makeover Umm Suqeim, Best Home Office Interior Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior Design in Umm Suqeim. Best home office interior design Umm Suqeim Company Umm Suqeim Our luxury home office interior design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

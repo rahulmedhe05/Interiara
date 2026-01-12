@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Sheikh Zayed Road, Drapes Sheikh in Zayed Road, Best drapes sheikh Zayed Road, Professional drapes sheikh Zayed Road, Luxury drapes sheikh Zayed Road, Drapes Sheikh Zayed Road Dubai, Drapes Sheikh designer Zayed Road, Drapes Sheikh company Zayed Road, Drapes Sheikh contractor Zayed Road, Affordable drapes sheikh Zayed Road, Modern drapes sheikh Zayed Road, Drapes Sheikh consultation Zayed Road, Drapes Sheikh cost Zayed Road, Drapes Sheikh price Zayed Road, Top drapes sheikh Zayed Road
+
+// SEO Keywords: Drapes Sheikh Zayed Road, Drapes Sheikh in Zayed Road, Best drapes sheikh Zayed Road, Professional drapes sheikh Zayed Road, Luxury drapes sheikh Zayed Road, Drapes Sheikh Zayed Road Dubai, Drapes Sheikh designer Zayed Road, Drapes Sheikh company Zayed Road, Drapes Sheikh contractor Zayed Road, Affordable drapes sheikh Zayed Road, Modern drapes sheikh Zayed Road, Drapes Sheikh consultation Zayed Road, Drapes Sheikh cost Zayed Road, Drapes Sheikh price Zayed Road, Top drapes sheikh Zayed Road, Drapes Sheikh near Zayed Road, Drapes Sheikh specialists Zayed Road, Drapes Sheikh experts Zayed Road, Drapes Sheikh solutions Zayed Road, Drapes Sheikh packages Zayed Road, Drapes Sheikh quotes Zayed Road, Drapes Sheikh estimates Zayed Road, Drapes Sheikh services near me Zayed Road, Cheap Drapes Sheikh Zayed Road, Quality Drapes Sheikh Zayed Road, Trusted Drapes Sheikh Zayed Road, Drapes Sheikh transformation Zayed Road, Drapes Sheikh renovation Zayed Road, Drapes Sheikh makeover Zayed Road, Best Drapes Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesSheikhZayedRoad() {
                 At Interiara, we believe that exceptional <strong>Drapes Sheikh Zayed Road Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Sheikh Zayed Road Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes Sheikh in Zayed Road. 
                 We've completed 300+ successful projects across Sheikh Zayed Road Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Sheikh Zayed Road Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes sheikh zayed road services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Sheikh Zayed Road Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes sheikh in zayed road service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes sheikh near zayed road.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

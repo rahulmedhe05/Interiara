@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Drapes Jbr,  in Drapes Jbr, Best  Drapes Jbr, Professional  Drapes Jbr, Luxury  Drapes Jbr,  Drapes Jbr Dubai,  designer Drapes Jbr,  company Drapes Jbr,  contractor Drapes Jbr, Affordable  Drapes Jbr, Modern  Drapes Jbr,  consultation Drapes Jbr,  cost Drapes Jbr,  price Drapes Jbr, Top  Drapes Jbr
+
+// SEO Keywords:  Drapes Jbr,  in Drapes Jbr, Best  Drapes Jbr, Professional  Drapes Jbr, Luxury  Drapes Jbr,  Drapes Jbr Dubai,  designer Drapes Jbr,  company Drapes Jbr,  contractor Drapes Jbr, Affordable  Drapes Jbr, Modern  Drapes Jbr,  consultation Drapes Jbr,  cost Drapes Jbr,  price Drapes Jbr, Top  Drapes Jbr,  near Drapes Jbr,  specialists Drapes Jbr,  experts Drapes Jbr,  solutions Drapes Jbr,  packages Drapes Jbr,  quotes Drapes Jbr,  estimates Drapes Jbr,  services near me Drapes Jbr, Cheap  Drapes Jbr, Quality  Drapes Jbr, Trusted  Drapes Jbr,  transformation Drapes Jbr,  renovation Drapes Jbr,  makeover Drapes Jbr, Best  company Drapes Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesJbr() {
                 At Interiara, we believe that exceptional <strong>Drapes JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Best  Drapes Jbr.  Drapes Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury  drapes jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our professional  drapes jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near drapes jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

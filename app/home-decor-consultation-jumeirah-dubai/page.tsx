@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Jumeirah, Home Decor in Consultation Jumeirah, Best home decor Consultation Jumeirah, Professional home decor Consultation Jumeirah, Luxury home decor Consultation Jumeirah, Home Decor Consultation Jumeirah Dubai, Home Decor designer Consultation Jumeirah, Home Decor company Consultation Jumeirah, Home Decor contractor Consultation Jumeirah, Affordable home decor Consultation Jumeirah, Modern home decor Consultation Jumeirah, Home Decor consultation Consultation Jumeirah, Home Decor cost Consultation Jumeirah, Home Decor price Consultation Jumeirah, Top home decor Consultation Jumeirah
+
+// SEO Keywords: Home Decor Consultation Jumeirah, Home Decor in Consultation Jumeirah, Best home decor Consultation Jumeirah, Professional home decor Consultation Jumeirah, Luxury home decor Consultation Jumeirah, Home Decor Consultation Jumeirah Dubai, Home Decor designer Consultation Jumeirah, Home Decor company Consultation Jumeirah, Home Decor contractor Consultation Jumeirah, Affordable home decor Consultation Jumeirah, Modern home decor Consultation Jumeirah, Home Decor consultation Consultation Jumeirah, Home Decor cost Consultation Jumeirah, Home Decor price Consultation Jumeirah, Top home decor Consultation Jumeirah, Home Decor near Consultation Jumeirah, Home Decor specialists Consultation Jumeirah, Home Decor experts Consultation Jumeirah, Home Decor solutions Consultation Jumeirah, Home Decor packages Consultation Jumeirah, Home Decor quotes Consultation Jumeirah, Home Decor estimates Consultation Jumeirah, Home Decor services near me Consultation Jumeirah, Cheap Home Decor Consultation Jumeirah, Quality Home Decor Consultation Jumeirah, Trusted Home Decor Consultation Jumeirah, Home Decor transformation Consultation Jumeirah, Home Decor renovation Consultation Jumeirah, Home Decor makeover Consultation Jumeirah, Best Home Decor company Consultation Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Jumeirah Company Consultation Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor in Consultation Jumeirah. Best home decor Consultation Jumeirah Company Consultation Jumeirah Our luxury home decor consultation jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor in consultation jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor near consultation jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

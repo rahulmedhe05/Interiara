@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Downtown, Restaurant Interior in Design Downtown, Best restaurant interior Design Downtown, Professional restaurant interior Design Downtown, Luxury restaurant interior Design Downtown, Restaurant Interior Design Downtown Dubai, Restaurant Interior designer Design Downtown, Restaurant Interior company Design Downtown, Restaurant Interior contractor Design Downtown, Affordable restaurant interior Design Downtown, Modern restaurant interior Design Downtown, Restaurant Interior consultation Design Downtown, Restaurant Interior cost Design Downtown, Restaurant Interior price Design Downtown, Top restaurant interior Design Downtown
+
+// SEO Keywords: Restaurant Interior Design Downtown, Restaurant Interior in Design Downtown, Best restaurant interior Design Downtown, Professional restaurant interior Design Downtown, Luxury restaurant interior Design Downtown, Restaurant Interior Design Downtown Dubai, Restaurant Interior designer Design Downtown, Restaurant Interior company Design Downtown, Restaurant Interior contractor Design Downtown, Affordable restaurant interior Design Downtown, Modern restaurant interior Design Downtown, Restaurant Interior consultation Design Downtown, Restaurant Interior cost Design Downtown, Restaurant Interior price Design Downtown, Top restaurant interior Design Downtown, Restaurant Interior near Design Downtown, Restaurant Interior specialists Design Downtown, Restaurant Interior experts Design Downtown, Restaurant Interior solutions Design Downtown, Restaurant Interior packages Design Downtown, Restaurant Interior quotes Design Downtown, Restaurant Interior estimates Design Downtown, Restaurant Interior services near me Design Downtown, Cheap Restaurant Interior Design Downtown, Quality Restaurant Interior Design Downtown, Trusted Restaurant Interior Design Downtown, Restaurant Interior transformation Design Downtown, Restaurant Interior renovation Design Downtown, Restaurant Interior makeover Design Downtown, Best Restaurant Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior in Design Downtown. Best restaurant interior Design Downtown Company Design Downtown Our luxury restaurant interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

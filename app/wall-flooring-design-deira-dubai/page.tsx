@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Deira, Wall Flooring in Design Deira, Best wall flooring Design Deira, Professional wall flooring Design Deira, Luxury wall flooring Design Deira, Wall Flooring Design Deira Dubai, Wall Flooring designer Design Deira, Wall Flooring company Design Deira, Wall Flooring contractor Design Deira, Affordable wall flooring Design Deira, Modern wall flooring Design Deira, Wall Flooring consultation Design Deira, Wall Flooring cost Design Deira, Wall Flooring price Design Deira, Top wall flooring Design Deira
+
+// SEO Keywords: Wall Flooring Design Deira, Wall Flooring in Design Deira, Best wall flooring Design Deira, Professional wall flooring Design Deira, Luxury wall flooring Design Deira, Wall Flooring Design Deira Dubai, Wall Flooring designer Design Deira, Wall Flooring company Design Deira, Wall Flooring contractor Design Deira, Affordable wall flooring Design Deira, Modern wall flooring Design Deira, Wall Flooring consultation Design Deira, Wall Flooring cost Design Deira, Wall Flooring price Design Deira, Top wall flooring Design Deira, Wall Flooring near Design Deira, Wall Flooring specialists Design Deira, Wall Flooring experts Design Deira, Wall Flooring solutions Design Deira, Wall Flooring packages Design Deira, Wall Flooring quotes Design Deira, Wall Flooring estimates Design Deira, Wall Flooring services near me Design Deira, Cheap Wall Flooring Design Deira, Quality Wall Flooring Design Deira, Trusted Wall Flooring Design Deira, Wall Flooring transformation Design Deira, Wall Flooring renovation Design Deira, Wall Flooring makeover Design Deira, Best Wall Flooring company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring in Design Deira. Best wall flooring Design Deira Company Design Deira Our luxury wall flooring design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

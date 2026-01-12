@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Discovery Gardens, Lighting Automation in Discovery Gardens, Best lighting automation Discovery Gardens, Professional lighting automation Discovery Gardens, Luxury lighting automation Discovery Gardens, Lighting Automation Discovery Gardens Dubai, Lighting Automation designer Discovery Gardens, Lighting Automation company Discovery Gardens, Lighting Automation contractor Discovery Gardens, Affordable lighting automation Discovery Gardens, Modern lighting automation Discovery Gardens, Lighting Automation consultation Discovery Gardens, Lighting Automation cost Discovery Gardens, Lighting Automation price Discovery Gardens, Top lighting automation Discovery Gardens
+
+// SEO Keywords: Lighting Automation Discovery Gardens, Lighting Automation in Discovery Gardens, Best lighting automation Discovery Gardens, Professional lighting automation Discovery Gardens, Luxury lighting automation Discovery Gardens, Lighting Automation Discovery Gardens Dubai, Lighting Automation designer Discovery Gardens, Lighting Automation company Discovery Gardens, Lighting Automation contractor Discovery Gardens, Affordable lighting automation Discovery Gardens, Modern lighting automation Discovery Gardens, Lighting Automation consultation Discovery Gardens, Lighting Automation cost Discovery Gardens, Lighting Automation price Discovery Gardens, Top lighting automation Discovery Gardens, Lighting Automation near Discovery Gardens, Lighting Automation specialists Discovery Gardens, Lighting Automation experts Discovery Gardens, Lighting Automation solutions Discovery Gardens, Lighting Automation packages Discovery Gardens, Lighting Automation quotes Discovery Gardens, Lighting Automation estimates Discovery Gardens, Lighting Automation services near me Discovery Gardens, Cheap Lighting Automation Discovery Gardens, Quality Lighting Automation Discovery Gardens, Trusted Lighting Automation Discovery Gardens, Lighting Automation transformation Discovery Gardens, Lighting Automation renovation Discovery Gardens, Lighting Automation makeover Discovery Gardens, Best Lighting Automation company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Discovery Gardens. Best lighting automation Discovery Gardens Company Discovery Gardens Our luxury lighting automation discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

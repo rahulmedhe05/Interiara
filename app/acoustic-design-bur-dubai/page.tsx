@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Bur, Acoustic in Design Bur, Best acoustic Design Bur, Professional acoustic Design Bur, Luxury acoustic Design Bur, Acoustic Design Bur Dubai, Acoustic designer Design Bur, Acoustic company Design Bur, Acoustic contractor Design Bur, Affordable acoustic Design Bur, Modern acoustic Design Bur, Acoustic consultation Design Bur, Acoustic cost Design Bur, Acoustic price Design Bur, Top acoustic Design Bur
+
+// SEO Keywords: Acoustic Design Bur, Acoustic in Design Bur, Best acoustic Design Bur, Professional acoustic Design Bur, Luxury acoustic Design Bur, Acoustic Design Bur Dubai, Acoustic designer Design Bur, Acoustic company Design Bur, Acoustic contractor Design Bur, Affordable acoustic Design Bur, Modern acoustic Design Bur, Acoustic consultation Design Bur, Acoustic cost Design Bur, Acoustic price Design Bur, Top acoustic Design Bur, Acoustic near Design Bur, Acoustic specialists Design Bur, Acoustic experts Design Bur, Acoustic solutions Design Bur, Acoustic packages Design Bur, Acoustic quotes Design Bur, Acoustic estimates Design Bur, Acoustic services near me Design Bur, Cheap Acoustic Design Bur, Quality Acoustic Design Bur, Trusted Acoustic Design Bur, Acoustic transformation Design Bur, Acoustic renovation Design Bur, Acoustic makeover Design Bur, Best Acoustic company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignBur() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury acoustic design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

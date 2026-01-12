@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Bur Dubai, Lighting Automation in Bur Dubai, Best lighting automation Bur Dubai, Professional lighting automation Bur Dubai, Luxury lighting automation Bur Dubai, Lighting Automation Bur Dubai Dubai, Lighting Automation designer Bur Dubai, Lighting Automation company Bur Dubai, Lighting Automation contractor Bur Dubai, Affordable lighting automation Bur Dubai, Modern lighting automation Bur Dubai, Lighting Automation consultation Bur Dubai, Lighting Automation cost Bur Dubai, Lighting Automation price Bur Dubai, Top lighting automation Bur Dubai
+
+// SEO Keywords: Lighting Automation Bur Dubai, Lighting Automation in Bur Dubai, Best lighting automation Bur Dubai, Professional lighting automation Bur Dubai, Luxury lighting automation Bur Dubai, Lighting Automation Bur Dubai Dubai, Lighting Automation designer Bur Dubai, Lighting Automation company Bur Dubai, Lighting Automation contractor Bur Dubai, Affordable lighting automation Bur Dubai, Modern lighting automation Bur Dubai, Lighting Automation consultation Bur Dubai, Lighting Automation cost Bur Dubai, Lighting Automation price Bur Dubai, Top lighting automation Bur Dubai, Lighting Automation near Bur Dubai, Lighting Automation specialists Bur Dubai, Lighting Automation experts Bur Dubai, Lighting Automation solutions Bur Dubai, Lighting Automation packages Bur Dubai, Lighting Automation quotes Bur Dubai, Lighting Automation estimates Bur Dubai, Lighting Automation services near me Bur Dubai, Cheap Lighting Automation Bur Dubai, Quality Lighting Automation Bur Dubai, Trusted Lighting Automation Bur Dubai, Lighting Automation transformation Bur Dubai, Lighting Automation renovation Bur Dubai, Lighting Automation makeover Bur Dubai, Best Lighting Automation company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Bur Dubai. Best lighting automation Bur Dubai Company Bur Dubai Our luxury lighting automation bur dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationBurDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in bur dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near bur dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

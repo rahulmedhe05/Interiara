@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Emirates Hills, Modular Kitchens in Emirates Hills, Best modular kitchens Emirates Hills, Professional modular kitchens Emirates Hills, Luxury modular kitchens Emirates Hills, Modular Kitchens Emirates Hills Dubai, Modular Kitchens designer Emirates Hills, Modular Kitchens company Emirates Hills, Modular Kitchens contractor Emirates Hills, Affordable modular kitchens Emirates Hills, Modern modular kitchens Emirates Hills, Modular Kitchens consultation Emirates Hills, Modular Kitchens cost Emirates Hills, Modular Kitchens price Emirates Hills, Top modular kitchens Emirates Hills
+
+// SEO Keywords: Modular Kitchens Emirates Hills, Modular Kitchens in Emirates Hills, Best modular kitchens Emirates Hills, Professional modular kitchens Emirates Hills, Luxury modular kitchens Emirates Hills, Modular Kitchens Emirates Hills Dubai, Modular Kitchens designer Emirates Hills, Modular Kitchens company Emirates Hills, Modular Kitchens contractor Emirates Hills, Affordable modular kitchens Emirates Hills, Modern modular kitchens Emirates Hills, Modular Kitchens consultation Emirates Hills, Modular Kitchens cost Emirates Hills, Modular Kitchens price Emirates Hills, Top modular kitchens Emirates Hills, Modular Kitchens near Emirates Hills, Modular Kitchens specialists Emirates Hills, Modular Kitchens experts Emirates Hills, Modular Kitchens solutions Emirates Hills, Modular Kitchens packages Emirates Hills, Modular Kitchens quotes Emirates Hills, Modular Kitchens estimates Emirates Hills, Modular Kitchens services near me Emirates Hills, Cheap Modular Kitchens Emirates Hills, Quality Modular Kitchens Emirates Hills, Trusted Modular Kitchens Emirates Hills, Modular Kitchens transformation Emirates Hills, Modular Kitchens renovation Emirates Hills, Modular Kitchens makeover Emirates Hills, Best Modular Kitchens company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Emirates Hills Company Emirates Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens in Emirates Hills. Best modular kitchens Emirates Hills Company Emirates Hills Our luxury modular kitchens emirates hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensEmiratesHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens in emirates hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens near emirates hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Residential Interior Design Bur, Residential Interior in Design Bur, Best residential interior Design Bur, Professional residential interior Design Bur, Luxury residential interior Design Bur, Residential Interior Design Bur Dubai, Residential Interior designer Design Bur, Residential Interior company Design Bur, Residential Interior contractor Design Bur, Affordable residential interior Design Bur, Modern residential interior Design Bur, Residential Interior consultation Design Bur, Residential Interior cost Design Bur, Residential Interior price Design Bur, Top residential interior Design Bur
+
+// SEO Keywords: Residential Interior Design Bur, Residential Interior in Design Bur, Best residential interior Design Bur, Professional residential interior Design Bur, Luxury residential interior Design Bur, Residential Interior Design Bur Dubai, Residential Interior designer Design Bur, Residential Interior company Design Bur, Residential Interior contractor Design Bur, Affordable residential interior Design Bur, Modern residential interior Design Bur, Residential Interior consultation Design Bur, Residential Interior cost Design Bur, Residential Interior price Design Bur, Top residential interior Design Bur, Residential Interior near Design Bur, Residential Interior specialists Design Bur, Residential Interior experts Design Bur, Residential Interior solutions Design Bur, Residential Interior packages Design Bur, Residential Interior quotes Design Bur, Residential Interior estimates Design Bur, Residential Interior services near me Design Bur, Cheap Residential Interior Design Bur, Quality Residential Interior Design Bur, Trusted Residential Interior Design Bur, Residential Interior transformation Design Bur, Residential Interior renovation Design Bur, Residential Interior makeover Design Bur, Best Residential Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ResidentialInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Residential Interior in Design Bur. Best residential interior Design Bur Company Design Bur Our luxury residential interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ResidentialInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our residential interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ResidentialInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in residential interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ResidentialInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

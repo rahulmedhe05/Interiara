@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Deira, Office in Renovation Deira, Best office Renovation Deira, Professional office Renovation Deira, Luxury office Renovation Deira, Office Renovation Deira Dubai, Office designer Renovation Deira, Office company Renovation Deira, Office contractor Renovation Deira, Affordable office Renovation Deira, Modern office Renovation Deira, Office consultation Renovation Deira, Office cost Renovation Deira, Office price Renovation Deira, Top office Renovation Deira
+
+// SEO Keywords: Office Renovation Deira, Office in Renovation Deira, Best office Renovation Deira, Professional office Renovation Deira, Luxury office Renovation Deira, Office Renovation Deira Dubai, Office designer Renovation Deira, Office company Renovation Deira, Office contractor Renovation Deira, Affordable office Renovation Deira, Modern office Renovation Deira, Office consultation Renovation Deira, Office cost Renovation Deira, Office price Renovation Deira, Top office Renovation Deira, Office near Renovation Deira, Office specialists Renovation Deira, Office experts Renovation Deira, Office solutions Renovation Deira, Office packages Renovation Deira, Office quotes Renovation Deira, Office estimates Renovation Deira, Office services near me Renovation Deira, Cheap Office Renovation Deira, Quality Office Renovation Deira, Trusted Office Renovation Deira, Office transformation Renovation Deira, Office renovation Renovation Deira, Office makeover Renovation Deira, Best Office company Renovation Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Renovation Deira Company Renovation Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office in Renovation Deira. Best office Renovation Deira Company Renovation Deira Our luxury office renovation deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office in renovation deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office near renovation deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

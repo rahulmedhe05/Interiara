@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Dubai Harbour, Office Renovation in Dubai Harbour, Best office renovation Dubai Harbour, Professional office renovation Dubai Harbour, Luxury office renovation Dubai Harbour, Office Renovation Dubai Harbour Dubai, Office Renovation designer Dubai Harbour, Office Renovation company Dubai Harbour, Office Renovation contractor Dubai Harbour, Affordable office renovation Dubai Harbour, Modern office renovation Dubai Harbour, Office Renovation consultation Dubai Harbour, Office Renovation cost Dubai Harbour, Office Renovation price Dubai Harbour, Top office renovation Dubai Harbour
+
+// SEO Keywords: Office Renovation Dubai Harbour, Office Renovation in Dubai Harbour, Best office renovation Dubai Harbour, Professional office renovation Dubai Harbour, Luxury office renovation Dubai Harbour, Office Renovation Dubai Harbour Dubai, Office Renovation designer Dubai Harbour, Office Renovation company Dubai Harbour, Office Renovation contractor Dubai Harbour, Affordable office renovation Dubai Harbour, Modern office renovation Dubai Harbour, Office Renovation consultation Dubai Harbour, Office Renovation cost Dubai Harbour, Office Renovation price Dubai Harbour, Top office renovation Dubai Harbour, Office Renovation near Dubai Harbour, Office Renovation specialists Dubai Harbour, Office Renovation experts Dubai Harbour, Office Renovation solutions Dubai Harbour, Office Renovation packages Dubai Harbour, Office Renovation quotes Dubai Harbour, Office Renovation estimates Dubai Harbour, Office Renovation services near me Dubai Harbour, Cheap Office Renovation Dubai Harbour, Quality Office Renovation Dubai Harbour, Trusted Office Renovation Dubai Harbour, Office Renovation transformation Dubai Harbour, Office Renovation renovation Dubai Harbour, Office Renovation makeover Dubai Harbour, Best Office Renovation company Dubai Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Dubai Harbour Company Dubai Harbour</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Dubai Harbour. Best office renovation Dubai Harbour Company Dubai Harbour Our professional office renovation dubai harbour services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function OfficeRenovationDubaiHarbour() {
                 At Interiara, we believe that exceptional <strong>Office Renovation Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Renovation Dubai Harbour. 
                 We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function OfficeRenovationDubaiHarbour() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in dubai harbour service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationDubaiHarbour() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near dubai harbour.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationDubaiHarbour() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

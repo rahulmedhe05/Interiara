@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Emirates Hills, Drapes in Emirates Hills, Best drapes Emirates Hills, Professional drapes Emirates Hills, Luxury drapes Emirates Hills, Drapes Emirates Hills Dubai, Drapes designer Emirates Hills, Drapes company Emirates Hills, Drapes contractor Emirates Hills, Affordable drapes Emirates Hills, Modern drapes Emirates Hills, Drapes consultation Emirates Hills, Drapes cost Emirates Hills, Drapes price Emirates Hills, Top drapes Emirates Hills
+
+// SEO Keywords: Drapes Emirates Hills, Drapes in Emirates Hills, Best drapes Emirates Hills, Professional drapes Emirates Hills, Luxury drapes Emirates Hills, Drapes Emirates Hills Dubai, Drapes designer Emirates Hills, Drapes company Emirates Hills, Drapes contractor Emirates Hills, Affordable drapes Emirates Hills, Modern drapes Emirates Hills, Drapes consultation Emirates Hills, Drapes cost Emirates Hills, Drapes price Emirates Hills, Top drapes Emirates Hills, Drapes near Emirates Hills, Drapes specialists Emirates Hills, Drapes experts Emirates Hills, Drapes solutions Emirates Hills, Drapes packages Emirates Hills, Drapes quotes Emirates Hills, Drapes estimates Emirates Hills, Drapes services near me Emirates Hills, Cheap Drapes Emirates Hills, Quality Drapes Emirates Hills, Trusted Drapes Emirates Hills, Drapes transformation Emirates Hills, Drapes renovation Emirates Hills, Drapes makeover Emirates Hills, Best Drapes company Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesEmiratesHills() {
                 At Interiara, we believe that exceptional <strong>Drapes Emirates Hills Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Emirates Hills Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Emirates Hills. 
                 We've completed 300+ successful projects across Emirates Hills Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Emirates Hills Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes emirates hills services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Emirates Hills Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesEmiratesHills() {
 
               <p>
                 Interiara stands out in the crowded Emirates Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in emirates hills service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near emirates hills.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesEmiratesHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

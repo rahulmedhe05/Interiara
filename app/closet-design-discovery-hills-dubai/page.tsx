@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Discovery Hills, Closet Design in Discovery Hills, Best closet design Discovery Hills, Professional closet design Discovery Hills, Luxury closet design Discovery Hills, Closet Design Discovery Hills Dubai, Closet Design designer Discovery Hills, Closet Design company Discovery Hills, Closet Design contractor Discovery Hills, Affordable closet design Discovery Hills, Modern closet design Discovery Hills, Closet Design consultation Discovery Hills, Closet Design cost Discovery Hills, Closet Design price Discovery Hills, Top closet design Discovery Hills
+
+// SEO Keywords: Closet Design Discovery Hills, Closet Design in Discovery Hills, Best closet design Discovery Hills, Professional closet design Discovery Hills, Luxury closet design Discovery Hills, Closet Design Discovery Hills Dubai, Closet Design designer Discovery Hills, Closet Design company Discovery Hills, Closet Design contractor Discovery Hills, Affordable closet design Discovery Hills, Modern closet design Discovery Hills, Closet Design consultation Discovery Hills, Closet Design cost Discovery Hills, Closet Design price Discovery Hills, Top closet design Discovery Hills, Closet Design near Discovery Hills, Closet Design specialists Discovery Hills, Closet Design experts Discovery Hills, Closet Design solutions Discovery Hills, Closet Design packages Discovery Hills, Closet Design quotes Discovery Hills, Closet Design estimates Discovery Hills, Closet Design services near me Discovery Hills, Cheap Closet Design Discovery Hills, Quality Closet Design Discovery Hills, Trusted Closet Design Discovery Hills, Closet Design transformation Discovery Hills, Closet Design renovation Discovery Hills, Closet Design makeover Discovery Hills, Best Closet Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet Design in Discovery Hills. Best closet design Discovery Hills Company Discovery Hills Our luxury closet design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

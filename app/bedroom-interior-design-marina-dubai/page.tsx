@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Marina, Bedroom Interior in Design Marina, Best bedroom interior Design Marina, Professional bedroom interior Design Marina, Luxury bedroom interior Design Marina, Bedroom Interior Design Marina Dubai, Bedroom Interior designer Design Marina, Bedroom Interior company Design Marina, Bedroom Interior contractor Design Marina, Affordable bedroom interior Design Marina, Modern bedroom interior Design Marina, Bedroom Interior consultation Design Marina, Bedroom Interior cost Design Marina, Bedroom Interior price Design Marina, Top bedroom interior Design Marina
+
+// SEO Keywords: Bedroom Interior Design Marina, Bedroom Interior in Design Marina, Best bedroom interior Design Marina, Professional bedroom interior Design Marina, Luxury bedroom interior Design Marina, Bedroom Interior Design Marina Dubai, Bedroom Interior designer Design Marina, Bedroom Interior company Design Marina, Bedroom Interior contractor Design Marina, Affordable bedroom interior Design Marina, Modern bedroom interior Design Marina, Bedroom Interior consultation Design Marina, Bedroom Interior cost Design Marina, Bedroom Interior price Design Marina, Top bedroom interior Design Marina, Bedroom Interior near Design Marina, Bedroom Interior specialists Design Marina, Bedroom Interior experts Design Marina, Bedroom Interior solutions Design Marina, Bedroom Interior packages Design Marina, Bedroom Interior quotes Design Marina, Bedroom Interior estimates Design Marina, Bedroom Interior services near me Design Marina, Cheap Bedroom Interior Design Marina, Quality Bedroom Interior Design Marina, Trusted Bedroom Interior Design Marina, Bedroom Interior transformation Design Marina, Bedroom Interior renovation Design Marina, Bedroom Interior makeover Design Marina, Best Bedroom Interior company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Marina Company Design Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior in Design Marina. Best bedroom interior Design Marina Company Design Marina Our professional bedroom interior design marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function BedroomInteriorDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Bedroom Interior Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Bedroom Interior Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Bedroom Interior Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior in design marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior near design marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

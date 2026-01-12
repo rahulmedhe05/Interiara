@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Umm Suqeim, Drapes in Umm Suqeim, Best drapes Umm Suqeim, Professional drapes Umm Suqeim, Luxury drapes Umm Suqeim, Drapes Umm Suqeim Dubai, Drapes designer Umm Suqeim, Drapes company Umm Suqeim, Drapes contractor Umm Suqeim, Affordable drapes Umm Suqeim, Modern drapes Umm Suqeim, Drapes consultation Umm Suqeim, Drapes cost Umm Suqeim, Drapes price Umm Suqeim, Top drapes Umm Suqeim
+
+// SEO Keywords: Drapes Umm Suqeim, Drapes in Umm Suqeim, Best drapes Umm Suqeim, Professional drapes Umm Suqeim, Luxury drapes Umm Suqeim, Drapes Umm Suqeim Dubai, Drapes designer Umm Suqeim, Drapes company Umm Suqeim, Drapes contractor Umm Suqeim, Affordable drapes Umm Suqeim, Modern drapes Umm Suqeim, Drapes consultation Umm Suqeim, Drapes cost Umm Suqeim, Drapes price Umm Suqeim, Top drapes Umm Suqeim, Drapes near Umm Suqeim, Drapes specialists Umm Suqeim, Drapes experts Umm Suqeim, Drapes solutions Umm Suqeim, Drapes packages Umm Suqeim, Drapes quotes Umm Suqeim, Drapes estimates Umm Suqeim, Drapes services near me Umm Suqeim, Cheap Drapes Umm Suqeim, Quality Drapes Umm Suqeim, Trusted Drapes Umm Suqeim, Drapes transformation Umm Suqeim, Drapes renovation Umm Suqeim, Drapes makeover Umm Suqeim, Best Drapes company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesUmmSuqeim() {
                 At Interiara, we believe that exceptional <strong>Drapes Umm Suqeim Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Umm Suqeim Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Umm Suqeim. 
                 We've completed 300+ successful projects across Umm Suqeim Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Umm Suqeim Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes umm suqeim services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Umm Suqeim Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in umm suqeim service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near umm suqeim.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Discovery Gardens, Wallpaper Design in Discovery Gardens, Best wallpaper design Discovery Gardens, Professional wallpaper design Discovery Gardens, Luxury wallpaper design Discovery Gardens, Wallpaper Design Discovery Gardens Dubai, Wallpaper Design designer Discovery Gardens, Wallpaper Design company Discovery Gardens, Wallpaper Design contractor Discovery Gardens, Affordable wallpaper design Discovery Gardens, Modern wallpaper design Discovery Gardens, Wallpaper Design consultation Discovery Gardens, Wallpaper Design cost Discovery Gardens, Wallpaper Design price Discovery Gardens, Top wallpaper design Discovery Gardens
+
+// SEO Keywords: Wallpaper Design Discovery Gardens, Wallpaper Design in Discovery Gardens, Best wallpaper design Discovery Gardens, Professional wallpaper design Discovery Gardens, Luxury wallpaper design Discovery Gardens, Wallpaper Design Discovery Gardens Dubai, Wallpaper Design designer Discovery Gardens, Wallpaper Design company Discovery Gardens, Wallpaper Design contractor Discovery Gardens, Affordable wallpaper design Discovery Gardens, Modern wallpaper design Discovery Gardens, Wallpaper Design consultation Discovery Gardens, Wallpaper Design cost Discovery Gardens, Wallpaper Design price Discovery Gardens, Top wallpaper design Discovery Gardens, Wallpaper Design near Discovery Gardens, Wallpaper Design specialists Discovery Gardens, Wallpaper Design experts Discovery Gardens, Wallpaper Design solutions Discovery Gardens, Wallpaper Design packages Discovery Gardens, Wallpaper Design quotes Discovery Gardens, Wallpaper Design estimates Discovery Gardens, Wallpaper Design services near me Discovery Gardens, Cheap Wallpaper Design Discovery Gardens, Quality Wallpaper Design Discovery Gardens, Trusted Wallpaper Design Discovery Gardens, Wallpaper Design transformation Discovery Gardens, Wallpaper Design renovation Discovery Gardens, Wallpaper Design makeover Discovery Gardens, Best Wallpaper Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallpaperDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wallpaper Design in Discovery Gardens. Best wallpaper design Discovery Gardens Company Discovery Gardens Our luxury wallpaper design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallpaperDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wallpaper design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallpaperDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wallpaper design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallpaperDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Business Bay, Soundproofing Design in Business Bay, Best soundproofing design Business Bay, Professional soundproofing design Business Bay, Luxury soundproofing design Business Bay, Soundproofing Design Business Bay Dubai, Soundproofing Design designer Business Bay, Soundproofing Design company Business Bay, Soundproofing Design contractor Business Bay, Affordable soundproofing design Business Bay, Modern soundproofing design Business Bay, Soundproofing Design consultation Business Bay, Soundproofing Design cost Business Bay, Soundproofing Design price Business Bay, Top soundproofing design Business Bay
+
+// SEO Keywords: Soundproofing Design Business Bay, Soundproofing Design in Business Bay, Best soundproofing design Business Bay, Professional soundproofing design Business Bay, Luxury soundproofing design Business Bay, Soundproofing Design Business Bay Dubai, Soundproofing Design designer Business Bay, Soundproofing Design company Business Bay, Soundproofing Design contractor Business Bay, Affordable soundproofing design Business Bay, Modern soundproofing design Business Bay, Soundproofing Design consultation Business Bay, Soundproofing Design cost Business Bay, Soundproofing Design price Business Bay, Top soundproofing design Business Bay, Soundproofing Design near Business Bay, Soundproofing Design specialists Business Bay, Soundproofing Design experts Business Bay, Soundproofing Design solutions Business Bay, Soundproofing Design packages Business Bay, Soundproofing Design quotes Business Bay, Soundproofing Design estimates Business Bay, Soundproofing Design services near me Business Bay, Cheap Soundproofing Design Business Bay, Quality Soundproofing Design Business Bay, Trusted Soundproofing Design Business Bay, Soundproofing Design transformation Business Bay, Soundproofing Design renovation Business Bay, Soundproofing Design makeover Business Bay, Best Soundproofing Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Business Bay. Best soundproofing design Business Bay Company Business Bay Our luxury soundproofing design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

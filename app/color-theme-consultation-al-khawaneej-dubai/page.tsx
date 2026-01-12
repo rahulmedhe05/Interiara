@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Al Khawaneej, Color Theme Consultation in Al Khawaneej, Best color theme consultation Al Khawaneej, Professional color theme consultation Al Khawaneej, Luxury color theme consultation Al Khawaneej, Color Theme Consultation Al Khawaneej Dubai, Color Theme Consultation designer Al Khawaneej, Color Theme Consultation company Al Khawaneej, Color Theme Consultation contractor Al Khawaneej, Affordable color theme consultation Al Khawaneej, Modern color theme consultation Al Khawaneej, Color Theme Consultation consultation Al Khawaneej, Color Theme Consultation cost Al Khawaneej, Color Theme Consultation price Al Khawaneej, Top color theme consultation Al Khawaneej
+
+// SEO Keywords: Color Theme Consultation Al Khawaneej, Color Theme Consultation in Al Khawaneej, Best color theme consultation Al Khawaneej, Professional color theme consultation Al Khawaneej, Luxury color theme consultation Al Khawaneej, Color Theme Consultation Al Khawaneej Dubai, Color Theme Consultation designer Al Khawaneej, Color Theme Consultation company Al Khawaneej, Color Theme Consultation contractor Al Khawaneej, Affordable color theme consultation Al Khawaneej, Modern color theme consultation Al Khawaneej, Color Theme Consultation consultation Al Khawaneej, Color Theme Consultation cost Al Khawaneej, Color Theme Consultation price Al Khawaneej, Top color theme consultation Al Khawaneej, Color Theme Consultation near Al Khawaneej, Color Theme Consultation specialists Al Khawaneej, Color Theme Consultation experts Al Khawaneej, Color Theme Consultation solutions Al Khawaneej, Color Theme Consultation packages Al Khawaneej, Color Theme Consultation quotes Al Khawaneej, Color Theme Consultation estimates Al Khawaneej, Color Theme Consultation services near me Al Khawaneej, Cheap Color Theme Consultation Al Khawaneej, Quality Color Theme Consultation Al Khawaneej, Trusted Color Theme Consultation Al Khawaneej, Color Theme Consultation transformation Al Khawaneej, Color Theme Consultation renovation Al Khawaneej, Color Theme Consultation makeover Al Khawaneej, Best Color Theme Consultation company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Al Khawaneej. Best color theme consultation Al Khawaneej Company Al Khawaneej Our luxury color theme consultation al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

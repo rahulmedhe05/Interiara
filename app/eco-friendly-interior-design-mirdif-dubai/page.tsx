@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Eco Friendly Interior Design Mirdif, Eco Friendly Interior in Design Mirdif, Best eco friendly interior Design Mirdif, Professional eco friendly interior Design Mirdif, Luxury eco friendly interior Design Mirdif, Eco Friendly Interior Design Mirdif Dubai, Eco Friendly Interior designer Design Mirdif, Eco Friendly Interior company Design Mirdif, Eco Friendly Interior contractor Design Mirdif, Affordable eco friendly interior Design Mirdif, Modern eco friendly interior Design Mirdif, Eco Friendly Interior consultation Design Mirdif, Eco Friendly Interior cost Design Mirdif, Eco Friendly Interior price Design Mirdif, Top eco friendly interior Design Mirdif
+
+// SEO Keywords: Eco Friendly Interior Design Mirdif, Eco Friendly Interior in Design Mirdif, Best eco friendly interior Design Mirdif, Professional eco friendly interior Design Mirdif, Luxury eco friendly interior Design Mirdif, Eco Friendly Interior Design Mirdif Dubai, Eco Friendly Interior designer Design Mirdif, Eco Friendly Interior company Design Mirdif, Eco Friendly Interior contractor Design Mirdif, Affordable eco friendly interior Design Mirdif, Modern eco friendly interior Design Mirdif, Eco Friendly Interior consultation Design Mirdif, Eco Friendly Interior cost Design Mirdif, Eco Friendly Interior price Design Mirdif, Top eco friendly interior Design Mirdif, Eco Friendly Interior near Design Mirdif, Eco Friendly Interior specialists Design Mirdif, Eco Friendly Interior experts Design Mirdif, Eco Friendly Interior solutions Design Mirdif, Eco Friendly Interior packages Design Mirdif, Eco Friendly Interior quotes Design Mirdif, Eco Friendly Interior estimates Design Mirdif, Eco Friendly Interior services near me Design Mirdif, Cheap Eco Friendly Interior Design Mirdif, Quality Eco Friendly Interior Design Mirdif, Trusted Eco Friendly Interior Design Mirdif, Eco Friendly Interior transformation Design Mirdif, Eco Friendly Interior renovation Design Mirdif, Eco Friendly Interior makeover Design Mirdif, Best Eco Friendly Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EcoFriendlyInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Eco Friendly Interior in Design Mirdif. Best eco friendly interior Design Mirdif Company Design Mirdif Our luxury eco friendly interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EcoFriendlyInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our eco friendly interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EcoFriendlyInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in eco friendly interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EcoFriendlyInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

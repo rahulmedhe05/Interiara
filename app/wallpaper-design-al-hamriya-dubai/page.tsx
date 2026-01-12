@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Al Hamriya, Wallpaper Design in Al Hamriya, Best wallpaper design Al Hamriya, Professional wallpaper design Al Hamriya, Luxury wallpaper design Al Hamriya, Wallpaper Design Al Hamriya Dubai, Wallpaper Design designer Al Hamriya, Wallpaper Design company Al Hamriya, Wallpaper Design contractor Al Hamriya, Affordable wallpaper design Al Hamriya, Modern wallpaper design Al Hamriya, Wallpaper Design consultation Al Hamriya, Wallpaper Design cost Al Hamriya, Wallpaper Design price Al Hamriya, Top wallpaper design Al Hamriya
+
+// SEO Keywords: Wallpaper Design Al Hamriya, Wallpaper Design in Al Hamriya, Best wallpaper design Al Hamriya, Professional wallpaper design Al Hamriya, Luxury wallpaper design Al Hamriya, Wallpaper Design Al Hamriya Dubai, Wallpaper Design designer Al Hamriya, Wallpaper Design company Al Hamriya, Wallpaper Design contractor Al Hamriya, Affordable wallpaper design Al Hamriya, Modern wallpaper design Al Hamriya, Wallpaper Design consultation Al Hamriya, Wallpaper Design cost Al Hamriya, Wallpaper Design price Al Hamriya, Top wallpaper design Al Hamriya, Wallpaper Design near Al Hamriya, Wallpaper Design specialists Al Hamriya, Wallpaper Design experts Al Hamriya, Wallpaper Design solutions Al Hamriya, Wallpaper Design packages Al Hamriya, Wallpaper Design quotes Al Hamriya, Wallpaper Design estimates Al Hamriya, Wallpaper Design services near me Al Hamriya, Cheap Wallpaper Design Al Hamriya, Quality Wallpaper Design Al Hamriya, Trusted Wallpaper Design Al Hamriya, Wallpaper Design transformation Al Hamriya, Wallpaper Design renovation Al Hamriya, Wallpaper Design makeover Al Hamriya, Best Wallpaper Design company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallpaperDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wallpaper Design in Al Hamriya. Best wallpaper design Al Hamriya Company Al Hamriya Our luxury wallpaper design al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallpaperDesignAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wallpaper design in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallpaperDesignAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wallpaper design near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallpaperDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

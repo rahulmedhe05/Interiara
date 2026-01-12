@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Jbr, Kids Interior in Design Jbr, Best kids interior Design Jbr, Professional kids interior Design Jbr, Luxury kids interior Design Jbr, Kids Interior Design Jbr Dubai, Kids Interior designer Design Jbr, Kids Interior company Design Jbr, Kids Interior contractor Design Jbr, Affordable kids interior Design Jbr, Modern kids interior Design Jbr, Kids Interior consultation Design Jbr, Kids Interior cost Design Jbr, Kids Interior price Design Jbr, Top kids interior Design Jbr
+
+// SEO Keywords: Kids Interior Design Jbr, Kids Interior in Design Jbr, Best kids interior Design Jbr, Professional kids interior Design Jbr, Luxury kids interior Design Jbr, Kids Interior Design Jbr Dubai, Kids Interior designer Design Jbr, Kids Interior company Design Jbr, Kids Interior contractor Design Jbr, Affordable kids interior Design Jbr, Modern kids interior Design Jbr, Kids Interior consultation Design Jbr, Kids Interior cost Design Jbr, Kids Interior price Design Jbr, Top kids interior Design Jbr, Kids Interior near Design Jbr, Kids Interior specialists Design Jbr, Kids Interior experts Design Jbr, Kids Interior solutions Design Jbr, Kids Interior packages Design Jbr, Kids Interior quotes Design Jbr, Kids Interior estimates Design Jbr, Kids Interior services near me Design Jbr, Cheap Kids Interior Design Jbr, Quality Kids Interior Design Jbr, Trusted Kids Interior Design Jbr, Kids Interior transformation Design Jbr, Kids Interior renovation Design Jbr, Kids Interior makeover Design Jbr, Best Kids Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function KidsInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Kids Interior in Design Jbr. Kids Interior Design Jbr. 
+                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior in Design Jbr. Kids Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury kids interior design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Kids Interior Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function KidsInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our kids interior in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in kids interior near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

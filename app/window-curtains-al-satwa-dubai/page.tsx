@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Al Satwa, Window Curtains in Al Satwa, Best window curtains Al Satwa, Professional window curtains Al Satwa, Luxury window curtains Al Satwa, Window Curtains Al Satwa Dubai, Window Curtains designer Al Satwa, Window Curtains company Al Satwa, Window Curtains contractor Al Satwa, Affordable window curtains Al Satwa, Modern window curtains Al Satwa, Window Curtains consultation Al Satwa, Window Curtains cost Al Satwa, Window Curtains price Al Satwa, Top window curtains Al Satwa
+
+// SEO Keywords: Window Curtains Al Satwa, Window Curtains in Al Satwa, Best window curtains Al Satwa, Professional window curtains Al Satwa, Luxury window curtains Al Satwa, Window Curtains Al Satwa Dubai, Window Curtains designer Al Satwa, Window Curtains company Al Satwa, Window Curtains contractor Al Satwa, Affordable window curtains Al Satwa, Modern window curtains Al Satwa, Window Curtains consultation Al Satwa, Window Curtains cost Al Satwa, Window Curtains price Al Satwa, Top window curtains Al Satwa, Window Curtains near Al Satwa, Window Curtains specialists Al Satwa, Window Curtains experts Al Satwa, Window Curtains solutions Al Satwa, Window Curtains packages Al Satwa, Window Curtains quotes Al Satwa, Window Curtains estimates Al Satwa, Window Curtains services near me Al Satwa, Cheap Window Curtains Al Satwa, Quality Window Curtains Al Satwa, Trusted Window Curtains Al Satwa, Window Curtains transformation Al Satwa, Window Curtains renovation Al Satwa, Window Curtains makeover Al Satwa, Best Window Curtains company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WindowCurtainsAlSatwa() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Al Satwa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Satwa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains in Al Satwa. 
                 We've completed 300+ successful projects across Al Satwa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Al Satwa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury window curtains al satwa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Curtains Al Satwa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WindowCurtainsAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our window curtains in al satwa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in window curtains near al satwa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WindowCurtainsAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

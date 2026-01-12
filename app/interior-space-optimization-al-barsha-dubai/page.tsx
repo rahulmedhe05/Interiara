@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Space Optimization Al Barsha, Interior Space Optimization in Al Barsha, Best interior space optimization Al Barsha, Professional interior space optimization Al Barsha, Luxury interior space optimization Al Barsha, Interior Space Optimization Al Barsha Dubai, Interior Space Optimization designer Al Barsha, Interior Space Optimization company Al Barsha, Interior Space Optimization contractor Al Barsha, Affordable interior space optimization Al Barsha, Modern interior space optimization Al Barsha, Interior Space Optimization consultation Al Barsha, Interior Space Optimization cost Al Barsha, Interior Space Optimization price Al Barsha, Top interior space optimization Al Barsha
+
+// SEO Keywords: Interior Space Optimization Al Barsha, Interior Space Optimization in Al Barsha, Best interior space optimization Al Barsha, Professional interior space optimization Al Barsha, Luxury interior space optimization Al Barsha, Interior Space Optimization Al Barsha Dubai, Interior Space Optimization designer Al Barsha, Interior Space Optimization company Al Barsha, Interior Space Optimization contractor Al Barsha, Affordable interior space optimization Al Barsha, Modern interior space optimization Al Barsha, Interior Space Optimization consultation Al Barsha, Interior Space Optimization cost Al Barsha, Interior Space Optimization price Al Barsha, Top interior space optimization Al Barsha, Interior Space Optimization near Al Barsha, Interior Space Optimization specialists Al Barsha, Interior Space Optimization experts Al Barsha, Interior Space Optimization solutions Al Barsha, Interior Space Optimization packages Al Barsha, Interior Space Optimization quotes Al Barsha, Interior Space Optimization estimates Al Barsha, Interior Space Optimization services near me Al Barsha, Cheap Interior Space Optimization Al Barsha, Quality Interior Space Optimization Al Barsha, Trusted Interior Space Optimization Al Barsha, Interior Space Optimization transformation Al Barsha, Interior Space Optimization renovation Al Barsha, Interior Space Optimization makeover Al Barsha, Best Interior Space Optimization company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorSpaceOptimizationAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Space Optimization in Al Barsha. Best interior space optimization Al Barsha Company Al Barsha Our luxury interior space optimization al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorSpaceOptimizationAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior space optimization in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorSpaceOptimizationAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior space optimization near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorSpaceOptimizationAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

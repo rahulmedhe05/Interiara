@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Culture Village, Window Curtains in Culture Village, Best window curtains Culture Village, Professional window curtains Culture Village, Luxury window curtains Culture Village, Window Curtains Culture Village Dubai, Window Curtains designer Culture Village, Window Curtains company Culture Village, Window Curtains contractor Culture Village, Affordable window curtains Culture Village, Modern window curtains Culture Village, Window Curtains consultation Culture Village, Window Curtains cost Culture Village, Window Curtains price Culture Village, Top window curtains Culture Village
+
+// SEO Keywords: Window Curtains Culture Village, Window Curtains in Culture Village, Best window curtains Culture Village, Professional window curtains Culture Village, Luxury window curtains Culture Village, Window Curtains Culture Village Dubai, Window Curtains designer Culture Village, Window Curtains company Culture Village, Window Curtains contractor Culture Village, Affordable window curtains Culture Village, Modern window curtains Culture Village, Window Curtains consultation Culture Village, Window Curtains cost Culture Village, Window Curtains price Culture Village, Top window curtains Culture Village, Window Curtains near Culture Village, Window Curtains specialists Culture Village, Window Curtains experts Culture Village, Window Curtains solutions Culture Village, Window Curtains packages Culture Village, Window Curtains quotes Culture Village, Window Curtains estimates Culture Village, Window Curtains services near me Culture Village, Cheap Window Curtains Culture Village, Quality Window Curtains Culture Village, Trusted Window Curtains Culture Village, Window Curtains transformation Culture Village, Window Curtains renovation Culture Village, Window Curtains makeover Culture Village, Best Window Curtains company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains in Culture Village. Best window curtains Culture Village Company Culture Village Our luxury window curtains culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

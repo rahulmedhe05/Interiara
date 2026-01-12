@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Al Barsha, Office Renovation in Al Barsha, Best office renovation Al Barsha, Professional office renovation Al Barsha, Luxury office renovation Al Barsha, Office Renovation Al Barsha Dubai, Office Renovation designer Al Barsha, Office Renovation company Al Barsha, Office Renovation contractor Al Barsha, Affordable office renovation Al Barsha, Modern office renovation Al Barsha, Office Renovation consultation Al Barsha, Office Renovation cost Al Barsha, Office Renovation price Al Barsha, Top office renovation Al Barsha
+
+// SEO Keywords: Office Renovation Al Barsha, Office Renovation in Al Barsha, Best office renovation Al Barsha, Professional office renovation Al Barsha, Luxury office renovation Al Barsha, Office Renovation Al Barsha Dubai, Office Renovation designer Al Barsha, Office Renovation company Al Barsha, Office Renovation contractor Al Barsha, Affordable office renovation Al Barsha, Modern office renovation Al Barsha, Office Renovation consultation Al Barsha, Office Renovation cost Al Barsha, Office Renovation price Al Barsha, Top office renovation Al Barsha, Office Renovation near Al Barsha, Office Renovation specialists Al Barsha, Office Renovation experts Al Barsha, Office Renovation solutions Al Barsha, Office Renovation packages Al Barsha, Office Renovation quotes Al Barsha, Office Renovation estimates Al Barsha, Office Renovation services near me Al Barsha, Cheap Office Renovation Al Barsha, Quality Office Renovation Al Barsha, Trusted Office Renovation Al Barsha, Office Renovation transformation Al Barsha, Office Renovation renovation Al Barsha, Office Renovation makeover Al Barsha, Best Office Renovation company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Al Barsha. Best office renovation Al Barsha Company Al Barsha Our luxury office renovation al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

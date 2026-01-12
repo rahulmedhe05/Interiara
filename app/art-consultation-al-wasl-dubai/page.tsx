@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Art Consultation Al Wasl, Art Consultation in Al Wasl, Best art consultation Al Wasl, Professional art consultation Al Wasl, Luxury art consultation Al Wasl, Art Consultation Al Wasl Dubai, Art Consultation designer Al Wasl, Art Consultation company Al Wasl, Art Consultation contractor Al Wasl, Affordable art consultation Al Wasl, Modern art consultation Al Wasl, Art Consultation consultation Al Wasl, Art Consultation cost Al Wasl, Art Consultation price Al Wasl, Top art consultation Al Wasl
+
+// SEO Keywords: Art Consultation Al Wasl, Art Consultation in Al Wasl, Best art consultation Al Wasl, Professional art consultation Al Wasl, Luxury art consultation Al Wasl, Art Consultation Al Wasl Dubai, Art Consultation designer Al Wasl, Art Consultation company Al Wasl, Art Consultation contractor Al Wasl, Affordable art consultation Al Wasl, Modern art consultation Al Wasl, Art Consultation consultation Al Wasl, Art Consultation cost Al Wasl, Art Consultation price Al Wasl, Top art consultation Al Wasl, Art Consultation near Al Wasl, Art Consultation specialists Al Wasl, Art Consultation experts Al Wasl, Art Consultation solutions Al Wasl, Art Consultation packages Al Wasl, Art Consultation quotes Al Wasl, Art Consultation estimates Al Wasl, Art Consultation services near me Al Wasl, Cheap Art Consultation Al Wasl, Quality Art Consultation Al Wasl, Trusted Art Consultation Al Wasl, Art Consultation transformation Al Wasl, Art Consultation renovation Al Wasl, Art Consultation makeover Al Wasl, Best Art Consultation company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ArtConsultationAlWasl() {
                 At Interiara, we believe that exceptional <strong>Art Consultation Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Art Consultation in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury art consultation al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ArtConsultationAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our art consultation in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in art consultation near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ArtConsultationAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

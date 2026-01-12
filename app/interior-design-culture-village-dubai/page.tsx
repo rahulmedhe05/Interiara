@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Interior Design Culture Village, Interior Design in Culture Village, Best interior design Culture Village, Professional interior design Culture Village, Luxury interior design Culture Village, Interior Design Culture Village Dubai, Interior Design designer Culture Village, Interior Design company Culture Village, Interior Design contractor Culture Village, Affordable interior design Culture Village, Modern interior design Culture Village, Interior Design consultation Culture Village, Interior Design cost Culture Village, Interior Design price Culture Village, Top interior design Culture Village
+
+// SEO Keywords: Interior Design Culture Village, Interior Design in Culture Village, Best interior design Culture Village, Professional interior design Culture Village, Luxury interior design Culture Village, Interior Design Culture Village Dubai, Interior Design designer Culture Village, Interior Design company Culture Village, Interior Design contractor Culture Village, Affordable interior design Culture Village, Modern interior design Culture Village, Interior Design consultation Culture Village, Interior Design cost Culture Village, Interior Design price Culture Village, Top interior design Culture Village, Interior Design near Culture Village, Interior Design specialists Culture Village, Interior Design experts Culture Village, Interior Design solutions Culture Village, Interior Design packages Culture Village, Interior Design quotes Culture Village, Interior Design estimates Culture Village, Interior Design services near me Culture Village, Cheap Interior Design Culture Village, Quality Interior Design Culture Village, Trusted Interior Design Culture Village, Interior Design transformation Culture Village, Interior Design renovation Culture Village, Interior Design makeover Culture Village, Best Interior Design company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function InteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Interior Design in Culture Village. Best interior design Culture Village Company Culture Village Our luxury interior design culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function InteriorDesignCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our interior design in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function InteriorDesignCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in interior design near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function InteriorDesignCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

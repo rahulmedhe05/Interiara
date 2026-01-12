@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bespoke Furniture Design Mirdif, Bespoke Furniture in Design Mirdif, Best bespoke furniture Design Mirdif, Professional bespoke furniture Design Mirdif, Luxury bespoke furniture Design Mirdif, Bespoke Furniture Design Mirdif Dubai, Bespoke Furniture designer Design Mirdif, Bespoke Furniture company Design Mirdif, Bespoke Furniture contractor Design Mirdif, Affordable bespoke furniture Design Mirdif, Modern bespoke furniture Design Mirdif, Bespoke Furniture consultation Design Mirdif, Bespoke Furniture cost Design Mirdif, Bespoke Furniture price Design Mirdif, Top bespoke furniture Design Mirdif
+
+// SEO Keywords: Bespoke Furniture Design Mirdif, Bespoke Furniture in Design Mirdif, Best bespoke furniture Design Mirdif, Professional bespoke furniture Design Mirdif, Luxury bespoke furniture Design Mirdif, Bespoke Furniture Design Mirdif Dubai, Bespoke Furniture designer Design Mirdif, Bespoke Furniture company Design Mirdif, Bespoke Furniture contractor Design Mirdif, Affordable bespoke furniture Design Mirdif, Modern bespoke furniture Design Mirdif, Bespoke Furniture consultation Design Mirdif, Bespoke Furniture cost Design Mirdif, Bespoke Furniture price Design Mirdif, Top bespoke furniture Design Mirdif, Bespoke Furniture near Design Mirdif, Bespoke Furniture specialists Design Mirdif, Bespoke Furniture experts Design Mirdif, Bespoke Furniture solutions Design Mirdif, Bespoke Furniture packages Design Mirdif, Bespoke Furniture quotes Design Mirdif, Bespoke Furniture estimates Design Mirdif, Bespoke Furniture services near me Design Mirdif, Cheap Bespoke Furniture Design Mirdif, Quality Bespoke Furniture Design Mirdif, Trusted Bespoke Furniture Design Mirdif, Bespoke Furniture transformation Design Mirdif, Bespoke Furniture renovation Design Mirdif, Bespoke Furniture makeover Design Mirdif, Best Bespoke Furniture company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BespokeFurnitureDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bespoke Furniture in Design Mirdif. Best bespoke furniture Design Mirdif Company Design Mirdif Our luxury bespoke furniture design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BespokeFurnitureDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bespoke furniture in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BespokeFurnitureDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bespoke furniture near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BespokeFurnitureDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Al Mizhar, Lighting Design in Al Mizhar, Best lighting design Al Mizhar, Professional lighting design Al Mizhar, Luxury lighting design Al Mizhar, Lighting Design Al Mizhar Dubai, Lighting Design designer Al Mizhar, Lighting Design company Al Mizhar, Lighting Design contractor Al Mizhar, Affordable lighting design Al Mizhar, Modern lighting design Al Mizhar, Lighting Design consultation Al Mizhar, Lighting Design cost Al Mizhar, Lighting Design price Al Mizhar, Top lighting design Al Mizhar
+
+// SEO Keywords: Lighting Design Al Mizhar, Lighting Design in Al Mizhar, Best lighting design Al Mizhar, Professional lighting design Al Mizhar, Luxury lighting design Al Mizhar, Lighting Design Al Mizhar Dubai, Lighting Design designer Al Mizhar, Lighting Design company Al Mizhar, Lighting Design contractor Al Mizhar, Affordable lighting design Al Mizhar, Modern lighting design Al Mizhar, Lighting Design consultation Al Mizhar, Lighting Design cost Al Mizhar, Lighting Design price Al Mizhar, Top lighting design Al Mizhar, Lighting Design near Al Mizhar, Lighting Design specialists Al Mizhar, Lighting Design experts Al Mizhar, Lighting Design solutions Al Mizhar, Lighting Design packages Al Mizhar, Lighting Design quotes Al Mizhar, Lighting Design estimates Al Mizhar, Lighting Design services near me Al Mizhar, Cheap Lighting Design Al Mizhar, Quality Lighting Design Al Mizhar, Trusted Lighting Design Al Mizhar, Lighting Design transformation Al Mizhar, Lighting Design renovation Al Mizhar, Lighting Design makeover Al Mizhar, Best Lighting Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingDesignAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Lighting Design Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Design in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Design Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting design al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Design Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting design in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting design near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

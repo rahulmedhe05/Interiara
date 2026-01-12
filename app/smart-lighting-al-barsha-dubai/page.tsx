@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Barsha, Smart Lighting in Al Barsha, Best smart lighting Al Barsha, Professional smart lighting Al Barsha, Luxury smart lighting Al Barsha, Smart Lighting Al Barsha Dubai, Smart Lighting designer Al Barsha, Smart Lighting company Al Barsha, Smart Lighting contractor Al Barsha, Affordable smart lighting Al Barsha, Modern smart lighting Al Barsha, Smart Lighting consultation Al Barsha, Smart Lighting cost Al Barsha, Smart Lighting price Al Barsha, Top smart lighting Al Barsha
+
+// SEO Keywords: Smart Lighting Al Barsha, Smart Lighting in Al Barsha, Best smart lighting Al Barsha, Professional smart lighting Al Barsha, Luxury smart lighting Al Barsha, Smart Lighting Al Barsha Dubai, Smart Lighting designer Al Barsha, Smart Lighting company Al Barsha, Smart Lighting contractor Al Barsha, Affordable smart lighting Al Barsha, Modern smart lighting Al Barsha, Smart Lighting consultation Al Barsha, Smart Lighting cost Al Barsha, Smart Lighting price Al Barsha, Top smart lighting Al Barsha, Smart Lighting near Al Barsha, Smart Lighting specialists Al Barsha, Smart Lighting experts Al Barsha, Smart Lighting solutions Al Barsha, Smart Lighting packages Al Barsha, Smart Lighting quotes Al Barsha, Smart Lighting estimates Al Barsha, Smart Lighting services near me Al Barsha, Cheap Smart Lighting Al Barsha, Quality Smart Lighting Al Barsha, Trusted Smart Lighting Al Barsha, Smart Lighting transformation Al Barsha, Smart Lighting renovation Al Barsha, Smart Lighting makeover Al Barsha, Best Smart Lighting company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlBarsha() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Barsha Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Barsha Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Barsha. 
                 We've completed 300+ successful projects across Al Barsha Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Barsha Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al barsha services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Barsha Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al barsha service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al barsha.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

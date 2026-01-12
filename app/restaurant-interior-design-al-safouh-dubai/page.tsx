@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Al Safouh, Restaurant Interior Design in Al Safouh, Best restaurant interior design Al Safouh, Professional restaurant interior design Al Safouh, Luxury restaurant interior design Al Safouh, Restaurant Interior Design Al Safouh Dubai, Restaurant Interior Design designer Al Safouh, Restaurant Interior Design company Al Safouh, Restaurant Interior Design contractor Al Safouh, Affordable restaurant interior design Al Safouh, Modern restaurant interior design Al Safouh, Restaurant Interior Design consultation Al Safouh, Restaurant Interior Design cost Al Safouh, Restaurant Interior Design price Al Safouh, Top restaurant interior design Al Safouh
+
+// SEO Keywords: Restaurant Interior Design Al Safouh, Restaurant Interior Design in Al Safouh, Best restaurant interior design Al Safouh, Professional restaurant interior design Al Safouh, Luxury restaurant interior design Al Safouh, Restaurant Interior Design Al Safouh Dubai, Restaurant Interior Design designer Al Safouh, Restaurant Interior Design company Al Safouh, Restaurant Interior Design contractor Al Safouh, Affordable restaurant interior design Al Safouh, Modern restaurant interior design Al Safouh, Restaurant Interior Design consultation Al Safouh, Restaurant Interior Design cost Al Safouh, Restaurant Interior Design price Al Safouh, Top restaurant interior design Al Safouh, Restaurant Interior Design near Al Safouh, Restaurant Interior Design specialists Al Safouh, Restaurant Interior Design experts Al Safouh, Restaurant Interior Design solutions Al Safouh, Restaurant Interior Design packages Al Safouh, Restaurant Interior Design quotes Al Safouh, Restaurant Interior Design estimates Al Safouh, Restaurant Interior Design services near me Al Safouh, Cheap Restaurant Interior Design Al Safouh, Quality Restaurant Interior Design Al Safouh, Trusted Restaurant Interior Design Al Safouh, Restaurant Interior Design transformation Al Safouh, Restaurant Interior Design renovation Al Safouh, Restaurant Interior Design makeover Al Safouh, Best Restaurant Interior Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior Design in Al Safouh. Best restaurant interior design Al Safouh Company Al Safouh Our luxury restaurant interior design al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior design in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior design near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

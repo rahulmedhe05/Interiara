@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Jlt, Hotel Interior in Design Jlt, Best hotel interior Design Jlt, Professional hotel interior Design Jlt, Luxury hotel interior Design Jlt, Hotel Interior Design Jlt Dubai, Hotel Interior designer Design Jlt, Hotel Interior company Design Jlt, Hotel Interior contractor Design Jlt, Affordable hotel interior Design Jlt, Modern hotel interior Design Jlt, Hotel Interior consultation Design Jlt, Hotel Interior cost Design Jlt, Hotel Interior price Design Jlt, Top hotel interior Design Jlt
+
+// SEO Keywords: Hotel Interior Design Jlt, Hotel Interior in Design Jlt, Best hotel interior Design Jlt, Professional hotel interior Design Jlt, Luxury hotel interior Design Jlt, Hotel Interior Design Jlt Dubai, Hotel Interior designer Design Jlt, Hotel Interior company Design Jlt, Hotel Interior contractor Design Jlt, Affordable hotel interior Design Jlt, Modern hotel interior Design Jlt, Hotel Interior consultation Design Jlt, Hotel Interior cost Design Jlt, Hotel Interior price Design Jlt, Top hotel interior Design Jlt, Hotel Interior near Design Jlt, Hotel Interior specialists Design Jlt, Hotel Interior experts Design Jlt, Hotel Interior solutions Design Jlt, Hotel Interior packages Design Jlt, Hotel Interior quotes Design Jlt, Hotel Interior estimates Design Jlt, Hotel Interior services near me Design Jlt, Cheap Hotel Interior Design Jlt, Quality Hotel Interior Design Jlt, Trusted Hotel Interior Design Jlt, Hotel Interior transformation Design Jlt, Hotel Interior renovation Design Jlt, Hotel Interior makeover Design Jlt, Best Hotel Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HotelInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Hotel Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Hotel Interior in Design Jlt. Hotel Interior Design Jlt. 
+                We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Hotel Interior in Design Jlt. Hotel Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury hotel interior design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Hotel Interior Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HotelInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our hotel interior in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in hotel interior near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

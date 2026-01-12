@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Jlt, Home in Renovation Jlt, Best home Renovation Jlt, Professional home Renovation Jlt, Luxury home Renovation Jlt, Home Renovation Jlt Dubai, Home designer Renovation Jlt, Home company Renovation Jlt, Home contractor Renovation Jlt, Affordable home Renovation Jlt, Modern home Renovation Jlt, Home consultation Renovation Jlt, Home cost Renovation Jlt, Home price Renovation Jlt, Top home Renovation Jlt
+
+// SEO Keywords: Home Renovation Jlt, Home in Renovation Jlt, Best home Renovation Jlt, Professional home Renovation Jlt, Luxury home Renovation Jlt, Home Renovation Jlt Dubai, Home designer Renovation Jlt, Home company Renovation Jlt, Home contractor Renovation Jlt, Affordable home Renovation Jlt, Modern home Renovation Jlt, Home consultation Renovation Jlt, Home cost Renovation Jlt, Home price Renovation Jlt, Top home Renovation Jlt, Home near Renovation Jlt, Home specialists Renovation Jlt, Home experts Renovation Jlt, Home solutions Renovation Jlt, Home packages Renovation Jlt, Home quotes Renovation Jlt, Home estimates Renovation Jlt, Home services near me Renovation Jlt, Cheap Home Renovation Jlt, Quality Home Renovation Jlt, Trusted Home Renovation Jlt, Home transformation Renovation Jlt, Home renovation Renovation Jlt, Home makeover Renovation Jlt, Best Home company Renovation Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRenovationJlt() {
                 At Interiara, we believe that exceptional <strong>Home Renovation JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home in Renovation Jlt. Home Renovation Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home renovation jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Renovation JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRenovationJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home in renovation jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home near renovation jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRenovationJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

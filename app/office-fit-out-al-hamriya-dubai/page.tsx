@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Al Hamriya, Office Fit Out in Al Hamriya, Best office fit out Al Hamriya, Professional office fit out Al Hamriya, Luxury office fit out Al Hamriya, Office Fit Out Al Hamriya Dubai, Office Fit Out designer Al Hamriya, Office Fit Out company Al Hamriya, Office Fit Out contractor Al Hamriya, Affordable office fit out Al Hamriya, Modern office fit out Al Hamriya, Office Fit Out consultation Al Hamriya, Office Fit Out cost Al Hamriya, Office Fit Out price Al Hamriya, Top office fit out Al Hamriya
+
+// SEO Keywords: Office Fit Out Al Hamriya, Office Fit Out in Al Hamriya, Best office fit out Al Hamriya, Professional office fit out Al Hamriya, Luxury office fit out Al Hamriya, Office Fit Out Al Hamriya Dubai, Office Fit Out designer Al Hamriya, Office Fit Out company Al Hamriya, Office Fit Out contractor Al Hamriya, Affordable office fit out Al Hamriya, Modern office fit out Al Hamriya, Office Fit Out consultation Al Hamriya, Office Fit Out cost Al Hamriya, Office Fit Out price Al Hamriya, Top office fit out Al Hamriya, Office Fit Out near Al Hamriya, Office Fit Out specialists Al Hamriya, Office Fit Out experts Al Hamriya, Office Fit Out solutions Al Hamriya, Office Fit Out packages Al Hamriya, Office Fit Out quotes Al Hamriya, Office Fit Out estimates Al Hamriya, Office Fit Out services near me Al Hamriya, Cheap Office Fit Out Al Hamriya, Quality Office Fit Out Al Hamriya, Trusted Office Fit Out Al Hamriya, Office Fit Out transformation Al Hamriya, Office Fit Out renovation Al Hamriya, Office Fit Out makeover Al Hamriya, Best Office Fit Out company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutAlHamriya() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Al Hamriya Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Hamriya Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit Out in Al Hamriya. 
                 We've completed 300+ successful projects across Al Hamriya Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Al Hamriya Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out al hamriya services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Al Hamriya Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit out in al hamriya service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit out near al hamriya.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

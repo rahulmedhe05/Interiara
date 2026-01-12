@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Business Bay, Contemporary Interior Design in Business Bay, Best contemporary interior design Business Bay, Professional contemporary interior design Business Bay, Luxury contemporary interior design Business Bay, Contemporary Interior Design Business Bay Dubai, Contemporary Interior Design designer Business Bay, Contemporary Interior Design company Business Bay, Contemporary Interior Design contractor Business Bay, Affordable contemporary interior design Business Bay, Modern contemporary interior design Business Bay, Contemporary Interior Design consultation Business Bay, Contemporary Interior Design cost Business Bay, Contemporary Interior Design price Business Bay, Top contemporary interior design Business Bay
+
+// SEO Keywords: Contemporary Interior Design Business Bay, Contemporary Interior Design in Business Bay, Best contemporary interior design Business Bay, Professional contemporary interior design Business Bay, Luxury contemporary interior design Business Bay, Contemporary Interior Design Business Bay Dubai, Contemporary Interior Design designer Business Bay, Contemporary Interior Design company Business Bay, Contemporary Interior Design contractor Business Bay, Affordable contemporary interior design Business Bay, Modern contemporary interior design Business Bay, Contemporary Interior Design consultation Business Bay, Contemporary Interior Design cost Business Bay, Contemporary Interior Design price Business Bay, Top contemporary interior design Business Bay, Contemporary Interior Design near Business Bay, Contemporary Interior Design specialists Business Bay, Contemporary Interior Design experts Business Bay, Contemporary Interior Design solutions Business Bay, Contemporary Interior Design packages Business Bay, Contemporary Interior Design quotes Business Bay, Contemporary Interior Design estimates Business Bay, Contemporary Interior Design services near me Business Bay, Cheap Contemporary Interior Design Business Bay, Quality Contemporary Interior Design Business Bay, Trusted Contemporary Interior Design Business Bay, Contemporary Interior Design transformation Business Bay, Contemporary Interior Design renovation Business Bay, Contemporary Interior Design makeover Business Bay, Best Contemporary Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Business Bay. Best contemporary interior design Business Bay Company Business Bay Our luxury contemporary interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

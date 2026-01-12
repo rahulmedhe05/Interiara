@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Al Hamriya, Living Room Interior Design in Al Hamriya, Best living room interior design Al Hamriya, Professional living room interior design Al Hamriya, Luxury living room interior design Al Hamriya, Living Room Interior Design Al Hamriya Dubai, Living Room Interior Design designer Al Hamriya, Living Room Interior Design company Al Hamriya, Living Room Interior Design contractor Al Hamriya, Affordable living room interior design Al Hamriya, Modern living room interior design Al Hamriya, Living Room Interior Design consultation Al Hamriya, Living Room Interior Design cost Al Hamriya, Living Room Interior Design price Al Hamriya, Top living room interior design Al Hamriya
+
+// SEO Keywords: Living Room Interior Design Al Hamriya, Living Room Interior Design in Al Hamriya, Best living room interior design Al Hamriya, Professional living room interior design Al Hamriya, Luxury living room interior design Al Hamriya, Living Room Interior Design Al Hamriya Dubai, Living Room Interior Design designer Al Hamriya, Living Room Interior Design company Al Hamriya, Living Room Interior Design contractor Al Hamriya, Affordable living room interior design Al Hamriya, Modern living room interior design Al Hamriya, Living Room Interior Design consultation Al Hamriya, Living Room Interior Design cost Al Hamriya, Living Room Interior Design price Al Hamriya, Top living room interior design Al Hamriya, Living Room Interior Design near Al Hamriya, Living Room Interior Design specialists Al Hamriya, Living Room Interior Design experts Al Hamriya, Living Room Interior Design solutions Al Hamriya, Living Room Interior Design packages Al Hamriya, Living Room Interior Design quotes Al Hamriya, Living Room Interior Design estimates Al Hamriya, Living Room Interior Design services near me Al Hamriya, Cheap Living Room Interior Design Al Hamriya, Quality Living Room Interior Design Al Hamriya, Trusted Living Room Interior Design Al Hamriya, Living Room Interior Design transformation Al Hamriya, Living Room Interior Design renovation Al Hamriya, Living Room Interior Design makeover Al Hamriya, Best Living Room Interior Design company Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior design Al Hamriya Company Al Hamriya</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior Design in Al Hamriya. Best living room interior design Al Hamriya Company Al Hamriya Our luxury living room interior design al hamriya services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignAlHamriya() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior design in al hamriya service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignAlHamriya() {
 
               <p>
                 Interiara stands out in the crowded Al Hamriya Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior design near al hamriya.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignAlHamriya() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

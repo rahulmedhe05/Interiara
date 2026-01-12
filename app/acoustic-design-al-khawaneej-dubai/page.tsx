@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Al Khawaneej, Acoustic Design in Al Khawaneej, Best acoustic design Al Khawaneej, Professional acoustic design Al Khawaneej, Luxury acoustic design Al Khawaneej, Acoustic Design Al Khawaneej Dubai, Acoustic Design designer Al Khawaneej, Acoustic Design company Al Khawaneej, Acoustic Design contractor Al Khawaneej, Affordable acoustic design Al Khawaneej, Modern acoustic design Al Khawaneej, Acoustic Design consultation Al Khawaneej, Acoustic Design cost Al Khawaneej, Acoustic Design price Al Khawaneej, Top acoustic design Al Khawaneej
+
+// SEO Keywords: Acoustic Design Al Khawaneej, Acoustic Design in Al Khawaneej, Best acoustic design Al Khawaneej, Professional acoustic design Al Khawaneej, Luxury acoustic design Al Khawaneej, Acoustic Design Al Khawaneej Dubai, Acoustic Design designer Al Khawaneej, Acoustic Design company Al Khawaneej, Acoustic Design contractor Al Khawaneej, Affordable acoustic design Al Khawaneej, Modern acoustic design Al Khawaneej, Acoustic Design consultation Al Khawaneej, Acoustic Design cost Al Khawaneej, Acoustic Design price Al Khawaneej, Top acoustic design Al Khawaneej, Acoustic Design near Al Khawaneej, Acoustic Design specialists Al Khawaneej, Acoustic Design experts Al Khawaneej, Acoustic Design solutions Al Khawaneej, Acoustic Design packages Al Khawaneej, Acoustic Design quotes Al Khawaneej, Acoustic Design estimates Al Khawaneej, Acoustic Design services near me Al Khawaneej, Cheap Acoustic Design Al Khawaneej, Quality Acoustic Design Al Khawaneej, Trusted Acoustic Design Al Khawaneej, Acoustic Design transformation Al Khawaneej, Acoustic Design renovation Al Khawaneej, Acoustic Design makeover Al Khawaneej, Best Acoustic Design company Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AcousticDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Al Khawaneej Company Al Khawaneej</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Acoustic Design in Al Khawaneej. Best acoustic design Al Khawaneej Company Al Khawaneej Our luxury acoustic design al khawaneej services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AcousticDesignAlKhawaneej() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our acoustic design in al khawaneej service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AcousticDesignAlKhawaneej() {
 
               <p>
                 Interiara stands out in the crowded Al Khawaneej Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in acoustic design near al khawaneej.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AcousticDesignAlKhawaneej() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

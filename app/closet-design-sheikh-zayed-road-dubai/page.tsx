@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Sheikh Zayed Road, Closet Design Sheikh in Zayed Road, Best closet design sheikh Zayed Road, Professional closet design sheikh Zayed Road, Luxury closet design sheikh Zayed Road, Closet Design Sheikh Zayed Road Dubai, Closet Design Sheikh designer Zayed Road, Closet Design Sheikh company Zayed Road, Closet Design Sheikh contractor Zayed Road, Affordable closet design sheikh Zayed Road, Modern closet design sheikh Zayed Road, Closet Design Sheikh consultation Zayed Road, Closet Design Sheikh cost Zayed Road, Closet Design Sheikh price Zayed Road, Top closet design sheikh Zayed Road
+
+// SEO Keywords: Closet Design Sheikh Zayed Road, Closet Design Sheikh in Zayed Road, Best closet design sheikh Zayed Road, Professional closet design sheikh Zayed Road, Luxury closet design sheikh Zayed Road, Closet Design Sheikh Zayed Road Dubai, Closet Design Sheikh designer Zayed Road, Closet Design Sheikh company Zayed Road, Closet Design Sheikh contractor Zayed Road, Affordable closet design sheikh Zayed Road, Modern closet design sheikh Zayed Road, Closet Design Sheikh consultation Zayed Road, Closet Design Sheikh cost Zayed Road, Closet Design Sheikh price Zayed Road, Top closet design sheikh Zayed Road, Closet Design Sheikh near Zayed Road, Closet Design Sheikh specialists Zayed Road, Closet Design Sheikh experts Zayed Road, Closet Design Sheikh solutions Zayed Road, Closet Design Sheikh packages Zayed Road, Closet Design Sheikh quotes Zayed Road, Closet Design Sheikh estimates Zayed Road, Closet Design Sheikh services near me Zayed Road, Cheap Closet Design Sheikh Zayed Road, Quality Closet Design Sheikh Zayed Road, Trusted Closet Design Sheikh Zayed Road, Closet Design Sheikh transformation Zayed Road, Closet Design Sheikh renovation Zayed Road, Closet Design Sheikh makeover Zayed Road, Best Closet Design Sheikh company Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design sheikh Zayed Road Company Zayed Road</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet Design Sheikh in Zayed Road. Best closet design sheikh Zayed Road Company Zayed Road Our luxury closet design sheikh zayed road services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignSheikhZayedRoad() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet design sheikh in zayed road service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignSheikhZayedRoad() {
 
               <p>
                 Interiara stands out in the crowded Sheikh Zayed Road Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet design sheikh near zayed road.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignSheikhZayedRoad() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

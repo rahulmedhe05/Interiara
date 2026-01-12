@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Discovery Hills, Home Renovation in Discovery Hills, Best home renovation Discovery Hills, Professional home renovation Discovery Hills, Luxury home renovation Discovery Hills, Home Renovation Discovery Hills Dubai, Home Renovation designer Discovery Hills, Home Renovation company Discovery Hills, Home Renovation contractor Discovery Hills, Affordable home renovation Discovery Hills, Modern home renovation Discovery Hills, Home Renovation consultation Discovery Hills, Home Renovation cost Discovery Hills, Home Renovation price Discovery Hills, Top home renovation Discovery Hills
+
+// SEO Keywords: Home Renovation Discovery Hills, Home Renovation in Discovery Hills, Best home renovation Discovery Hills, Professional home renovation Discovery Hills, Luxury home renovation Discovery Hills, Home Renovation Discovery Hills Dubai, Home Renovation designer Discovery Hills, Home Renovation company Discovery Hills, Home Renovation contractor Discovery Hills, Affordable home renovation Discovery Hills, Modern home renovation Discovery Hills, Home Renovation consultation Discovery Hills, Home Renovation cost Discovery Hills, Home Renovation price Discovery Hills, Top home renovation Discovery Hills, Home Renovation near Discovery Hills, Home Renovation specialists Discovery Hills, Home Renovation experts Discovery Hills, Home Renovation solutions Discovery Hills, Home Renovation packages Discovery Hills, Home Renovation quotes Discovery Hills, Home Renovation estimates Discovery Hills, Home Renovation services near me Discovery Hills, Cheap Home Renovation Discovery Hills, Quality Home Renovation Discovery Hills, Trusted Home Renovation Discovery Hills, Home Renovation transformation Discovery Hills, Home Renovation renovation Discovery Hills, Home Renovation makeover Discovery Hills, Best Home Renovation company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation in Discovery Hills. Best home renovation Discovery Hills Company Discovery Hills Our luxury home renovation discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRenovationDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

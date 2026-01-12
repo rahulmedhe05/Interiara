@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Affordable Interior Solutions Al Barsha South, Affordable Interior Solutions Al in Barsha South, Best affordable interior solutions al Barsha South, Professional affordable interior solutions al Barsha South, Luxury affordable interior solutions al Barsha South, Affordable Interior Solutions Al Barsha South Dubai, Affordable Interior Solutions Al designer Barsha South, Affordable Interior Solutions Al company Barsha South, Affordable Interior Solutions Al contractor Barsha South, Affordable affordable interior solutions al Barsha South, Modern affordable interior solutions al Barsha South, Affordable Interior Solutions Al consultation Barsha South, Affordable Interior Solutions Al cost Barsha South, Affordable Interior Solutions Al price Barsha South, Top affordable interior solutions al Barsha South
+
+// SEO Keywords: Affordable Interior Solutions Al Barsha South, Affordable Interior Solutions Al in Barsha South, Best affordable interior solutions al Barsha South, Professional affordable interior solutions al Barsha South, Luxury affordable interior solutions al Barsha South, Affordable Interior Solutions Al Barsha South Dubai, Affordable Interior Solutions Al designer Barsha South, Affordable Interior Solutions Al company Barsha South, Affordable Interior Solutions Al contractor Barsha South, Affordable affordable interior solutions al Barsha South, Modern affordable interior solutions al Barsha South, Affordable Interior Solutions Al consultation Barsha South, Affordable Interior Solutions Al cost Barsha South, Affordable Interior Solutions Al price Barsha South, Top affordable interior solutions al Barsha South, Affordable Interior Solutions Al near Barsha South, Affordable Interior Solutions Al specialists Barsha South, Affordable Interior Solutions Al experts Barsha South, Affordable Interior Solutions Al solutions Barsha South, Affordable Interior Solutions Al packages Barsha South, Affordable Interior Solutions Al quotes Barsha South, Affordable Interior Solutions Al estimates Barsha South, Affordable Interior Solutions Al services near me Barsha South, Cheap Affordable Interior Solutions Al Barsha South, Quality Affordable Interior Solutions Al Barsha South, Trusted Affordable Interior Solutions Al Barsha South, Affordable Interior Solutions Al transformation Barsha South, Affordable Interior Solutions Al renovation Barsha South, Affordable Interior Solutions Al makeover Barsha South, Best Affordable Interior Solutions Al company Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AffordableInteriorSolutionsAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions al Barsha South Company Barsha South</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Affordable Interior Solutions Al in Barsha South. Best affordable interior solutions al Barsha South Company Barsha South Our luxury affordable interior solutions al barsha south services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AffordableInteriorSolutionsAlBarshaSouth() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our affordable interior solutions al in barsha south service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AffordableInteriorSolutionsAlBarshaSouth() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in affordable interior solutions al near barsha south.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AffordableInteriorSolutionsAlBarshaSouth() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Al Warqaa, Acoustic Design in Al Warqaa, Best acoustic design Al Warqaa, Professional acoustic design Al Warqaa, Luxury acoustic design Al Warqaa, Acoustic Design Al Warqaa Dubai, Acoustic Design designer Al Warqaa, Acoustic Design company Al Warqaa, Acoustic Design contractor Al Warqaa, Affordable acoustic design Al Warqaa, Modern acoustic design Al Warqaa, Acoustic Design consultation Al Warqaa, Acoustic Design cost Al Warqaa, Acoustic Design price Al Warqaa, Top acoustic design Al Warqaa
+
+// SEO Keywords: Acoustic Design Al Warqaa, Acoustic Design in Al Warqaa, Best acoustic design Al Warqaa, Professional acoustic design Al Warqaa, Luxury acoustic design Al Warqaa, Acoustic Design Al Warqaa Dubai, Acoustic Design designer Al Warqaa, Acoustic Design company Al Warqaa, Acoustic Design contractor Al Warqaa, Affordable acoustic design Al Warqaa, Modern acoustic design Al Warqaa, Acoustic Design consultation Al Warqaa, Acoustic Design cost Al Warqaa, Acoustic Design price Al Warqaa, Top acoustic design Al Warqaa, Acoustic Design near Al Warqaa, Acoustic Design specialists Al Warqaa, Acoustic Design experts Al Warqaa, Acoustic Design solutions Al Warqaa, Acoustic Design packages Al Warqaa, Acoustic Design quotes Al Warqaa, Acoustic Design estimates Al Warqaa, Acoustic Design services near me Al Warqaa, Cheap Acoustic Design Al Warqaa, Quality Acoustic Design Al Warqaa, Trusted Acoustic Design Al Warqaa, Acoustic Design transformation Al Warqaa, Acoustic Design renovation Al Warqaa, Acoustic Design makeover Al Warqaa, Best Acoustic Design company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignAlWarqaa() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design Al Warqaa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Warqaa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic Design in Al Warqaa. 
                 We've completed 300+ successful projects across Al Warqaa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design Al Warqaa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury acoustic design al warqaa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design Al Warqaa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic design in al warqaa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic design near al warqaa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

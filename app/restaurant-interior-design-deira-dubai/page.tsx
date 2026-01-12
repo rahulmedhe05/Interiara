@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Restaurant Interior Design Deira, Restaurant Interior in Design Deira, Best restaurant interior Design Deira, Professional restaurant interior Design Deira, Luxury restaurant interior Design Deira, Restaurant Interior Design Deira Dubai, Restaurant Interior designer Design Deira, Restaurant Interior company Design Deira, Restaurant Interior contractor Design Deira, Affordable restaurant interior Design Deira, Modern restaurant interior Design Deira, Restaurant Interior consultation Design Deira, Restaurant Interior cost Design Deira, Restaurant Interior price Design Deira, Top restaurant interior Design Deira
+
+// SEO Keywords: Restaurant Interior Design Deira, Restaurant Interior in Design Deira, Best restaurant interior Design Deira, Professional restaurant interior Design Deira, Luxury restaurant interior Design Deira, Restaurant Interior Design Deira Dubai, Restaurant Interior designer Design Deira, Restaurant Interior company Design Deira, Restaurant Interior contractor Design Deira, Affordable restaurant interior Design Deira, Modern restaurant interior Design Deira, Restaurant Interior consultation Design Deira, Restaurant Interior cost Design Deira, Restaurant Interior price Design Deira, Top restaurant interior Design Deira, Restaurant Interior near Design Deira, Restaurant Interior specialists Design Deira, Restaurant Interior experts Design Deira, Restaurant Interior solutions Design Deira, Restaurant Interior packages Design Deira, Restaurant Interior quotes Design Deira, Restaurant Interior estimates Design Deira, Restaurant Interior services near me Design Deira, Cheap Restaurant Interior Design Deira, Quality Restaurant Interior Design Deira, Trusted Restaurant Interior Design Deira, Restaurant Interior transformation Design Deira, Restaurant Interior renovation Design Deira, Restaurant Interior makeover Design Deira, Best Restaurant Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RestaurantInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Restaurant Interior in Design Deira. Best restaurant interior Design Deira Company Design Deira Our luxury restaurant interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function RestaurantInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our restaurant interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RestaurantInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in restaurant interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RestaurantInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

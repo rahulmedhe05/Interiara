@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Arabic Style Interior Design Palm, Arabic Style Interior in Design Palm, Best arabic style interior Design Palm, Professional arabic style interior Design Palm, Luxury arabic style interior Design Palm, Arabic Style Interior Design Palm Dubai, Arabic Style Interior designer Design Palm, Arabic Style Interior company Design Palm, Arabic Style Interior contractor Design Palm, Affordable arabic style interior Design Palm, Modern arabic style interior Design Palm, Arabic Style Interior consultation Design Palm, Arabic Style Interior cost Design Palm, Arabic Style Interior price Design Palm, Top arabic style interior Design Palm
+
+// SEO Keywords: Arabic Style Interior Design Palm, Arabic Style Interior in Design Palm, Best arabic style interior Design Palm, Professional arabic style interior Design Palm, Luxury arabic style interior Design Palm, Arabic Style Interior Design Palm Dubai, Arabic Style Interior designer Design Palm, Arabic Style Interior company Design Palm, Arabic Style Interior contractor Design Palm, Affordable arabic style interior Design Palm, Modern arabic style interior Design Palm, Arabic Style Interior consultation Design Palm, Arabic Style Interior cost Design Palm, Arabic Style Interior price Design Palm, Top arabic style interior Design Palm, Arabic Style Interior near Design Palm, Arabic Style Interior specialists Design Palm, Arabic Style Interior experts Design Palm, Arabic Style Interior solutions Design Palm, Arabic Style Interior packages Design Palm, Arabic Style Interior quotes Design Palm, Arabic Style Interior estimates Design Palm, Arabic Style Interior services near me Design Palm, Cheap Arabic Style Interior Design Palm, Quality Arabic Style Interior Design Palm, Trusted Arabic Style Interior Design Palm, Arabic Style Interior transformation Design Palm, Arabic Style Interior renovation Design Palm, Arabic Style Interior makeover Design Palm, Best Arabic Style Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArabicStyleInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Arabic Style Interior in Design Palm. Best arabic style interior Design Palm Company Design Palm Our luxury arabic style interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArabicStyleInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our arabic style interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArabicStyleInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in arabic style interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArabicStyleInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

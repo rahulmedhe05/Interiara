@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Arabic Style Interior Design Bur, Arabic Style Interior in Design Bur, Best arabic style interior Design Bur, Professional arabic style interior Design Bur, Luxury arabic style interior Design Bur, Arabic Style Interior Design Bur Dubai, Arabic Style Interior designer Design Bur, Arabic Style Interior company Design Bur, Arabic Style Interior contractor Design Bur, Affordable arabic style interior Design Bur, Modern arabic style interior Design Bur, Arabic Style Interior consultation Design Bur, Arabic Style Interior cost Design Bur, Arabic Style Interior price Design Bur, Top arabic style interior Design Bur
+
+// SEO Keywords: Arabic Style Interior Design Bur, Arabic Style Interior in Design Bur, Best arabic style interior Design Bur, Professional arabic style interior Design Bur, Luxury arabic style interior Design Bur, Arabic Style Interior Design Bur Dubai, Arabic Style Interior designer Design Bur, Arabic Style Interior company Design Bur, Arabic Style Interior contractor Design Bur, Affordable arabic style interior Design Bur, Modern arabic style interior Design Bur, Arabic Style Interior consultation Design Bur, Arabic Style Interior cost Design Bur, Arabic Style Interior price Design Bur, Top arabic style interior Design Bur, Arabic Style Interior near Design Bur, Arabic Style Interior specialists Design Bur, Arabic Style Interior experts Design Bur, Arabic Style Interior solutions Design Bur, Arabic Style Interior packages Design Bur, Arabic Style Interior quotes Design Bur, Arabic Style Interior estimates Design Bur, Arabic Style Interior services near me Design Bur, Cheap Arabic Style Interior Design Bur, Quality Arabic Style Interior Design Bur, Trusted Arabic Style Interior Design Bur, Arabic Style Interior transformation Design Bur, Arabic Style Interior renovation Design Bur, Arabic Style Interior makeover Design Bur, Best Arabic Style Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArabicStyleInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Arabic Style Interior in Design Bur. Best arabic style interior Design Bur Company Design Bur Our luxury arabic style interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArabicStyleInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our arabic style interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArabicStyleInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in arabic style interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArabicStyleInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

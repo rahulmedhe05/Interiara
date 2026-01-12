@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Jlt, Wardrobe in Design Jlt, Best wardrobe Design Jlt, Professional wardrobe Design Jlt, Luxury wardrobe Design Jlt, Wardrobe Design Jlt Dubai, Wardrobe designer Design Jlt, Wardrobe company Design Jlt, Wardrobe contractor Design Jlt, Affordable wardrobe Design Jlt, Modern wardrobe Design Jlt, Wardrobe consultation Design Jlt, Wardrobe cost Design Jlt, Wardrobe price Design Jlt, Top wardrobe Design Jlt
+
+// SEO Keywords: Wardrobe Design Jlt, Wardrobe in Design Jlt, Best wardrobe Design Jlt, Professional wardrobe Design Jlt, Luxury wardrobe Design Jlt, Wardrobe Design Jlt Dubai, Wardrobe designer Design Jlt, Wardrobe company Design Jlt, Wardrobe contractor Design Jlt, Affordable wardrobe Design Jlt, Modern wardrobe Design Jlt, Wardrobe consultation Design Jlt, Wardrobe cost Design Jlt, Wardrobe price Design Jlt, Top wardrobe Design Jlt, Wardrobe near Design Jlt, Wardrobe specialists Design Jlt, Wardrobe experts Design Jlt, Wardrobe solutions Design Jlt, Wardrobe packages Design Jlt, Wardrobe quotes Design Jlt, Wardrobe estimates Design Jlt, Wardrobe services near me Design Jlt, Cheap Wardrobe Design Jlt, Quality Wardrobe Design Jlt, Trusted Wardrobe Design Jlt, Wardrobe transformation Design Jlt, Wardrobe renovation Design Jlt, Wardrobe makeover Design Jlt, Best Wardrobe company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe in Design Jlt. Wardrobe Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design jlt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design JLT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe in design jlt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe near design jlt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

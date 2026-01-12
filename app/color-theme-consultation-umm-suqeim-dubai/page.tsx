@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Color Theme Consultation Umm Suqeim, Color Theme Consultation in Umm Suqeim, Best color theme consultation Umm Suqeim, Professional color theme consultation Umm Suqeim, Luxury color theme consultation Umm Suqeim, Color Theme Consultation Umm Suqeim Dubai, Color Theme Consultation designer Umm Suqeim, Color Theme Consultation company Umm Suqeim, Color Theme Consultation contractor Umm Suqeim, Affordable color theme consultation Umm Suqeim, Modern color theme consultation Umm Suqeim, Color Theme Consultation consultation Umm Suqeim, Color Theme Consultation cost Umm Suqeim, Color Theme Consultation price Umm Suqeim, Top color theme consultation Umm Suqeim
+
+// SEO Keywords: Color Theme Consultation Umm Suqeim, Color Theme Consultation in Umm Suqeim, Best color theme consultation Umm Suqeim, Professional color theme consultation Umm Suqeim, Luxury color theme consultation Umm Suqeim, Color Theme Consultation Umm Suqeim Dubai, Color Theme Consultation designer Umm Suqeim, Color Theme Consultation company Umm Suqeim, Color Theme Consultation contractor Umm Suqeim, Affordable color theme consultation Umm Suqeim, Modern color theme consultation Umm Suqeim, Color Theme Consultation consultation Umm Suqeim, Color Theme Consultation cost Umm Suqeim, Color Theme Consultation price Umm Suqeim, Top color theme consultation Umm Suqeim, Color Theme Consultation near Umm Suqeim, Color Theme Consultation specialists Umm Suqeim, Color Theme Consultation experts Umm Suqeim, Color Theme Consultation solutions Umm Suqeim, Color Theme Consultation packages Umm Suqeim, Color Theme Consultation quotes Umm Suqeim, Color Theme Consultation estimates Umm Suqeim, Color Theme Consultation services near me Umm Suqeim, Cheap Color Theme Consultation Umm Suqeim, Quality Color Theme Consultation Umm Suqeim, Trusted Color Theme Consultation Umm Suqeim, Color Theme Consultation transformation Umm Suqeim, Color Theme Consultation renovation Umm Suqeim, Color Theme Consultation makeover Umm Suqeim, Best Color Theme Consultation company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ColorThemeConsultationUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Color Theme Consultation in Umm Suqeim. Best color theme consultation Umm Suqeim Company Umm Suqeim Our luxury color theme consultation umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ColorThemeConsultationUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our color theme consultation in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ColorThemeConsultationUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in color theme consultation near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ColorThemeConsultationUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

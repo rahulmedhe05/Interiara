@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Al Mizhar, Acoustic Design in Al Mizhar, Best acoustic design Al Mizhar, Professional acoustic design Al Mizhar, Luxury acoustic design Al Mizhar, Acoustic Design Al Mizhar Dubai, Acoustic Design designer Al Mizhar, Acoustic Design company Al Mizhar, Acoustic Design contractor Al Mizhar, Affordable acoustic design Al Mizhar, Modern acoustic design Al Mizhar, Acoustic Design consultation Al Mizhar, Acoustic Design cost Al Mizhar, Acoustic Design price Al Mizhar, Top acoustic design Al Mizhar
+
+// SEO Keywords: Acoustic Design Al Mizhar, Acoustic Design in Al Mizhar, Best acoustic design Al Mizhar, Professional acoustic design Al Mizhar, Luxury acoustic design Al Mizhar, Acoustic Design Al Mizhar Dubai, Acoustic Design designer Al Mizhar, Acoustic Design company Al Mizhar, Acoustic Design contractor Al Mizhar, Affordable acoustic design Al Mizhar, Modern acoustic design Al Mizhar, Acoustic Design consultation Al Mizhar, Acoustic Design cost Al Mizhar, Acoustic Design price Al Mizhar, Top acoustic design Al Mizhar, Acoustic Design near Al Mizhar, Acoustic Design specialists Al Mizhar, Acoustic Design experts Al Mizhar, Acoustic Design solutions Al Mizhar, Acoustic Design packages Al Mizhar, Acoustic Design quotes Al Mizhar, Acoustic Design estimates Al Mizhar, Acoustic Design services near me Al Mizhar, Cheap Acoustic Design Al Mizhar, Quality Acoustic Design Al Mizhar, Trusted Acoustic Design Al Mizhar, Acoustic Design transformation Al Mizhar, Acoustic Design renovation Al Mizhar, Acoustic Design makeover Al Mizhar, Best Acoustic Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function AcousticDesignAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Acoustic Design Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Acoustic Design in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Acoustic Design Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury acoustic design al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Acoustic Design Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function AcousticDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our acoustic design in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in acoustic design near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function AcousticDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Bur, Closet in Design Bur, Best closet Design Bur, Professional closet Design Bur, Luxury closet Design Bur, Closet Design Bur Dubai, Closet designer Design Bur, Closet company Design Bur, Closet contractor Design Bur, Affordable closet Design Bur, Modern closet Design Bur, Closet consultation Design Bur, Closet cost Design Bur, Closet price Design Bur, Top closet Design Bur
+
+// SEO Keywords: Closet Design Bur, Closet in Design Bur, Best closet Design Bur, Professional closet Design Bur, Luxury closet Design Bur, Closet Design Bur Dubai, Closet designer Design Bur, Closet company Design Bur, Closet contractor Design Bur, Affordable closet Design Bur, Modern closet Design Bur, Closet consultation Design Bur, Closet cost Design Bur, Closet price Design Bur, Top closet Design Bur, Closet near Design Bur, Closet specialists Design Bur, Closet experts Design Bur, Closet solutions Design Bur, Closet packages Design Bur, Closet quotes Design Bur, Closet estimates Design Bur, Closet services near me Design Bur, Cheap Closet Design Bur, Quality Closet Design Bur, Trusted Closet Design Bur, Closet transformation Design Bur, Closet renovation Design Bur, Closet makeover Design Bur, Best Closet company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignBur() {
                 At Interiara, we believe that exceptional <strong>Closet Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

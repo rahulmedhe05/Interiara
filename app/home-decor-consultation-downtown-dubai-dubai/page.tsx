@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Downtown Dubai, Home Decor Consultation in Downtown Dubai, Best home decor consultation Downtown Dubai, Professional home decor consultation Downtown Dubai, Luxury home decor consultation Downtown Dubai, Home Decor Consultation Downtown Dubai Dubai, Home Decor Consultation designer Downtown Dubai, Home Decor Consultation company Downtown Dubai, Home Decor Consultation contractor Downtown Dubai, Affordable home decor consultation Downtown Dubai, Modern home decor consultation Downtown Dubai, Home Decor Consultation consultation Downtown Dubai, Home Decor Consultation cost Downtown Dubai, Home Decor Consultation price Downtown Dubai, Top home decor consultation Downtown Dubai
+
+// SEO Keywords: Home Decor Consultation Downtown Dubai, Home Decor Consultation in Downtown Dubai, Best home decor consultation Downtown Dubai, Professional home decor consultation Downtown Dubai, Luxury home decor consultation Downtown Dubai, Home Decor Consultation Downtown Dubai Dubai, Home Decor Consultation designer Downtown Dubai, Home Decor Consultation company Downtown Dubai, Home Decor Consultation contractor Downtown Dubai, Affordable home decor consultation Downtown Dubai, Modern home decor consultation Downtown Dubai, Home Decor Consultation consultation Downtown Dubai, Home Decor Consultation cost Downtown Dubai, Home Decor Consultation price Downtown Dubai, Top home decor consultation Downtown Dubai, Home Decor Consultation near Downtown Dubai, Home Decor Consultation specialists Downtown Dubai, Home Decor Consultation experts Downtown Dubai, Home Decor Consultation solutions Downtown Dubai, Home Decor Consultation packages Downtown Dubai, Home Decor Consultation quotes Downtown Dubai, Home Decor Consultation estimates Downtown Dubai, Home Decor Consultation services near me Downtown Dubai, Cheap Home Decor Consultation Downtown Dubai, Quality Home Decor Consultation Downtown Dubai, Trusted Home Decor Consultation Downtown Dubai, Home Decor Consultation transformation Downtown Dubai, Home Decor Consultation renovation Downtown Dubai, Home Decor Consultation makeover Downtown Dubai, Best Home Decor Consultation company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Downtown Dubai. Best home decor consultation Downtown Dubai Company Downtown Dubai Our luxury home decor consultation downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

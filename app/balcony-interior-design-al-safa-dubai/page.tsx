@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Balcony Interior Design Al Safa, Balcony Interior Design in Al Safa, Best balcony interior design Al Safa, Professional balcony interior design Al Safa, Luxury balcony interior design Al Safa, Balcony Interior Design Al Safa Dubai, Balcony Interior Design designer Al Safa, Balcony Interior Design company Al Safa, Balcony Interior Design contractor Al Safa, Affordable balcony interior design Al Safa, Modern balcony interior design Al Safa, Balcony Interior Design consultation Al Safa, Balcony Interior Design cost Al Safa, Balcony Interior Design price Al Safa, Top balcony interior design Al Safa
+
+// SEO Keywords: Balcony Interior Design Al Safa, Balcony Interior Design in Al Safa, Best balcony interior design Al Safa, Professional balcony interior design Al Safa, Luxury balcony interior design Al Safa, Balcony Interior Design Al Safa Dubai, Balcony Interior Design designer Al Safa, Balcony Interior Design company Al Safa, Balcony Interior Design contractor Al Safa, Affordable balcony interior design Al Safa, Modern balcony interior design Al Safa, Balcony Interior Design consultation Al Safa, Balcony Interior Design cost Al Safa, Balcony Interior Design price Al Safa, Top balcony interior design Al Safa, Balcony Interior Design near Al Safa, Balcony Interior Design specialists Al Safa, Balcony Interior Design experts Al Safa, Balcony Interior Design solutions Al Safa, Balcony Interior Design packages Al Safa, Balcony Interior Design quotes Al Safa, Balcony Interior Design estimates Al Safa, Balcony Interior Design services near me Al Safa, Cheap Balcony Interior Design Al Safa, Quality Balcony Interior Design Al Safa, Trusted Balcony Interior Design Al Safa, Balcony Interior Design transformation Al Safa, Balcony Interior Design renovation Al Safa, Balcony Interior Design makeover Al Safa, Best Balcony Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BalconyInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best balcony interior design Al Safa Company Al Safa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Balcony Interior Design in Al Safa. Best balcony interior design Al Safa Company Al Safa Our luxury balcony interior design al safa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Balcony Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BalconyInteriorDesignAlSafa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our balcony interior design in al safa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BalconyInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in balcony interior design near al safa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BalconyInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

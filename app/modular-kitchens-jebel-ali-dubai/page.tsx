@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Jebel Ali, Modular Kitchens in Jebel Ali, Best modular kitchens Jebel Ali, Professional modular kitchens Jebel Ali, Luxury modular kitchens Jebel Ali, Modular Kitchens Jebel Ali Dubai, Modular Kitchens designer Jebel Ali, Modular Kitchens company Jebel Ali, Modular Kitchens contractor Jebel Ali, Affordable modular kitchens Jebel Ali, Modern modular kitchens Jebel Ali, Modular Kitchens consultation Jebel Ali, Modular Kitchens cost Jebel Ali, Modular Kitchens price Jebel Ali, Top modular kitchens Jebel Ali
+
+// SEO Keywords: Modular Kitchens Jebel Ali, Modular Kitchens in Jebel Ali, Best modular kitchens Jebel Ali, Professional modular kitchens Jebel Ali, Luxury modular kitchens Jebel Ali, Modular Kitchens Jebel Ali Dubai, Modular Kitchens designer Jebel Ali, Modular Kitchens company Jebel Ali, Modular Kitchens contractor Jebel Ali, Affordable modular kitchens Jebel Ali, Modern modular kitchens Jebel Ali, Modular Kitchens consultation Jebel Ali, Modular Kitchens cost Jebel Ali, Modular Kitchens price Jebel Ali, Top modular kitchens Jebel Ali, Modular Kitchens near Jebel Ali, Modular Kitchens specialists Jebel Ali, Modular Kitchens experts Jebel Ali, Modular Kitchens solutions Jebel Ali, Modular Kitchens packages Jebel Ali, Modular Kitchens quotes Jebel Ali, Modular Kitchens estimates Jebel Ali, Modular Kitchens services near me Jebel Ali, Cheap Modular Kitchens Jebel Ali, Quality Modular Kitchens Jebel Ali, Trusted Modular Kitchens Jebel Ali, Modular Kitchens transformation Jebel Ali, Modular Kitchens renovation Jebel Ali, Modular Kitchens makeover Jebel Ali, Best Modular Kitchens company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensJebelAli() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Childrens Room Interior Design Business Bay, Childrens Room Interior Design in Business Bay, Best childrens room interior design Business Bay, Professional childrens room interior design Business Bay, Luxury childrens room interior design Business Bay, Childrens Room Interior Design Business Bay Dubai, Childrens Room Interior Design designer Business Bay, Childrens Room Interior Design company Business Bay, Childrens Room Interior Design contractor Business Bay, Affordable childrens room interior design Business Bay, Modern childrens room interior design Business Bay, Childrens Room Interior Design consultation Business Bay, Childrens Room Interior Design cost Business Bay, Childrens Room Interior Design price Business Bay, Top childrens room interior design Business Bay
+
+// SEO Keywords: Childrens Room Interior Design Business Bay, Childrens Room Interior Design in Business Bay, Best childrens room interior design Business Bay, Professional childrens room interior design Business Bay, Luxury childrens room interior design Business Bay, Childrens Room Interior Design Business Bay Dubai, Childrens Room Interior Design designer Business Bay, Childrens Room Interior Design company Business Bay, Childrens Room Interior Design contractor Business Bay, Affordable childrens room interior design Business Bay, Modern childrens room interior design Business Bay, Childrens Room Interior Design consultation Business Bay, Childrens Room Interior Design cost Business Bay, Childrens Room Interior Design price Business Bay, Top childrens room interior design Business Bay, Childrens Room Interior Design near Business Bay, Childrens Room Interior Design specialists Business Bay, Childrens Room Interior Design experts Business Bay, Childrens Room Interior Design solutions Business Bay, Childrens Room Interior Design packages Business Bay, Childrens Room Interior Design quotes Business Bay, Childrens Room Interior Design estimates Business Bay, Childrens Room Interior Design services near me Business Bay, Cheap Childrens Room Interior Design Business Bay, Quality Childrens Room Interior Design Business Bay, Trusted Childrens Room Interior Design Business Bay, Childrens Room Interior Design transformation Business Bay, Childrens Room Interior Design renovation Business Bay, Childrens Room Interior Design makeover Business Bay, Best Childrens Room Interior Design company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ChildrensRoomInteriorDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior design Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Childrens Room Interior Design in Business Bay. Best childrens room interior design Business Bay Company Business Bay Our luxury childrens room interior design business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ChildrensRoomInteriorDesignBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our childrens room interior design in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ChildrensRoomInteriorDesignBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in childrens room interior design near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ChildrensRoomInteriorDesignBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design, Living Room in Interior Design, Best living room Interior Design, Professional living room Interior Design, Luxury living room Interior Design, Living Room Interior Design Dubai, Living Room designer Interior Design, Living Room company Interior Design, Living Room contractor Interior Design, Affordable living room Interior Design, Modern living room Interior Design, Living Room consultation Interior Design, Living Room cost Interior Design, Living Room price Interior Design, Top living room Interior Design
+
+// SEO Keywords: Living Room Interior Design, Living Room in Interior Design, Best living room Interior Design, Professional living room Interior Design, Luxury living room Interior Design, Living Room Interior Design Dubai, Living Room designer Interior Design, Living Room company Interior Design, Living Room contractor Interior Design, Affordable living room Interior Design, Modern living room Interior Design, Living Room consultation Interior Design, Living Room cost Interior Design, Living Room price Interior Design, Top living room Interior Design, Living Room near Interior Design, Living Room specialists Interior Design, Living Room experts Interior Design, Living Room solutions Interior Design, Living Room packages Interior Design, Living Room quotes Interior Design, Living Room estimates Interior Design, Living Room services near me Interior Design, Cheap Living Room Interior Design, Quality Living Room Interior Design, Trusted Living Room Interior Design, Living Room transformation Interior Design, Living Room renovation Interior Design, Living Room makeover Interior Design, Best Living Room company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room in Interior Design. Best living room Interior Design Company Interior Design Our luxury living room interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

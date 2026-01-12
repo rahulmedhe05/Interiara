@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Jumeirah, Smart in Lighting Jumeirah, Best smart Lighting Jumeirah, Professional smart Lighting Jumeirah, Luxury smart Lighting Jumeirah, Smart Lighting Jumeirah Dubai, Smart designer Lighting Jumeirah, Smart company Lighting Jumeirah, Smart contractor Lighting Jumeirah, Affordable smart Lighting Jumeirah, Modern smart Lighting Jumeirah, Smart consultation Lighting Jumeirah, Smart cost Lighting Jumeirah, Smart price Lighting Jumeirah, Top smart Lighting Jumeirah
+
+// SEO Keywords: Smart Lighting Jumeirah, Smart in Lighting Jumeirah, Best smart Lighting Jumeirah, Professional smart Lighting Jumeirah, Luxury smart Lighting Jumeirah, Smart Lighting Jumeirah Dubai, Smart designer Lighting Jumeirah, Smart company Lighting Jumeirah, Smart contractor Lighting Jumeirah, Affordable smart Lighting Jumeirah, Modern smart Lighting Jumeirah, Smart consultation Lighting Jumeirah, Smart cost Lighting Jumeirah, Smart price Lighting Jumeirah, Top smart Lighting Jumeirah, Smart near Lighting Jumeirah, Smart specialists Lighting Jumeirah, Smart experts Lighting Jumeirah, Smart solutions Lighting Jumeirah, Smart packages Lighting Jumeirah, Smart quotes Lighting Jumeirah, Smart estimates Lighting Jumeirah, Smart services near me Lighting Jumeirah, Cheap Smart Lighting Jumeirah, Quality Smart Lighting Jumeirah, Trusted Smart Lighting Jumeirah, Smart transformation Lighting Jumeirah, Smart renovation Lighting Jumeirah, Smart makeover Lighting Jumeirah, Best Smart company Lighting Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartLightingJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart Lighting Jumeirah Company Lighting Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart in Lighting Jumeirah. Best smart Lighting Jumeirah Company Lighting Jumeirah Our luxury smart lighting jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartLightingJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart in lighting jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartLightingJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart near lighting jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartLightingJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

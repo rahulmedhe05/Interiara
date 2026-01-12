@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Greens, Luxury Interior in Design Greens, Best luxury interior Design Greens, Professional luxury interior Design Greens, Luxury luxury interior Design Greens, Luxury Interior Design Greens Dubai, Luxury Interior designer Design Greens, Luxury Interior company Design Greens, Luxury Interior contractor Design Greens, Affordable luxury interior Design Greens, Modern luxury interior Design Greens, Luxury Interior consultation Design Greens, Luxury Interior cost Design Greens, Luxury Interior price Design Greens, Top luxury interior Design Greens
+
+// SEO Keywords: Luxury Interior Design Greens, Luxury Interior in Design Greens, Best luxury interior Design Greens, Professional luxury interior Design Greens, Luxury luxury interior Design Greens, Luxury Interior Design Greens Dubai, Luxury Interior designer Design Greens, Luxury Interior company Design Greens, Luxury Interior contractor Design Greens, Affordable luxury interior Design Greens, Modern luxury interior Design Greens, Luxury Interior consultation Design Greens, Luxury Interior cost Design Greens, Luxury Interior price Design Greens, Top luxury interior Design Greens, Luxury Interior near Design Greens, Luxury Interior specialists Design Greens, Luxury Interior experts Design Greens, Luxury Interior solutions Design Greens, Luxury Interior packages Design Greens, Luxury Interior quotes Design Greens, Luxury Interior estimates Design Greens, Luxury Interior services near me Design Greens, Cheap Luxury Interior Design Greens, Quality Luxury Interior Design Greens, Trusted Luxury Interior Design Greens, Luxury Interior transformation Design Greens, Luxury Interior renovation Design Greens, Luxury Interior makeover Design Greens, Best Luxury Interior company Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Greens Company Design Greens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior in Design Greens. Best luxury interior Design Greens Company Design Greens Our professional luxury interior design greens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function LuxuryInteriorDesignGreens() {
                 At Interiara, we believe that exceptional <strong>Luxury Interior Design The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Luxury Interior Design Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Luxury Interior Design The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignGreens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior in design greens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior near design greens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

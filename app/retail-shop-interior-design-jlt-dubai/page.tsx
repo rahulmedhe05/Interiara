@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Retail Shop Interior Design Jlt, Retail Shop Interior in Design Jlt, Best retail shop interior Design Jlt, Professional retail shop interior Design Jlt, Luxury retail shop interior Design Jlt, Retail Shop Interior Design Jlt Dubai, Retail Shop Interior designer Design Jlt, Retail Shop Interior company Design Jlt, Retail Shop Interior contractor Design Jlt, Affordable retail shop interior Design Jlt, Modern retail shop interior Design Jlt, Retail Shop Interior consultation Design Jlt, Retail Shop Interior cost Design Jlt, Retail Shop Interior price Design Jlt, Top retail shop interior Design Jlt
+
+// SEO Keywords: Retail Shop Interior Design Jlt, Retail Shop Interior in Design Jlt, Best retail shop interior Design Jlt, Professional retail shop interior Design Jlt, Luxury retail shop interior Design Jlt, Retail Shop Interior Design Jlt Dubai, Retail Shop Interior designer Design Jlt, Retail Shop Interior company Design Jlt, Retail Shop Interior contractor Design Jlt, Affordable retail shop interior Design Jlt, Modern retail shop interior Design Jlt, Retail Shop Interior consultation Design Jlt, Retail Shop Interior cost Design Jlt, Retail Shop Interior price Design Jlt, Top retail shop interior Design Jlt, Retail Shop Interior near Design Jlt, Retail Shop Interior specialists Design Jlt, Retail Shop Interior experts Design Jlt, Retail Shop Interior solutions Design Jlt, Retail Shop Interior packages Design Jlt, Retail Shop Interior quotes Design Jlt, Retail Shop Interior estimates Design Jlt, Retail Shop Interior services near me Design Jlt, Cheap Retail Shop Interior Design Jlt, Quality Retail Shop Interior Design Jlt, Trusted Retail Shop Interior Design Jlt, Retail Shop Interior transformation Design Jlt, Retail Shop Interior renovation Design Jlt, Retail Shop Interior makeover Design Jlt, Best Retail Shop Interior company Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function RetailShopInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior Design Jlt Company Design Jlt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Retail Shop Interior in Design Jlt. Best retail shop interior Design Jlt Company Design Jlt Our luxury retail shop interior design jlt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function RetailShopInteriorDesignJlt() {
                 At Interiara, we believe that exceptional <strong>Retail Shop Interior Design JLT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JLT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Retail Shop Interior Design Jlt. 
                 We've completed 300+ successful projects across JLT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Retail Shop Interior Design JLT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function RetailShopInteriorDesignJlt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our retail shop interior in design jlt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function RetailShopInteriorDesignJlt() {
 
               <p>
                 Interiara stands out in the crowded JLT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in retail shop interior near design jlt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function RetailShopInteriorDesignJlt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

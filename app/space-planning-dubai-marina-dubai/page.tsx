@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Dubai Marina, Space Planning in Dubai Marina, Best space planning Dubai Marina, Professional space planning Dubai Marina, Luxury space planning Dubai Marina, Space Planning Dubai Marina Dubai, Space Planning designer Dubai Marina, Space Planning company Dubai Marina, Space Planning contractor Dubai Marina, Affordable space planning Dubai Marina, Modern space planning Dubai Marina, Space Planning consultation Dubai Marina, Space Planning cost Dubai Marina, Space Planning price Dubai Marina, Top space planning Dubai Marina
+
+// SEO Keywords: Space Planning Dubai Marina, Space Planning in Dubai Marina, Best space planning Dubai Marina, Professional space planning Dubai Marina, Luxury space planning Dubai Marina, Space Planning Dubai Marina Dubai, Space Planning designer Dubai Marina, Space Planning company Dubai Marina, Space Planning contractor Dubai Marina, Affordable space planning Dubai Marina, Modern space planning Dubai Marina, Space Planning consultation Dubai Marina, Space Planning cost Dubai Marina, Space Planning price Dubai Marina, Top space planning Dubai Marina, Space Planning near Dubai Marina, Space Planning specialists Dubai Marina, Space Planning experts Dubai Marina, Space Planning solutions Dubai Marina, Space Planning packages Dubai Marina, Space Planning quotes Dubai Marina, Space Planning estimates Dubai Marina, Space Planning services near me Dubai Marina, Cheap Space Planning Dubai Marina, Quality Space Planning Dubai Marina, Trusted Space Planning Dubai Marina, Space Planning transformation Dubai Marina, Space Planning renovation Dubai Marina, Space Planning makeover Dubai Marina, Best Space Planning company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Dubai Marina. Best space planning Dubai Marina Company Dubai Marina Our luxury space planning dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

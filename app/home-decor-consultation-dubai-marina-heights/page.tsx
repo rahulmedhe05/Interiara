@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation, Home in Decor Consultation, Best home Decor Consultation, Professional home Decor Consultation, Luxury home Decor Consultation, Home Decor Consultation Dubai, Home designer Decor Consultation, Home company Decor Consultation, Home contractor Decor Consultation, Affordable home Decor Consultation, Modern home Decor Consultation, Home consultation Decor Consultation, Home cost Decor Consultation, Home price Decor Consultation, Top home Decor Consultation
+
+// SEO Keywords: Home Decor Consultation, Home in Decor Consultation, Best home Decor Consultation, Professional home Decor Consultation, Luxury home Decor Consultation, Home Decor Consultation Dubai, Home designer Decor Consultation, Home company Decor Consultation, Home contractor Decor Consultation, Affordable home Decor Consultation, Modern home Decor Consultation, Home consultation Decor Consultation, Home cost Decor Consultation, Home price Decor Consultation, Top home Decor Consultation, Home near Decor Consultation, Home specialists Decor Consultation, Home experts Decor Consultation, Home solutions Decor Consultation, Home packages Decor Consultation, Home quotes Decor Consultation, Home estimates Decor Consultation, Home services near me Decor Consultation, Cheap Home Decor Consultation, Quality Home Decor Consultation, Trusted Home Decor Consultation, Home transformation Decor Consultation, Home renovation Decor Consultation, Home makeover Decor Consultation, Best Home company Decor Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Decor Consultation Company Decor Consultation</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home in Decor Consultation. Best home Decor Consultation Company Decor Consultation Our luxury home decor consultation services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultation() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home in decor consultation service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultation() {
 
               <p>
                 Interiara stands out in the crowded Heights Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home near decor consultation.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultation() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

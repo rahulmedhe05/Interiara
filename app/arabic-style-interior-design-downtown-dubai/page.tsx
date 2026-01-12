@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Arabic Style Interior Design Downtown, Arabic Style Interior in Design Downtown, Best arabic style interior Design Downtown, Professional arabic style interior Design Downtown, Luxury arabic style interior Design Downtown, Arabic Style Interior Design Downtown Dubai, Arabic Style Interior designer Design Downtown, Arabic Style Interior company Design Downtown, Arabic Style Interior contractor Design Downtown, Affordable arabic style interior Design Downtown, Modern arabic style interior Design Downtown, Arabic Style Interior consultation Design Downtown, Arabic Style Interior cost Design Downtown, Arabic Style Interior price Design Downtown, Top arabic style interior Design Downtown
+
+// SEO Keywords: Arabic Style Interior Design Downtown, Arabic Style Interior in Design Downtown, Best arabic style interior Design Downtown, Professional arabic style interior Design Downtown, Luxury arabic style interior Design Downtown, Arabic Style Interior Design Downtown Dubai, Arabic Style Interior designer Design Downtown, Arabic Style Interior company Design Downtown, Arabic Style Interior contractor Design Downtown, Affordable arabic style interior Design Downtown, Modern arabic style interior Design Downtown, Arabic Style Interior consultation Design Downtown, Arabic Style Interior cost Design Downtown, Arabic Style Interior price Design Downtown, Top arabic style interior Design Downtown, Arabic Style Interior near Design Downtown, Arabic Style Interior specialists Design Downtown, Arabic Style Interior experts Design Downtown, Arabic Style Interior solutions Design Downtown, Arabic Style Interior packages Design Downtown, Arabic Style Interior quotes Design Downtown, Arabic Style Interior estimates Design Downtown, Arabic Style Interior services near me Design Downtown, Cheap Arabic Style Interior Design Downtown, Quality Arabic Style Interior Design Downtown, Trusted Arabic Style Interior Design Downtown, Arabic Style Interior transformation Design Downtown, Arabic Style Interior renovation Design Downtown, Arabic Style Interior makeover Design Downtown, Best Arabic Style Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ArabicStyleInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Arabic Style Interior in Design Downtown. Best arabic style interior Design Downtown Company Design Downtown Our luxury arabic style interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ArabicStyleInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our arabic style interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ArabicStyleInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in arabic style interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ArabicStyleInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

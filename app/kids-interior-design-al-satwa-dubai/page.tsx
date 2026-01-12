@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Al Satwa, Kids Interior Design in Al Satwa, Best kids interior design Al Satwa, Professional kids interior design Al Satwa, Luxury kids interior design Al Satwa, Kids Interior Design Al Satwa Dubai, Kids Interior Design designer Al Satwa, Kids Interior Design company Al Satwa, Kids Interior Design contractor Al Satwa, Affordable kids interior design Al Satwa, Modern kids interior design Al Satwa, Kids Interior Design consultation Al Satwa, Kids Interior Design cost Al Satwa, Kids Interior Design price Al Satwa, Top kids interior design Al Satwa
+
+// SEO Keywords: Kids Interior Design Al Satwa, Kids Interior Design in Al Satwa, Best kids interior design Al Satwa, Professional kids interior design Al Satwa, Luxury kids interior design Al Satwa, Kids Interior Design Al Satwa Dubai, Kids Interior Design designer Al Satwa, Kids Interior Design company Al Satwa, Kids Interior Design contractor Al Satwa, Affordable kids interior design Al Satwa, Modern kids interior design Al Satwa, Kids Interior Design consultation Al Satwa, Kids Interior Design cost Al Satwa, Kids Interior Design price Al Satwa, Top kids interior design Al Satwa, Kids Interior Design near Al Satwa, Kids Interior Design specialists Al Satwa, Kids Interior Design experts Al Satwa, Kids Interior Design solutions Al Satwa, Kids Interior Design packages Al Satwa, Kids Interior Design quotes Al Satwa, Kids Interior Design estimates Al Satwa, Kids Interior Design services near me Al Satwa, Cheap Kids Interior Design Al Satwa, Quality Kids Interior Design Al Satwa, Trusted Kids Interior Design Al Satwa, Kids Interior Design transformation Al Satwa, Kids Interior Design renovation Al Satwa, Kids Interior Design makeover Al Satwa, Best Kids Interior Design company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function KidsInteriorDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kids interior design Al Satwa Company Al Satwa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Kids Interior Design in Al Satwa. Best kids interior design Al Satwa Company Al Satwa Our luxury kids interior design al satwa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kids Interior Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function KidsInteriorDesignAlSatwa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our kids interior design in al satwa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function KidsInteriorDesignAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in kids interior design near al satwa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

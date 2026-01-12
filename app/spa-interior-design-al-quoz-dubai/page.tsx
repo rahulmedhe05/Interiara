@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Spa Interior Design Al Quoz, Spa Interior Design in Al Quoz, Best spa interior design Al Quoz, Professional spa interior design Al Quoz, Luxury spa interior design Al Quoz, Spa Interior Design Al Quoz Dubai, Spa Interior Design designer Al Quoz, Spa Interior Design company Al Quoz, Spa Interior Design contractor Al Quoz, Affordable spa interior design Al Quoz, Modern spa interior design Al Quoz, Spa Interior Design consultation Al Quoz, Spa Interior Design cost Al Quoz, Spa Interior Design price Al Quoz, Top spa interior design Al Quoz
+
+// SEO Keywords: Spa Interior Design Al Quoz, Spa Interior Design in Al Quoz, Best spa interior design Al Quoz, Professional spa interior design Al Quoz, Luxury spa interior design Al Quoz, Spa Interior Design Al Quoz Dubai, Spa Interior Design designer Al Quoz, Spa Interior Design company Al Quoz, Spa Interior Design contractor Al Quoz, Affordable spa interior design Al Quoz, Modern spa interior design Al Quoz, Spa Interior Design consultation Al Quoz, Spa Interior Design cost Al Quoz, Spa Interior Design price Al Quoz, Top spa interior design Al Quoz, Spa Interior Design near Al Quoz, Spa Interior Design specialists Al Quoz, Spa Interior Design experts Al Quoz, Spa Interior Design solutions Al Quoz, Spa Interior Design packages Al Quoz, Spa Interior Design quotes Al Quoz, Spa Interior Design estimates Al Quoz, Spa Interior Design services near me Al Quoz, Cheap Spa Interior Design Al Quoz, Quality Spa Interior Design Al Quoz, Trusted Spa Interior Design Al Quoz, Spa Interior Design transformation Al Quoz, Spa Interior Design renovation Al Quoz, Spa Interior Design makeover Al Quoz, Best Spa Interior Design company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpaInteriorDesignAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Spa Interior Design Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Spa Interior Design in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Spa Interior Design Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury spa interior design al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Spa Interior Design Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpaInteriorDesignAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our spa interior design in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in spa interior design near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpaInteriorDesignAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

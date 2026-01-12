@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Discovery Gardens, Window Curtains in Discovery Gardens, Best window curtains Discovery Gardens, Professional window curtains Discovery Gardens, Luxury window curtains Discovery Gardens, Window Curtains Discovery Gardens Dubai, Window Curtains designer Discovery Gardens, Window Curtains company Discovery Gardens, Window Curtains contractor Discovery Gardens, Affordable window curtains Discovery Gardens, Modern window curtains Discovery Gardens, Window Curtains consultation Discovery Gardens, Window Curtains cost Discovery Gardens, Window Curtains price Discovery Gardens, Top window curtains Discovery Gardens
+
+// SEO Keywords: Window Curtains Discovery Gardens, Window Curtains in Discovery Gardens, Best window curtains Discovery Gardens, Professional window curtains Discovery Gardens, Luxury window curtains Discovery Gardens, Window Curtains Discovery Gardens Dubai, Window Curtains designer Discovery Gardens, Window Curtains company Discovery Gardens, Window Curtains contractor Discovery Gardens, Affordable window curtains Discovery Gardens, Modern window curtains Discovery Gardens, Window Curtains consultation Discovery Gardens, Window Curtains cost Discovery Gardens, Window Curtains price Discovery Gardens, Top window curtains Discovery Gardens, Window Curtains near Discovery Gardens, Window Curtains specialists Discovery Gardens, Window Curtains experts Discovery Gardens, Window Curtains solutions Discovery Gardens, Window Curtains packages Discovery Gardens, Window Curtains quotes Discovery Gardens, Window Curtains estimates Discovery Gardens, Window Curtains services near me Discovery Gardens, Cheap Window Curtains Discovery Gardens, Quality Window Curtains Discovery Gardens, Trusted Window Curtains Discovery Gardens, Window Curtains transformation Discovery Gardens, Window Curtains renovation Discovery Gardens, Window Curtains makeover Discovery Gardens, Best Window Curtains company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Curtains in Discovery Gardens. Best window curtains Discovery Gardens Company Discovery Gardens Our luxury window curtains discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowCurtainsDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window curtains in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window curtains near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

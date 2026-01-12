@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Al Mizhar, Salon Interior Design in Al Mizhar, Best salon interior design Al Mizhar, Professional salon interior design Al Mizhar, Luxury salon interior design Al Mizhar, Salon Interior Design Al Mizhar Dubai, Salon Interior Design designer Al Mizhar, Salon Interior Design company Al Mizhar, Salon Interior Design contractor Al Mizhar, Affordable salon interior design Al Mizhar, Modern salon interior design Al Mizhar, Salon Interior Design consultation Al Mizhar, Salon Interior Design cost Al Mizhar, Salon Interior Design price Al Mizhar, Top salon interior design Al Mizhar
+
+// SEO Keywords: Salon Interior Design Al Mizhar, Salon Interior Design in Al Mizhar, Best salon interior design Al Mizhar, Professional salon interior design Al Mizhar, Luxury salon interior design Al Mizhar, Salon Interior Design Al Mizhar Dubai, Salon Interior Design designer Al Mizhar, Salon Interior Design company Al Mizhar, Salon Interior Design contractor Al Mizhar, Affordable salon interior design Al Mizhar, Modern salon interior design Al Mizhar, Salon Interior Design consultation Al Mizhar, Salon Interior Design cost Al Mizhar, Salon Interior Design price Al Mizhar, Top salon interior design Al Mizhar, Salon Interior Design near Al Mizhar, Salon Interior Design specialists Al Mizhar, Salon Interior Design experts Al Mizhar, Salon Interior Design solutions Al Mizhar, Salon Interior Design packages Al Mizhar, Salon Interior Design quotes Al Mizhar, Salon Interior Design estimates Al Mizhar, Salon Interior Design services near me Al Mizhar, Cheap Salon Interior Design Al Mizhar, Quality Salon Interior Design Al Mizhar, Trusted Salon Interior Design Al Mizhar, Salon Interior Design transformation Al Mizhar, Salon Interior Design renovation Al Mizhar, Salon Interior Design makeover Al Mizhar, Best Salon Interior Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SalonInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior design Al Mizhar Company Al Mizhar</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Salon Interior Design in Al Mizhar. Best salon interior design Al Mizhar Company Al Mizhar Our luxury salon interior design al mizhar services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SalonInteriorDesignAlMizhar() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our salon interior design in al mizhar service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SalonInteriorDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in salon interior design near al mizhar.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

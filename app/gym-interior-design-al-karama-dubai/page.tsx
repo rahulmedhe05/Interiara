@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Al Karama, Gym Interior Design in Al Karama, Best gym interior design Al Karama, Professional gym interior design Al Karama, Luxury gym interior design Al Karama, Gym Interior Design Al Karama Dubai, Gym Interior Design designer Al Karama, Gym Interior Design company Al Karama, Gym Interior Design contractor Al Karama, Affordable gym interior design Al Karama, Modern gym interior design Al Karama, Gym Interior Design consultation Al Karama, Gym Interior Design cost Al Karama, Gym Interior Design price Al Karama, Top gym interior design Al Karama
+
+// SEO Keywords: Gym Interior Design Al Karama, Gym Interior Design in Al Karama, Best gym interior design Al Karama, Professional gym interior design Al Karama, Luxury gym interior design Al Karama, Gym Interior Design Al Karama Dubai, Gym Interior Design designer Al Karama, Gym Interior Design company Al Karama, Gym Interior Design contractor Al Karama, Affordable gym interior design Al Karama, Modern gym interior design Al Karama, Gym Interior Design consultation Al Karama, Gym Interior Design cost Al Karama, Gym Interior Design price Al Karama, Top gym interior design Al Karama, Gym Interior Design near Al Karama, Gym Interior Design specialists Al Karama, Gym Interior Design experts Al Karama, Gym Interior Design solutions Al Karama, Gym Interior Design packages Al Karama, Gym Interior Design quotes Al Karama, Gym Interior Design estimates Al Karama, Gym Interior Design services near me Al Karama, Cheap Gym Interior Design Al Karama, Quality Gym Interior Design Al Karama, Trusted Gym Interior Design Al Karama, Gym Interior Design transformation Al Karama, Gym Interior Design renovation Al Karama, Gym Interior Design makeover Al Karama, Best Gym Interior Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function GymInteriorDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Gym Interior Design in Al Karama. Best gym interior design Al Karama Company Al Karama Our luxury gym interior design al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function GymInteriorDesignAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our gym interior design in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function GymInteriorDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in gym interior design near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function GymInteriorDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

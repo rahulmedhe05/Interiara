@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Blinds Business Bay, Window Blinds in Business Bay, Best window blinds Business Bay, Professional window blinds Business Bay, Luxury window blinds Business Bay, Window Blinds Business Bay Dubai, Window Blinds designer Business Bay, Window Blinds company Business Bay, Window Blinds contractor Business Bay, Affordable window blinds Business Bay, Modern window blinds Business Bay, Window Blinds consultation Business Bay, Window Blinds cost Business Bay, Window Blinds price Business Bay, Top window blinds Business Bay
+
+// SEO Keywords: Window Blinds Business Bay, Window Blinds in Business Bay, Best window blinds Business Bay, Professional window blinds Business Bay, Luxury window blinds Business Bay, Window Blinds Business Bay Dubai, Window Blinds designer Business Bay, Window Blinds company Business Bay, Window Blinds contractor Business Bay, Affordable window blinds Business Bay, Modern window blinds Business Bay, Window Blinds consultation Business Bay, Window Blinds cost Business Bay, Window Blinds price Business Bay, Top window blinds Business Bay, Window Blinds near Business Bay, Window Blinds specialists Business Bay, Window Blinds experts Business Bay, Window Blinds solutions Business Bay, Window Blinds packages Business Bay, Window Blinds quotes Business Bay, Window Blinds estimates Business Bay, Window Blinds services near me Business Bay, Cheap Window Blinds Business Bay, Quality Window Blinds Business Bay, Trusted Window Blinds Business Bay, Window Blinds transformation Business Bay, Window Blinds renovation Business Bay, Window Blinds makeover Business Bay, Best Window Blinds company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowBlindsBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window Blinds in Business Bay. Best window blinds Business Bay Company Business Bay Our luxury window blinds business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WindowBlindsBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window blinds in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowBlindsBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window blinds near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowBlindsBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

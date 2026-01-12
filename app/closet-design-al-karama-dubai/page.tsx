@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Al Karama, Closet Design in Al Karama, Best closet design Al Karama, Professional closet design Al Karama, Luxury closet design Al Karama, Closet Design Al Karama Dubai, Closet Design designer Al Karama, Closet Design company Al Karama, Closet Design contractor Al Karama, Affordable closet design Al Karama, Modern closet design Al Karama, Closet Design consultation Al Karama, Closet Design cost Al Karama, Closet Design price Al Karama, Top closet design Al Karama
+
+// SEO Keywords: Closet Design Al Karama, Closet Design in Al Karama, Best closet design Al Karama, Professional closet design Al Karama, Luxury closet design Al Karama, Closet Design Al Karama Dubai, Closet Design designer Al Karama, Closet Design company Al Karama, Closet Design contractor Al Karama, Affordable closet design Al Karama, Modern closet design Al Karama, Closet Design consultation Al Karama, Closet Design cost Al Karama, Closet Design price Al Karama, Top closet design Al Karama, Closet Design near Al Karama, Closet Design specialists Al Karama, Closet Design experts Al Karama, Closet Design solutions Al Karama, Closet Design packages Al Karama, Closet Design quotes Al Karama, Closet Design estimates Al Karama, Closet Design services near me Al Karama, Cheap Closet Design Al Karama, Quality Closet Design Al Karama, Trusted Closet Design Al Karama, Closet Design transformation Al Karama, Closet Design renovation Al Karama, Closet Design makeover Al Karama, Best Closet Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignAlKarama() {
                 At Interiara, we believe that exceptional <strong>Closet Design Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bedroom Interior Design Al Satwa, Bedroom Interior Design in Al Satwa, Best bedroom interior design Al Satwa, Professional bedroom interior design Al Satwa, Luxury bedroom interior design Al Satwa, Bedroom Interior Design Al Satwa Dubai, Bedroom Interior Design designer Al Satwa, Bedroom Interior Design company Al Satwa, Bedroom Interior Design contractor Al Satwa, Affordable bedroom interior design Al Satwa, Modern bedroom interior design Al Satwa, Bedroom Interior Design consultation Al Satwa, Bedroom Interior Design cost Al Satwa, Bedroom Interior Design price Al Satwa, Top bedroom interior design Al Satwa
+
+// SEO Keywords: Bedroom Interior Design Al Satwa, Bedroom Interior Design in Al Satwa, Best bedroom interior design Al Satwa, Professional bedroom interior design Al Satwa, Luxury bedroom interior design Al Satwa, Bedroom Interior Design Al Satwa Dubai, Bedroom Interior Design designer Al Satwa, Bedroom Interior Design company Al Satwa, Bedroom Interior Design contractor Al Satwa, Affordable bedroom interior design Al Satwa, Modern bedroom interior design Al Satwa, Bedroom Interior Design consultation Al Satwa, Bedroom Interior Design cost Al Satwa, Bedroom Interior Design price Al Satwa, Top bedroom interior design Al Satwa, Bedroom Interior Design near Al Satwa, Bedroom Interior Design specialists Al Satwa, Bedroom Interior Design experts Al Satwa, Bedroom Interior Design solutions Al Satwa, Bedroom Interior Design packages Al Satwa, Bedroom Interior Design quotes Al Satwa, Bedroom Interior Design estimates Al Satwa, Bedroom Interior Design services near me Al Satwa, Cheap Bedroom Interior Design Al Satwa, Quality Bedroom Interior Design Al Satwa, Trusted Bedroom Interior Design Al Satwa, Bedroom Interior Design transformation Al Satwa, Bedroom Interior Design renovation Al Satwa, Bedroom Interior Design makeover Al Satwa, Best Bedroom Interior Design company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BedroomInteriorDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior design Al Satwa Company Al Satwa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bedroom Interior Design in Al Satwa. Best bedroom interior design Al Satwa Company Al Satwa Our luxury bedroom interior design al satwa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BedroomInteriorDesignAlSatwa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bedroom interior design in al satwa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BedroomInteriorDesignAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bedroom interior design near al satwa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BedroomInteriorDesignAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

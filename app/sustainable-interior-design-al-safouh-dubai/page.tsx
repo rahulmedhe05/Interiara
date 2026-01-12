@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Al Safouh, Sustainable Interior Design in Al Safouh, Best sustainable interior design Al Safouh, Professional sustainable interior design Al Safouh, Luxury sustainable interior design Al Safouh, Sustainable Interior Design Al Safouh Dubai, Sustainable Interior Design designer Al Safouh, Sustainable Interior Design company Al Safouh, Sustainable Interior Design contractor Al Safouh, Affordable sustainable interior design Al Safouh, Modern sustainable interior design Al Safouh, Sustainable Interior Design consultation Al Safouh, Sustainable Interior Design cost Al Safouh, Sustainable Interior Design price Al Safouh, Top sustainable interior design Al Safouh
+
+// SEO Keywords: Sustainable Interior Design Al Safouh, Sustainable Interior Design in Al Safouh, Best sustainable interior design Al Safouh, Professional sustainable interior design Al Safouh, Luxury sustainable interior design Al Safouh, Sustainable Interior Design Al Safouh Dubai, Sustainable Interior Design designer Al Safouh, Sustainable Interior Design company Al Safouh, Sustainable Interior Design contractor Al Safouh, Affordable sustainable interior design Al Safouh, Modern sustainable interior design Al Safouh, Sustainable Interior Design consultation Al Safouh, Sustainable Interior Design cost Al Safouh, Sustainable Interior Design price Al Safouh, Top sustainable interior design Al Safouh, Sustainable Interior Design near Al Safouh, Sustainable Interior Design specialists Al Safouh, Sustainable Interior Design experts Al Safouh, Sustainable Interior Design solutions Al Safouh, Sustainable Interior Design packages Al Safouh, Sustainable Interior Design quotes Al Safouh, Sustainable Interior Design estimates Al Safouh, Sustainable Interior Design services near me Al Safouh, Cheap Sustainable Interior Design Al Safouh, Quality Sustainable Interior Design Al Safouh, Trusted Sustainable Interior Design Al Safouh, Sustainable Interior Design transformation Al Safouh, Sustainable Interior Design renovation Al Safouh, Sustainable Interior Design makeover Al Safouh, Best Sustainable Interior Design company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Al Safouh Company Al Safouh</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Al Safouh. Best sustainable interior design Al Safouh Company Al Safouh Our luxury sustainable interior design al safouh services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignAlSafouh() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in al safouh service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near al safouh.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

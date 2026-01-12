@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Fitness Studio Interior Design Jvt, Fitness Studio Interior in Design Jvt, Best fitness studio interior Design Jvt, Professional fitness studio interior Design Jvt, Luxury fitness studio interior Design Jvt, Fitness Studio Interior Design Jvt Dubai, Fitness Studio Interior designer Design Jvt, Fitness Studio Interior company Design Jvt, Fitness Studio Interior contractor Design Jvt, Affordable fitness studio interior Design Jvt, Modern fitness studio interior Design Jvt, Fitness Studio Interior consultation Design Jvt, Fitness Studio Interior cost Design Jvt, Fitness Studio Interior price Design Jvt, Top fitness studio interior Design Jvt
+
+// SEO Keywords: Fitness Studio Interior Design Jvt, Fitness Studio Interior in Design Jvt, Best fitness studio interior Design Jvt, Professional fitness studio interior Design Jvt, Luxury fitness studio interior Design Jvt, Fitness Studio Interior Design Jvt Dubai, Fitness Studio Interior designer Design Jvt, Fitness Studio Interior company Design Jvt, Fitness Studio Interior contractor Design Jvt, Affordable fitness studio interior Design Jvt, Modern fitness studio interior Design Jvt, Fitness Studio Interior consultation Design Jvt, Fitness Studio Interior cost Design Jvt, Fitness Studio Interior price Design Jvt, Top fitness studio interior Design Jvt, Fitness Studio Interior near Design Jvt, Fitness Studio Interior specialists Design Jvt, Fitness Studio Interior experts Design Jvt, Fitness Studio Interior solutions Design Jvt, Fitness Studio Interior packages Design Jvt, Fitness Studio Interior quotes Design Jvt, Fitness Studio Interior estimates Design Jvt, Fitness Studio Interior services near me Design Jvt, Cheap Fitness Studio Interior Design Jvt, Quality Fitness Studio Interior Design Jvt, Trusted Fitness Studio Interior Design Jvt, Fitness Studio Interior transformation Design Jvt, Fitness Studio Interior renovation Design Jvt, Fitness Studio Interior makeover Design Jvt, Best Fitness Studio Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function FitnessStudioInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Fitness Studio Interior in Design Jvt. Best fitness studio interior Design Jvt Company Design Jvt Our luxury fitness studio interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function FitnessStudioInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Fitness Studio Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Fitness Studio Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Fitness Studio Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function FitnessStudioInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our fitness studio interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function FitnessStudioInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in fitness studio interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function FitnessStudioInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

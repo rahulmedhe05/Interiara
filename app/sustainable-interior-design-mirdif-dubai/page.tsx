@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Mirdif, Sustainable Interior in Design Mirdif, Best sustainable interior Design Mirdif, Professional sustainable interior Design Mirdif, Luxury sustainable interior Design Mirdif, Sustainable Interior Design Mirdif Dubai, Sustainable Interior designer Design Mirdif, Sustainable Interior company Design Mirdif, Sustainable Interior contractor Design Mirdif, Affordable sustainable interior Design Mirdif, Modern sustainable interior Design Mirdif, Sustainable Interior consultation Design Mirdif, Sustainable Interior cost Design Mirdif, Sustainable Interior price Design Mirdif, Top sustainable interior Design Mirdif
+
+// SEO Keywords: Sustainable Interior Design Mirdif, Sustainable Interior in Design Mirdif, Best sustainable interior Design Mirdif, Professional sustainable interior Design Mirdif, Luxury sustainable interior Design Mirdif, Sustainable Interior Design Mirdif Dubai, Sustainable Interior designer Design Mirdif, Sustainable Interior company Design Mirdif, Sustainable Interior contractor Design Mirdif, Affordable sustainable interior Design Mirdif, Modern sustainable interior Design Mirdif, Sustainable Interior consultation Design Mirdif, Sustainable Interior cost Design Mirdif, Sustainable Interior price Design Mirdif, Top sustainable interior Design Mirdif, Sustainable Interior near Design Mirdif, Sustainable Interior specialists Design Mirdif, Sustainable Interior experts Design Mirdif, Sustainable Interior solutions Design Mirdif, Sustainable Interior packages Design Mirdif, Sustainable Interior quotes Design Mirdif, Sustainable Interior estimates Design Mirdif, Sustainable Interior services near me Design Mirdif, Cheap Sustainable Interior Design Mirdif, Quality Sustainable Interior Design Mirdif, Trusted Sustainable Interior Design Mirdif, Sustainable Interior transformation Design Mirdif, Sustainable Interior renovation Design Mirdif, Sustainable Interior makeover Design Mirdif, Best Sustainable Interior company Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Mirdif Company Design Mirdif</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior in Design Mirdif. Best sustainable interior Design Mirdif Company Design Mirdif Our luxury sustainable interior design mirdif services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignMirdif() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior in design mirdif service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignMirdif() {
 
               <p>
                 Interiara stands out in the crowded Mirdif Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior near design mirdif.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignMirdif() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

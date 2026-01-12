@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Jebel Ali, Wall Flooring Design in Jebel Ali, Best wall flooring design Jebel Ali, Professional wall flooring design Jebel Ali, Luxury wall flooring design Jebel Ali, Wall Flooring Design Jebel Ali Dubai, Wall Flooring Design designer Jebel Ali, Wall Flooring Design company Jebel Ali, Wall Flooring Design contractor Jebel Ali, Affordable wall flooring design Jebel Ali, Modern wall flooring design Jebel Ali, Wall Flooring Design consultation Jebel Ali, Wall Flooring Design cost Jebel Ali, Wall Flooring Design price Jebel Ali, Top wall flooring design Jebel Ali
+
+// SEO Keywords: Wall Flooring Design Jebel Ali, Wall Flooring Design in Jebel Ali, Best wall flooring design Jebel Ali, Professional wall flooring design Jebel Ali, Luxury wall flooring design Jebel Ali, Wall Flooring Design Jebel Ali Dubai, Wall Flooring Design designer Jebel Ali, Wall Flooring Design company Jebel Ali, Wall Flooring Design contractor Jebel Ali, Affordable wall flooring design Jebel Ali, Modern wall flooring design Jebel Ali, Wall Flooring Design consultation Jebel Ali, Wall Flooring Design cost Jebel Ali, Wall Flooring Design price Jebel Ali, Top wall flooring design Jebel Ali, Wall Flooring Design near Jebel Ali, Wall Flooring Design specialists Jebel Ali, Wall Flooring Design experts Jebel Ali, Wall Flooring Design solutions Jebel Ali, Wall Flooring Design packages Jebel Ali, Wall Flooring Design quotes Jebel Ali, Wall Flooring Design estimates Jebel Ali, Wall Flooring Design services near me Jebel Ali, Cheap Wall Flooring Design Jebel Ali, Quality Wall Flooring Design Jebel Ali, Trusted Wall Flooring Design Jebel Ali, Wall Flooring Design transformation Jebel Ali, Wall Flooring Design renovation Jebel Ali, Wall Flooring Design makeover Jebel Ali, Best Wall Flooring Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Jebel Ali. Best wall flooring design Jebel Ali Company Jebel Ali Our luxury wall flooring design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

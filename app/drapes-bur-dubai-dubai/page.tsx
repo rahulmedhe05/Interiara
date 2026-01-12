@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Bur Dubai, Drapes in Bur Dubai, Best drapes Bur Dubai, Professional drapes Bur Dubai, Luxury drapes Bur Dubai, Drapes Bur Dubai Dubai, Drapes designer Bur Dubai, Drapes company Bur Dubai, Drapes contractor Bur Dubai, Affordable drapes Bur Dubai, Modern drapes Bur Dubai, Drapes consultation Bur Dubai, Drapes cost Bur Dubai, Drapes price Bur Dubai, Top drapes Bur Dubai
+
+// SEO Keywords: Drapes Bur Dubai, Drapes in Bur Dubai, Best drapes Bur Dubai, Professional drapes Bur Dubai, Luxury drapes Bur Dubai, Drapes Bur Dubai Dubai, Drapes designer Bur Dubai, Drapes company Bur Dubai, Drapes contractor Bur Dubai, Affordable drapes Bur Dubai, Modern drapes Bur Dubai, Drapes consultation Bur Dubai, Drapes cost Bur Dubai, Drapes price Bur Dubai, Top drapes Bur Dubai, Drapes near Bur Dubai, Drapes specialists Bur Dubai, Drapes experts Bur Dubai, Drapes solutions Bur Dubai, Drapes packages Bur Dubai, Drapes quotes Bur Dubai, Drapes estimates Bur Dubai, Drapes services near me Bur Dubai, Cheap Drapes Bur Dubai, Quality Drapes Bur Dubai, Trusted Drapes Bur Dubai, Drapes transformation Bur Dubai, Drapes renovation Bur Dubai, Drapes makeover Bur Dubai, Best Drapes company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesBurDubai() {
                 At Interiara, we believe that exceptional <strong>Drapes Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

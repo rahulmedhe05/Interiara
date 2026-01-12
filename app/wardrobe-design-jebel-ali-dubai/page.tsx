@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Jebel Ali, Wardrobe Design in Jebel Ali, Best wardrobe design Jebel Ali, Professional wardrobe design Jebel Ali, Luxury wardrobe design Jebel Ali, Wardrobe Design Jebel Ali Dubai, Wardrobe Design designer Jebel Ali, Wardrobe Design company Jebel Ali, Wardrobe Design contractor Jebel Ali, Affordable wardrobe design Jebel Ali, Modern wardrobe design Jebel Ali, Wardrobe Design consultation Jebel Ali, Wardrobe Design cost Jebel Ali, Wardrobe Design price Jebel Ali, Top wardrobe design Jebel Ali
+
+// SEO Keywords: Wardrobe Design Jebel Ali, Wardrobe Design in Jebel Ali, Best wardrobe design Jebel Ali, Professional wardrobe design Jebel Ali, Luxury wardrobe design Jebel Ali, Wardrobe Design Jebel Ali Dubai, Wardrobe Design designer Jebel Ali, Wardrobe Design company Jebel Ali, Wardrobe Design contractor Jebel Ali, Affordable wardrobe design Jebel Ali, Modern wardrobe design Jebel Ali, Wardrobe Design consultation Jebel Ali, Wardrobe Design cost Jebel Ali, Wardrobe Design price Jebel Ali, Top wardrobe design Jebel Ali, Wardrobe Design near Jebel Ali, Wardrobe Design specialists Jebel Ali, Wardrobe Design experts Jebel Ali, Wardrobe Design solutions Jebel Ali, Wardrobe Design packages Jebel Ali, Wardrobe Design quotes Jebel Ali, Wardrobe Design estimates Jebel Ali, Wardrobe Design services near me Jebel Ali, Cheap Wardrobe Design Jebel Ali, Quality Wardrobe Design Jebel Ali, Trusted Wardrobe Design Jebel Ali, Wardrobe Design transformation Jebel Ali, Wardrobe Design renovation Jebel Ali, Wardrobe Design makeover Jebel Ali, Best Wardrobe Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignJebelAli() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Jebel Ali Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Jebel Ali Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe Design in Jebel Ali. 
                 We've completed 300+ successful projects across Jebel Ali Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Jebel Ali Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design jebel ali services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Jebel Ali Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe design in jebel ali service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe design near jebel ali.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

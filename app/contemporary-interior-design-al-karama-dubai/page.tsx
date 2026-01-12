@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Contemporary Interior Design Al Karama, Contemporary Interior Design in Al Karama, Best contemporary interior design Al Karama, Professional contemporary interior design Al Karama, Luxury contemporary interior design Al Karama, Contemporary Interior Design Al Karama Dubai, Contemporary Interior Design designer Al Karama, Contemporary Interior Design company Al Karama, Contemporary Interior Design contractor Al Karama, Affordable contemporary interior design Al Karama, Modern contemporary interior design Al Karama, Contemporary Interior Design consultation Al Karama, Contemporary Interior Design cost Al Karama, Contemporary Interior Design price Al Karama, Top contemporary interior design Al Karama
+
+// SEO Keywords: Contemporary Interior Design Al Karama, Contemporary Interior Design in Al Karama, Best contemporary interior design Al Karama, Professional contemporary interior design Al Karama, Luxury contemporary interior design Al Karama, Contemporary Interior Design Al Karama Dubai, Contemporary Interior Design designer Al Karama, Contemporary Interior Design company Al Karama, Contemporary Interior Design contractor Al Karama, Affordable contemporary interior design Al Karama, Modern contemporary interior design Al Karama, Contemporary Interior Design consultation Al Karama, Contemporary Interior Design cost Al Karama, Contemporary Interior Design price Al Karama, Top contemporary interior design Al Karama, Contemporary Interior Design near Al Karama, Contemporary Interior Design specialists Al Karama, Contemporary Interior Design experts Al Karama, Contemporary Interior Design solutions Al Karama, Contemporary Interior Design packages Al Karama, Contemporary Interior Design quotes Al Karama, Contemporary Interior Design estimates Al Karama, Contemporary Interior Design services near me Al Karama, Cheap Contemporary Interior Design Al Karama, Quality Contemporary Interior Design Al Karama, Trusted Contemporary Interior Design Al Karama, Contemporary Interior Design transformation Al Karama, Contemporary Interior Design renovation Al Karama, Contemporary Interior Design makeover Al Karama, Best Contemporary Interior Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ContemporaryInteriorDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Contemporary Interior Design in Al Karama. Best contemporary interior design Al Karama Company Al Karama Our luxury contemporary interior design al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ContemporaryInteriorDesignAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our contemporary interior design in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ContemporaryInteriorDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in contemporary interior design near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ContemporaryInteriorDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

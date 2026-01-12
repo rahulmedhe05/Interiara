@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Al Furjan, Soundproofing Design in Al Furjan, Best soundproofing design Al Furjan, Professional soundproofing design Al Furjan, Luxury soundproofing design Al Furjan, Soundproofing Design Al Furjan Dubai, Soundproofing Design designer Al Furjan, Soundproofing Design company Al Furjan, Soundproofing Design contractor Al Furjan, Affordable soundproofing design Al Furjan, Modern soundproofing design Al Furjan, Soundproofing Design consultation Al Furjan, Soundproofing Design cost Al Furjan, Soundproofing Design price Al Furjan, Top soundproofing design Al Furjan
+
+// SEO Keywords: Soundproofing Design Al Furjan, Soundproofing Design in Al Furjan, Best soundproofing design Al Furjan, Professional soundproofing design Al Furjan, Luxury soundproofing design Al Furjan, Soundproofing Design Al Furjan Dubai, Soundproofing Design designer Al Furjan, Soundproofing Design company Al Furjan, Soundproofing Design contractor Al Furjan, Affordable soundproofing design Al Furjan, Modern soundproofing design Al Furjan, Soundproofing Design consultation Al Furjan, Soundproofing Design cost Al Furjan, Soundproofing Design price Al Furjan, Top soundproofing design Al Furjan, Soundproofing Design near Al Furjan, Soundproofing Design specialists Al Furjan, Soundproofing Design experts Al Furjan, Soundproofing Design solutions Al Furjan, Soundproofing Design packages Al Furjan, Soundproofing Design quotes Al Furjan, Soundproofing Design estimates Al Furjan, Soundproofing Design services near me Al Furjan, Cheap Soundproofing Design Al Furjan, Quality Soundproofing Design Al Furjan, Trusted Soundproofing Design Al Furjan, Soundproofing Design transformation Al Furjan, Soundproofing Design renovation Al Furjan, Soundproofing Design makeover Al Furjan, Best Soundproofing Design company Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Al Furjan Company Al Furjan</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing Design in Al Furjan. Best soundproofing design Al Furjan Company Al Furjan Our luxury soundproofing design al furjan services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignAlFurjan() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing design in al furjan service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignAlFurjan() {
 
               <p>
                 Interiara stands out in the crowded Al Furjan Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing design near al furjan.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignAlFurjan() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

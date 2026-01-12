@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Dubai Marina Heights, Space Planning Dubai in Marina Heights, Best space planning dubai Marina Heights, Professional space planning dubai Marina Heights, Luxury space planning dubai Marina Heights, Space Planning Dubai Marina Heights Dubai, Space Planning Dubai designer Marina Heights, Space Planning Dubai company Marina Heights, Space Planning Dubai contractor Marina Heights, Affordable space planning dubai Marina Heights, Modern space planning dubai Marina Heights, Space Planning Dubai consultation Marina Heights, Space Planning Dubai cost Marina Heights, Space Planning Dubai price Marina Heights, Top space planning dubai Marina Heights
+
+// SEO Keywords: Space Planning Dubai Marina Heights, Space Planning Dubai in Marina Heights, Best space planning dubai Marina Heights, Professional space planning dubai Marina Heights, Luxury space planning dubai Marina Heights, Space Planning Dubai Marina Heights Dubai, Space Planning Dubai designer Marina Heights, Space Planning Dubai company Marina Heights, Space Planning Dubai contractor Marina Heights, Affordable space planning dubai Marina Heights, Modern space planning dubai Marina Heights, Space Planning Dubai consultation Marina Heights, Space Planning Dubai cost Marina Heights, Space Planning Dubai price Marina Heights, Top space planning dubai Marina Heights, Space Planning Dubai near Marina Heights, Space Planning Dubai specialists Marina Heights, Space Planning Dubai experts Marina Heights, Space Planning Dubai solutions Marina Heights, Space Planning Dubai packages Marina Heights, Space Planning Dubai quotes Marina Heights, Space Planning Dubai estimates Marina Heights, Space Planning Dubai services near me Marina Heights, Cheap Space Planning Dubai Marina Heights, Quality Space Planning Dubai Marina Heights, Trusted Space Planning Dubai Marina Heights, Space Planning Dubai transformation Marina Heights, Space Planning Dubai renovation Marina Heights, Space Planning Dubai makeover Marina Heights, Best Space Planning Dubai company Marina Heights
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningDubaiMarinaHeights() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Marina Heights Company Marina Heights</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning Dubai in Marina Heights. Best space planning dubai Marina Heights Company Marina Heights Our professional space planning dubai marina heights services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function SpacePlanningDubaiMarinaHeights() {
                 At Interiara, we believe that exceptional <strong>Space Planning Marina Heights Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Heights Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Space Planning Dubai Marina Heights. 
                 We've completed 300+ successful projects across Heights Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Marina Heights Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function SpacePlanningDubaiMarinaHeights() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning dubai in marina heights service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningDubaiMarinaHeights() {
 
               <p>
                 Interiara stands out in the crowded Heights Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning dubai near marina heights.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningDubaiMarinaHeights() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

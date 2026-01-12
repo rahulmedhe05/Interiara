@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Jumeirah, Custom Furniture in Design Jumeirah, Best custom furniture Design Jumeirah, Professional custom furniture Design Jumeirah, Luxury custom furniture Design Jumeirah, Custom Furniture Design Jumeirah Dubai, Custom Furniture designer Design Jumeirah, Custom Furniture company Design Jumeirah, Custom Furniture contractor Design Jumeirah, Affordable custom furniture Design Jumeirah, Modern custom furniture Design Jumeirah, Custom Furniture consultation Design Jumeirah, Custom Furniture cost Design Jumeirah, Custom Furniture price Design Jumeirah, Top custom furniture Design Jumeirah
+
+// SEO Keywords: Custom Furniture Design Jumeirah, Custom Furniture in Design Jumeirah, Best custom furniture Design Jumeirah, Professional custom furniture Design Jumeirah, Luxury custom furniture Design Jumeirah, Custom Furniture Design Jumeirah Dubai, Custom Furniture designer Design Jumeirah, Custom Furniture company Design Jumeirah, Custom Furniture contractor Design Jumeirah, Affordable custom furniture Design Jumeirah, Modern custom furniture Design Jumeirah, Custom Furniture consultation Design Jumeirah, Custom Furniture cost Design Jumeirah, Custom Furniture price Design Jumeirah, Top custom furniture Design Jumeirah, Custom Furniture near Design Jumeirah, Custom Furniture specialists Design Jumeirah, Custom Furniture experts Design Jumeirah, Custom Furniture solutions Design Jumeirah, Custom Furniture packages Design Jumeirah, Custom Furniture quotes Design Jumeirah, Custom Furniture estimates Design Jumeirah, Custom Furniture services near me Design Jumeirah, Cheap Custom Furniture Design Jumeirah, Quality Custom Furniture Design Jumeirah, Trusted Custom Furniture Design Jumeirah, Custom Furniture transformation Design Jumeirah, Custom Furniture renovation Design Jumeirah, Custom Furniture makeover Design Jumeirah, Best Custom Furniture company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture in Design Jumeirah. Best custom furniture Design Jumeirah Company Design Jumeirah Our luxury custom furniture design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

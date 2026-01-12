@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Jbr, Smart in Lighting Jbr, Best smart Lighting Jbr, Professional smart Lighting Jbr, Luxury smart Lighting Jbr, Smart Lighting Jbr Dubai, Smart designer Lighting Jbr, Smart company Lighting Jbr, Smart contractor Lighting Jbr, Affordable smart Lighting Jbr, Modern smart Lighting Jbr, Smart consultation Lighting Jbr, Smart cost Lighting Jbr, Smart price Lighting Jbr, Top smart Lighting Jbr
+
+// SEO Keywords: Smart Lighting Jbr, Smart in Lighting Jbr, Best smart Lighting Jbr, Professional smart Lighting Jbr, Luxury smart Lighting Jbr, Smart Lighting Jbr Dubai, Smart designer Lighting Jbr, Smart company Lighting Jbr, Smart contractor Lighting Jbr, Affordable smart Lighting Jbr, Modern smart Lighting Jbr, Smart consultation Lighting Jbr, Smart cost Lighting Jbr, Smart price Lighting Jbr, Top smart Lighting Jbr, Smart near Lighting Jbr, Smart specialists Lighting Jbr, Smart experts Lighting Jbr, Smart solutions Lighting Jbr, Smart packages Lighting Jbr, Smart quotes Lighting Jbr, Smart estimates Lighting Jbr, Smart services near me Lighting Jbr, Cheap Smart Lighting Jbr, Quality Smart Lighting Jbr, Trusted Smart Lighting Jbr, Smart transformation Lighting Jbr, Smart renovation Lighting Jbr, Smart makeover Lighting Jbr, Best Smart company Lighting Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingJbr() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart in Lighting Jbr. Smart Lighting Jbr. 
                 We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart in lighting jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart near lighting jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords:  Drapes Springs,  in Drapes Springs, Best  Drapes Springs, Professional  Drapes Springs, Luxury  Drapes Springs,  Drapes Springs Dubai,  designer Drapes Springs,  company Drapes Springs,  contractor Drapes Springs, Affordable  Drapes Springs, Modern  Drapes Springs,  consultation Drapes Springs,  cost Drapes Springs,  price Drapes Springs, Top  Drapes Springs
+
+// SEO Keywords:  Drapes Springs,  in Drapes Springs, Best  Drapes Springs, Professional  Drapes Springs, Luxury  Drapes Springs,  Drapes Springs Dubai,  designer Drapes Springs,  company Drapes Springs,  contractor Drapes Springs, Affordable  Drapes Springs, Modern  Drapes Springs,  consultation Drapes Springs,  cost Drapes Springs,  price Drapes Springs, Top  Drapes Springs,  near Drapes Springs,  specialists Drapes Springs,  experts Drapes Springs,  solutions Drapes Springs,  packages Drapes Springs,  quotes Drapes Springs,  estimates Drapes Springs,  services near me Drapes Springs, Cheap  Drapes Springs, Quality  Drapes Springs, Trusted  Drapes Springs,  transformation Drapes Springs,  renovation Drapes Springs,  makeover Drapes Springs, Best  company Drapes Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesSprings() {
                 At Interiara, we believe that exceptional <strong>Drapes The Springs Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Springs Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p> in Drapes Springs.  Drapes Springs. 
                 We've completed 300+ successful projects across The Springs Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes The Springs Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional  drapes springs services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes The Springs Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesSprings() {
 
               <p>
                 Interiara stands out in the crowded The Springs Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our  in drapes springs service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in  near drapes springs.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesSprings() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

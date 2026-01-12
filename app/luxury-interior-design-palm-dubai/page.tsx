@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Luxury Interior Design Palm, Luxury Interior in Design Palm, Best luxury interior Design Palm, Professional luxury interior Design Palm, Luxury luxury interior Design Palm, Luxury Interior Design Palm Dubai, Luxury Interior designer Design Palm, Luxury Interior company Design Palm, Luxury Interior contractor Design Palm, Affordable luxury interior Design Palm, Modern luxury interior Design Palm, Luxury Interior consultation Design Palm, Luxury Interior cost Design Palm, Luxury Interior price Design Palm, Top luxury interior Design Palm
+
+// SEO Keywords: Luxury Interior Design Palm, Luxury Interior in Design Palm, Best luxury interior Design Palm, Professional luxury interior Design Palm, Luxury luxury interior Design Palm, Luxury Interior Design Palm Dubai, Luxury Interior designer Design Palm, Luxury Interior company Design Palm, Luxury Interior contractor Design Palm, Affordable luxury interior Design Palm, Modern luxury interior Design Palm, Luxury Interior consultation Design Palm, Luxury Interior cost Design Palm, Luxury Interior price Design Palm, Top luxury interior Design Palm, Luxury Interior near Design Palm, Luxury Interior specialists Design Palm, Luxury Interior experts Design Palm, Luxury Interior solutions Design Palm, Luxury Interior packages Design Palm, Luxury Interior quotes Design Palm, Luxury Interior estimates Design Palm, Luxury Interior services near me Design Palm, Cheap Luxury Interior Design Palm, Quality Luxury Interior Design Palm, Trusted Luxury Interior Design Palm, Luxury Interior transformation Design Palm, Luxury Interior renovation Design Palm, Luxury Interior makeover Design Palm, Best Luxury Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LuxuryInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Luxury Interior in Design Palm. Best luxury interior Design Palm Company Design Palm Our luxury luxury interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LuxuryInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our luxury interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LuxuryInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in luxury interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LuxuryInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

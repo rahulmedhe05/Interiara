@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modern Interior Design Bur, Modern Interior in Design Bur, Best modern interior Design Bur, Professional modern interior Design Bur, Luxury modern interior Design Bur, Modern Interior Design Bur Dubai, Modern Interior designer Design Bur, Modern Interior company Design Bur, Modern Interior contractor Design Bur, Affordable modern interior Design Bur, Modern modern interior Design Bur, Modern Interior consultation Design Bur, Modern Interior cost Design Bur, Modern Interior price Design Bur, Top modern interior Design Bur
+
+// SEO Keywords: Modern Interior Design Bur, Modern Interior in Design Bur, Best modern interior Design Bur, Professional modern interior Design Bur, Luxury modern interior Design Bur, Modern Interior Design Bur Dubai, Modern Interior designer Design Bur, Modern Interior company Design Bur, Modern Interior contractor Design Bur, Affordable modern interior Design Bur, Modern modern interior Design Bur, Modern Interior consultation Design Bur, Modern Interior cost Design Bur, Modern Interior price Design Bur, Top modern interior Design Bur, Modern Interior near Design Bur, Modern Interior specialists Design Bur, Modern Interior experts Design Bur, Modern Interior solutions Design Bur, Modern Interior packages Design Bur, Modern Interior quotes Design Bur, Modern Interior estimates Design Bur, Modern Interior services near me Design Bur, Cheap Modern Interior Design Bur, Quality Modern Interior Design Bur, Trusted Modern Interior Design Bur, Modern Interior transformation Design Bur, Modern Interior renovation Design Bur, Modern Interior makeover Design Bur, Best Modern Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModernInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior Design Bur Company Design Bur</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modern Interior in Design Bur. Best modern interior Design Bur Company Design Bur Our luxury modern interior design bur services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModernInteriorDesignBur() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modern interior in design bur service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModernInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modern interior near design bur.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModernInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

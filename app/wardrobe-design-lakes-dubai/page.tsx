@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Lakes, Wardrobe in Design Lakes, Best wardrobe Design Lakes, Professional wardrobe Design Lakes, Luxury wardrobe Design Lakes, Wardrobe Design Lakes Dubai, Wardrobe designer Design Lakes, Wardrobe company Design Lakes, Wardrobe contractor Design Lakes, Affordable wardrobe Design Lakes, Modern wardrobe Design Lakes, Wardrobe consultation Design Lakes, Wardrobe cost Design Lakes, Wardrobe price Design Lakes, Top wardrobe Design Lakes
+
+// SEO Keywords: Wardrobe Design Lakes, Wardrobe in Design Lakes, Best wardrobe Design Lakes, Professional wardrobe Design Lakes, Luxury wardrobe Design Lakes, Wardrobe Design Lakes Dubai, Wardrobe designer Design Lakes, Wardrobe company Design Lakes, Wardrobe contractor Design Lakes, Affordable wardrobe Design Lakes, Modern wardrobe Design Lakes, Wardrobe consultation Design Lakes, Wardrobe cost Design Lakes, Wardrobe price Design Lakes, Top wardrobe Design Lakes, Wardrobe near Design Lakes, Wardrobe specialists Design Lakes, Wardrobe experts Design Lakes, Wardrobe solutions Design Lakes, Wardrobe packages Design Lakes, Wardrobe quotes Design Lakes, Wardrobe estimates Design Lakes, Wardrobe services near me Design Lakes, Cheap Wardrobe Design Lakes, Quality Wardrobe Design Lakes, Trusted Wardrobe Design Lakes, Wardrobe transformation Design Lakes, Wardrobe renovation Design Lakes, Wardrobe makeover Design Lakes, Best Wardrobe company Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignLakes() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design The Lakes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Lakes Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe in Design Lakes. Wardrobe Design Lakes. 
                 We've completed 300+ successful projects across The Lakes Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design The Lakes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional wardrobe design lakes services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design The Lakes Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignLakes() {
 
               <p>
                 Interiara stands out in the crowded The Lakes Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe in design lakes service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe near design lakes.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignLakes() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

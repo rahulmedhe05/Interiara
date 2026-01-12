@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Sustainable Interior Design Al Satwa, Sustainable Interior Design in Al Satwa, Best sustainable interior design Al Satwa, Professional sustainable interior design Al Satwa, Luxury sustainable interior design Al Satwa, Sustainable Interior Design Al Satwa Dubai, Sustainable Interior Design designer Al Satwa, Sustainable Interior Design company Al Satwa, Sustainable Interior Design contractor Al Satwa, Affordable sustainable interior design Al Satwa, Modern sustainable interior design Al Satwa, Sustainable Interior Design consultation Al Satwa, Sustainable Interior Design cost Al Satwa, Sustainable Interior Design price Al Satwa, Top sustainable interior design Al Satwa
+
+// SEO Keywords: Sustainable Interior Design Al Satwa, Sustainable Interior Design in Al Satwa, Best sustainable interior design Al Satwa, Professional sustainable interior design Al Satwa, Luxury sustainable interior design Al Satwa, Sustainable Interior Design Al Satwa Dubai, Sustainable Interior Design designer Al Satwa, Sustainable Interior Design company Al Satwa, Sustainable Interior Design contractor Al Satwa, Affordable sustainable interior design Al Satwa, Modern sustainable interior design Al Satwa, Sustainable Interior Design consultation Al Satwa, Sustainable Interior Design cost Al Satwa, Sustainable Interior Design price Al Satwa, Top sustainable interior design Al Satwa, Sustainable Interior Design near Al Satwa, Sustainable Interior Design specialists Al Satwa, Sustainable Interior Design experts Al Satwa, Sustainable Interior Design solutions Al Satwa, Sustainable Interior Design packages Al Satwa, Sustainable Interior Design quotes Al Satwa, Sustainable Interior Design estimates Al Satwa, Sustainable Interior Design services near me Al Satwa, Cheap Sustainable Interior Design Al Satwa, Quality Sustainable Interior Design Al Satwa, Trusted Sustainable Interior Design Al Satwa, Sustainable Interior Design transformation Al Satwa, Sustainable Interior Design renovation Al Satwa, Sustainable Interior Design makeover Al Satwa, Best Sustainable Interior Design company Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SustainableInteriorDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Al Satwa Company Al Satwa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Sustainable Interior Design in Al Satwa. Best sustainable interior design Al Satwa Company Al Satwa Our luxury sustainable interior design al satwa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SustainableInteriorDesignAlSatwa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our sustainable interior design in al satwa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SustainableInteriorDesignAlSatwa() {
 
               <p>
                 Interiara stands out in the crowded Al Satwa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in sustainable interior design near al satwa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SustainableInteriorDesignAlSatwa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Palm, Wall Flooring in Design Palm, Best wall flooring Design Palm, Professional wall flooring Design Palm, Luxury wall flooring Design Palm, Wall Flooring Design Palm Dubai, Wall Flooring designer Design Palm, Wall Flooring company Design Palm, Wall Flooring contractor Design Palm, Affordable wall flooring Design Palm, Modern wall flooring Design Palm, Wall Flooring consultation Design Palm, Wall Flooring cost Design Palm, Wall Flooring price Design Palm, Top wall flooring Design Palm
+
+// SEO Keywords: Wall Flooring Design Palm, Wall Flooring in Design Palm, Best wall flooring Design Palm, Professional wall flooring Design Palm, Luxury wall flooring Design Palm, Wall Flooring Design Palm Dubai, Wall Flooring designer Design Palm, Wall Flooring company Design Palm, Wall Flooring contractor Design Palm, Affordable wall flooring Design Palm, Modern wall flooring Design Palm, Wall Flooring consultation Design Palm, Wall Flooring cost Design Palm, Wall Flooring price Design Palm, Top wall flooring Design Palm, Wall Flooring near Design Palm, Wall Flooring specialists Design Palm, Wall Flooring experts Design Palm, Wall Flooring solutions Design Palm, Wall Flooring packages Design Palm, Wall Flooring quotes Design Palm, Wall Flooring estimates Design Palm, Wall Flooring services near me Design Palm, Cheap Wall Flooring Design Palm, Quality Wall Flooring Design Palm, Trusted Wall Flooring Design Palm, Wall Flooring transformation Design Palm, Wall Flooring renovation Design Palm, Wall Flooring makeover Design Palm, Best Wall Flooring company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring in Design Palm. Best wall flooring Design Palm Company Design Palm Our luxury wall flooring design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

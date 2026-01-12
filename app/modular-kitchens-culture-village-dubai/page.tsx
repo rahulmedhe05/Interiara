@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Culture Village, Modular Kitchens in Culture Village, Best modular kitchens Culture Village, Professional modular kitchens Culture Village, Luxury modular kitchens Culture Village, Modular Kitchens Culture Village Dubai, Modular Kitchens designer Culture Village, Modular Kitchens company Culture Village, Modular Kitchens contractor Culture Village, Affordable modular kitchens Culture Village, Modern modular kitchens Culture Village, Modular Kitchens consultation Culture Village, Modular Kitchens cost Culture Village, Modular Kitchens price Culture Village, Top modular kitchens Culture Village
+
+// SEO Keywords: Modular Kitchens Culture Village, Modular Kitchens in Culture Village, Best modular kitchens Culture Village, Professional modular kitchens Culture Village, Luxury modular kitchens Culture Village, Modular Kitchens Culture Village Dubai, Modular Kitchens designer Culture Village, Modular Kitchens company Culture Village, Modular Kitchens contractor Culture Village, Affordable modular kitchens Culture Village, Modern modular kitchens Culture Village, Modular Kitchens consultation Culture Village, Modular Kitchens cost Culture Village, Modular Kitchens price Culture Village, Top modular kitchens Culture Village, Modular Kitchens near Culture Village, Modular Kitchens specialists Culture Village, Modular Kitchens experts Culture Village, Modular Kitchens solutions Culture Village, Modular Kitchens packages Culture Village, Modular Kitchens quotes Culture Village, Modular Kitchens estimates Culture Village, Modular Kitchens services near me Culture Village, Cheap Modular Kitchens Culture Village, Quality Modular Kitchens Culture Village, Trusted Modular Kitchens Culture Village, Modular Kitchens transformation Culture Village, Modular Kitchens renovation Culture Village, Modular Kitchens makeover Culture Village, Best Modular Kitchens company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens in Culture Village. Best modular kitchens Culture Village Company Culture Village Our luxury modular kitchens culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

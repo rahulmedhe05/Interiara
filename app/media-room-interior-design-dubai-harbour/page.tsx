@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Media Room Interior Design, Media Room in Interior Design, Best media room Interior Design, Professional media room Interior Design, Luxury media room Interior Design, Media Room Interior Design Dubai, Media Room designer Interior Design, Media Room company Interior Design, Media Room contractor Interior Design, Affordable media room Interior Design, Modern media room Interior Design, Media Room consultation Interior Design, Media Room cost Interior Design, Media Room price Interior Design, Top media room Interior Design
+
+// SEO Keywords: Media Room Interior Design, Media Room in Interior Design, Best media room Interior Design, Professional media room Interior Design, Luxury media room Interior Design, Media Room Interior Design Dubai, Media Room designer Interior Design, Media Room company Interior Design, Media Room contractor Interior Design, Affordable media room Interior Design, Modern media room Interior Design, Media Room consultation Interior Design, Media Room cost Interior Design, Media Room price Interior Design, Top media room Interior Design, Media Room near Interior Design, Media Room specialists Interior Design, Media Room experts Interior Design, Media Room solutions Interior Design, Media Room packages Interior Design, Media Room quotes Interior Design, Media Room estimates Interior Design, Media Room services near me Interior Design, Cheap Media Room Interior Design, Quality Media Room Interior Design, Trusted Media Room Interior Design, Media Room transformation Interior Design, Media Room renovation Interior Design, Media Room makeover Interior Design, Best Media Room company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MediaRoomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Media Room in Interior Design. Best media room Interior Design Company Interior Design Our luxury media room interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MediaRoomInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our media room in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MediaRoomInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in media room near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MediaRoomInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

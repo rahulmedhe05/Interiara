@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Interior Design The Villa, Office Interior Design in The Villa, Best office interior design The Villa, Professional office interior design The Villa, Luxury office interior design The Villa, Office Interior Design The Villa Dubai, Office Interior Design designer The Villa, Office Interior Design company The Villa, Office Interior Design contractor The Villa, Affordable office interior design The Villa, Modern office interior design The Villa, Office Interior Design consultation The Villa, Office Interior Design cost The Villa, Office Interior Design price The Villa, Top office interior design The Villa
+
+// SEO Keywords: Office Interior Design The Villa, Office Interior Design in The Villa, Best office interior design The Villa, Professional office interior design The Villa, Luxury office interior design The Villa, Office Interior Design The Villa Dubai, Office Interior Design designer The Villa, Office Interior Design company The Villa, Office Interior Design contractor The Villa, Affordable office interior design The Villa, Modern office interior design The Villa, Office Interior Design consultation The Villa, Office Interior Design cost The Villa, Office Interior Design price The Villa, Top office interior design The Villa, Office Interior Design near The Villa, Office Interior Design specialists The Villa, Office Interior Design experts The Villa, Office Interior Design solutions The Villa, Office Interior Design packages The Villa, Office Interior Design quotes The Villa, Office Interior Design estimates The Villa, Office Interior Design services near me The Villa, Cheap Office Interior Design The Villa, Quality Office Interior Design The Villa, Trusted Office Interior Design The Villa, Office Interior Design transformation The Villa, Office Interior Design renovation The Villa, Office Interior Design makeover The Villa, Best Office Interior Design company The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior design The Villa Company The Villa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Interior Design in The Villa. Best office interior design The Villa Company The Villa Our luxury office interior design the villa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeInteriorDesignTheVilla() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office interior design in the villa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeInteriorDesignTheVilla() {
 
               <p>
                 Interiara stands out in the crowded The Villa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office interior design near the villa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeInteriorDesignTheVilla() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Bur, Gym Interior in Design Bur, Best gym interior Design Bur, Professional gym interior Design Bur, Luxury gym interior Design Bur, Gym Interior Design Bur Dubai, Gym Interior designer Design Bur, Gym Interior company Design Bur, Gym Interior contractor Design Bur, Affordable gym interior Design Bur, Modern gym interior Design Bur, Gym Interior consultation Design Bur, Gym Interior cost Design Bur, Gym Interior price Design Bur, Top gym interior Design Bur
+
+// SEO Keywords: Gym Interior Design Bur, Gym Interior in Design Bur, Best gym interior Design Bur, Professional gym interior Design Bur, Luxury gym interior Design Bur, Gym Interior Design Bur Dubai, Gym Interior designer Design Bur, Gym Interior company Design Bur, Gym Interior contractor Design Bur, Affordable gym interior Design Bur, Modern gym interior Design Bur, Gym Interior consultation Design Bur, Gym Interior cost Design Bur, Gym Interior price Design Bur, Top gym interior Design Bur, Gym Interior near Design Bur, Gym Interior specialists Design Bur, Gym Interior experts Design Bur, Gym Interior solutions Design Bur, Gym Interior packages Design Bur, Gym Interior quotes Design Bur, Gym Interior estimates Design Bur, Gym Interior services near me Design Bur, Cheap Gym Interior Design Bur, Quality Gym Interior Design Bur, Trusted Gym Interior Design Bur, Gym Interior transformation Design Bur, Gym Interior renovation Design Bur, Gym Interior makeover Design Bur, Best Gym Interior company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function GymInteriorDesignBur() {
                 At Interiara, we believe that exceptional <strong>Gym Interior Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Gym Interior in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Gym Interior Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury gym interior design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Gym Interior Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function GymInteriorDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our gym interior in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in gym interior near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function GymInteriorDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

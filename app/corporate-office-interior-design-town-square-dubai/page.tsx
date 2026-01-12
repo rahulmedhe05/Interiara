@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Corporate Office Interior Design Town Square, Corporate Office Interior Design in Town Square, Best corporate office interior design Town Square, Professional corporate office interior design Town Square, Luxury corporate office interior design Town Square, Corporate Office Interior Design Town Square Dubai, Corporate Office Interior Design designer Town Square, Corporate Office Interior Design company Town Square, Corporate Office Interior Design contractor Town Square, Affordable corporate office interior design Town Square, Modern corporate office interior design Town Square, Corporate Office Interior Design consultation Town Square, Corporate Office Interior Design cost Town Square, Corporate Office Interior Design price Town Square, Top corporate office interior design Town Square
+
+// SEO Keywords: Corporate Office Interior Design Town Square, Corporate Office Interior Design in Town Square, Best corporate office interior design Town Square, Professional corporate office interior design Town Square, Luxury corporate office interior design Town Square, Corporate Office Interior Design Town Square Dubai, Corporate Office Interior Design designer Town Square, Corporate Office Interior Design company Town Square, Corporate Office Interior Design contractor Town Square, Affordable corporate office interior design Town Square, Modern corporate office interior design Town Square, Corporate Office Interior Design consultation Town Square, Corporate Office Interior Design cost Town Square, Corporate Office Interior Design price Town Square, Top corporate office interior design Town Square, Corporate Office Interior Design near Town Square, Corporate Office Interior Design specialists Town Square, Corporate Office Interior Design experts Town Square, Corporate Office Interior Design solutions Town Square, Corporate Office Interior Design packages Town Square, Corporate Office Interior Design quotes Town Square, Corporate Office Interior Design estimates Town Square, Corporate Office Interior Design services near me Town Square, Cheap Corporate Office Interior Design Town Square, Quality Corporate Office Interior Design Town Square, Trusted Corporate Office Interior Design Town Square, Corporate Office Interior Design transformation Town Square, Corporate Office Interior Design renovation Town Square, Corporate Office Interior Design makeover Town Square, Best Corporate Office Interior Design company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CorporateOfficeInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior design Town Square Company Town Square</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Corporate Office Interior Design in Town Square. Best corporate office interior design Town Square Company Town Square Our luxury corporate office interior design town square services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CorporateOfficeInteriorDesignTownSquare() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our corporate office interior design in town square service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CorporateOfficeInteriorDesignTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in corporate office interior design near town square.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CorporateOfficeInteriorDesignTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

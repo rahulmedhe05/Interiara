@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Bur, Smart in Lighting Bur, Best smart Lighting Bur, Professional smart Lighting Bur, Luxury smart Lighting Bur, Smart Lighting Bur Dubai, Smart designer Lighting Bur, Smart company Lighting Bur, Smart contractor Lighting Bur, Affordable smart Lighting Bur, Modern smart Lighting Bur, Smart consultation Lighting Bur, Smart cost Lighting Bur, Smart price Lighting Bur, Top smart Lighting Bur
+
+// SEO Keywords: Smart Lighting Bur, Smart in Lighting Bur, Best smart Lighting Bur, Professional smart Lighting Bur, Luxury smart Lighting Bur, Smart Lighting Bur Dubai, Smart designer Lighting Bur, Smart company Lighting Bur, Smart contractor Lighting Bur, Affordable smart Lighting Bur, Modern smart Lighting Bur, Smart consultation Lighting Bur, Smart cost Lighting Bur, Smart price Lighting Bur, Top smart Lighting Bur, Smart near Lighting Bur, Smart specialists Lighting Bur, Smart experts Lighting Bur, Smart solutions Lighting Bur, Smart packages Lighting Bur, Smart quotes Lighting Bur, Smart estimates Lighting Bur, Smart services near me Lighting Bur, Cheap Smart Lighting Bur, Quality Smart Lighting Bur, Trusted Smart Lighting Bur, Smart transformation Lighting Bur, Smart renovation Lighting Bur, Smart makeover Lighting Bur, Best Smart company Lighting Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingBur() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart in Lighting Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart in lighting bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart near lighting bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

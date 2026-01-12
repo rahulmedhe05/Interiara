@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design Palm Jumeirah, Outdoor Living Design in Palm Jumeirah, Best outdoor living design Palm Jumeirah, Professional outdoor living design Palm Jumeirah, Luxury outdoor living design Palm Jumeirah, Outdoor Living Design Palm Jumeirah Dubai, Outdoor Living Design designer Palm Jumeirah, Outdoor Living Design company Palm Jumeirah, Outdoor Living Design contractor Palm Jumeirah, Affordable outdoor living design Palm Jumeirah, Modern outdoor living design Palm Jumeirah, Outdoor Living Design consultation Palm Jumeirah, Outdoor Living Design cost Palm Jumeirah, Outdoor Living Design price Palm Jumeirah, Top outdoor living design Palm Jumeirah
+
+// SEO Keywords: Outdoor Living Design Palm Jumeirah, Outdoor Living Design in Palm Jumeirah, Best outdoor living design Palm Jumeirah, Professional outdoor living design Palm Jumeirah, Luxury outdoor living design Palm Jumeirah, Outdoor Living Design Palm Jumeirah Dubai, Outdoor Living Design designer Palm Jumeirah, Outdoor Living Design company Palm Jumeirah, Outdoor Living Design contractor Palm Jumeirah, Affordable outdoor living design Palm Jumeirah, Modern outdoor living design Palm Jumeirah, Outdoor Living Design consultation Palm Jumeirah, Outdoor Living Design cost Palm Jumeirah, Outdoor Living Design price Palm Jumeirah, Top outdoor living design Palm Jumeirah, Outdoor Living Design near Palm Jumeirah, Outdoor Living Design specialists Palm Jumeirah, Outdoor Living Design experts Palm Jumeirah, Outdoor Living Design solutions Palm Jumeirah, Outdoor Living Design packages Palm Jumeirah, Outdoor Living Design quotes Palm Jumeirah, Outdoor Living Design estimates Palm Jumeirah, Outdoor Living Design services near me Palm Jumeirah, Cheap Outdoor Living Design Palm Jumeirah, Quality Outdoor Living Design Palm Jumeirah, Trusted Outdoor Living Design Palm Jumeirah, Outdoor Living Design transformation Palm Jumeirah, Outdoor Living Design renovation Palm Jumeirah, Outdoor Living Design makeover Palm Jumeirah, Best Outdoor Living Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OutdoorLivingDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Outdoor Living Design in Palm Jumeirah. Best outdoor living design Palm Jumeirah Company Palm Jumeirah Our luxury outdoor living design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OutdoorLivingDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our outdoor living design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OutdoorLivingDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in outdoor living design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Living Room Interior Design Jumeirah, Living Room Interior in Design Jumeirah, Best living room interior Design Jumeirah, Professional living room interior Design Jumeirah, Luxury living room interior Design Jumeirah, Living Room Interior Design Jumeirah Dubai, Living Room Interior designer Design Jumeirah, Living Room Interior company Design Jumeirah, Living Room Interior contractor Design Jumeirah, Affordable living room interior Design Jumeirah, Modern living room interior Design Jumeirah, Living Room Interior consultation Design Jumeirah, Living Room Interior cost Design Jumeirah, Living Room Interior price Design Jumeirah, Top living room interior Design Jumeirah
+
+// SEO Keywords: Living Room Interior Design Jumeirah, Living Room Interior in Design Jumeirah, Best living room interior Design Jumeirah, Professional living room interior Design Jumeirah, Luxury living room interior Design Jumeirah, Living Room Interior Design Jumeirah Dubai, Living Room Interior designer Design Jumeirah, Living Room Interior company Design Jumeirah, Living Room Interior contractor Design Jumeirah, Affordable living room interior Design Jumeirah, Modern living room interior Design Jumeirah, Living Room Interior consultation Design Jumeirah, Living Room Interior cost Design Jumeirah, Living Room Interior price Design Jumeirah, Top living room interior Design Jumeirah, Living Room Interior near Design Jumeirah, Living Room Interior specialists Design Jumeirah, Living Room Interior experts Design Jumeirah, Living Room Interior solutions Design Jumeirah, Living Room Interior packages Design Jumeirah, Living Room Interior quotes Design Jumeirah, Living Room Interior estimates Design Jumeirah, Living Room Interior services near me Design Jumeirah, Cheap Living Room Interior Design Jumeirah, Quality Living Room Interior Design Jumeirah, Trusted Living Room Interior Design Jumeirah, Living Room Interior transformation Design Jumeirah, Living Room Interior renovation Design Jumeirah, Living Room Interior makeover Design Jumeirah, Best Living Room Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LivingRoomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Living Room Interior in Design Jumeirah. Best living room interior Design Jumeirah Company Design Jumeirah Our luxury living room interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LivingRoomInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our living room interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LivingRoomInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in living room interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LivingRoomInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

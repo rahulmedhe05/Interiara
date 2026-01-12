@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Deira, Lighting in Automation Deira, Best lighting Automation Deira, Professional lighting Automation Deira, Luxury lighting Automation Deira, Lighting Automation Deira Dubai, Lighting designer Automation Deira, Lighting company Automation Deira, Lighting contractor Automation Deira, Affordable lighting Automation Deira, Modern lighting Automation Deira, Lighting consultation Automation Deira, Lighting cost Automation Deira, Lighting price Automation Deira, Top lighting Automation Deira
+
+// SEO Keywords: Lighting Automation Deira, Lighting in Automation Deira, Best lighting Automation Deira, Professional lighting Automation Deira, Luxury lighting Automation Deira, Lighting Automation Deira Dubai, Lighting designer Automation Deira, Lighting company Automation Deira, Lighting contractor Automation Deira, Affordable lighting Automation Deira, Modern lighting Automation Deira, Lighting consultation Automation Deira, Lighting cost Automation Deira, Lighting price Automation Deira, Top lighting Automation Deira, Lighting near Automation Deira, Lighting specialists Automation Deira, Lighting experts Automation Deira, Lighting solutions Automation Deira, Lighting packages Automation Deira, Lighting quotes Automation Deira, Lighting estimates Automation Deira, Lighting services near me Automation Deira, Cheap Lighting Automation Deira, Quality Lighting Automation Deira, Trusted Lighting Automation Deira, Lighting transformation Automation Deira, Lighting renovation Automation Deira, Lighting makeover Automation Deira, Best Lighting company Automation Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Deira Company Automation Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting in Automation Deira. Best lighting Automation Deira Company Automation Deira Our luxury lighting automation deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting in automation deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting near automation deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

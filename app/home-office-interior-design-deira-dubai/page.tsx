@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Office Interior Design Deira, Home Office Interior in Design Deira, Best home office interior Design Deira, Professional home office interior Design Deira, Luxury home office interior Design Deira, Home Office Interior Design Deira Dubai, Home Office Interior designer Design Deira, Home Office Interior company Design Deira, Home Office Interior contractor Design Deira, Affordable home office interior Design Deira, Modern home office interior Design Deira, Home Office Interior consultation Design Deira, Home Office Interior cost Design Deira, Home Office Interior price Design Deira, Top home office interior Design Deira
+
+// SEO Keywords: Home Office Interior Design Deira, Home Office Interior in Design Deira, Best home office interior Design Deira, Professional home office interior Design Deira, Luxury home office interior Design Deira, Home Office Interior Design Deira Dubai, Home Office Interior designer Design Deira, Home Office Interior company Design Deira, Home Office Interior contractor Design Deira, Affordable home office interior Design Deira, Modern home office interior Design Deira, Home Office Interior consultation Design Deira, Home Office Interior cost Design Deira, Home Office Interior price Design Deira, Top home office interior Design Deira, Home Office Interior near Design Deira, Home Office Interior specialists Design Deira, Home Office Interior experts Design Deira, Home Office Interior solutions Design Deira, Home Office Interior packages Design Deira, Home Office Interior quotes Design Deira, Home Office Interior estimates Design Deira, Home Office Interior services near me Design Deira, Cheap Home Office Interior Design Deira, Quality Home Office Interior Design Deira, Trusted Home Office Interior Design Deira, Home Office Interior transformation Design Deira, Home Office Interior renovation Design Deira, Home Office Interior makeover Design Deira, Best Home Office Interior company Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeOfficeInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior Design Deira Company Design Deira</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Office Interior in Design Deira. Best home office interior Design Deira Company Design Deira Our luxury home office interior design deira services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeOfficeInteriorDesignDeira() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home office interior in design deira service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeOfficeInteriorDesignDeira() {
 
               <p>
                 Interiara stands out in the crowded Deira Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home office interior near design deira.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeOfficeInteriorDesignDeira() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Al Wasl, Commercial Interior Design in Al Wasl, Best commercial interior design Al Wasl, Professional commercial interior design Al Wasl, Luxury commercial interior design Al Wasl, Commercial Interior Design Al Wasl Dubai, Commercial Interior Design designer Al Wasl, Commercial Interior Design company Al Wasl, Commercial Interior Design contractor Al Wasl, Affordable commercial interior design Al Wasl, Modern commercial interior design Al Wasl, Commercial Interior Design consultation Al Wasl, Commercial Interior Design cost Al Wasl, Commercial Interior Design price Al Wasl, Top commercial interior design Al Wasl
+
+// SEO Keywords: Commercial Interior Design Al Wasl, Commercial Interior Design in Al Wasl, Best commercial interior design Al Wasl, Professional commercial interior design Al Wasl, Luxury commercial interior design Al Wasl, Commercial Interior Design Al Wasl Dubai, Commercial Interior Design designer Al Wasl, Commercial Interior Design company Al Wasl, Commercial Interior Design contractor Al Wasl, Affordable commercial interior design Al Wasl, Modern commercial interior design Al Wasl, Commercial Interior Design consultation Al Wasl, Commercial Interior Design cost Al Wasl, Commercial Interior Design price Al Wasl, Top commercial interior design Al Wasl, Commercial Interior Design near Al Wasl, Commercial Interior Design specialists Al Wasl, Commercial Interior Design experts Al Wasl, Commercial Interior Design solutions Al Wasl, Commercial Interior Design packages Al Wasl, Commercial Interior Design quotes Al Wasl, Commercial Interior Design estimates Al Wasl, Commercial Interior Design services near me Al Wasl, Cheap Commercial Interior Design Al Wasl, Quality Commercial Interior Design Al Wasl, Trusted Commercial Interior Design Al Wasl, Commercial Interior Design transformation Al Wasl, Commercial Interior Design renovation Al Wasl, Commercial Interior Design makeover Al Wasl, Best Commercial Interior Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Al Wasl Company Al Wasl</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design in Al Wasl. Best commercial interior design Al Wasl Company Al Wasl Our luxury commercial interior design al wasl services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignAlWasl() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design in al wasl service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design near al wasl.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

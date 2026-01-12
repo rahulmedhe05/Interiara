@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Jumeirah, Wall Flooring in Design Jumeirah, Best wall flooring Design Jumeirah, Professional wall flooring Design Jumeirah, Luxury wall flooring Design Jumeirah, Wall Flooring Design Jumeirah Dubai, Wall Flooring designer Design Jumeirah, Wall Flooring company Design Jumeirah, Wall Flooring contractor Design Jumeirah, Affordable wall flooring Design Jumeirah, Modern wall flooring Design Jumeirah, Wall Flooring consultation Design Jumeirah, Wall Flooring cost Design Jumeirah, Wall Flooring price Design Jumeirah, Top wall flooring Design Jumeirah
+
+// SEO Keywords: Wall Flooring Design Jumeirah, Wall Flooring in Design Jumeirah, Best wall flooring Design Jumeirah, Professional wall flooring Design Jumeirah, Luxury wall flooring Design Jumeirah, Wall Flooring Design Jumeirah Dubai, Wall Flooring designer Design Jumeirah, Wall Flooring company Design Jumeirah, Wall Flooring contractor Design Jumeirah, Affordable wall flooring Design Jumeirah, Modern wall flooring Design Jumeirah, Wall Flooring consultation Design Jumeirah, Wall Flooring cost Design Jumeirah, Wall Flooring price Design Jumeirah, Top wall flooring Design Jumeirah, Wall Flooring near Design Jumeirah, Wall Flooring specialists Design Jumeirah, Wall Flooring experts Design Jumeirah, Wall Flooring solutions Design Jumeirah, Wall Flooring packages Design Jumeirah, Wall Flooring quotes Design Jumeirah, Wall Flooring estimates Design Jumeirah, Wall Flooring services near me Design Jumeirah, Cheap Wall Flooring Design Jumeirah, Quality Wall Flooring Design Jumeirah, Trusted Wall Flooring Design Jumeirah, Wall Flooring transformation Design Jumeirah, Wall Flooring renovation Design Jumeirah, Wall Flooring makeover Design Jumeirah, Best Wall Flooring company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring in Design Jumeirah. Best wall flooring Design Jumeirah Company Design Jumeirah Our luxury wall flooring design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Al Mizhar, Modular Kitchens in Al Mizhar, Best modular kitchens Al Mizhar, Professional modular kitchens Al Mizhar, Luxury modular kitchens Al Mizhar, Modular Kitchens Al Mizhar Dubai, Modular Kitchens designer Al Mizhar, Modular Kitchens company Al Mizhar, Modular Kitchens contractor Al Mizhar, Affordable modular kitchens Al Mizhar, Modern modular kitchens Al Mizhar, Modular Kitchens consultation Al Mizhar, Modular Kitchens cost Al Mizhar, Modular Kitchens price Al Mizhar, Top modular kitchens Al Mizhar
+
+// SEO Keywords: Modular Kitchens Al Mizhar, Modular Kitchens in Al Mizhar, Best modular kitchens Al Mizhar, Professional modular kitchens Al Mizhar, Luxury modular kitchens Al Mizhar, Modular Kitchens Al Mizhar Dubai, Modular Kitchens designer Al Mizhar, Modular Kitchens company Al Mizhar, Modular Kitchens contractor Al Mizhar, Affordable modular kitchens Al Mizhar, Modern modular kitchens Al Mizhar, Modular Kitchens consultation Al Mizhar, Modular Kitchens cost Al Mizhar, Modular Kitchens price Al Mizhar, Top modular kitchens Al Mizhar, Modular Kitchens near Al Mizhar, Modular Kitchens specialists Al Mizhar, Modular Kitchens experts Al Mizhar, Modular Kitchens solutions Al Mizhar, Modular Kitchens packages Al Mizhar, Modular Kitchens quotes Al Mizhar, Modular Kitchens estimates Al Mizhar, Modular Kitchens services near me Al Mizhar, Cheap Modular Kitchens Al Mizhar, Quality Modular Kitchens Al Mizhar, Trusted Modular Kitchens Al Mizhar, Modular Kitchens transformation Al Mizhar, Modular Kitchens renovation Al Mizhar, Modular Kitchens makeover Al Mizhar, Best Modular Kitchens company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensAlMizhar() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Al Mizhar Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Mizhar Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Al Mizhar. 
                 We've completed 300+ successful projects across Al Mizhar Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Al Mizhar Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens al mizhar services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Al Mizhar Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in al mizhar service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near al mizhar.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

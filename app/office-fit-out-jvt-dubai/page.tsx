@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Jvt, Office Fit in Out Jvt, Best office fit Out Jvt, Professional office fit Out Jvt, Luxury office fit Out Jvt, Office Fit Out Jvt Dubai, Office Fit designer Out Jvt, Office Fit company Out Jvt, Office Fit contractor Out Jvt, Affordable office fit Out Jvt, Modern office fit Out Jvt, Office Fit consultation Out Jvt, Office Fit cost Out Jvt, Office Fit price Out Jvt, Top office fit Out Jvt
+
+// SEO Keywords: Office Fit Out Jvt, Office Fit in Out Jvt, Best office fit Out Jvt, Professional office fit Out Jvt, Luxury office fit Out Jvt, Office Fit Out Jvt Dubai, Office Fit designer Out Jvt, Office Fit company Out Jvt, Office Fit contractor Out Jvt, Affordable office fit Out Jvt, Modern office fit Out Jvt, Office Fit consultation Out Jvt, Office Fit cost Out Jvt, Office Fit price Out Jvt, Top office fit Out Jvt, Office Fit near Out Jvt, Office Fit specialists Out Jvt, Office Fit experts Out Jvt, Office Fit solutions Out Jvt, Office Fit packages Out Jvt, Office Fit quotes Out Jvt, Office Fit estimates Out Jvt, Office Fit services near me Out Jvt, Cheap Office Fit Out Jvt, Quality Office Fit Out Jvt, Trusted Office Fit Out Jvt, Office Fit transformation Out Jvt, Office Fit renovation Out Jvt, Office Fit makeover Out Jvt, Best Office Fit company Out Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutJvt() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Jvt. Office Fit Out Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

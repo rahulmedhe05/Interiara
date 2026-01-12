@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Al Safouh, Modular Kitchens in Al Safouh, Best modular kitchens Al Safouh, Professional modular kitchens Al Safouh, Luxury modular kitchens Al Safouh, Modular Kitchens Al Safouh Dubai, Modular Kitchens designer Al Safouh, Modular Kitchens company Al Safouh, Modular Kitchens contractor Al Safouh, Affordable modular kitchens Al Safouh, Modern modular kitchens Al Safouh, Modular Kitchens consultation Al Safouh, Modular Kitchens cost Al Safouh, Modular Kitchens price Al Safouh, Top modular kitchens Al Safouh
+
+// SEO Keywords: Modular Kitchens Al Safouh, Modular Kitchens in Al Safouh, Best modular kitchens Al Safouh, Professional modular kitchens Al Safouh, Luxury modular kitchens Al Safouh, Modular Kitchens Al Safouh Dubai, Modular Kitchens designer Al Safouh, Modular Kitchens company Al Safouh, Modular Kitchens contractor Al Safouh, Affordable modular kitchens Al Safouh, Modern modular kitchens Al Safouh, Modular Kitchens consultation Al Safouh, Modular Kitchens cost Al Safouh, Modular Kitchens price Al Safouh, Top modular kitchens Al Safouh, Modular Kitchens near Al Safouh, Modular Kitchens specialists Al Safouh, Modular Kitchens experts Al Safouh, Modular Kitchens solutions Al Safouh, Modular Kitchens packages Al Safouh, Modular Kitchens quotes Al Safouh, Modular Kitchens estimates Al Safouh, Modular Kitchens services near me Al Safouh, Cheap Modular Kitchens Al Safouh, Quality Modular Kitchens Al Safouh, Trusted Modular Kitchens Al Safouh, Modular Kitchens transformation Al Safouh, Modular Kitchens renovation Al Safouh, Modular Kitchens makeover Al Safouh, Best Modular Kitchens company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ModularKitchensAlSafouh() {
                 At Interiara, we believe that exceptional <strong>Modular Kitchens Al Safouh Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safouh Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Modular Kitchens in Al Safouh. 
                 We've completed 300+ successful projects across Al Safouh Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Modular Kitchens Al Safouh Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury modular kitchens al safouh services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Modular Kitchens Al Safouh Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ModularKitchensAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our modular kitchens in al safouh service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in modular kitchens near al safouh.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ModularKitchensAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

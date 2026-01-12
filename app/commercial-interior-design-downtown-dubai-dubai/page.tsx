@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Downtown Dubai, Commercial Interior Design in Downtown Dubai, Best commercial interior design Downtown Dubai, Professional commercial interior design Downtown Dubai, Luxury commercial interior design Downtown Dubai, Commercial Interior Design Downtown Dubai Dubai, Commercial Interior Design designer Downtown Dubai, Commercial Interior Design company Downtown Dubai, Commercial Interior Design contractor Downtown Dubai, Affordable commercial interior design Downtown Dubai, Modern commercial interior design Downtown Dubai, Commercial Interior Design consultation Downtown Dubai, Commercial Interior Design cost Downtown Dubai, Commercial Interior Design price Downtown Dubai, Top commercial interior design Downtown Dubai
+
+// SEO Keywords: Commercial Interior Design Downtown Dubai, Commercial Interior Design in Downtown Dubai, Best commercial interior design Downtown Dubai, Professional commercial interior design Downtown Dubai, Luxury commercial interior design Downtown Dubai, Commercial Interior Design Downtown Dubai Dubai, Commercial Interior Design designer Downtown Dubai, Commercial Interior Design company Downtown Dubai, Commercial Interior Design contractor Downtown Dubai, Affordable commercial interior design Downtown Dubai, Modern commercial interior design Downtown Dubai, Commercial Interior Design consultation Downtown Dubai, Commercial Interior Design cost Downtown Dubai, Commercial Interior Design price Downtown Dubai, Top commercial interior design Downtown Dubai, Commercial Interior Design near Downtown Dubai, Commercial Interior Design specialists Downtown Dubai, Commercial Interior Design experts Downtown Dubai, Commercial Interior Design solutions Downtown Dubai, Commercial Interior Design packages Downtown Dubai, Commercial Interior Design quotes Downtown Dubai, Commercial Interior Design estimates Downtown Dubai, Commercial Interior Design services near me Downtown Dubai, Cheap Commercial Interior Design Downtown Dubai, Quality Commercial Interior Design Downtown Dubai, Trusted Commercial Interior Design Downtown Dubai, Commercial Interior Design transformation Downtown Dubai, Commercial Interior Design renovation Downtown Dubai, Commercial Interior Design makeover Downtown Dubai, Best Commercial Interior Design company Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design in Downtown Dubai. Best commercial interior design Downtown Dubai Company Downtown Dubai Our luxury commercial interior design downtown dubai services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignDowntownDubai() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design in downtown dubai service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignDowntownDubai() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design near downtown dubai.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignDowntownDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

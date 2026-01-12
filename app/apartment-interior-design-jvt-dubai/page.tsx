@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Apartment Interior Design Jvt, Apartment Interior in Design Jvt, Best apartment interior Design Jvt, Professional apartment interior Design Jvt, Luxury apartment interior Design Jvt, Apartment Interior Design Jvt Dubai, Apartment Interior designer Design Jvt, Apartment Interior company Design Jvt, Apartment Interior contractor Design Jvt, Affordable apartment interior Design Jvt, Modern apartment interior Design Jvt, Apartment Interior consultation Design Jvt, Apartment Interior cost Design Jvt, Apartment Interior price Design Jvt, Top apartment interior Design Jvt
+
+// SEO Keywords: Apartment Interior Design Jvt, Apartment Interior in Design Jvt, Best apartment interior Design Jvt, Professional apartment interior Design Jvt, Luxury apartment interior Design Jvt, Apartment Interior Design Jvt Dubai, Apartment Interior designer Design Jvt, Apartment Interior company Design Jvt, Apartment Interior contractor Design Jvt, Affordable apartment interior Design Jvt, Modern apartment interior Design Jvt, Apartment Interior consultation Design Jvt, Apartment Interior cost Design Jvt, Apartment Interior price Design Jvt, Top apartment interior Design Jvt, Apartment Interior near Design Jvt, Apartment Interior specialists Design Jvt, Apartment Interior experts Design Jvt, Apartment Interior solutions Design Jvt, Apartment Interior packages Design Jvt, Apartment Interior quotes Design Jvt, Apartment Interior estimates Design Jvt, Apartment Interior services near me Design Jvt, Cheap Apartment Interior Design Jvt, Quality Apartment Interior Design Jvt, Trusted Apartment Interior Design Jvt, Apartment Interior transformation Design Jvt, Apartment Interior renovation Design Jvt, Apartment Interior makeover Design Jvt, Best Apartment Interior company Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ApartmentInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior Design Jvt Company Design Jvt</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Apartment Interior in Design Jvt. Best apartment interior Design Jvt Company Design Jvt Our luxury apartment interior design jvt services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function ApartmentInteriorDesignJvt() {
                 At Interiara, we believe that exceptional <strong>Apartment Interior Design JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Apartment Interior Design Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Apartment Interior Design JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function ApartmentInteriorDesignJvt() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our apartment interior in design jvt service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ApartmentInteriorDesignJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in apartment interior near design jvt.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ApartmentInteriorDesignJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

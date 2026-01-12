@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: 3D Interior Rendering Palm, 3D Interior in Rendering Palm, Best 3d interior Rendering Palm, Professional 3d interior Rendering Palm, Luxury 3d interior Rendering Palm, 3D Interior Rendering Palm Dubai, 3D Interior designer Rendering Palm, 3D Interior company Rendering Palm, 3D Interior contractor Rendering Palm, Affordable 3d interior Rendering Palm, Modern 3d interior Rendering Palm, 3D Interior consultation Rendering Palm, 3D Interior cost Rendering Palm, 3D Interior price Rendering Palm, Top 3d interior Rendering Palm
+
+// SEO Keywords: 3D Interior Rendering Palm, 3D Interior in Rendering Palm, Best 3d interior Rendering Palm, Professional 3d interior Rendering Palm, Luxury 3d interior Rendering Palm, 3D Interior Rendering Palm Dubai, 3D Interior designer Rendering Palm, 3D Interior company Rendering Palm, 3D Interior contractor Rendering Palm, Affordable 3d interior Rendering Palm, Modern 3d interior Rendering Palm, 3D Interior consultation Rendering Palm, 3D Interior cost Rendering Palm, 3D Interior price Rendering Palm, Top 3d interior Rendering Palm, 3D Interior near Rendering Palm, 3D Interior specialists Rendering Palm, 3D Interior experts Rendering Palm, 3D Interior solutions Rendering Palm, 3D Interior packages Rendering Palm, 3D Interior quotes Rendering Palm, 3D Interior estimates Rendering Palm, 3D Interior services near me Rendering Palm, Cheap 3D Interior Rendering Palm, Quality 3D Interior Rendering Palm, Trusted 3D Interior Rendering Palm, 3D Interior transformation Rendering Palm, 3D Interior renovation Rendering Palm, 3D Interior makeover Rendering Palm, Best 3D Interior company Rendering Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function 3DInteriorRenderingPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3d interior Rendering Palm Company Rendering Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">3D Interior in Rendering Palm. Best 3d interior Rendering Palm Company Rendering Palm Our luxury 3d interior rendering palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert 3D Interior Rendering Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function 3DInteriorRenderingPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our 3d interior in rendering palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function 3DInteriorRenderingPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in 3d interior near rendering palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function 3DInteriorRenderingPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

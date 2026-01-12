@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Home Interior Design Discovery Gardens, Smart Home Interior Design in Discovery Gardens, Best smart home interior design Discovery Gardens, Professional smart home interior design Discovery Gardens, Luxury smart home interior design Discovery Gardens, Smart Home Interior Design Discovery Gardens Dubai, Smart Home Interior Design designer Discovery Gardens, Smart Home Interior Design company Discovery Gardens, Smart Home Interior Design contractor Discovery Gardens, Affordable smart home interior design Discovery Gardens, Modern smart home interior design Discovery Gardens, Smart Home Interior Design consultation Discovery Gardens, Smart Home Interior Design cost Discovery Gardens, Smart Home Interior Design price Discovery Gardens, Top smart home interior design Discovery Gardens
+
+// SEO Keywords: Smart Home Interior Design Discovery Gardens, Smart Home Interior Design in Discovery Gardens, Best smart home interior design Discovery Gardens, Professional smart home interior design Discovery Gardens, Luxury smart home interior design Discovery Gardens, Smart Home Interior Design Discovery Gardens Dubai, Smart Home Interior Design designer Discovery Gardens, Smart Home Interior Design company Discovery Gardens, Smart Home Interior Design contractor Discovery Gardens, Affordable smart home interior design Discovery Gardens, Modern smart home interior design Discovery Gardens, Smart Home Interior Design consultation Discovery Gardens, Smart Home Interior Design cost Discovery Gardens, Smart Home Interior Design price Discovery Gardens, Top smart home interior design Discovery Gardens, Smart Home Interior Design near Discovery Gardens, Smart Home Interior Design specialists Discovery Gardens, Smart Home Interior Design experts Discovery Gardens, Smart Home Interior Design solutions Discovery Gardens, Smart Home Interior Design packages Discovery Gardens, Smart Home Interior Design quotes Discovery Gardens, Smart Home Interior Design estimates Discovery Gardens, Smart Home Interior Design services near me Discovery Gardens, Cheap Smart Home Interior Design Discovery Gardens, Quality Smart Home Interior Design Discovery Gardens, Trusted Smart Home Interior Design Discovery Gardens, Smart Home Interior Design transformation Discovery Gardens, Smart Home Interior Design renovation Discovery Gardens, Smart Home Interior Design makeover Discovery Gardens, Best Smart Home Interior Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SmartHomeInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Smart Home Interior Design in Discovery Gardens. Best smart home interior design Discovery Gardens Company Discovery Gardens Our luxury smart home interior design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SmartHomeInteriorDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our smart home interior design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SmartHomeInteriorDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in smart home interior design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SmartHomeInteriorDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

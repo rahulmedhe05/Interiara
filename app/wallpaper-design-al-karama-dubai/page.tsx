@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Al Karama, Wallpaper Design in Al Karama, Best wallpaper design Al Karama, Professional wallpaper design Al Karama, Luxury wallpaper design Al Karama, Wallpaper Design Al Karama Dubai, Wallpaper Design designer Al Karama, Wallpaper Design company Al Karama, Wallpaper Design contractor Al Karama, Affordable wallpaper design Al Karama, Modern wallpaper design Al Karama, Wallpaper Design consultation Al Karama, Wallpaper Design cost Al Karama, Wallpaper Design price Al Karama, Top wallpaper design Al Karama
+
+// SEO Keywords: Wallpaper Design Al Karama, Wallpaper Design in Al Karama, Best wallpaper design Al Karama, Professional wallpaper design Al Karama, Luxury wallpaper design Al Karama, Wallpaper Design Al Karama Dubai, Wallpaper Design designer Al Karama, Wallpaper Design company Al Karama, Wallpaper Design contractor Al Karama, Affordable wallpaper design Al Karama, Modern wallpaper design Al Karama, Wallpaper Design consultation Al Karama, Wallpaper Design cost Al Karama, Wallpaper Design price Al Karama, Top wallpaper design Al Karama, Wallpaper Design near Al Karama, Wallpaper Design specialists Al Karama, Wallpaper Design experts Al Karama, Wallpaper Design solutions Al Karama, Wallpaper Design packages Al Karama, Wallpaper Design quotes Al Karama, Wallpaper Design estimates Al Karama, Wallpaper Design services near me Al Karama, Cheap Wallpaper Design Al Karama, Quality Wallpaper Design Al Karama, Trusted Wallpaper Design Al Karama, Wallpaper Design transformation Al Karama, Wallpaper Design renovation Al Karama, Wallpaper Design makeover Al Karama, Best Wallpaper Design company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallpaperDesignAlKarama() {
                 At Interiara, we believe that exceptional <strong>Wallpaper Design Al Karama Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Karama Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wallpaper Design in Al Karama. 
                 We've completed 300+ successful projects across Al Karama Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wallpaper Design Al Karama Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wallpaper design al karama services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wallpaper Design Al Karama Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallpaperDesignAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wallpaper design in al karama service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wallpaper design near al karama.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallpaperDesignAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

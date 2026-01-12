@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Coverings Bur, Wall in Coverings Bur, Best wall Coverings Bur, Professional wall Coverings Bur, Luxury wall Coverings Bur, Wall Coverings Bur Dubai, Wall designer Coverings Bur, Wall company Coverings Bur, Wall contractor Coverings Bur, Affordable wall Coverings Bur, Modern wall Coverings Bur, Wall consultation Coverings Bur, Wall cost Coverings Bur, Wall price Coverings Bur, Top wall Coverings Bur
+
+// SEO Keywords: Wall Coverings Bur, Wall in Coverings Bur, Best wall Coverings Bur, Professional wall Coverings Bur, Luxury wall Coverings Bur, Wall Coverings Bur Dubai, Wall designer Coverings Bur, Wall company Coverings Bur, Wall contractor Coverings Bur, Affordable wall Coverings Bur, Modern wall Coverings Bur, Wall consultation Coverings Bur, Wall cost Coverings Bur, Wall price Coverings Bur, Top wall Coverings Bur, Wall near Coverings Bur, Wall specialists Coverings Bur, Wall experts Coverings Bur, Wall solutions Coverings Bur, Wall packages Coverings Bur, Wall quotes Coverings Bur, Wall estimates Coverings Bur, Wall services near me Coverings Bur, Cheap Wall Coverings Bur, Quality Wall Coverings Bur, Trusted Wall Coverings Bur, Wall transformation Coverings Bur, Wall renovation Coverings Bur, Wall makeover Coverings Bur, Best Wall company Coverings Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WallCoveringsBur() {
                 At Interiara, we believe that exceptional <strong>Wall Coverings Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wall in Coverings Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wall Coverings Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wall coverings bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wall Coverings Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WallCoveringsBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wall in coverings bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wall near coverings bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WallCoveringsBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

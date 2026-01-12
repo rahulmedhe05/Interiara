@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Dubai Hills, Home Renovation in Dubai Hills, Best home renovation Dubai Hills, Professional home renovation Dubai Hills, Luxury home renovation Dubai Hills, Home Renovation Dubai Hills Dubai, Home Renovation designer Dubai Hills, Home Renovation company Dubai Hills, Home Renovation contractor Dubai Hills, Affordable home renovation Dubai Hills, Modern home renovation Dubai Hills, Home Renovation consultation Dubai Hills, Home Renovation cost Dubai Hills, Home Renovation price Dubai Hills, Top home renovation Dubai Hills
+
+// SEO Keywords: Home Renovation Dubai Hills, Home Renovation in Dubai Hills, Best home renovation Dubai Hills, Professional home renovation Dubai Hills, Luxury home renovation Dubai Hills, Home Renovation Dubai Hills Dubai, Home Renovation designer Dubai Hills, Home Renovation company Dubai Hills, Home Renovation contractor Dubai Hills, Affordable home renovation Dubai Hills, Modern home renovation Dubai Hills, Home Renovation consultation Dubai Hills, Home Renovation cost Dubai Hills, Home Renovation price Dubai Hills, Top home renovation Dubai Hills, Home Renovation near Dubai Hills, Home Renovation specialists Dubai Hills, Home Renovation experts Dubai Hills, Home Renovation solutions Dubai Hills, Home Renovation packages Dubai Hills, Home Renovation quotes Dubai Hills, Home Renovation estimates Dubai Hills, Home Renovation services near me Dubai Hills, Cheap Home Renovation Dubai Hills, Quality Home Renovation Dubai Hills, Trusted Home Renovation Dubai Hills, Home Renovation transformation Dubai Hills, Home Renovation renovation Dubai Hills, Home Renovation makeover Dubai Hills, Best Home Renovation company Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRenovationDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Dubai Hills Company Dubai Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Renovation in Dubai Hills. Best home renovation Dubai Hills Company Dubai Hills Our professional home renovation dubai hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function HomeRenovationDubaiHills() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Hills Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Hills Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation Dubai Hills. 
                 We've completed 300+ successful projects across Hills Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Hills Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function HomeRenovationDubaiHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home renovation in dubai hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRenovationDubaiHills() {
 
               <p>
                 Interiara stands out in the crowded Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home renovation near dubai hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRenovationDubaiHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design Difc, Dining Room Interior in Design Difc, Best dining room interior Design Difc, Professional dining room interior Design Difc, Luxury dining room interior Design Difc, Dining Room Interior Design Difc Dubai, Dining Room Interior designer Design Difc, Dining Room Interior company Design Difc, Dining Room Interior contractor Design Difc, Affordable dining room interior Design Difc, Modern dining room interior Design Difc, Dining Room Interior consultation Design Difc, Dining Room Interior cost Design Difc, Dining Room Interior price Design Difc, Top dining room interior Design Difc
+
+// SEO Keywords: Dining Room Interior Design Difc, Dining Room Interior in Design Difc, Best dining room interior Design Difc, Professional dining room interior Design Difc, Luxury dining room interior Design Difc, Dining Room Interior Design Difc Dubai, Dining Room Interior designer Design Difc, Dining Room Interior company Design Difc, Dining Room Interior contractor Design Difc, Affordable dining room interior Design Difc, Modern dining room interior Design Difc, Dining Room Interior consultation Design Difc, Dining Room Interior cost Design Difc, Dining Room Interior price Design Difc, Top dining room interior Design Difc, Dining Room Interior near Design Difc, Dining Room Interior specialists Design Difc, Dining Room Interior experts Design Difc, Dining Room Interior solutions Design Difc, Dining Room Interior packages Design Difc, Dining Room Interior quotes Design Difc, Dining Room Interior estimates Design Difc, Dining Room Interior services near me Design Difc, Cheap Dining Room Interior Design Difc, Quality Dining Room Interior Design Difc, Trusted Dining Room Interior Design Difc, Dining Room Interior transformation Design Difc, Dining Room Interior renovation Design Difc, Dining Room Interior makeover Design Difc, Best Dining Room Interior company Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room interior Design Difc Company Design Difc</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room Interior in Design Difc. Best dining room interior Design Difc Company Design Difc Our luxury dining room interior design difc services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function DiningRoomInteriorDesignDifc() {
                 At Interiara, we believe that exceptional <strong>Dining Room Interior Design DIFC Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the DIFC Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Dining Room Interior Design Difc. 
                 We've completed 300+ successful projects across DIFC Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Dining Room Interior Design DIFC Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesignDifc() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room interior in design difc service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesignDifc() {
 
               <p>
                 Interiara stands out in the crowded DIFC Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room interior near design difc.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesignDifc() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

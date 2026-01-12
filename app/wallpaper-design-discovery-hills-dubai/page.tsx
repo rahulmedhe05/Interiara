@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Discovery Hills, Wallpaper Design in Discovery Hills, Best wallpaper design Discovery Hills, Professional wallpaper design Discovery Hills, Luxury wallpaper design Discovery Hills, Wallpaper Design Discovery Hills Dubai, Wallpaper Design designer Discovery Hills, Wallpaper Design company Discovery Hills, Wallpaper Design contractor Discovery Hills, Affordable wallpaper design Discovery Hills, Modern wallpaper design Discovery Hills, Wallpaper Design consultation Discovery Hills, Wallpaper Design cost Discovery Hills, Wallpaper Design price Discovery Hills, Top wallpaper design Discovery Hills
+
+// SEO Keywords: Wallpaper Design Discovery Hills, Wallpaper Design in Discovery Hills, Best wallpaper design Discovery Hills, Professional wallpaper design Discovery Hills, Luxury wallpaper design Discovery Hills, Wallpaper Design Discovery Hills Dubai, Wallpaper Design designer Discovery Hills, Wallpaper Design company Discovery Hills, Wallpaper Design contractor Discovery Hills, Affordable wallpaper design Discovery Hills, Modern wallpaper design Discovery Hills, Wallpaper Design consultation Discovery Hills, Wallpaper Design cost Discovery Hills, Wallpaper Design price Discovery Hills, Top wallpaper design Discovery Hills, Wallpaper Design near Discovery Hills, Wallpaper Design specialists Discovery Hills, Wallpaper Design experts Discovery Hills, Wallpaper Design solutions Discovery Hills, Wallpaper Design packages Discovery Hills, Wallpaper Design quotes Discovery Hills, Wallpaper Design estimates Discovery Hills, Wallpaper Design services near me Discovery Hills, Cheap Wallpaper Design Discovery Hills, Quality Wallpaper Design Discovery Hills, Trusted Wallpaper Design Discovery Hills, Wallpaper Design transformation Discovery Hills, Wallpaper Design renovation Discovery Hills, Wallpaper Design makeover Discovery Hills, Best Wallpaper Design company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallpaperDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wallpaper Design in Discovery Hills. Best wallpaper design Discovery Hills Company Discovery Hills Our luxury wallpaper design discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallpaperDesignDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wallpaper design in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallpaperDesignDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wallpaper design near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallpaperDesignDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

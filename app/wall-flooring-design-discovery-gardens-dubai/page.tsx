@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wall Flooring Design Discovery Gardens, Wall Flooring Design in Discovery Gardens, Best wall flooring design Discovery Gardens, Professional wall flooring design Discovery Gardens, Luxury wall flooring design Discovery Gardens, Wall Flooring Design Discovery Gardens Dubai, Wall Flooring Design designer Discovery Gardens, Wall Flooring Design company Discovery Gardens, Wall Flooring Design contractor Discovery Gardens, Affordable wall flooring design Discovery Gardens, Modern wall flooring design Discovery Gardens, Wall Flooring Design consultation Discovery Gardens, Wall Flooring Design cost Discovery Gardens, Wall Flooring Design price Discovery Gardens, Top wall flooring design Discovery Gardens
+
+// SEO Keywords: Wall Flooring Design Discovery Gardens, Wall Flooring Design in Discovery Gardens, Best wall flooring design Discovery Gardens, Professional wall flooring design Discovery Gardens, Luxury wall flooring design Discovery Gardens, Wall Flooring Design Discovery Gardens Dubai, Wall Flooring Design designer Discovery Gardens, Wall Flooring Design company Discovery Gardens, Wall Flooring Design contractor Discovery Gardens, Affordable wall flooring design Discovery Gardens, Modern wall flooring design Discovery Gardens, Wall Flooring Design consultation Discovery Gardens, Wall Flooring Design cost Discovery Gardens, Wall Flooring Design price Discovery Gardens, Top wall flooring design Discovery Gardens, Wall Flooring Design near Discovery Gardens, Wall Flooring Design specialists Discovery Gardens, Wall Flooring Design experts Discovery Gardens, Wall Flooring Design solutions Discovery Gardens, Wall Flooring Design packages Discovery Gardens, Wall Flooring Design quotes Discovery Gardens, Wall Flooring Design estimates Discovery Gardens, Wall Flooring Design services near me Discovery Gardens, Cheap Wall Flooring Design Discovery Gardens, Quality Wall Flooring Design Discovery Gardens, Trusted Wall Flooring Design Discovery Gardens, Wall Flooring Design transformation Discovery Gardens, Wall Flooring Design renovation Discovery Gardens, Wall Flooring Design makeover Discovery Gardens, Best Wall Flooring Design company Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallFlooringDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Discovery Gardens Company Discovery Gardens</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wall Flooring Design in Discovery Gardens. Best wall flooring design Discovery Gardens Company Discovery Gardens Our luxury wall flooring design discovery gardens services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallFlooringDesignDiscoveryGardens() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wall flooring design in discovery gardens service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallFlooringDesignDiscoveryGardens() {
 
               <p>
                 Interiara stands out in the crowded Discovery Gardens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wall flooring design near discovery gardens.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallFlooringDesignDiscoveryGardens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

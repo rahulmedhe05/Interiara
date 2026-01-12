@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Design Umm Suqeim, Lighting Design in Umm Suqeim, Best lighting design Umm Suqeim, Professional lighting design Umm Suqeim, Luxury lighting design Umm Suqeim, Lighting Design Umm Suqeim Dubai, Lighting Design designer Umm Suqeim, Lighting Design company Umm Suqeim, Lighting Design contractor Umm Suqeim, Affordable lighting design Umm Suqeim, Modern lighting design Umm Suqeim, Lighting Design consultation Umm Suqeim, Lighting Design cost Umm Suqeim, Lighting Design price Umm Suqeim, Top lighting design Umm Suqeim
+
+// SEO Keywords: Lighting Design Umm Suqeim, Lighting Design in Umm Suqeim, Best lighting design Umm Suqeim, Professional lighting design Umm Suqeim, Luxury lighting design Umm Suqeim, Lighting Design Umm Suqeim Dubai, Lighting Design designer Umm Suqeim, Lighting Design company Umm Suqeim, Lighting Design contractor Umm Suqeim, Affordable lighting design Umm Suqeim, Modern lighting design Umm Suqeim, Lighting Design consultation Umm Suqeim, Lighting Design cost Umm Suqeim, Lighting Design price Umm Suqeim, Top lighting design Umm Suqeim, Lighting Design near Umm Suqeim, Lighting Design specialists Umm Suqeim, Lighting Design experts Umm Suqeim, Lighting Design solutions Umm Suqeim, Lighting Design packages Umm Suqeim, Lighting Design quotes Umm Suqeim, Lighting Design estimates Umm Suqeim, Lighting Design services near me Umm Suqeim, Cheap Lighting Design Umm Suqeim, Quality Lighting Design Umm Suqeim, Trusted Lighting Design Umm Suqeim, Lighting Design transformation Umm Suqeim, Lighting Design renovation Umm Suqeim, Lighting Design makeover Umm Suqeim, Best Lighting Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Design in Umm Suqeim. Best lighting design Umm Suqeim Company Umm Suqeim Our luxury lighting design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Al Wasl, Home Remodeling in Al Wasl, Best home remodeling Al Wasl, Professional home remodeling Al Wasl, Luxury home remodeling Al Wasl, Home Remodeling Al Wasl Dubai, Home Remodeling designer Al Wasl, Home Remodeling company Al Wasl, Home Remodeling contractor Al Wasl, Affordable home remodeling Al Wasl, Modern home remodeling Al Wasl, Home Remodeling consultation Al Wasl, Home Remodeling cost Al Wasl, Home Remodeling price Al Wasl, Top home remodeling Al Wasl
+
+// SEO Keywords: Home Remodeling Al Wasl, Home Remodeling in Al Wasl, Best home remodeling Al Wasl, Professional home remodeling Al Wasl, Luxury home remodeling Al Wasl, Home Remodeling Al Wasl Dubai, Home Remodeling designer Al Wasl, Home Remodeling company Al Wasl, Home Remodeling contractor Al Wasl, Affordable home remodeling Al Wasl, Modern home remodeling Al Wasl, Home Remodeling consultation Al Wasl, Home Remodeling cost Al Wasl, Home Remodeling price Al Wasl, Top home remodeling Al Wasl, Home Remodeling near Al Wasl, Home Remodeling specialists Al Wasl, Home Remodeling experts Al Wasl, Home Remodeling solutions Al Wasl, Home Remodeling packages Al Wasl, Home Remodeling quotes Al Wasl, Home Remodeling estimates Al Wasl, Home Remodeling services near me Al Wasl, Cheap Home Remodeling Al Wasl, Quality Home Remodeling Al Wasl, Trusted Home Remodeling Al Wasl, Home Remodeling transformation Al Wasl, Home Remodeling renovation Al Wasl, Home Remodeling makeover Al Wasl, Best Home Remodeling company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRemodelingAlWasl() {
                 At Interiara, we believe that exceptional <strong>Home Remodeling Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Remodeling in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Remodeling Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home remodeling al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Remodeling Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRemodelingAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home remodeling in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home remodeling near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRemodelingAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Modular Kitchens Discovery Hills, Modular Kitchens in Discovery Hills, Best modular kitchens Discovery Hills, Professional modular kitchens Discovery Hills, Luxury modular kitchens Discovery Hills, Modular Kitchens Discovery Hills Dubai, Modular Kitchens designer Discovery Hills, Modular Kitchens company Discovery Hills, Modular Kitchens contractor Discovery Hills, Affordable modular kitchens Discovery Hills, Modern modular kitchens Discovery Hills, Modular Kitchens consultation Discovery Hills, Modular Kitchens cost Discovery Hills, Modular Kitchens price Discovery Hills, Top modular kitchens Discovery Hills
+
+// SEO Keywords: Modular Kitchens Discovery Hills, Modular Kitchens in Discovery Hills, Best modular kitchens Discovery Hills, Professional modular kitchens Discovery Hills, Luxury modular kitchens Discovery Hills, Modular Kitchens Discovery Hills Dubai, Modular Kitchens designer Discovery Hills, Modular Kitchens company Discovery Hills, Modular Kitchens contractor Discovery Hills, Affordable modular kitchens Discovery Hills, Modern modular kitchens Discovery Hills, Modular Kitchens consultation Discovery Hills, Modular Kitchens cost Discovery Hills, Modular Kitchens price Discovery Hills, Top modular kitchens Discovery Hills, Modular Kitchens near Discovery Hills, Modular Kitchens specialists Discovery Hills, Modular Kitchens experts Discovery Hills, Modular Kitchens solutions Discovery Hills, Modular Kitchens packages Discovery Hills, Modular Kitchens quotes Discovery Hills, Modular Kitchens estimates Discovery Hills, Modular Kitchens services near me Discovery Hills, Cheap Modular Kitchens Discovery Hills, Quality Modular Kitchens Discovery Hills, Trusted Modular Kitchens Discovery Hills, Modular Kitchens transformation Discovery Hills, Modular Kitchens renovation Discovery Hills, Modular Kitchens makeover Discovery Hills, Best Modular Kitchens company Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ModularKitchensDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Discovery Hills Company Discovery Hills</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Modular Kitchens in Discovery Hills. Best modular kitchens Discovery Hills Company Discovery Hills Our luxury modular kitchens discovery hills services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ModularKitchensDiscoveryHills() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our modular kitchens in discovery hills service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ModularKitchensDiscoveryHills() {
 
               <p>
                 Interiara stands out in the crowded Discovery Hills Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in modular kitchens near discovery hills.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ModularKitchensDiscoveryHills() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

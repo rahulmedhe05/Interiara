@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out, Office in Fit Out, Best office Fit Out, Professional office Fit Out, Luxury office Fit Out, Office Fit Out Dubai, Office designer Fit Out, Office company Fit Out, Office contractor Fit Out, Affordable office Fit Out, Modern office Fit Out, Office consultation Fit Out, Office cost Fit Out, Office price Fit Out, Top office Fit Out
+
+// SEO Keywords: Office Fit Out, Office in Fit Out, Best office Fit Out, Professional office Fit Out, Luxury office Fit Out, Office Fit Out Dubai, Office designer Fit Out, Office company Fit Out, Office contractor Fit Out, Affordable office Fit Out, Modern office Fit Out, Office consultation Fit Out, Office cost Fit Out, Office price Fit Out, Top office Fit Out, Office near Fit Out, Office specialists Fit Out, Office experts Fit Out, Office solutions Fit Out, Office packages Fit Out, Office quotes Fit Out, Office estimates Fit Out, Office services near me Fit Out, Cheap Office Fit Out, Quality Office Fit Out, Trusted Office Fit Out, Office transformation Fit Out, Office renovation Fit Out, Office makeover Fit Out, Best Office company Fit Out
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOut() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out Waterfront Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Waterfront Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office in Fit Out. 
                 We've completed 300+ successful projects across Waterfront Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out Waterfront Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office fit out services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out Waterfront Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOut() {
 
               <p>
                 Interiara stands out in the crowded Waterfront Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office in fit out service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office near fit out.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOut() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

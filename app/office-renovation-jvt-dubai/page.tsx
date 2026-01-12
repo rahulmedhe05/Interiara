@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Jvt, Office in Renovation Jvt, Best office Renovation Jvt, Professional office Renovation Jvt, Luxury office Renovation Jvt, Office Renovation Jvt Dubai, Office designer Renovation Jvt, Office company Renovation Jvt, Office contractor Renovation Jvt, Affordable office Renovation Jvt, Modern office Renovation Jvt, Office consultation Renovation Jvt, Office cost Renovation Jvt, Office price Renovation Jvt, Top office Renovation Jvt
+
+// SEO Keywords: Office Renovation Jvt, Office in Renovation Jvt, Best office Renovation Jvt, Professional office Renovation Jvt, Luxury office Renovation Jvt, Office Renovation Jvt Dubai, Office designer Renovation Jvt, Office company Renovation Jvt, Office contractor Renovation Jvt, Affordable office Renovation Jvt, Modern office Renovation Jvt, Office consultation Renovation Jvt, Office cost Renovation Jvt, Office price Renovation Jvt, Top office Renovation Jvt, Office near Renovation Jvt, Office specialists Renovation Jvt, Office experts Renovation Jvt, Office solutions Renovation Jvt, Office packages Renovation Jvt, Office quotes Renovation Jvt, Office estimates Renovation Jvt, Office services near me Renovation Jvt, Cheap Office Renovation Jvt, Quality Office Renovation Jvt, Trusted Office Renovation Jvt, Office transformation Renovation Jvt, Office renovation Renovation Jvt, Office makeover Renovation Jvt, Best Office company Renovation Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeRenovationJvt() {
                 At Interiara, we believe that exceptional <strong>Office Renovation JVT Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JVT Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office in Renovation Jvt. Office Renovation Jvt. 
                 We've completed 300+ successful projects across JVT Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Renovation JVT Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury office renovation jvt services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Renovation JVT Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeRenovationJvt() {
 
               <p>
                 Interiara stands out in the crowded JVT Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office in renovation jvt service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office near renovation jvt.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeRenovationJvt() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

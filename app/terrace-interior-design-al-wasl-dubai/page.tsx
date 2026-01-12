@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Terrace Interior Design Al Wasl, Terrace Interior Design in Al Wasl, Best terrace interior design Al Wasl, Professional terrace interior design Al Wasl, Luxury terrace interior design Al Wasl, Terrace Interior Design Al Wasl Dubai, Terrace Interior Design designer Al Wasl, Terrace Interior Design company Al Wasl, Terrace Interior Design contractor Al Wasl, Affordable terrace interior design Al Wasl, Modern terrace interior design Al Wasl, Terrace Interior Design consultation Al Wasl, Terrace Interior Design cost Al Wasl, Terrace Interior Design price Al Wasl, Top terrace interior design Al Wasl
+
+// SEO Keywords: Terrace Interior Design Al Wasl, Terrace Interior Design in Al Wasl, Best terrace interior design Al Wasl, Professional terrace interior design Al Wasl, Luxury terrace interior design Al Wasl, Terrace Interior Design Al Wasl Dubai, Terrace Interior Design designer Al Wasl, Terrace Interior Design company Al Wasl, Terrace Interior Design contractor Al Wasl, Affordable terrace interior design Al Wasl, Modern terrace interior design Al Wasl, Terrace Interior Design consultation Al Wasl, Terrace Interior Design cost Al Wasl, Terrace Interior Design price Al Wasl, Top terrace interior design Al Wasl, Terrace Interior Design near Al Wasl, Terrace Interior Design specialists Al Wasl, Terrace Interior Design experts Al Wasl, Terrace Interior Design solutions Al Wasl, Terrace Interior Design packages Al Wasl, Terrace Interior Design quotes Al Wasl, Terrace Interior Design estimates Al Wasl, Terrace Interior Design services near me Al Wasl, Cheap Terrace Interior Design Al Wasl, Quality Terrace Interior Design Al Wasl, Trusted Terrace Interior Design Al Wasl, Terrace Interior Design transformation Al Wasl, Terrace Interior Design renovation Al Wasl, Terrace Interior Design makeover Al Wasl, Best Terrace Interior Design company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function TerraceInteriorDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Al Wasl Company Al Wasl</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Terrace Interior Design in Al Wasl. Best terrace interior design Al Wasl Company Al Wasl Our luxury terrace interior design al wasl services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function TerraceInteriorDesignAlWasl() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our terrace interior design in al wasl service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function TerraceInteriorDesignAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in terrace interior design near al wasl.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function TerraceInteriorDesignAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

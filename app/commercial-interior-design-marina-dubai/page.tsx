@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Marina, Commercial Interior in Design Marina, Best commercial interior Design Marina, Professional commercial interior Design Marina, Luxury commercial interior Design Marina, Commercial Interior Design Marina Dubai, Commercial Interior designer Design Marina, Commercial Interior company Design Marina, Commercial Interior contractor Design Marina, Affordable commercial interior Design Marina, Modern commercial interior Design Marina, Commercial Interior consultation Design Marina, Commercial Interior cost Design Marina, Commercial Interior price Design Marina, Top commercial interior Design Marina
+
+// SEO Keywords: Commercial Interior Design Marina, Commercial Interior in Design Marina, Best commercial interior Design Marina, Professional commercial interior Design Marina, Luxury commercial interior Design Marina, Commercial Interior Design Marina Dubai, Commercial Interior designer Design Marina, Commercial Interior company Design Marina, Commercial Interior contractor Design Marina, Affordable commercial interior Design Marina, Modern commercial interior Design Marina, Commercial Interior consultation Design Marina, Commercial Interior cost Design Marina, Commercial Interior price Design Marina, Top commercial interior Design Marina, Commercial Interior near Design Marina, Commercial Interior specialists Design Marina, Commercial Interior experts Design Marina, Commercial Interior solutions Design Marina, Commercial Interior packages Design Marina, Commercial Interior quotes Design Marina, Commercial Interior estimates Design Marina, Commercial Interior services near me Design Marina, Cheap Commercial Interior Design Marina, Quality Commercial Interior Design Marina, Trusted Commercial Interior Design Marina, Commercial Interior transformation Design Marina, Commercial Interior renovation Design Marina, Commercial Interior makeover Design Marina, Best Commercial Interior company Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior Design Marina Company Design Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior in Design Marina. Best commercial interior Design Marina Company Design Marina Our professional commercial interior design marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function CommercialInteriorDesignMarina() {
                 At Interiara, we believe that exceptional <strong>Commercial Interior Design Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Commercial Interior Design Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Commercial Interior Design Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior in design marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior near design marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

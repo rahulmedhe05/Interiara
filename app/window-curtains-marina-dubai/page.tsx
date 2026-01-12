@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Window Curtains Marina, Window in Curtains Marina, Best window Curtains Marina, Professional window Curtains Marina, Luxury window Curtains Marina, Window Curtains Marina Dubai, Window designer Curtains Marina, Window company Curtains Marina, Window contractor Curtains Marina, Affordable window Curtains Marina, Modern window Curtains Marina, Window consultation Curtains Marina, Window cost Curtains Marina, Window price Curtains Marina, Top window Curtains Marina
+
+// SEO Keywords: Window Curtains Marina, Window in Curtains Marina, Best window Curtains Marina, Professional window Curtains Marina, Luxury window Curtains Marina, Window Curtains Marina Dubai, Window designer Curtains Marina, Window company Curtains Marina, Window contractor Curtains Marina, Affordable window Curtains Marina, Modern window Curtains Marina, Window consultation Curtains Marina, Window cost Curtains Marina, Window price Curtains Marina, Top window Curtains Marina, Window near Curtains Marina, Window specialists Curtains Marina, Window experts Curtains Marina, Window solutions Curtains Marina, Window packages Curtains Marina, Window quotes Curtains Marina, Window estimates Curtains Marina, Window services near me Curtains Marina, Cheap Window Curtains Marina, Quality Window Curtains Marina, Trusted Window Curtains Marina, Window transformation Curtains Marina, Window renovation Curtains Marina, Window makeover Curtains Marina, Best Window company Curtains Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WindowCurtainsMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Curtains Marina Company Curtains Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Window in Curtains Marina. Best window Curtains Marina Company Curtains Marina Our professional window curtains marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -183,7 +184,7 @@ export default function WindowCurtainsMarina() {
                 At Interiara, we believe that exceptional <strong>Window Curtains Dubai Marina Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Marina Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Window Curtains Marina. 
                 We've completed 300+ successful projects across Dubai Marina Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Curtains Dubai Marina Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
@@ -191,7 +192,7 @@ export default function WindowCurtainsMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our window in curtains marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WindowCurtainsMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in window near curtains marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WindowCurtainsMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

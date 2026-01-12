@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Custom Furniture Design Palm Jumeirah, Custom Furniture Design in Palm Jumeirah, Best custom furniture design Palm Jumeirah, Professional custom furniture design Palm Jumeirah, Luxury custom furniture design Palm Jumeirah, Custom Furniture Design Palm Jumeirah Dubai, Custom Furniture Design designer Palm Jumeirah, Custom Furniture Design company Palm Jumeirah, Custom Furniture Design contractor Palm Jumeirah, Affordable custom furniture design Palm Jumeirah, Modern custom furniture design Palm Jumeirah, Custom Furniture Design consultation Palm Jumeirah, Custom Furniture Design cost Palm Jumeirah, Custom Furniture Design price Palm Jumeirah, Top custom furniture design Palm Jumeirah
+
+// SEO Keywords: Custom Furniture Design Palm Jumeirah, Custom Furniture Design in Palm Jumeirah, Best custom furniture design Palm Jumeirah, Professional custom furniture design Palm Jumeirah, Luxury custom furniture design Palm Jumeirah, Custom Furniture Design Palm Jumeirah Dubai, Custom Furniture Design designer Palm Jumeirah, Custom Furniture Design company Palm Jumeirah, Custom Furniture Design contractor Palm Jumeirah, Affordable custom furniture design Palm Jumeirah, Modern custom furniture design Palm Jumeirah, Custom Furniture Design consultation Palm Jumeirah, Custom Furniture Design cost Palm Jumeirah, Custom Furniture Design price Palm Jumeirah, Top custom furniture design Palm Jumeirah, Custom Furniture Design near Palm Jumeirah, Custom Furniture Design specialists Palm Jumeirah, Custom Furniture Design experts Palm Jumeirah, Custom Furniture Design solutions Palm Jumeirah, Custom Furniture Design packages Palm Jumeirah, Custom Furniture Design quotes Palm Jumeirah, Custom Furniture Design estimates Palm Jumeirah, Custom Furniture Design services near me Palm Jumeirah, Cheap Custom Furniture Design Palm Jumeirah, Quality Custom Furniture Design Palm Jumeirah, Trusted Custom Furniture Design Palm Jumeirah, Custom Furniture Design transformation Palm Jumeirah, Custom Furniture Design renovation Palm Jumeirah, Custom Furniture Design makeover Palm Jumeirah, Best Custom Furniture Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CustomFurnitureDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Custom Furniture Design in Palm Jumeirah. Best custom furniture design Palm Jumeirah Company Palm Jumeirah Our luxury custom furniture design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CustomFurnitureDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our custom furniture design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CustomFurnitureDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in custom furniture design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CustomFurnitureDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

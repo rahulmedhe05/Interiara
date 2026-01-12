@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Warqaa, Lighting Automation in Al Warqaa, Best lighting automation Al Warqaa, Professional lighting automation Al Warqaa, Luxury lighting automation Al Warqaa, Lighting Automation Al Warqaa Dubai, Lighting Automation designer Al Warqaa, Lighting Automation company Al Warqaa, Lighting Automation contractor Al Warqaa, Affordable lighting automation Al Warqaa, Modern lighting automation Al Warqaa, Lighting Automation consultation Al Warqaa, Lighting Automation cost Al Warqaa, Lighting Automation price Al Warqaa, Top lighting automation Al Warqaa
+
+// SEO Keywords: Lighting Automation Al Warqaa, Lighting Automation in Al Warqaa, Best lighting automation Al Warqaa, Professional lighting automation Al Warqaa, Luxury lighting automation Al Warqaa, Lighting Automation Al Warqaa Dubai, Lighting Automation designer Al Warqaa, Lighting Automation company Al Warqaa, Lighting Automation contractor Al Warqaa, Affordable lighting automation Al Warqaa, Modern lighting automation Al Warqaa, Lighting Automation consultation Al Warqaa, Lighting Automation cost Al Warqaa, Lighting Automation price Al Warqaa, Top lighting automation Al Warqaa, Lighting Automation near Al Warqaa, Lighting Automation specialists Al Warqaa, Lighting Automation experts Al Warqaa, Lighting Automation solutions Al Warqaa, Lighting Automation packages Al Warqaa, Lighting Automation quotes Al Warqaa, Lighting Automation estimates Al Warqaa, Lighting Automation services near me Al Warqaa, Cheap Lighting Automation Al Warqaa, Quality Lighting Automation Al Warqaa, Trusted Lighting Automation Al Warqaa, Lighting Automation transformation Al Warqaa, Lighting Automation renovation Al Warqaa, Lighting Automation makeover Al Warqaa, Best Lighting Automation company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function LightingAutomationAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Warqaa Company Al Warqaa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Lighting Automation in Al Warqaa. Best lighting automation Al Warqaa Company Al Warqaa Our luxury lighting automation al warqaa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function LightingAutomationAlWarqaa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our lighting automation in al warqaa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function LightingAutomationAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in lighting automation near al warqaa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function LightingAutomationAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

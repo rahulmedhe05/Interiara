@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Bur Dubai, Smart Lighting in Bur Dubai, Best smart lighting Bur Dubai, Professional smart lighting Bur Dubai, Luxury smart lighting Bur Dubai, Smart Lighting Bur Dubai Dubai, Smart Lighting designer Bur Dubai, Smart Lighting company Bur Dubai, Smart Lighting contractor Bur Dubai, Affordable smart lighting Bur Dubai, Modern smart lighting Bur Dubai, Smart Lighting consultation Bur Dubai, Smart Lighting cost Bur Dubai, Smart Lighting price Bur Dubai, Top smart lighting Bur Dubai
+
+// SEO Keywords: Smart Lighting Bur Dubai, Smart Lighting in Bur Dubai, Best smart lighting Bur Dubai, Professional smart lighting Bur Dubai, Luxury smart lighting Bur Dubai, Smart Lighting Bur Dubai Dubai, Smart Lighting designer Bur Dubai, Smart Lighting company Bur Dubai, Smart Lighting contractor Bur Dubai, Affordable smart lighting Bur Dubai, Modern smart lighting Bur Dubai, Smart Lighting consultation Bur Dubai, Smart Lighting cost Bur Dubai, Smart Lighting price Bur Dubai, Top smart lighting Bur Dubai, Smart Lighting near Bur Dubai, Smart Lighting specialists Bur Dubai, Smart Lighting experts Bur Dubai, Smart Lighting solutions Bur Dubai, Smart Lighting packages Bur Dubai, Smart Lighting quotes Bur Dubai, Smart Lighting estimates Bur Dubai, Smart Lighting services near me Bur Dubai, Cheap Smart Lighting Bur Dubai, Quality Smart Lighting Bur Dubai, Trusted Smart Lighting Bur Dubai, Smart Lighting transformation Bur Dubai, Smart Lighting renovation Bur Dubai, Smart Lighting makeover Bur Dubai, Best Smart Lighting company Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingBurDubai() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Bur Dubai. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting bur dubai services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingBurDubai() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in bur dubai service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near bur dubai.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingBurDubai() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

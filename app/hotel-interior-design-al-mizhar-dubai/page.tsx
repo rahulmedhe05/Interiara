@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Hotel Interior Design Al Mizhar, Hotel Interior Design in Al Mizhar, Best hotel interior design Al Mizhar, Professional hotel interior design Al Mizhar, Luxury hotel interior design Al Mizhar, Hotel Interior Design Al Mizhar Dubai, Hotel Interior Design designer Al Mizhar, Hotel Interior Design company Al Mizhar, Hotel Interior Design contractor Al Mizhar, Affordable hotel interior design Al Mizhar, Modern hotel interior design Al Mizhar, Hotel Interior Design consultation Al Mizhar, Hotel Interior Design cost Al Mizhar, Hotel Interior Design price Al Mizhar, Top hotel interior design Al Mizhar
+
+// SEO Keywords: Hotel Interior Design Al Mizhar, Hotel Interior Design in Al Mizhar, Best hotel interior design Al Mizhar, Professional hotel interior design Al Mizhar, Luxury hotel interior design Al Mizhar, Hotel Interior Design Al Mizhar Dubai, Hotel Interior Design designer Al Mizhar, Hotel Interior Design company Al Mizhar, Hotel Interior Design contractor Al Mizhar, Affordable hotel interior design Al Mizhar, Modern hotel interior design Al Mizhar, Hotel Interior Design consultation Al Mizhar, Hotel Interior Design cost Al Mizhar, Hotel Interior Design price Al Mizhar, Top hotel interior design Al Mizhar, Hotel Interior Design near Al Mizhar, Hotel Interior Design specialists Al Mizhar, Hotel Interior Design experts Al Mizhar, Hotel Interior Design solutions Al Mizhar, Hotel Interior Design packages Al Mizhar, Hotel Interior Design quotes Al Mizhar, Hotel Interior Design estimates Al Mizhar, Hotel Interior Design services near me Al Mizhar, Cheap Hotel Interior Design Al Mizhar, Quality Hotel Interior Design Al Mizhar, Trusted Hotel Interior Design Al Mizhar, Hotel Interior Design transformation Al Mizhar, Hotel Interior Design renovation Al Mizhar, Hotel Interior Design makeover Al Mizhar, Best Hotel Interior Design company Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HotelInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Al Mizhar Company Al Mizhar</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Hotel Interior Design in Al Mizhar. Best hotel interior design Al Mizhar Company Al Mizhar Our luxury hotel interior design al mizhar services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HotelInteriorDesignAlMizhar() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our hotel interior design in al mizhar service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HotelInteriorDesignAlMizhar() {
 
               <p>
                 Interiara stands out in the crowded Al Mizhar Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in hotel interior design near al mizhar.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HotelInteriorDesignAlMizhar() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

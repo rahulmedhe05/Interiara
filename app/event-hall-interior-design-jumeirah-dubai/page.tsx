@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Event Hall Interior Design Jumeirah, Event Hall Interior in Design Jumeirah, Best event hall interior Design Jumeirah, Professional event hall interior Design Jumeirah, Luxury event hall interior Design Jumeirah, Event Hall Interior Design Jumeirah Dubai, Event Hall Interior designer Design Jumeirah, Event Hall Interior company Design Jumeirah, Event Hall Interior contractor Design Jumeirah, Affordable event hall interior Design Jumeirah, Modern event hall interior Design Jumeirah, Event Hall Interior consultation Design Jumeirah, Event Hall Interior cost Design Jumeirah, Event Hall Interior price Design Jumeirah, Top event hall interior Design Jumeirah
+
+// SEO Keywords: Event Hall Interior Design Jumeirah, Event Hall Interior in Design Jumeirah, Best event hall interior Design Jumeirah, Professional event hall interior Design Jumeirah, Luxury event hall interior Design Jumeirah, Event Hall Interior Design Jumeirah Dubai, Event Hall Interior designer Design Jumeirah, Event Hall Interior company Design Jumeirah, Event Hall Interior contractor Design Jumeirah, Affordable event hall interior Design Jumeirah, Modern event hall interior Design Jumeirah, Event Hall Interior consultation Design Jumeirah, Event Hall Interior cost Design Jumeirah, Event Hall Interior price Design Jumeirah, Top event hall interior Design Jumeirah, Event Hall Interior near Design Jumeirah, Event Hall Interior specialists Design Jumeirah, Event Hall Interior experts Design Jumeirah, Event Hall Interior solutions Design Jumeirah, Event Hall Interior packages Design Jumeirah, Event Hall Interior quotes Design Jumeirah, Event Hall Interior estimates Design Jumeirah, Event Hall Interior services near me Design Jumeirah, Cheap Event Hall Interior Design Jumeirah, Quality Event Hall Interior Design Jumeirah, Trusted Event Hall Interior Design Jumeirah, Event Hall Interior transformation Design Jumeirah, Event Hall Interior renovation Design Jumeirah, Event Hall Interior makeover Design Jumeirah, Best Event Hall Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EventHallInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Event Hall Interior in Design Jumeirah. Best event hall interior Design Jumeirah Company Design Jumeirah Our luxury event hall interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EventHallInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our event hall interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EventHallInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in event hall interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EventHallInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

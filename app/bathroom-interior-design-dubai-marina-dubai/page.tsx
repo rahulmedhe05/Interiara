@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Bathroom Interior Design Dubai Marina, Bathroom Interior Design in Dubai Marina, Best bathroom interior design Dubai Marina, Professional bathroom interior design Dubai Marina, Luxury bathroom interior design Dubai Marina, Bathroom Interior Design Dubai Marina Dubai, Bathroom Interior Design designer Dubai Marina, Bathroom Interior Design company Dubai Marina, Bathroom Interior Design contractor Dubai Marina, Affordable bathroom interior design Dubai Marina, Modern bathroom interior design Dubai Marina, Bathroom Interior Design consultation Dubai Marina, Bathroom Interior Design cost Dubai Marina, Bathroom Interior Design price Dubai Marina, Top bathroom interior design Dubai Marina
+
+// SEO Keywords: Bathroom Interior Design Dubai Marina, Bathroom Interior Design in Dubai Marina, Best bathroom interior design Dubai Marina, Professional bathroom interior design Dubai Marina, Luxury bathroom interior design Dubai Marina, Bathroom Interior Design Dubai Marina Dubai, Bathroom Interior Design designer Dubai Marina, Bathroom Interior Design company Dubai Marina, Bathroom Interior Design contractor Dubai Marina, Affordable bathroom interior design Dubai Marina, Modern bathroom interior design Dubai Marina, Bathroom Interior Design consultation Dubai Marina, Bathroom Interior Design cost Dubai Marina, Bathroom Interior Design price Dubai Marina, Top bathroom interior design Dubai Marina, Bathroom Interior Design near Dubai Marina, Bathroom Interior Design specialists Dubai Marina, Bathroom Interior Design experts Dubai Marina, Bathroom Interior Design solutions Dubai Marina, Bathroom Interior Design packages Dubai Marina, Bathroom Interior Design quotes Dubai Marina, Bathroom Interior Design estimates Dubai Marina, Bathroom Interior Design services near me Dubai Marina, Cheap Bathroom Interior Design Dubai Marina, Quality Bathroom Interior Design Dubai Marina, Trusted Bathroom Interior Design Dubai Marina, Bathroom Interior Design transformation Dubai Marina, Bathroom Interior Design renovation Dubai Marina, Bathroom Interior Design makeover Dubai Marina, Best Bathroom Interior Design company Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function BathroomInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior design Dubai Marina Company Dubai Marina</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Bathroom Interior Design in Dubai Marina. Best bathroom interior design Dubai Marina Company Dubai Marina Our luxury bathroom interior design dubai marina services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function BathroomInteriorDesignDubaiMarina() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our bathroom interior design in dubai marina service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function BathroomInteriorDesignDubaiMarina() {
 
               <p>
                 Interiara stands out in the crowded Dubai Marina Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in bathroom interior design near dubai marina.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function BathroomInteriorDesignDubaiMarina() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

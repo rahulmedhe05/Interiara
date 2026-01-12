@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Dining Room Interior Design Palm, Dining Room Interior in Design Palm, Best dining room interior Design Palm, Professional dining room interior Design Palm, Luxury dining room interior Design Palm, Dining Room Interior Design Palm Dubai, Dining Room Interior designer Design Palm, Dining Room Interior company Design Palm, Dining Room Interior contractor Design Palm, Affordable dining room interior Design Palm, Modern dining room interior Design Palm, Dining Room Interior consultation Design Palm, Dining Room Interior cost Design Palm, Dining Room Interior price Design Palm, Top dining room interior Design Palm
+
+// SEO Keywords: Dining Room Interior Design Palm, Dining Room Interior in Design Palm, Best dining room interior Design Palm, Professional dining room interior Design Palm, Luxury dining room interior Design Palm, Dining Room Interior Design Palm Dubai, Dining Room Interior designer Design Palm, Dining Room Interior company Design Palm, Dining Room Interior contractor Design Palm, Affordable dining room interior Design Palm, Modern dining room interior Design Palm, Dining Room Interior consultation Design Palm, Dining Room Interior cost Design Palm, Dining Room Interior price Design Palm, Top dining room interior Design Palm, Dining Room Interior near Design Palm, Dining Room Interior specialists Design Palm, Dining Room Interior experts Design Palm, Dining Room Interior solutions Design Palm, Dining Room Interior packages Design Palm, Dining Room Interior quotes Design Palm, Dining Room Interior estimates Design Palm, Dining Room Interior services near me Design Palm, Cheap Dining Room Interior Design Palm, Quality Dining Room Interior Design Palm, Trusted Dining Room Interior Design Palm, Dining Room Interior transformation Design Palm, Dining Room Interior renovation Design Palm, Dining Room Interior makeover Design Palm, Best Dining Room Interior company Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function DiningRoomInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room interior Design Palm Company Design Palm</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Dining Room Interior in Design Palm. Best dining room interior Design Palm Company Design Palm Our luxury dining room interior design palm services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function DiningRoomInteriorDesignPalm() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our dining room interior in design palm service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function DiningRoomInteriorDesignPalm() {
 
               <p>
                 Interiara stands out in the crowded Palm Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in dining room interior near design palm.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function DiningRoomInteriorDesignPalm() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

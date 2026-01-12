@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling City Walk, Home Remodeling in City Walk, Best home remodeling City Walk, Professional home remodeling City Walk, Luxury home remodeling City Walk, Home Remodeling City Walk Dubai, Home Remodeling designer City Walk, Home Remodeling company City Walk, Home Remodeling contractor City Walk, Affordable home remodeling City Walk, Modern home remodeling City Walk, Home Remodeling consultation City Walk, Home Remodeling cost City Walk, Home Remodeling price City Walk, Top home remodeling City Walk
+
+// SEO Keywords: Home Remodeling City Walk, Home Remodeling in City Walk, Best home remodeling City Walk, Professional home remodeling City Walk, Luxury home remodeling City Walk, Home Remodeling City Walk Dubai, Home Remodeling designer City Walk, Home Remodeling company City Walk, Home Remodeling contractor City Walk, Affordable home remodeling City Walk, Modern home remodeling City Walk, Home Remodeling consultation City Walk, Home Remodeling cost City Walk, Home Remodeling price City Walk, Top home remodeling City Walk, Home Remodeling near City Walk, Home Remodeling specialists City Walk, Home Remodeling experts City Walk, Home Remodeling solutions City Walk, Home Remodeling packages City Walk, Home Remodeling quotes City Walk, Home Remodeling estimates City Walk, Home Remodeling services near me City Walk, Cheap Home Remodeling City Walk, Quality Home Remodeling City Walk, Trusted Home Remodeling City Walk, Home Remodeling transformation City Walk, Home Remodeling renovation City Walk, Home Remodeling makeover City Walk, Best Home Remodeling company City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRemodelingCityWalk() {
                 At Interiara, we believe that exceptional <strong>Home Remodeling City Walk Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Walk Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Remodeling in City Walk. 
                 We've completed 300+ successful projects across City Walk Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Remodeling City Walk Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home remodeling city walk services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Remodeling City Walk Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRemodelingCityWalk() {
 
               <p>
                 Interiara stands out in the crowded City Walk Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home remodeling in city walk service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home remodeling near city walk.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRemodelingCityWalk() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

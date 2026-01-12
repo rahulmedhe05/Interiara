@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Soundproofing Design Downtown, Soundproofing in Design Downtown, Best soundproofing Design Downtown, Professional soundproofing Design Downtown, Luxury soundproofing Design Downtown, Soundproofing Design Downtown Dubai, Soundproofing designer Design Downtown, Soundproofing company Design Downtown, Soundproofing contractor Design Downtown, Affordable soundproofing Design Downtown, Modern soundproofing Design Downtown, Soundproofing consultation Design Downtown, Soundproofing cost Design Downtown, Soundproofing price Design Downtown, Top soundproofing Design Downtown
+
+// SEO Keywords: Soundproofing Design Downtown, Soundproofing in Design Downtown, Best soundproofing Design Downtown, Professional soundproofing Design Downtown, Luxury soundproofing Design Downtown, Soundproofing Design Downtown Dubai, Soundproofing designer Design Downtown, Soundproofing company Design Downtown, Soundproofing contractor Design Downtown, Affordable soundproofing Design Downtown, Modern soundproofing Design Downtown, Soundproofing consultation Design Downtown, Soundproofing cost Design Downtown, Soundproofing price Design Downtown, Top soundproofing Design Downtown, Soundproofing near Design Downtown, Soundproofing specialists Design Downtown, Soundproofing experts Design Downtown, Soundproofing solutions Design Downtown, Soundproofing packages Design Downtown, Soundproofing quotes Design Downtown, Soundproofing estimates Design Downtown, Soundproofing services near me Design Downtown, Cheap Soundproofing Design Downtown, Quality Soundproofing Design Downtown, Trusted Soundproofing Design Downtown, Soundproofing transformation Design Downtown, Soundproofing renovation Design Downtown, Soundproofing makeover Design Downtown, Best Soundproofing company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SoundproofingDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Soundproofing in Design Downtown. Best soundproofing Design Downtown Company Design Downtown Our luxury soundproofing design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SoundproofingDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our soundproofing in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SoundproofingDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in soundproofing near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SoundproofingDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

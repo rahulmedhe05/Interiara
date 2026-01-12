@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Salon Interior Design Jumeirah, Salon Interior in Design Jumeirah, Best salon interior Design Jumeirah, Professional salon interior Design Jumeirah, Luxury salon interior Design Jumeirah, Salon Interior Design Jumeirah Dubai, Salon Interior designer Design Jumeirah, Salon Interior company Design Jumeirah, Salon Interior contractor Design Jumeirah, Affordable salon interior Design Jumeirah, Modern salon interior Design Jumeirah, Salon Interior consultation Design Jumeirah, Salon Interior cost Design Jumeirah, Salon Interior price Design Jumeirah, Top salon interior Design Jumeirah
+
+// SEO Keywords: Salon Interior Design Jumeirah, Salon Interior in Design Jumeirah, Best salon interior Design Jumeirah, Professional salon interior Design Jumeirah, Luxury salon interior Design Jumeirah, Salon Interior Design Jumeirah Dubai, Salon Interior designer Design Jumeirah, Salon Interior company Design Jumeirah, Salon Interior contractor Design Jumeirah, Affordable salon interior Design Jumeirah, Modern salon interior Design Jumeirah, Salon Interior consultation Design Jumeirah, Salon Interior cost Design Jumeirah, Salon Interior price Design Jumeirah, Top salon interior Design Jumeirah, Salon Interior near Design Jumeirah, Salon Interior specialists Design Jumeirah, Salon Interior experts Design Jumeirah, Salon Interior solutions Design Jumeirah, Salon Interior packages Design Jumeirah, Salon Interior quotes Design Jumeirah, Salon Interior estimates Design Jumeirah, Salon Interior services near me Design Jumeirah, Cheap Salon Interior Design Jumeirah, Quality Salon Interior Design Jumeirah, Trusted Salon Interior Design Jumeirah, Salon Interior transformation Design Jumeirah, Salon Interior renovation Design Jumeirah, Salon Interior makeover Design Jumeirah, Best Salon Interior company Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SalonInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior Design Jumeirah Company Design Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Salon Interior in Design Jumeirah. Best salon interior Design Jumeirah Company Design Jumeirah Our luxury salon interior design jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SalonInteriorDesignJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our salon interior in design jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SalonInteriorDesignJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in salon interior near design jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SalonInteriorDesignJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

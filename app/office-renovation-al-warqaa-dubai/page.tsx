@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Al Warqaa, Office Renovation in Al Warqaa, Best office renovation Al Warqaa, Professional office renovation Al Warqaa, Luxury office renovation Al Warqaa, Office Renovation Al Warqaa Dubai, Office Renovation designer Al Warqaa, Office Renovation company Al Warqaa, Office Renovation contractor Al Warqaa, Affordable office renovation Al Warqaa, Modern office renovation Al Warqaa, Office Renovation consultation Al Warqaa, Office Renovation cost Al Warqaa, Office Renovation price Al Warqaa, Top office renovation Al Warqaa
+
+// SEO Keywords: Office Renovation Al Warqaa, Office Renovation in Al Warqaa, Best office renovation Al Warqaa, Professional office renovation Al Warqaa, Luxury office renovation Al Warqaa, Office Renovation Al Warqaa Dubai, Office Renovation designer Al Warqaa, Office Renovation company Al Warqaa, Office Renovation contractor Al Warqaa, Affordable office renovation Al Warqaa, Modern office renovation Al Warqaa, Office Renovation consultation Al Warqaa, Office Renovation cost Al Warqaa, Office Renovation price Al Warqaa, Top office renovation Al Warqaa, Office Renovation near Al Warqaa, Office Renovation specialists Al Warqaa, Office Renovation experts Al Warqaa, Office Renovation solutions Al Warqaa, Office Renovation packages Al Warqaa, Office Renovation quotes Al Warqaa, Office Renovation estimates Al Warqaa, Office Renovation services near me Al Warqaa, Cheap Office Renovation Al Warqaa, Quality Office Renovation Al Warqaa, Trusted Office Renovation Al Warqaa, Office Renovation transformation Al Warqaa, Office Renovation renovation Al Warqaa, Office Renovation makeover Al Warqaa, Best Office Renovation company Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Al Warqaa Company Al Warqaa</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Al Warqaa. Best office renovation Al Warqaa Company Al Warqaa Our luxury office renovation al warqaa services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationAlWarqaa() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in al warqaa service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationAlWarqaa() {
 
               <p>
                 Interiara stands out in the crowded Al Warqaa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near al warqaa.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationAlWarqaa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

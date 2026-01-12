@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wardrobe Design Bur, Wardrobe in Design Bur, Best wardrobe Design Bur, Professional wardrobe Design Bur, Luxury wardrobe Design Bur, Wardrobe Design Bur Dubai, Wardrobe designer Design Bur, Wardrobe company Design Bur, Wardrobe contractor Design Bur, Affordable wardrobe Design Bur, Modern wardrobe Design Bur, Wardrobe consultation Design Bur, Wardrobe cost Design Bur, Wardrobe price Design Bur, Top wardrobe Design Bur
+
+// SEO Keywords: Wardrobe Design Bur, Wardrobe in Design Bur, Best wardrobe Design Bur, Professional wardrobe Design Bur, Luxury wardrobe Design Bur, Wardrobe Design Bur Dubai, Wardrobe designer Design Bur, Wardrobe company Design Bur, Wardrobe contractor Design Bur, Affordable wardrobe Design Bur, Modern wardrobe Design Bur, Wardrobe consultation Design Bur, Wardrobe cost Design Bur, Wardrobe price Design Bur, Top wardrobe Design Bur, Wardrobe near Design Bur, Wardrobe specialists Design Bur, Wardrobe experts Design Bur, Wardrobe solutions Design Bur, Wardrobe packages Design Bur, Wardrobe quotes Design Bur, Wardrobe estimates Design Bur, Wardrobe services near me Design Bur, Cheap Wardrobe Design Bur, Quality Wardrobe Design Bur, Trusted Wardrobe Design Bur, Wardrobe transformation Design Bur, Wardrobe renovation Design Bur, Wardrobe makeover Design Bur, Best Wardrobe company Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function WardrobeDesignBur() {
                 At Interiara, we believe that exceptional <strong>Wardrobe Design Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Wardrobe in Design Bur. 
                 We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Wardrobe Design Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury wardrobe design bur services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Wardrobe Design Bur Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function WardrobeDesignBur() {
 
               <p>
                 Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our wardrobe in design bur service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in wardrobe near design bur.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function WardrobeDesignBur() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Gym Interior Design Jebel Ali, Gym Interior Design in Jebel Ali, Best gym interior design Jebel Ali, Professional gym interior design Jebel Ali, Luxury gym interior design Jebel Ali, Gym Interior Design Jebel Ali Dubai, Gym Interior Design designer Jebel Ali, Gym Interior Design company Jebel Ali, Gym Interior Design contractor Jebel Ali, Affordable gym interior design Jebel Ali, Modern gym interior design Jebel Ali, Gym Interior Design consultation Jebel Ali, Gym Interior Design cost Jebel Ali, Gym Interior Design price Jebel Ali, Top gym interior design Jebel Ali
+
+// SEO Keywords: Gym Interior Design Jebel Ali, Gym Interior Design in Jebel Ali, Best gym interior design Jebel Ali, Professional gym interior design Jebel Ali, Luxury gym interior design Jebel Ali, Gym Interior Design Jebel Ali Dubai, Gym Interior Design designer Jebel Ali, Gym Interior Design company Jebel Ali, Gym Interior Design contractor Jebel Ali, Affordable gym interior design Jebel Ali, Modern gym interior design Jebel Ali, Gym Interior Design consultation Jebel Ali, Gym Interior Design cost Jebel Ali, Gym Interior Design price Jebel Ali, Top gym interior design Jebel Ali, Gym Interior Design near Jebel Ali, Gym Interior Design specialists Jebel Ali, Gym Interior Design experts Jebel Ali, Gym Interior Design solutions Jebel Ali, Gym Interior Design packages Jebel Ali, Gym Interior Design quotes Jebel Ali, Gym Interior Design estimates Jebel Ali, Gym Interior Design services near me Jebel Ali, Cheap Gym Interior Design Jebel Ali, Quality Gym Interior Design Jebel Ali, Trusted Gym Interior Design Jebel Ali, Gym Interior Design transformation Jebel Ali, Gym Interior Design renovation Jebel Ali, Gym Interior Design makeover Jebel Ali, Best Gym Interior Design company Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function GymInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Jebel Ali Company Jebel Ali</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Gym Interior Design in Jebel Ali. Best gym interior design Jebel Ali Company Jebel Ali Our luxury gym interior design jebel ali services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function GymInteriorDesignJebelAli() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our gym interior design in jebel ali service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function GymInteriorDesignJebelAli() {
 
               <p>
                 Interiara stands out in the crowded Jebel Ali Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in gym interior design near jebel ali.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function GymInteriorDesignJebelAli() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

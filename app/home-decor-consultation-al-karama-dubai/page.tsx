@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Al Karama, Home Decor Consultation in Al Karama, Best home decor consultation Al Karama, Professional home decor consultation Al Karama, Luxury home decor consultation Al Karama, Home Decor Consultation Al Karama Dubai, Home Decor Consultation designer Al Karama, Home Decor Consultation company Al Karama, Home Decor Consultation contractor Al Karama, Affordable home decor consultation Al Karama, Modern home decor consultation Al Karama, Home Decor Consultation consultation Al Karama, Home Decor Consultation cost Al Karama, Home Decor Consultation price Al Karama, Top home decor consultation Al Karama
+
+// SEO Keywords: Home Decor Consultation Al Karama, Home Decor Consultation in Al Karama, Best home decor consultation Al Karama, Professional home decor consultation Al Karama, Luxury home decor consultation Al Karama, Home Decor Consultation Al Karama Dubai, Home Decor Consultation designer Al Karama, Home Decor Consultation company Al Karama, Home Decor Consultation contractor Al Karama, Affordable home decor consultation Al Karama, Modern home decor consultation Al Karama, Home Decor Consultation consultation Al Karama, Home Decor Consultation cost Al Karama, Home Decor Consultation price Al Karama, Top home decor consultation Al Karama, Home Decor Consultation near Al Karama, Home Decor Consultation specialists Al Karama, Home Decor Consultation experts Al Karama, Home Decor Consultation solutions Al Karama, Home Decor Consultation packages Al Karama, Home Decor Consultation quotes Al Karama, Home Decor Consultation estimates Al Karama, Home Decor Consultation services near me Al Karama, Cheap Home Decor Consultation Al Karama, Quality Home Decor Consultation Al Karama, Trusted Home Decor Consultation Al Karama, Home Decor Consultation transformation Al Karama, Home Decor Consultation renovation Al Karama, Home Decor Consultation makeover Al Karama, Best Home Decor Consultation company Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Al Karama Company Al Karama</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Al Karama. Best home decor consultation Al Karama Company Al Karama Our luxury home decor consultation al karama services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationAlKarama() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in al karama service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationAlKarama() {
 
               <p>
                 Interiara stands out in the crowded Al Karama Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near al karama.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationAlKarama() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

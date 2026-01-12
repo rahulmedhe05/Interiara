@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Jaddaf, Smart Lighting in Al Jaddaf, Best smart lighting Al Jaddaf, Professional smart lighting Al Jaddaf, Luxury smart lighting Al Jaddaf, Smart Lighting Al Jaddaf Dubai, Smart Lighting designer Al Jaddaf, Smart Lighting company Al Jaddaf, Smart Lighting contractor Al Jaddaf, Affordable smart lighting Al Jaddaf, Modern smart lighting Al Jaddaf, Smart Lighting consultation Al Jaddaf, Smart Lighting cost Al Jaddaf, Smart Lighting price Al Jaddaf, Top smart lighting Al Jaddaf
+
+// SEO Keywords: Smart Lighting Al Jaddaf, Smart Lighting in Al Jaddaf, Best smart lighting Al Jaddaf, Professional smart lighting Al Jaddaf, Luxury smart lighting Al Jaddaf, Smart Lighting Al Jaddaf Dubai, Smart Lighting designer Al Jaddaf, Smart Lighting company Al Jaddaf, Smart Lighting contractor Al Jaddaf, Affordable smart lighting Al Jaddaf, Modern smart lighting Al Jaddaf, Smart Lighting consultation Al Jaddaf, Smart Lighting cost Al Jaddaf, Smart Lighting price Al Jaddaf, Top smart lighting Al Jaddaf, Smart Lighting near Al Jaddaf, Smart Lighting specialists Al Jaddaf, Smart Lighting experts Al Jaddaf, Smart Lighting solutions Al Jaddaf, Smart Lighting packages Al Jaddaf, Smart Lighting quotes Al Jaddaf, Smart Lighting estimates Al Jaddaf, Smart Lighting services near me Al Jaddaf, Cheap Smart Lighting Al Jaddaf, Quality Smart Lighting Al Jaddaf, Trusted Smart Lighting Al Jaddaf, Smart Lighting transformation Al Jaddaf, Smart Lighting renovation Al Jaddaf, Smart Lighting makeover Al Jaddaf, Best Smart Lighting company Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlJaddaf() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Jaddaf Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Jaddaf Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Jaddaf. 
                 We've completed 300+ successful projects across Al Jaddaf Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Jaddaf Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al jaddaf services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Jaddaf Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlJaddaf() {
 
               <p>
                 Interiara stands out in the crowded Al Jaddaf Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al jaddaf service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al jaddaf.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlJaddaf() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

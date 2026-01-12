@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Renovation Al Safouh, Home Renovation in Al Safouh, Best home renovation Al Safouh, Professional home renovation Al Safouh, Luxury home renovation Al Safouh, Home Renovation Al Safouh Dubai, Home Renovation designer Al Safouh, Home Renovation company Al Safouh, Home Renovation contractor Al Safouh, Affordable home renovation Al Safouh, Modern home renovation Al Safouh, Home Renovation consultation Al Safouh, Home Renovation cost Al Safouh, Home Renovation price Al Safouh, Top home renovation Al Safouh
+
+// SEO Keywords: Home Renovation Al Safouh, Home Renovation in Al Safouh, Best home renovation Al Safouh, Professional home renovation Al Safouh, Luxury home renovation Al Safouh, Home Renovation Al Safouh Dubai, Home Renovation designer Al Safouh, Home Renovation company Al Safouh, Home Renovation contractor Al Safouh, Affordable home renovation Al Safouh, Modern home renovation Al Safouh, Home Renovation consultation Al Safouh, Home Renovation cost Al Safouh, Home Renovation price Al Safouh, Top home renovation Al Safouh, Home Renovation near Al Safouh, Home Renovation specialists Al Safouh, Home Renovation experts Al Safouh, Home Renovation solutions Al Safouh, Home Renovation packages Al Safouh, Home Renovation quotes Al Safouh, Home Renovation estimates Al Safouh, Home Renovation services near me Al Safouh, Cheap Home Renovation Al Safouh, Quality Home Renovation Al Safouh, Trusted Home Renovation Al Safouh, Home Renovation transformation Al Safouh, Home Renovation renovation Al Safouh, Home Renovation makeover Al Safouh, Best Home Renovation company Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function HomeRenovationAlSafouh() {
                 At Interiara, we believe that exceptional <strong>Home Renovation Al Safouh Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safouh Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Home Renovation in Al Safouh. 
                 We've completed 300+ successful projects across Al Safouh Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Home Renovation Al Safouh Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury home renovation al safouh services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Home Renovation Al Safouh Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function HomeRenovationAlSafouh() {
 
               <p>
                 Interiara stands out in the crowded Al Safouh Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our home renovation in al safouh service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in home renovation near al safouh.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function HomeRenovationAlSafouh() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

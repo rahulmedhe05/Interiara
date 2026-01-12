@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Greens, Office Fit in Out Greens, Best office fit Out Greens, Professional office fit Out Greens, Luxury office fit Out Greens, Office Fit Out Greens Dubai, Office Fit designer Out Greens, Office Fit company Out Greens, Office Fit contractor Out Greens, Affordable office fit Out Greens, Modern office fit Out Greens, Office Fit consultation Out Greens, Office Fit cost Out Greens, Office Fit price Out Greens, Top office fit Out Greens
+
+// SEO Keywords: Office Fit Out Greens, Office Fit in Out Greens, Best office fit Out Greens, Professional office fit Out Greens, Luxury office fit Out Greens, Office Fit Out Greens Dubai, Office Fit designer Out Greens, Office Fit company Out Greens, Office Fit contractor Out Greens, Affordable office fit Out Greens, Modern office fit Out Greens, Office Fit consultation Out Greens, Office Fit cost Out Greens, Office Fit price Out Greens, Top office fit Out Greens, Office Fit near Out Greens, Office Fit specialists Out Greens, Office Fit experts Out Greens, Office Fit solutions Out Greens, Office Fit packages Out Greens, Office Fit quotes Out Greens, Office Fit estimates Out Greens, Office Fit services near me Out Greens, Cheap Office Fit Out Greens, Quality Office Fit Out Greens, Trusted Office Fit Out Greens, Office Fit transformation Out Greens, Office Fit renovation Out Greens, Office Fit makeover Out Greens, Best Office Fit company Out Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OfficeFitOutGreens() {
                 At Interiara, we believe that exceptional <strong>Office Fit Out The Greens Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Greens Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Office Fit in Out Greens. Office Fit Out Greens. 
                 We've completed 300+ successful projects across The Greens Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Office Fit Out The Greens Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our professional office fit out greens services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Office Fit Out The Greens Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OfficeFitOutGreens() {
 
               <p>
                 Interiara stands out in the crowded The Greens Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our office fit in out greens service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in office fit near out greens.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OfficeFitOutGreens() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

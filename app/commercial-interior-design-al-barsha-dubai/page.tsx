@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Commercial Interior Design Al Barsha, Commercial Interior Design in Al Barsha, Best commercial interior design Al Barsha, Professional commercial interior design Al Barsha, Luxury commercial interior design Al Barsha, Commercial Interior Design Al Barsha Dubai, Commercial Interior Design designer Al Barsha, Commercial Interior Design company Al Barsha, Commercial Interior Design contractor Al Barsha, Affordable commercial interior design Al Barsha, Modern commercial interior design Al Barsha, Commercial Interior Design consultation Al Barsha, Commercial Interior Design cost Al Barsha, Commercial Interior Design price Al Barsha, Top commercial interior design Al Barsha
+
+// SEO Keywords: Commercial Interior Design Al Barsha, Commercial Interior Design in Al Barsha, Best commercial interior design Al Barsha, Professional commercial interior design Al Barsha, Luxury commercial interior design Al Barsha, Commercial Interior Design Al Barsha Dubai, Commercial Interior Design designer Al Barsha, Commercial Interior Design company Al Barsha, Commercial Interior Design contractor Al Barsha, Affordable commercial interior design Al Barsha, Modern commercial interior design Al Barsha, Commercial Interior Design consultation Al Barsha, Commercial Interior Design cost Al Barsha, Commercial Interior Design price Al Barsha, Top commercial interior design Al Barsha, Commercial Interior Design near Al Barsha, Commercial Interior Design specialists Al Barsha, Commercial Interior Design experts Al Barsha, Commercial Interior Design solutions Al Barsha, Commercial Interior Design packages Al Barsha, Commercial Interior Design quotes Al Barsha, Commercial Interior Design estimates Al Barsha, Commercial Interior Design services near me Al Barsha, Cheap Commercial Interior Design Al Barsha, Quality Commercial Interior Design Al Barsha, Trusted Commercial Interior Design Al Barsha, Commercial Interior Design transformation Al Barsha, Commercial Interior Design renovation Al Barsha, Commercial Interior Design makeover Al Barsha, Best Commercial Interior Design company Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function CommercialInteriorDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Al Barsha Company Al Barsha</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Commercial Interior Design in Al Barsha. Best commercial interior design Al Barsha Company Al Barsha Our luxury commercial interior design al barsha services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function CommercialInteriorDesignAlBarsha() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our commercial interior design in al barsha service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function CommercialInteriorDesignAlBarsha() {
 
               <p>
                 Interiara stands out in the crowded Al Barsha Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in commercial interior design near al barsha.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function CommercialInteriorDesignAlBarsha() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

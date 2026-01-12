@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Outdoor Living Design, Outdoor in Living Design, Best outdoor Living Design, Professional outdoor Living Design, Luxury outdoor Living Design, Outdoor Living Design Dubai, Outdoor designer Living Design, Outdoor company Living Design, Outdoor contractor Living Design, Affordable outdoor Living Design, Modern outdoor Living Design, Outdoor consultation Living Design, Outdoor cost Living Design, Outdoor price Living Design, Top outdoor Living Design
+
+// SEO Keywords: Outdoor Living Design, Outdoor in Living Design, Best outdoor Living Design, Professional outdoor Living Design, Luxury outdoor Living Design, Outdoor Living Design Dubai, Outdoor designer Living Design, Outdoor company Living Design, Outdoor contractor Living Design, Affordable outdoor Living Design, Modern outdoor Living Design, Outdoor consultation Living Design, Outdoor cost Living Design, Outdoor price Living Design, Top outdoor Living Design, Outdoor near Living Design, Outdoor specialists Living Design, Outdoor experts Living Design, Outdoor solutions Living Design, Outdoor packages Living Design, Outdoor quotes Living Design, Outdoor estimates Living Design, Outdoor services near me Living Design, Cheap Outdoor Living Design, Quality Outdoor Living Design, Trusted Outdoor Living Design, Outdoor transformation Living Design, Outdoor renovation Living Design, Outdoor makeover Living Design, Best Outdoor company Living Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function OutdoorLivingDesign() {
                 At Interiara, we believe that exceptional <strong>Outdoor Living Design Sports City Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the City Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Outdoor in Living Design. 
                 We've completed 300+ successful projects across City Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Outdoor Living Design Sports City Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury outdoor living design services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Outdoor Living Design Sports City Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function OutdoorLivingDesign() {
 
               <p>
                 Interiara stands out in the crowded City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our outdoor in living design service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in outdoor near living design.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function OutdoorLivingDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

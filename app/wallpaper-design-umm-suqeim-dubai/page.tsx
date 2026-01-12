@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Wallpaper Design Umm Suqeim, Wallpaper Design in Umm Suqeim, Best wallpaper design Umm Suqeim, Professional wallpaper design Umm Suqeim, Luxury wallpaper design Umm Suqeim, Wallpaper Design Umm Suqeim Dubai, Wallpaper Design designer Umm Suqeim, Wallpaper Design company Umm Suqeim, Wallpaper Design contractor Umm Suqeim, Affordable wallpaper design Umm Suqeim, Modern wallpaper design Umm Suqeim, Wallpaper Design consultation Umm Suqeim, Wallpaper Design cost Umm Suqeim, Wallpaper Design price Umm Suqeim, Top wallpaper design Umm Suqeim
+
+// SEO Keywords: Wallpaper Design Umm Suqeim, Wallpaper Design in Umm Suqeim, Best wallpaper design Umm Suqeim, Professional wallpaper design Umm Suqeim, Luxury wallpaper design Umm Suqeim, Wallpaper Design Umm Suqeim Dubai, Wallpaper Design designer Umm Suqeim, Wallpaper Design company Umm Suqeim, Wallpaper Design contractor Umm Suqeim, Affordable wallpaper design Umm Suqeim, Modern wallpaper design Umm Suqeim, Wallpaper Design consultation Umm Suqeim, Wallpaper Design cost Umm Suqeim, Wallpaper Design price Umm Suqeim, Top wallpaper design Umm Suqeim, Wallpaper Design near Umm Suqeim, Wallpaper Design specialists Umm Suqeim, Wallpaper Design experts Umm Suqeim, Wallpaper Design solutions Umm Suqeim, Wallpaper Design packages Umm Suqeim, Wallpaper Design quotes Umm Suqeim, Wallpaper Design estimates Umm Suqeim, Wallpaper Design services near me Umm Suqeim, Cheap Wallpaper Design Umm Suqeim, Quality Wallpaper Design Umm Suqeim, Trusted Wallpaper Design Umm Suqeim, Wallpaper Design transformation Umm Suqeim, Wallpaper Design renovation Umm Suqeim, Wallpaper Design makeover Umm Suqeim, Best Wallpaper Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function WallpaperDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Umm Suqeim Company Umm Suqeim</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Wallpaper Design in Umm Suqeim. Best wallpaper design Umm Suqeim Company Umm Suqeim Our luxury wallpaper design umm suqeim services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function WallpaperDesignUmmSuqeim() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our wallpaper design in umm suqeim service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function WallpaperDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in wallpaper design near umm suqeim.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function WallpaperDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

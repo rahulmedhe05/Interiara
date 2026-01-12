@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Spa Interior Design Jbr, Spa Interior in Design Jbr, Best spa interior Design Jbr, Professional spa interior Design Jbr, Luxury spa interior Design Jbr, Spa Interior Design Jbr Dubai, Spa Interior designer Design Jbr, Spa Interior company Design Jbr, Spa Interior contractor Design Jbr, Affordable spa interior Design Jbr, Modern spa interior Design Jbr, Spa Interior consultation Design Jbr, Spa Interior cost Design Jbr, Spa Interior price Design Jbr, Top spa interior Design Jbr
+
+// SEO Keywords: Spa Interior Design Jbr, Spa Interior in Design Jbr, Best spa interior Design Jbr, Professional spa interior Design Jbr, Luxury spa interior Design Jbr, Spa Interior Design Jbr Dubai, Spa Interior designer Design Jbr, Spa Interior company Design Jbr, Spa Interior contractor Design Jbr, Affordable spa interior Design Jbr, Modern spa interior Design Jbr, Spa Interior consultation Design Jbr, Spa Interior cost Design Jbr, Spa Interior price Design Jbr, Top spa interior Design Jbr, Spa Interior near Design Jbr, Spa Interior specialists Design Jbr, Spa Interior experts Design Jbr, Spa Interior solutions Design Jbr, Spa Interior packages Design Jbr, Spa Interior quotes Design Jbr, Spa Interior estimates Design Jbr, Spa Interior services near me Design Jbr, Cheap Spa Interior Design Jbr, Quality Spa Interior Design Jbr, Trusted Spa Interior Design Jbr, Spa Interior transformation Design Jbr, Spa Interior renovation Design Jbr, Spa Interior makeover Design Jbr, Best Spa Interior company Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SpaInteriorDesignJbr() {
                 At Interiara, we believe that exceptional <strong>Spa Interior Design JBR Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the JBR Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
-                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Spa Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+              <p>Spa Interior in Design Jbr. Spa Interior Design Jbr. 
+                We've completed 300+ successful projects across JBR Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Spa Interior in Design Jbr. Spa Interior Design JBR Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+               Our luxury spa interior design jbr services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Spa Interior Design JBR Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SpaInteriorDesignJbr() {
 
               <p>
                 Interiara stands out in the crowded JBR Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our spa interior in design jbr service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in spa interior near design jbr.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SpaInteriorDesignJbr() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

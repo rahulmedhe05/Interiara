@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Renovation Palm Jumeirah, Office Renovation in Palm Jumeirah, Best office renovation Palm Jumeirah, Professional office renovation Palm Jumeirah, Luxury office renovation Palm Jumeirah, Office Renovation Palm Jumeirah Dubai, Office Renovation designer Palm Jumeirah, Office Renovation company Palm Jumeirah, Office Renovation contractor Palm Jumeirah, Affordable office renovation Palm Jumeirah, Modern office renovation Palm Jumeirah, Office Renovation consultation Palm Jumeirah, Office Renovation cost Palm Jumeirah, Office Renovation price Palm Jumeirah, Top office renovation Palm Jumeirah
+
+// SEO Keywords: Office Renovation Palm Jumeirah, Office Renovation in Palm Jumeirah, Best office renovation Palm Jumeirah, Professional office renovation Palm Jumeirah, Luxury office renovation Palm Jumeirah, Office Renovation Palm Jumeirah Dubai, Office Renovation designer Palm Jumeirah, Office Renovation company Palm Jumeirah, Office Renovation contractor Palm Jumeirah, Affordable office renovation Palm Jumeirah, Modern office renovation Palm Jumeirah, Office Renovation consultation Palm Jumeirah, Office Renovation cost Palm Jumeirah, Office Renovation price Palm Jumeirah, Top office renovation Palm Jumeirah, Office Renovation near Palm Jumeirah, Office Renovation specialists Palm Jumeirah, Office Renovation experts Palm Jumeirah, Office Renovation solutions Palm Jumeirah, Office Renovation packages Palm Jumeirah, Office Renovation quotes Palm Jumeirah, Office Renovation estimates Palm Jumeirah, Office Renovation services near me Palm Jumeirah, Cheap Office Renovation Palm Jumeirah, Quality Office Renovation Palm Jumeirah, Trusted Office Renovation Palm Jumeirah, Office Renovation transformation Palm Jumeirah, Office Renovation renovation Palm Jumeirah, Office Renovation makeover Palm Jumeirah, Best Office Renovation company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeRenovationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Renovation in Palm Jumeirah. Best office renovation Palm Jumeirah Company Palm Jumeirah Our luxury office renovation palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeRenovationPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office renovation in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeRenovationPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office renovation near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeRenovationPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Acoustic Design Palm Jumeirah, Acoustic Design in Palm Jumeirah, Best acoustic design Palm Jumeirah, Professional acoustic design Palm Jumeirah, Luxury acoustic design Palm Jumeirah, Acoustic Design Palm Jumeirah Dubai, Acoustic Design designer Palm Jumeirah, Acoustic Design company Palm Jumeirah, Acoustic Design contractor Palm Jumeirah, Affordable acoustic design Palm Jumeirah, Modern acoustic design Palm Jumeirah, Acoustic Design consultation Palm Jumeirah, Acoustic Design cost Palm Jumeirah, Acoustic Design price Palm Jumeirah, Top acoustic design Palm Jumeirah
+
+// SEO Keywords: Acoustic Design Palm Jumeirah, Acoustic Design in Palm Jumeirah, Best acoustic design Palm Jumeirah, Professional acoustic design Palm Jumeirah, Luxury acoustic design Palm Jumeirah, Acoustic Design Palm Jumeirah Dubai, Acoustic Design designer Palm Jumeirah, Acoustic Design company Palm Jumeirah, Acoustic Design contractor Palm Jumeirah, Affordable acoustic design Palm Jumeirah, Modern acoustic design Palm Jumeirah, Acoustic Design consultation Palm Jumeirah, Acoustic Design cost Palm Jumeirah, Acoustic Design price Palm Jumeirah, Top acoustic design Palm Jumeirah, Acoustic Design near Palm Jumeirah, Acoustic Design specialists Palm Jumeirah, Acoustic Design experts Palm Jumeirah, Acoustic Design solutions Palm Jumeirah, Acoustic Design packages Palm Jumeirah, Acoustic Design quotes Palm Jumeirah, Acoustic Design estimates Palm Jumeirah, Acoustic Design services near me Palm Jumeirah, Cheap Acoustic Design Palm Jumeirah, Quality Acoustic Design Palm Jumeirah, Trusted Acoustic Design Palm Jumeirah, Acoustic Design transformation Palm Jumeirah, Acoustic Design renovation Palm Jumeirah, Acoustic Design makeover Palm Jumeirah, Best Acoustic Design company Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function AcousticDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Palm Jumeirah Company Palm Jumeirah</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Acoustic Design in Palm Jumeirah. Best acoustic design Palm Jumeirah Company Palm Jumeirah Our luxury acoustic design palm jumeirah services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function AcousticDesignPalmJumeirah() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our acoustic design in palm jumeirah service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function AcousticDesignPalmJumeirah() {
 
               <p>
                 Interiara stands out in the crowded Jumeirah Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in acoustic design near palm jumeirah.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function AcousticDesignPalmJumeirah() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

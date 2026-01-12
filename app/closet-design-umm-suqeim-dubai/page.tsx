@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design Umm Suqeim, Closet Design in Umm Suqeim, Best closet design Umm Suqeim, Professional closet design Umm Suqeim, Luxury closet design Umm Suqeim, Closet Design Umm Suqeim Dubai, Closet Design designer Umm Suqeim, Closet Design company Umm Suqeim, Closet Design contractor Umm Suqeim, Affordable closet design Umm Suqeim, Modern closet design Umm Suqeim, Closet Design consultation Umm Suqeim, Closet Design cost Umm Suqeim, Closet Design price Umm Suqeim, Top closet design Umm Suqeim
+
+// SEO Keywords: Closet Design Umm Suqeim, Closet Design in Umm Suqeim, Best closet design Umm Suqeim, Professional closet design Umm Suqeim, Luxury closet design Umm Suqeim, Closet Design Umm Suqeim Dubai, Closet Design designer Umm Suqeim, Closet Design company Umm Suqeim, Closet Design contractor Umm Suqeim, Affordable closet design Umm Suqeim, Modern closet design Umm Suqeim, Closet Design consultation Umm Suqeim, Closet Design cost Umm Suqeim, Closet Design price Umm Suqeim, Top closet design Umm Suqeim, Closet Design near Umm Suqeim, Closet Design specialists Umm Suqeim, Closet Design experts Umm Suqeim, Closet Design solutions Umm Suqeim, Closet Design packages Umm Suqeim, Closet Design quotes Umm Suqeim, Closet Design estimates Umm Suqeim, Closet Design services near me Umm Suqeim, Cheap Closet Design Umm Suqeim, Quality Closet Design Umm Suqeim, Trusted Closet Design Umm Suqeim, Closet Design transformation Umm Suqeim, Closet Design renovation Umm Suqeim, Closet Design makeover Umm Suqeim, Best Closet Design company Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function ClosetDesignUmmSuqeim() {
                 At Interiara, we believe that exceptional <strong>Closet Design Umm Suqeim Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Umm Suqeim Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Closet Design in Umm Suqeim. 
                 We've completed 300+ successful projects across Umm Suqeim Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Closet Design Umm Suqeim Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury closet design umm suqeim services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Closet Design Umm Suqeim Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function ClosetDesignUmmSuqeim() {
 
               <p>
                 Interiara stands out in the crowded Umm Suqeim Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our closet design in umm suqeim service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in closet design near umm suqeim.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function ClosetDesignUmmSuqeim() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

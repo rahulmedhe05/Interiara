@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Remodeling Culture Village, Home Remodeling in Culture Village, Best home remodeling Culture Village, Professional home remodeling Culture Village, Luxury home remodeling Culture Village, Home Remodeling Culture Village Dubai, Home Remodeling designer Culture Village, Home Remodeling company Culture Village, Home Remodeling contractor Culture Village, Affordable home remodeling Culture Village, Modern home remodeling Culture Village, Home Remodeling consultation Culture Village, Home Remodeling cost Culture Village, Home Remodeling price Culture Village, Top home remodeling Culture Village
+
+// SEO Keywords: Home Remodeling Culture Village, Home Remodeling in Culture Village, Best home remodeling Culture Village, Professional home remodeling Culture Village, Luxury home remodeling Culture Village, Home Remodeling Culture Village Dubai, Home Remodeling designer Culture Village, Home Remodeling company Culture Village, Home Remodeling contractor Culture Village, Affordable home remodeling Culture Village, Modern home remodeling Culture Village, Home Remodeling consultation Culture Village, Home Remodeling cost Culture Village, Home Remodeling price Culture Village, Top home remodeling Culture Village, Home Remodeling near Culture Village, Home Remodeling specialists Culture Village, Home Remodeling experts Culture Village, Home Remodeling solutions Culture Village, Home Remodeling packages Culture Village, Home Remodeling quotes Culture Village, Home Remodeling estimates Culture Village, Home Remodeling services near me Culture Village, Cheap Home Remodeling Culture Village, Quality Home Remodeling Culture Village, Trusted Home Remodeling Culture Village, Home Remodeling transformation Culture Village, Home Remodeling renovation Culture Village, Home Remodeling makeover Culture Village, Best Home Remodeling company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeRemodelingCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Remodeling in Culture Village. Best home remodeling Culture Village Company Culture Village Our luxury home remodeling culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeRemodelingCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home remodeling in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeRemodelingCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home remodeling near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeRemodelingCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Kids Interior Design Al Safa, Kids Interior Design in Al Safa, Best kids interior design Al Safa, Professional kids interior design Al Safa, Luxury kids interior design Al Safa, Kids Interior Design Al Safa Dubai, Kids Interior Design designer Al Safa, Kids Interior Design company Al Safa, Kids Interior Design contractor Al Safa, Affordable kids interior design Al Safa, Modern kids interior design Al Safa, Kids Interior Design consultation Al Safa, Kids Interior Design cost Al Safa, Kids Interior Design price Al Safa, Top kids interior design Al Safa
+
+// SEO Keywords: Kids Interior Design Al Safa, Kids Interior Design in Al Safa, Best kids interior design Al Safa, Professional kids interior design Al Safa, Luxury kids interior design Al Safa, Kids Interior Design Al Safa Dubai, Kids Interior Design designer Al Safa, Kids Interior Design company Al Safa, Kids Interior Design contractor Al Safa, Affordable kids interior design Al Safa, Modern kids interior design Al Safa, Kids Interior Design consultation Al Safa, Kids Interior Design cost Al Safa, Kids Interior Design price Al Safa, Top kids interior design Al Safa, Kids Interior Design near Al Safa, Kids Interior Design specialists Al Safa, Kids Interior Design experts Al Safa, Kids Interior Design solutions Al Safa, Kids Interior Design packages Al Safa, Kids Interior Design quotes Al Safa, Kids Interior Design estimates Al Safa, Kids Interior Design services near me Al Safa, Cheap Kids Interior Design Al Safa, Quality Kids Interior Design Al Safa, Trusted Kids Interior Design Al Safa, Kids Interior Design transformation Al Safa, Kids Interior Design renovation Al Safa, Kids Interior Design makeover Al Safa, Best Kids Interior Design company Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function KidsInteriorDesignAlSafa() {
                 At Interiara, we believe that exceptional <strong>Kids Interior Design Al Safa Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Safa Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Kids Interior Design in Al Safa. 
                 We've completed 300+ successful projects across Al Safa Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Kids Interior Design Al Safa Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury kids interior design al safa services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Kids Interior Design Al Safa Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function KidsInteriorDesignAlSafa() {
 
               <p>
                 Interiara stands out in the crowded Al Safa Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our kids interior design in al safa service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in kids interior design near al safa.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function KidsInteriorDesignAlSafa() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

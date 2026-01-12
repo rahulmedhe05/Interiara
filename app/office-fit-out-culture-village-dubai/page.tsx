@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Office Fit Out Culture Village, Office Fit Out in Culture Village, Best office fit out Culture Village, Professional office fit out Culture Village, Luxury office fit out Culture Village, Office Fit Out Culture Village Dubai, Office Fit Out designer Culture Village, Office Fit Out company Culture Village, Office Fit Out contractor Culture Village, Affordable office fit out Culture Village, Modern office fit out Culture Village, Office Fit Out consultation Culture Village, Office Fit Out cost Culture Village, Office Fit Out price Culture Village, Top office fit out Culture Village
+
+// SEO Keywords: Office Fit Out Culture Village, Office Fit Out in Culture Village, Best office fit out Culture Village, Professional office fit out Culture Village, Luxury office fit out Culture Village, Office Fit Out Culture Village Dubai, Office Fit Out designer Culture Village, Office Fit Out company Culture Village, Office Fit Out contractor Culture Village, Affordable office fit out Culture Village, Modern office fit out Culture Village, Office Fit Out consultation Culture Village, Office Fit Out cost Culture Village, Office Fit Out price Culture Village, Top office fit out Culture Village, Office Fit Out near Culture Village, Office Fit Out specialists Culture Village, Office Fit Out experts Culture Village, Office Fit Out solutions Culture Village, Office Fit Out packages Culture Village, Office Fit Out quotes Culture Village, Office Fit Out estimates Culture Village, Office Fit Out services near me Culture Village, Cheap Office Fit Out Culture Village, Quality Office Fit Out Culture Village, Trusted Office Fit Out Culture Village, Office Fit Out transformation Culture Village, Office Fit Out renovation Culture Village, Office Fit Out makeover Culture Village, Best Office Fit Out company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function OfficeFitOutCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Office Fit Out in Culture Village. Best office fit out Culture Village Company Culture Village Our luxury office fit out culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function OfficeFitOutCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our office fit out in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function OfficeFitOutCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in office fit out near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function OfficeFitOutCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

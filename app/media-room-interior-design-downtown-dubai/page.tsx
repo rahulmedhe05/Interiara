@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Media Room Interior Design Downtown, Media Room Interior in Design Downtown, Best media room interior Design Downtown, Professional media room interior Design Downtown, Luxury media room interior Design Downtown, Media Room Interior Design Downtown Dubai, Media Room Interior designer Design Downtown, Media Room Interior company Design Downtown, Media Room Interior contractor Design Downtown, Affordable media room interior Design Downtown, Modern media room interior Design Downtown, Media Room Interior consultation Design Downtown, Media Room Interior cost Design Downtown, Media Room Interior price Design Downtown, Top media room interior Design Downtown
+
+// SEO Keywords: Media Room Interior Design Downtown, Media Room Interior in Design Downtown, Best media room interior Design Downtown, Professional media room interior Design Downtown, Luxury media room interior Design Downtown, Media Room Interior Design Downtown Dubai, Media Room Interior designer Design Downtown, Media Room Interior company Design Downtown, Media Room Interior contractor Design Downtown, Affordable media room interior Design Downtown, Modern media room interior Design Downtown, Media Room Interior consultation Design Downtown, Media Room Interior cost Design Downtown, Media Room Interior price Design Downtown, Top media room interior Design Downtown, Media Room Interior near Design Downtown, Media Room Interior specialists Design Downtown, Media Room Interior experts Design Downtown, Media Room Interior solutions Design Downtown, Media Room Interior packages Design Downtown, Media Room Interior quotes Design Downtown, Media Room Interior estimates Design Downtown, Media Room Interior services near me Design Downtown, Cheap Media Room Interior Design Downtown, Quality Media Room Interior Design Downtown, Trusted Media Room Interior Design Downtown, Media Room Interior transformation Design Downtown, Media Room Interior renovation Design Downtown, Media Room Interior makeover Design Downtown, Best Media Room Interior company Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function MediaRoomInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior Design Downtown Company Design Downtown</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Media Room Interior in Design Downtown. Best media room interior Design Downtown Company Design Downtown Our luxury media room interior design downtown services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function MediaRoomInteriorDesignDowntown() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our media room interior in design downtown service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function MediaRoomInteriorDesignDowntown() {
 
               <p>
                 Interiara stands out in the crowded Downtown Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in media room interior near design downtown.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function MediaRoomInteriorDesignDowntown() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

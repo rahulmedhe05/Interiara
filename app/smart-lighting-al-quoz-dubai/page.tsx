@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Smart Lighting Al Quoz, Smart Lighting in Al Quoz, Best smart lighting Al Quoz, Professional smart lighting Al Quoz, Luxury smart lighting Al Quoz, Smart Lighting Al Quoz Dubai, Smart Lighting designer Al Quoz, Smart Lighting company Al Quoz, Smart Lighting contractor Al Quoz, Affordable smart lighting Al Quoz, Modern smart lighting Al Quoz, Smart Lighting consultation Al Quoz, Smart Lighting cost Al Quoz, Smart Lighting price Al Quoz, Top smart lighting Al Quoz
+
+// SEO Keywords: Smart Lighting Al Quoz, Smart Lighting in Al Quoz, Best smart lighting Al Quoz, Professional smart lighting Al Quoz, Luxury smart lighting Al Quoz, Smart Lighting Al Quoz Dubai, Smart Lighting designer Al Quoz, Smart Lighting company Al Quoz, Smart Lighting contractor Al Quoz, Affordable smart lighting Al Quoz, Modern smart lighting Al Quoz, Smart Lighting consultation Al Quoz, Smart Lighting cost Al Quoz, Smart Lighting price Al Quoz, Top smart lighting Al Quoz, Smart Lighting near Al Quoz, Smart Lighting specialists Al Quoz, Smart Lighting experts Al Quoz, Smart Lighting solutions Al Quoz, Smart Lighting packages Al Quoz, Smart Lighting quotes Al Quoz, Smart Lighting estimates Al Quoz, Smart Lighting services near me Al Quoz, Cheap Smart Lighting Al Quoz, Quality Smart Lighting Al Quoz, Trusted Smart Lighting Al Quoz, Smart Lighting transformation Al Quoz, Smart Lighting renovation Al Quoz, Smart Lighting makeover Al Quoz, Best Smart Lighting company Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function SmartLightingAlQuoz() {
                 At Interiara, we believe that exceptional <strong>Smart Lighting Al Quoz Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Quoz Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Smart Lighting in Al Quoz. 
                 We've completed 300+ successful projects across Al Quoz Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Al Quoz Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury smart lighting al quoz services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Al Quoz Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function SmartLightingAlQuoz() {
 
               <p>
                 Interiara stands out in the crowded Al Quoz Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our smart lighting in al quoz service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in smart lighting near al quoz.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function SmartLightingAlQuoz() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

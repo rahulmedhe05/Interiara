@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Space Planning Business Bay, Space Planning in Business Bay, Best space planning Business Bay, Professional space planning Business Bay, Luxury space planning Business Bay, Space Planning Business Bay Dubai, Space Planning designer Business Bay, Space Planning company Business Bay, Space Planning contractor Business Bay, Affordable space planning Business Bay, Modern space planning Business Bay, Space Planning consultation Business Bay, Space Planning cost Business Bay, Space Planning price Business Bay, Top space planning Business Bay
+
+// SEO Keywords: Space Planning Business Bay, Space Planning in Business Bay, Best space planning Business Bay, Professional space planning Business Bay, Luxury space planning Business Bay, Space Planning Business Bay Dubai, Space Planning designer Business Bay, Space Planning company Business Bay, Space Planning contractor Business Bay, Affordable space planning Business Bay, Modern space planning Business Bay, Space Planning consultation Business Bay, Space Planning cost Business Bay, Space Planning price Business Bay, Top space planning Business Bay, Space Planning near Business Bay, Space Planning specialists Business Bay, Space Planning experts Business Bay, Space Planning solutions Business Bay, Space Planning packages Business Bay, Space Planning quotes Business Bay, Space Planning estimates Business Bay, Space Planning services near me Business Bay, Cheap Space Planning Business Bay, Quality Space Planning Business Bay, Trusted Space Planning Business Bay, Space Planning transformation Business Bay, Space Planning renovation Business Bay, Space Planning makeover Business Bay, Best Space Planning company Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function SpacePlanningBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Business Bay Company Business Bay</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Space Planning in Business Bay. Best space planning Business Bay Company Business Bay Our luxury space planning business bay services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function SpacePlanningBusinessBay() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our space planning in business bay service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function SpacePlanningBusinessBay() {
 
               <p>
                 Interiara stands out in the crowded Business Bay Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in space planning near business bay.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function SpacePlanningBusinessBay() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

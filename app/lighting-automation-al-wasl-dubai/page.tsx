@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Lighting Automation Al Wasl, Lighting Automation in Al Wasl, Best lighting automation Al Wasl, Professional lighting automation Al Wasl, Luxury lighting automation Al Wasl, Lighting Automation Al Wasl Dubai, Lighting Automation designer Al Wasl, Lighting Automation company Al Wasl, Lighting Automation contractor Al Wasl, Affordable lighting automation Al Wasl, Modern lighting automation Al Wasl, Lighting Automation consultation Al Wasl, Lighting Automation cost Al Wasl, Lighting Automation price Al Wasl, Top lighting automation Al Wasl
+
+// SEO Keywords: Lighting Automation Al Wasl, Lighting Automation in Al Wasl, Best lighting automation Al Wasl, Professional lighting automation Al Wasl, Luxury lighting automation Al Wasl, Lighting Automation Al Wasl Dubai, Lighting Automation designer Al Wasl, Lighting Automation company Al Wasl, Lighting Automation contractor Al Wasl, Affordable lighting automation Al Wasl, Modern lighting automation Al Wasl, Lighting Automation consultation Al Wasl, Lighting Automation cost Al Wasl, Lighting Automation price Al Wasl, Top lighting automation Al Wasl, Lighting Automation near Al Wasl, Lighting Automation specialists Al Wasl, Lighting Automation experts Al Wasl, Lighting Automation solutions Al Wasl, Lighting Automation packages Al Wasl, Lighting Automation quotes Al Wasl, Lighting Automation estimates Al Wasl, Lighting Automation services near me Al Wasl, Cheap Lighting Automation Al Wasl, Quality Lighting Automation Al Wasl, Trusted Lighting Automation Al Wasl, Lighting Automation transformation Al Wasl, Lighting Automation renovation Al Wasl, Lighting Automation makeover Al Wasl, Best Lighting Automation company Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function LightingAutomationAlWasl() {
                 At Interiara, we believe that exceptional <strong>Lighting Automation Al Wasl Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Al Wasl Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Lighting Automation in Al Wasl. 
                 We've completed 300+ successful projects across Al Wasl Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Lighting Automation Al Wasl Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury lighting automation al wasl services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Lighting Automation Al Wasl Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function LightingAutomationAlWasl() {
 
               <p>
                 Interiara stands out in the crowded Al Wasl Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our lighting automation in al wasl service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in lighting automation near al wasl.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function LightingAutomationAlWasl() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Drapes Town Square, Drapes in Town Square, Best drapes Town Square, Professional drapes Town Square, Luxury drapes Town Square, Drapes Town Square Dubai, Drapes designer Town Square, Drapes company Town Square, Drapes contractor Town Square, Affordable drapes Town Square, Modern drapes Town Square, Drapes consultation Town Square, Drapes cost Town Square, Drapes price Town Square, Top drapes Town Square
+
+// SEO Keywords: Drapes Town Square, Drapes in Town Square, Best drapes Town Square, Professional drapes Town Square, Luxury drapes Town Square, Drapes Town Square Dubai, Drapes designer Town Square, Drapes company Town Square, Drapes contractor Town Square, Affordable drapes Town Square, Modern drapes Town Square, Drapes consultation Town Square, Drapes cost Town Square, Drapes price Town Square, Top drapes Town Square, Drapes near Town Square, Drapes specialists Town Square, Drapes experts Town Square, Drapes solutions Town Square, Drapes packages Town Square, Drapes quotes Town Square, Drapes estimates Town Square, Drapes services near me Town Square, Cheap Drapes Town Square, Quality Drapes Town Square, Trusted Drapes Town Square, Drapes transformation Town Square, Drapes renovation Town Square, Drapes makeover Town Square, Best Drapes company Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -183,9 +184,9 @@ export default function DrapesTownSquare() {
                 At Interiara, we believe that exceptional <strong>Drapes Town Square Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Town Square Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
-              <p>
+              <p>Drapes in Town Square. 
                 We've completed 300+ successful projects across Town Square Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Town Square Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
-              </p>
+               Our luxury drapes town square services are designed for excellence.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Town Square Dubai Approach</h3>
               
@@ -212,11 +213,11 @@ export default function DrapesTownSquare() {
 
               <p>
                 Interiara stands out in the crowded Town Square Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Our drapes in town square service ensures quality.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
-              </p>
+               Specializing in drapes near town square.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
@@ -362,7 +363,9 @@ export default function DrapesTownSquare() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

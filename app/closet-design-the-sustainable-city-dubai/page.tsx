@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Closet Design The Sustainable City, Closet Design The in Sustainable City, Best closet design the Sustainable City, Professional closet design the Sustainable City, Luxury closet design the Sustainable City, Closet Design The Sustainable City Dubai, Closet Design The designer Sustainable City, Closet Design The company Sustainable City, Closet Design The contractor Sustainable City, Affordable closet design the Sustainable City, Modern closet design the Sustainable City, Closet Design The consultation Sustainable City, Closet Design The cost Sustainable City, Closet Design The price Sustainable City, Top closet design the Sustainable City
+
+// SEO Keywords: Closet Design The Sustainable City, Closet Design The in Sustainable City, Best closet design the Sustainable City, Professional closet design the Sustainable City, Luxury closet design the Sustainable City, Closet Design The Sustainable City Dubai, Closet Design The designer Sustainable City, Closet Design The company Sustainable City, Closet Design The contractor Sustainable City, Affordable closet design the Sustainable City, Modern closet design the Sustainable City, Closet Design The consultation Sustainable City, Closet Design The cost Sustainable City, Closet Design The price Sustainable City, Top closet design the Sustainable City, Closet Design The near Sustainable City, Closet Design The specialists Sustainable City, Closet Design The experts Sustainable City, Closet Design The solutions Sustainable City, Closet Design The packages Sustainable City, Closet Design The quotes Sustainable City, Closet Design The estimates Sustainable City, Closet Design The services near me Sustainable City, Cheap Closet Design The Sustainable City, Quality Closet Design The Sustainable City, Trusted Closet Design The Sustainable City, Closet Design The transformation Sustainable City, Closet Design The renovation Sustainable City, Closet Design The makeover Sustainable City, Best Closet Design The company Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function ClosetDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design the Sustainable City Company Sustainable City</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Closet Design The in Sustainable City. Best closet design the Sustainable City Company Sustainable City Our luxury closet design the sustainable city services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function ClosetDesignTheSustainableCity() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our closet design the in sustainable city service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function ClosetDesignTheSustainableCity() {
 
               <p>
                 Interiara stands out in the crowded The Sustainable City Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in closet design the near sustainable city.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function ClosetDesignTheSustainableCity() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

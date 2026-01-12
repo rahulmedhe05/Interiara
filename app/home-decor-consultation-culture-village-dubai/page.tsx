@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Home Decor Consultation Culture Village, Home Decor Consultation in Culture Village, Best home decor consultation Culture Village, Professional home decor consultation Culture Village, Luxury home decor consultation Culture Village, Home Decor Consultation Culture Village Dubai, Home Decor Consultation designer Culture Village, Home Decor Consultation company Culture Village, Home Decor Consultation contractor Culture Village, Affordable home decor consultation Culture Village, Modern home decor consultation Culture Village, Home Decor Consultation consultation Culture Village, Home Decor Consultation cost Culture Village, Home Decor Consultation price Culture Village, Top home decor consultation Culture Village
+
+// SEO Keywords: Home Decor Consultation Culture Village, Home Decor Consultation in Culture Village, Best home decor consultation Culture Village, Professional home decor consultation Culture Village, Luxury home decor consultation Culture Village, Home Decor Consultation Culture Village Dubai, Home Decor Consultation designer Culture Village, Home Decor Consultation company Culture Village, Home Decor Consultation contractor Culture Village, Affordable home decor consultation Culture Village, Modern home decor consultation Culture Village, Home Decor Consultation consultation Culture Village, Home Decor Consultation cost Culture Village, Home Decor Consultation price Culture Village, Top home decor consultation Culture Village, Home Decor Consultation near Culture Village, Home Decor Consultation specialists Culture Village, Home Decor Consultation experts Culture Village, Home Decor Consultation solutions Culture Village, Home Decor Consultation packages Culture Village, Home Decor Consultation quotes Culture Village, Home Decor Consultation estimates Culture Village, Home Decor Consultation services near me Culture Village, Cheap Home Decor Consultation Culture Village, Quality Home Decor Consultation Culture Village, Trusted Home Decor Consultation Culture Village, Home Decor Consultation transformation Culture Village, Home Decor Consultation renovation Culture Village, Home Decor Consultation makeover Culture Village, Best Home Decor Consultation company Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function HomeDecorConsultationCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Culture Village Company Culture Village</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Home Decor Consultation in Culture Village. Best home decor consultation Culture Village Company Culture Village Our luxury home decor consultation culture village services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function HomeDecorConsultationCultureVillage() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our home decor consultation in culture village service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function HomeDecorConsultationCultureVillage() {
 
               <p>
                 Interiara stands out in the crowded Culture Village Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in home decor consultation near culture village.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function HomeDecorConsultationCultureVillage() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }

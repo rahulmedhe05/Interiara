@@ -10,7 +10,8 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-// SEO Keywords: Event Hall Interior Design, Event Hall in Interior Design, Best event hall Interior Design, Professional event hall Interior Design, Luxury event hall Interior Design, Event Hall Interior Design Dubai, Event Hall designer Interior Design, Event Hall company Interior Design, Event Hall contractor Interior Design, Affordable event hall Interior Design, Modern event hall Interior Design, Event Hall consultation Interior Design, Event Hall cost Interior Design, Event Hall price Interior Design, Top event hall Interior Design
+
+// SEO Keywords: Event Hall Interior Design, Event Hall in Interior Design, Best event hall Interior Design, Professional event hall Interior Design, Luxury event hall Interior Design, Event Hall Interior Design Dubai, Event Hall designer Interior Design, Event Hall company Interior Design, Event Hall contractor Interior Design, Affordable event hall Interior Design, Modern event hall Interior Design, Event Hall consultation Interior Design, Event Hall cost Interior Design, Event Hall price Interior Design, Top event hall Interior Design, Event Hall near Interior Design, Event Hall specialists Interior Design, Event Hall experts Interior Design, Event Hall solutions Interior Design, Event Hall packages Interior Design, Event Hall quotes Interior Design, Event Hall estimates Interior Design, Event Hall services near me Interior Design, Cheap Event Hall Interior Design, Quality Event Hall Interior Design, Trusted Event Hall Interior Design, Event Hall transformation Interior Design, Event Hall renovation Interior Design, Event Hall makeover Interior Design, Best Event Hall company Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -80,7 +81,7 @@ export default function EventHallInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall Interior Design Company Interior Design</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Event Hall in Interior Design. Best event hall Interior Design Company Interior Design Our luxury event hall interior design services are designed for excellence.</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
@@ -191,7 +192,7 @@ export default function EventHallInteriorDesign() {
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
-              </p>
+               Our event hall in interior design service ensures quality.</p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
@@ -212,7 +213,7 @@ export default function EventHallInteriorDesign() {
 
               <p>
                 Interiara stands out in the crowded District Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
-              </p>
+               Specializing in event hall near interior design.</p>
 
               <p>
                 Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
@@ -362,7 +363,9 @@ export default function EventHallInteriorDesign() {
             </div>
           </div>
         </div>
-      </section><WhatsAppFloat />
+      </section>
+
+      <WhatsAppFloat />
     </main>
   )
 }
