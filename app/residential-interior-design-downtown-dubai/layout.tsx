@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Residential Interior Design Downtown Dubai | Premium Design Services Downtown Dubai | Interiara",
-  description: "Transform your Downtown Dubai home with our expert residential interior design services. We create beautiful, functional living spaces tailored to your lifestyle. Specializing in villas, apartments, and penthouses in the heart of Dubai.",
+  title: "Residential Interior Design Downtown Dubai | Premium Design Services | Interiara",
+  description: "Professional residential interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
   keywords: [
-    "residential interior design downtown dubai", "home design downtown dubai", "apartment interior design downtown dubai", "villa interior downtown dubai", "residential styling downtown dubai",
+    "residential-interior-design-downtown-dubai", "residential interior design downtown dubai", "residential interior design downtown dubai services", "best residential interior design downtown dubai", "professional residential interior design downtown dubai", "residential interior design downtown dubai company", "residential interior design downtown dubai specialist", "expert residential interior design downtown dubai",
   ],
   openGraph: {
     title: "Residential Interior Design Downtown Dubai | Transform Your Space | Interiara",
-    description: "Transform your Downtown Dubai home with our expert residential interior design services. We create beautiful, functional living spaces tailored to your lifestyle. Specializing in villas, apartments, and penthouses in the heart of Dubai.",
+    description: "Professional residential interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
     url: "https://interiara.com/residential-interior-design-downtown-dubai",
     type: "website",
   },

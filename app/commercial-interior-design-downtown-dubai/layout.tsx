@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Commercial Interior Design Downtown Dubai | Premium Design Services Downtown Dubai | Interiara",
-  description: "Comprehensive commercial interior design solutions for Downtown Dubai businesses. From retail spaces to corporate offices, we create stunning environments that drive customer engagement and operational efficiency.",
+  title: "Commercial Interior Design Downtown Dubai | Premium Design Services | Interiara",
+  description: "Professional commercial interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
   keywords: [
-    "commercial interior design downtown dubai", "commercial space design downtown dubai", "retail interior downtown dubai",
+    "commercial-interior-design-downtown-dubai", "commercial interior design downtown dubai", "commercial interior design downtown dubai services", "best commercial interior design downtown dubai", "professional commercial interior design downtown dubai", "commercial interior design downtown dubai company", "commercial interior design downtown dubai specialist", "expert commercial interior design downtown dubai",
   ],
   openGraph: {
     title: "Commercial Interior Design Downtown Dubai | Transform Your Space | Interiara",
-    description: "Comprehensive commercial interior design solutions for Downtown Dubai businesses. From retail spaces to corporate offices, we create stunning environments that drive customer engagement and operational efficiency.",
+    description: "Professional commercial interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
     url: "https://interiara.com/commercial-interior-design-downtown-dubai",
     type: "website",
   },

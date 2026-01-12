@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Corporate Office Interior Design Downtown Dubai | Premium Design Services Downtown Dubai | Interiara",
-  description: "Professional corporate office interior design downtown dubai services in Downtown Dubai. Transform your space with our expert design team. Contact us for a free consultation and custom design proposal.",
+  title: "Corporate Office Interior Design Downtown Dubai | Premium Design Services | Interiara",
+  description: "Professional corporate office interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
   keywords: [
-    "corporate-office-interior-design-downtown-dubai", "corporate office interior design downtown dubai", "corporate office interior design downtown dubai services", "best corporate office interior design downtown dubai", "professional corporate office interior design downtown dubai", "corporate office interior design downtown dubai company downtown dubai", "corporate office interior design downtown dubai specialist", "expert corporate office interior design downtown dubai",
+    "corporate-office-interior-design-downtown-dubai", "corporate office interior design downtown dubai", "corporate office interior design downtown dubai services", "best corporate office interior design downtown dubai", "professional corporate office interior design downtown dubai", "corporate office interior design downtown dubai company", "corporate office interior design downtown dubai specialist", "expert corporate office interior design downtown dubai",
   ],
   openGraph: {
     title: "Corporate Office Interior Design Downtown Dubai | Transform Your Space | Interiara",
-    description: "Professional corporate office interior design downtown dubai services in Downtown Dubai. Transform your space with our expert design team. Contact us for a free consultation and custom design proposal.",
+    description: "Professional corporate office interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
     url: "https://interiara.com/corporate-office-interior-design-downtown-dubai",
     type: "website",
   },

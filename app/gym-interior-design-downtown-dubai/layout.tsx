@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Gym Interior Design Downtown Dubai | Premium Design Services Downtown Dubai | Interiara",
-  description: "Professional gym interior design downtown dubai services in Downtown Dubai. Transform your space with our expert design team. Contact us for a free consultation and custom design proposal.",
+  title: "Gym Interior Design Downtown Dubai | Premium Design Services | Interiara",
+  description: "Professional gym interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
   keywords: [
-    "gym-interior-design-downtown-dubai", "gym interior design downtown dubai", "gym interior design downtown dubai services", "best gym interior design downtown dubai", "professional gym interior design downtown dubai", "gym interior design downtown dubai company downtown dubai", "gym interior design downtown dubai specialist", "expert gym interior design downtown dubai",
+    "gym-interior-design-downtown-dubai", "gym interior design downtown dubai", "gym interior design downtown dubai services", "best gym interior design downtown dubai", "professional gym interior design downtown dubai", "gym interior design downtown dubai company", "gym interior design downtown dubai specialist", "expert gym interior design downtown dubai",
   ],
   openGraph: {
     title: "Gym Interior Design Downtown Dubai | Transform Your Space | Interiara",
-    description: "Professional gym interior design downtown dubai services in Downtown Dubai. Transform your space with our expert design team. Contact us for a free consultation and custom design proposal.",
+    description: "Professional gym interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
     url: "https://interiara.com/gym-interior-design-downtown-dubai",
     type: "website",
   },

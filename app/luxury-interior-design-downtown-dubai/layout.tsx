@@ -1,14 +1,14 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Luxury Interior Design Downtown Dubai | Premium Design Services Downtown Dubai | Interiara",
-  description: "Experience luxury interior design in Downtown Dubai. Our premium design services create sophisticated, elegant spaces using the finest materials and furnishings. Perfect for discerning clients seeking excellence.",
+  title: "Luxury Interior Design Downtown Dubai | Premium Design Services | Interiara",
+  description: "Professional luxury interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
   keywords: [
-    "luxury interior design downtown dubai", "premium design downtown dubai", "high-end interior downtown dubai",
+    "luxury-interior-design-downtown-dubai", "luxury interior design downtown dubai", "luxury interior design downtown dubai services", "best luxury interior design downtown dubai", "professional luxury interior design downtown dubai", "luxury interior design downtown dubai company", "luxury interior design downtown dubai specialist", "expert luxury interior design downtown dubai",
   ],
   openGraph: {
     title: "Luxury Interior Design Downtown Dubai | Transform Your Space | Interiara",
-    description: "Experience luxury interior design in Downtown Dubai. Our premium design services create sophisticated, elegant spaces using the finest materials and furnishings. Perfect for discerning clients seeking excellence.",
+    description: "Professional luxury interior design downtown dubai services. We create stunning, functional spaces tailored to your needs. Expert design team with 15+ years of experience. Free consultation and custom design proposal.",
     url: "https://interiara.com/luxury-interior-design-downtown-dubai",
     type: "website",
   },

@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "generate:pages": "python3 scripts/comprehensive-page-generator.py",
+    "generate:keywords": "python3 scripts/expand-keywords.py"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

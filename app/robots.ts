@@ -17,7 +17,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://interiara.com/sitemap.xml',
-    host: 'https://interiara.com',
+    sitemap: 'https://interiara.ae/sitemap.xml',
+    host: 'https://interiara.ae',
   }
 }
