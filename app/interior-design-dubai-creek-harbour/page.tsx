@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior-design dubai-creek-harbour, interior-design dubai-creek-harbour dubai, best interior-design dubai-creek-harbour company dubai, luxury interior-design dubai-creek-harbour dubai, modern interior-design dubai-creek-harbour dubai
+// SEO Keywords: interior design creek dubai, interior design creek dubai dubai, best interior design creek dubai company dubai, luxury interior design creek dubai dubai, modern interior design creek dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Interior Design Dubai Creek Harbour - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Interior Design Dubai Creek Harbour - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Interior Design Dubai Creek Harbour - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Interior Design Dubai Creek Harbour - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Interior Design Dubai Creek Harbour - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Interior Design Dubai Creek Harbour - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Interior Design Dubai Creek Harbour - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Interior Design Dubai Creek Harbour - Premium interiors" },
-  { src: "/meet.jpg", alt: "Interior Design Dubai Creek Harbour - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Interior Design Dubai Creek Harbour - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Interior Design Dubai Creek Harbour - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Interior Design Dubai Creek Harbour - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Interior Design Dubai Creek Harbour - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Interior Design Dubai Creek Harbour - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Interior Design Dubai Creek Harbour - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Interior Design Dubai Creek Harbour - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Interior Design Dubai Creek Harbour - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Interior Design Dubai Creek Harbour - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Interior Design Dubai Creek Harbour - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Interior Design Dubai Creek Harbour - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Interior Design Dubai Creek Harbour - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Interior Design Dubai Creek Harbour - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Interior Design Dubai Creek Harbour - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Design Dubai Creek Harbour - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Interior Design Creek Harbour Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Interior Design Creek Harbour Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Interior Design Creek Harbour Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Interior Design Creek Harbour Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Interior Design Creek Harbour Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Interior Design Creek Harbour Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Interior Design Creek Harbour Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Harbour Dubai-with-Accouter-Design.webp", alt: "Interior Design Creek Harbour Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Interior Design Creek Harbour Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Interior Design Creek Harbour Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Interior Design Creek Harbour Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Interior Design Creek Harbour Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Harbour Dubai-2.jpg", alt: "Interior Design Creek Harbour Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Interior Design Creek Harbour Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Interior Design Creek Harbour Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Harbour Dubai.jpg", alt: "Interior Design Creek Harbour Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Interior Design Creek Harbour Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Interior Design Creek Harbour Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Interior Design Creek Harbour Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Harbour Dubai-Top-Interior-Designers.jpeg", alt: "Interior Design Creek Harbour Dubai - Design inspiration" },
+  { src: "/Harbour Dubai-Bathroom-Design-2.jpg", alt: "Interior Design Creek Harbour Dubai - Harbour Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Interior Design Creek Harbour Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Interior Design Creek Harbour Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Design Creek Harbour Dubai - Island designs" },
 ]
 
-export default function InteriorDesignDubaiCreekHarbour() {
+export default function TerraceInteriorDesignHarbour Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Design Dubai Creek Harbour services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Design Creek Harbour Dubai services in Harbour Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function InteriorDesignDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Design Dubai Creek Harbour Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Design Creek Harbour Dubai Company Harbour Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Interior Design Dubai Creek Harbour - <span className="text-primary">Transform Your Space</span>
+                Expert Interior Design Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Interior Design Dubai Creek Harbour</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Interior Design Creek Harbour Dubai</strong>? Interiara is Harbour Dubai's premier <strong>Interior Design Creek Harbour Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Interior Design Dubai Creek Harbour by Interiara"
+                    alt="Interior Design Creek Harbour Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function InteriorDesignDubaiCreekHarbour() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Interior Design Dubai Creek Harbour" />
+              <ServicePageForm serviceName="Interior Design Creek Harbour Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function InteriorDesignDubaiCreekHarbour() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Interior Design Dubai Creek Harbour by Interiara"
+                    alt="Interior Design Creek Harbour Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function InteriorDesignDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Interior Design Dubai Creek Harbour?
+              Why Choose Interiara for Interior Design Creek Harbour Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Interior Design Dubai Creek Harbour</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Interior Design Creek Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Dubai Creek Harbour, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Design Creek Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Dubai Creek Harbour Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Design Creek Harbour Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function InteriorDesignDubaiCreekHarbour() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Interior Design Dubai Creek Harbour</strong> services include:
+                Our <strong>Interior Design Creek Harbour Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function InteriorDesignDubaiCreekHarbour() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function InteriorDesignDubaiCreekHarbour() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Interior Design Dubai Creek Harbour is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Interior Design Creek Harbour Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Interior Design Dubai Creek Harbour</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Interior Design Creek Harbour Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function InteriorDesignDubaiCreekHarbour() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Interior Design Dubai Creek Harbour Services
+              Why Choose Our Interior Design Creek Harbour Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function InteriorDesignDubaiCreekHarbour() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Interior Design Dubai Creek Harbour Projects
+              Our Interior Design Creek Harbour Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

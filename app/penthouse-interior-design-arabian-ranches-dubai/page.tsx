@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse-interior-design arabian-ranches, penthouse-interior-design arabian-ranches dubai, best penthouse-interior-design arabian-ranches company dubai, luxury penthouse-interior-design arabian-ranches dubai, modern penthouse-interior-design arabian-ranches dubai
+// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -44,29 +44,29 @@ const galleryImages = [
   { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Lighting design" },
   { src: "/top-interior-designers-dubai.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Professional design" },
   { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Penthouse Interior Design Arabian Ranches Dubai - Premium interiors" },
+  { src: "/Villa-interior-design-Arabian Ranches Dubai-with-Accouter-Design.webp", alt: "Penthouse Interior Design Arabian Ranches Dubai - Premium interiors" },
   { src: "/meet.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Modern design" },
   { src: "/2b-scaled.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Custom design" },
   { src: "/DSC01457-min-scaled.webp", alt: "Penthouse Interior Design Arabian Ranches Dubai - Expert execution" },
   { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Functional design" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Arabian Ranches Dubai-2.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Functional design" },
   { src: "/Al-Barari-Kitchen.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Premium fixtures" },
   { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Space planning" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Arabian Ranches Dubai.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Space planning" },
   { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Design excellence" },
   { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Serene spaces" },
   { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Dubai design" },
+  { src: "/8-Bathroom-Inspiration-By-Arabian Ranches Dubai-Top-Interior-Designers.jpeg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Design inspiration" },
+  { src: "/Arabian Ranches Dubai-Bathroom-Design-2.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Arabian Ranches Dubai design" },
   { src: "/bathroom-1024x683.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Luxury bathroom" },
   { src: "/gf-ktchen-view2.jpg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Kitchen design" },
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Penthouse Interior Design Arabian Ranches Dubai - Island designs" },
 ]
 
-export default function PenthouseInteriorDesignArabianRanches() {
+export default function TerraceInteriorDesignArabian Ranches Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Penthouse Interior Design Arabian Ranches Dubai services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Penthouse Interior Design Arabian Ranches Dubai services in Arabian Ranches Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,12 +79,12 @@ export default function PenthouseInteriorDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Arabian Ranches Dubai Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Penthouse Interior Design Arabian Ranches Dubai</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Penthouse Interior Design Arabian Ranches Dubai</strong>? Interiara is Arabian Ranches Dubai's premier <strong>Penthouse Interior Design Arabian Ranches Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
@@ -179,11 +179,11 @@ export default function PenthouseInteriorDesignArabianRanches() {
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Penthouse Interior Design Arabian Ranches Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Penthouse Interior Design Arabian Ranches Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Arabian Ranches Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Penthouse Interior Design Arabian Ranches Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Arabian Ranches Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Penthouse Interior Design Arabian Ranches Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Penthouse Interior Design Arabian Ranches Dubai Approach</h3>
@@ -210,7 +210,7 @@ export default function PenthouseInteriorDesignArabianRanches() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Arabian Ranches Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>

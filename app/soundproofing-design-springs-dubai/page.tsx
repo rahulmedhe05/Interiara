@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing-design springs, soundproofing-design springs dubai, best soundproofing-design springs company dubai, luxury soundproofing-design springs dubai, modern soundproofing-design springs dubai
+// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Soundproofing Design Springs Dubai - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Soundproofing Design Springs Dubai - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Soundproofing Design Springs Dubai - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Soundproofing Design Springs Dubai - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Soundproofing Design Springs Dubai - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Soundproofing Design Springs Dubai - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Soundproofing Design Springs Dubai - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Soundproofing Design Springs Dubai - Premium interiors" },
-  { src: "/meet.jpg", alt: "Soundproofing Design Springs Dubai - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Soundproofing Design Springs Dubai - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Soundproofing Design Springs Dubai - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Soundproofing Design Springs Dubai - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Soundproofing Design Springs Dubai - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Soundproofing Design Springs Dubai - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Soundproofing Design Springs Dubai - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Soundproofing Design Springs Dubai - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Soundproofing Design Springs Dubai - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Soundproofing Design Springs Dubai - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Soundproofing Design Springs Dubai - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Soundproofing Design Springs Dubai - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Soundproofing Design Springs Dubai - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Soundproofing Design Springs Dubai - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Soundproofing Design Springs Dubai - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Soundproofing Design Springs Dubai - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Soundproofing Design The Springs Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Soundproofing Design The Springs Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Soundproofing Design The Springs Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Soundproofing Design The Springs Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Soundproofing Design The Springs Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Soundproofing Design The Springs Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Soundproofing Design The Springs Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-The Springs Dubai-with-Accouter-Design.webp", alt: "Soundproofing Design The Springs Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Soundproofing Design The Springs Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Soundproofing Design The Springs Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Soundproofing Design The Springs Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Soundproofing Design The Springs Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-The Springs Dubai-2.jpg", alt: "Soundproofing Design The Springs Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Soundproofing Design The Springs Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Soundproofing Design The Springs Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-The Springs Dubai.jpg", alt: "Soundproofing Design The Springs Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Soundproofing Design The Springs Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Soundproofing Design The Springs Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Soundproofing Design The Springs Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-The Springs Dubai-Top-Interior-Designers.jpeg", alt: "Soundproofing Design The Springs Dubai - Design inspiration" },
+  { src: "/The Springs Dubai-Bathroom-Design-2.jpg", alt: "Soundproofing Design The Springs Dubai - The Springs Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Soundproofing Design The Springs Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Soundproofing Design The Springs Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Soundproofing Design The Springs Dubai - Island designs" },
 ]
 
-export default function SoundproofingDesignSprings() {
+export default function TerraceInteriorDesignThe Springs Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Soundproofing Design Springs Dubai services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Soundproofing Design The Springs Dubai services in The Springs Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function SoundproofingDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Springs Dubai Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design The Springs Dubai Company The Springs Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Soundproofing Design Springs Dubai - <span className="text-primary">Transform Your Space</span>
+                Expert Soundproofing Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Soundproofing Design Springs Dubai</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Soundproofing Design The Springs Dubai</strong>? Interiara is The Springs Dubai's premier <strong>Soundproofing Design The Springs Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Soundproofing Design Springs Dubai by Interiara"
+                    alt="Soundproofing Design The Springs Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function SoundproofingDesignSprings() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Soundproofing Design Springs Dubai" />
+              <ServicePageForm serviceName="Soundproofing Design The Springs Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function SoundproofingDesignSprings() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Soundproofing Design Springs Dubai by Interiara"
+                    alt="Soundproofing Design The Springs Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function SoundproofingDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Soundproofing Design Springs Dubai?
+              Why Choose Interiara for Soundproofing Design The Springs Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Soundproofing Design Springs Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Soundproofing Design The Springs Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the The Springs Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Soundproofing Design Springs Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across The Springs Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Soundproofing Design The Springs Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Soundproofing Design Springs Dubai Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Soundproofing Design The Springs Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function SoundproofingDesignSprings() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Soundproofing Design Springs Dubai</strong> services include:
+                Our <strong>Soundproofing Design The Springs Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function SoundproofingDesignSprings() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded The Springs Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function SoundproofingDesignSprings() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Soundproofing Design Springs Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Soundproofing Design The Springs Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Soundproofing Design Springs Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Soundproofing Design The Springs Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function SoundproofingDesignSprings() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Soundproofing Design Springs Dubai Services
+              Why Choose Our Soundproofing Design The Springs Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function SoundproofingDesignSprings() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Soundproofing Design Springs Dubai Projects
+              Our Soundproofing Design The Springs Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

@@ -1,121 +1,281 @@
 "use client"
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Check, ArrowRight, MessageCircle, Phone } from "lucide-react"
-import Image from "next/image"
 import { useState } from "react"
+import Image from "next/image"
+import { Navigation } from "@/components/navigation"
+import { Footer } from "@/components/footer"
+import { WhatsAppFloat } from "@/components/whatsapp-float"
+import { ServicePageForm } from "@/components/service-page-form"
+import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
-const galleryImages = [
-  "/gallery/1.jpg", "/gallery/2.jpg", "/gallery/3.jpg", "/gallery/4.jpg", "/gallery/5.jpg", "/gallery/6.jpg",
-  "/gallery/7.jpg", "/gallery/8.jpg", "/gallery/9.jpg", "/gallery/10.jpg", "/gallery/11.jpg", "/gallery/12.jpg",
-  "/gallery/13.jpg", "/gallery/14.jpg", "/gallery/15.jpg", "/gallery/16.jpg", "/gallery/17.jpg", "/gallery/18.jpg",
-  "/gallery/19.jpg", "/gallery/20.jpg", "/gallery/21.jpg", "/gallery/22.jpg", "/gallery/23.jpg", "/gallery/24.jpg",
+// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+
+const serviceFeatures = [
+  { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
+  { icon: Palette, title: "Custom Solutions", desc: "Tailored designs matching your vision" },
+  { icon: Layout, title: "Space Optimization", desc: "Smart layouts maximizing functionality" },
+  { icon: Home, title: "Quality Materials", desc: "Premium finishes and durable solutions" },
+  { icon: Settings, title: "Project Management", desc: "Seamless execution from start to finish" },
+  { icon: Zap, title: "Timely Delivery", desc: "Efficient completion within timeline" },
 ]
 
-export default function BespokeFurnitureDesignCreekDubai() {
-  const [showAllGallery, setShowAllGallery] = useState(false)
+const processSteps = [
+  { step: "01", title: "Consultation", desc: "We understand your needs, vision, and requirements." },
+  { step: "02", title: "Design Concept", desc: "Our team creates tailored design concepts for approval." },
+  { step: "03", title: "3D Visualization", desc: "Experience your space through photorealistic renders." },
+  { step: "04", title: "Material Selection", desc: "Choose from premium materials and finishes." },
+  { step: "05", title: "Execution", desc: "Professional implementation with quality assurance." },
+  { step: "06", title: "Handover", desc: "Final inspection and delivery of your transformed space." },
+]
+
+const stats = [
+  { number: "300+", label: "Projects Completed" },
+  { number: "15+", label: "Years Experience" },
+  { number: "98%", label: "Client Satisfaction" },
+  { number: "25+", label: "Expert Designers" },
+]
+
+const galleryImages = [
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Bespoke Furniture Design Dubai Creek Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Bespoke Furniture Design Dubai Creek Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Dubai Creek Dubai-with-Accouter-Design.webp", alt: "Bespoke Furniture Design Dubai Creek Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Bespoke Furniture Design Dubai Creek Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai Creek Dubai-2.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai Creek Dubai.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Dubai Creek Dubai-Top-Interior-Designers.jpeg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Design inspiration" },
+  { src: "/Dubai Creek Dubai-Bathroom-Design-2.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Dubai Creek Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Bespoke Furniture Design Dubai Creek Dubai - Island designs" },
+]
+
+export default function TerraceInteriorDesignDubai Creek Dubai() {
+  const [showAllImages, setShowAllImages] = useState(false)
+  const whatsappNumber = "916353583148"
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Bespoke Furniture Design Dubai Creek Dubai services in Dubai Creek Dubai. Please share more details.")
+  
+  const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
   return (
-    <main>
+    <main className="min-h-screen bg-background">
+      <Navigation darkLogo hideMenu />
+      
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-12 md:py-20">
+      <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">
-              Bespoke Furniture Design Creek Dubai - Transform Your Space
-            </h1>
-            <p className="text-lg text-primary-foreground/90 mb-8">
-              Premium bespoke furniture design creek dubai solutions. Expert design team creating stunning, functional spaces with attention to detail. 300+ projects completed • 15+ years experience • 98% client satisfaction
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="secondary" className="gap-2">
-                  <MessageCircle className="w-5 h-5" />
-                  WhatsApp
-                </Button>
-              </a>
-              <a href="tel:+916353583148">
-                <Button size="lg" variant="outline" className="gap-2">
-                  <Phone className="w-5 h-5" />
-                  Call Now
-                </Button>
-              </a>
+          <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
+            <div className="lg:col-span-3 order-1 lg:order-none">
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+                Expert Bespoke Furniture Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
+              </h1>
+              <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
+                Looking for professional <strong>Bespoke Furniture Design Dubai Creek Dubai</strong>? Interiara is Dubai Creek Dubai's premier <strong>Bespoke Furniture Design Dubai Creek Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+              </p>
+              
+              <div className="relative mb-8 hidden lg:block">
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="/dubai-interior-design-luxury.jpg" 
+                    alt="Bespoke Furniture Design Dubai Creek Dubai by Interiara"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-primary text-white p-4 rounded-xl shadow-xl">
+                  <p className="text-2xl font-bold">300+</p>
+                  <p className="text-xs">Projects Completed</p>
+                </div>
+              </div>
+              
+              <div className="grid-cols-3 gap-4 hidden lg:grid">
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">15+</p>
+                  <p className="text-xs text-muted-foreground">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">98%</p>
+                  <p className="text-xs text-muted-foreground">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">25+</p>
+                  <p className="text-xs text-muted-foreground">Expert Designers</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="lg:col-span-2 order-2 lg:order-none w-full">
+              <ServicePageForm serviceName="Bespoke Furniture Design Dubai Creek Dubai" />
+            </div>
+            
+            <div className="order-3 lg:hidden w-full">
+              <div className="relative mb-8">
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="/dubai-interior-design-luxury.jpg" 
+                    alt="Bespoke Furniture Design Dubai Creek Dubai by Interiara"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-primary text-white p-4 rounded-xl shadow-xl">
+                  <p className="text-2xl font-bold">300+</p>
+                  <p className="text-xs">Projects Completed</p>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-3 gap-4">
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">15+</p>
+                  <p className="text-xs text-muted-foreground">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">98%</p>
+                  <p className="text-xs text-muted-foreground">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">25+</p>
+                  <p className="text-xs text-muted-foreground">Expert Designers</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 bg-secondary/5">
+      <section className="py-12 bg-primary">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">300+</div>
-              <p className="text-sm text-secondary-foreground">Projects Completed</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
-              <p className="text-sm text-secondary-foreground">Years Experience</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">98%</div>
-              <p className="text-sm text-secondary-foreground">Client Satisfaction</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">25+</div>
-              <p className="text-sm text-secondary-foreground">Design Experts</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {stats.map((stat, index) => (
+              <div key={index} className="text-center">
+                <p className="text-4xl md:text-5xl font-bold text-white mb-2">{stat.number}</p>
+                <p className="text-primary-foreground/80 font-mono">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Main Content Section */}
+      <section className="py-20 md:py-28">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
+              Why Choose Interiara for Bespoke Furniture Design Dubai Creek Dubai?
+            </h2>
+            
+            <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
+              <p>
+                At Interiara, we believe that exceptional <strong>Bespoke Furniture Design Dubai Creek Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Creek Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+              </p>
+
+              <p>
+                We've completed 300+ successful projects across Dubai Creek Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Bespoke Furniture Design Dubai Creek Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+              </p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Bespoke Furniture Design Dubai Creek Dubai Approach</h3>
+              
+              <p>
+                We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
+              </p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
+              
+              <p>
+                Our <strong>Bespoke Furniture Design Dubai Creek Dubai</strong> services include:
+              </p>
+
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Initial consultation and space analysis</li>
+                <li>Concept design and mood boards</li>
+                <li>3D visualization and virtual walkthroughs</li>
+                <li>Material and color selection</li>
+                <li>Project management and execution</li>
+                <li>Final handover and after-sales support</li>
+              </ul>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
+
+              <p>
+                Interiara stands out in the crowded Dubai Creek Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+              </p>
+
+              <p>
+                Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
+              </p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
+
+              <p>
+                Professional Bespoke Furniture Design Dubai Creek Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+              </p>
+
+              <p>
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Bespoke Furniture Design Dubai Creek Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Services Grid */}
-      <section className="py-12">
+      <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8">Our Bespoke Furniture Design Creek Dubai Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { icon: "✨", title: "Design Consultation", description: "Expert guidance on design concepts, materials, and aesthetic direction for your project" },
-              { icon: "🎨", title: "Concept Development", description: "Creative design concepts tailored to your vision, style preferences, and requirements" },
-              { icon: "📐", title: "Space Planning", description: "Efficient layout optimization to maximize functionality and traffic flow" },
-              { icon: "🛋️", title: "Furniture Selection", description: "Curated furniture and decor pieces that match your style and budget" },
-              { icon: "💡", title: "Lighting Design", description: "Strategic lighting solutions for ambiance, function, and energy efficiency" },
-              { icon: "🎯", title: "Project Management", description: "End-to-end project oversight ensuring timely delivery and quality results" },
-            ].map((service, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <div className="text-3xl mb-2">{service.icon}</div>
-                  <CardTitle>{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-secondary-foreground">{service.description}</p>
-                </CardContent>
-              </Card>
+          <div className="text-center mb-16">
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Why Choose Our Bespoke Furniture Design Dubai Creek Dubai Services
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Professional expertise delivered with excellence
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {serviceFeatures.map((service, index) => (
+              <div key={index} className="bg-card p-8 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all group">
+                <service.icon className="w-12 h-12 text-primary mb-6 group-hover:scale-110 transition-transform" />
+                <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
+                <p className="text-muted-foreground">{service.desc}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="py-12 bg-secondary/5">
+      <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8">Our Design Process</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { step: "01", title: "Discovery & Consultation", description: "We understand your needs, style preferences, budget, and timeline" },
-              { step: "02", title: "Concept & Design", description: "Our team creates detailed design concepts with 3D visualizations" },
-              { step: "03", title: "Planning & Approval", description: "Finalize designs, materials, and project timeline with your approval" },
-              { step: "04", title: "Procurement", description: "Source quality materials, furniture, and furnishings" },
-              { step: "05", title: "Implementation", description: "Professional execution of the design with attention to detail" },
-              { step: "06", title: "Final Touches", description: "Quality check and final styling to bring your vision to life" },
-            ].map((item, index) => (
-              <div key={index} className="flex gap-4">
-                <div className="text-2xl font-bold text-primary min-w-12">{item.step}</div>
-                <div>
-                  <h3 className="font-semibold mb-2">{item.title}</h3>
-                  <p className="text-sm text-secondary-foreground">{item.description}</p>
+          <div className="text-center mb-16">
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Process</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              How We Deliver Excellence
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              A seamless journey from concept to completion
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {processSteps.map((item, index) => (
+              <div key={index} className="relative">
+                <div className="bg-card p-8 rounded-xl border border-border h-full">
+                  <span className="text-6xl font-bold text-primary/20 absolute top-4 right-4">{item.step}</span>
+                  <h3 className="text-xl font-bold text-foreground mb-3 relative z-10">{item.title}</h3>
+                  <p className="text-muted-foreground relative z-10">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -124,52 +284,87 @@ export default function BespokeFurnitureDesignCreekDubai() {
       </section>
 
       {/* Gallery Section */}
-      <section className="py-12">
+      <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8">Our Gallery</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {galleryImages.slice(0, showAllGallery ? 24 : 6).map((img, index) => (
-              <div key={index} className="relative aspect-square bg-secondary/10 rounded-lg overflow-hidden">
-                <Image
-                  src={img}
-                  alt={`Bespoke Furniture Design Creek Dubai Design ${index + 1}`}
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-300"
+          <div className="text-center mb-16">
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Our Bespoke Furniture Design Dubai Creek Dubai Projects
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Explore our collection of beautifully designed spaces
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            {displayedImages.map((image, index) => (
+              <div key={index} className="group relative aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img 
+                  src={image.src} 
+                  alt={image.alt}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <p className="text-white font-semibold text-sm">{image.alt}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
-          {!showAllGallery && (
-            <div className="mt-6 text-center">
-              <Button onClick={() => setShowAllGallery(true)} variant="outline">
-                View All 24 Projects
-              </Button>
-            </div>
-          )}
+          
+          <div className="text-center mt-12">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => setShowAllImages(!showAllImages)}
+            >
+              {showAllImages ? (
+                <>
+                  Show Less
+                  <ChevronUp className="ml-2 w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  View More
+                  <ChevronDown className="ml-2 w-5 h-5" />
+                </>
+              )}
+            </Button>
+          </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Space?</h2>
-          <p className="text-lg mb-8 opacity-90">Get a free consultation and custom design proposal from our expert team</p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="https://wa.me/916353583148" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="secondary" className="gap-2">
-                <MessageCircle className="w-5 h-5" />
-                Message on WhatsApp
-              </Button>
-            </a>
-            <a href="tel:+916353583148">
-              <Button size="lg" variant="outline" className="gap-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-                <Phone className="w-5 h-5" />
-                Call +91 635 358 3148
-              </Button>
-            </a>
+      <section className="py-20 md:py-28 bg-primary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Ready to Transform Your Space?
+            </h2>
+            <p className="text-xl text-primary-foreground/90 mb-8">
+              Book your free consultation today. Our expert team is ready to bring your vision to life.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
+                  WhatsApp Us Now
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </a>
+              <a href="tel:+916353583148">
+                <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
+                  <Phone className="mr-2 w-5 h-5" />
+                  Call: +91 635 358 3148
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
+
+      <Footer />
+      <WhatsAppFloat />
     </main>
   )
 }

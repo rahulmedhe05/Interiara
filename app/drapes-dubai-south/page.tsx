@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai-south, drapes dubai-south dubai, best drapes dubai-south company dubai, luxury drapes dubai-south dubai, modern drapes dubai-south dubai
+// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Drapes Dubai South - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Drapes Dubai South - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Drapes Dubai South - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Drapes Dubai South - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Drapes Dubai South - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Drapes Dubai South - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Drapes Dubai South - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Drapes Dubai South - Premium interiors" },
-  { src: "/meet.jpg", alt: "Drapes Dubai South - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Drapes Dubai South - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Drapes Dubai South - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Drapes Dubai South - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Drapes Dubai South - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Drapes Dubai South - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Drapes Dubai South - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Drapes Dubai South - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Drapes Dubai South - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Drapes Dubai South - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Drapes Dubai South - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Drapes Dubai South - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Drapes Dubai South - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Drapes Dubai South - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Drapes Dubai South - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Drapes Dubai South - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Drapes South Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Drapes South Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Drapes South Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Drapes South Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Drapes South Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Drapes South Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Drapes South Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-South Dubai-with-Accouter-Design.webp", alt: "Drapes South Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Drapes South Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Drapes South Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Drapes South Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Drapes South Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-South Dubai-2.jpg", alt: "Drapes South Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Drapes South Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Drapes South Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-South Dubai.jpg", alt: "Drapes South Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Drapes South Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Drapes South Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Drapes South Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-South Dubai-Top-Interior-Designers.jpeg", alt: "Drapes South Dubai - Design inspiration" },
+  { src: "/South Dubai-Bathroom-Design-2.jpg", alt: "Drapes South Dubai - South Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Drapes South Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Drapes South Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Drapes South Dubai - Island designs" },
 ]
 
-export default function DrapesDubaiSouth() {
+export default function TerraceInteriorDesignSouth Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Drapes Dubai South services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Drapes South Dubai services in South Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function DrapesDubaiSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Dubai South Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes South Dubai Company South Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Drapes Dubai South - <span className="text-primary">Transform Your Space</span>
+                Expert Drapes South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Drapes Dubai South</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Drapes South Dubai</strong>? Interiara is South Dubai's premier <strong>Drapes South Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Drapes Dubai South by Interiara"
+                    alt="Drapes South Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function DrapesDubaiSouth() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Drapes Dubai South" />
+              <ServicePageForm serviceName="Drapes South Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function DrapesDubaiSouth() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Drapes Dubai South by Interiara"
+                    alt="Drapes South Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function DrapesDubaiSouth() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Drapes Dubai South?
+              Why Choose Interiara for Drapes South Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Drapes Dubai South</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Drapes South Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the South Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Dubai South, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across South Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes South Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Dubai South Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes South Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function DrapesDubaiSouth() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Drapes Dubai South</strong> services include:
+                Our <strong>Drapes South Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function DrapesDubaiSouth() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded South Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function DrapesDubaiSouth() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Drapes Dubai South is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Drapes South Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Drapes Dubai South</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Drapes South Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function DrapesDubaiSouth() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Drapes Dubai South Services
+              Why Choose Our Drapes South Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function DrapesDubaiSouth() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Drapes Dubai South Projects
+              Our Drapes South Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

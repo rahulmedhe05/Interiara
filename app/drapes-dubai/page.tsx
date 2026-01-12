@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Drapes Dubai - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Drapes Dubai - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Drapes Dubai - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Drapes Dubai - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Drapes Dubai - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Drapes Dubai - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Drapes Dubai - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Drapes Dubai - Premium interiors" },
-  { src: "/meet.jpg", alt: "Drapes Dubai - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Drapes Dubai - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Drapes Dubai - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Drapes Dubai - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Drapes Dubai - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Drapes Dubai - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Drapes Dubai - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Drapes Dubai - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Drapes Dubai - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Drapes Dubai - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Drapes Dubai - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Drapes Dubai - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Drapes Dubai - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Drapes Dubai - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Drapes Dubai - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Drapes Dubai - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Drapes Dubai Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Drapes Dubai Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Drapes Dubai Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Drapes Dubai Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Drapes Dubai Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Drapes Dubai Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Drapes Dubai Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Dubai Dubai-with-Accouter-Design.webp", alt: "Drapes Dubai Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Drapes Dubai Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Drapes Dubai Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Drapes Dubai Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Drapes Dubai Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai Dubai-2.jpg", alt: "Drapes Dubai Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Drapes Dubai Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Drapes Dubai Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai Dubai.jpg", alt: "Drapes Dubai Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Drapes Dubai Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Drapes Dubai Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Drapes Dubai Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Dubai Dubai-Top-Interior-Designers.jpeg", alt: "Drapes Dubai Dubai - Design inspiration" },
+  { src: "/Dubai Dubai-Bathroom-Design-2.jpg", alt: "Drapes Dubai Dubai - Dubai Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Drapes Dubai Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Drapes Dubai Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Drapes Dubai Dubai - Island designs" },
 ]
 
-export default function DrapesDubai() {
+export default function TerraceInteriorDesignDubai Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Drapes Dubai services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Drapes Dubai Dubai services in Dubai Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function DrapesDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Dubai Company Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Dubai Dubai Company Dubai Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Drapes Dubai - <span className="text-primary">Transform Your Space</span>
+                Expert Drapes Dubai Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Drapes Dubai</strong>? Interiara is Dubai's premier <strong>Drapes Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Drapes Dubai Dubai</strong>? Interiara is Dubai Dubai's premier <strong>Drapes Dubai Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Drapes Dubai by Interiara"
+                    alt="Drapes Dubai Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function DrapesDubai() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Drapes Dubai" />
+              <ServicePageForm serviceName="Drapes Dubai Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function DrapesDubai() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Drapes Dubai by Interiara"
+                    alt="Drapes Dubai Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function DrapesDubai() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Drapes Dubai?
+              Why Choose Interiara for Drapes Dubai Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Drapes Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Drapes Dubai Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Dubai Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Drapes Dubai Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Dubai Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Drapes Dubai Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function DrapesDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Drapes Dubai</strong> services include:
+                Our <strong>Drapes Dubai Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function DrapesDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Dubai Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function DrapesDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Drapes Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Drapes Dubai Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Drapes Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Drapes Dubai Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function DrapesDubai() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Drapes Dubai Services
+              Why Choose Our Drapes Dubai Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function DrapesDubai() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Drapes Dubai Projects
+              Our Drapes Dubai Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

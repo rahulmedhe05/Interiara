@@ -1,293 +1,370 @@
-'use client'
+"use client"
 
-import { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
-import { Download, LogOut, Phone, User, Home, MapPin, IndianRupee, Calendar } from 'lucide-react'
+import { useState } from "react"
+import Image from "next/image"
+import { Navigation } from "@/components/navigation"
+import { Footer } from "@/components/footer"
+import { WhatsAppFloat } from "@/components/whatsapp-float"
+import { ServicePageForm } from "@/components/service-page-form"
+import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
-const EMAIL = 'dailyleads@gmail.com'
-const PASSWORD = 'DLead@7890'
-const AUTH_KEY = 'leads_auth'
-const LEADS_KEY = 'interior_design_leads'
+// SEO Keywords: leads dubai, leads dubai dubai, best leads dubai company dubai, luxury leads dubai dubai, modern leads dubai dubai
 
-interface Lead {
-  id: string
-  fullName: string
-  phoneNumber: string
-  propertyType: string
-  budget: string
-  city: string
-  status?: string
-  submittedAt: string
-}
+const serviceFeatures = [
+  { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
+  { icon: Palette, title: "Custom Solutions", desc: "Tailored designs matching your vision" },
+  { icon: Layout, title: "Space Optimization", desc: "Smart layouts maximizing functionality" },
+  { icon: Home, title: "Quality Materials", desc: "Premium finishes and durable solutions" },
+  { icon: Settings, title: "Project Management", desc: "Seamless execution from start to finish" },
+  { icon: Zap, title: "Timely Delivery", desc: "Efficient completion within timeline" },
+]
 
-export default function LeadsPage() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState('')
-  const [leads, setLeads] = useState<Lead[]>([])
-  const [isLoading, setIsLoading] = useState(true)
+const processSteps = [
+  { step: "01", title: "Consultation", desc: "We understand your needs, vision, and requirements." },
+  { step: "02", title: "Design Concept", desc: "Our team creates tailored design concepts for approval." },
+  { step: "03", title: "3D Visualization", desc: "Experience your space through photorealistic renders." },
+  { step: "04", title: "Material Selection", desc: "Choose from premium materials and finishes." },
+  { step: "05", title: "Execution", desc: "Professional implementation with quality assurance." },
+  { step: "06", title: "Handover", desc: "Final inspection and delivery of your transformed space." },
+]
 
-  useEffect(() => {
-    // Check if already logged in
-    const auth = localStorage.getItem(AUTH_KEY)
-    if (auth === 'true') {
-      setIsLoggedIn(true)
-      loadLeads()
-    }
-    setIsLoading(false)
-  }, [])
+const stats = [
+  { number: "300+", label: "Projects Completed" },
+  { number: "15+", label: "Years Experience" },
+  { number: "98%", label: "Client Satisfaction" },
+  { number: "25+", label: "Expert Designers" },
+]
 
-  const loadLeads = () => {
-    try {
-      const stored = localStorage.getItem(LEADS_KEY)
-      if (stored) {
-        const data = JSON.parse(stored)
-        if (Array.isArray(data)) {
-          setLeads(data)
-        }
-      }
-    } catch (e) {
-      console.error('Error loading leads:', e)
-    }
-  }
+const galleryImages = [
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Leads Dubai Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Leads Dubai Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Leads Dubai Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Leads Dubai Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Leads Dubai Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Leads Dubai Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Leads Dubai Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Dubai Dubai-with-Accouter-Design.webp", alt: "Leads Dubai Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Leads Dubai Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Leads Dubai Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Leads Dubai Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Leads Dubai Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai Dubai-2.jpg", alt: "Leads Dubai Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Leads Dubai Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Leads Dubai Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai Dubai.jpg", alt: "Leads Dubai Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Leads Dubai Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Leads Dubai Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Leads Dubai Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Dubai Dubai-Top-Interior-Designers.jpeg", alt: "Leads Dubai Dubai - Design inspiration" },
+  { src: "/Dubai Dubai-Bathroom-Design-2.jpg", alt: "Leads Dubai Dubai - Dubai Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Leads Dubai Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Leads Dubai Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Leads Dubai Dubai - Island designs" },
+]
 
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault()
-    setError('')
-    
-    if (email === EMAIL && password === PASSWORD) {
-      localStorage.setItem(AUTH_KEY, 'true')
-      setIsLoggedIn(true)
-      loadLeads()
-    } else {
-      setError('Invalid email or password')
-    }
-  }
+export default function TerraceInteriorDesignDubai Dubai() {
+  const [showAllImages, setShowAllImages] = useState(false)
+  const whatsappNumber = "916353583148"
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Leads Dubai Dubai services in Dubai Dubai. Please share more details.")
+  
+  const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
-  const handleLogout = () => {
-    localStorage.removeItem(AUTH_KEY)
-    setIsLoggedIn(false)
-    setEmail('')
-    setPassword('')
-  }
-
-  const handleStatusChange = (id: string, newStatus: string) => {
-    const updated = leads.map(lead => 
-      lead.id === id ? { ...lead, status: newStatus } : lead
-    )
-    setLeads(updated)
-    localStorage.setItem(LEADS_KEY, JSON.stringify(updated))
-  }
-
-  const exportCSV = () => {
-    const headers = ['Full Name', 'Phone', 'Property Type', 'City', 'Budget', 'Status', 'Date']
-    const rows = leads.map(l => [
-      l.fullName || '',
-      l.phoneNumber || '',
-      l.propertyType || '',
-      l.city || '',
-      l.budget || '',
-      l.status || 'new',
-      new Date(l.submittedAt).toLocaleDateString()
-    ])
-    const csv = [headers, ...rows].map(r => r.map(c => `"${c}"`).join(',')).join('\n')
-    const blob = new Blob([csv], { type: 'text/csv' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = 'leads.csv'
-    a.click()
-  }
-
-  if (isLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        <p>Loading...</p>
-      </div>
-    )
-  }
-
-  // Login Form
-  if (!isLoggedIn) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 p-4">
-        <div className="bg-white rounded-xl shadow-xl p-8 w-full max-w-md">
-          <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">Admin Login</h1>
-          
-          <form onSubmit={handleLogin} className="space-y-4">
-            {error && (
-              <div className="bg-red-50 text-red-600 p-3 rounded-lg text-sm">
-                {error}
-              </div>
-            )}
-            
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Enter email"
-                required
-              />
-            </div>
-            
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Password</label>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Enter password"
-                required
-              />
-            </div>
-            
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition font-medium"
-            >
-              Sign In
-            </button>
-          </form>
-        </div>
-      </div>
-    )
-  }
-
-  // Dashboard
   return (
-    <div className="min-h-screen bg-gray-100 p-4 md:p-8">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-800">Interior Design Leads</h1>
-            <p className="text-gray-500 text-sm">Total: {leads.length} leads</p>
-          </div>
-          <div className="flex gap-2">
-            <button
-              onClick={exportCSV}
-              className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition"
-            >
-              <Download className="w-4 h-4" />
-              Export CSV
-            </button>
-            <button
-              onClick={handleLogout}
-              className="flex items-center gap-2 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition"
-            >
-              <LogOut className="w-4 h-4" />
-              Logout
-            </button>
+    <main className="min-h-screen bg-background">
+      <Navigation darkLogo hideMenu />
+      
+      {/* Hero Section */}
+      <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
+            <div className="lg:col-span-3 order-1 lg:order-none">
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Leads Dubai Dubai Company Dubai Dubai</p>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
+                Expert Leads Dubai Dubai - <span className="text-primary">Transform Your Space</span>
+              </h1>
+              <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
+                Looking for professional <strong>Leads Dubai Dubai</strong>? Interiara is Dubai Dubai's premier <strong>Leads Dubai Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+              </p>
+              
+              <div className="relative mb-8 hidden lg:block">
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="/dubai-interior-design-luxury.jpg" 
+                    alt="Leads Dubai Dubai by Interiara"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-primary text-white p-4 rounded-xl shadow-xl">
+                  <p className="text-2xl font-bold">300+</p>
+                  <p className="text-xs">Projects Completed</p>
+                </div>
+              </div>
+              
+              <div className="grid-cols-3 gap-4 hidden lg:grid">
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">15+</p>
+                  <p className="text-xs text-muted-foreground">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">98%</p>
+                  <p className="text-xs text-muted-foreground">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">25+</p>
+                  <p className="text-xs text-muted-foreground">Expert Designers</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="lg:col-span-2 order-2 lg:order-none w-full">
+              <ServicePageForm serviceName="Leads Dubai Dubai" />
+            </div>
+            
+            <div className="order-3 lg:hidden w-full">
+              <div className="relative mb-8">
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="/dubai-interior-design-luxury.jpg" 
+                    alt="Leads Dubai Dubai by Interiara"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-primary text-white p-4 rounded-xl shadow-xl">
+                  <p className="text-2xl font-bold">300+</p>
+                  <p className="text-xs">Projects Completed</p>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-3 gap-4">
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">15+</p>
+                  <p className="text-xs text-muted-foreground">Years Experience</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">98%</p>
+                  <p className="text-xs text-muted-foreground">Client Satisfaction</p>
+                </div>
+                <div className="text-center p-4 bg-card rounded-lg border border-border">
+                  <p className="text-2xl font-bold text-primary">25+</p>
+                  <p className="text-xs text-muted-foreground">Expert Designers</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <div className="bg-white p-4 rounded-xl shadow">
-            <p className="text-gray-500 text-sm">Total</p>
-            <p className="text-2xl font-bold text-gray-800">{leads.length}</p>
-          </div>
-          <div className="bg-white p-4 rounded-xl shadow">
-            <p className="text-yellow-600 text-sm">New</p>
-            <p className="text-2xl font-bold text-yellow-600">{leads.filter(l => !l.status || l.status === 'new').length}</p>
-          </div>
-          <div className="bg-white p-4 rounded-xl shadow">
-            <p className="text-green-600 text-sm">Converted</p>
-            <p className="text-2xl font-bold text-green-600">{leads.filter(l => l.status === 'converted').length}</p>
-          </div>
-          <div className="bg-white p-4 rounded-xl shadow">
-            <p className="text-red-600 text-sm">Rejected</p>
-            <p className="text-2xl font-bold text-red-600">{leads.filter(l => l.status === 'rejected').length}</p>
+      {/* Stats Section */}
+      <section className="py-12 bg-primary">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {stats.map((stat, index) => (
+              <div key={index} className="text-center">
+                <p className="text-4xl md:text-5xl font-bold text-white mb-2">{stat.number}</p>
+                <p className="text-primary-foreground/80 font-mono">{stat.label}</p>
+              </div>
+            ))}
           </div>
         </div>
+      </section>
 
-        {/* Leads Table */}
-        <div className="bg-white rounded-xl shadow overflow-hidden">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-50 border-b">
-                <tr>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">
-                    <div className="flex items-center gap-2"><User className="w-4 h-4" /> Name</div>
-                  </th>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">
-                    <div className="flex items-center gap-2"><Phone className="w-4 h-4" /> Phone</div>
-                  </th>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">
-                    <div className="flex items-center gap-2"><Home className="w-4 h-4" /> Property</div>
-                  </th>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">
-                    <div className="flex items-center gap-2"><MapPin className="w-4 h-4" /> City</div>
-                  </th>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">
-                    <div className="flex items-center gap-2"><IndianRupee className="w-4 h-4" /> Budget</div>
-                  </th>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">Status</th>
-                  <th className="text-left py-3 px-4 font-semibold text-gray-700">
-                    <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /> Date</div>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {leads.length > 0 ? (
-                  leads.map((lead) => (
-                    <tr key={lead.id} className="border-b hover:bg-gray-50">
-                      <td className="py-3 px-4 font-medium">{lead.fullName || '—'}</td>
-                      <td className="py-3 px-4">
-                        <a href={`tel:${lead.phoneNumber}`} className="text-blue-600 hover:underline">
-                          {lead.phoneNumber || '—'}
-                        </a>
-                      </td>
-                      <td className="py-3 px-4">
-                        <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs font-medium">
-                          {lead.propertyType || '—'}
-                        </span>
-                      </td>
-                      <td className="py-3 px-4">{lead.city || '—'}</td>
-                      <td className="py-3 px-4">{lead.budget || '—'}</td>
-                      <td className="py-3 px-4">
-                        <select
-                          value={lead.status || 'new'}
-                          onChange={(e) => handleStatusChange(lead.id, e.target.value)}
-                          className={`px-2 py-1 rounded text-xs font-medium border-0 cursor-pointer ${
-                            lead.status === 'converted' ? 'bg-green-100 text-green-700' :
-                            lead.status === 'rejected' ? 'bg-red-100 text-red-700' :
-                            'bg-yellow-100 text-yellow-700'
-                          }`}
-                        >
-                          <option value="new">🕐 New</option>
-                          <option value="converted">✅ Converted</option>
-                          <option value="rejected">❌ Rejected</option>
-                        </select>
-                      </td>
-                      <td className="py-3 px-4 text-gray-500 text-sm">
-                        {new Date(lead.submittedAt).toLocaleDateString('en-IN', {
-                          day: '2-digit',
-                          month: 'short',
-                          year: 'numeric'
-                        })}
-                      </td>
-                    </tr>
-                  ))
-                ) : (
-                  <tr>
-                    <td colSpan={7} className="py-12 text-center text-gray-500">
-                      <User className="w-12 h-12 mx-auto mb-2 opacity-20" />
-                      <p>No leads yet</p>
-                      <p className="text-xs">Leads will appear here when customers submit the form</p>
-                    </td>
-                  </tr>
-                )}
-              </tbody>
-            </table>
+      {/* Main Content Section */}
+      <section className="py-20 md:py-28">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
+              Why Choose Interiara for Leads Dubai Dubai?
+            </h2>
+            
+            <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
+              <p>
+                At Interiara, we believe that exceptional <strong>Leads Dubai Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+              </p>
+
+              <p>
+                We've completed 300+ successful projects across Dubai Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Leads Dubai Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+              </p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Leads Dubai Dubai Approach</h3>
+              
+              <p>
+                We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
+              </p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
+              
+              <p>
+                Our <strong>Leads Dubai Dubai</strong> services include:
+              </p>
+
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Initial consultation and space analysis</li>
+                <li>Concept design and mood boards</li>
+                <li>3D visualization and virtual walkthroughs</li>
+                <li>Material and color selection</li>
+                <li>Project management and execution</li>
+                <li>Final handover and after-sales support</li>
+              </ul>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
+
+              <p>
+                Interiara stands out in the crowded Dubai Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+              </p>
+
+              <p>
+                Our team stays updated with the latest design trends and technologies, ensuring your project incorporates modern solutions. We work with premium suppliers and skilled craftsmen to guarantee that every element meets our exacting standards.
+              </p>
+
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
+
+              <p>
+                Professional Leads Dubai Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+              </p>
+
+              <p>
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Leads Dubai Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      {/* Services Grid */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Why Choose Our Leads Dubai Dubai Services
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Professional expertise delivered with excellence
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {serviceFeatures.map((service, index) => (
+              <div key={index} className="bg-card p-8 rounded-xl border border-border hover:border-primary/50 hover:shadow-lg transition-all group">
+                <service.icon className="w-12 h-12 text-primary mb-6 group-hover:scale-110 transition-transform" />
+                <h3 className="text-xl font-bold text-foreground mb-3">{service.title}</h3>
+                <p className="text-muted-foreground">{service.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="py-20 md:py-28">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Process</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              How We Deliver Excellence
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              A seamless journey from concept to completion
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {processSteps.map((item, index) => (
+              <div key={index} className="relative">
+                <div className="bg-card p-8 rounded-xl border border-border h-full">
+                  <span className="text-6xl font-bold text-primary/20 absolute top-4 right-4">{item.step}</span>
+                  <h3 className="text-xl font-bold text-foreground mb-3 relative z-10">{item.title}</h3>
+                  <p className="text-muted-foreground relative z-10">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Our Leads Dubai Dubai Projects
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Explore our collection of beautifully designed spaces
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            {displayedImages.map((image, index) => (
+              <div key={index} className="group relative aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img 
+                  src={image.src} 
+                  alt={image.alt}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <p className="text-white font-semibold text-sm">{image.alt}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => setShowAllImages(!showAllImages)}
+            >
+              {showAllImages ? (
+                <>
+                  Show Less
+                  <ChevronUp className="ml-2 w-5 h-5" />
+                </>
+              ) : (
+                <>
+                  View More
+                  <ChevronDown className="ml-2 w-5 h-5" />
+                </>
+              )}
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 md:py-28 bg-primary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+              Ready to Transform Your Space?
+            </h2>
+            <p className="text-xl text-primary-foreground/90 mb-8">
+              Book your free consultation today. Our expert team is ready to bring your vision to life.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`} target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
+                  WhatsApp Us Now
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </a>
+              <a href="tel:+916353583148">
+                <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
+                  <Phone className="mr-2 w-5 h-5" />
+                  Call: +91 635 358 3148
+                </Button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+      <WhatsAppFloat />
+    </main>
   )
 }

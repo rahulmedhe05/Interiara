@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior-visualization dubai-harbour, interior-visualization dubai-harbour dubai, best interior-visualization dubai-harbour company dubai, luxury interior-visualization dubai-harbour dubai, modern interior-visualization dubai-harbour dubai
+// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Interior Visualization Dubai Harbour - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Interior Visualization Dubai Harbour - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Interior Visualization Dubai Harbour - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Interior Visualization Dubai Harbour - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Interior Visualization Dubai Harbour - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Interior Visualization Dubai Harbour - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Interior Visualization Dubai Harbour - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Interior Visualization Dubai Harbour - Premium interiors" },
-  { src: "/meet.jpg", alt: "Interior Visualization Dubai Harbour - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Interior Visualization Dubai Harbour - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Interior Visualization Dubai Harbour - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Interior Visualization Dubai Harbour - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Interior Visualization Dubai Harbour - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Interior Visualization Dubai Harbour - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Interior Visualization Dubai Harbour - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Interior Visualization Dubai Harbour - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Interior Visualization Dubai Harbour - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Interior Visualization Dubai Harbour - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Interior Visualization Dubai Harbour - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Interior Visualization Dubai Harbour - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Interior Visualization Dubai Harbour - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Interior Visualization Dubai Harbour - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Interior Visualization Dubai Harbour - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Visualization Dubai Harbour - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Interior Visualization Harbour Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Interior Visualization Harbour Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Interior Visualization Harbour Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Interior Visualization Harbour Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Interior Visualization Harbour Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Interior Visualization Harbour Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Interior Visualization Harbour Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Harbour Dubai-with-Accouter-Design.webp", alt: "Interior Visualization Harbour Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Interior Visualization Harbour Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Interior Visualization Harbour Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Interior Visualization Harbour Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Interior Visualization Harbour Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Harbour Dubai-2.jpg", alt: "Interior Visualization Harbour Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Interior Visualization Harbour Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Interior Visualization Harbour Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Harbour Dubai.jpg", alt: "Interior Visualization Harbour Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Interior Visualization Harbour Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Interior Visualization Harbour Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Interior Visualization Harbour Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Harbour Dubai-Top-Interior-Designers.jpeg", alt: "Interior Visualization Harbour Dubai - Design inspiration" },
+  { src: "/Harbour Dubai-Bathroom-Design-2.jpg", alt: "Interior Visualization Harbour Dubai - Harbour Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Interior Visualization Harbour Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Interior Visualization Harbour Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Interior Visualization Harbour Dubai - Island designs" },
 ]
 
-export default function InteriorVisualizationDubaiHarbour() {
+export default function TerraceInteriorDesignHarbour Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Visualization Dubai Harbour services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Interior Visualization Harbour Dubai services in Harbour Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function InteriorVisualizationDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Dubai Harbour Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Harbour Dubai Company Harbour Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Interior Visualization Dubai Harbour - <span className="text-primary">Transform Your Space</span>
+                Expert Interior Visualization Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Interior Visualization Dubai Harbour</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Interior Visualization Harbour Dubai</strong>? Interiara is Harbour Dubai's premier <strong>Interior Visualization Harbour Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Interior Visualization Dubai Harbour by Interiara"
+                    alt="Interior Visualization Harbour Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function InteriorVisualizationDubaiHarbour() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Interior Visualization Dubai Harbour" />
+              <ServicePageForm serviceName="Interior Visualization Harbour Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function InteriorVisualizationDubaiHarbour() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Interior Visualization Dubai Harbour by Interiara"
+                    alt="Interior Visualization Harbour Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function InteriorVisualizationDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Interior Visualization Dubai Harbour?
+              Why Choose Interiara for Interior Visualization Harbour Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Interior Visualization Dubai Harbour</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Interior Visualization Harbour Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Harbour Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Visualization Dubai Harbour, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Harbour Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Interior Visualization Harbour Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Visualization Dubai Harbour Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Interior Visualization Harbour Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function InteriorVisualizationDubaiHarbour() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Interior Visualization Dubai Harbour</strong> services include:
+                Our <strong>Interior Visualization Harbour Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function InteriorVisualizationDubaiHarbour() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Harbour Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function InteriorVisualizationDubaiHarbour() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Interior Visualization Dubai Harbour is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Interior Visualization Harbour Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Interior Visualization Dubai Harbour</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Interior Visualization Harbour Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function InteriorVisualizationDubaiHarbour() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Interior Visualization Dubai Harbour Services
+              Why Choose Our Interior Visualization Harbour Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function InteriorVisualizationDubaiHarbour() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Interior Visualization Dubai Harbour Projects
+              Our Interior Visualization Harbour Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

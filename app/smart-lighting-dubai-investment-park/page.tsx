@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart-lighting dubai-investment-park, smart-lighting dubai-investment-park dubai, best smart-lighting dubai-investment-park company dubai, luxury smart-lighting dubai-investment-park dubai, modern smart-lighting dubai-investment-park dubai
+// SEO Keywords: smart lighting investment dubai, smart lighting investment dubai dubai, best smart lighting investment dubai company dubai, luxury smart lighting investment dubai dubai, modern smart lighting investment dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Smart Lighting Dubai Investment Park - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Smart Lighting Dubai Investment Park - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Smart Lighting Dubai Investment Park - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Smart Lighting Dubai Investment Park - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Smart Lighting Dubai Investment Park - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Smart Lighting Dubai Investment Park - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Smart Lighting Dubai Investment Park - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Smart Lighting Dubai Investment Park - Premium interiors" },
-  { src: "/meet.jpg", alt: "Smart Lighting Dubai Investment Park - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Smart Lighting Dubai Investment Park - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Smart Lighting Dubai Investment Park - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Smart Lighting Dubai Investment Park - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Smart Lighting Dubai Investment Park - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Smart Lighting Dubai Investment Park - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Smart Lighting Dubai Investment Park - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Smart Lighting Dubai Investment Park - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Smart Lighting Dubai Investment Park - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Smart Lighting Dubai Investment Park - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Smart Lighting Dubai Investment Park - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Smart Lighting Dubai Investment Park - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Smart Lighting Dubai Investment Park - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Smart Lighting Dubai Investment Park - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Smart Lighting Dubai Investment Park - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Smart Lighting Dubai Investment Park - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Smart Lighting Investment Park Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Smart Lighting Investment Park Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Smart Lighting Investment Park Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Smart Lighting Investment Park Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Smart Lighting Investment Park Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Smart Lighting Investment Park Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Smart Lighting Investment Park Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Park Dubai-with-Accouter-Design.webp", alt: "Smart Lighting Investment Park Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Smart Lighting Investment Park Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Smart Lighting Investment Park Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Smart Lighting Investment Park Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Smart Lighting Investment Park Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Park Dubai-2.jpg", alt: "Smart Lighting Investment Park Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Smart Lighting Investment Park Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Smart Lighting Investment Park Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Park Dubai.jpg", alt: "Smart Lighting Investment Park Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Smart Lighting Investment Park Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Smart Lighting Investment Park Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Smart Lighting Investment Park Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Park Dubai-Top-Interior-Designers.jpeg", alt: "Smart Lighting Investment Park Dubai - Design inspiration" },
+  { src: "/Park Dubai-Bathroom-Design-2.jpg", alt: "Smart Lighting Investment Park Dubai - Park Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Smart Lighting Investment Park Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Smart Lighting Investment Park Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Smart Lighting Investment Park Dubai - Island designs" },
 ]
 
-export default function SmartLightingDubaiInvestmentPark() {
+export default function TerraceInteriorDesignPark Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Smart Lighting Dubai Investment Park services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Smart Lighting Investment Park Dubai services in Park Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function SmartLightingDubaiInvestmentPark() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Dubai Investment Park Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Investment Park Dubai Company Park Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Smart Lighting Dubai Investment Park - <span className="text-primary">Transform Your Space</span>
+                Expert Smart Lighting Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Smart Lighting Dubai Investment Park</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Smart Lighting Investment Park Dubai</strong>? Interiara is Park Dubai's premier <strong>Smart Lighting Investment Park Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Smart Lighting Dubai Investment Park by Interiara"
+                    alt="Smart Lighting Investment Park Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function SmartLightingDubaiInvestmentPark() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Smart Lighting Dubai Investment Park" />
+              <ServicePageForm serviceName="Smart Lighting Investment Park Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function SmartLightingDubaiInvestmentPark() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Smart Lighting Dubai Investment Park by Interiara"
+                    alt="Smart Lighting Investment Park Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function SmartLightingDubaiInvestmentPark() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Smart Lighting Dubai Investment Park?
+              Why Choose Interiara for Smart Lighting Investment Park Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Smart Lighting Dubai Investment Park</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Smart Lighting Investment Park Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Park Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Dubai Investment Park, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Park Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Smart Lighting Investment Park Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Dubai Investment Park Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Smart Lighting Investment Park Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function SmartLightingDubaiInvestmentPark() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Smart Lighting Dubai Investment Park</strong> services include:
+                Our <strong>Smart Lighting Investment Park Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function SmartLightingDubaiInvestmentPark() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Park Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function SmartLightingDubaiInvestmentPark() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Smart Lighting Dubai Investment Park is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Smart Lighting Investment Park Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Smart Lighting Dubai Investment Park</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Smart Lighting Investment Park Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function SmartLightingDubaiInvestmentPark() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Smart Lighting Dubai Investment Park Services
+              Why Choose Our Smart Lighting Investment Park Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function SmartLightingDubaiInvestmentPark() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Smart Lighting Dubai Investment Park Projects
+              Our Smart Lighting Investment Park Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

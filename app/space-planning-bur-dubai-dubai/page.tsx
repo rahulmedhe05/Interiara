@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning bur-dubai, space planning bur-dubai dubai, best space planning bur-dubai company dubai, luxury space planning bur-dubai dubai, modern space planning bur-dubai dubai
+// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Space Planning Bur Dubai Dubai - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Space Planning Bur Dubai Dubai - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Space Planning Bur Dubai Dubai - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Space Planning Bur Dubai Dubai - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Space Planning Bur Dubai Dubai - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Space Planning Bur Dubai Dubai - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Space Planning Bur Dubai Dubai - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Space Planning Bur Dubai Dubai - Premium interiors" },
-  { src: "/meet.jpg", alt: "Space Planning Bur Dubai Dubai - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Space Planning Bur Dubai Dubai - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Space Planning Bur Dubai Dubai - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Space Planning Bur Dubai Dubai - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Space Planning Bur Dubai Dubai - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Space Planning Bur Dubai Dubai - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Space Planning Bur Dubai Dubai - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Space Planning Bur Dubai Dubai - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Space Planning Bur Dubai Dubai - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Space Planning Bur Dubai Dubai - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Space Planning Bur Dubai Dubai - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Space Planning Bur Dubai Dubai - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Space Planning Bur Dubai Dubai - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Space Planning Bur Dubai Dubai - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Space Planning Bur Dubai Dubai - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Space Planning Bur Dubai Dubai - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Space Planning Bur Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Space Planning Bur Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Space Planning Bur Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Space Planning Bur Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Space Planning Bur Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Space Planning Bur Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Space Planning Bur Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Bur Dubai-with-Accouter-Design.webp", alt: "Space Planning Bur Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Space Planning Bur Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Space Planning Bur Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Space Planning Bur Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Space Planning Bur Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Bur Dubai-2.jpg", alt: "Space Planning Bur Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Space Planning Bur Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Space Planning Bur Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Bur Dubai.jpg", alt: "Space Planning Bur Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Space Planning Bur Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Space Planning Bur Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Space Planning Bur Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Bur Dubai-Top-Interior-Designers.jpeg", alt: "Space Planning Bur Dubai - Design inspiration" },
+  { src: "/Bur Dubai-Bathroom-Design-2.jpg", alt: "Space Planning Bur Dubai - Bur Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Space Planning Bur Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Space Planning Bur Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Space Planning Bur Dubai - Island designs" },
 ]
 
-export default function SpacePlanningBurDubai() {
+export default function TerraceInteriorDesignBur Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Space Planning Bur Dubai Dubai services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Space Planning Bur Dubai services in Bur Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function SpacePlanningBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Bur Dubai Dubai Company Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Space Planning Bur Dubai Dubai - <span className="text-primary">Transform Your Space</span>
+                Expert Space Planning Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Space Planning Bur Dubai Dubai</strong>? Interiara is Dubai's premier <strong>Space Planning Bur Dubai Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Space Planning Bur Dubai</strong>? Interiara is Bur Dubai's premier <strong>Space Planning Bur Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Space Planning Bur Dubai Dubai by Interiara"
+                    alt="Space Planning Bur Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function SpacePlanningBurDubai() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Space Planning Bur Dubai Dubai" />
+              <ServicePageForm serviceName="Space Planning Bur Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function SpacePlanningBurDubai() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Space Planning Bur Dubai Dubai by Interiara"
+                    alt="Space Planning Bur Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function SpacePlanningBurDubai() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Space Planning Bur Dubai Dubai?
+              Why Choose Interiara for Space Planning Bur Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Space Planning Bur Dubai Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Space Planning Bur Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Bur Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Bur Dubai Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Bur Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Space Planning Bur Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Bur Dubai Dubai Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Space Planning Bur Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function SpacePlanningBurDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Space Planning Bur Dubai Dubai</strong> services include:
+                Our <strong>Space Planning Bur Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function SpacePlanningBurDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Bur Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function SpacePlanningBurDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Space Planning Bur Dubai Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Space Planning Bur Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Space Planning Bur Dubai Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Space Planning Bur Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function SpacePlanningBurDubai() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Space Planning Bur Dubai Dubai Services
+              Why Choose Our Space Planning Bur Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function SpacePlanningBurDubai() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Space Planning Bur Dubai Dubai Projects
+              Our Space Planning Bur Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

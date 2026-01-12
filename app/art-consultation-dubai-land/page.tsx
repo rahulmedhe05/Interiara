@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art-consultation dubai-land, art-consultation dubai-land dubai, best art-consultation dubai-land company dubai, luxury art-consultation dubai-land dubai, modern art-consultation dubai-land dubai
+// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Art Consultation Dubai Land - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Art Consultation Dubai Land - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Art Consultation Dubai Land - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Art Consultation Dubai Land - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Art Consultation Dubai Land - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Art Consultation Dubai Land - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Art Consultation Dubai Land - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Art Consultation Dubai Land - Premium interiors" },
-  { src: "/meet.jpg", alt: "Art Consultation Dubai Land - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Art Consultation Dubai Land - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Art Consultation Dubai Land - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Art Consultation Dubai Land - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Art Consultation Dubai Land - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Art Consultation Dubai Land - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Art Consultation Dubai Land - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Art Consultation Dubai Land - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Art Consultation Dubai Land - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Art Consultation Dubai Land - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Art Consultation Dubai Land - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Art Consultation Dubai Land - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Art Consultation Dubai Land - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Art Consultation Dubai Land - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Art Consultation Dubai Land - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Art Consultation Dubai Land - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Art Consultation Land Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Art Consultation Land Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Art Consultation Land Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Art Consultation Land Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Art Consultation Land Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Art Consultation Land Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Art Consultation Land Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Land Dubai-with-Accouter-Design.webp", alt: "Art Consultation Land Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Art Consultation Land Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Art Consultation Land Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Art Consultation Land Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Art Consultation Land Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Land Dubai-2.jpg", alt: "Art Consultation Land Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Art Consultation Land Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Art Consultation Land Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Land Dubai.jpg", alt: "Art Consultation Land Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Art Consultation Land Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Art Consultation Land Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Art Consultation Land Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Land Dubai-Top-Interior-Designers.jpeg", alt: "Art Consultation Land Dubai - Design inspiration" },
+  { src: "/Land Dubai-Bathroom-Design-2.jpg", alt: "Art Consultation Land Dubai - Land Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Art Consultation Land Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Art Consultation Land Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Art Consultation Land Dubai - Island designs" },
 ]
 
-export default function ArtConsultationDubaiLand() {
+export default function TerraceInteriorDesignLand Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Art Consultation Dubai Land services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Art Consultation Land Dubai services in Land Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function ArtConsultationDubaiLand() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Dubai Land Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Land Dubai Company Land Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Art Consultation Dubai Land - <span className="text-primary">Transform Your Space</span>
+                Expert Art Consultation Land Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Art Consultation Dubai Land</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Art Consultation Land Dubai</strong>? Interiara is Land Dubai's premier <strong>Art Consultation Land Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Art Consultation Dubai Land by Interiara"
+                    alt="Art Consultation Land Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function ArtConsultationDubaiLand() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Art Consultation Dubai Land" />
+              <ServicePageForm serviceName="Art Consultation Land Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function ArtConsultationDubaiLand() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Art Consultation Dubai Land by Interiara"
+                    alt="Art Consultation Land Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function ArtConsultationDubaiLand() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Art Consultation Dubai Land?
+              Why Choose Interiara for Art Consultation Land Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Art Consultation Dubai Land</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Art Consultation Land Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Land Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Dubai Land, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Land Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Art Consultation Land Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Dubai Land Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Art Consultation Land Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function ArtConsultationDubaiLand() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Art Consultation Dubai Land</strong> services include:
+                Our <strong>Art Consultation Land Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function ArtConsultationDubaiLand() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Land Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function ArtConsultationDubaiLand() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Art Consultation Dubai Land is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Art Consultation Land Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Art Consultation Dubai Land</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Art Consultation Land Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function ArtConsultationDubaiLand() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Art Consultation Dubai Land Services
+              Why Choose Our Art Consultation Land Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function ArtConsultationDubaiLand() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Art Consultation Dubai Land Projects
+              Our Art Consultation Land Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

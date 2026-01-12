@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: color-theme-consultation dubai-marina-heights, color-theme-consultation dubai-marina-heights dubai, best color-theme-consultation dubai-marina-heights company dubai, luxury color-theme-consultation dubai-marina-heights dubai, modern color-theme-consultation dubai-marina-heights dubai
+// SEO Keywords: color theme consultation marina dubai, color theme consultation marina dubai dubai, best color theme consultation marina dubai company dubai, luxury color theme consultation marina dubai dubai, modern color theme consultation marina dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Color Theme Consultation Dubai Marina Heights - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Color Theme Consultation Dubai Marina Heights - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Color Theme Consultation Dubai Marina Heights - Premium interiors" },
-  { src: "/meet.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Color Theme Consultation Dubai Marina Heights - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Color Theme Consultation Dubai Marina Heights - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Color Theme Consultation Dubai Marina Heights - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Color Theme Consultation Dubai Marina Heights - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Color Theme Consultation Marina Heights Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Color Theme Consultation Marina Heights Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Heights Dubai-with-Accouter-Design.webp", alt: "Color Theme Consultation Marina Heights Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Color Theme Consultation Marina Heights Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Heights Dubai-2.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Heights Dubai.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Heights Dubai-Top-Interior-Designers.jpeg", alt: "Color Theme Consultation Marina Heights Dubai - Design inspiration" },
+  { src: "/Heights Dubai-Bathroom-Design-2.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Heights Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Color Theme Consultation Marina Heights Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Color Theme Consultation Marina Heights Dubai - Island designs" },
 ]
 
-export default function ColorThemeConsultationDubaiMarinaHeights() {
+export default function TerraceInteriorDesignHeights Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Color Theme Consultation Dubai Marina Heights services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Color Theme Consultation Marina Heights Dubai services in Heights Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation Dubai Marina Heights Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation Marina Heights Dubai Company Heights Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Color Theme Consultation Dubai Marina Heights - <span className="text-primary">Transform Your Space</span>
+                Expert Color Theme Consultation Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Color Theme Consultation Dubai Marina Heights</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Color Theme Consultation Marina Heights Dubai</strong>? Interiara is Heights Dubai's premier <strong>Color Theme Consultation Marina Heights Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Color Theme Consultation Dubai Marina Heights by Interiara"
+                    alt="Color Theme Consultation Marina Heights Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Color Theme Consultation Dubai Marina Heights" />
+              <ServicePageForm serviceName="Color Theme Consultation Marina Heights Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Color Theme Consultation Dubai Marina Heights by Interiara"
+                    alt="Color Theme Consultation Marina Heights Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Color Theme Consultation Dubai Marina Heights?
+              Why Choose Interiara for Color Theme Consultation Marina Heights Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Color Theme Consultation Dubai Marina Heights</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Color Theme Consultation Marina Heights Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Heights Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Color Theme Consultation Dubai Marina Heights, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Heights Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Color Theme Consultation Marina Heights Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Color Theme Consultation Dubai Marina Heights Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Color Theme Consultation Marina Heights Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Color Theme Consultation Dubai Marina Heights</strong> services include:
+                Our <strong>Color Theme Consultation Marina Heights Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Heights Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Color Theme Consultation Dubai Marina Heights is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Color Theme Consultation Marina Heights Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Color Theme Consultation Dubai Marina Heights</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Color Theme Consultation Marina Heights Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Color Theme Consultation Dubai Marina Heights Services
+              Why Choose Our Color Theme Consultation Marina Heights Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function ColorThemeConsultationDubaiMarinaHeights() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Color Theme Consultation Dubai Marina Heights Projects
+              Our Color Theme Consultation Marina Heights Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

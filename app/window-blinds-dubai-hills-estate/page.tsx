@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window-blinds dubai-hills-estate, window-blinds dubai-hills-estate dubai, best window-blinds dubai-hills-estate company dubai, luxury window-blinds dubai-hills-estate dubai, modern window-blinds dubai-hills-estate dubai
+// SEO Keywords: window blinds hills dubai, window blinds hills dubai dubai, best window blinds hills dubai company dubai, luxury window blinds hills dubai dubai, modern window blinds hills dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -37,36 +37,36 @@ const stats = [
 ]
 
 const galleryImages = [
-  { src: "/dubai-interior-design-luxury.jpg", alt: "Window Blinds Dubai Hills Estate - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Window Blinds Dubai Hills Estate - Modern space" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "Window Blinds Dubai Hills Estate - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Window Blinds Dubai Hills Estate - Elegant interior" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Window Blinds Dubai Hills Estate - Lighting design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Window Blinds Dubai Hills Estate - Professional design" },
-  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Window Blinds Dubai Hills Estate - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Window Blinds Dubai Hills Estate - Premium interiors" },
-  { src: "/meet.jpg", alt: "Window Blinds Dubai Hills Estate - Modern design" },
-  { src: "/2b-scaled.jpg", alt: "Window Blinds Dubai Hills Estate - Custom design" },
-  { src: "/DSC01457-min-scaled.webp", alt: "Window Blinds Dubai Hills Estate - Expert execution" },
-  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Window Blinds Dubai Hills Estate - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Window Blinds Dubai Hills Estate - Functional design" },
-  { src: "/Al-Barari-Kitchen.jpg", alt: "Window Blinds Dubai Hills Estate - Premium fixtures" },
-  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Window Blinds Dubai Hills Estate - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Window Blinds Dubai Hills Estate - Space planning" },
-  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Window Blinds Dubai Hills Estate - Design excellence" },
-  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Window Blinds Dubai Hills Estate - Serene spaces" },
-  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Window Blinds Dubai Hills Estate - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Window Blinds Dubai Hills Estate - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Window Blinds Dubai Hills Estate - Dubai design" },
-  { src: "/bathroom-1024x683.jpg", alt: "Window Blinds Dubai Hills Estate - Luxury bathroom" },
-  { src: "/gf-ktchen-view2.jpg", alt: "Window Blinds Dubai Hills Estate - Kitchen design" },
-  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Window Blinds Dubai Hills Estate - Island designs" },
+  { src: "/dubai-interior-design-luxury.jpg", alt: "Window Blinds Hills Estate Dubai - Luxury design" },
+  { src: "/Reception-9.jpg", alt: "Window Blinds Hills Estate Dubai - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Window Blinds Hills Estate Dubai - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Window Blinds Hills Estate Dubai - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Window Blinds Hills Estate Dubai - Lighting design" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Window Blinds Hills Estate Dubai - Professional design" },
+  { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Window Blinds Hills Estate Dubai - Luxury spaces" },
+  { src: "/Villa-interior-design-Estate Dubai-with-Accouter-Design.webp", alt: "Window Blinds Hills Estate Dubai - Premium interiors" },
+  { src: "/meet.jpg", alt: "Window Blinds Hills Estate Dubai - Modern design" },
+  { src: "/2b-scaled.jpg", alt: "Window Blinds Hills Estate Dubai - Custom design" },
+  { src: "/DSC01457-min-scaled.webp", alt: "Window Blinds Hills Estate Dubai - Expert execution" },
+  { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Window Blinds Hills Estate Dubai - Quality finishes" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Estate Dubai-2.jpg", alt: "Window Blinds Hills Estate Dubai - Functional design" },
+  { src: "/Al-Barari-Kitchen.jpg", alt: "Window Blinds Hills Estate Dubai - Premium fixtures" },
+  { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Window Blinds Hills Estate Dubai - Aesthetic design" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Estate Dubai.jpg", alt: "Window Blinds Hills Estate Dubai - Space planning" },
+  { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Window Blinds Hills Estate Dubai - Design excellence" },
+  { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Window Blinds Hills Estate Dubai - Serene spaces" },
+  { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Window Blinds Hills Estate Dubai - Unique projects" },
+  { src: "/8-Bathroom-Inspiration-By-Estate Dubai-Top-Interior-Designers.jpeg", alt: "Window Blinds Hills Estate Dubai - Design inspiration" },
+  { src: "/Estate Dubai-Bathroom-Design-2.jpg", alt: "Window Blinds Hills Estate Dubai - Estate Dubai design" },
+  { src: "/bathroom-1024x683.jpg", alt: "Window Blinds Hills Estate Dubai - Luxury bathroom" },
+  { src: "/gf-ktchen-view2.jpg", alt: "Window Blinds Hills Estate Dubai - Kitchen design" },
+  { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Window Blinds Hills Estate Dubai - Island designs" },
 ]
 
-export default function WindowBlindsDubaiHillsEstate() {
+export default function TerraceInteriorDesignEstate Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Window Blinds Dubai Hills Estate services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Window Blinds Hills Estate Dubai services in Estate Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,19 +79,19 @@ export default function WindowBlindsDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Dubai Hills Estate Company</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Hills Estate Dubai Company Estate Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
-                Expert Window Blinds Dubai Hills Estate - <span className="text-primary">Transform Your Space</span>
+                Expert Window Blinds Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Window Blinds Dubai Hills Estate</strong>? Interiara is Dubai's premier <strong>Space Planning Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Window Blinds Hills Estate Dubai</strong>? Interiara is Estate Dubai's premier <strong>Window Blinds Hills Estate Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Window Blinds Dubai Hills Estate by Interiara"
+                    alt="Window Blinds Hills Estate Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -118,7 +118,7 @@ export default function WindowBlindsDubaiHillsEstate() {
             </div>
             
             <div className="lg:col-span-2 order-2 lg:order-none w-full">
-              <ServicePageForm serviceName="Window Blinds Dubai Hills Estate" />
+              <ServicePageForm serviceName="Window Blinds Hills Estate Dubai" />
             </div>
             
             <div className="order-3 lg:hidden w-full">
@@ -126,7 +126,7 @@ export default function WindowBlindsDubaiHillsEstate() {
                 <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src="/dubai-interior-design-luxury.jpg" 
-                    alt="Window Blinds Dubai Hills Estate by Interiara"
+                    alt="Window Blinds Hills Estate Dubai by Interiara"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -174,19 +174,19 @@ export default function WindowBlindsDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 text-center">
-              Why Choose Interiara for Window Blinds Dubai Hills Estate?
+              Why Choose Interiara for Window Blinds Hills Estate Dubai?
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Window Blinds Dubai Hills Estate</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Window Blinds Hills Estate Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Estate Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds Dubai Hills Estate, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Estate Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Window Blinds Hills Estate Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
-              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds Dubai Hills Estate Approach</h3>
+              <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Window Blinds Hills Estate Dubai Approach</h3>
               
               <p>
                 We follow a proven design process that ensures your project is completed on time, within budget, and to your complete satisfaction. Our process begins with understanding your vision, lifestyle, and specific requirements.
@@ -195,7 +195,7 @@ export default function WindowBlindsDubaiHillsEstate() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Comprehensive Services</h3>
               
               <p>
-                Our <strong>Window Blinds Dubai Hills Estate</strong> services include:
+                Our <strong>Window Blinds Hills Estate Dubai</strong> services include:
               </p>
 
               <ul className="list-disc pl-6 space-y-2">
@@ -210,7 +210,7 @@ export default function WindowBlindsDubaiHillsEstate() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Estate Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
@@ -220,11 +220,11 @@ export default function WindowBlindsDubaiHillsEstate() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Investment in Your Space</h3>
 
               <p>
-                Professional Window Blinds Dubai Hills Estate is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
+                Professional Window Blinds Hills Estate Dubai is an investment in your property's value and your quality of life. Well-designed spaces command higher property values, improve functionality, and create lasting impressions on clients and visitors.
               </p>
 
               <p>
-                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Window Blinds Dubai Hills Estate</strong>. Contact us today for a free consultation and let's transform your space together.
+                Whether you're renovating your home, opening a new business, or refreshing your existing space, Interiara is your trusted partner for exceptional <strong>Window Blinds Hills Estate Dubai</strong>. Contact us today for a free consultation and let's transform your space together.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function WindowBlindsDubaiHillsEstate() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Expertise</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why Choose Our Window Blinds Dubai Hills Estate Services
+              Why Choose Our Window Blinds Hills Estate Dubai Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Professional expertise delivered with excellence
@@ -289,7 +289,7 @@ export default function WindowBlindsDubaiHillsEstate() {
           <div className="text-center mb-16">
             <p className="text-accent font-mono uppercase tracking-wider mb-4">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Our Window Blinds Dubai Hills Estate Projects
+              Our Window Blinds Hills Estate Dubai Projects
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Explore our collection of beautifully designed spaces

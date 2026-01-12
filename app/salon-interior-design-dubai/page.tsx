@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: salon interior design dubai, salon design dubai, salon fit out dubai, salon renovation dubai, modern salon design dubai
+// SEO Keywords: salon interior dubai, salon interior dubai dubai, best salon interior dubai company dubai, luxury salon interior dubai dubai, modern salon interior dubai dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -44,29 +44,29 @@ const galleryImages = [
   { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Salon Interior Design Dubai - Lighting design" },
   { src: "/top-interior-designers-dubai.jpg", alt: "Salon Interior Design Dubai - Professional design" },
   { src: "/dubai-luxury-interior-design-585x734.jpg", alt: "Salon Interior Design Dubai - Luxury spaces" },
-  { src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", alt: "Salon Interior Design Dubai - Premium interiors" },
+  { src: "/Villa-interior-design-Design Dubai-with-Accouter-Design.webp", alt: "Salon Interior Design Dubai - Premium interiors" },
   { src: "/meet.jpg", alt: "Salon Interior Design Dubai - Modern design" },
   { src: "/2b-scaled.jpg", alt: "Salon Interior Design Dubai - Custom design" },
   { src: "/DSC01457-min-scaled.webp", alt: "Salon Interior Design Dubai - Expert execution" },
   { src: "/98488683052973.5d304d1b15e83.jpg", alt: "Salon Interior Design Dubai - Quality finishes" },
-  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", alt: "Salon Interior Design Dubai - Functional design" },
+  { src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Design Dubai-2.jpg", alt: "Salon Interior Design Dubai - Functional design" },
   { src: "/Al-Barari-Kitchen.jpg", alt: "Salon Interior Design Dubai - Premium fixtures" },
   { src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", alt: "Salon Interior Design Dubai - Aesthetic design" },
-  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", alt: "Salon Interior Design Dubai - Space planning" },
+  { src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Design Dubai.jpg", alt: "Salon Interior Design Dubai - Space planning" },
   { src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", alt: "Salon Interior Design Dubai - Design excellence" },
   { src: "/Zen_PalmD1_07b-scaled-1.jpg", alt: "Salon Interior Design Dubai - Serene spaces" },
   { src: "/1-Unique-Bathroom-Projects.jpg", alt: "Salon Interior Design Dubai - Unique projects" },
-  { src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", alt: "Salon Interior Design Dubai - Design inspiration" },
-  { src: "/Dubai-Bathroom-Design-2.jpg", alt: "Salon Interior Design Dubai - Dubai design" },
+  { src: "/8-Bathroom-Inspiration-By-Design Dubai-Top-Interior-Designers.jpeg", alt: "Salon Interior Design Dubai - Design inspiration" },
+  { src: "/Design Dubai-Bathroom-Design-2.jpg", alt: "Salon Interior Design Dubai - Design Dubai design" },
   { src: "/bathroom-1024x683.jpg", alt: "Salon Interior Design Dubai - Luxury bathroom" },
   { src: "/gf-ktchen-view2.jpg", alt: "Salon Interior Design Dubai - Kitchen design" },
   { src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", alt: "Salon Interior Design Dubai - Island designs" },
 ]
 
-export default function SalonInteriorDesignDubai() {
+export default function TerraceInteriorDesignDesign Dubai() {
   const [showAllImages, setShowAllImages] = useState(false)
   const whatsappNumber = "916353583148"
-  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Salon Interior Design Dubai services in Dubai. Please share more details.")
+  const whatsappMessage = encodeURIComponent("Hi Interiara! I'm interested in Salon Interior Design Dubai services in Design Dubai. Please share more details.")
   
   const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
 
@@ -79,12 +79,12 @@ export default function SalonInteriorDesignDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design Dubai Company Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design Dubai Company Design Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-6 lg:mb-8 leading-relaxed">
-                Looking for professional <strong>Salon Interior Design Dubai</strong>? Interiara is Dubai's premier <strong>Salon Interior Design Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
+                Looking for professional <strong>Salon Interior Design Dubai</strong>? Interiara is Design Dubai's premier <strong>Salon Interior Design Dubai company</strong>, specializing in creating beautiful, functional spaces. With 300+ projects completed and 15+ years of experience, we deliver exceptional results tailored to your needs.
               </p>
               
               <div className="relative mb-8 hidden lg:block">
@@ -179,11 +179,11 @@ export default function SalonInteriorDesignDubai() {
             
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
               <p>
-                At Interiara, we believe that exceptional <strong>Salon Interior Design Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
+                At Interiara, we believe that exceptional <strong>Salon Interior Design Dubai</strong> creates spaces that inspire and delight. With over 15 years of experience in the Design Dubai design industry, our team of 25+ expert designers understands the nuances of creating beautiful, functional spaces that exceed expectations.
               </p>
 
               <p>
-                We've completed 300+ successful projects across Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Salon Interior Design Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
+                We've completed 300+ successful projects across Design Dubai and the UAE, ranging from residential to commercial spaces. Our portfolio showcases our versatility in Salon Interior Design Dubai, from contemporary minimalist designs to luxurious traditional aesthetics. Whether you're looking for budget-friendly solutions or premium luxury finishes, Interiara delivers excellence at every level.
               </p>
 
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Our Salon Interior Design Dubai Approach</h3>
@@ -210,7 +210,7 @@ export default function SalonInteriorDesignDubai() {
               <h3 className="text-2xl font-bold text-foreground mt-12 mb-4">Why We're Different</h3>
 
               <p>
-                Interiara stands out in the crowded Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
+                Interiara stands out in the crowded Design Dubai design market through our commitment to quality, innovation, and client satisfaction. We don't just create beautiful spaces—we create experiences that enhance your daily life or business operations.
               </p>
 
               <p>
