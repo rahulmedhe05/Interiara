@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import keywordsData from '@/keywords-all-pages.json'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://interiara.ae'
+  const baseUrl = 'https://interiara.com'
   const currentDate = new Date()
   const entries: MetadataRoute.Sitemap = []
 
