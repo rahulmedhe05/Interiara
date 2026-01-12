@@ -78,10 +78,10 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0" />
                 <a
-                  href="mailto:hello@interiara.com"
+                  href="mailto:info@interiara.com"
                   className="text-primary-foreground/80 hover:text-accent transition-colors font-mono"
                 >
-                  hello@interiara.com
+                  info@interiara.com
                 </a>
               </div>
             </div>

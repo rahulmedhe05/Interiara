@@ -179,7 +179,7 @@ export default function RootLayout({
         description: "Interiara is an award-winning interior design studio in Dubai, renowned for creating bespoke luxury spaces that blend functionality with artistic vision. From opulent villa transformations to sleek office fit-outs, we bring dreams to life with meticulous attention to detail.",
         url: "https://interiara.com",
         telephone: "+916353583148",
-        email: "hello@interiara.com",
+        email: "info@interiara.com",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Business Bay",
