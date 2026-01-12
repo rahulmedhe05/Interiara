@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Discovery Hills, Window Blinds in Discovery Hills, Best window blinds Discovery Hills, Professional window blinds Discovery Hills, Luxury window blinds Discovery Hills, Window Blinds Discovery Hills Dubai, Window Blinds designer Discovery Hills, Window Blinds company Discovery Hills, Window Blinds contractor Discovery Hills, Affordable window blinds Discovery Hills, Modern window blinds Discovery Hills, Window Blinds consultation Discovery Hills, Window Blinds cost Discovery Hills, Window Blinds price Discovery Hills, Top window blinds Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

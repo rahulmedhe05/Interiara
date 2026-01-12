@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: restaurant interior design dubai, restaurant interior design dubai dubai, best restaurant interior design dubai company dubai, luxury restaurant interior design dubai dubai, modern restaurant interior design dubai dubai
+// SEO Keywords: Restaurant Interior Design Creek, Restaurant Interior in Design Creek, Best restaurant interior Design Creek, Professional restaurant interior Design Creek, Luxury restaurant interior Design Creek, Restaurant Interior Design Creek Dubai, Restaurant Interior designer Design Creek, Restaurant Interior company Design Creek, Restaurant Interior contractor Design Creek, Affordable restaurant interior Design Creek, Modern restaurant interior Design Creek, Restaurant Interior consultation Design Creek, Restaurant Interior cost Design Creek, Restaurant Interior price Design Creek, Top restaurant interior Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RestaurantInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Restaurant Interior Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

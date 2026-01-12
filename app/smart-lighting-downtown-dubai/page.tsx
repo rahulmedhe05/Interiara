@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Downtown, Smart in Lighting Downtown, Best smart Lighting Downtown, Professional smart Lighting Downtown, Luxury smart Lighting Downtown, Smart Lighting Downtown Dubai, Smart designer Lighting Downtown, Smart company Lighting Downtown, Smart contractor Lighting Downtown, Affordable smart Lighting Downtown, Modern smart Lighting Downtown, Smart consultation Lighting Downtown, Smart cost Lighting Downtown, Smart price Lighting Downtown, Top smart Lighting Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart Lighting Downtown Company Lighting Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

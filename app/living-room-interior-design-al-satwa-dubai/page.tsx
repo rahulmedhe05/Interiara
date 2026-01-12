@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: living room interior design dubai, living room interior design dubai dubai, best living room interior design dubai company dubai, luxury living room interior design dubai dubai, modern living room interior design dubai dubai
+// SEO Keywords: Living Room Interior Design Al Satwa, Living Room Interior Design in Al Satwa, Best living room interior design Al Satwa, Professional living room interior design Al Satwa, Luxury living room interior design Al Satwa, Living Room Interior Design Al Satwa Dubai, Living Room Interior Design designer Al Satwa, Living Room Interior Design company Al Satwa, Living Room Interior Design contractor Al Satwa, Affordable living room interior design Al Satwa, Modern living room interior design Al Satwa, Living Room Interior Design consultation Al Satwa, Living Room Interior Design cost Al Satwa, Living Room Interior Design price Al Satwa, Top living room interior design Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LivingRoomInteriorDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Living Room Interior Design Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior design Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

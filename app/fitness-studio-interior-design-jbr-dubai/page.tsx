@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: fitness studio interior design dubai, fitness studio interior design dubai dubai, best fitness studio interior design dubai company dubai, luxury fitness studio interior design dubai dubai, modern fitness studio interior design dubai dubai
+// SEO Keywords: Fitness Studio Interior Design Jbr, Fitness Studio Interior in Design Jbr, Best fitness studio interior Design Jbr, Professional fitness studio interior Design Jbr, Luxury fitness studio interior Design Jbr, Fitness Studio Interior Design Jbr Dubai, Fitness Studio Interior designer Design Jbr, Fitness Studio Interior company Design Jbr, Fitness Studio Interior contractor Design Jbr, Affordable fitness studio interior Design Jbr, Modern fitness studio interior Design Jbr, Fitness Studio Interior consultation Design Jbr, Fitness Studio Interior cost Design Jbr, Fitness Studio Interior price Design Jbr, Top fitness studio interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function FitnessStudioInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Fitness Studio Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

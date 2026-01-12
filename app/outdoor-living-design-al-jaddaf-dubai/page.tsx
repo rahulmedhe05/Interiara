@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design Al Jaddaf, Outdoor Living Design in Al Jaddaf, Best outdoor living design Al Jaddaf, Professional outdoor living design Al Jaddaf, Luxury outdoor living design Al Jaddaf, Outdoor Living Design Al Jaddaf Dubai, Outdoor Living Design designer Al Jaddaf, Outdoor Living Design company Al Jaddaf, Outdoor Living Design contractor Al Jaddaf, Affordable outdoor living design Al Jaddaf, Modern outdoor living design Al Jaddaf, Outdoor Living Design consultation Al Jaddaf, Outdoor Living Design cost Al Jaddaf, Outdoor Living Design price Al Jaddaf, Top outdoor living design Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

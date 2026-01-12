@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: childrens room interior design dubai, childrens room interior design dubai dubai, best childrens room interior design dubai company dubai, luxury childrens room interior design dubai dubai, modern childrens room interior design dubai dubai
+// SEO Keywords: Childrens Room Interior Design Marina, Childrens Room Interior in Design Marina, Best childrens room interior Design Marina, Professional childrens room interior Design Marina, Luxury childrens room interior Design Marina, Childrens Room Interior Design Marina Dubai, Childrens Room Interior designer Design Marina, Childrens Room Interior company Design Marina, Childrens Room Interior contractor Design Marina, Affordable childrens room interior Design Marina, Modern childrens room interior Design Marina, Childrens Room Interior consultation Design Marina, Childrens Room Interior cost Design Marina, Childrens Room Interior price Design Marina, Top childrens room interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ChildrensRoomInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Childrens Room Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

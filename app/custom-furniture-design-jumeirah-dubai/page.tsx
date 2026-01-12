@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Jumeirah, Custom Furniture in Design Jumeirah, Best custom furniture Design Jumeirah, Professional custom furniture Design Jumeirah, Luxury custom furniture Design Jumeirah, Custom Furniture Design Jumeirah Dubai, Custom Furniture designer Design Jumeirah, Custom Furniture company Design Jumeirah, Custom Furniture contractor Design Jumeirah, Affordable custom furniture Design Jumeirah, Modern custom furniture Design Jumeirah, Custom Furniture consultation Design Jumeirah, Custom Furniture cost Design Jumeirah, Custom Furniture price Design Jumeirah, Top custom furniture Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

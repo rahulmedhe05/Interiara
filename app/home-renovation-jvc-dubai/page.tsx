@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Jvc, Home in Renovation Jvc, Best home Renovation Jvc, Professional home Renovation Jvc, Luxury home Renovation Jvc, Home Renovation Jvc Dubai, Home designer Renovation Jvc, Home company Renovation Jvc, Home contractor Renovation Jvc, Affordable home Renovation Jvc, Modern home Renovation Jvc, Home consultation Renovation Jvc, Home cost Renovation Jvc, Home price Renovation Jvc, Top home Renovation Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Renovation Jvc Company Renovation Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design festival dubai, bespoke furniture design festival dubai dubai, best bespoke furniture design festival dubai company dubai, luxury bespoke furniture design festival dubai dubai, modern bespoke furniture design festival dubai dubai
+// SEO Keywords: Bespoke Furniture Design, Bespoke in Furniture Design, Best bespoke Furniture Design, Professional bespoke Furniture Design, Luxury bespoke Furniture Design, Bespoke Furniture Design Dubai, Bespoke designer Furniture Design, Bespoke company Furniture Design, Bespoke contractor Furniture Design, Affordable bespoke Furniture Design, Modern bespoke Furniture Design, Bespoke consultation Furniture Design, Bespoke cost Furniture Design, Bespoke price Furniture Design, Top bespoke Furniture Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke Furniture Design Company Furniture Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

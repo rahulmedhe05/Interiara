@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Creek, Interior Space in Optimization Creek, Best interior space Optimization Creek, Professional interior space Optimization Creek, Luxury interior space Optimization Creek, Interior Space Optimization Creek Dubai, Interior Space designer Optimization Creek, Interior Space company Optimization Creek, Interior Space contractor Optimization Creek, Affordable interior space Optimization Creek, Modern interior space Optimization Creek, Interior Space consultation Optimization Creek, Interior Space cost Optimization Creek, Interior Space price Optimization Creek, Top interior space Optimization Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space Optimization Creek Company Optimization Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

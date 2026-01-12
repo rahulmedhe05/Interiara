@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design hills dubai, villa interior design hills dubai dubai, best villa interior design hills dubai company dubai, luxury villa interior design hills dubai dubai, modern villa interior design hills dubai dubai
+// SEO Keywords: Villa Interior Design Dubai Hills Estate, Villa Interior Design Dubai in Hills Estate, Best villa interior design dubai Hills Estate, Professional villa interior design dubai Hills Estate, Luxury villa interior design dubai Hills Estate, Villa Interior Design Dubai Hills Estate Dubai, Villa Interior Design Dubai designer Hills Estate, Villa Interior Design Dubai company Hills Estate, Villa Interior Design Dubai contractor Hills Estate, Affordable villa interior design dubai Hills Estate, Modern villa interior design dubai Hills Estate, Villa Interior Design Dubai consultation Hills Estate, Villa Interior Design Dubai cost Hills Estate, Villa Interior Design Dubai price Hills Estate, Top villa interior design dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

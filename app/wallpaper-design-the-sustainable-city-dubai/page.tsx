@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design The Sustainable City, Wallpaper Design The in Sustainable City, Best wallpaper design the Sustainable City, Professional wallpaper design the Sustainable City, Luxury wallpaper design the Sustainable City, Wallpaper Design The Sustainable City Dubai, Wallpaper Design The designer Sustainable City, Wallpaper Design The company Sustainable City, Wallpaper Design The contractor Sustainable City, Affordable wallpaper design the Sustainable City, Modern wallpaper design the Sustainable City, Wallpaper Design The consultation Sustainable City, Wallpaper Design The cost Sustainable City, Wallpaper Design The price Sustainable City, Top wallpaper design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

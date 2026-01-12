@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
+// SEO Keywords: Drapes The Sustainable City, Drapes The in Sustainable City, Best drapes the Sustainable City, Professional drapes the Sustainable City, Luxury drapes the Sustainable City, Drapes The Sustainable City Dubai, Drapes The designer Sustainable City, Drapes The company Sustainable City, Drapes The contractor Sustainable City, Affordable drapes the Sustainable City, Modern drapes the Sustainable City, Drapes The consultation Sustainable City, Drapes The cost Sustainable City, Drapes The price Sustainable City, Top drapes the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

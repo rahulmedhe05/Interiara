@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Al Barsha South, Lighting Design Al in Barsha South, Best lighting design al Barsha South, Professional lighting design al Barsha South, Luxury lighting design al Barsha South, Lighting Design Al Barsha South Dubai, Lighting Design Al designer Barsha South, Lighting Design Al company Barsha South, Lighting Design Al contractor Barsha South, Affordable lighting design al Barsha South, Modern lighting design al Barsha South, Lighting Design Al consultation Barsha South, Lighting Design Al cost Barsha South, Lighting Design Al price Barsha South, Top lighting design al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

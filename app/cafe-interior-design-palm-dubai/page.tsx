@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: cafe interior design dubai, cafe interior design dubai dubai, best cafe interior design dubai company dubai, luxury cafe interior design dubai dubai, modern cafe interior design dubai dubai
+// SEO Keywords: Cafe Interior Design Palm, Cafe Interior in Design Palm, Best cafe interior Design Palm, Professional cafe interior Design Palm, Luxury cafe interior Design Palm, Cafe Interior Design Palm Dubai, Cafe Interior designer Design Palm, Cafe Interior company Design Palm, Cafe Interior contractor Design Palm, Affordable cafe interior Design Palm, Modern cafe interior Design Palm, Cafe Interior consultation Design Palm, Cafe Interior cost Design Palm, Cafe Interior price Design Palm, Top cafe interior Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CafeInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Cafe Interior Design Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior Design Palm Company Design Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

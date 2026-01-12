@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Al Quoz, Space Planning in Al Quoz, Best space planning Al Quoz, Professional space planning Al Quoz, Luxury space planning Al Quoz, Space Planning Al Quoz Dubai, Space Planning designer Al Quoz, Space Planning company Al Quoz, Space Planning contractor Al Quoz, Affordable space planning Al Quoz, Modern space planning Al Quoz, Space Planning consultation Al Quoz, Space Planning cost Al Quoz, Space Planning price Al Quoz, Top space planning Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

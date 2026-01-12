@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Meadows, Window in Curtains Meadows, Best window Curtains Meadows, Professional window Curtains Meadows, Luxury window Curtains Meadows, Window Curtains Meadows Dubai, Window designer Curtains Meadows, Window company Curtains Meadows, Window contractor Curtains Meadows, Affordable window Curtains Meadows, Modern window Curtains Meadows, Window consultation Curtains Meadows, Window cost Curtains Meadows, Window price Curtains Meadows, Top window Curtains Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Curtains Meadows Company Curtains Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

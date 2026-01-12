@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Jvt, Bespoke Furniture in Design Jvt, Best bespoke furniture Design Jvt, Professional bespoke furniture Design Jvt, Luxury bespoke furniture Design Jvt, Bespoke Furniture Design Jvt Dubai, Bespoke Furniture designer Design Jvt, Bespoke Furniture company Design Jvt, Bespoke Furniture contractor Design Jvt, Affordable bespoke furniture Design Jvt, Modern bespoke furniture Design Jvt, Bespoke Furniture consultation Design Jvt, Bespoke Furniture cost Design Jvt, Bespoke Furniture price Design Jvt, Top bespoke furniture Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture Design Jvt Company Design Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

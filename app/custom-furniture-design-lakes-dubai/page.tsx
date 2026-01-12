@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Lakes, Custom Furniture in Design Lakes, Best custom furniture Design Lakes, Professional custom furniture Design Lakes, Luxury custom furniture Design Lakes, Custom Furniture Design Lakes Dubai, Custom Furniture designer Design Lakes, Custom Furniture company Design Lakes, Custom Furniture contractor Design Lakes, Affordable custom furniture Design Lakes, Modern custom furniture Design Lakes, Custom Furniture consultation Design Lakes, Custom Furniture cost Design Lakes, Custom Furniture price Design Lakes, Top custom furniture Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Lakes Company Design Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

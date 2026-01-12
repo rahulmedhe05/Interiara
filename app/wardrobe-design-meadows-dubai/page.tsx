@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Meadows, Wardrobe in Design Meadows, Best wardrobe Design Meadows, Professional wardrobe Design Meadows, Luxury wardrobe Design Meadows, Wardrobe Design Meadows Dubai, Wardrobe designer Design Meadows, Wardrobe company Design Meadows, Wardrobe contractor Design Meadows, Affordable wardrobe Design Meadows, Modern wardrobe Design Meadows, Wardrobe consultation Design Meadows, Wardrobe cost Design Meadows, Wardrobe price Design Meadows, Top wardrobe Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

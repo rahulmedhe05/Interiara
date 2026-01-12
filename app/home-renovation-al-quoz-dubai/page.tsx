@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Al Quoz, Home Renovation in Al Quoz, Best home renovation Al Quoz, Professional home renovation Al Quoz, Luxury home renovation Al Quoz, Home Renovation Al Quoz Dubai, Home Renovation designer Al Quoz, Home Renovation company Al Quoz, Home Renovation contractor Al Quoz, Affordable home renovation Al Quoz, Modern home renovation Al Quoz, Home Renovation consultation Al Quoz, Home Renovation cost Al Quoz, Home Renovation price Al Quoz, Top home renovation Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Al Barsha, Modular Kitchens in Al Barsha, Best modular kitchens Al Barsha, Professional modular kitchens Al Barsha, Luxury modular kitchens Al Barsha, Modular Kitchens Al Barsha Dubai, Modular Kitchens designer Al Barsha, Modular Kitchens company Al Barsha, Modular Kitchens contractor Al Barsha, Affordable modular kitchens Al Barsha, Modern modular kitchens Al Barsha, Modular Kitchens consultation Al Barsha, Modular Kitchens cost Al Barsha, Modular Kitchens price Al Barsha, Top modular kitchens Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Al Barsha Dubai Company Al Barsha Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Al Barsha Company Al Barsha</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

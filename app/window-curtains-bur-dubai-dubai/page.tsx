@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Bur Dubai, Window Curtains in Bur Dubai, Best window curtains Bur Dubai, Professional window curtains Bur Dubai, Luxury window curtains Bur Dubai, Window Curtains Bur Dubai Dubai, Window Curtains designer Bur Dubai, Window Curtains company Bur Dubai, Window Curtains contractor Bur Dubai, Affordable window curtains Bur Dubai, Modern window curtains Bur Dubai, Window Curtains consultation Bur Dubai, Window Curtains cost Bur Dubai, Window Curtains price Bur Dubai, Top window curtains Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

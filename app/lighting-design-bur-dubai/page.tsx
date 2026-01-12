@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Bur, Lighting in Design Bur, Best lighting Design Bur, Professional lighting Design Bur, Luxury lighting Design Bur, Lighting Design Bur Dubai, Lighting designer Design Bur, Lighting company Design Bur, Lighting contractor Design Bur, Affordable lighting Design Bur, Modern lighting Design Bur, Lighting consultation Design Bur, Lighting cost Design Bur, Lighting price Design Bur, Top lighting Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Design Bur Company Design Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

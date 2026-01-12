@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning The Sustainable City, Space Planning The in Sustainable City, Best space planning the Sustainable City, Professional space planning the Sustainable City, Luxury space planning the Sustainable City, Space Planning The Sustainable City Dubai, Space Planning The designer Sustainable City, Space Planning The company Sustainable City, Space Planning The contractor Sustainable City, Affordable space planning the Sustainable City, Modern space planning the Sustainable City, Space Planning The consultation Sustainable City, Space Planning The cost Sustainable City, Space Planning The price Sustainable City, Top space planning the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design Bur Dubai, Outdoor Living Design in Bur Dubai, Best outdoor living design Bur Dubai, Professional outdoor living design Bur Dubai, Luxury outdoor living design Bur Dubai, Outdoor Living Design Bur Dubai Dubai, Outdoor Living Design designer Bur Dubai, Outdoor Living Design company Bur Dubai, Outdoor Living Design contractor Bur Dubai, Affordable outdoor living design Bur Dubai, Modern outdoor living design Bur Dubai, Outdoor Living Design consultation Bur Dubai, Outdoor Living Design cost Bur Dubai, Outdoor Living Design price Bur Dubai, Top outdoor living design Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

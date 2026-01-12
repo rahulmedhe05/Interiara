@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Al Satwa, Lighting Design in Al Satwa, Best lighting design Al Satwa, Professional lighting design Al Satwa, Luxury lighting design Al Satwa, Lighting Design Al Satwa Dubai, Lighting Design designer Al Satwa, Lighting Design company Al Satwa, Lighting Design contractor Al Satwa, Affordable lighting design Al Satwa, Modern lighting design Al Satwa, Lighting Design consultation Al Satwa, Lighting Design cost Al Satwa, Lighting Design price Al Satwa, Top lighting design Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

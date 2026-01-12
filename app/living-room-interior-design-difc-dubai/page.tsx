@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: living room interior design dubai, living room interior design dubai dubai, best living room interior design dubai company dubai, luxury living room interior design dubai dubai, modern living room interior design dubai dubai
+// SEO Keywords: Living Room Interior Design Difc, Living Room Interior in Design Difc, Best living room interior Design Difc, Professional living room interior Design Difc, Luxury living room interior Design Difc, Living Room Interior Design Difc Dubai, Living Room Interior designer Design Difc, Living Room Interior company Design Difc, Living Room Interior contractor Design Difc, Affordable living room interior Design Difc, Modern living room interior Design Difc, Living Room Interior consultation Design Difc, Living Room Interior cost Design Difc, Living Room Interior price Design Difc, Top living room interior Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LivingRoomInteriorDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Living Room Interior Design DIFC Dubai Company DIFC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior Design Difc Company Design Difc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

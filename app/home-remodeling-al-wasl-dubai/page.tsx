@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Al Wasl, Home Remodeling in Al Wasl, Best home remodeling Al Wasl, Professional home remodeling Al Wasl, Luxury home remodeling Al Wasl, Home Remodeling Al Wasl Dubai, Home Remodeling designer Al Wasl, Home Remodeling company Al Wasl, Home Remodeling contractor Al Wasl, Affordable home remodeling Al Wasl, Modern home remodeling Al Wasl, Home Remodeling consultation Al Wasl, Home Remodeling cost Al Wasl, Home Remodeling price Al Wasl, Top home remodeling Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Al Wasl Dubai Company Al Wasl Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Al Wasl Company Al Wasl</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

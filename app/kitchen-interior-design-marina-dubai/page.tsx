@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: kitchen interior design dubai, kitchen interior design dubai dubai, best kitchen interior design dubai company dubai, luxury kitchen interior design dubai dubai, modern kitchen interior design dubai dubai
+// SEO Keywords: Kitchen Interior Design Marina, Kitchen Interior in Design Marina, Best kitchen interior Design Marina, Professional kitchen interior Design Marina, Luxury kitchen interior Design Marina, Kitchen Interior Design Marina Dubai, Kitchen Interior designer Design Marina, Kitchen Interior company Design Marina, Kitchen Interior contractor Design Marina, Affordable kitchen interior Design Marina, Modern kitchen interior Design Marina, Kitchen Interior consultation Design Marina, Kitchen Interior cost Design Marina, Kitchen Interior price Design Marina, Top kitchen interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function KitchenInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Kitchen Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Meadows, Home Decor in Consultation Meadows, Best home decor Consultation Meadows, Professional home decor Consultation Meadows, Luxury home decor Consultation Meadows, Home Decor Consultation Meadows Dubai, Home Decor designer Consultation Meadows, Home Decor company Consultation Meadows, Home Decor contractor Consultation Meadows, Affordable home decor Consultation Meadows, Modern home decor Consultation Meadows, Home Decor consultation Consultation Meadows, Home Decor cost Consultation Meadows, Home Decor price Consultation Meadows, Top home decor Consultation Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Meadows Company Consultation Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

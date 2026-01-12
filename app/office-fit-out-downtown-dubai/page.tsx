@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Downtown, Office Fit in Out Downtown, Best office fit Out Downtown, Professional office fit Out Downtown, Luxury office fit Out Downtown, Office Fit Out Downtown Dubai, Office Fit designer Out Downtown, Office Fit company Out Downtown, Office Fit contractor Out Downtown, Affordable office fit Out Downtown, Modern office fit Out Downtown, Office Fit consultation Out Downtown, Office Fit cost Out Downtown, Office Fit price Out Downtown, Top office fit Out Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit Out Downtown Company Out Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

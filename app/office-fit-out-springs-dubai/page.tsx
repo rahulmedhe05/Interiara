@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Springs, Office Fit in Out Springs, Best office fit Out Springs, Professional office fit Out Springs, Luxury office fit Out Springs, Office Fit Out Springs Dubai, Office Fit designer Out Springs, Office Fit company Out Springs, Office Fit contractor Out Springs, Affordable office fit Out Springs, Modern office fit Out Springs, Office Fit consultation Out Springs, Office Fit cost Out Springs, Office Fit price Out Springs, Top office fit Out Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit Out Springs Company Out Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

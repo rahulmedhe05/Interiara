@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design City Walk, Outdoor Living Design in City Walk, Best outdoor living design City Walk, Professional outdoor living design City Walk, Luxury outdoor living design City Walk, Outdoor Living Design City Walk Dubai, Outdoor Living Design designer City Walk, Outdoor Living Design company City Walk, Outdoor Living Design contractor City Walk, Affordable outdoor living design City Walk, Modern outdoor living design City Walk, Outdoor Living Design consultation City Walk, Outdoor Living Design cost City Walk, Outdoor Living Design price City Walk, Top outdoor living design City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design City Walk Dubai Company City Walk Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design City Walk Company City Walk</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

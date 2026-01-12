@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: clinic interior design dubai, clinic interior design dubai dubai, best clinic interior design dubai company dubai, luxury clinic interior design dubai dubai, modern clinic interior design dubai dubai
+// SEO Keywords: Clinic Interior Design Silicon Oasis Villas, Clinic Interior Design Silicon in Oasis Villas, Best clinic interior design silicon Oasis Villas, Professional clinic interior design silicon Oasis Villas, Luxury clinic interior design silicon Oasis Villas, Clinic Interior Design Silicon Oasis Villas Dubai, Clinic Interior Design Silicon designer Oasis Villas, Clinic Interior Design Silicon company Oasis Villas, Clinic Interior Design Silicon contractor Oasis Villas, Affordable clinic interior design silicon Oasis Villas, Modern clinic interior design silicon Oasis Villas, Clinic Interior Design Silicon consultation Oasis Villas, Clinic Interior Design Silicon cost Oasis Villas, Clinic Interior Design Silicon price Oasis Villas, Top clinic interior design silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClinicInteriorDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Clinic Interior Design Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior design silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

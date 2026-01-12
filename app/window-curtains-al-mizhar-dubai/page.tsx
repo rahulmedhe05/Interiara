@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Al Mizhar, Window Curtains in Al Mizhar, Best window curtains Al Mizhar, Professional window curtains Al Mizhar, Luxury window curtains Al Mizhar, Window Curtains Al Mizhar Dubai, Window Curtains designer Al Mizhar, Window Curtains company Al Mizhar, Window Curtains contractor Al Mizhar, Affordable window curtains Al Mizhar, Modern window curtains Al Mizhar, Window Curtains consultation Al Mizhar, Window Curtains cost Al Mizhar, Window Curtains price Al Mizhar, Top window curtains Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

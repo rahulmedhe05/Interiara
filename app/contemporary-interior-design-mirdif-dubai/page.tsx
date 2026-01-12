@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: contemporary interior design dubai, contemporary interior design dubai dubai, best contemporary interior design dubai company dubai, luxury contemporary interior design dubai dubai, modern contemporary interior design dubai dubai
+// SEO Keywords: Contemporary Interior Design Mirdif, Contemporary Interior in Design Mirdif, Best contemporary interior Design Mirdif, Professional contemporary interior Design Mirdif, Luxury contemporary interior Design Mirdif, Contemporary Interior Design Mirdif Dubai, Contemporary Interior designer Design Mirdif, Contemporary Interior company Design Mirdif, Contemporary Interior contractor Design Mirdif, Affordable contemporary interior Design Mirdif, Modern contemporary interior Design Mirdif, Contemporary Interior consultation Design Mirdif, Contemporary Interior cost Design Mirdif, Contemporary Interior price Design Mirdif, Top contemporary interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ContemporaryInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Contemporary Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

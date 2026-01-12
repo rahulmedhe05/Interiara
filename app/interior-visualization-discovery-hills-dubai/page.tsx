@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization Discovery Hills, Interior Visualization in Discovery Hills, Best interior visualization Discovery Hills, Professional interior visualization Discovery Hills, Luxury interior visualization Discovery Hills, Interior Visualization Discovery Hills Dubai, Interior Visualization designer Discovery Hills, Interior Visualization company Discovery Hills, Interior Visualization contractor Discovery Hills, Affordable interior visualization Discovery Hills, Modern interior visualization Discovery Hills, Interior Visualization consultation Discovery Hills, Interior Visualization cost Discovery Hills, Interior Visualization price Discovery Hills, Top interior visualization Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

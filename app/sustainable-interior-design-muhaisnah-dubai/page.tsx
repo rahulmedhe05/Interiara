@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: sustainable interior design dubai, sustainable interior design dubai dubai, best sustainable interior design dubai company dubai, luxury sustainable interior design dubai dubai, modern sustainable interior design dubai dubai
+// SEO Keywords: Sustainable Interior Design Muhaisnah, Sustainable Interior in Design Muhaisnah, Best sustainable interior Design Muhaisnah, Professional sustainable interior Design Muhaisnah, Luxury sustainable interior Design Muhaisnah, Sustainable Interior Design Muhaisnah Dubai, Sustainable Interior designer Design Muhaisnah, Sustainable Interior company Design Muhaisnah, Sustainable Interior contractor Design Muhaisnah, Affordable sustainable interior Design Muhaisnah, Modern sustainable interior Design Muhaisnah, Sustainable Interior consultation Design Muhaisnah, Sustainable Interior cost Design Muhaisnah, Sustainable Interior price Design Muhaisnah, Top sustainable interior Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SustainableInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Sustainable Interior Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design The Villa, Wall Flooring Design in The Villa, Best wall flooring design The Villa, Professional wall flooring design The Villa, Luxury wall flooring design The Villa, Wall Flooring Design The Villa Dubai, Wall Flooring Design designer The Villa, Wall Flooring Design company The Villa, Wall Flooring Design contractor The Villa, Affordable wall flooring design The Villa, Modern wall flooring design The Villa, Wall Flooring Design consultation The Villa, Wall Flooring Design cost The Villa, Wall Flooring Design price The Villa, Top wall flooring design The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design The Villa Dubai Company The Villa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design The Villa Company The Villa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

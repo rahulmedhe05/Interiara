@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: mall interior design dubai, mall interior design dubai dubai, best mall interior design dubai company dubai, luxury mall interior design dubai dubai, modern mall interior design dubai dubai
+// SEO Keywords: Mall Interior Design Greens, Mall Interior in Design Greens, Best mall interior Design Greens, Professional mall interior Design Greens, Luxury mall interior Design Greens, Mall Interior Design Greens Dubai, Mall Interior designer Design Greens, Mall Interior company Design Greens, Mall Interior contractor Design Greens, Affordable mall interior Design Greens, Modern mall interior Design Greens, Mall Interior consultation Design Greens, Mall Interior cost Design Greens, Mall Interior price Design Greens, Top mall interior Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MallInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Mall Interior Design The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior Design Greens Company Design Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

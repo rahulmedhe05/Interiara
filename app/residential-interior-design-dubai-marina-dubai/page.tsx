@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: residential interior design dubai, residential interior design dubai dubai, best residential interior design dubai company dubai, luxury residential interior design dubai dubai, modern residential interior design dubai dubai
+// SEO Keywords: Residential Interior Design Dubai Marina, Residential Interior Design in Dubai Marina, Best residential interior design Dubai Marina, Professional residential interior design Dubai Marina, Luxury residential interior design Dubai Marina, Residential Interior Design Dubai Marina Dubai, Residential Interior Design designer Dubai Marina, Residential Interior Design company Dubai Marina, Residential Interior Design contractor Dubai Marina, Affordable residential interior design Dubai Marina, Modern residential interior design Dubai Marina, Residential Interior Design consultation Dubai Marina, Residential Interior Design cost Dubai Marina, Residential Interior Design price Dubai Marina, Top residential interior design Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ResidentialInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Residential Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior design Dubai Marina Company Dubai Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

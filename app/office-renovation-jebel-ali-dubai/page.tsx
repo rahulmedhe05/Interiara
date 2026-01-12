@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Jebel Ali, Office Renovation in Jebel Ali, Best office renovation Jebel Ali, Professional office renovation Jebel Ali, Luxury office renovation Jebel Ali, Office Renovation Jebel Ali Dubai, Office Renovation designer Jebel Ali, Office Renovation company Jebel Ali, Office Renovation contractor Jebel Ali, Affordable office renovation Jebel Ali, Modern office renovation Jebel Ali, Office Renovation consultation Jebel Ali, Office Renovation cost Jebel Ali, Office Renovation price Jebel Ali, Top office renovation Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

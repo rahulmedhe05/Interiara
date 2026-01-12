@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Dubai Hills, Office Renovation in Dubai Hills, Best office renovation Dubai Hills, Professional office renovation Dubai Hills, Luxury office renovation Dubai Hills, Office Renovation Dubai Hills Dubai, Office Renovation designer Dubai Hills, Office Renovation company Dubai Hills, Office Renovation contractor Dubai Hills, Affordable office renovation Dubai Hills, Modern office renovation Dubai Hills, Office Renovation consultation Dubai Hills, Office Renovation cost Dubai Hills, Office Renovation price Dubai Hills, Top office renovation Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

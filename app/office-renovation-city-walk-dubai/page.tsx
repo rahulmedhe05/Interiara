@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation City Walk, Office Renovation in City Walk, Best office renovation City Walk, Professional office renovation City Walk, Luxury office renovation City Walk, Office Renovation City Walk Dubai, Office Renovation designer City Walk, Office Renovation company City Walk, Office Renovation contractor City Walk, Affordable office renovation City Walk, Modern office renovation City Walk, Office Renovation consultation City Walk, Office Renovation cost City Walk, Office Renovation price City Walk, Top office renovation City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation City Walk Dubai Company City Walk Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation City Walk Company City Walk</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

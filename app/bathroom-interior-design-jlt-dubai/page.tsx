@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design Jlt, Bathroom Interior in Design Jlt, Best bathroom interior Design Jlt, Professional bathroom interior Design Jlt, Luxury bathroom interior Design Jlt, Bathroom Interior Design Jlt Dubai, Bathroom Interior designer Design Jlt, Bathroom Interior company Design Jlt, Bathroom Interior contractor Design Jlt, Affordable bathroom interior Design Jlt, Modern bathroom interior Design Jlt, Bathroom Interior consultation Design Jlt, Bathroom Interior cost Design Jlt, Bathroom Interior price Design Jlt, Top bathroom interior Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design The Villa, Gym Interior Design in The Villa, Best gym interior design The Villa, Professional gym interior design The Villa, Luxury gym interior design The Villa, Gym Interior Design The Villa Dubai, Gym Interior Design designer The Villa, Gym Interior Design company The Villa, Gym Interior Design contractor The Villa, Affordable gym interior design The Villa, Modern gym interior design The Villa, Gym Interior Design consultation The Villa, Gym Interior Design cost The Villa, Gym Interior Design price The Villa, Top gym interior design The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design The Villa Dubai Company The Villa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design The Villa Company The Villa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

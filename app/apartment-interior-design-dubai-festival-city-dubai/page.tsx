@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: apartment interior design festival dubai, apartment interior design festival dubai dubai, best apartment interior design festival dubai company dubai, luxury apartment interior design festival dubai dubai, modern apartment interior design festival dubai dubai
+// SEO Keywords: Apartment Interior Design Dubai Festival City, Apartment Interior Design Dubai in Festival City, Best apartment interior design dubai Festival City, Professional apartment interior design dubai Festival City, Luxury apartment interior design dubai Festival City, Apartment Interior Design Dubai Festival City Dubai, Apartment Interior Design Dubai designer Festival City, Apartment Interior Design Dubai company Festival City, Apartment Interior Design Dubai contractor Festival City, Affordable apartment interior design dubai Festival City, Modern apartment interior design dubai Festival City, Apartment Interior Design Dubai consultation Festival City, Apartment Interior Design Dubai cost Festival City, Apartment Interior Design Dubai price Festival City, Top apartment interior design dubai Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ApartmentInteriorDesignDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Apartment Interior Design Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design dubai Festival City Company Festival City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

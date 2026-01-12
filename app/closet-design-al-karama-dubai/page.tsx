@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Al Karama, Closet Design in Al Karama, Best closet design Al Karama, Professional closet design Al Karama, Luxury closet design Al Karama, Closet Design Al Karama Dubai, Closet Design designer Al Karama, Closet Design company Al Karama, Closet Design contractor Al Karama, Affordable closet design Al Karama, Modern closet design Al Karama, Closet Design consultation Al Karama, Closet Design cost Al Karama, Closet Design price Al Karama, Top closet design Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Al Karama Dubai Company Al Karama Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Al Karama Company Al Karama</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

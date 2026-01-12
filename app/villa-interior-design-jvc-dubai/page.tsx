@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Jvc, Villa Interior in Design Jvc, Best villa interior Design Jvc, Professional villa interior Design Jvc, Luxury villa interior Design Jvc, Villa Interior Design Jvc Dubai, Villa Interior designer Design Jvc, Villa Interior company Design Jvc, Villa Interior contractor Design Jvc, Affordable villa interior Design Jvc, Modern villa interior Design Jvc, Villa Interior consultation Design Jvc, Villa Interior cost Design Jvc, Villa Interior price Design Jvc, Top villa interior Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior Design Jvc Company Design Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

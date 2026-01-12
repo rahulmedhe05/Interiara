@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: hotel interior design dubai, hotel interior design dubai dubai, best hotel interior design dubai company dubai, luxury hotel interior design dubai dubai, modern hotel interior design dubai dubai
+// SEO Keywords: Hotel Interior Design Downtown, Hotel Interior in Design Downtown, Best hotel interior Design Downtown, Professional hotel interior Design Downtown, Luxury hotel interior Design Downtown, Hotel Interior Design Downtown Dubai, Hotel Interior designer Design Downtown, Hotel Interior company Design Downtown, Hotel Interior contractor Design Downtown, Affordable hotel interior Design Downtown, Modern hotel interior Design Downtown, Hotel Interior consultation Design Downtown, Hotel Interior cost Design Downtown, Hotel Interior price Design Downtown, Top hotel interior Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HotelInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Hotel Interior Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior Design Downtown Company Design Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

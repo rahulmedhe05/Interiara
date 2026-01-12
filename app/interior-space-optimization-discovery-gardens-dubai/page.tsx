@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Discovery Gardens, Interior Space Optimization in Discovery Gardens, Best interior space optimization Discovery Gardens, Professional interior space optimization Discovery Gardens, Luxury interior space optimization Discovery Gardens, Interior Space Optimization Discovery Gardens Dubai, Interior Space Optimization designer Discovery Gardens, Interior Space Optimization company Discovery Gardens, Interior Space Optimization contractor Discovery Gardens, Affordable interior space optimization Discovery Gardens, Modern interior space optimization Discovery Gardens, Interior Space Optimization consultation Discovery Gardens, Interior Space Optimization cost Discovery Gardens, Interior Space Optimization price Discovery Gardens, Top interior space optimization Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

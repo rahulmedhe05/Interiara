@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: spa interior design dubai, spa interior design dubai dubai, best spa interior design dubai company dubai, luxury spa interior design dubai dubai, modern spa interior design dubai dubai
+// SEO Keywords: Spa Interior Design Al Barsha, Spa Interior Design in Al Barsha, Best spa interior design Al Barsha, Professional spa interior design Al Barsha, Luxury spa interior design Al Barsha, Spa Interior Design Al Barsha Dubai, Spa Interior Design designer Al Barsha, Spa Interior Design company Al Barsha, Spa Interior Design contractor Al Barsha, Affordable spa interior design Al Barsha, Modern spa interior design Al Barsha, Spa Interior Design consultation Al Barsha, Spa Interior Design cost Al Barsha, Spa Interior Design price Al Barsha, Top spa interior design Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpaInteriorDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Spa Interior Design Al Barsha Dubai Company Al Barsha Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best spa interior design Al Barsha Company Al Barsha</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Spa Interior Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

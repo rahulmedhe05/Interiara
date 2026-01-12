@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Al Karama, Wallpaper Design in Al Karama, Best wallpaper design Al Karama, Professional wallpaper design Al Karama, Luxury wallpaper design Al Karama, Wallpaper Design Al Karama Dubai, Wallpaper Design designer Al Karama, Wallpaper Design company Al Karama, Wallpaper Design contractor Al Karama, Affordable wallpaper design Al Karama, Modern wallpaper design Al Karama, Wallpaper Design consultation Al Karama, Wallpaper Design cost Al Karama, Wallpaper Design price Al Karama, Top wallpaper design Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Al Karama Dubai Company Al Karama Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Al Karama Company Al Karama</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

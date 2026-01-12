@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Culture Village, Smart Lighting in Culture Village, Best smart lighting Culture Village, Professional smart lighting Culture Village, Luxury smart lighting Culture Village, Smart Lighting Culture Village Dubai, Smart Lighting designer Culture Village, Smart Lighting company Culture Village, Smart Lighting contractor Culture Village, Affordable smart lighting Culture Village, Modern smart lighting Culture Village, Smart Lighting consultation Culture Village, Smart Lighting cost Culture Village, Smart Lighting price Culture Village, Top smart lighting Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Culture Village Dubai Company Culture Village Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Culture Village Company Culture Village</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

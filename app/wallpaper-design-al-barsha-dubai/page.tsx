@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Al Barsha, Wallpaper Design in Al Barsha, Best wallpaper design Al Barsha, Professional wallpaper design Al Barsha, Luxury wallpaper design Al Barsha, Wallpaper Design Al Barsha Dubai, Wallpaper Design designer Al Barsha, Wallpaper Design company Al Barsha, Wallpaper Design contractor Al Barsha, Affordable wallpaper design Al Barsha, Modern wallpaper design Al Barsha, Wallpaper Design consultation Al Barsha, Wallpaper Design cost Al Barsha, Wallpaper Design price Al Barsha, Top wallpaper design Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Al Barsha Dubai Company Al Barsha Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Al Barsha Company Al Barsha</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

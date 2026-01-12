@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: clinic interior design dubai, clinic interior design dubai dubai, best clinic interior design dubai company dubai, luxury clinic interior design dubai dubai, modern clinic interior design dubai dubai
+// SEO Keywords: Clinic Interior Design Marina, Clinic Interior in Design Marina, Best clinic interior Design Marina, Professional clinic interior Design Marina, Luxury clinic interior Design Marina, Clinic Interior Design Marina Dubai, Clinic Interior designer Design Marina, Clinic Interior company Design Marina, Clinic Interior contractor Design Marina, Affordable clinic interior Design Marina, Modern clinic interior Design Marina, Clinic Interior consultation Design Marina, Clinic Interior cost Design Marina, Clinic Interior price Design Marina, Top clinic interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClinicInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Clinic Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

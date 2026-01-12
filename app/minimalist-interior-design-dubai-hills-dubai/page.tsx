@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Dubai Hills, Minimalist Interior Design in Dubai Hills, Best minimalist interior design Dubai Hills, Professional minimalist interior design Dubai Hills, Luxury minimalist interior design Dubai Hills, Minimalist Interior Design Dubai Hills Dubai, Minimalist Interior Design designer Dubai Hills, Minimalist Interior Design company Dubai Hills, Minimalist Interior Design contractor Dubai Hills, Affordable minimalist interior design Dubai Hills, Modern minimalist interior design Dubai Hills, Minimalist Interior Design consultation Dubai Hills, Minimalist Interior Design cost Dubai Hills, Minimalist Interior Design price Dubai Hills, Top minimalist interior design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

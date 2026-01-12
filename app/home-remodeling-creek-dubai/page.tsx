@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Creek, Home in Remodeling Creek, Best home Remodeling Creek, Professional home Remodeling Creek, Luxury home Remodeling Creek, Home Remodeling Creek Dubai, Home designer Remodeling Creek, Home company Remodeling Creek, Home contractor Remodeling Creek, Affordable home Remodeling Creek, Modern home Remodeling Creek, Home consultation Remodeling Creek, Home cost Remodeling Creek, Home price Remodeling Creek, Top home Remodeling Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Remodeling Creek Company Remodeling Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Lakes, Home Decor in Consultation Lakes, Best home decor Consultation Lakes, Professional home decor Consultation Lakes, Luxury home decor Consultation Lakes, Home Decor Consultation Lakes Dubai, Home Decor designer Consultation Lakes, Home Decor company Consultation Lakes, Home Decor contractor Consultation Lakes, Affordable home decor Consultation Lakes, Modern home decor Consultation Lakes, Home Decor consultation Consultation Lakes, Home Decor cost Consultation Lakes, Home Decor price Consultation Lakes, Top home decor Consultation Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Lakes Company Consultation Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

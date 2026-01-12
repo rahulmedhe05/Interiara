@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Muhaisnah, Closet in Design Muhaisnah, Best closet Design Muhaisnah, Professional closet Design Muhaisnah, Luxury closet Design Muhaisnah, Closet Design Muhaisnah Dubai, Closet designer Design Muhaisnah, Closet company Design Muhaisnah, Closet contractor Design Muhaisnah, Affordable closet Design Muhaisnah, Modern closet Design Muhaisnah, Closet consultation Design Muhaisnah, Closet cost Design Muhaisnah, Closet price Design Muhaisnah, Top closet Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

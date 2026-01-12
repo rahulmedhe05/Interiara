@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: hotel interior design dubai, hotel interior design dubai dubai, best hotel interior design dubai company dubai, luxury hotel interior design dubai dubai, modern hotel interior design dubai dubai
+// SEO Keywords: Hotel Interior Design Al Safouh, Hotel Interior Design in Al Safouh, Best hotel interior design Al Safouh, Professional hotel interior design Al Safouh, Luxury hotel interior design Al Safouh, Hotel Interior Design Al Safouh Dubai, Hotel Interior Design designer Al Safouh, Hotel Interior Design company Al Safouh, Hotel Interior Design contractor Al Safouh, Affordable hotel interior design Al Safouh, Modern hotel interior design Al Safouh, Hotel Interior Design consultation Al Safouh, Hotel Interior Design cost Al Safouh, Hotel Interior Design price Al Safouh, Top hotel interior design Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HotelInteriorDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Hotel Interior Design Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

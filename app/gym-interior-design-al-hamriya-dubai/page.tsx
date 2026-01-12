@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Al Hamriya, Gym Interior Design in Al Hamriya, Best gym interior design Al Hamriya, Professional gym interior design Al Hamriya, Luxury gym interior design Al Hamriya, Gym Interior Design Al Hamriya Dubai, Gym Interior Design designer Al Hamriya, Gym Interior Design company Al Hamriya, Gym Interior Design contractor Al Hamriya, Affordable gym interior design Al Hamriya, Modern gym interior design Al Hamriya, Gym Interior Design consultation Al Hamriya, Gym Interior Design cost Al Hamriya, Gym Interior Design price Al Hamriya, Top gym interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

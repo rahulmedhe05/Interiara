@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Business Bay, Home Renovation in Business Bay, Best home renovation Business Bay, Professional home renovation Business Bay, Luxury home renovation Business Bay, Home Renovation Business Bay Dubai, Home Renovation designer Business Bay, Home Renovation company Business Bay, Home Renovation contractor Business Bay, Affordable home renovation Business Bay, Modern home renovation Business Bay, Home Renovation consultation Business Bay, Home Renovation cost Business Bay, Home Renovation price Business Bay, Top home renovation Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Business Bay Dubai Company Business Bay Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Business Bay Company Business Bay</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

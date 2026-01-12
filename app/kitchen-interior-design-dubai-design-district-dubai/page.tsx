@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: kitchen interior design design dubai, kitchen interior design design dubai dubai, best kitchen interior design design dubai company dubai, luxury kitchen interior design design dubai dubai, modern kitchen interior design design dubai dubai
+// SEO Keywords: Kitchen Interior Design Dubai Design District, Kitchen Interior Design Dubai in Design District, Best kitchen interior design dubai Design District, Professional kitchen interior design dubai Design District, Luxury kitchen interior design dubai Design District, Kitchen Interior Design Dubai Design District Dubai, Kitchen Interior Design Dubai designer Design District, Kitchen Interior Design Dubai company Design District, Kitchen Interior Design Dubai contractor Design District, Affordable kitchen interior design dubai Design District, Modern kitchen interior design dubai Design District, Kitchen Interior Design Dubai consultation Design District, Kitchen Interior Design Dubai cost Design District, Kitchen Interior Design Dubai price Design District, Top kitchen interior design dubai Design District
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function KitchenInteriorDesignDubaiDesignDistrict() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Kitchen Interior Design Design District Dubai Company District Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design dubai Design District Company Design District</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

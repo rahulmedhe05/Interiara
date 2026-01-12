@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Sheikh Zayed Road, Space Planning Sheikh in Zayed Road, Best space planning sheikh Zayed Road, Professional space planning sheikh Zayed Road, Luxury space planning sheikh Zayed Road, Space Planning Sheikh Zayed Road Dubai, Space Planning Sheikh designer Zayed Road, Space Planning Sheikh company Zayed Road, Space Planning Sheikh contractor Zayed Road, Affordable space planning sheikh Zayed Road, Modern space planning sheikh Zayed Road, Space Planning Sheikh consultation Zayed Road, Space Planning Sheikh cost Zayed Road, Space Planning Sheikh price Zayed Road, Top space planning sheikh Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Sheikh Zayed Road Dubai Company Sheikh Zayed Road Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning sheikh Zayed Road Company Zayed Road</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

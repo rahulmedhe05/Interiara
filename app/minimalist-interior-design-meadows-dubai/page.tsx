@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Meadows, Minimalist Interior in Design Meadows, Best minimalist interior Design Meadows, Professional minimalist interior Design Meadows, Luxury minimalist interior Design Meadows, Minimalist Interior Design Meadows Dubai, Minimalist Interior designer Design Meadows, Minimalist Interior company Design Meadows, Minimalist Interior contractor Design Meadows, Affordable minimalist interior Design Meadows, Modern minimalist interior Design Meadows, Minimalist Interior consultation Design Meadows, Minimalist Interior cost Design Meadows, Minimalist Interior price Design Meadows, Top minimalist interior Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

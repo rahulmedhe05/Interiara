@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: facade dubai, facade dubai dubai, best facade dubai company dubai, luxury facade dubai dubai, modern facade dubai dubai
+// SEO Keywords:  Facade Design,  in Facade Design, Best  Facade Design, Professional  Facade Design, Luxury  Facade Design,  Facade Design Dubai,  designer Facade Design,  company Facade Design,  contractor Facade Design, Affordable  Facade Design, Modern  Facade Design,  consultation Facade Design,  cost Facade Design,  price Facade Design, Top  Facade Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function FacadeDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Facade Design Dubai Company Design Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Facade Design Company Facade Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Facade Design Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

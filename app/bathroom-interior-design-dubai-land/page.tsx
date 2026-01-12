@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design, Bathroom in Interior Design, Best bathroom Interior Design, Professional bathroom Interior Design, Luxury bathroom Interior Design, Bathroom Interior Design Dubai, Bathroom designer Interior Design, Bathroom company Interior Design, Bathroom contractor Interior Design, Affordable bathroom Interior Design, Modern bathroom Interior Design, Bathroom consultation Interior Design, Bathroom cost Interior Design, Bathroom price Interior Design, Top bathroom Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design Land Dubai Company Land Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Land Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

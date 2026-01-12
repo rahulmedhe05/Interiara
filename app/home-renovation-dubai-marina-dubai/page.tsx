@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Dubai Marina, Home Renovation in Dubai Marina, Best home renovation Dubai Marina, Professional home renovation Dubai Marina, Luxury home renovation Dubai Marina, Home Renovation Dubai Marina Dubai, Home Renovation designer Dubai Marina, Home Renovation company Dubai Marina, Home Renovation contractor Dubai Marina, Affordable home renovation Dubai Marina, Modern home renovation Dubai Marina, Home Renovation consultation Dubai Marina, Home Renovation cost Dubai Marina, Home Renovation price Dubai Marina, Top home renovation Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Dubai Marina Company Dubai Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

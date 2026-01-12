@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: clinic interior design dubai, clinic interior design dubai dubai, best clinic interior design dubai company dubai, luxury clinic interior design dubai dubai, modern clinic interior design dubai dubai
+// SEO Keywords: Clinic Interior Design Al Hamriya, Clinic Interior Design in Al Hamriya, Best clinic interior design Al Hamriya, Professional clinic interior design Al Hamriya, Luxury clinic interior design Al Hamriya, Clinic Interior Design Al Hamriya Dubai, Clinic Interior Design designer Al Hamriya, Clinic Interior Design company Al Hamriya, Clinic Interior Design contractor Al Hamriya, Affordable clinic interior design Al Hamriya, Modern clinic interior design Al Hamriya, Clinic Interior Design consultation Al Hamriya, Clinic Interior Design cost Al Hamriya, Clinic Interior Design price Al Hamriya, Top clinic interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClinicInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Clinic Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

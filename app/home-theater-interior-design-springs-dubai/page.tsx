@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home theater interior design dubai, home theater interior design dubai dubai, best home theater interior design dubai company dubai, luxury home theater interior design dubai dubai, modern home theater interior design dubai dubai
+// SEO Keywords: Home Theater Interior Design Springs, Home Theater Interior in Design Springs, Best home theater interior Design Springs, Professional home theater interior Design Springs, Luxury home theater interior Design Springs, Home Theater Interior Design Springs Dubai, Home Theater Interior designer Design Springs, Home Theater Interior company Design Springs, Home Theater Interior contractor Design Springs, Affordable home theater interior Design Springs, Modern home theater interior Design Springs, Home Theater Interior consultation Design Springs, Home Theater Interior cost Design Springs, Home Theater Interior price Design Springs, Top home theater interior Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeTheaterInteriorDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Theater Interior Design The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home theater interior Design Springs Company Design Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Theater Interior Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

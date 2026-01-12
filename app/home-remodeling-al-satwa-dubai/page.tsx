@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Al Satwa, Home Remodeling in Al Satwa, Best home remodeling Al Satwa, Professional home remodeling Al Satwa, Luxury home remodeling Al Satwa, Home Remodeling Al Satwa Dubai, Home Remodeling designer Al Satwa, Home Remodeling company Al Satwa, Home Remodeling contractor Al Satwa, Affordable home remodeling Al Satwa, Modern home remodeling Al Satwa, Home Remodeling consultation Al Satwa, Home Remodeling cost Al Satwa, Home Remodeling price Al Satwa, Top home remodeling Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

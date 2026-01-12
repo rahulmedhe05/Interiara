@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Jvt, Lighting in Automation Jvt, Best lighting Automation Jvt, Professional lighting Automation Jvt, Luxury lighting Automation Jvt, Lighting Automation Jvt Dubai, Lighting designer Automation Jvt, Lighting company Automation Jvt, Lighting contractor Automation Jvt, Affordable lighting Automation Jvt, Modern lighting Automation Jvt, Lighting consultation Automation Jvt, Lighting cost Automation Jvt, Lighting price Automation Jvt, Top lighting Automation Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Jvt Company Automation Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

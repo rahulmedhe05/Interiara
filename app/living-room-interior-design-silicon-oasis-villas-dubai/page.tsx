@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: living room interior design dubai, living room interior design dubai dubai, best living room interior design dubai company dubai, luxury living room interior design dubai dubai, modern living room interior design dubai dubai
+// SEO Keywords: Living Room Interior Design Silicon Oasis Villas, Living Room Interior Design Silicon in Oasis Villas, Best living room interior design silicon Oasis Villas, Professional living room interior design silicon Oasis Villas, Luxury living room interior design silicon Oasis Villas, Living Room Interior Design Silicon Oasis Villas Dubai, Living Room Interior Design Silicon designer Oasis Villas, Living Room Interior Design Silicon company Oasis Villas, Living Room Interior Design Silicon contractor Oasis Villas, Affordable living room interior design silicon Oasis Villas, Modern living room interior design silicon Oasis Villas, Living Room Interior Design Silicon consultation Oasis Villas, Living Room Interior Design Silicon cost Oasis Villas, Living Room Interior Design Silicon price Oasis Villas, Top living room interior design silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LivingRoomInteriorDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Living Room Interior Design Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior design silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

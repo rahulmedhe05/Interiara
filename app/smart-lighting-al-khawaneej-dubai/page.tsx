@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Al Khawaneej, Smart Lighting in Al Khawaneej, Best smart lighting Al Khawaneej, Professional smart lighting Al Khawaneej, Luxury smart lighting Al Khawaneej, Smart Lighting Al Khawaneej Dubai, Smart Lighting designer Al Khawaneej, Smart Lighting company Al Khawaneej, Smart Lighting contractor Al Khawaneej, Affordable smart lighting Al Khawaneej, Modern smart lighting Al Khawaneej, Smart Lighting consultation Al Khawaneej, Smart Lighting cost Al Khawaneej, Smart Lighting price Al Khawaneej, Top smart lighting Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

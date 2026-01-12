@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: co working space interior design dubai, co working space interior design dubai dubai, best co working space interior design dubai company dubai, luxury co working space interior design dubai dubai, modern co working space interior design dubai dubai
+// SEO Keywords: Co Working Space Interior Design Dubai Hills, Co Working Space Interior Design in Dubai Hills, Best co working space interior design Dubai Hills, Professional co working space interior design Dubai Hills, Luxury co working space interior design Dubai Hills, Co Working Space Interior Design Dubai Hills Dubai, Co Working Space Interior Design designer Dubai Hills, Co Working Space Interior Design company Dubai Hills, Co Working Space Interior Design contractor Dubai Hills, Affordable co working space interior design Dubai Hills, Modern co working space interior design Dubai Hills, Co Working Space Interior Design consultation Dubai Hills, Co Working Space Interior Design cost Dubai Hills, Co Working Space Interior Design price Dubai Hills, Top co working space interior design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CoWorkingSpaceInteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Co Working Space Interior Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best co working space interior design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Co Working Space Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

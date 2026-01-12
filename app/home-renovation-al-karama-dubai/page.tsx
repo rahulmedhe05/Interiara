@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Al Karama, Home Renovation in Al Karama, Best home renovation Al Karama, Professional home renovation Al Karama, Luxury home renovation Al Karama, Home Renovation Al Karama Dubai, Home Renovation designer Al Karama, Home Renovation company Al Karama, Home Renovation contractor Al Karama, Affordable home renovation Al Karama, Modern home renovation Al Karama, Home Renovation consultation Al Karama, Home Renovation cost Al Karama, Home Renovation price Al Karama, Top home renovation Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Al Karama Dubai Company Al Karama Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Al Karama Company Al Karama</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

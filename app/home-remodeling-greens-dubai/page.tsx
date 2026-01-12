@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Greens, Home in Remodeling Greens, Best home Remodeling Greens, Professional home Remodeling Greens, Luxury home Remodeling Greens, Home Remodeling Greens Dubai, Home designer Remodeling Greens, Home company Remodeling Greens, Home contractor Remodeling Greens, Affordable home Remodeling Greens, Modern home Remodeling Greens, Home consultation Remodeling Greens, Home cost Remodeling Greens, Home price Remodeling Greens, Top home Remodeling Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Remodeling Greens Company Remodeling Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

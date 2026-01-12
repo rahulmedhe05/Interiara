@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: terrace interior design interior design dubai, terrace interior design interior design dubai dubai, best terrace interior design interior design dubai company dubai, luxury terrace interior design interior design dubai dubai, modern terrace interior design interior design dubai dubai
+// SEO Keywords: Terrace Interior Design Emirates Hills, Terrace Interior Design in Emirates Hills, Best terrace interior design Emirates Hills, Professional terrace interior design Emirates Hills, Luxury terrace interior design Emirates Hills, Terrace Interior Design Emirates Hills Dubai, Terrace Interior Design designer Emirates Hills, Terrace Interior Design company Emirates Hills, Terrace Interior Design contractor Emirates Hills, Affordable terrace interior design Emirates Hills, Modern terrace interior design Emirates Hills, Terrace Interior Design consultation Emirates Hills, Terrace Interior Design cost Emirates Hills, Terrace Interior Design price Emirates Hills, Top terrace interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function TerraceInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Terrace Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

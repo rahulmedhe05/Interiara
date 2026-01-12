@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: salon interior design dubai, salon interior design dubai dubai, best salon interior design dubai company dubai, luxury salon interior design dubai dubai, modern salon interior design dubai dubai
+// SEO Keywords: Salon Interior Design Nad Al Sheba, Salon Interior Design Nad in Al Sheba, Best salon interior design nad Al Sheba, Professional salon interior design nad Al Sheba, Luxury salon interior design nad Al Sheba, Salon Interior Design Nad Al Sheba Dubai, Salon Interior Design Nad designer Al Sheba, Salon Interior Design Nad company Al Sheba, Salon Interior Design Nad contractor Al Sheba, Affordable salon interior design nad Al Sheba, Modern salon interior design nad Al Sheba, Salon Interior Design Nad consultation Al Sheba, Salon Interior Design Nad cost Al Sheba, Salon Interior Design Nad price Al Sheba, Top salon interior design nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SalonInteriorDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior design nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

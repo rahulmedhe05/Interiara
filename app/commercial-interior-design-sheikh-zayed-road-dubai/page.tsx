@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: commercial interior design dubai, commercial interior design dubai dubai, best commercial interior design dubai company dubai, luxury commercial interior design dubai dubai, modern commercial interior design dubai dubai
+// SEO Keywords: Commercial Interior Design Sheikh Zayed Road, Commercial Interior Design Sheikh in Zayed Road, Best commercial interior design sheikh Zayed Road, Professional commercial interior design sheikh Zayed Road, Luxury commercial interior design sheikh Zayed Road, Commercial Interior Design Sheikh Zayed Road Dubai, Commercial Interior Design Sheikh designer Zayed Road, Commercial Interior Design Sheikh company Zayed Road, Commercial Interior Design Sheikh contractor Zayed Road, Affordable commercial interior design sheikh Zayed Road, Modern commercial interior design sheikh Zayed Road, Commercial Interior Design Sheikh consultation Zayed Road, Commercial Interior Design Sheikh cost Zayed Road, Commercial Interior Design Sheikh price Zayed Road, Top commercial interior design sheikh Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CommercialInteriorDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Commercial Interior Design Sheikh Zayed Road Dubai Company Sheikh Zayed Road Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design sheikh Zayed Road Company Zayed Road</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: eco friendly interior design dubai, eco friendly interior design dubai dubai, best eco friendly interior design dubai company dubai, luxury eco friendly interior design dubai dubai, modern eco friendly interior design dubai dubai
+// SEO Keywords: Eco Friendly Interior Design Al Karama, Eco Friendly Interior Design in Al Karama, Best eco friendly interior design Al Karama, Professional eco friendly interior design Al Karama, Luxury eco friendly interior design Al Karama, Eco Friendly Interior Design Al Karama Dubai, Eco Friendly Interior Design designer Al Karama, Eco Friendly Interior Design company Al Karama, Eco Friendly Interior Design contractor Al Karama, Affordable eco friendly interior design Al Karama, Modern eco friendly interior design Al Karama, Eco Friendly Interior Design consultation Al Karama, Eco Friendly Interior Design cost Al Karama, Eco Friendly Interior Design price Al Karama, Top eco friendly interior design Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function EcoFriendlyInteriorDesignAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Eco Friendly Interior Design Al Karama Dubai Company Al Karama Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior design Al Karama Company Al Karama</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

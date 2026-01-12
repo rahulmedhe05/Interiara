@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Marina, Showroom Interior in Design Marina, Best showroom interior Design Marina, Professional showroom interior Design Marina, Luxury showroom interior Design Marina, Showroom Interior Design Marina Dubai, Showroom Interior designer Design Marina, Showroom Interior company Design Marina, Showroom Interior contractor Design Marina, Affordable showroom interior Design Marina, Modern showroom interior Design Marina, Showroom Interior consultation Design Marina, Showroom Interior cost Design Marina, Showroom Interior price Design Marina, Top showroom interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

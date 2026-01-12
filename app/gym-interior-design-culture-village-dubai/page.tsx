@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Culture Village, Gym Interior Design in Culture Village, Best gym interior design Culture Village, Professional gym interior design Culture Village, Luxury gym interior design Culture Village, Gym Interior Design Culture Village Dubai, Gym Interior Design designer Culture Village, Gym Interior Design company Culture Village, Gym Interior Design contractor Culture Village, Affordable gym interior design Culture Village, Modern gym interior design Culture Village, Gym Interior Design consultation Culture Village, Gym Interior Design cost Culture Village, Gym Interior Design price Culture Village, Top gym interior design Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design Culture Village Dubai Company Culture Village Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Culture Village Company Culture Village</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Bur, Home in Remodeling Bur, Best home Remodeling Bur, Professional home Remodeling Bur, Luxury home Remodeling Bur, Home Remodeling Bur Dubai, Home designer Remodeling Bur, Home company Remodeling Bur, Home contractor Remodeling Bur, Affordable home Remodeling Bur, Modern home Remodeling Bur, Home consultation Remodeling Bur, Home cost Remodeling Bur, Home price Remodeling Bur, Top home Remodeling Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Remodeling Bur Company Remodeling Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

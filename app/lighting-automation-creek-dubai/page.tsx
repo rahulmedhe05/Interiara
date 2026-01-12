@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Creek, Lighting in Automation Creek, Best lighting Automation Creek, Professional lighting Automation Creek, Luxury lighting Automation Creek, Lighting Automation Creek Dubai, Lighting designer Automation Creek, Lighting company Automation Creek, Lighting contractor Automation Creek, Affordable lighting Automation Creek, Modern lighting Automation Creek, Lighting consultation Automation Creek, Lighting cost Automation Creek, Lighting price Automation Creek, Top lighting Automation Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Creek Company Automation Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

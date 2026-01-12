@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Emirates Hills, Closet Design in Emirates Hills, Best closet design Emirates Hills, Professional closet design Emirates Hills, Luxury closet design Emirates Hills, Closet Design Emirates Hills Dubai, Closet Design designer Emirates Hills, Closet Design company Emirates Hills, Closet Design contractor Emirates Hills, Affordable closet design Emirates Hills, Modern closet design Emirates Hills, Closet Design consultation Emirates Hills, Closet Design cost Emirates Hills, Closet Design price Emirates Hills, Top closet design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

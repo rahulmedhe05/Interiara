@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: living room interior design dubai, living room interior design dubai dubai, best living room interior design dubai company dubai, luxury living room interior design dubai dubai, modern living room interior design dubai dubai
+// SEO Keywords: Living Room Interior Design, Living Room in Interior Design, Best living room Interior Design, Professional living room Interior Design, Luxury living room Interior Design, Living Room Interior Design Dubai, Living Room designer Interior Design, Living Room company Interior Design, Living Room contractor Interior Design, Affordable living room Interior Design, Modern living room Interior Design, Living Room consultation Interior Design, Living Room cost Interior Design, Living Room price Interior Design, Top living room Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LivingRoomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Living Room Interior Design South Dubai Company South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

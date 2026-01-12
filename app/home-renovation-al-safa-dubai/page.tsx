@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Al Safa, Home Renovation in Al Safa, Best home renovation Al Safa, Professional home renovation Al Safa, Luxury home renovation Al Safa, Home Renovation Al Safa Dubai, Home Renovation designer Al Safa, Home Renovation company Al Safa, Home Renovation contractor Al Safa, Affordable home renovation Al Safa, Modern home renovation Al Safa, Home Renovation consultation Al Safa, Home Renovation cost Al Safa, Home Renovation price Al Safa, Top home renovation Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

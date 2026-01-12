@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Town Square, Office Fit Out in Town Square, Best office fit out Town Square, Professional office fit out Town Square, Luxury office fit out Town Square, Office Fit Out Town Square Dubai, Office Fit Out designer Town Square, Office Fit Out company Town Square, Office Fit Out contractor Town Square, Affordable office fit out Town Square, Modern office fit out Town Square, Office Fit Out consultation Town Square, Office Fit Out cost Town Square, Office Fit Out price Town Square, Top office fit out Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

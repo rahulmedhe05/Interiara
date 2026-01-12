@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out The Sustainable City, Office Fit Out The in Sustainable City, Best office fit out the Sustainable City, Professional office fit out the Sustainable City, Luxury office fit out the Sustainable City, Office Fit Out The Sustainable City Dubai, Office Fit Out The designer Sustainable City, Office Fit Out The company Sustainable City, Office Fit Out The contractor Sustainable City, Affordable office fit out the Sustainable City, Modern office fit out the Sustainable City, Office Fit Out The consultation Sustainable City, Office Fit Out The cost Sustainable City, Office Fit Out The price Sustainable City, Top office fit out the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

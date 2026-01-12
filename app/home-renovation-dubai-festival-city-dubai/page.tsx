@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation festival dubai, home renovation festival dubai dubai, best home renovation festival dubai company dubai, luxury home renovation festival dubai dubai, modern home renovation festival dubai dubai
+// SEO Keywords: Home Renovation Dubai Festival City, Home Renovation Dubai in Festival City, Best home renovation dubai Festival City, Professional home renovation dubai Festival City, Luxury home renovation dubai Festival City, Home Renovation Dubai Festival City Dubai, Home Renovation Dubai designer Festival City, Home Renovation Dubai company Festival City, Home Renovation Dubai contractor Festival City, Affordable home renovation dubai Festival City, Modern home renovation dubai Festival City, Home Renovation Dubai consultation Festival City, Home Renovation Dubai cost Festival City, Home Renovation Dubai price Festival City, Top home renovation dubai Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation dubai Festival City Company Festival City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

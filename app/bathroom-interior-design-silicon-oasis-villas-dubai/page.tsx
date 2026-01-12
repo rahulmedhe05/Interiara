@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design Silicon Oasis Villas, Bathroom Interior Design Silicon in Oasis Villas, Best bathroom interior design silicon Oasis Villas, Professional bathroom interior design silicon Oasis Villas, Luxury bathroom interior design silicon Oasis Villas, Bathroom Interior Design Silicon Oasis Villas Dubai, Bathroom Interior Design Silicon designer Oasis Villas, Bathroom Interior Design Silicon company Oasis Villas, Bathroom Interior Design Silicon contractor Oasis Villas, Affordable bathroom interior design silicon Oasis Villas, Modern bathroom interior design silicon Oasis Villas, Bathroom Interior Design Silicon consultation Oasis Villas, Bathroom Interior Design Silicon cost Oasis Villas, Bathroom Interior Design Silicon price Oasis Villas, Top bathroom interior design silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior design silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Al Quoz, Affordable Interior Solutions in Al Quoz, Best affordable interior solutions Al Quoz, Professional affordable interior solutions Al Quoz, Luxury affordable interior solutions Al Quoz, Affordable Interior Solutions Al Quoz Dubai, Affordable Interior Solutions designer Al Quoz, Affordable Interior Solutions company Al Quoz, Affordable Interior Solutions contractor Al Quoz, Affordable affordable interior solutions Al Quoz, Modern affordable interior solutions Al Quoz, Affordable Interior Solutions consultation Al Quoz, Affordable Interior Solutions cost Al Quoz, Affordable Interior Solutions price Al Quoz, Top affordable interior solutions Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

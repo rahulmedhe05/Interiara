@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design Jvt, Outdoor Living in Design Jvt, Best outdoor living Design Jvt, Professional outdoor living Design Jvt, Luxury outdoor living Design Jvt, Outdoor Living Design Jvt Dubai, Outdoor Living designer Design Jvt, Outdoor Living company Design Jvt, Outdoor Living contractor Design Jvt, Affordable outdoor living Design Jvt, Modern outdoor living Design Jvt, Outdoor Living consultation Design Jvt, Outdoor Living cost Design Jvt, Outdoor Living price Design Jvt, Top outdoor living Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living Design Jvt Company Design Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

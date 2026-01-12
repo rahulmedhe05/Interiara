@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
+// SEO Keywords: Art Consultation Town Square, Art Consultation in Town Square, Best art consultation Town Square, Professional art consultation Town Square, Luxury art consultation Town Square, Art Consultation Town Square Dubai, Art Consultation designer Town Square, Art Consultation company Town Square, Art Consultation contractor Town Square, Affordable art consultation Town Square, Modern art consultation Town Square, Art Consultation consultation Town Square, Art Consultation cost Town Square, Art Consultation price Town Square, Top art consultation Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArtConsultationTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Bur Dubai, Modular Kitchens in Bur Dubai, Best modular kitchens Bur Dubai, Professional modular kitchens Bur Dubai, Luxury modular kitchens Bur Dubai, Modular Kitchens Bur Dubai Dubai, Modular Kitchens designer Bur Dubai, Modular Kitchens company Bur Dubai, Modular Kitchens contractor Bur Dubai, Affordable modular kitchens Bur Dubai, Modern modular kitchens Bur Dubai, Modular Kitchens consultation Bur Dubai, Modular Kitchens cost Bur Dubai, Modular Kitchens price Bur Dubai, Top modular kitchens Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

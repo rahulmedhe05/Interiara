@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design Springs, Bathroom Interior in Design Springs, Best bathroom interior Design Springs, Professional bathroom interior Design Springs, Luxury bathroom interior Design Springs, Bathroom Interior Design Springs Dubai, Bathroom Interior designer Design Springs, Bathroom Interior company Design Springs, Bathroom Interior contractor Design Springs, Affordable bathroom interior Design Springs, Modern bathroom interior Design Springs, Bathroom Interior consultation Design Springs, Bathroom Interior cost Design Springs, Bathroom Interior price Design Springs, Top bathroom interior Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior Design Springs Company Design Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

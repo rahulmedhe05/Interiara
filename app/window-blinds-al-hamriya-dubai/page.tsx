@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Al Hamriya, Window Blinds in Al Hamriya, Best window blinds Al Hamriya, Professional window blinds Al Hamriya, Luxury window blinds Al Hamriya, Window Blinds Al Hamriya Dubai, Window Blinds designer Al Hamriya, Window Blinds company Al Hamriya, Window Blinds contractor Al Hamriya, Affordable window blinds Al Hamriya, Modern window blinds Al Hamriya, Window Blinds consultation Al Hamriya, Window Blinds cost Al Hamriya, Window Blinds price Al Hamriya, Top window blinds Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Al Jaddaf, Home Renovation in Al Jaddaf, Best home renovation Al Jaddaf, Professional home renovation Al Jaddaf, Luxury home renovation Al Jaddaf, Home Renovation Al Jaddaf Dubai, Home Renovation designer Al Jaddaf, Home Renovation company Al Jaddaf, Home Renovation contractor Al Jaddaf, Affordable home renovation Al Jaddaf, Modern home renovation Al Jaddaf, Home Renovation consultation Al Jaddaf, Home Renovation cost Al Jaddaf, Home Renovation price Al Jaddaf, Top home renovation Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Silicon Oasis Villas, Affordable Interior Solutions Silicon in Oasis Villas, Best affordable interior solutions silicon Oasis Villas, Professional affordable interior solutions silicon Oasis Villas, Luxury affordable interior solutions silicon Oasis Villas, Affordable Interior Solutions Silicon Oasis Villas Dubai, Affordable Interior Solutions Silicon designer Oasis Villas, Affordable Interior Solutions Silicon company Oasis Villas, Affordable Interior Solutions Silicon contractor Oasis Villas, Affordable affordable interior solutions silicon Oasis Villas, Modern affordable interior solutions silicon Oasis Villas, Affordable Interior Solutions Silicon consultation Oasis Villas, Affordable Interior Solutions Silicon cost Oasis Villas, Affordable Interior Solutions Silicon price Oasis Villas, Top affordable interior solutions silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

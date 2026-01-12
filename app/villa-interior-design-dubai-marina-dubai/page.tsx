@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Dubai Marina, Villa Interior Design in Dubai Marina, Best villa interior design Dubai Marina, Professional villa interior design Dubai Marina, Luxury villa interior design Dubai Marina, Villa Interior Design Dubai Marina Dubai, Villa Interior Design designer Dubai Marina, Villa Interior Design company Dubai Marina, Villa Interior Design contractor Dubai Marina, Affordable villa interior design Dubai Marina, Modern villa interior design Dubai Marina, Villa Interior Design consultation Dubai Marina, Villa Interior Design cost Dubai Marina, Villa Interior Design price Dubai Marina, Top villa interior design Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Dubai Marina Company Dubai Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

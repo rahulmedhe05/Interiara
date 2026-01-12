@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Palm, Interior Space in Optimization Palm, Best interior space Optimization Palm, Professional interior space Optimization Palm, Luxury interior space Optimization Palm, Interior Space Optimization Palm Dubai, Interior Space designer Optimization Palm, Interior Space company Optimization Palm, Interior Space contractor Optimization Palm, Affordable interior space Optimization Palm, Modern interior space Optimization Palm, Interior Space consultation Optimization Palm, Interior Space cost Optimization Palm, Interior Space price Optimization Palm, Top interior space Optimization Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space Optimization Palm Company Optimization Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

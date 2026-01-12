@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions The Sustainable City, Budget Interior Solutions The in Sustainable City, Best budget interior solutions the Sustainable City, Professional budget interior solutions the Sustainable City, Luxury budget interior solutions the Sustainable City, Budget Interior Solutions The Sustainable City Dubai, Budget Interior Solutions The designer Sustainable City, Budget Interior Solutions The company Sustainable City, Budget Interior Solutions The contractor Sustainable City, Affordable budget interior solutions the Sustainable City, Modern budget interior solutions the Sustainable City, Budget Interior Solutions The consultation Sustainable City, Budget Interior Solutions The cost Sustainable City, Budget Interior Solutions The price Sustainable City, Top budget interior solutions the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

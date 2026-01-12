@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation hills dubai, office renovation hills dubai dubai, best office renovation hills dubai company dubai, luxury office renovation hills dubai dubai, modern office renovation hills dubai dubai
+// SEO Keywords: Office Renovation Dubai Hills Estate, Office Renovation Dubai in Hills Estate, Best office renovation dubai Hills Estate, Professional office renovation dubai Hills Estate, Luxury office renovation dubai Hills Estate, Office Renovation Dubai Hills Estate Dubai, Office Renovation Dubai designer Hills Estate, Office Renovation Dubai company Hills Estate, Office Renovation Dubai contractor Hills Estate, Affordable office renovation dubai Hills Estate, Modern office renovation dubai Hills Estate, Office Renovation Dubai consultation Hills Estate, Office Renovation Dubai cost Hills Estate, Office Renovation Dubai price Hills Estate, Top office renovation dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

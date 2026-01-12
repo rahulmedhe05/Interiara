@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Discovery Hills, Wall Coverings in Discovery Hills, Best wall coverings Discovery Hills, Professional wall coverings Discovery Hills, Luxury wall coverings Discovery Hills, Wall Coverings Discovery Hills Dubai, Wall Coverings designer Discovery Hills, Wall Coverings company Discovery Hills, Wall Coverings contractor Discovery Hills, Affordable wall coverings Discovery Hills, Modern wall coverings Discovery Hills, Wall Coverings consultation Discovery Hills, Wall Coverings cost Discovery Hills, Wall Coverings price Discovery Hills, Top wall coverings Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: salon interior design dubai, salon interior design dubai dubai, best salon interior design dubai company dubai, luxury salon interior design dubai dubai, modern salon interior design dubai dubai
+// SEO Keywords: Salon Interior Design Lakes, Salon Interior in Design Lakes, Best salon interior Design Lakes, Professional salon interior Design Lakes, Luxury salon interior Design Lakes, Salon Interior Design Lakes Dubai, Salon Interior designer Design Lakes, Salon Interior company Design Lakes, Salon Interior contractor Design Lakes, Affordable salon interior Design Lakes, Modern salon interior Design Lakes, Salon Interior consultation Design Lakes, Salon Interior cost Design Lakes, Salon Interior price Design Lakes, Top salon interior Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SalonInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior Design Lakes Company Design Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

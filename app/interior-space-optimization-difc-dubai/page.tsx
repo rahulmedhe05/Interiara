@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Difc, Interior Space in Optimization Difc, Best interior space Optimization Difc, Professional interior space Optimization Difc, Luxury interior space Optimization Difc, Interior Space Optimization Difc Dubai, Interior Space designer Optimization Difc, Interior Space company Optimization Difc, Interior Space contractor Optimization Difc, Affordable interior space Optimization Difc, Modern interior space Optimization Difc, Interior Space consultation Optimization Difc, Interior Space cost Optimization Difc, Interior Space price Optimization Difc, Top interior space Optimization Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization DIFC Dubai Company DIFC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space Optimization Difc Company Optimization Difc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

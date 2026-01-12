@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: luxury interior design dubai, luxury interior design dubai dubai, best luxury interior design dubai company dubai, luxury luxury interior design dubai dubai, modern luxury interior design dubai dubai
+// SEO Keywords: Luxury Interior Design Jebel Ali, Luxury Interior Design in Jebel Ali, Best luxury interior design Jebel Ali, Professional luxury interior design Jebel Ali, Luxury luxury interior design Jebel Ali, Luxury Interior Design Jebel Ali Dubai, Luxury Interior Design designer Jebel Ali, Luxury Interior Design company Jebel Ali, Luxury Interior Design contractor Jebel Ali, Affordable luxury interior design Jebel Ali, Modern luxury interior design Jebel Ali, Luxury Interior Design consultation Jebel Ali, Luxury Interior Design cost Jebel Ali, Luxury Interior Design price Jebel Ali, Top luxury interior design Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LuxuryInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Luxury Interior Design Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

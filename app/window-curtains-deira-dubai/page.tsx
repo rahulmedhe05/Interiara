@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Deira, Window in Curtains Deira, Best window Curtains Deira, Professional window Curtains Deira, Luxury window Curtains Deira, Window Curtains Deira Dubai, Window designer Curtains Deira, Window company Curtains Deira, Window contractor Curtains Deira, Affordable window Curtains Deira, Modern window Curtains Deira, Window consultation Curtains Deira, Window cost Curtains Deira, Window price Curtains Deira, Top window Curtains Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Deira Dubai Company Deira Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Curtains Deira Company Curtains Deira</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Dubai Hills, Window Curtains in Dubai Hills, Best window curtains Dubai Hills, Professional window curtains Dubai Hills, Luxury window curtains Dubai Hills, Window Curtains Dubai Hills Dubai, Window Curtains designer Dubai Hills, Window Curtains company Dubai Hills, Window Curtains contractor Dubai Hills, Affordable window curtains Dubai Hills, Modern window curtains Dubai Hills, Window Curtains consultation Dubai Hills, Window Curtains cost Dubai Hills, Window Curtains price Dubai Hills, Top window curtains Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

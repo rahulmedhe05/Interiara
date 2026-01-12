@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
+// SEO Keywords: Penthouse Interior Design Nad Al Sheba, Penthouse Interior Design Nad in Al Sheba, Best penthouse interior design nad Al Sheba, Professional penthouse interior design nad Al Sheba, Luxury penthouse interior design nad Al Sheba, Penthouse Interior Design Nad Al Sheba Dubai, Penthouse Interior Design Nad designer Al Sheba, Penthouse Interior Design Nad company Al Sheba, Penthouse Interior Design Nad contractor Al Sheba, Affordable penthouse interior design nad Al Sheba, Modern penthouse interior design nad Al Sheba, Penthouse Interior Design Nad consultation Al Sheba, Penthouse Interior Design Nad cost Al Sheba, Penthouse Interior Design Nad price Al Sheba, Top penthouse interior design nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function PenthouseInteriorDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

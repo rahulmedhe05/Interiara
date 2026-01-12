@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation palm dubai, office renovation palm dubai dubai, best office renovation palm dubai company dubai, luxury office renovation palm dubai dubai, modern office renovation palm dubai dubai
+// SEO Keywords: Office Renovation Palm Jumeirah, Office Renovation in Palm Jumeirah, Best office renovation Palm Jumeirah, Professional office renovation Palm Jumeirah, Luxury office renovation Palm Jumeirah, Office Renovation Palm Jumeirah Dubai, Office Renovation designer Palm Jumeirah, Office Renovation company Palm Jumeirah, Office Renovation contractor Palm Jumeirah, Affordable office renovation Palm Jumeirah, Modern office renovation Palm Jumeirah, Office Renovation consultation Palm Jumeirah, Office Renovation cost Palm Jumeirah, Office Renovation price Palm Jumeirah, Top office renovation Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

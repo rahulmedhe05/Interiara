@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: terrace interior design interior design dubai, terrace interior design interior design dubai dubai, best terrace interior design interior design dubai company dubai, luxury terrace interior design interior design dubai dubai, modern terrace interior design interior design dubai dubai
+// SEO Keywords: Terrace Interior Design Al Satwa, Terrace Interior Design in Al Satwa, Best terrace interior design Al Satwa, Professional terrace interior design Al Satwa, Luxury terrace interior design Al Satwa, Terrace Interior Design Al Satwa Dubai, Terrace Interior Design designer Al Satwa, Terrace Interior Design company Al Satwa, Terrace Interior Design contractor Al Satwa, Affordable terrace interior design Al Satwa, Modern terrace interior design Al Satwa, Terrace Interior Design consultation Al Satwa, Terrace Interior Design cost Al Satwa, Terrace Interior Design price Al Satwa, Top terrace interior design Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function TerraceInteriorDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Terrace Interior Design Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

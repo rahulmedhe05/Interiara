@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: 3d interior rendering dubai, 3d interior rendering dubai dubai, best 3d interior rendering dubai company dubai, luxury 3d interior rendering dubai dubai, modern 3d interior rendering dubai dubai
+// SEO Keywords: 3D Interior Rendering The Sustainable City, 3D Interior Rendering The in Sustainable City, Best 3d interior rendering the Sustainable City, Professional 3d interior rendering the Sustainable City, Luxury 3d interior rendering the Sustainable City, 3D Interior Rendering The Sustainable City Dubai, 3D Interior Rendering The designer Sustainable City, 3D Interior Rendering The company Sustainable City, 3D Interior Rendering The contractor Sustainable City, Affordable 3d interior rendering the Sustainable City, Modern 3d interior rendering the Sustainable City, 3D Interior Rendering The consultation Sustainable City, 3D Interior Rendering The cost Sustainable City, 3D Interior Rendering The price Sustainable City, Top 3d interior rendering the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function 3DInteriorRenderingTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3D Interior Rendering The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3d interior rendering the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert 3D Interior Rendering The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

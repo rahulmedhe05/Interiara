@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Muhaisnah, Home in Remodeling Muhaisnah, Best home Remodeling Muhaisnah, Professional home Remodeling Muhaisnah, Luxury home Remodeling Muhaisnah, Home Remodeling Muhaisnah Dubai, Home designer Remodeling Muhaisnah, Home company Remodeling Muhaisnah, Home contractor Remodeling Muhaisnah, Affordable home Remodeling Muhaisnah, Modern home Remodeling Muhaisnah, Home consultation Remodeling Muhaisnah, Home cost Remodeling Muhaisnah, Home price Remodeling Muhaisnah, Top home Remodeling Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Remodeling Muhaisnah Company Remodeling Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

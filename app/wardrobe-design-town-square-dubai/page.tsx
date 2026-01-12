@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Town Square, Wardrobe Design in Town Square, Best wardrobe design Town Square, Professional wardrobe design Town Square, Luxury wardrobe design Town Square, Wardrobe Design Town Square Dubai, Wardrobe Design designer Town Square, Wardrobe Design company Town Square, Wardrobe Design contractor Town Square, Affordable wardrobe design Town Square, Modern wardrobe design Town Square, Wardrobe Design consultation Town Square, Wardrobe Design cost Town Square, Wardrobe Design price Town Square, Top wardrobe design Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

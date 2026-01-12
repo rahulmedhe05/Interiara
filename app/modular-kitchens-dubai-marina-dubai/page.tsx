@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Dubai Marina, Modular Kitchens in Dubai Marina, Best modular kitchens Dubai Marina, Professional modular kitchens Dubai Marina, Luxury modular kitchens Dubai Marina, Modular Kitchens Dubai Marina Dubai, Modular Kitchens designer Dubai Marina, Modular Kitchens company Dubai Marina, Modular Kitchens contractor Dubai Marina, Affordable modular kitchens Dubai Marina, Modern modular kitchens Dubai Marina, Modular Kitchens consultation Dubai Marina, Modular Kitchens cost Dubai Marina, Modular Kitchens price Dubai Marina, Top modular kitchens Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Dubai Marina Company Dubai Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

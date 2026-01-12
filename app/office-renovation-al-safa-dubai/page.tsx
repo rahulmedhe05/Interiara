@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Al Safa, Office Renovation in Al Safa, Best office renovation Al Safa, Professional office renovation Al Safa, Luxury office renovation Al Safa, Office Renovation Al Safa Dubai, Office Renovation designer Al Safa, Office Renovation company Al Safa, Office Renovation contractor Al Safa, Affordable office renovation Al Safa, Modern office renovation Al Safa, Office Renovation consultation Al Safa, Office Renovation cost Al Safa, Office Renovation price Al Safa, Top office renovation Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office interior design dubai, office interior design dubai dubai, best office interior design dubai company dubai, luxury office interior design dubai dubai, modern office interior design dubai dubai
+// SEO Keywords: Office Interior Design Jbr, Office Interior in Design Jbr, Best office interior Design Jbr, Professional office interior Design Jbr, Luxury office interior Design Jbr, Office Interior Design Jbr Dubai, Office Interior designer Design Jbr, Office Interior company Design Jbr, Office Interior contractor Design Jbr, Affordable office interior Design Jbr, Modern office interior Design Jbr, Office Interior consultation Design Jbr, Office Interior cost Design Jbr, Office Interior price Design Jbr, Top office interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

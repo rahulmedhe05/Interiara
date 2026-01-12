@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: healthcare interior design dubai, healthcare interior design dubai dubai, best healthcare interior design dubai company dubai, luxury healthcare interior design dubai dubai, modern healthcare interior design dubai dubai
+// SEO Keywords: Healthcare Interior Design Jbr, Healthcare Interior in Design Jbr, Best healthcare interior Design Jbr, Professional healthcare interior Design Jbr, Luxury healthcare interior Design Jbr, Healthcare Interior Design Jbr Dubai, Healthcare Interior designer Design Jbr, Healthcare Interior company Design Jbr, Healthcare Interior contractor Design Jbr, Affordable healthcare interior Design Jbr, Modern healthcare interior Design Jbr, Healthcare Interior consultation Design Jbr, Healthcare Interior cost Design Jbr, Healthcare Interior price Design Jbr, Top healthcare interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HealthcareInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Healthcare Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

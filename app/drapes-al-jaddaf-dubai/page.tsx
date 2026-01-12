@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
+// SEO Keywords: Drapes Al Jaddaf, Drapes in Al Jaddaf, Best drapes Al Jaddaf, Professional drapes Al Jaddaf, Luxury drapes Al Jaddaf, Drapes Al Jaddaf Dubai, Drapes designer Al Jaddaf, Drapes company Al Jaddaf, Drapes contractor Al Jaddaf, Affordable drapes Al Jaddaf, Modern drapes Al Jaddaf, Drapes consultation Al Jaddaf, Drapes cost Al Jaddaf, Drapes price Al Jaddaf, Top drapes Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

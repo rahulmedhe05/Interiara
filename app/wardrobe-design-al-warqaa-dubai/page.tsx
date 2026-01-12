@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Al Warqaa, Wardrobe Design in Al Warqaa, Best wardrobe design Al Warqaa, Professional wardrobe design Al Warqaa, Luxury wardrobe design Al Warqaa, Wardrobe Design Al Warqaa Dubai, Wardrobe Design designer Al Warqaa, Wardrobe Design company Al Warqaa, Wardrobe Design contractor Al Warqaa, Affordable wardrobe design Al Warqaa, Modern wardrobe design Al Warqaa, Wardrobe Design consultation Al Warqaa, Wardrobe Design cost Al Warqaa, Wardrobe Design price Al Warqaa, Top wardrobe design Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

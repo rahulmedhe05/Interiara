@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: banquet hall interior design dubai, banquet hall interior design dubai dubai, best banquet hall interior design dubai company dubai, luxury banquet hall interior design dubai dubai, modern banquet hall interior design dubai dubai
+// SEO Keywords: Banquet Hall Interior Design Creek, Banquet Hall Interior in Design Creek, Best banquet hall interior Design Creek, Professional banquet hall interior Design Creek, Luxury banquet hall interior Design Creek, Banquet Hall Interior Design Creek Dubai, Banquet Hall Interior designer Design Creek, Banquet Hall Interior company Design Creek, Banquet Hall Interior contractor Design Creek, Affordable banquet hall interior Design Creek, Modern banquet hall interior Design Creek, Banquet Hall Interior consultation Design Creek, Banquet Hall Interior cost Design Creek, Banquet Hall Interior price Design Creek, Top banquet hall interior Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BanquetHallInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Banquet Hall Interior Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

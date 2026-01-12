@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Downtown, Minimalist Interior in Design Downtown, Best minimalist interior Design Downtown, Professional minimalist interior Design Downtown, Luxury minimalist interior Design Downtown, Minimalist Interior Design Downtown Dubai, Minimalist Interior designer Design Downtown, Minimalist Interior company Design Downtown, Minimalist Interior contractor Design Downtown, Affordable minimalist interior Design Downtown, Modern minimalist interior Design Downtown, Minimalist Interior consultation Design Downtown, Minimalist Interior cost Design Downtown, Minimalist Interior price Design Downtown, Top minimalist interior Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Downtown Company Design Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

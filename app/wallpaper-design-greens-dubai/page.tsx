@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Greens, Wallpaper in Design Greens, Best wallpaper Design Greens, Professional wallpaper Design Greens, Luxury wallpaper Design Greens, Wallpaper Design Greens Dubai, Wallpaper designer Design Greens, Wallpaper company Design Greens, Wallpaper contractor Design Greens, Affordable wallpaper Design Greens, Modern wallpaper Design Greens, Wallpaper consultation Design Greens, Wallpaper cost Design Greens, Wallpaper price Design Greens, Top wallpaper Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper Design Greens Company Design Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Jlt, Interior Space in Optimization Jlt, Best interior space Optimization Jlt, Professional interior space Optimization Jlt, Luxury interior space Optimization Jlt, Interior Space Optimization Jlt Dubai, Interior Space designer Optimization Jlt, Interior Space company Optimization Jlt, Interior Space contractor Optimization Jlt, Affordable interior space Optimization Jlt, Modern interior space Optimization Jlt, Interior Space consultation Optimization Jlt, Interior Space cost Optimization Jlt, Interior Space price Optimization Jlt, Top interior space Optimization Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space Optimization Jlt Company Optimization Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

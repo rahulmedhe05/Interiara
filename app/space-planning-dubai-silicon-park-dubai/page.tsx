@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning silicon dubai, space planning silicon dubai dubai, best space planning silicon dubai company dubai, luxury space planning silicon dubai dubai, modern space planning silicon dubai dubai
+// SEO Keywords: Space Planning Dubai Silicon Park, Space Planning Dubai in Silicon Park, Best space planning dubai Silicon Park, Professional space planning dubai Silicon Park, Luxury space planning dubai Silicon Park, Space Planning Dubai Silicon Park Dubai, Space Planning Dubai designer Silicon Park, Space Planning Dubai company Silicon Park, Space Planning Dubai contractor Silicon Park, Affordable space planning dubai Silicon Park, Modern space planning dubai Silicon Park, Space Planning Dubai consultation Silicon Park, Space Planning Dubai cost Silicon Park, Space Planning Dubai price Silicon Park, Top space planning dubai Silicon Park
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiSiliconPark() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Silicon Park Dubai Company Park Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Silicon Park Company Silicon Park</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Silicon Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

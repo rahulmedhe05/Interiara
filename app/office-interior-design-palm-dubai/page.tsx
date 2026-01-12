@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office interior design dubai, office interior design dubai dubai, best office interior design dubai company dubai, luxury office interior design dubai dubai, modern office interior design dubai dubai
+// SEO Keywords: Office Interior Design Palm, Office Interior in Design Palm, Best office interior Design Palm, Professional office interior Design Palm, Luxury office interior Design Palm, Office Interior Design Palm Dubai, Office Interior designer Design Palm, Office Interior company Design Palm, Office Interior contractor Design Palm, Affordable office interior Design Palm, Modern office interior Design Palm, Office Interior consultation Design Palm, Office Interior cost Design Palm, Office Interior price Design Palm, Top office interior Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Interior Design Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Palm Company Design Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

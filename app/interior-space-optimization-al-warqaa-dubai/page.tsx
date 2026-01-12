@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Al Warqaa, Interior Space Optimization in Al Warqaa, Best interior space optimization Al Warqaa, Professional interior space optimization Al Warqaa, Luxury interior space optimization Al Warqaa, Interior Space Optimization Al Warqaa Dubai, Interior Space Optimization designer Al Warqaa, Interior Space Optimization company Al Warqaa, Interior Space Optimization contractor Al Warqaa, Affordable interior space optimization Al Warqaa, Modern interior space optimization Al Warqaa, Interior Space Optimization consultation Al Warqaa, Interior Space Optimization cost Al Warqaa, Interior Space Optimization price Al Warqaa, Top interior space optimization Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

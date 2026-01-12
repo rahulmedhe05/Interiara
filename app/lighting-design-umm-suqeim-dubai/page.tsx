@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Umm Suqeim, Lighting Design in Umm Suqeim, Best lighting design Umm Suqeim, Professional lighting design Umm Suqeim, Luxury lighting design Umm Suqeim, Lighting Design Umm Suqeim Dubai, Lighting Design designer Umm Suqeim, Lighting Design company Umm Suqeim, Lighting Design contractor Umm Suqeim, Affordable lighting design Umm Suqeim, Modern lighting design Umm Suqeim, Lighting Design consultation Umm Suqeim, Lighting Design cost Umm Suqeim, Lighting Design price Umm Suqeim, Top lighting design Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

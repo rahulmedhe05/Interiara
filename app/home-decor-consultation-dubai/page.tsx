@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor dubai, home decor dubai dubai, best home decor dubai company dubai, luxury home decor dubai dubai, modern home decor dubai dubai
+// SEO Keywords: Home Decor Consultation, Home in Decor Consultation, Best home Decor Consultation, Professional home Decor Consultation, Luxury home Decor Consultation, Home Decor Consultation Dubai, Home designer Decor Consultation, Home company Decor Consultation, Home contractor Decor Consultation, Affordable home Decor Consultation, Modern home Decor Consultation, Home consultation Decor Consultation, Home cost Decor Consultation, Home price Decor Consultation, Top home Decor Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Dubai Company Consultation Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Decor Consultation Company Decor Consultation</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

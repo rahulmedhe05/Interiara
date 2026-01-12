@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: balcony interior design dubai, balcony interior design dubai dubai, best balcony interior design dubai company dubai, luxury balcony interior design dubai dubai, modern balcony interior design dubai dubai
+// SEO Keywords: Balcony Interior Design Jlt, Balcony Interior in Design Jlt, Best balcony interior Design Jlt, Professional balcony interior Design Jlt, Luxury balcony interior Design Jlt, Balcony Interior Design Jlt Dubai, Balcony Interior designer Design Jlt, Balcony Interior company Design Jlt, Balcony Interior contractor Design Jlt, Affordable balcony interior Design Jlt, Modern balcony interior Design Jlt, Balcony Interior consultation Design Jlt, Balcony Interior cost Design Jlt, Balcony Interior price Design Jlt, Top balcony interior Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BalconyInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Balcony Interior Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best balcony interior Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Balcony Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

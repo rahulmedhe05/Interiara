@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Jumeirah, Wall Flooring in Design Jumeirah, Best wall flooring Design Jumeirah, Professional wall flooring Design Jumeirah, Luxury wall flooring Design Jumeirah, Wall Flooring Design Jumeirah Dubai, Wall Flooring designer Design Jumeirah, Wall Flooring company Design Jumeirah, Wall Flooring contractor Design Jumeirah, Affordable wall flooring Design Jumeirah, Modern wall flooring Design Jumeirah, Wall Flooring consultation Design Jumeirah, Wall Flooring cost Design Jumeirah, Wall Flooring price Design Jumeirah, Top wall flooring Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

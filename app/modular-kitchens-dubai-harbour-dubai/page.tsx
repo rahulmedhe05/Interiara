@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Dubai Harbour, Modular Kitchens in Dubai Harbour, Best modular kitchens Dubai Harbour, Professional modular kitchens Dubai Harbour, Luxury modular kitchens Dubai Harbour, Modular Kitchens Dubai Harbour Dubai, Modular Kitchens designer Dubai Harbour, Modular Kitchens company Dubai Harbour, Modular Kitchens contractor Dubai Harbour, Affordable modular kitchens Dubai Harbour, Modern modular kitchens Dubai Harbour, Modular Kitchens consultation Dubai Harbour, Modular Kitchens cost Dubai Harbour, Modular Kitchens price Dubai Harbour, Top modular kitchens Dubai Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Dubai Harbour Company Dubai Harbour</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

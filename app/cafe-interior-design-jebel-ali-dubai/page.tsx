@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: cafe interior design dubai, cafe interior design dubai dubai, best cafe interior design dubai company dubai, luxury cafe interior design dubai dubai, modern cafe interior design dubai dubai
+// SEO Keywords: Cafe Interior Design Jebel Ali, Cafe Interior Design in Jebel Ali, Best cafe interior design Jebel Ali, Professional cafe interior design Jebel Ali, Luxury cafe interior design Jebel Ali, Cafe Interior Design Jebel Ali Dubai, Cafe Interior Design designer Jebel Ali, Cafe Interior Design company Jebel Ali, Cafe Interior Design contractor Jebel Ali, Affordable cafe interior design Jebel Ali, Modern cafe interior design Jebel Ali, Cafe Interior Design consultation Jebel Ali, Cafe Interior Design cost Jebel Ali, Cafe Interior Design price Jebel Ali, Top cafe interior design Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CafeInteriorDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Cafe Interior Design Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior design Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

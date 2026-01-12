@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Lakes, Wall Flooring in Design Lakes, Best wall flooring Design Lakes, Professional wall flooring Design Lakes, Luxury wall flooring Design Lakes, Wall Flooring Design Lakes Dubai, Wall Flooring designer Design Lakes, Wall Flooring company Design Lakes, Wall Flooring contractor Design Lakes, Affordable wall flooring Design Lakes, Modern wall flooring Design Lakes, Wall Flooring consultation Design Lakes, Wall Flooring cost Design Lakes, Wall Flooring price Design Lakes, Top wall flooring Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Lakes Company Design Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

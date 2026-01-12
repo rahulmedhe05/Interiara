@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modern interior design dubai, modern interior design dubai dubai, best modern interior design dubai company dubai, luxury modern interior design dubai dubai, modern modern interior design dubai dubai
+// SEO Keywords: Modern Interior Design Arabian Ranches, Modern Interior Design in Arabian Ranches, Best modern interior design Arabian Ranches, Professional modern interior design Arabian Ranches, Luxury modern interior design Arabian Ranches, Modern Interior Design Arabian Ranches Dubai, Modern Interior Design designer Arabian Ranches, Modern Interior Design company Arabian Ranches, Modern Interior Design contractor Arabian Ranches, Affordable modern interior design Arabian Ranches, Modern modern interior design Arabian Ranches, Modern Interior Design consultation Arabian Ranches, Modern Interior Design cost Arabian Ranches, Modern Interior Design price Arabian Ranches, Top modern interior design Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModernInteriorDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modern Interior Design Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior design Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

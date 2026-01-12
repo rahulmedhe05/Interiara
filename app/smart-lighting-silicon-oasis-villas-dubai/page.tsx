@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Silicon Oasis Villas, Smart Lighting Silicon in Oasis Villas, Best smart lighting silicon Oasis Villas, Professional smart lighting silicon Oasis Villas, Luxury smart lighting silicon Oasis Villas, Smart Lighting Silicon Oasis Villas Dubai, Smart Lighting Silicon designer Oasis Villas, Smart Lighting Silicon company Oasis Villas, Smart Lighting Silicon contractor Oasis Villas, Affordable smart lighting silicon Oasis Villas, Modern smart lighting silicon Oasis Villas, Smart Lighting Silicon consultation Oasis Villas, Smart Lighting Silicon cost Oasis Villas, Smart Lighting Silicon price Oasis Villas, Top smart lighting silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

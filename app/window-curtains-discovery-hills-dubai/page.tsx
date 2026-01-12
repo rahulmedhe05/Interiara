@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Discovery Hills, Window Curtains in Discovery Hills, Best window curtains Discovery Hills, Professional window curtains Discovery Hills, Luxury window curtains Discovery Hills, Window Curtains Discovery Hills Dubai, Window Curtains designer Discovery Hills, Window Curtains company Discovery Hills, Window Curtains contractor Discovery Hills, Affordable window curtains Discovery Hills, Modern window curtains Discovery Hills, Window Curtains consultation Discovery Hills, Window Curtains cost Discovery Hills, Window Curtains price Discovery Hills, Top window curtains Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

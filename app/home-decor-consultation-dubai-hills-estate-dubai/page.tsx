@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation hills dubai, home decor consultation hills dubai dubai, best home decor consultation hills dubai company dubai, luxury home decor consultation hills dubai dubai, modern home decor consultation hills dubai dubai
+// SEO Keywords: Home Decor Consultation Dubai Hills Estate, Home Decor Consultation Dubai in Hills Estate, Best home decor consultation dubai Hills Estate, Professional home decor consultation dubai Hills Estate, Luxury home decor consultation dubai Hills Estate, Home Decor Consultation Dubai Hills Estate Dubai, Home Decor Consultation Dubai designer Hills Estate, Home Decor Consultation Dubai company Hills Estate, Home Decor Consultation Dubai contractor Hills Estate, Affordable home decor consultation dubai Hills Estate, Modern home decor consultation dubai Hills Estate, Home Decor Consultation Dubai consultation Hills Estate, Home Decor Consultation Dubai cost Hills Estate, Home Decor Consultation Dubai price Hills Estate, Top home decor consultation dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

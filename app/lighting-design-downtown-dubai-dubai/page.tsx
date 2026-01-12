@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Downtown Dubai, Lighting Design in Downtown Dubai, Best lighting design Downtown Dubai, Professional lighting design Downtown Dubai, Luxury lighting design Downtown Dubai, Lighting Design Downtown Dubai Dubai, Lighting Design designer Downtown Dubai, Lighting Design company Downtown Dubai, Lighting Design contractor Downtown Dubai, Affordable lighting design Downtown Dubai, Modern lighting design Downtown Dubai, Lighting Design consultation Downtown Dubai, Lighting Design cost Downtown Dubai, Lighting Design price Downtown Dubai, Top lighting design Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Downtown Dubai Company Downtown Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

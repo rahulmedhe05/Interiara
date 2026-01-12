@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Al Khawaneej, Wardrobe Design in Al Khawaneej, Best wardrobe design Al Khawaneej, Professional wardrobe design Al Khawaneej, Luxury wardrobe design Al Khawaneej, Wardrobe Design Al Khawaneej Dubai, Wardrobe Design designer Al Khawaneej, Wardrobe Design company Al Khawaneej, Wardrobe Design contractor Al Khawaneej, Affordable wardrobe design Al Khawaneej, Modern wardrobe design Al Khawaneej, Wardrobe Design consultation Al Khawaneej, Wardrobe Design cost Al Khawaneej, Wardrobe Design price Al Khawaneej, Top wardrobe design Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

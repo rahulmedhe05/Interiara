@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Business Bay South, Lighting Automation Business in Bay South, Best lighting automation business Bay South, Professional lighting automation business Bay South, Luxury lighting automation business Bay South, Lighting Automation Business Bay South Dubai, Lighting Automation Business designer Bay South, Lighting Automation Business company Bay South, Lighting Automation Business contractor Bay South, Affordable lighting automation business Bay South, Modern lighting automation business Bay South, Lighting Automation Business consultation Bay South, Lighting Automation Business cost Bay South, Lighting Automation Business price Bay South, Top lighting automation business Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Business Bay South Dubai Company Business Bay South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation business Bay South Company Bay South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design palm dubai, acoustic design palm dubai dubai, best acoustic design palm dubai company dubai, luxury acoustic design palm dubai dubai, modern acoustic design palm dubai dubai
+// SEO Keywords: Acoustic Design Palm Jumeirah, Acoustic Design in Palm Jumeirah, Best acoustic design Palm Jumeirah, Professional acoustic design Palm Jumeirah, Luxury acoustic design Palm Jumeirah, Acoustic Design Palm Jumeirah Dubai, Acoustic Design designer Palm Jumeirah, Acoustic Design company Palm Jumeirah, Acoustic Design contractor Palm Jumeirah, Affordable acoustic design Palm Jumeirah, Modern acoustic design Palm Jumeirah, Acoustic Design consultation Palm Jumeirah, Acoustic Design cost Palm Jumeirah, Acoustic Design price Palm Jumeirah, Top acoustic design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

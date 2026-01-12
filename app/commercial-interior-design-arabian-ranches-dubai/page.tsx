@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: commercial interior design dubai, commercial interior design dubai dubai, best commercial interior design dubai company dubai, luxury commercial interior design dubai dubai, modern commercial interior design dubai dubai
+// SEO Keywords: Commercial Interior Design Arabian Ranches, Commercial Interior Design in Arabian Ranches, Best commercial interior design Arabian Ranches, Professional commercial interior design Arabian Ranches, Luxury commercial interior design Arabian Ranches, Commercial Interior Design Arabian Ranches Dubai, Commercial Interior Design designer Arabian Ranches, Commercial Interior Design company Arabian Ranches, Commercial Interior Design contractor Arabian Ranches, Affordable commercial interior design Arabian Ranches, Modern commercial interior design Arabian Ranches, Commercial Interior Design consultation Arabian Ranches, Commercial Interior Design cost Arabian Ranches, Commercial Interior Design price Arabian Ranches, Top commercial interior design Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CommercialInteriorDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Commercial Interior Design Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

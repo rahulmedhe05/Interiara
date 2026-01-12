@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: eco friendly interior design marina dubai, eco friendly interior design marina dubai dubai, best eco friendly interior design marina dubai company dubai, luxury eco friendly interior design marina dubai dubai, modern eco friendly interior design marina dubai dubai
+// SEO Keywords: Eco Friendly Interior Design, Eco Friendly in Interior Design, Best eco friendly Interior Design, Professional eco friendly Interior Design, Luxury eco friendly Interior Design, Eco Friendly Interior Design Dubai, Eco Friendly designer Interior Design, Eco Friendly company Interior Design, Eco Friendly contractor Interior Design, Affordable eco friendly Interior Design, Modern eco friendly Interior Design, Eco Friendly consultation Interior Design, Eco Friendly cost Interior Design, Eco Friendly price Interior Design, Top eco friendly Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function EcoFriendlyInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Eco Friendly Interior Design Marina Promenade Dubai Company Promenade Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Marina Promenade Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

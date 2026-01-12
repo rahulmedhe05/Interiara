@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design Sheikh Zayed Road, Bathroom Interior Design Sheikh in Zayed Road, Best bathroom interior design sheikh Zayed Road, Professional bathroom interior design sheikh Zayed Road, Luxury bathroom interior design sheikh Zayed Road, Bathroom Interior Design Sheikh Zayed Road Dubai, Bathroom Interior Design Sheikh designer Zayed Road, Bathroom Interior Design Sheikh company Zayed Road, Bathroom Interior Design Sheikh contractor Zayed Road, Affordable bathroom interior design sheikh Zayed Road, Modern bathroom interior design sheikh Zayed Road, Bathroom Interior Design Sheikh consultation Zayed Road, Bathroom Interior Design Sheikh cost Zayed Road, Bathroom Interior Design Sheikh price Zayed Road, Top bathroom interior design sheikh Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design Sheikh Zayed Road Dubai Company Sheikh Zayed Road Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior design sheikh Zayed Road Company Zayed Road</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

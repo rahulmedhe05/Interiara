@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Al Safouh, Wall Coverings in Al Safouh, Best wall coverings Al Safouh, Professional wall coverings Al Safouh, Luxury wall coverings Al Safouh, Wall Coverings Al Safouh Dubai, Wall Coverings designer Al Safouh, Wall Coverings company Al Safouh, Wall Coverings contractor Al Safouh, Affordable wall coverings Al Safouh, Modern wall coverings Al Safouh, Wall Coverings consultation Al Safouh, Wall Coverings cost Al Safouh, Wall Coverings price Al Safouh, Top wall coverings Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

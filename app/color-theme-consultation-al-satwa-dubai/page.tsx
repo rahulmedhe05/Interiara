@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: color theme consultation dubai, color theme consultation dubai dubai, best color theme consultation dubai company dubai, luxury color theme consultation dubai dubai, modern color theme consultation dubai dubai
+// SEO Keywords: Color Theme Consultation Al Satwa, Color Theme Consultation in Al Satwa, Best color theme consultation Al Satwa, Professional color theme consultation Al Satwa, Luxury color theme consultation Al Satwa, Color Theme Consultation Al Satwa Dubai, Color Theme Consultation designer Al Satwa, Color Theme Consultation company Al Satwa, Color Theme Consultation contractor Al Satwa, Affordable color theme consultation Al Satwa, Modern color theme consultation Al Satwa, Color Theme Consultation consultation Al Satwa, Color Theme Consultation cost Al Satwa, Color Theme Consultation price Al Satwa, Top color theme consultation Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ColorThemeConsultationAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

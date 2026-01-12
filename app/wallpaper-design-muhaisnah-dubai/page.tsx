@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Muhaisnah, Wallpaper in Design Muhaisnah, Best wallpaper Design Muhaisnah, Professional wallpaper Design Muhaisnah, Luxury wallpaper Design Muhaisnah, Wallpaper Design Muhaisnah Dubai, Wallpaper designer Design Muhaisnah, Wallpaper company Design Muhaisnah, Wallpaper contractor Design Muhaisnah, Affordable wallpaper Design Muhaisnah, Modern wallpaper Design Muhaisnah, Wallpaper consultation Design Muhaisnah, Wallpaper cost Design Muhaisnah, Wallpaper price Design Muhaisnah, Top wallpaper Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

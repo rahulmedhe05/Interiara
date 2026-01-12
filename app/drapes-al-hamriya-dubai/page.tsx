@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
+// SEO Keywords: Drapes Al Hamriya, Drapes in Al Hamriya, Best drapes Al Hamriya, Professional drapes Al Hamriya, Luxury drapes Al Hamriya, Drapes Al Hamriya Dubai, Drapes designer Al Hamriya, Drapes company Al Hamriya, Drapes contractor Al Hamriya, Affordable drapes Al Hamriya, Modern drapes Al Hamriya, Drapes consultation Al Hamriya, Drapes cost Al Hamriya, Drapes price Al Hamriya, Top drapes Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

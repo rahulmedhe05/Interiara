@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
+// SEO Keywords: Drapes Nad Al Sheba, Drapes Nad in Al Sheba, Best drapes nad Al Sheba, Professional drapes nad Al Sheba, Luxury drapes nad Al Sheba, Drapes Nad Al Sheba Dubai, Drapes Nad designer Al Sheba, Drapes Nad company Al Sheba, Drapes Nad contractor Al Sheba, Affordable drapes nad Al Sheba, Modern drapes nad Al Sheba, Drapes Nad consultation Al Sheba, Drapes Nad cost Al Sheba, Drapes Nad price Al Sheba, Top drapes nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

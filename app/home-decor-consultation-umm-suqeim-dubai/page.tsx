@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Umm Suqeim, Home Decor Consultation in Umm Suqeim, Best home decor consultation Umm Suqeim, Professional home decor consultation Umm Suqeim, Luxury home decor consultation Umm Suqeim, Home Decor Consultation Umm Suqeim Dubai, Home Decor Consultation designer Umm Suqeim, Home Decor Consultation company Umm Suqeim, Home Decor Consultation contractor Umm Suqeim, Affordable home decor consultation Umm Suqeim, Modern home decor consultation Umm Suqeim, Home Decor Consultation consultation Umm Suqeim, Home Decor Consultation cost Umm Suqeim, Home Decor Consultation price Umm Suqeim, Top home decor consultation Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

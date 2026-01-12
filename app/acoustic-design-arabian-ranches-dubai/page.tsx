@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Arabian Ranches, Acoustic Design in Arabian Ranches, Best acoustic design Arabian Ranches, Professional acoustic design Arabian Ranches, Luxury acoustic design Arabian Ranches, Acoustic Design Arabian Ranches Dubai, Acoustic Design designer Arabian Ranches, Acoustic Design company Arabian Ranches, Acoustic Design contractor Arabian Ranches, Affordable acoustic design Arabian Ranches, Modern acoustic design Arabian Ranches, Acoustic Design consultation Arabian Ranches, Acoustic Design cost Arabian Ranches, Acoustic Design price Arabian Ranches, Top acoustic design Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

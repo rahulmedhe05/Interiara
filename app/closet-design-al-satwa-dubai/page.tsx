@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Al Satwa, Closet Design in Al Satwa, Best closet design Al Satwa, Professional closet design Al Satwa, Luxury closet design Al Satwa, Closet Design Al Satwa Dubai, Closet Design designer Al Satwa, Closet Design company Al Satwa, Closet Design contractor Al Satwa, Affordable closet design Al Satwa, Modern closet design Al Satwa, Closet Design consultation Al Satwa, Closet Design cost Al Satwa, Closet Design price Al Satwa, Top closet design Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

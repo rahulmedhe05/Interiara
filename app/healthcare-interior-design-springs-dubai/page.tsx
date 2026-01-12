@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: healthcare interior design dubai, healthcare interior design dubai dubai, best healthcare interior design dubai company dubai, luxury healthcare interior design dubai dubai, modern healthcare interior design dubai dubai
+// SEO Keywords: Healthcare Interior Design Springs, Healthcare Interior in Design Springs, Best healthcare interior Design Springs, Professional healthcare interior Design Springs, Luxury healthcare interior Design Springs, Healthcare Interior Design Springs Dubai, Healthcare Interior designer Design Springs, Healthcare Interior company Design Springs, Healthcare Interior contractor Design Springs, Affordable healthcare interior Design Springs, Modern healthcare interior Design Springs, Healthcare Interior consultation Design Springs, Healthcare Interior cost Design Springs, Healthcare Interior price Design Springs, Top healthcare interior Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HealthcareInteriorDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Healthcare Interior Design The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Springs Company Design Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Discovery Hills, Smart Lighting in Discovery Hills, Best smart lighting Discovery Hills, Professional smart lighting Discovery Hills, Luxury smart lighting Discovery Hills, Smart Lighting Discovery Hills Dubai, Smart Lighting designer Discovery Hills, Smart Lighting company Discovery Hills, Smart Lighting contractor Discovery Hills, Affordable smart lighting Discovery Hills, Modern smart lighting Discovery Hills, Smart Lighting consultation Discovery Hills, Smart Lighting cost Discovery Hills, Smart Lighting price Discovery Hills, Top smart lighting Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

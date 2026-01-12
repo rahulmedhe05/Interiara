@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
+// SEO Keywords: Penthouse Interior Design Discovery Hills, Penthouse Interior Design in Discovery Hills, Best penthouse interior design Discovery Hills, Professional penthouse interior design Discovery Hills, Luxury penthouse interior design Discovery Hills, Penthouse Interior Design Discovery Hills Dubai, Penthouse Interior Design designer Discovery Hills, Penthouse Interior Design company Discovery Hills, Penthouse Interior Design contractor Discovery Hills, Affordable penthouse interior design Discovery Hills, Modern penthouse interior design Discovery Hills, Penthouse Interior Design consultation Discovery Hills, Penthouse Interior Design cost Discovery Hills, Penthouse Interior Design price Discovery Hills, Top penthouse interior design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function PenthouseInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

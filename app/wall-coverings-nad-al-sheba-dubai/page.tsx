@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Nad Al Sheba, Wall Coverings Nad in Al Sheba, Best wall coverings nad Al Sheba, Professional wall coverings nad Al Sheba, Luxury wall coverings nad Al Sheba, Wall Coverings Nad Al Sheba Dubai, Wall Coverings Nad designer Al Sheba, Wall Coverings Nad company Al Sheba, Wall Coverings Nad contractor Al Sheba, Affordable wall coverings nad Al Sheba, Modern wall coverings nad Al Sheba, Wall Coverings Nad consultation Al Sheba, Wall Coverings Nad cost Al Sheba, Wall Coverings Nad price Al Sheba, Top wall coverings nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

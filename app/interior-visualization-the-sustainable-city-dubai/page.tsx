@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization The Sustainable City, Interior Visualization The in Sustainable City, Best interior visualization the Sustainable City, Professional interior visualization the Sustainable City, Luxury interior visualization the Sustainable City, Interior Visualization The Sustainable City Dubai, Interior Visualization The designer Sustainable City, Interior Visualization The company Sustainable City, Interior Visualization The contractor Sustainable City, Affordable interior visualization the Sustainable City, Modern interior visualization the Sustainable City, Interior Visualization The consultation Sustainable City, Interior Visualization The cost Sustainable City, Interior Visualization The price Sustainable City, Top interior visualization the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

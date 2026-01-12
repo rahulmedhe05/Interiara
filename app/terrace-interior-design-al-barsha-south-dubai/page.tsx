@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: terrace interior design interior design dubai, terrace interior design interior design dubai dubai, best terrace interior design interior design dubai company dubai, luxury terrace interior design interior design dubai dubai, modern terrace interior design interior design dubai dubai
+// SEO Keywords: Terrace Interior Design Al Barsha South, Terrace Interior Design Al in Barsha South, Best terrace interior design al Barsha South, Professional terrace interior design al Barsha South, Luxury terrace interior design al Barsha South, Terrace Interior Design Al Barsha South Dubai, Terrace Interior Design Al designer Barsha South, Terrace Interior Design Al company Barsha South, Terrace Interior Design Al contractor Barsha South, Affordable terrace interior design al Barsha South, Modern terrace interior design al Barsha South, Terrace Interior Design Al consultation Barsha South, Terrace Interior Design Al cost Barsha South, Terrace Interior Design Al price Barsha South, Top terrace interior design al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function TerraceInteriorDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Terrace Interior Design Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

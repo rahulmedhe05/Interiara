@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens The Villa, Modular Kitchens in The Villa, Best modular kitchens The Villa, Professional modular kitchens The Villa, Luxury modular kitchens The Villa, Modular Kitchens The Villa Dubai, Modular Kitchens designer The Villa, Modular Kitchens company The Villa, Modular Kitchens contractor The Villa, Affordable modular kitchens The Villa, Modern modular kitchens The Villa, Modular Kitchens consultation The Villa, Modular Kitchens cost The Villa, Modular Kitchens price The Villa, Top modular kitchens The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens The Villa Dubai Company The Villa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens The Villa Company The Villa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

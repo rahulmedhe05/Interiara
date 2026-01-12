@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: mall interior design dubai, mall interior design dubai dubai, best mall interior design dubai company dubai, luxury mall interior design dubai dubai, modern mall interior design dubai dubai
+// SEO Keywords: Mall Interior Design Difc, Mall Interior in Design Difc, Best mall interior Design Difc, Professional mall interior Design Difc, Luxury mall interior Design Difc, Mall Interior Design Difc Dubai, Mall Interior designer Design Difc, Mall Interior company Design Difc, Mall Interior contractor Design Difc, Affordable mall interior Design Difc, Modern mall interior Design Difc, Mall Interior consultation Design Difc, Mall Interior cost Design Difc, Mall Interior price Design Difc, Top mall interior Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MallInteriorDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Mall Interior Design DIFC Dubai Company DIFC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior Design Difc Company Design Difc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

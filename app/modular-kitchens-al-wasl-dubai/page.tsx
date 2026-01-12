@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Al Wasl, Modular Kitchens in Al Wasl, Best modular kitchens Al Wasl, Professional modular kitchens Al Wasl, Luxury modular kitchens Al Wasl, Modular Kitchens Al Wasl Dubai, Modular Kitchens designer Al Wasl, Modular Kitchens company Al Wasl, Modular Kitchens contractor Al Wasl, Affordable modular kitchens Al Wasl, Modern modular kitchens Al Wasl, Modular Kitchens consultation Al Wasl, Modular Kitchens cost Al Wasl, Modular Kitchens price Al Wasl, Top modular kitchens Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Al Wasl Dubai Company Al Wasl Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Al Wasl Company Al Wasl</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

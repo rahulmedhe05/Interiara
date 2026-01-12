@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: mall interior design dubai, mall interior design dubai dubai, best mall interior design dubai company dubai, luxury mall interior design dubai dubai, modern mall interior design dubai dubai
+// SEO Keywords: Mall Interior Design Springs, Mall Interior in Design Springs, Best mall interior Design Springs, Professional mall interior Design Springs, Luxury mall interior Design Springs, Mall Interior Design Springs Dubai, Mall Interior designer Design Springs, Mall Interior company Design Springs, Mall Interior contractor Design Springs, Affordable mall interior Design Springs, Modern mall interior Design Springs, Mall Interior consultation Design Springs, Mall Interior cost Design Springs, Mall Interior price Design Springs, Top mall interior Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MallInteriorDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Mall Interior Design The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior Design Springs Company Design Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

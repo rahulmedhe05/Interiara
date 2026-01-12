@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Bur Dubai, Space Planning in Bur Dubai, Best space planning Bur Dubai, Professional space planning Bur Dubai, Luxury space planning Bur Dubai, Space Planning Bur Dubai Dubai, Space Planning designer Bur Dubai, Space Planning company Bur Dubai, Space Planning contractor Bur Dubai, Affordable space planning Bur Dubai, Modern space planning Bur Dubai, Space Planning consultation Bur Dubai, Space Planning cost Bur Dubai, Space Planning price Bur Dubai, Top space planning Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

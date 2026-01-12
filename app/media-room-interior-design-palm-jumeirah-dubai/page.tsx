@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: media room interior design palm dubai, media room interior design palm dubai dubai, best media room interior design palm dubai company dubai, luxury media room interior design palm dubai dubai, modern media room interior design palm dubai dubai
+// SEO Keywords: Media Room Interior Design Palm Jumeirah, Media Room Interior Design in Palm Jumeirah, Best media room interior design Palm Jumeirah, Professional media room interior design Palm Jumeirah, Luxury media room interior design Palm Jumeirah, Media Room Interior Design Palm Jumeirah Dubai, Media Room Interior Design designer Palm Jumeirah, Media Room Interior Design company Palm Jumeirah, Media Room Interior Design contractor Palm Jumeirah, Affordable media room interior design Palm Jumeirah, Modern media room interior design Palm Jumeirah, Media Room Interior Design consultation Palm Jumeirah, Media Room Interior Design cost Palm Jumeirah, Media Room Interior Design price Palm Jumeirah, Top media room interior design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MediaRoomInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Media Room Interior Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

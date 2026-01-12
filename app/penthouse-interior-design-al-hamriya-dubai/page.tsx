@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
+// SEO Keywords: Penthouse Interior Design Al Hamriya, Penthouse Interior Design in Al Hamriya, Best penthouse interior design Al Hamriya, Professional penthouse interior design Al Hamriya, Luxury penthouse interior design Al Hamriya, Penthouse Interior Design Al Hamriya Dubai, Penthouse Interior Design designer Al Hamriya, Penthouse Interior Design company Al Hamriya, Penthouse Interior Design contractor Al Hamriya, Affordable penthouse interior design Al Hamriya, Modern penthouse interior design Al Hamriya, Penthouse Interior Design consultation Al Hamriya, Penthouse Interior Design cost Al Hamriya, Penthouse Interior Design price Al Hamriya, Top penthouse interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function PenthouseInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

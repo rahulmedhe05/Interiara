@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design City Walk, Wall Flooring Design in City Walk, Best wall flooring design City Walk, Professional wall flooring design City Walk, Luxury wall flooring design City Walk, Wall Flooring Design City Walk Dubai, Wall Flooring Design designer City Walk, Wall Flooring Design company City Walk, Wall Flooring Design contractor City Walk, Affordable wall flooring design City Walk, Modern wall flooring design City Walk, Wall Flooring Design consultation City Walk, Wall Flooring Design cost City Walk, Wall Flooring Design price City Walk, Top wall flooring design City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design City Walk Dubai Company City Walk Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design City Walk Company City Walk</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

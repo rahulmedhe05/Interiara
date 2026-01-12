@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home theater interior design dubai, home theater interior design dubai dubai, best home theater interior design dubai company dubai, luxury home theater interior design dubai dubai, modern home theater interior design dubai dubai
+// SEO Keywords: Home Theater Interior Design Creek, Home Theater Interior in Design Creek, Best home theater interior Design Creek, Professional home theater interior Design Creek, Luxury home theater interior Design Creek, Home Theater Interior Design Creek Dubai, Home Theater Interior designer Design Creek, Home Theater Interior company Design Creek, Home Theater Interior contractor Design Creek, Affordable home theater interior Design Creek, Modern home theater interior Design Creek, Home Theater Interior consultation Design Creek, Home Theater Interior cost Design Creek, Home Theater Interior price Design Creek, Top home theater interior Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeTheaterInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Theater Interior Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home theater interior Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Theater Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

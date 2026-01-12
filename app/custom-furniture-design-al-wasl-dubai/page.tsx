@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Al Wasl, Custom Furniture Design in Al Wasl, Best custom furniture design Al Wasl, Professional custom furniture design Al Wasl, Luxury custom furniture design Al Wasl, Custom Furniture Design Al Wasl Dubai, Custom Furniture Design designer Al Wasl, Custom Furniture Design company Al Wasl, Custom Furniture Design contractor Al Wasl, Affordable custom furniture design Al Wasl, Modern custom furniture design Al Wasl, Custom Furniture Design consultation Al Wasl, Custom Furniture Design cost Al Wasl, Custom Furniture Design price Al Wasl, Top custom furniture design Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design Al Wasl Dubai Company Al Wasl Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Al Wasl Company Al Wasl</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

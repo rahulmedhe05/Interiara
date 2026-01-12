@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Jbr, Affordable Interior in Solutions Jbr, Best affordable interior Solutions Jbr, Professional affordable interior Solutions Jbr, Luxury affordable interior Solutions Jbr, Affordable Interior Solutions Jbr Dubai, Affordable Interior designer Solutions Jbr, Affordable Interior company Solutions Jbr, Affordable Interior contractor Solutions Jbr, Affordable affordable interior Solutions Jbr, Modern affordable interior Solutions Jbr, Affordable Interior consultation Solutions Jbr, Affordable Interior cost Solutions Jbr, Affordable Interior price Solutions Jbr, Top affordable interior Solutions Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Jbr Company Solutions Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

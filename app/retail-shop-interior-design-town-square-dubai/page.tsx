@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: retail shop interior design dubai, retail shop interior design dubai dubai, best retail shop interior design dubai company dubai, luxury retail shop interior design dubai dubai, modern retail shop interior design dubai dubai
+// SEO Keywords: Retail Shop Interior Design Town Square, Retail Shop Interior Design in Town Square, Best retail shop interior design Town Square, Professional retail shop interior design Town Square, Luxury retail shop interior design Town Square, Retail Shop Interior Design Town Square Dubai, Retail Shop Interior Design designer Town Square, Retail Shop Interior Design company Town Square, Retail Shop Interior Design contractor Town Square, Affordable retail shop interior design Town Square, Modern retail shop interior design Town Square, Retail Shop Interior Design consultation Town Square, Retail Shop Interior Design cost Town Square, Retail Shop Interior Design price Town Square, Top retail shop interior design Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RetailShopInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Retail Shop Interior Design Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior design Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

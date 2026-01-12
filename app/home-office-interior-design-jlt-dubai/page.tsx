@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home office interior design dubai, home office interior design dubai dubai, best home office interior design dubai company dubai, luxury home office interior design dubai dubai, modern home office interior design dubai dubai
+// SEO Keywords: Home Office Interior Design Jlt, Home Office Interior in Design Jlt, Best home office interior Design Jlt, Professional home office interior Design Jlt, Luxury home office interior Design Jlt, Home Office Interior Design Jlt Dubai, Home Office Interior designer Design Jlt, Home Office Interior company Design Jlt, Home Office Interior contractor Design Jlt, Affordable home office interior Design Jlt, Modern home office interior Design Jlt, Home Office Interior consultation Design Jlt, Home Office Interior cost Design Jlt, Home Office Interior price Design Jlt, Top home office interior Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeOfficeInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Office Interior Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

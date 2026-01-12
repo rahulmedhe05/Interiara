@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Jebel Ali, Space Planning in Jebel Ali, Best space planning Jebel Ali, Professional space planning Jebel Ali, Luxury space planning Jebel Ali, Space Planning Jebel Ali Dubai, Space Planning designer Jebel Ali, Space Planning company Jebel Ali, Space Planning contractor Jebel Ali, Affordable space planning Jebel Ali, Modern space planning Jebel Ali, Space Planning consultation Jebel Ali, Space Planning cost Jebel Ali, Space Planning price Jebel Ali, Top space planning Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

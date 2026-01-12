@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Palm, Bespoke Furniture in Design Palm, Best bespoke furniture Design Palm, Professional bespoke furniture Design Palm, Luxury bespoke furniture Design Palm, Bespoke Furniture Design Palm Dubai, Bespoke Furniture designer Design Palm, Bespoke Furniture company Design Palm, Bespoke Furniture contractor Design Palm, Affordable bespoke furniture Design Palm, Modern bespoke furniture Design Palm, Bespoke Furniture consultation Design Palm, Bespoke Furniture cost Design Palm, Bespoke Furniture price Design Palm, Top bespoke furniture Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture Design Palm Company Design Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

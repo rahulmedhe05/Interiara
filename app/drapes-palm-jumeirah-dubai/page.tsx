@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes palm dubai, drapes palm dubai dubai, best drapes palm dubai company dubai, luxury drapes palm dubai dubai, modern drapes palm dubai dubai
+// SEO Keywords: Drapes Palm Jumeirah, Drapes in Palm Jumeirah, Best drapes Palm Jumeirah, Professional drapes Palm Jumeirah, Luxury drapes Palm Jumeirah, Drapes Palm Jumeirah Dubai, Drapes designer Palm Jumeirah, Drapes company Palm Jumeirah, Drapes contractor Palm Jumeirah, Affordable drapes Palm Jumeirah, Modern drapes Palm Jumeirah, Drapes consultation Palm Jumeirah, Drapes cost Palm Jumeirah, Drapes price Palm Jumeirah, Top drapes Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

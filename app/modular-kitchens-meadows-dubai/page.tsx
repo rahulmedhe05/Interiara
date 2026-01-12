@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Meadows, Modular in Kitchens Meadows, Best modular Kitchens Meadows, Professional modular Kitchens Meadows, Luxury modular Kitchens Meadows, Modular Kitchens Meadows Dubai, Modular designer Kitchens Meadows, Modular company Kitchens Meadows, Modular contractor Kitchens Meadows, Affordable modular Kitchens Meadows, Modern modular Kitchens Meadows, Modular consultation Kitchens Meadows, Modular cost Kitchens Meadows, Modular price Kitchens Meadows, Top modular Kitchens Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Meadows Company Kitchens Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

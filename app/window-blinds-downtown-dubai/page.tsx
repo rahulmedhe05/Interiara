@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Downtown, Window in Blinds Downtown, Best window Blinds Downtown, Professional window Blinds Downtown, Luxury window Blinds Downtown, Window Blinds Downtown Dubai, Window designer Blinds Downtown, Window company Blinds Downtown, Window contractor Blinds Downtown, Affordable window Blinds Downtown, Modern window Blinds Downtown, Window consultation Blinds Downtown, Window cost Blinds Downtown, Window price Blinds Downtown, Top window Blinds Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Blinds Downtown Company Blinds Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

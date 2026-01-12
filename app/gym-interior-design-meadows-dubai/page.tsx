@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Meadows, Gym Interior in Design Meadows, Best gym interior Design Meadows, Professional gym interior Design Meadows, Luxury gym interior Design Meadows, Gym Interior Design Meadows Dubai, Gym Interior designer Design Meadows, Gym Interior company Design Meadows, Gym Interior contractor Design Meadows, Affordable gym interior Design Meadows, Modern gym interior Design Meadows, Gym Interior consultation Design Meadows, Gym Interior cost Design Meadows, Gym Interior price Design Meadows, Top gym interior Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

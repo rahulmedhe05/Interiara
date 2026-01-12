@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: contemporary interior design dubai, contemporary interior design dubai dubai, best contemporary interior design dubai company dubai, luxury contemporary interior design dubai dubai, modern contemporary interior design dubai dubai
+// SEO Keywords: Contemporary Interior Design Palm, Contemporary Interior in Design Palm, Best contemporary interior Design Palm, Professional contemporary interior Design Palm, Luxury contemporary interior Design Palm, Contemporary Interior Design Palm Dubai, Contemporary Interior designer Design Palm, Contemporary Interior company Design Palm, Contemporary Interior contractor Design Palm, Affordable contemporary interior Design Palm, Modern contemporary interior Design Palm, Contemporary Interior consultation Design Palm, Contemporary Interior cost Design Palm, Contemporary Interior price Design Palm, Top contemporary interior Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ContemporaryInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Contemporary Interior Design Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior Design Palm Company Design Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

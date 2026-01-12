@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Al Safouh, Lighting Design in Al Safouh, Best lighting design Al Safouh, Professional lighting design Al Safouh, Luxury lighting design Al Safouh, Lighting Design Al Safouh Dubai, Lighting Design designer Al Safouh, Lighting Design company Al Safouh, Lighting Design contractor Al Safouh, Affordable lighting design Al Safouh, Modern lighting design Al Safouh, Lighting Design consultation Al Safouh, Lighting Design cost Al Safouh, Lighting Design price Al Safouh, Top lighting design Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

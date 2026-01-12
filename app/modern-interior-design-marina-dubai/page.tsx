@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modern interior design dubai, modern interior design dubai dubai, best modern interior design dubai company dubai, luxury modern interior design dubai dubai, modern modern interior design dubai dubai
+// SEO Keywords: Modern Interior Design Marina, Modern Interior in Design Marina, Best modern interior Design Marina, Professional modern interior Design Marina, Luxury modern interior Design Marina, Modern Interior Design Marina Dubai, Modern Interior designer Design Marina, Modern Interior company Design Marina, Modern Interior contractor Design Marina, Affordable modern interior Design Marina, Modern modern interior Design Marina, Modern Interior consultation Design Marina, Modern Interior cost Design Marina, Modern Interior price Design Marina, Top modern interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModernInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modern Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Al Hamriya, Home Renovation in Al Hamriya, Best home renovation Al Hamriya, Professional home renovation Al Hamriya, Luxury home renovation Al Hamriya, Home Renovation Al Hamriya Dubai, Home Renovation designer Al Hamriya, Home Renovation company Al Hamriya, Home Renovation contractor Al Hamriya, Affordable home renovation Al Hamriya, Modern home renovation Al Hamriya, Home Renovation consultation Al Hamriya, Home Renovation cost Al Hamriya, Home Renovation price Al Hamriya, Top home renovation Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

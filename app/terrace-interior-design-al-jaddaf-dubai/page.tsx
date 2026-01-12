@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: terrace interior design interior design dubai, terrace interior design interior design dubai dubai, best terrace interior design interior design dubai company dubai, luxury terrace interior design interior design dubai dubai, modern terrace interior design interior design dubai dubai
+// SEO Keywords: Terrace Interior Design Al Jaddaf, Terrace Interior Design in Al Jaddaf, Best terrace interior design Al Jaddaf, Professional terrace interior design Al Jaddaf, Luxury terrace interior design Al Jaddaf, Terrace Interior Design Al Jaddaf Dubai, Terrace Interior Design designer Al Jaddaf, Terrace Interior Design company Al Jaddaf, Terrace Interior Design contractor Al Jaddaf, Affordable terrace interior design Al Jaddaf, Modern terrace interior design Al Jaddaf, Terrace Interior Design consultation Al Jaddaf, Terrace Interior Design cost Al Jaddaf, Terrace Interior Design price Al Jaddaf, Top terrace interior design Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function TerraceInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Terrace Interior Design Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior design Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

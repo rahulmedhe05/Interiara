@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Al Furjan, Space Planning in Al Furjan, Best space planning Al Furjan, Professional space planning Al Furjan, Luxury space planning Al Furjan, Space Planning Al Furjan Dubai, Space Planning designer Al Furjan, Space Planning company Al Furjan, Space Planning contractor Al Furjan, Affordable space planning Al Furjan, Modern space planning Al Furjan, Space Planning consultation Al Furjan, Space Planning cost Al Furjan, Space Planning price Al Furjan, Top space planning Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

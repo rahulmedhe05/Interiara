@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design Al Mizhar, Bathroom Interior Design in Al Mizhar, Best bathroom interior design Al Mizhar, Professional bathroom interior design Al Mizhar, Luxury bathroom interior design Al Mizhar, Bathroom Interior Design Al Mizhar Dubai, Bathroom Interior Design designer Al Mizhar, Bathroom Interior Design company Al Mizhar, Bathroom Interior Design contractor Al Mizhar, Affordable bathroom interior design Al Mizhar, Modern bathroom interior design Al Mizhar, Bathroom Interior Design consultation Al Mizhar, Bathroom Interior Design cost Al Mizhar, Bathroom Interior Design price Al Mizhar, Top bathroom interior design Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior design Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

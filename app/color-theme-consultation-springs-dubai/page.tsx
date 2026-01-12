@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: color theme consultation dubai, color theme consultation dubai dubai, best color theme consultation dubai company dubai, luxury color theme consultation dubai dubai, modern color theme consultation dubai dubai
+// SEO Keywords: Color Theme Consultation Springs, Color Theme in Consultation Springs, Best color theme Consultation Springs, Professional color theme Consultation Springs, Luxury color theme Consultation Springs, Color Theme Consultation Springs Dubai, Color Theme designer Consultation Springs, Color Theme company Consultation Springs, Color Theme contractor Consultation Springs, Affordable color theme Consultation Springs, Modern color theme Consultation Springs, Color Theme consultation Consultation Springs, Color Theme cost Consultation Springs, Color Theme price Consultation Springs, Top color theme Consultation Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ColorThemeConsultationSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Springs Company Consultation Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

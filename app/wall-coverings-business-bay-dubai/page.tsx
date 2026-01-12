@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Business Bay, Wall Coverings in Business Bay, Best wall coverings Business Bay, Professional wall coverings Business Bay, Luxury wall coverings Business Bay, Wall Coverings Business Bay Dubai, Wall Coverings designer Business Bay, Wall Coverings company Business Bay, Wall Coverings contractor Business Bay, Affordable wall coverings Business Bay, Modern wall coverings Business Bay, Wall Coverings consultation Business Bay, Wall Coverings cost Business Bay, Wall Coverings price Business Bay, Top wall coverings Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Business Bay Dubai Company Business Bay Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Business Bay Company Business Bay</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

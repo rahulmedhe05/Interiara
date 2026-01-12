@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Meadows, Villa Interior in Design Meadows, Best villa interior Design Meadows, Professional villa interior Design Meadows, Luxury villa interior Design Meadows, Villa Interior Design Meadows Dubai, Villa Interior designer Design Meadows, Villa Interior company Design Meadows, Villa Interior contractor Design Meadows, Affordable villa interior Design Meadows, Modern villa interior Design Meadows, Villa Interior consultation Design Meadows, Villa Interior cost Design Meadows, Villa Interior price Design Meadows, Top villa interior Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

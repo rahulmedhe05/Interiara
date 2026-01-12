@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Jvc, Space in Planning Jvc, Best space Planning Jvc, Professional space Planning Jvc, Luxury space Planning Jvc, Space Planning Jvc Dubai, Space designer Planning Jvc, Space company Planning Jvc, Space contractor Planning Jvc, Affordable space Planning Jvc, Modern space Planning Jvc, Space consultation Planning Jvc, Space cost Planning Jvc, Space price Planning Jvc, Top space Planning Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space Planning Jvc Company Planning Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: residential interior design hills dubai, residential interior design hills dubai dubai, best residential interior design hills dubai company dubai, luxury residential interior design hills dubai dubai, modern residential interior design hills dubai dubai
+// SEO Keywords: Residential Interior Design Dubai Hills Estate, Residential Interior Design Dubai in Hills Estate, Best residential interior design dubai Hills Estate, Professional residential interior design dubai Hills Estate, Luxury residential interior design dubai Hills Estate, Residential Interior Design Dubai Hills Estate Dubai, Residential Interior Design Dubai designer Hills Estate, Residential Interior Design Dubai company Hills Estate, Residential Interior Design Dubai contractor Hills Estate, Affordable residential interior design dubai Hills Estate, Modern residential interior design dubai Hills Estate, Residential Interior Design Dubai consultation Hills Estate, Residential Interior Design Dubai cost Hills Estate, Residential Interior Design Dubai price Hills Estate, Top residential interior design dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ResidentialInteriorDesignDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Residential Interior Design Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior design dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

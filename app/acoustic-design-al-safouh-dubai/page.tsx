@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Al Safouh, Acoustic Design in Al Safouh, Best acoustic design Al Safouh, Professional acoustic design Al Safouh, Luxury acoustic design Al Safouh, Acoustic Design Al Safouh Dubai, Acoustic Design designer Al Safouh, Acoustic Design company Al Safouh, Acoustic Design contractor Al Safouh, Affordable acoustic design Al Safouh, Modern acoustic design Al Safouh, Acoustic Design consultation Al Safouh, Acoustic Design cost Al Safouh, Acoustic Design price Al Safouh, Top acoustic design Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

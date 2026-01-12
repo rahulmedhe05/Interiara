@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Al Satwa, Affordable Interior Solutions in Al Satwa, Best affordable interior solutions Al Satwa, Professional affordable interior solutions Al Satwa, Luxury affordable interior solutions Al Satwa, Affordable Interior Solutions Al Satwa Dubai, Affordable Interior Solutions designer Al Satwa, Affordable Interior Solutions company Al Satwa, Affordable Interior Solutions contractor Al Satwa, Affordable affordable interior solutions Al Satwa, Modern affordable interior solutions Al Satwa, Affordable Interior Solutions consultation Al Satwa, Affordable Interior Solutions cost Al Satwa, Affordable Interior Solutions price Al Satwa, Top affordable interior solutions Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

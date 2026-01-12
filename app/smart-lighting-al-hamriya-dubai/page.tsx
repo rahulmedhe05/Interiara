@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Al Hamriya, Smart Lighting in Al Hamriya, Best smart lighting Al Hamriya, Professional smart lighting Al Hamriya, Luxury smart lighting Al Hamriya, Smart Lighting Al Hamriya Dubai, Smart Lighting designer Al Hamriya, Smart Lighting company Al Hamriya, Smart Lighting contractor Al Hamriya, Affordable smart lighting Al Hamriya, Modern smart lighting Al Hamriya, Smart Lighting consultation Al Hamriya, Smart Lighting cost Al Hamriya, Smart Lighting price Al Hamriya, Top smart lighting Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

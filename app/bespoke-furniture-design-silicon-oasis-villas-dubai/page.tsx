@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Silicon Oasis Villas, Bespoke Furniture Design Silicon in Oasis Villas, Best bespoke furniture design silicon Oasis Villas, Professional bespoke furniture design silicon Oasis Villas, Luxury bespoke furniture design silicon Oasis Villas, Bespoke Furniture Design Silicon Oasis Villas Dubai, Bespoke Furniture Design Silicon designer Oasis Villas, Bespoke Furniture Design Silicon company Oasis Villas, Bespoke Furniture Design Silicon contractor Oasis Villas, Affordable bespoke furniture design silicon Oasis Villas, Modern bespoke furniture design silicon Oasis Villas, Bespoke Furniture Design Silicon consultation Oasis Villas, Bespoke Furniture Design Silicon cost Oasis Villas, Bespoke Furniture Design Silicon price Oasis Villas, Top bespoke furniture design silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

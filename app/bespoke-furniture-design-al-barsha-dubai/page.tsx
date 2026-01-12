@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Al Barsha, Bespoke Furniture Design in Al Barsha, Best bespoke furniture design Al Barsha, Professional bespoke furniture design Al Barsha, Luxury bespoke furniture design Al Barsha, Bespoke Furniture Design Al Barsha Dubai, Bespoke Furniture Design designer Al Barsha, Bespoke Furniture Design company Al Barsha, Bespoke Furniture Design contractor Al Barsha, Affordable bespoke furniture design Al Barsha, Modern bespoke furniture design Al Barsha, Bespoke Furniture Design consultation Al Barsha, Bespoke Furniture Design cost Al Barsha, Bespoke Furniture Design price Al Barsha, Top bespoke furniture design Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Al Barsha Dubai Company Al Barsha Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design Al Barsha Company Al Barsha</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

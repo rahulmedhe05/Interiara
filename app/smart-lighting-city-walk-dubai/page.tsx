@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting City Walk, Smart Lighting in City Walk, Best smart lighting City Walk, Professional smart lighting City Walk, Luxury smart lighting City Walk, Smart Lighting City Walk Dubai, Smart Lighting designer City Walk, Smart Lighting company City Walk, Smart Lighting contractor City Walk, Affordable smart lighting City Walk, Modern smart lighting City Walk, Smart Lighting consultation City Walk, Smart Lighting cost City Walk, Smart Lighting price City Walk, Top smart lighting City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting City Walk Dubai Company City Walk Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting City Walk Company City Walk</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Springs, Closet in Design Springs, Best closet Design Springs, Professional closet Design Springs, Luxury closet Design Springs, Closet Design Springs Dubai, Closet designer Design Springs, Closet company Design Springs, Closet contractor Design Springs, Affordable closet Design Springs, Modern closet Design Springs, Closet consultation Design Springs, Closet cost Design Springs, Closet price Design Springs, Top closet Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet Design Springs Company Design Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

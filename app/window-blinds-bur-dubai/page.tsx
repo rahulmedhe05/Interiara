@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Bur, Window in Blinds Bur, Best window Blinds Bur, Professional window Blinds Bur, Luxury window Blinds Bur, Window Blinds Bur Dubai, Window designer Blinds Bur, Window company Blinds Bur, Window contractor Blinds Bur, Affordable window Blinds Bur, Modern window Blinds Bur, Window consultation Blinds Bur, Window cost Blinds Bur, Window price Blinds Bur, Top window Blinds Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Blinds Bur Company Blinds Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

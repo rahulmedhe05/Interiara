@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Jlt, Soundproofing in Design Jlt, Best soundproofing Design Jlt, Professional soundproofing Design Jlt, Luxury soundproofing Design Jlt, Soundproofing Design Jlt Dubai, Soundproofing designer Design Jlt, Soundproofing company Design Jlt, Soundproofing contractor Design Jlt, Affordable soundproofing Design Jlt, Modern soundproofing Design Jlt, Soundproofing consultation Design Jlt, Soundproofing cost Design Jlt, Soundproofing price Design Jlt, Top soundproofing Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Jumeirah, Window in Curtains Jumeirah, Best window Curtains Jumeirah, Professional window Curtains Jumeirah, Luxury window Curtains Jumeirah, Window Curtains Jumeirah Dubai, Window designer Curtains Jumeirah, Window company Curtains Jumeirah, Window contractor Curtains Jumeirah, Affordable window Curtains Jumeirah, Modern window Curtains Jumeirah, Window consultation Curtains Jumeirah, Window cost Curtains Jumeirah, Window price Curtains Jumeirah, Top window Curtains Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Curtains Jumeirah Company Curtains Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

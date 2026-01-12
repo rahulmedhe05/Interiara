@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: sustainable interior design palm dubai, sustainable interior design palm dubai dubai, best sustainable interior design palm dubai company dubai, luxury sustainable interior design palm dubai dubai, modern sustainable interior design palm dubai dubai
+// SEO Keywords: Sustainable Interior Design Palm Jumeirah, Sustainable Interior Design in Palm Jumeirah, Best sustainable interior design Palm Jumeirah, Professional sustainable interior design Palm Jumeirah, Luxury sustainable interior design Palm Jumeirah, Sustainable Interior Design Palm Jumeirah Dubai, Sustainable Interior Design designer Palm Jumeirah, Sustainable Interior Design company Palm Jumeirah, Sustainable Interior Design contractor Palm Jumeirah, Affordable sustainable interior design Palm Jumeirah, Modern sustainable interior design Palm Jumeirah, Sustainable Interior Design consultation Palm Jumeirah, Sustainable Interior Design cost Palm Jumeirah, Sustainable Interior Design price Palm Jumeirah, Top sustainable interior design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SustainableInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Sustainable Interior Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

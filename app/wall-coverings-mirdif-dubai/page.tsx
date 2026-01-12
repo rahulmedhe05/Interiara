@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Mirdif, Wall in Coverings Mirdif, Best wall Coverings Mirdif, Professional wall Coverings Mirdif, Luxury wall Coverings Mirdif, Wall Coverings Mirdif Dubai, Wall designer Coverings Mirdif, Wall company Coverings Mirdif, Wall contractor Coverings Mirdif, Affordable wall Coverings Mirdif, Modern wall Coverings Mirdif, Wall consultation Coverings Mirdif, Wall cost Coverings Mirdif, Wall price Coverings Mirdif, Top wall Coverings Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Coverings Mirdif Company Coverings Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

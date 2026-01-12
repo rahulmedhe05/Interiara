@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
+// SEO Keywords: Art Consultation Discovery Hills, Art Consultation in Discovery Hills, Best art consultation Discovery Hills, Professional art consultation Discovery Hills, Luxury art consultation Discovery Hills, Art Consultation Discovery Hills Dubai, Art Consultation designer Discovery Hills, Art Consultation company Discovery Hills, Art Consultation contractor Discovery Hills, Affordable art consultation Discovery Hills, Modern art consultation Discovery Hills, Art Consultation consultation Discovery Hills, Art Consultation cost Discovery Hills, Art Consultation price Discovery Hills, Top art consultation Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArtConsultationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Jvt, Gym Interior in Design Jvt, Best gym interior Design Jvt, Professional gym interior Design Jvt, Luxury gym interior Design Jvt, Gym Interior Design Jvt Dubai, Gym Interior designer Design Jvt, Gym Interior company Design Jvt, Gym Interior contractor Design Jvt, Affordable gym interior Design Jvt, Modern gym interior Design Jvt, Gym Interior consultation Design Jvt, Gym Interior cost Design Jvt, Gym Interior price Design Jvt, Top gym interior Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior Design Jvt Company Design Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

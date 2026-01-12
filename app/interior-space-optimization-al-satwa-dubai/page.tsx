@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Al Satwa, Interior Space Optimization in Al Satwa, Best interior space optimization Al Satwa, Professional interior space optimization Al Satwa, Luxury interior space optimization Al Satwa, Interior Space Optimization Al Satwa Dubai, Interior Space Optimization designer Al Satwa, Interior Space Optimization company Al Satwa, Interior Space Optimization contractor Al Satwa, Affordable interior space optimization Al Satwa, Modern interior space optimization Al Satwa, Interior Space Optimization consultation Al Satwa, Interior Space Optimization cost Al Satwa, Interior Space Optimization price Al Satwa, Top interior space optimization Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Nad Al Sheba, Modular Kitchens Nad in Al Sheba, Best modular kitchens nad Al Sheba, Professional modular kitchens nad Al Sheba, Luxury modular kitchens nad Al Sheba, Modular Kitchens Nad Al Sheba Dubai, Modular Kitchens Nad designer Al Sheba, Modular Kitchens Nad company Al Sheba, Modular Kitchens Nad contractor Al Sheba, Affordable modular kitchens nad Al Sheba, Modern modular kitchens nad Al Sheba, Modular Kitchens Nad consultation Al Sheba, Modular Kitchens Nad cost Al Sheba, Modular Kitchens Nad price Al Sheba, Top modular kitchens nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

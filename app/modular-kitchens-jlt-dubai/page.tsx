@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Jlt, Modular in Kitchens Jlt, Best modular Kitchens Jlt, Professional modular Kitchens Jlt, Luxury modular Kitchens Jlt, Modular Kitchens Jlt Dubai, Modular designer Kitchens Jlt, Modular company Kitchens Jlt, Modular contractor Kitchens Jlt, Affordable modular Kitchens Jlt, Modern modular Kitchens Jlt, Modular consultation Kitchens Jlt, Modular cost Kitchens Jlt, Modular price Kitchens Jlt, Top modular Kitchens Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Jlt Company Kitchens Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

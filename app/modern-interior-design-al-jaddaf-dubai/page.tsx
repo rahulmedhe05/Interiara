@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modern interior design dubai, modern interior design dubai dubai, best modern interior design dubai company dubai, luxury modern interior design dubai dubai, modern modern interior design dubai dubai
+// SEO Keywords: Modern Interior Design Al Jaddaf, Modern Interior Design in Al Jaddaf, Best modern interior design Al Jaddaf, Professional modern interior design Al Jaddaf, Luxury modern interior design Al Jaddaf, Modern Interior Design Al Jaddaf Dubai, Modern Interior Design designer Al Jaddaf, Modern Interior Design company Al Jaddaf, Modern Interior Design contractor Al Jaddaf, Affordable modern interior design Al Jaddaf, Modern modern interior design Al Jaddaf, Modern Interior Design consultation Al Jaddaf, Modern Interior Design cost Al Jaddaf, Modern Interior Design price Al Jaddaf, Top modern interior design Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModernInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modern Interior Design Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior design Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

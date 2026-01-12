@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: healthcare interior design dubai, healthcare interior design dubai dubai, best healthcare interior design dubai company dubai, luxury healthcare interior design dubai dubai, modern healthcare interior design dubai dubai
+// SEO Keywords: Healthcare Interior Design Meadows, Healthcare Interior in Design Meadows, Best healthcare interior Design Meadows, Professional healthcare interior Design Meadows, Luxury healthcare interior Design Meadows, Healthcare Interior Design Meadows Dubai, Healthcare Interior designer Design Meadows, Healthcare Interior company Design Meadows, Healthcare Interior contractor Design Meadows, Affordable healthcare interior Design Meadows, Modern healthcare interior Design Meadows, Healthcare Interior consultation Design Meadows, Healthcare Interior cost Design Meadows, Healthcare Interior price Design Meadows, Top healthcare interior Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HealthcareInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Healthcare Interior Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

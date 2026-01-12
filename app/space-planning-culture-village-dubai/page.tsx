@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Culture Village, Space Planning in Culture Village, Best space planning Culture Village, Professional space planning Culture Village, Luxury space planning Culture Village, Space Planning Culture Village Dubai, Space Planning designer Culture Village, Space Planning company Culture Village, Space Planning contractor Culture Village, Affordable space planning Culture Village, Modern space planning Culture Village, Space Planning consultation Culture Village, Space Planning cost Culture Village, Space Planning price Culture Village, Top space planning Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Culture Village Dubai Company Culture Village Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Culture Village Company Culture Village</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

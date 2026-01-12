@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Meadows, Lighting in Automation Meadows, Best lighting Automation Meadows, Professional lighting Automation Meadows, Luxury lighting Automation Meadows, Lighting Automation Meadows Dubai, Lighting designer Automation Meadows, Lighting company Automation Meadows, Lighting contractor Automation Meadows, Affordable lighting Automation Meadows, Modern lighting Automation Meadows, Lighting consultation Automation Meadows, Lighting cost Automation Meadows, Lighting price Automation Meadows, Top lighting Automation Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Automation Meadows Company Automation Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

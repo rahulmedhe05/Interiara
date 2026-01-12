@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Jebel Ali, Window Curtains in Jebel Ali, Best window curtains Jebel Ali, Professional window curtains Jebel Ali, Luxury window curtains Jebel Ali, Window Curtains Jebel Ali Dubai, Window Curtains designer Jebel Ali, Window Curtains company Jebel Ali, Window Curtains contractor Jebel Ali, Affordable window curtains Jebel Ali, Modern window curtains Jebel Ali, Window Curtains consultation Jebel Ali, Window Curtains cost Jebel Ali, Window Curtains price Jebel Ali, Top window curtains Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

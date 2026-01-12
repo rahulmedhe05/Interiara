@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Difc, Budget Interior in Solutions Difc, Best budget interior Solutions Difc, Professional budget interior Solutions Difc, Luxury budget interior Solutions Difc, Budget Interior Solutions Difc Dubai, Budget Interior designer Solutions Difc, Budget Interior company Solutions Difc, Budget Interior contractor Solutions Difc, Affordable budget interior Solutions Difc, Modern budget interior Solutions Difc, Budget Interior consultation Solutions Difc, Budget Interior cost Solutions Difc, Budget Interior price Solutions Difc, Top budget interior Solutions Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions DIFC Dubai Company DIFC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior Solutions Difc Company Solutions Difc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

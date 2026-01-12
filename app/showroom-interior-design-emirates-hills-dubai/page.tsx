@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Emirates Hills, Showroom Interior Design in Emirates Hills, Best showroom interior design Emirates Hills, Professional showroom interior design Emirates Hills, Luxury showroom interior design Emirates Hills, Showroom Interior Design Emirates Hills Dubai, Showroom Interior Design designer Emirates Hills, Showroom Interior Design company Emirates Hills, Showroom Interior Design contractor Emirates Hills, Affordable showroom interior design Emirates Hills, Modern showroom interior design Emirates Hills, Showroom Interior Design consultation Emirates Hills, Showroom Interior Design cost Emirates Hills, Showroom Interior Design price Emirates Hills, Top showroom interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

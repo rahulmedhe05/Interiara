@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning hills dubai, space planning hills dubai dubai, best space planning hills dubai company dubai, luxury space planning hills dubai dubai, modern space planning hills dubai dubai
+// SEO Keywords: Space Planning Dubai Hills Estate, Space Planning Dubai in Hills Estate, Best space planning dubai Hills Estate, Professional space planning dubai Hills Estate, Luxury space planning dubai Hills Estate, Space Planning Dubai Hills Estate Dubai, Space Planning Dubai designer Hills Estate, Space Planning Dubai company Hills Estate, Space Planning Dubai contractor Hills Estate, Affordable space planning dubai Hills Estate, Modern space planning dubai Hills Estate, Space Planning Dubai consultation Hills Estate, Space Planning Dubai cost Hills Estate, Space Planning Dubai price Hills Estate, Top space planning dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

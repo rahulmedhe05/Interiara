@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Umm Suqeim, Gym Interior Design in Umm Suqeim, Best gym interior design Umm Suqeim, Professional gym interior design Umm Suqeim, Luxury gym interior design Umm Suqeim, Gym Interior Design Umm Suqeim Dubai, Gym Interior Design designer Umm Suqeim, Gym Interior Design company Umm Suqeim, Gym Interior Design contractor Umm Suqeim, Affordable gym interior design Umm Suqeim, Modern gym interior design Umm Suqeim, Gym Interior Design consultation Umm Suqeim, Gym Interior Design cost Umm Suqeim, Gym Interior Design price Umm Suqeim, Top gym interior design Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Dubai Hills, Lighting Design in Dubai Hills, Best lighting design Dubai Hills, Professional lighting design Dubai Hills, Luxury lighting design Dubai Hills, Lighting Design Dubai Hills Dubai, Lighting Design designer Dubai Hills, Lighting Design company Dubai Hills, Lighting Design contractor Dubai Hills, Affordable lighting design Dubai Hills, Modern lighting design Dubai Hills, Lighting Design consultation Dubai Hills, Lighting Design cost Dubai Hills, Lighting Design price Dubai Hills, Top lighting design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

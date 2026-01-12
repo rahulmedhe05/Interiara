@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Al Quoz, Window Blinds in Al Quoz, Best window blinds Al Quoz, Professional window blinds Al Quoz, Luxury window blinds Al Quoz, Window Blinds Al Quoz Dubai, Window Blinds designer Al Quoz, Window Blinds company Al Quoz, Window Blinds contractor Al Quoz, Affordable window blinds Al Quoz, Modern window blinds Al Quoz, Window Blinds consultation Al Quoz, Window Blinds cost Al Quoz, Window Blinds price Al Quoz, Top window blinds Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

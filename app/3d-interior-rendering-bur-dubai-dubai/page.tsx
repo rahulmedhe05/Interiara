@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: 3d interior rendering dubai, 3d interior rendering dubai dubai, best 3d interior rendering dubai company dubai, luxury 3d interior rendering dubai dubai, modern 3d interior rendering dubai dubai
+// SEO Keywords: 3D Interior Rendering Bur Dubai, 3D Interior Rendering in Bur Dubai, Best 3d interior rendering Bur Dubai, Professional 3d interior rendering Bur Dubai, Luxury 3d interior rendering Bur Dubai, 3D Interior Rendering Bur Dubai Dubai, 3D Interior Rendering designer Bur Dubai, 3D Interior Rendering company Bur Dubai, 3D Interior Rendering contractor Bur Dubai, Affordable 3d interior rendering Bur Dubai, Modern 3d interior rendering Bur Dubai, 3D Interior Rendering consultation Bur Dubai, 3D Interior Rendering cost Bur Dubai, 3D Interior Rendering price Bur Dubai, Top 3d interior rendering Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function 3DInteriorRenderingBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3D Interior Rendering Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3d interior rendering Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert 3D Interior Rendering Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

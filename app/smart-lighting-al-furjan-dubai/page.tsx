@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Al Furjan, Smart Lighting in Al Furjan, Best smart lighting Al Furjan, Professional smart lighting Al Furjan, Luxury smart lighting Al Furjan, Smart Lighting Al Furjan Dubai, Smart Lighting designer Al Furjan, Smart Lighting company Al Furjan, Smart Lighting contractor Al Furjan, Affordable smart lighting Al Furjan, Modern smart lighting Al Furjan, Smart Lighting consultation Al Furjan, Smart Lighting cost Al Furjan, Smart Lighting price Al Furjan, Top smart lighting Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

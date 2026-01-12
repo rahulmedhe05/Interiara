@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Al Wasl, Villa Interior Design in Al Wasl, Best villa interior design Al Wasl, Professional villa interior design Al Wasl, Luxury villa interior design Al Wasl, Villa Interior Design Al Wasl Dubai, Villa Interior Design designer Al Wasl, Villa Interior Design company Al Wasl, Villa Interior Design contractor Al Wasl, Affordable villa interior design Al Wasl, Modern villa interior design Al Wasl, Villa Interior Design consultation Al Wasl, Villa Interior Design cost Al Wasl, Villa Interior Design price Al Wasl, Top villa interior design Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Al Wasl Dubai Company Al Wasl Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Al Wasl Company Al Wasl</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

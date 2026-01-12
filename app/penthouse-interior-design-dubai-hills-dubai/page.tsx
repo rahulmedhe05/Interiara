@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
+// SEO Keywords: Penthouse Interior Design Dubai Hills, Penthouse Interior Design in Dubai Hills, Best penthouse interior design Dubai Hills, Professional penthouse interior design Dubai Hills, Luxury penthouse interior design Dubai Hills, Penthouse Interior Design Dubai Hills Dubai, Penthouse Interior Design designer Dubai Hills, Penthouse Interior Design company Dubai Hills, Penthouse Interior Design contractor Dubai Hills, Affordable penthouse interior design Dubai Hills, Modern penthouse interior design Dubai Hills, Penthouse Interior Design consultation Dubai Hills, Penthouse Interior Design cost Dubai Hills, Penthouse Interior Design price Dubai Hills, Top penthouse interior design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function PenthouseInteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

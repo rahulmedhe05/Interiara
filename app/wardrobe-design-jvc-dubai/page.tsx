@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Jvc, Wardrobe in Design Jvc, Best wardrobe Design Jvc, Professional wardrobe Design Jvc, Luxury wardrobe Design Jvc, Wardrobe Design Jvc Dubai, Wardrobe designer Design Jvc, Wardrobe company Design Jvc, Wardrobe contractor Design Jvc, Affordable wardrobe Design Jvc, Modern wardrobe Design Jvc, Wardrobe consultation Design Jvc, Wardrobe cost Design Jvc, Wardrobe price Design Jvc, Top wardrobe Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe Design Jvc Company Design Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Arabian Ranches, Smart Lighting in Arabian Ranches, Best smart lighting Arabian Ranches, Professional smart lighting Arabian Ranches, Luxury smart lighting Arabian Ranches, Smart Lighting Arabian Ranches Dubai, Smart Lighting designer Arabian Ranches, Smart Lighting company Arabian Ranches, Smart Lighting contractor Arabian Ranches, Affordable smart lighting Arabian Ranches, Modern smart lighting Arabian Ranches, Smart Lighting consultation Arabian Ranches, Smart Lighting cost Arabian Ranches, Smart Lighting price Arabian Ranches, Top smart lighting Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Downtown, Affordable Interior in Solutions Downtown, Best affordable interior Solutions Downtown, Professional affordable interior Solutions Downtown, Luxury affordable interior Solutions Downtown, Affordable Interior Solutions Downtown Dubai, Affordable Interior designer Solutions Downtown, Affordable Interior company Solutions Downtown, Affordable Interior contractor Solutions Downtown, Affordable affordable interior Solutions Downtown, Modern affordable interior Solutions Downtown, Affordable Interior consultation Solutions Downtown, Affordable Interior cost Solutions Downtown, Affordable Interior price Solutions Downtown, Top affordable interior Solutions Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Downtown Company Solutions Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

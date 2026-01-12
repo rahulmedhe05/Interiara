@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: healthcare interior design dubai, healthcare interior design dubai dubai, best healthcare interior design dubai company dubai, luxury healthcare interior design dubai dubai, modern healthcare interior design dubai dubai
+// SEO Keywords: Healthcare Interior Design Al Mizhar, Healthcare Interior Design in Al Mizhar, Best healthcare interior design Al Mizhar, Professional healthcare interior design Al Mizhar, Luxury healthcare interior design Al Mizhar, Healthcare Interior Design Al Mizhar Dubai, Healthcare Interior Design designer Al Mizhar, Healthcare Interior Design company Al Mizhar, Healthcare Interior Design contractor Al Mizhar, Affordable healthcare interior design Al Mizhar, Modern healthcare interior design Al Mizhar, Healthcare Interior Design consultation Al Mizhar, Healthcare Interior Design cost Al Mizhar, Healthcare Interior Design price Al Mizhar, Top healthcare interior design Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HealthcareInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Healthcare Interior Design Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

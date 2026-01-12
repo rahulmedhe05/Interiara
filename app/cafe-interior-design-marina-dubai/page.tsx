@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: cafe interior design dubai, cafe interior design dubai dubai, best cafe interior design dubai company dubai, luxury cafe interior design dubai dubai, modern cafe interior design dubai dubai
+// SEO Keywords: Cafe Interior Design Marina, Cafe Interior in Design Marina, Best cafe interior Design Marina, Professional cafe interior Design Marina, Luxury cafe interior Design Marina, Cafe Interior Design Marina Dubai, Cafe Interior designer Design Marina, Cafe Interior company Design Marina, Cafe Interior contractor Design Marina, Affordable cafe interior Design Marina, Modern cafe interior Design Marina, Cafe Interior consultation Design Marina, Cafe Interior cost Design Marina, Cafe Interior price Design Marina, Top cafe interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CafeInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Cafe Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

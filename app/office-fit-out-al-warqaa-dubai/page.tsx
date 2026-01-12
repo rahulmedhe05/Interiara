@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Al Warqaa, Office Fit Out in Al Warqaa, Best office fit out Al Warqaa, Professional office fit out Al Warqaa, Luxury office fit out Al Warqaa, Office Fit Out Al Warqaa Dubai, Office Fit Out designer Al Warqaa, Office Fit Out company Al Warqaa, Office Fit Out contractor Al Warqaa, Affordable office fit out Al Warqaa, Modern office fit out Al Warqaa, Office Fit Out consultation Al Warqaa, Office Fit Out cost Al Warqaa, Office Fit Out price Al Warqaa, Top office fit out Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

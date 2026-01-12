@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Al Mizhar, Wall Coverings in Al Mizhar, Best wall coverings Al Mizhar, Professional wall coverings Al Mizhar, Luxury wall coverings Al Mizhar, Wall Coverings Al Mizhar Dubai, Wall Coverings designer Al Mizhar, Wall Coverings company Al Mizhar, Wall Coverings contractor Al Mizhar, Affordable wall coverings Al Mizhar, Modern wall coverings Al Mizhar, Wall Coverings consultation Al Mizhar, Wall Coverings cost Al Mizhar, Wall Coverings price Al Mizhar, Top wall coverings Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

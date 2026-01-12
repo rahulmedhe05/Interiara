@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Al Furjan, Window Curtains in Al Furjan, Best window curtains Al Furjan, Professional window curtains Al Furjan, Luxury window curtains Al Furjan, Window Curtains Al Furjan Dubai, Window Curtains designer Al Furjan, Window Curtains company Al Furjan, Window Curtains contractor Al Furjan, Affordable window curtains Al Furjan, Modern window curtains Al Furjan, Window Curtains consultation Al Furjan, Window Curtains cost Al Furjan, Window Curtains price Al Furjan, Top window curtains Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

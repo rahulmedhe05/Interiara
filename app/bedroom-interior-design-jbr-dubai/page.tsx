@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bedroom interior design dubai, bedroom interior design dubai dubai, best bedroom interior design dubai company dubai, luxury bedroom interior design dubai dubai, modern bedroom interior design dubai dubai
+// SEO Keywords: Bedroom Interior Design Jbr, Bedroom Interior in Design Jbr, Best bedroom interior Design Jbr, Professional bedroom interior Design Jbr, Luxury bedroom interior Design Jbr, Bedroom Interior Design Jbr Dubai, Bedroom Interior designer Design Jbr, Bedroom Interior company Design Jbr, Bedroom Interior contractor Design Jbr, Affordable bedroom interior Design Jbr, Modern bedroom interior Design Jbr, Bedroom Interior consultation Design Jbr, Bedroom Interior cost Design Jbr, Bedroom Interior price Design Jbr, Top bedroom interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BedroomInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bedroom Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

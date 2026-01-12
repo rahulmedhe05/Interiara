@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Mirdif, Villa Interior in Design Mirdif, Best villa interior Design Mirdif, Professional villa interior Design Mirdif, Luxury villa interior Design Mirdif, Villa Interior Design Mirdif Dubai, Villa Interior designer Design Mirdif, Villa Interior company Design Mirdif, Villa Interior contractor Design Mirdif, Affordable villa interior Design Mirdif, Modern villa interior Design Mirdif, Villa Interior consultation Design Mirdif, Villa Interior cost Design Mirdif, Villa Interior price Design Mirdif, Top villa interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

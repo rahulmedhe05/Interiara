@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design palm dubai, showroom interior design palm dubai dubai, best showroom interior design palm dubai company dubai, luxury showroom interior design palm dubai dubai, modern showroom interior design palm dubai dubai
+// SEO Keywords: Showroom Interior Design Palm Jumeirah, Showroom Interior Design in Palm Jumeirah, Best showroom interior design Palm Jumeirah, Professional showroom interior design Palm Jumeirah, Luxury showroom interior design Palm Jumeirah, Showroom Interior Design Palm Jumeirah Dubai, Showroom Interior Design designer Palm Jumeirah, Showroom Interior Design company Palm Jumeirah, Showroom Interior Design contractor Palm Jumeirah, Affordable showroom interior design Palm Jumeirah, Modern showroom interior design Palm Jumeirah, Showroom Interior Design consultation Palm Jumeirah, Showroom Interior Design cost Palm Jumeirah, Showroom Interior Design price Palm Jumeirah, Top showroom interior design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

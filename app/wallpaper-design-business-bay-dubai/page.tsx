@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Business Bay, Wallpaper Design in Business Bay, Best wallpaper design Business Bay, Professional wallpaper design Business Bay, Luxury wallpaper design Business Bay, Wallpaper Design Business Bay Dubai, Wallpaper Design designer Business Bay, Wallpaper Design company Business Bay, Wallpaper Design contractor Business Bay, Affordable wallpaper design Business Bay, Modern wallpaper design Business Bay, Wallpaper Design consultation Business Bay, Wallpaper Design cost Business Bay, Wallpaper Design price Business Bay, Top wallpaper design Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Business Bay Dubai Company Business Bay Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Business Bay Company Business Bay</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

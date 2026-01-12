@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Umm Suqeim, Closet Design in Umm Suqeim, Best closet design Umm Suqeim, Professional closet design Umm Suqeim, Luxury closet design Umm Suqeim, Closet Design Umm Suqeim Dubai, Closet Design designer Umm Suqeim, Closet Design company Umm Suqeim, Closet Design contractor Umm Suqeim, Affordable closet design Umm Suqeim, Modern closet design Umm Suqeim, Closet Design consultation Umm Suqeim, Closet Design cost Umm Suqeim, Closet Design price Umm Suqeim, Top closet design Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

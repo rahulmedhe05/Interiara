@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home office interior design dubai, home office interior design dubai dubai, best home office interior design dubai company dubai, luxury home office interior design dubai dubai, modern home office interior design dubai dubai
+// SEO Keywords: Home Office Interior Design The Sustainable City, Home Office Interior Design The in Sustainable City, Best home office interior design the Sustainable City, Professional home office interior design the Sustainable City, Luxury home office interior design the Sustainable City, Home Office Interior Design The Sustainable City Dubai, Home Office Interior Design The designer Sustainable City, Home Office Interior Design The company Sustainable City, Home Office Interior Design The contractor Sustainable City, Affordable home office interior design the Sustainable City, Modern home office interior design the Sustainable City, Home Office Interior Design The consultation Sustainable City, Home Office Interior Design The cost Sustainable City, Home Office Interior Design The price Sustainable City, Top home office interior design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeOfficeInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Office Interior Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

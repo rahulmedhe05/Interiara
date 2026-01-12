@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Mirdif, Home in Renovation Mirdif, Best home Renovation Mirdif, Professional home Renovation Mirdif, Luxury home Renovation Mirdif, Home Renovation Mirdif Dubai, Home designer Renovation Mirdif, Home company Renovation Mirdif, Home contractor Renovation Mirdif, Affordable home Renovation Mirdif, Modern home Renovation Mirdif, Home consultation Renovation Mirdif, Home cost Renovation Mirdif, Home price Renovation Mirdif, Top home Renovation Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Renovation Mirdif Company Renovation Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

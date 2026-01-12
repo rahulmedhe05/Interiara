@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: media room interior design dubai, media room interior design dubai dubai, best media room interior design dubai company dubai, luxury media room interior design dubai dubai, modern media room interior design dubai dubai
+// SEO Keywords: Media Room Interior Design Business Bay South, Media Room Interior Design Business in Bay South, Best media room interior design business Bay South, Professional media room interior design business Bay South, Luxury media room interior design business Bay South, Media Room Interior Design Business Bay South Dubai, Media Room Interior Design Business designer Bay South, Media Room Interior Design Business company Bay South, Media Room Interior Design Business contractor Bay South, Affordable media room interior design business Bay South, Modern media room interior design business Bay South, Media Room Interior Design Business consultation Bay South, Media Room Interior Design Business cost Bay South, Media Room Interior Design Business price Bay South, Top media room interior design business Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MediaRoomInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Media Room Interior Design Business Bay South Dubai Company Business Bay South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior design business Bay South Company Bay South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

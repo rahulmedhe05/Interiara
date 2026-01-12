@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation festival dubai, home decor consultation festival dubai dubai, best home decor consultation festival dubai company dubai, luxury home decor consultation festival dubai dubai, modern home decor consultation festival dubai dubai
+// SEO Keywords: Home Decor Consultation Dubai Festival City, Home Decor Consultation Dubai in Festival City, Best home decor consultation dubai Festival City, Professional home decor consultation dubai Festival City, Luxury home decor consultation dubai Festival City, Home Decor Consultation Dubai Festival City Dubai, Home Decor Consultation Dubai designer Festival City, Home Decor Consultation Dubai company Festival City, Home Decor Consultation Dubai contractor Festival City, Affordable home decor consultation dubai Festival City, Modern home decor consultation dubai Festival City, Home Decor Consultation Dubai consultation Festival City, Home Decor Consultation Dubai cost Festival City, Home Decor Consultation Dubai price Festival City, Top home decor consultation dubai Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation dubai Festival City Company Festival City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

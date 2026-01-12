@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Nad Al Sheba, Budget Interior Solutions Nad in Al Sheba, Best budget interior solutions nad Al Sheba, Professional budget interior solutions nad Al Sheba, Luxury budget interior solutions nad Al Sheba, Budget Interior Solutions Nad Al Sheba Dubai, Budget Interior Solutions Nad designer Al Sheba, Budget Interior Solutions Nad company Al Sheba, Budget Interior Solutions Nad contractor Al Sheba, Affordable budget interior solutions nad Al Sheba, Modern budget interior solutions nad Al Sheba, Budget Interior Solutions Nad consultation Al Sheba, Budget Interior Solutions Nad cost Al Sheba, Budget Interior Solutions Nad price Al Sheba, Top budget interior solutions nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

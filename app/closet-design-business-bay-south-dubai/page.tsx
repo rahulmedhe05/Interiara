@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Business Bay South, Closet Design Business in Bay South, Best closet design business Bay South, Professional closet design business Bay South, Luxury closet design business Bay South, Closet Design Business Bay South Dubai, Closet Design Business designer Bay South, Closet Design Business company Bay South, Closet Design Business contractor Bay South, Affordable closet design business Bay South, Modern closet design business Bay South, Closet Design Business consultation Bay South, Closet Design Business cost Bay South, Closet Design Business price Bay South, Top closet design business Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Business Bay South Dubai Company Business Bay South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design business Bay South Company Bay South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

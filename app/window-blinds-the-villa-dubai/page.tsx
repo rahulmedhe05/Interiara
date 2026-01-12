@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds The Villa, Window Blinds in The Villa, Best window blinds The Villa, Professional window blinds The Villa, Luxury window blinds The Villa, Window Blinds The Villa Dubai, Window Blinds designer The Villa, Window Blinds company The Villa, Window Blinds contractor The Villa, Affordable window blinds The Villa, Modern window blinds The Villa, Window Blinds consultation The Villa, Window Blinds cost The Villa, Window Blinds price The Villa, Top window blinds The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds The Villa Dubai Company The Villa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds The Villa Company The Villa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

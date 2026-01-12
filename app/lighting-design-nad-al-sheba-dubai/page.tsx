@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Nad Al Sheba, Lighting Design Nad in Al Sheba, Best lighting design nad Al Sheba, Professional lighting design nad Al Sheba, Luxury lighting design nad Al Sheba, Lighting Design Nad Al Sheba Dubai, Lighting Design Nad designer Al Sheba, Lighting Design Nad company Al Sheba, Lighting Design Nad contractor Al Sheba, Affordable lighting design nad Al Sheba, Modern lighting design nad Al Sheba, Lighting Design Nad consultation Al Sheba, Lighting Design Nad cost Al Sheba, Lighting Design Nad price Al Sheba, Top lighting design nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

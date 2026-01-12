@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens festival dubai, modular kitchens festival dubai dubai, best modular kitchens festival dubai company dubai, luxury modular kitchens festival dubai dubai, modern modular kitchens festival dubai dubai
+// SEO Keywords: Modular Kitchens Dubai Festival City, Modular Kitchens Dubai in Festival City, Best modular kitchens dubai Festival City, Professional modular kitchens dubai Festival City, Luxury modular kitchens dubai Festival City, Modular Kitchens Dubai Festival City Dubai, Modular Kitchens Dubai designer Festival City, Modular Kitchens Dubai company Festival City, Modular Kitchens Dubai contractor Festival City, Affordable modular kitchens dubai Festival City, Modern modular kitchens dubai Festival City, Modular Kitchens Dubai consultation Festival City, Modular Kitchens Dubai cost Festival City, Modular Kitchens Dubai price Festival City, Top modular kitchens dubai Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens dubai Festival City Company Festival City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

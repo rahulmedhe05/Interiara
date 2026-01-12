@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Al Warqaa, Home Remodeling in Al Warqaa, Best home remodeling Al Warqaa, Professional home remodeling Al Warqaa, Luxury home remodeling Al Warqaa, Home Remodeling Al Warqaa Dubai, Home Remodeling designer Al Warqaa, Home Remodeling company Al Warqaa, Home Remodeling contractor Al Warqaa, Affordable home remodeling Al Warqaa, Modern home remodeling Al Warqaa, Home Remodeling consultation Al Warqaa, Home Remodeling cost Al Warqaa, Home Remodeling price Al Warqaa, Top home remodeling Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

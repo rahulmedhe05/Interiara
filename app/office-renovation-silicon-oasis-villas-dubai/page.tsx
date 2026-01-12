@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Silicon Oasis Villas, Office Renovation Silicon in Oasis Villas, Best office renovation silicon Oasis Villas, Professional office renovation silicon Oasis Villas, Luxury office renovation silicon Oasis Villas, Office Renovation Silicon Oasis Villas Dubai, Office Renovation Silicon designer Oasis Villas, Office Renovation Silicon company Oasis Villas, Office Renovation Silicon contractor Oasis Villas, Affordable office renovation silicon Oasis Villas, Modern office renovation silicon Oasis Villas, Office Renovation Silicon consultation Oasis Villas, Office Renovation Silicon cost Oasis Villas, Office Renovation Silicon price Oasis Villas, Top office renovation silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

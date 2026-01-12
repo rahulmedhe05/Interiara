@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Nad Al Sheba, Soundproofing Design Nad in Al Sheba, Best soundproofing design nad Al Sheba, Professional soundproofing design nad Al Sheba, Luxury soundproofing design nad Al Sheba, Soundproofing Design Nad Al Sheba Dubai, Soundproofing Design Nad designer Al Sheba, Soundproofing Design Nad company Al Sheba, Soundproofing Design Nad contractor Al Sheba, Affordable soundproofing design nad Al Sheba, Modern soundproofing design nad Al Sheba, Soundproofing Design Nad consultation Al Sheba, Soundproofing Design Nad cost Al Sheba, Soundproofing Design Nad price Al Sheba, Top soundproofing design nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

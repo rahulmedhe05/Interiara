@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home office interior design dubai, home office interior design dubai dubai, best home office interior design dubai company dubai, luxury home office interior design dubai dubai, modern home office interior design dubai dubai
+// SEO Keywords: Home Office Interior Design Town Square, Home Office Interior Design in Town Square, Best home office interior design Town Square, Professional home office interior design Town Square, Luxury home office interior design Town Square, Home Office Interior Design Town Square Dubai, Home Office Interior Design designer Town Square, Home Office Interior Design company Town Square, Home Office Interior Design contractor Town Square, Affordable home office interior design Town Square, Modern home office interior design Town Square, Home Office Interior Design consultation Town Square, Home Office Interior Design cost Town Square, Home Office Interior Design price Town Square, Top home office interior design Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeOfficeInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Office Interior Design Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home office interior design Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Office Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

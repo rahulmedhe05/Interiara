@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Al Safa, Wall Coverings in Al Safa, Best wall coverings Al Safa, Professional wall coverings Al Safa, Luxury wall coverings Al Safa, Wall Coverings Al Safa Dubai, Wall Coverings designer Al Safa, Wall Coverings company Al Safa, Wall Coverings contractor Al Safa, Affordable wall coverings Al Safa, Modern wall coverings Al Safa, Wall Coverings consultation Al Safa, Wall Coverings cost Al Safa, Wall Coverings price Al Safa, Top wall coverings Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

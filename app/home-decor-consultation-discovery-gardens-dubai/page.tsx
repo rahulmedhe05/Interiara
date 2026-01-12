@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Discovery Gardens, Home Decor Consultation in Discovery Gardens, Best home decor consultation Discovery Gardens, Professional home decor consultation Discovery Gardens, Luxury home decor consultation Discovery Gardens, Home Decor Consultation Discovery Gardens Dubai, Home Decor Consultation designer Discovery Gardens, Home Decor Consultation company Discovery Gardens, Home Decor Consultation contractor Discovery Gardens, Affordable home decor consultation Discovery Gardens, Modern home decor consultation Discovery Gardens, Home Decor Consultation consultation Discovery Gardens, Home Decor Consultation cost Discovery Gardens, Home Decor Consultation price Discovery Gardens, Top home decor consultation Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

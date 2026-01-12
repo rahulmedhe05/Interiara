@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Discovery Gardens, Affordable Interior Solutions in Discovery Gardens, Best affordable interior solutions Discovery Gardens, Professional affordable interior solutions Discovery Gardens, Luxury affordable interior solutions Discovery Gardens, Affordable Interior Solutions Discovery Gardens Dubai, Affordable Interior Solutions designer Discovery Gardens, Affordable Interior Solutions company Discovery Gardens, Affordable Interior Solutions contractor Discovery Gardens, Affordable affordable interior solutions Discovery Gardens, Modern affordable interior solutions Discovery Gardens, Affordable Interior Solutions consultation Discovery Gardens, Affordable Interior Solutions cost Discovery Gardens, Affordable Interior Solutions price Discovery Gardens, Top affordable interior solutions Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

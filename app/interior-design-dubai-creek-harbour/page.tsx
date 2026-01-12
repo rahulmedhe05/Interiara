@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior design creek dubai, interior design creek dubai dubai, best interior design creek dubai company dubai, luxury interior design creek dubai dubai, modern interior design creek dubai dubai
+// SEO Keywords:  Interior Design,  in Interior Design, Best  Interior Design, Professional  Interior Design, Luxury  Interior Design,  Interior Design Dubai,  designer Interior Design,  company Interior Design,  contractor Interior Design, Affordable  Interior Design, Modern  Interior Design,  consultation Interior Design,  cost Interior Design,  price Interior Design, Top  Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Design Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

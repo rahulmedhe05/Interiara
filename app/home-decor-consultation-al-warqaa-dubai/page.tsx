@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Al Warqaa, Home Decor Consultation in Al Warqaa, Best home decor consultation Al Warqaa, Professional home decor consultation Al Warqaa, Luxury home decor consultation Al Warqaa, Home Decor Consultation Al Warqaa Dubai, Home Decor Consultation designer Al Warqaa, Home Decor Consultation company Al Warqaa, Home Decor Consultation contractor Al Warqaa, Affordable home decor consultation Al Warqaa, Modern home decor consultation Al Warqaa, Home Decor Consultation consultation Al Warqaa, Home Decor Consultation cost Al Warqaa, Home Decor Consultation price Al Warqaa, Top home decor consultation Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

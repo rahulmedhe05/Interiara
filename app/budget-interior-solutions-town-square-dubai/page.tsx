@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Town Square, Budget Interior Solutions in Town Square, Best budget interior solutions Town Square, Professional budget interior solutions Town Square, Luxury budget interior solutions Town Square, Budget Interior Solutions Town Square Dubai, Budget Interior Solutions designer Town Square, Budget Interior Solutions company Town Square, Budget Interior Solutions contractor Town Square, Affordable budget interior solutions Town Square, Modern budget interior solutions Town Square, Budget Interior Solutions consultation Town Square, Budget Interior Solutions cost Town Square, Budget Interior Solutions price Town Square, Top budget interior solutions Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

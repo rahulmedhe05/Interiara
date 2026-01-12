@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bedroom interior design dubai, bedroom interior design dubai dubai, best bedroom interior design dubai company dubai, luxury bedroom interior design dubai dubai, modern bedroom interior design dubai dubai
+// SEO Keywords: Bedroom Interior Design, Bedroom in Interior Design, Best bedroom Interior Design, Professional bedroom Interior Design, Luxury bedroom Interior Design, Bedroom Interior Design Dubai, Bedroom designer Interior Design, Bedroom company Interior Design, Bedroom contractor Interior Design, Affordable bedroom Interior Design, Modern bedroom Interior Design, Bedroom consultation Interior Design, Bedroom cost Interior Design, Bedroom price Interior Design, Top bedroom Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BedroomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bedroom Interior Design Land Dubai Company Land Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Land Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

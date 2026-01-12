@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Town Square, Minimalist Interior Design in Town Square, Best minimalist interior design Town Square, Professional minimalist interior design Town Square, Luxury minimalist interior design Town Square, Minimalist Interior Design Town Square Dubai, Minimalist Interior Design designer Town Square, Minimalist Interior Design company Town Square, Minimalist Interior Design contractor Town Square, Affordable minimalist interior design Town Square, Modern minimalist interior design Town Square, Minimalist Interior Design consultation Town Square, Minimalist Interior Design cost Town Square, Minimalist Interior Design price Town Square, Top minimalist interior design Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior design Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

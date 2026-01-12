@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Greens, Affordable Interior in Solutions Greens, Best affordable interior Solutions Greens, Professional affordable interior Solutions Greens, Luxury affordable interior Solutions Greens, Affordable Interior Solutions Greens Dubai, Affordable Interior designer Solutions Greens, Affordable Interior company Solutions Greens, Affordable Interior contractor Solutions Greens, Affordable affordable interior Solutions Greens, Modern affordable interior Solutions Greens, Affordable Interior consultation Solutions Greens, Affordable Interior cost Solutions Greens, Affordable Interior price Solutions Greens, Top affordable interior Solutions Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Greens Company Solutions Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

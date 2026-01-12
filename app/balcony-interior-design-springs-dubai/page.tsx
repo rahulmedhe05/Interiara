@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: balcony interior design dubai, balcony interior design dubai dubai, best balcony interior design dubai company dubai, luxury balcony interior design dubai dubai, modern balcony interior design dubai dubai
+// SEO Keywords: Balcony Interior Design Springs, Balcony Interior in Design Springs, Best balcony interior Design Springs, Professional balcony interior Design Springs, Luxury balcony interior Design Springs, Balcony Interior Design Springs Dubai, Balcony Interior designer Design Springs, Balcony Interior company Design Springs, Balcony Interior contractor Design Springs, Affordable balcony interior Design Springs, Modern balcony interior Design Springs, Balcony Interior consultation Design Springs, Balcony Interior cost Design Springs, Balcony Interior price Design Springs, Top balcony interior Design Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BalconyInteriorDesignSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Balcony Interior Design The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best balcony interior Design Springs Company Design Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Balcony Interior Design The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

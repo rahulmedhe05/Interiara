@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Discovery Hills, Gym Interior Design in Discovery Hills, Best gym interior design Discovery Hills, Professional gym interior design Discovery Hills, Luxury gym interior design Discovery Hills, Gym Interior Design Discovery Hills Dubai, Gym Interior Design designer Discovery Hills, Gym Interior Design company Discovery Hills, Gym Interior Design contractor Discovery Hills, Affordable gym interior design Discovery Hills, Modern gym interior design Discovery Hills, Gym Interior Design consultation Discovery Hills, Gym Interior Design cost Discovery Hills, Gym Interior Design price Discovery Hills, Top gym interior design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

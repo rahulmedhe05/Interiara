@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Mirdif, Office Fit in Out Mirdif, Best office fit Out Mirdif, Professional office fit Out Mirdif, Luxury office fit Out Mirdif, Office Fit Out Mirdif Dubai, Office Fit designer Out Mirdif, Office Fit company Out Mirdif, Office Fit contractor Out Mirdif, Affordable office fit Out Mirdif, Modern office fit Out Mirdif, Office Fit consultation Out Mirdif, Office Fit cost Out Mirdif, Office Fit price Out Mirdif, Top office fit Out Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit Out Mirdif Company Out Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

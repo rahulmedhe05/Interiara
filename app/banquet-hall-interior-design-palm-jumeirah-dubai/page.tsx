@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: banquet hall interior design palm dubai, banquet hall interior design palm dubai dubai, best banquet hall interior design palm dubai company dubai, luxury banquet hall interior design palm dubai dubai, modern banquet hall interior design palm dubai dubai
+// SEO Keywords: Banquet Hall Interior Design Palm Jumeirah, Banquet Hall Interior Design in Palm Jumeirah, Best banquet hall interior design Palm Jumeirah, Professional banquet hall interior design Palm Jumeirah, Luxury banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design Palm Jumeirah Dubai, Banquet Hall Interior Design designer Palm Jumeirah, Banquet Hall Interior Design company Palm Jumeirah, Banquet Hall Interior Design contractor Palm Jumeirah, Affordable banquet hall interior design Palm Jumeirah, Modern banquet hall interior design Palm Jumeirah, Banquet Hall Interior Design consultation Palm Jumeirah, Banquet Hall Interior Design cost Palm Jumeirah, Banquet Hall Interior Design price Palm Jumeirah, Top banquet hall interior design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BanquetHallInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Banquet Hall Interior Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

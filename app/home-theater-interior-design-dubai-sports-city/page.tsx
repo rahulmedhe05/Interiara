@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home theater interior design sports dubai, home theater interior design sports dubai dubai, best home theater interior design sports dubai company dubai, luxury home theater interior design sports dubai dubai, modern home theater interior design sports dubai dubai
+// SEO Keywords: Home Theater Interior Design, Home Theater in Interior Design, Best home theater Interior Design, Professional home theater Interior Design, Luxury home theater Interior Design, Home Theater Interior Design Dubai, Home Theater designer Interior Design, Home Theater company Interior Design, Home Theater contractor Interior Design, Affordable home theater Interior Design, Modern home theater Interior Design, Home Theater consultation Interior Design, Home Theater cost Interior Design, Home Theater price Interior Design, Top home theater Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeTheaterInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Theater Interior Design Sports City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home theater Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Theater Interior Design Sports City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

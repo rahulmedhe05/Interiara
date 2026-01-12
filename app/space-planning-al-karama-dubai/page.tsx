@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Al Karama, Space Planning in Al Karama, Best space planning Al Karama, Professional space planning Al Karama, Luxury space planning Al Karama, Space Planning Al Karama Dubai, Space Planning designer Al Karama, Space Planning company Al Karama, Space Planning contractor Al Karama, Affordable space planning Al Karama, Modern space planning Al Karama, Space Planning consultation Al Karama, Space Planning cost Al Karama, Space Planning price Al Karama, Top space planning Al Karama
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningAlKarama() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Al Karama Dubai Company Al Karama Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Al Karama Company Al Karama</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Al Karama Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

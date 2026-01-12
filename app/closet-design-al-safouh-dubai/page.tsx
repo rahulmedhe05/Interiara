@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Al Safouh, Closet Design in Al Safouh, Best closet design Al Safouh, Professional closet design Al Safouh, Luxury closet design Al Safouh, Closet Design Al Safouh Dubai, Closet Design designer Al Safouh, Closet Design company Al Safouh, Closet Design contractor Al Safouh, Affordable closet design Al Safouh, Modern closet design Al Safouh, Closet Design consultation Al Safouh, Closet Design cost Al Safouh, Closet Design price Al Safouh, Top closet design Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

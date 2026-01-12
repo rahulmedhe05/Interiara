@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Al Hamriya, Modular Kitchens in Al Hamriya, Best modular kitchens Al Hamriya, Professional modular kitchens Al Hamriya, Luxury modular kitchens Al Hamriya, Modular Kitchens Al Hamriya Dubai, Modular Kitchens designer Al Hamriya, Modular Kitchens company Al Hamriya, Modular Kitchens contractor Al Hamriya, Affordable modular kitchens Al Hamriya, Modern modular kitchens Al Hamriya, Modular Kitchens consultation Al Hamriya, Modular Kitchens cost Al Hamriya, Modular Kitchens price Al Hamriya, Top modular kitchens Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

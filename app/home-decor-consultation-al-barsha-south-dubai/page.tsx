@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Al Barsha South, Home Decor Consultation Al in Barsha South, Best home decor consultation al Barsha South, Professional home decor consultation al Barsha South, Luxury home decor consultation al Barsha South, Home Decor Consultation Al Barsha South Dubai, Home Decor Consultation Al designer Barsha South, Home Decor Consultation Al company Barsha South, Home Decor Consultation Al contractor Barsha South, Affordable home decor consultation al Barsha South, Modern home decor consultation al Barsha South, Home Decor Consultation Al consultation Barsha South, Home Decor Consultation Al cost Barsha South, Home Decor Consultation Al price Barsha South, Top home decor consultation al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens City Walk, Modular Kitchens in City Walk, Best modular kitchens City Walk, Professional modular kitchens City Walk, Luxury modular kitchens City Walk, Modular Kitchens City Walk Dubai, Modular Kitchens designer City Walk, Modular Kitchens company City Walk, Modular Kitchens contractor City Walk, Affordable modular kitchens City Walk, Modern modular kitchens City Walk, Modular Kitchens consultation City Walk, Modular Kitchens cost City Walk, Modular Kitchens price City Walk, Top modular kitchens City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens City Walk Dubai Company City Walk Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens City Walk Company City Walk</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

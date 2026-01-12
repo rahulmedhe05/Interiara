@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: spa interior design dubai, spa interior design dubai dubai, best spa interior design dubai company dubai, luxury spa interior design dubai dubai, modern spa interior design dubai dubai
+// SEO Keywords: Spa Interior Design Jbr, Spa Interior in Design Jbr, Best spa interior Design Jbr, Professional spa interior Design Jbr, Luxury spa interior Design Jbr, Spa Interior Design Jbr Dubai, Spa Interior designer Design Jbr, Spa Interior company Design Jbr, Spa Interior contractor Design Jbr, Affordable spa interior Design Jbr, Modern spa interior Design Jbr, Spa Interior consultation Design Jbr, Spa Interior cost Design Jbr, Spa Interior price Design Jbr, Top spa interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpaInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Spa Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best spa interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Spa Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

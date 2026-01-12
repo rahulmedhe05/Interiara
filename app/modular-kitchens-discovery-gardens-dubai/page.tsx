@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Discovery Gardens, Modular Kitchens in Discovery Gardens, Best modular kitchens Discovery Gardens, Professional modular kitchens Discovery Gardens, Luxury modular kitchens Discovery Gardens, Modular Kitchens Discovery Gardens Dubai, Modular Kitchens designer Discovery Gardens, Modular Kitchens company Discovery Gardens, Modular Kitchens contractor Discovery Gardens, Affordable modular kitchens Discovery Gardens, Modern modular kitchens Discovery Gardens, Modular Kitchens consultation Discovery Gardens, Modular Kitchens cost Discovery Gardens, Modular Kitchens price Discovery Gardens, Top modular kitchens Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

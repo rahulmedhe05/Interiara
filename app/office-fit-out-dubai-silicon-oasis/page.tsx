@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out silicon dubai, office fit out silicon dubai dubai, best office fit out silicon dubai company dubai, luxury office fit out silicon dubai dubai, modern office fit out silicon dubai dubai
+// SEO Keywords: Office Fit Out, Office in Fit Out, Best office Fit Out, Professional office Fit Out, Luxury office Fit Out, Office Fit Out Dubai, Office designer Fit Out, Office company Fit Out, Office contractor Fit Out, Affordable office Fit Out, Modern office Fit Out, Office consultation Fit Out, Office cost Fit Out, Office price Fit Out, Top office Fit Out
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOut() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Silicon Oasis Dubai Company Oasis Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Fit Out Company Fit Out</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Silicon Oasis Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

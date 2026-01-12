@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Silicon Oasis Villas, Lighting Automation Silicon in Oasis Villas, Best lighting automation silicon Oasis Villas, Professional lighting automation silicon Oasis Villas, Luxury lighting automation silicon Oasis Villas, Lighting Automation Silicon Oasis Villas Dubai, Lighting Automation Silicon designer Oasis Villas, Lighting Automation Silicon company Oasis Villas, Lighting Automation Silicon contractor Oasis Villas, Affordable lighting automation silicon Oasis Villas, Modern lighting automation silicon Oasis Villas, Lighting Automation Silicon consultation Oasis Villas, Lighting Automation Silicon cost Oasis Villas, Lighting Automation Silicon price Oasis Villas, Top lighting automation silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

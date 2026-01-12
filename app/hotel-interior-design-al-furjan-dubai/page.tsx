@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: hotel interior design dubai, hotel interior design dubai dubai, best hotel interior design dubai company dubai, luxury hotel interior design dubai dubai, modern hotel interior design dubai dubai
+// SEO Keywords: Hotel Interior Design Al Furjan, Hotel Interior Design in Al Furjan, Best hotel interior design Al Furjan, Professional hotel interior design Al Furjan, Luxury hotel interior design Al Furjan, Hotel Interior Design Al Furjan Dubai, Hotel Interior Design designer Al Furjan, Hotel Interior Design company Al Furjan, Hotel Interior Design contractor Al Furjan, Affordable hotel interior design Al Furjan, Modern hotel interior design Al Furjan, Hotel Interior Design consultation Al Furjan, Hotel Interior Design cost Al Furjan, Hotel Interior Design price Al Furjan, Top hotel interior design Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HotelInteriorDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Hotel Interior Design Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

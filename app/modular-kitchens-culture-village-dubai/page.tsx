@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Culture Village, Modular Kitchens in Culture Village, Best modular kitchens Culture Village, Professional modular kitchens Culture Village, Luxury modular kitchens Culture Village, Modular Kitchens Culture Village Dubai, Modular Kitchens designer Culture Village, Modular Kitchens company Culture Village, Modular Kitchens contractor Culture Village, Affordable modular kitchens Culture Village, Modern modular kitchens Culture Village, Modular Kitchens consultation Culture Village, Modular Kitchens cost Culture Village, Modular Kitchens price Culture Village, Top modular kitchens Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Culture Village Dubai Company Culture Village Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Culture Village Company Culture Village</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

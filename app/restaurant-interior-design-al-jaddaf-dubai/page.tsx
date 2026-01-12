@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: restaurant interior design dubai, restaurant interior design dubai dubai, best restaurant interior design dubai company dubai, luxury restaurant interior design dubai dubai, modern restaurant interior design dubai dubai
+// SEO Keywords: Restaurant Interior Design Al Jaddaf, Restaurant Interior Design in Al Jaddaf, Best restaurant interior design Al Jaddaf, Professional restaurant interior design Al Jaddaf, Luxury restaurant interior design Al Jaddaf, Restaurant Interior Design Al Jaddaf Dubai, Restaurant Interior Design designer Al Jaddaf, Restaurant Interior Design company Al Jaddaf, Restaurant Interior Design contractor Al Jaddaf, Affordable restaurant interior design Al Jaddaf, Modern restaurant interior design Al Jaddaf, Restaurant Interior Design consultation Al Jaddaf, Restaurant Interior Design cost Al Jaddaf, Restaurant Interior Design price Al Jaddaf, Top restaurant interior design Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RestaurantInteriorDesignAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Restaurant Interior Design Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior design Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

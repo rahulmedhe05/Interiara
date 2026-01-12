@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Emirates Hills, Acoustic Design in Emirates Hills, Best acoustic design Emirates Hills, Professional acoustic design Emirates Hills, Luxury acoustic design Emirates Hills, Acoustic Design Emirates Hills Dubai, Acoustic Design designer Emirates Hills, Acoustic Design company Emirates Hills, Acoustic Design contractor Emirates Hills, Affordable acoustic design Emirates Hills, Modern acoustic design Emirates Hills, Acoustic Design consultation Emirates Hills, Acoustic Design cost Emirates Hills, Acoustic Design price Emirates Hills, Top acoustic design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Discovery Hills, Home Remodeling in Discovery Hills, Best home remodeling Discovery Hills, Professional home remodeling Discovery Hills, Luxury home remodeling Discovery Hills, Home Remodeling Discovery Hills Dubai, Home Remodeling designer Discovery Hills, Home Remodeling company Discovery Hills, Home Remodeling contractor Discovery Hills, Affordable home remodeling Discovery Hills, Modern home remodeling Discovery Hills, Home Remodeling consultation Discovery Hills, Home Remodeling cost Discovery Hills, Home Remodeling price Discovery Hills, Top home remodeling Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Jlt, Custom Furniture in Design Jlt, Best custom furniture Design Jlt, Professional custom furniture Design Jlt, Luxury custom furniture Design Jlt, Custom Furniture Design Jlt Dubai, Custom Furniture designer Design Jlt, Custom Furniture company Design Jlt, Custom Furniture contractor Design Jlt, Affordable custom furniture Design Jlt, Modern custom furniture Design Jlt, Custom Furniture consultation Design Jlt, Custom Furniture cost Design Jlt, Custom Furniture price Design Jlt, Top custom furniture Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

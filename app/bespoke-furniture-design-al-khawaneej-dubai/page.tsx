@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Al Khawaneej, Bespoke Furniture Design in Al Khawaneej, Best bespoke furniture design Al Khawaneej, Professional bespoke furniture design Al Khawaneej, Luxury bespoke furniture design Al Khawaneej, Bespoke Furniture Design Al Khawaneej Dubai, Bespoke Furniture Design designer Al Khawaneej, Bespoke Furniture Design company Al Khawaneej, Bespoke Furniture Design contractor Al Khawaneej, Affordable bespoke furniture design Al Khawaneej, Modern bespoke furniture design Al Khawaneej, Bespoke Furniture Design consultation Al Khawaneej, Bespoke Furniture Design cost Al Khawaneej, Bespoke Furniture Design price Al Khawaneej, Top bespoke furniture design Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

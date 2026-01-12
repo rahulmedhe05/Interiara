@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning creek dubai, space planning creek dubai dubai, best space planning creek dubai company dubai, luxury space planning creek dubai dubai, modern space planning creek dubai dubai
+// SEO Keywords: Space Planning Dubai Creek Harbour, Space Planning Dubai in Creek Harbour, Best space planning dubai Creek Harbour, Professional space planning dubai Creek Harbour, Luxury space planning dubai Creek Harbour, Space Planning Dubai Creek Harbour Dubai, Space Planning Dubai designer Creek Harbour, Space Planning Dubai company Creek Harbour, Space Planning Dubai contractor Creek Harbour, Affordable space planning dubai Creek Harbour, Modern space planning dubai Creek Harbour, Space Planning Dubai consultation Creek Harbour, Space Planning Dubai cost Creek Harbour, Space Planning Dubai price Creek Harbour, Top space planning dubai Creek Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Creek Harbour Company Creek Harbour</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

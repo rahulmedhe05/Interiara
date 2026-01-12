@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds palm dubai, window blinds palm dubai dubai, best window blinds palm dubai company dubai, luxury window blinds palm dubai dubai, modern window blinds palm dubai dubai
+// SEO Keywords: Window Blinds Palm Jumeirah, Window Blinds in Palm Jumeirah, Best window blinds Palm Jumeirah, Professional window blinds Palm Jumeirah, Luxury window blinds Palm Jumeirah, Window Blinds Palm Jumeirah Dubai, Window Blinds designer Palm Jumeirah, Window Blinds company Palm Jumeirah, Window Blinds contractor Palm Jumeirah, Affordable window blinds Palm Jumeirah, Modern window blinds Palm Jumeirah, Window Blinds consultation Palm Jumeirah, Window Blinds cost Palm Jumeirah, Window Blinds price Palm Jumeirah, Top window blinds Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Lakes, Home in Remodeling Lakes, Best home Remodeling Lakes, Professional home Remodeling Lakes, Luxury home Remodeling Lakes, Home Remodeling Lakes Dubai, Home designer Remodeling Lakes, Home company Remodeling Lakes, Home contractor Remodeling Lakes, Affordable home Remodeling Lakes, Modern home Remodeling Lakes, Home consultation Remodeling Lakes, Home cost Remodeling Lakes, Home price Remodeling Lakes, Top home Remodeling Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Remodeling Lakes Company Remodeling Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: spa interior design dubai, spa interior design dubai dubai, best spa interior design dubai company dubai, luxury spa interior design dubai dubai, modern spa interior design dubai dubai
+// SEO Keywords: Spa Interior Design The Sustainable City, Spa Interior Design The in Sustainable City, Best spa interior design the Sustainable City, Professional spa interior design the Sustainable City, Luxury spa interior design the Sustainable City, Spa Interior Design The Sustainable City Dubai, Spa Interior Design The designer Sustainable City, Spa Interior Design The company Sustainable City, Spa Interior Design The contractor Sustainable City, Affordable spa interior design the Sustainable City, Modern spa interior design the Sustainable City, Spa Interior Design The consultation Sustainable City, Spa Interior Design The cost Sustainable City, Spa Interior Design The price Sustainable City, Top spa interior design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpaInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Spa Interior Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best spa interior design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Spa Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

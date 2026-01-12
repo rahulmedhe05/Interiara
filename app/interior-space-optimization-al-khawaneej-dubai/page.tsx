@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Al Khawaneej, Interior Space Optimization in Al Khawaneej, Best interior space optimization Al Khawaneej, Professional interior space optimization Al Khawaneej, Luxury interior space optimization Al Khawaneej, Interior Space Optimization Al Khawaneej Dubai, Interior Space Optimization designer Al Khawaneej, Interior Space Optimization company Al Khawaneej, Interior Space Optimization contractor Al Khawaneej, Affordable interior space optimization Al Khawaneej, Modern interior space optimization Al Khawaneej, Interior Space Optimization consultation Al Khawaneej, Interior Space Optimization cost Al Khawaneej, Interior Space Optimization price Al Khawaneej, Top interior space optimization Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

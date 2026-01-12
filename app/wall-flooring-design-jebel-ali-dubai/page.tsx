@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Jebel Ali, Wall Flooring Design in Jebel Ali, Best wall flooring design Jebel Ali, Professional wall flooring design Jebel Ali, Luxury wall flooring design Jebel Ali, Wall Flooring Design Jebel Ali Dubai, Wall Flooring Design designer Jebel Ali, Wall Flooring Design company Jebel Ali, Wall Flooring Design contractor Jebel Ali, Affordable wall flooring design Jebel Ali, Modern wall flooring design Jebel Ali, Wall Flooring Design consultation Jebel Ali, Wall Flooring Design cost Jebel Ali, Wall Flooring Design price Jebel Ali, Top wall flooring design Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

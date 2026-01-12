@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: eco friendly interior design dubai, eco friendly interior design dubai dubai, best eco friendly interior design dubai company dubai, luxury eco friendly interior design dubai dubai, modern eco friendly interior design dubai dubai
+// SEO Keywords: Eco Friendly Interior Design Greens, Eco Friendly Interior in Design Greens, Best eco friendly interior Design Greens, Professional eco friendly interior Design Greens, Luxury eco friendly interior Design Greens, Eco Friendly Interior Design Greens Dubai, Eco Friendly Interior designer Design Greens, Eco Friendly Interior company Design Greens, Eco Friendly Interior contractor Design Greens, Affordable eco friendly interior Design Greens, Modern eco friendly interior Design Greens, Eco Friendly Interior consultation Design Greens, Eco Friendly Interior cost Design Greens, Eco Friendly Interior price Design Greens, Top eco friendly interior Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function EcoFriendlyInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Eco Friendly Interior Design The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior Design Greens Company Design Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

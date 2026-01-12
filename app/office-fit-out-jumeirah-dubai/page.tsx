@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Jumeirah, Office Fit in Out Jumeirah, Best office fit Out Jumeirah, Professional office fit Out Jumeirah, Luxury office fit Out Jumeirah, Office Fit Out Jumeirah Dubai, Office Fit designer Out Jumeirah, Office Fit company Out Jumeirah, Office Fit contractor Out Jumeirah, Affordable office fit Out Jumeirah, Modern office fit Out Jumeirah, Office Fit consultation Out Jumeirah, Office Fit cost Out Jumeirah, Office Fit price Out Jumeirah, Top office fit Out Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit Out Jumeirah Company Out Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Jvt, Showroom Interior in Design Jvt, Best showroom interior Design Jvt, Professional showroom interior Design Jvt, Luxury showroom interior Design Jvt, Showroom Interior Design Jvt Dubai, Showroom Interior designer Design Jvt, Showroom Interior company Design Jvt, Showroom Interior contractor Design Jvt, Affordable showroom interior Design Jvt, Modern showroom interior Design Jvt, Showroom Interior consultation Design Jvt, Showroom Interior cost Design Jvt, Showroom Interior price Design Jvt, Top showroom interior Design Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Jvt Company Design Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

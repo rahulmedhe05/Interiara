@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Creek, Wardrobe in Design Creek, Best wardrobe Design Creek, Professional wardrobe Design Creek, Luxury wardrobe Design Creek, Wardrobe Design Creek Dubai, Wardrobe designer Design Creek, Wardrobe company Design Creek, Wardrobe contractor Design Creek, Affordable wardrobe Design Creek, Modern wardrobe Design Creek, Wardrobe consultation Design Creek, Wardrobe cost Design Creek, Wardrobe price Design Creek, Top wardrobe Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

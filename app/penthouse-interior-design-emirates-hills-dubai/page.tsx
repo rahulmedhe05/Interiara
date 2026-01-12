@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
+// SEO Keywords: Penthouse Interior Design Emirates Hills, Penthouse Interior Design in Emirates Hills, Best penthouse interior design Emirates Hills, Professional penthouse interior design Emirates Hills, Luxury penthouse interior design Emirates Hills, Penthouse Interior Design Emirates Hills Dubai, Penthouse Interior Design designer Emirates Hills, Penthouse Interior Design company Emirates Hills, Penthouse Interior Design contractor Emirates Hills, Affordable penthouse interior design Emirates Hills, Modern penthouse interior design Emirates Hills, Penthouse Interior Design consultation Emirates Hills, Penthouse Interior Design cost Emirates Hills, Penthouse Interior Design price Emirates Hills, Top penthouse interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function PenthouseInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

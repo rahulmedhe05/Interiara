@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Muhaisnah, Home Decor in Consultation Muhaisnah, Best home decor Consultation Muhaisnah, Professional home decor Consultation Muhaisnah, Luxury home decor Consultation Muhaisnah, Home Decor Consultation Muhaisnah Dubai, Home Decor designer Consultation Muhaisnah, Home Decor company Consultation Muhaisnah, Home Decor contractor Consultation Muhaisnah, Affordable home decor Consultation Muhaisnah, Modern home decor Consultation Muhaisnah, Home Decor consultation Consultation Muhaisnah, Home Decor cost Consultation Muhaisnah, Home Decor price Consultation Muhaisnah, Top home decor Consultation Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Muhaisnah Company Consultation Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

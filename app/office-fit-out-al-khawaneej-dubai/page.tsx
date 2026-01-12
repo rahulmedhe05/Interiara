@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Al Khawaneej, Office Fit Out in Al Khawaneej, Best office fit out Al Khawaneej, Professional office fit out Al Khawaneej, Luxury office fit out Al Khawaneej, Office Fit Out Al Khawaneej Dubai, Office Fit Out designer Al Khawaneej, Office Fit Out company Al Khawaneej, Office Fit Out contractor Al Khawaneej, Affordable office fit out Al Khawaneej, Modern office fit out Al Khawaneej, Office Fit Out consultation Al Khawaneej, Office Fit Out cost Al Khawaneej, Office Fit Out price Al Khawaneej, Top office fit out Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

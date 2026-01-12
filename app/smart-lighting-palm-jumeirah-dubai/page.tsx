@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting palm dubai, smart lighting palm dubai dubai, best smart lighting palm dubai company dubai, luxury smart lighting palm dubai dubai, modern smart lighting palm dubai dubai
+// SEO Keywords: Smart Lighting Palm Jumeirah, Smart Lighting in Palm Jumeirah, Best smart lighting Palm Jumeirah, Professional smart lighting Palm Jumeirah, Luxury smart lighting Palm Jumeirah, Smart Lighting Palm Jumeirah Dubai, Smart Lighting designer Palm Jumeirah, Smart Lighting company Palm Jumeirah, Smart Lighting contractor Palm Jumeirah, Affordable smart lighting Palm Jumeirah, Modern smart lighting Palm Jumeirah, Smart Lighting consultation Palm Jumeirah, Smart Lighting cost Palm Jumeirah, Smart Lighting price Palm Jumeirah, Top smart lighting Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

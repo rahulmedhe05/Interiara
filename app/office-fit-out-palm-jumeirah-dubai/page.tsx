@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out palm dubai, office fit out palm dubai dubai, best office fit out palm dubai company dubai, luxury office fit out palm dubai dubai, modern office fit out palm dubai dubai
+// SEO Keywords: Office Fit Out Palm Jumeirah, Office Fit Out in Palm Jumeirah, Best office fit out Palm Jumeirah, Professional office fit out Palm Jumeirah, Luxury office fit out Palm Jumeirah, Office Fit Out Palm Jumeirah Dubai, Office Fit Out designer Palm Jumeirah, Office Fit Out company Palm Jumeirah, Office Fit Out contractor Palm Jumeirah, Affordable office fit out Palm Jumeirah, Modern office fit out Palm Jumeirah, Office Fit Out consultation Palm Jumeirah, Office Fit Out cost Palm Jumeirah, Office Fit Out price Palm Jumeirah, Top office fit out Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

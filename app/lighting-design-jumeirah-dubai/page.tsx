@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Jumeirah, Lighting in Design Jumeirah, Best lighting Design Jumeirah, Professional lighting Design Jumeirah, Luxury lighting Design Jumeirah, Lighting Design Jumeirah Dubai, Lighting designer Design Jumeirah, Lighting company Design Jumeirah, Lighting contractor Design Jumeirah, Affordable lighting Design Jumeirah, Modern lighting Design Jumeirah, Lighting consultation Design Jumeirah, Lighting cost Design Jumeirah, Lighting price Design Jumeirah, Top lighting Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

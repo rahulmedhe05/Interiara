@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Palm, Budget Interior in Solutions Palm, Best budget interior Solutions Palm, Professional budget interior Solutions Palm, Luxury budget interior Solutions Palm, Budget Interior Solutions Palm Dubai, Budget Interior designer Solutions Palm, Budget Interior company Solutions Palm, Budget Interior contractor Solutions Palm, Affordable budget interior Solutions Palm, Modern budget interior Solutions Palm, Budget Interior consultation Solutions Palm, Budget Interior cost Solutions Palm, Budget Interior price Solutions Palm, Top budget interior Solutions Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior Solutions Palm Company Solutions Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Business Bay, Acoustic Design in Business Bay, Best acoustic design Business Bay, Professional acoustic design Business Bay, Luxury acoustic design Business Bay, Acoustic Design Business Bay Dubai, Acoustic Design designer Business Bay, Acoustic Design company Business Bay, Acoustic Design contractor Business Bay, Affordable acoustic design Business Bay, Modern acoustic design Business Bay, Acoustic Design consultation Business Bay, Acoustic Design cost Business Bay, Acoustic Design price Business Bay, Top acoustic design Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Business Bay Dubai Company Business Bay Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Business Bay Company Business Bay</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

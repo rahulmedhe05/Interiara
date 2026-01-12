@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Silicon Oasis Villas, Interior Space Optimization Silicon in Oasis Villas, Best interior space optimization silicon Oasis Villas, Professional interior space optimization silicon Oasis Villas, Luxury interior space optimization silicon Oasis Villas, Interior Space Optimization Silicon Oasis Villas Dubai, Interior Space Optimization Silicon designer Oasis Villas, Interior Space Optimization Silicon company Oasis Villas, Interior Space Optimization Silicon contractor Oasis Villas, Affordable interior space optimization silicon Oasis Villas, Modern interior space optimization silicon Oasis Villas, Interior Space Optimization Silicon consultation Oasis Villas, Interior Space Optimization Silicon cost Oasis Villas, Interior Space Optimization Silicon price Oasis Villas, Top interior space optimization silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

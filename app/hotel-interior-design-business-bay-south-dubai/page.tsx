@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: hotel interior design dubai, hotel interior design dubai dubai, best hotel interior design dubai company dubai, luxury hotel interior design dubai dubai, modern hotel interior design dubai dubai
+// SEO Keywords: Hotel Interior Design Business Bay South, Hotel Interior Design Business in Bay South, Best hotel interior design business Bay South, Professional hotel interior design business Bay South, Luxury hotel interior design business Bay South, Hotel Interior Design Business Bay South Dubai, Hotel Interior Design Business designer Bay South, Hotel Interior Design Business company Bay South, Hotel Interior Design Business contractor Bay South, Affordable hotel interior design business Bay South, Modern hotel interior design business Bay South, Hotel Interior Design Business consultation Bay South, Hotel Interior Design Business cost Bay South, Hotel Interior Design Business price Bay South, Top hotel interior design business Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HotelInteriorDesignBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Hotel Interior Design Business Bay South Dubai Company Business Bay South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior design business Bay South Company Bay South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

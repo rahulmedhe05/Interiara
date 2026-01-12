@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
+// SEO Keywords: Art Consultation Al Safouh, Art Consultation in Al Safouh, Best art consultation Al Safouh, Professional art consultation Al Safouh, Luxury art consultation Al Safouh, Art Consultation Al Safouh Dubai, Art Consultation designer Al Safouh, Art Consultation company Al Safouh, Art Consultation contractor Al Safouh, Affordable art consultation Al Safouh, Modern art consultation Al Safouh, Art Consultation consultation Al Safouh, Art Consultation cost Al Safouh, Art Consultation price Al Safouh, Top art consultation Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArtConsultationAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

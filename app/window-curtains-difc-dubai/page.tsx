@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Difc, Window in Curtains Difc, Best window Curtains Difc, Professional window Curtains Difc, Luxury window Curtains Difc, Window Curtains Difc Dubai, Window designer Curtains Difc, Window company Curtains Difc, Window contractor Curtains Difc, Affordable window Curtains Difc, Modern window Curtains Difc, Window consultation Curtains Difc, Window cost Curtains Difc, Window price Curtains Difc, Top window Curtains Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains DIFC Dubai Company DIFC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window Curtains Difc Company Curtains Difc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

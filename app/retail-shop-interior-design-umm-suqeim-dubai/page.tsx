@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: retail shop interior design dubai, retail shop interior design dubai dubai, best retail shop interior design dubai company dubai, luxury retail shop interior design dubai dubai, modern retail shop interior design dubai dubai
+// SEO Keywords: Retail Shop Interior Design Umm Suqeim, Retail Shop Interior Design in Umm Suqeim, Best retail shop interior design Umm Suqeim, Professional retail shop interior design Umm Suqeim, Luxury retail shop interior design Umm Suqeim, Retail Shop Interior Design Umm Suqeim Dubai, Retail Shop Interior Design designer Umm Suqeim, Retail Shop Interior Design company Umm Suqeim, Retail Shop Interior Design contractor Umm Suqeim, Affordable retail shop interior design Umm Suqeim, Modern retail shop interior design Umm Suqeim, Retail Shop Interior Design consultation Umm Suqeim, Retail Shop Interior Design cost Umm Suqeim, Retail Shop Interior Design price Umm Suqeim, Top retail shop interior design Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RetailShopInteriorDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Retail Shop Interior Design Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior design Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Al Furjan, Soundproofing Design in Al Furjan, Best soundproofing design Al Furjan, Professional soundproofing design Al Furjan, Luxury soundproofing design Al Furjan, Soundproofing Design Al Furjan Dubai, Soundproofing Design designer Al Furjan, Soundproofing Design company Al Furjan, Soundproofing Design contractor Al Furjan, Affordable soundproofing design Al Furjan, Modern soundproofing design Al Furjan, Soundproofing Design consultation Al Furjan, Soundproofing Design cost Al Furjan, Soundproofing Design price Al Furjan, Top soundproofing design Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

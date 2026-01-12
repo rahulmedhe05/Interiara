@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions palm dubai, budget interior solutions palm dubai dubai, best budget interior solutions palm dubai company dubai, luxury budget interior solutions palm dubai dubai, modern budget interior solutions palm dubai dubai
+// SEO Keywords: Budget Interior Solutions Palm Jumeirah, Budget Interior Solutions in Palm Jumeirah, Best budget interior solutions Palm Jumeirah, Professional budget interior solutions Palm Jumeirah, Luxury budget interior solutions Palm Jumeirah, Budget Interior Solutions Palm Jumeirah Dubai, Budget Interior Solutions designer Palm Jumeirah, Budget Interior Solutions company Palm Jumeirah, Budget Interior Solutions contractor Palm Jumeirah, Affordable budget interior solutions Palm Jumeirah, Modern budget interior solutions Palm Jumeirah, Budget Interior Solutions consultation Palm Jumeirah, Budget Interior Solutions cost Palm Jumeirah, Budget Interior Solutions price Palm Jumeirah, Top budget interior solutions Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

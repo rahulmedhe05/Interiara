@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart home interior design dubai, smart home interior design dubai dubai, best smart home interior design dubai company dubai, luxury smart home interior design dubai dubai, modern smart home interior design dubai dubai
+// SEO Keywords: Smart Home Interior Design, Smart Home in Interior Design, Best smart home Interior Design, Professional smart home Interior Design, Luxury smart home Interior Design, Smart Home Interior Design Dubai, Smart Home designer Interior Design, Smart Home company Interior Design, Smart Home contractor Interior Design, Affordable smart home Interior Design, Modern smart home Interior Design, Smart Home consultation Interior Design, Smart Home cost Interior Design, Smart Home price Interior Design, Top smart home Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartHomeInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Home Interior Design Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

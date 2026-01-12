@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
+// SEO Keywords: Drapes Silicon Oasis Villas, Drapes Silicon in Oasis Villas, Best drapes silicon Oasis Villas, Professional drapes silicon Oasis Villas, Luxury drapes silicon Oasis Villas, Drapes Silicon Oasis Villas Dubai, Drapes Silicon designer Oasis Villas, Drapes Silicon company Oasis Villas, Drapes Silicon contractor Oasis Villas, Affordable drapes silicon Oasis Villas, Modern drapes silicon Oasis Villas, Drapes Silicon consultation Oasis Villas, Drapes Silicon cost Oasis Villas, Drapes Silicon price Oasis Villas, Top drapes silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

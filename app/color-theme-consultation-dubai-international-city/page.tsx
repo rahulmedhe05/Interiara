@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: color theme consultation international dubai, color theme consultation international dubai dubai, best color theme consultation international dubai company dubai, luxury color theme consultation international dubai dubai, modern color theme consultation international dubai dubai
+// SEO Keywords: Color Theme Consultation, Color in Theme Consultation, Best color Theme Consultation, Professional color Theme Consultation, Luxury color Theme Consultation, Color Theme Consultation Dubai, Color designer Theme Consultation, Color company Theme Consultation, Color contractor Theme Consultation, Affordable color Theme Consultation, Modern color Theme Consultation, Color consultation Theme Consultation, Color cost Theme Consultation, Color price Theme Consultation, Top color Theme Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ColorThemeConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation International City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color Theme Consultation Company Theme Consultation</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation International City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

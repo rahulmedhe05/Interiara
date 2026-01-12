@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: spa interior design dubai, spa interior design dubai dubai, best spa interior design dubai company dubai, luxury spa interior design dubai dubai, modern spa interior design dubai dubai
+// SEO Keywords: Spa Interior Design Al Warqaa, Spa Interior Design in Al Warqaa, Best spa interior design Al Warqaa, Professional spa interior design Al Warqaa, Luxury spa interior design Al Warqaa, Spa Interior Design Al Warqaa Dubai, Spa Interior Design designer Al Warqaa, Spa Interior Design company Al Warqaa, Spa Interior Design contractor Al Warqaa, Affordable spa interior design Al Warqaa, Modern spa interior design Al Warqaa, Spa Interior Design consultation Al Warqaa, Spa Interior Design cost Al Warqaa, Spa Interior Design price Al Warqaa, Top spa interior design Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpaInteriorDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Spa Interior Design Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best spa interior design Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Spa Interior Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

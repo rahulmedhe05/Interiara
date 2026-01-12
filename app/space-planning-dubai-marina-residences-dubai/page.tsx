@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning marina dubai, space planning marina dubai dubai, best space planning marina dubai company dubai, luxury space planning marina dubai dubai, modern space planning marina dubai dubai
+// SEO Keywords: Space Planning Dubai Marina Residences, Space Planning Dubai in Marina Residences, Best space planning dubai Marina Residences, Professional space planning dubai Marina Residences, Luxury space planning dubai Marina Residences, Space Planning Dubai Marina Residences Dubai, Space Planning Dubai designer Marina Residences, Space Planning Dubai company Marina Residences, Space Planning Dubai contractor Marina Residences, Affordable space planning dubai Marina Residences, Modern space planning dubai Marina Residences, Space Planning Dubai consultation Marina Residences, Space Planning Dubai cost Marina Residences, Space Planning Dubai price Marina Residences, Top space planning dubai Marina Residences
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiMarinaResidences() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Marina Residences Dubai Company Residences Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Marina Residences Company Marina Residences</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Marina Residences Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

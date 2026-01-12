@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Discovery Gardens, Window Curtains in Discovery Gardens, Best window curtains Discovery Gardens, Professional window curtains Discovery Gardens, Luxury window curtains Discovery Gardens, Window Curtains Discovery Gardens Dubai, Window Curtains designer Discovery Gardens, Window Curtains company Discovery Gardens, Window Curtains contractor Discovery Gardens, Affordable window curtains Discovery Gardens, Modern window curtains Discovery Gardens, Window Curtains consultation Discovery Gardens, Window Curtains cost Discovery Gardens, Window Curtains price Discovery Gardens, Top window curtains Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

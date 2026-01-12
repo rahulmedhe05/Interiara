@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design creek dubai, villa interior design creek dubai dubai, best villa interior design creek dubai company dubai, luxury villa interior design creek dubai dubai, modern villa interior design creek dubai dubai
+// SEO Keywords: Villa Interior Design Dubai Creek Harbour, Villa Interior Design Dubai in Creek Harbour, Best villa interior design dubai Creek Harbour, Professional villa interior design dubai Creek Harbour, Luxury villa interior design dubai Creek Harbour, Villa Interior Design Dubai Creek Harbour Dubai, Villa Interior Design Dubai designer Creek Harbour, Villa Interior Design Dubai company Creek Harbour, Villa Interior Design Dubai contractor Creek Harbour, Affordable villa interior design dubai Creek Harbour, Modern villa interior design dubai Creek Harbour, Villa Interior Design Dubai consultation Creek Harbour, Villa Interior Design Dubai cost Creek Harbour, Villa Interior Design Dubai price Creek Harbour, Top villa interior design dubai Creek Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design dubai Creek Harbour Company Creek Harbour</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

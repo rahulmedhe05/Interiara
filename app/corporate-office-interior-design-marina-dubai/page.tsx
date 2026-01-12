@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: corporate office interior design dubai, corporate office interior design dubai dubai, best corporate office interior design dubai company dubai, luxury corporate office interior design dubai dubai, modern corporate office interior design dubai dubai
+// SEO Keywords: Corporate Office Interior Design Marina, Corporate Office Interior in Design Marina, Best corporate office interior Design Marina, Professional corporate office interior Design Marina, Luxury corporate office interior Design Marina, Corporate Office Interior Design Marina Dubai, Corporate Office Interior designer Design Marina, Corporate Office Interior company Design Marina, Corporate Office Interior contractor Design Marina, Affordable corporate office interior Design Marina, Modern corporate office interior Design Marina, Corporate Office Interior consultation Design Marina, Corporate Office Interior cost Design Marina, Corporate Office Interior price Design Marina, Top corporate office interior Design Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CorporateOfficeInteriorDesignMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Corporate Office Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior Design Marina Company Design Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

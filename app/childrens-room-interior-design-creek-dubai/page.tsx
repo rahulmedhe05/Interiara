@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: childrens room interior design dubai, childrens room interior design dubai dubai, best childrens room interior design dubai company dubai, luxury childrens room interior design dubai dubai, modern childrens room interior design dubai dubai
+// SEO Keywords: Childrens Room Interior Design Creek, Childrens Room Interior in Design Creek, Best childrens room interior Design Creek, Professional childrens room interior Design Creek, Luxury childrens room interior Design Creek, Childrens Room Interior Design Creek Dubai, Childrens Room Interior designer Design Creek, Childrens Room Interior company Design Creek, Childrens Room Interior contractor Design Creek, Affordable childrens room interior Design Creek, Modern childrens room interior Design Creek, Childrens Room Interior consultation Design Creek, Childrens Room Interior cost Design Creek, Childrens Room Interior price Design Creek, Top childrens room interior Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ChildrensRoomInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Childrens Room Interior Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: banquet hall interior design dubai, banquet hall interior design dubai dubai, best banquet hall interior design dubai company dubai, luxury banquet hall interior design dubai dubai, modern banquet hall interior design dubai dubai
+// SEO Keywords: Banquet Hall Interior Design Culture Village, Banquet Hall Interior Design in Culture Village, Best banquet hall interior design Culture Village, Professional banquet hall interior design Culture Village, Luxury banquet hall interior design Culture Village, Banquet Hall Interior Design Culture Village Dubai, Banquet Hall Interior Design designer Culture Village, Banquet Hall Interior Design company Culture Village, Banquet Hall Interior Design contractor Culture Village, Affordable banquet hall interior design Culture Village, Modern banquet hall interior design Culture Village, Banquet Hall Interior Design consultation Culture Village, Banquet Hall Interior Design cost Culture Village, Banquet Hall Interior Design price Culture Village, Top banquet hall interior design Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BanquetHallInteriorDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Banquet Hall Interior Design Culture Village Dubai Company Culture Village Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior design Culture Village Company Culture Village</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Springs, Budget Interior in Solutions Springs, Best budget interior Solutions Springs, Professional budget interior Solutions Springs, Luxury budget interior Solutions Springs, Budget Interior Solutions Springs Dubai, Budget Interior designer Solutions Springs, Budget Interior company Solutions Springs, Budget Interior contractor Solutions Springs, Affordable budget interior Solutions Springs, Modern budget interior Solutions Springs, Budget Interior consultation Solutions Springs, Budget Interior cost Solutions Springs, Budget Interior price Solutions Springs, Top budget interior Solutions Springs
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsSprings() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions The Springs Dubai Company The Springs Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior Solutions Springs Company Solutions Springs</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions The Springs Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

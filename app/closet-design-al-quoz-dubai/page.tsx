@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design Al Quoz, Closet Design in Al Quoz, Best closet design Al Quoz, Professional closet design Al Quoz, Luxury closet design Al Quoz, Closet Design Al Quoz Dubai, Closet Design designer Al Quoz, Closet Design company Al Quoz, Closet Design contractor Al Quoz, Affordable closet design Al Quoz, Modern closet design Al Quoz, Closet Design consultation Al Quoz, Closet Design cost Al Quoz, Closet Design price Al Quoz, Top closet design Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

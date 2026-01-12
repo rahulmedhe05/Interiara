@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: drapes dubai, drapes dubai dubai, best drapes dubai company dubai, luxury drapes dubai dubai, modern drapes dubai dubai
+// SEO Keywords: Drapes Business Bay, Drapes in Business Bay, Best drapes Business Bay, Professional drapes Business Bay, Luxury drapes Business Bay, Drapes Business Bay Dubai, Drapes designer Business Bay, Drapes company Business Bay, Drapes contractor Business Bay, Affordable drapes Business Bay, Modern drapes Business Bay, Drapes consultation Business Bay, Drapes cost Business Bay, Drapes price Business Bay, Top drapes Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DrapesBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Drapes Business Bay Dubai Company Business Bay Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best drapes Business Bay Company Business Bay</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Drapes Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

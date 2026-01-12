@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: apartment interior design dubai, apartment interior design dubai dubai, best apartment interior design dubai company dubai, luxury apartment interior design dubai dubai, modern apartment interior design dubai dubai
+// SEO Keywords: Apartment Interior Design Al Safa, Apartment Interior Design in Al Safa, Best apartment interior design Al Safa, Professional apartment interior design Al Safa, Luxury apartment interior design Al Safa, Apartment Interior Design Al Safa Dubai, Apartment Interior Design designer Al Safa, Apartment Interior Design company Al Safa, Apartment Interior Design contractor Al Safa, Affordable apartment interior design Al Safa, Modern apartment interior design Al Safa, Apartment Interior Design consultation Al Safa, Apartment Interior Design cost Al Safa, Apartment Interior Design price Al Safa, Top apartment interior design Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ApartmentInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Apartment Interior Design Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Discovery Hills, Custom Furniture Design in Discovery Hills, Best custom furniture design Discovery Hills, Professional custom furniture design Discovery Hills, Luxury custom furniture design Discovery Hills, Custom Furniture Design Discovery Hills Dubai, Custom Furniture Design designer Discovery Hills, Custom Furniture Design company Discovery Hills, Custom Furniture Design contractor Discovery Hills, Affordable custom furniture design Discovery Hills, Modern custom furniture design Discovery Hills, Custom Furniture Design consultation Discovery Hills, Custom Furniture Design cost Discovery Hills, Custom Furniture Design price Discovery Hills, Top custom furniture design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

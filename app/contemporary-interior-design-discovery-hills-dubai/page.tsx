@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: contemporary interior design dubai, contemporary interior design dubai dubai, best contemporary interior design dubai company dubai, luxury contemporary interior design dubai dubai, modern contemporary interior design dubai dubai
+// SEO Keywords: Contemporary Interior Design Discovery Hills, Contemporary Interior Design in Discovery Hills, Best contemporary interior design Discovery Hills, Professional contemporary interior design Discovery Hills, Luxury contemporary interior design Discovery Hills, Contemporary Interior Design Discovery Hills Dubai, Contemporary Interior Design designer Discovery Hills, Contemporary Interior Design company Discovery Hills, Contemporary Interior Design contractor Discovery Hills, Affordable contemporary interior design Discovery Hills, Modern contemporary interior design Discovery Hills, Contemporary Interior Design consultation Discovery Hills, Contemporary Interior Design cost Discovery Hills, Contemporary Interior Design price Discovery Hills, Top contemporary interior design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ContemporaryInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Contemporary Interior Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

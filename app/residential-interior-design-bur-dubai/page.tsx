@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: residential interior design dubai, residential interior design dubai dubai, best residential interior design dubai company dubai, luxury residential interior design dubai dubai, modern residential interior design dubai dubai
+// SEO Keywords: Residential Interior Design Bur, Residential Interior in Design Bur, Best residential interior Design Bur, Professional residential interior Design Bur, Luxury residential interior Design Bur, Residential Interior Design Bur Dubai, Residential Interior designer Design Bur, Residential Interior company Design Bur, Residential Interior contractor Design Bur, Affordable residential interior Design Bur, Modern residential interior Design Bur, Residential Interior consultation Design Bur, Residential Interior cost Design Bur, Residential Interior price Design Bur, Top residential interior Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ResidentialInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Residential Interior Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior Design Bur Company Design Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

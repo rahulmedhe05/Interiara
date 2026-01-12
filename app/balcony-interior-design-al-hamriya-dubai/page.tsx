@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: balcony interior design dubai, balcony interior design dubai dubai, best balcony interior design dubai company dubai, luxury balcony interior design dubai dubai, modern balcony interior design dubai dubai
+// SEO Keywords: Balcony Interior Design Al Hamriya, Balcony Interior Design in Al Hamriya, Best balcony interior design Al Hamriya, Professional balcony interior design Al Hamriya, Luxury balcony interior design Al Hamriya, Balcony Interior Design Al Hamriya Dubai, Balcony Interior Design designer Al Hamriya, Balcony Interior Design company Al Hamriya, Balcony Interior Design contractor Al Hamriya, Affordable balcony interior design Al Hamriya, Modern balcony interior design Al Hamriya, Balcony Interior Design consultation Al Hamriya, Balcony Interior Design cost Al Hamriya, Balcony Interior Design price Al Hamriya, Top balcony interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BalconyInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Balcony Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best balcony interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Balcony Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

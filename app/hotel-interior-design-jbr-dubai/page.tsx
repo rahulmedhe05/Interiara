@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: hotel interior design dubai, hotel interior design dubai dubai, best hotel interior design dubai company dubai, luxury hotel interior design dubai dubai, modern hotel interior design dubai dubai
+// SEO Keywords: Hotel Interior Design Jbr, Hotel Interior in Design Jbr, Best hotel interior Design Jbr, Professional hotel interior Design Jbr, Luxury hotel interior Design Jbr, Hotel Interior Design Jbr Dubai, Hotel Interior designer Design Jbr, Hotel Interior company Design Jbr, Hotel Interior contractor Design Jbr, Affordable hotel interior Design Jbr, Modern hotel interior Design Jbr, Hotel Interior consultation Design Jbr, Hotel Interior cost Design Jbr, Hotel Interior price Design Jbr, Top hotel interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HotelInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Hotel Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

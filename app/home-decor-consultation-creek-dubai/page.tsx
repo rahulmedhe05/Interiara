@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Creek, Home Decor in Consultation Creek, Best home decor Consultation Creek, Professional home decor Consultation Creek, Luxury home decor Consultation Creek, Home Decor Consultation Creek Dubai, Home Decor designer Consultation Creek, Home Decor company Consultation Creek, Home Decor contractor Consultation Creek, Affordable home decor Consultation Creek, Modern home decor Consultation Creek, Home Decor consultation Consultation Creek, Home Decor cost Consultation Creek, Home Decor price Consultation Creek, Top home decor Consultation Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Creek Company Consultation Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

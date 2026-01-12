@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: salon interior design dubai, salon interior design dubai dubai, best salon interior design dubai company dubai, luxury salon interior design dubai dubai, modern salon interior design dubai dubai
+// SEO Keywords: Salon Interior Design Discovery Gardens, Salon Interior Design in Discovery Gardens, Best salon interior design Discovery Gardens, Professional salon interior design Discovery Gardens, Luxury salon interior design Discovery Gardens, Salon Interior Design Discovery Gardens Dubai, Salon Interior Design designer Discovery Gardens, Salon Interior Design company Discovery Gardens, Salon Interior Design contractor Discovery Gardens, Affordable salon interior design Discovery Gardens, Modern salon interior design Discovery Gardens, Salon Interior Design consultation Discovery Gardens, Salon Interior Design cost Discovery Gardens, Salon Interior Design price Discovery Gardens, Top salon interior design Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SalonInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior design Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

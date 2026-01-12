@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Dubai Marina, Home Decor Consultation in Dubai Marina, Best home decor consultation Dubai Marina, Professional home decor consultation Dubai Marina, Luxury home decor consultation Dubai Marina, Home Decor Consultation Dubai Marina Dubai, Home Decor Consultation designer Dubai Marina, Home Decor Consultation company Dubai Marina, Home Decor Consultation contractor Dubai Marina, Affordable home decor consultation Dubai Marina, Modern home decor consultation Dubai Marina, Home Decor Consultation consultation Dubai Marina, Home Decor Consultation cost Dubai Marina, Home Decor Consultation price Dubai Marina, Top home decor consultation Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Dubai Marina Company Dubai Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

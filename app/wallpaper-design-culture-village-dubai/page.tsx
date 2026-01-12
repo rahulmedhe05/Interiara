@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Culture Village, Wallpaper Design in Culture Village, Best wallpaper design Culture Village, Professional wallpaper design Culture Village, Luxury wallpaper design Culture Village, Wallpaper Design Culture Village Dubai, Wallpaper Design designer Culture Village, Wallpaper Design company Culture Village, Wallpaper Design contractor Culture Village, Affordable wallpaper design Culture Village, Modern wallpaper design Culture Village, Wallpaper Design consultation Culture Village, Wallpaper Design cost Culture Village, Wallpaper Design price Culture Village, Top wallpaper design Culture Village
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignCultureVillage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Culture Village Dubai Company Culture Village Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Culture Village Company Culture Village</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Culture Village Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

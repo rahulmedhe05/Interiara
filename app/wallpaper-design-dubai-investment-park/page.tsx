@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design investment dubai, wallpaper design investment dubai dubai, best wallpaper design investment dubai company dubai, luxury wallpaper design investment dubai dubai, modern wallpaper design investment dubai dubai
+// SEO Keywords:  Wallpaper Design,  in Wallpaper Design, Best  Wallpaper Design, Professional  Wallpaper Design, Luxury  Wallpaper Design,  Wallpaper Design Dubai,  designer Wallpaper Design,  company Wallpaper Design,  contractor Wallpaper Design, Affordable  Wallpaper Design, Modern  Wallpaper Design,  consultation Wallpaper Design,  cost Wallpaper Design,  price Wallpaper Design, Top  Wallpaper Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Investment Park Dubai Company Park Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Wallpaper Design Company Wallpaper Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

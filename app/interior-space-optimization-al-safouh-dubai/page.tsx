@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Al Safouh, Interior Space Optimization in Al Safouh, Best interior space optimization Al Safouh, Professional interior space optimization Al Safouh, Luxury interior space optimization Al Safouh, Interior Space Optimization Al Safouh Dubai, Interior Space Optimization designer Al Safouh, Interior Space Optimization company Al Safouh, Interior Space Optimization contractor Al Safouh, Affordable interior space optimization Al Safouh, Modern interior space optimization Al Safouh, Interior Space Optimization consultation Al Safouh, Interior Space Optimization cost Al Safouh, Interior Space Optimization price Al Safouh, Top interior space optimization Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Downtown Dubai, Modular Kitchens in Downtown Dubai, Best modular kitchens Downtown Dubai, Professional modular kitchens Downtown Dubai, Luxury modular kitchens Downtown Dubai, Modular Kitchens Downtown Dubai Dubai, Modular Kitchens designer Downtown Dubai, Modular Kitchens company Downtown Dubai, Modular Kitchens contractor Downtown Dubai, Affordable modular kitchens Downtown Dubai, Modern modular kitchens Downtown Dubai, Modular Kitchens consultation Downtown Dubai, Modular Kitchens cost Downtown Dubai, Modular Kitchens price Downtown Dubai, Top modular kitchens Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Downtown Dubai Company Downtown Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

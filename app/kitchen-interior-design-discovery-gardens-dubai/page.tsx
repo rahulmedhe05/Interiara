@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: kitchen interior design dubai, kitchen interior design dubai dubai, best kitchen interior design dubai company dubai, luxury kitchen interior design dubai dubai, modern kitchen interior design dubai dubai
+// SEO Keywords: Kitchen Interior Design Discovery Gardens, Kitchen Interior Design in Discovery Gardens, Best kitchen interior design Discovery Gardens, Professional kitchen interior design Discovery Gardens, Luxury kitchen interior design Discovery Gardens, Kitchen Interior Design Discovery Gardens Dubai, Kitchen Interior Design designer Discovery Gardens, Kitchen Interior Design company Discovery Gardens, Kitchen Interior Design contractor Discovery Gardens, Affordable kitchen interior design Discovery Gardens, Modern kitchen interior design Discovery Gardens, Kitchen Interior Design consultation Discovery Gardens, Kitchen Interior Design cost Discovery Gardens, Kitchen Interior Design price Discovery Gardens, Top kitchen interior design Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function KitchenInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Kitchen Interior Design Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

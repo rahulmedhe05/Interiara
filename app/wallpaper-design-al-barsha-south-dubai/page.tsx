@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Al Barsha South, Wallpaper Design Al in Barsha South, Best wallpaper design al Barsha South, Professional wallpaper design al Barsha South, Luxury wallpaper design al Barsha South, Wallpaper Design Al Barsha South Dubai, Wallpaper Design Al designer Barsha South, Wallpaper Design Al company Barsha South, Wallpaper Design Al contractor Barsha South, Affordable wallpaper design al Barsha South, Modern wallpaper design al Barsha South, Wallpaper Design Al consultation Barsha South, Wallpaper Design Al cost Barsha South, Wallpaper Design Al price Barsha South, Top wallpaper design al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

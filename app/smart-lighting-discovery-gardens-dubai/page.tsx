@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Discovery Gardens, Smart Lighting in Discovery Gardens, Best smart lighting Discovery Gardens, Professional smart lighting Discovery Gardens, Luxury smart lighting Discovery Gardens, Smart Lighting Discovery Gardens Dubai, Smart Lighting designer Discovery Gardens, Smart Lighting company Discovery Gardens, Smart Lighting contractor Discovery Gardens, Affordable smart lighting Discovery Gardens, Modern smart lighting Discovery Gardens, Smart Lighting consultation Discovery Gardens, Smart Lighting cost Discovery Gardens, Smart Lighting price Discovery Gardens, Top smart lighting Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

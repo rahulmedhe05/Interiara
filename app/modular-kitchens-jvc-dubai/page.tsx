@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Jvc, Modular in Kitchens Jvc, Best modular Kitchens Jvc, Professional modular Kitchens Jvc, Luxury modular Kitchens Jvc, Modular Kitchens Jvc Dubai, Modular designer Kitchens Jvc, Modular company Kitchens Jvc, Modular contractor Kitchens Jvc, Affordable modular Kitchens Jvc, Modern modular Kitchens Jvc, Modular consultation Kitchens Jvc, Modular cost Kitchens Jvc, Modular price Kitchens Jvc, Top modular Kitchens Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Jvc Company Kitchens Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

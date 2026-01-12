@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design The Sustainable City, Bespoke Furniture Design The in Sustainable City, Best bespoke furniture design the Sustainable City, Professional bespoke furniture design the Sustainable City, Luxury bespoke furniture design the Sustainable City, Bespoke Furniture Design The Sustainable City Dubai, Bespoke Furniture Design The designer Sustainable City, Bespoke Furniture Design The company Sustainable City, Bespoke Furniture Design The contractor Sustainable City, Affordable bespoke furniture design the Sustainable City, Modern bespoke furniture design the Sustainable City, Bespoke Furniture Design The consultation Sustainable City, Bespoke Furniture Design The cost Sustainable City, Bespoke Furniture Design The price Sustainable City, Top bespoke furniture design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

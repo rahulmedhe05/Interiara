@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Downtown Dubai, Space Planning in Downtown Dubai, Best space planning Downtown Dubai, Professional space planning Downtown Dubai, Luxury space planning Downtown Dubai, Space Planning Downtown Dubai Dubai, Space Planning designer Downtown Dubai, Space Planning company Downtown Dubai, Space Planning contractor Downtown Dubai, Affordable space planning Downtown Dubai, Modern space planning Downtown Dubai, Space Planning consultation Downtown Dubai, Space Planning cost Downtown Dubai, Space Planning price Downtown Dubai, Top space planning Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Downtown Dubai Company Downtown Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Meadows, Wall Flooring in Design Meadows, Best wall flooring Design Meadows, Professional wall flooring Design Meadows, Luxury wall flooring Design Meadows, Wall Flooring Design Meadows Dubai, Wall Flooring designer Design Meadows, Wall Flooring company Design Meadows, Wall Flooring contractor Design Meadows, Affordable wall flooring Design Meadows, Modern wall flooring Design Meadows, Wall Flooring consultation Design Meadows, Wall Flooring cost Design Meadows, Wall Flooring price Design Meadows, Top wall flooring Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

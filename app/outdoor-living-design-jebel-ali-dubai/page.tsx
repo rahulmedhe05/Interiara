@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design Jebel Ali, Outdoor Living Design in Jebel Ali, Best outdoor living design Jebel Ali, Professional outdoor living design Jebel Ali, Luxury outdoor living design Jebel Ali, Outdoor Living Design Jebel Ali Dubai, Outdoor Living Design designer Jebel Ali, Outdoor Living Design company Jebel Ali, Outdoor Living Design contractor Jebel Ali, Affordable outdoor living design Jebel Ali, Modern outdoor living design Jebel Ali, Outdoor Living Design consultation Jebel Ali, Outdoor Living Design cost Jebel Ali, Outdoor Living Design price Jebel Ali, Top outdoor living design Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

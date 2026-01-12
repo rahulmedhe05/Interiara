@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: color theme consultation dubai, color theme consultation dubai dubai, best color theme consultation dubai company dubai, luxury color theme consultation dubai dubai, modern color theme consultation dubai dubai
+// SEO Keywords: Color Theme Consultation Emirates Hills, Color Theme Consultation in Emirates Hills, Best color theme consultation Emirates Hills, Professional color theme consultation Emirates Hills, Luxury color theme consultation Emirates Hills, Color Theme Consultation Emirates Hills Dubai, Color Theme Consultation designer Emirates Hills, Color Theme Consultation company Emirates Hills, Color Theme Consultation contractor Emirates Hills, Affordable color theme consultation Emirates Hills, Modern color theme consultation Emirates Hills, Color Theme Consultation consultation Emirates Hills, Color Theme Consultation cost Emirates Hills, Color Theme Consultation price Emirates Hills, Top color theme consultation Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ColorThemeConsultationEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme consultation Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

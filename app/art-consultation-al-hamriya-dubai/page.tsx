@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
+// SEO Keywords: Art Consultation Al Hamriya, Art Consultation in Al Hamriya, Best art consultation Al Hamriya, Professional art consultation Al Hamriya, Luxury art consultation Al Hamriya, Art Consultation Al Hamriya Dubai, Art Consultation designer Al Hamriya, Art Consultation company Al Hamriya, Art Consultation contractor Al Hamriya, Affordable art consultation Al Hamriya, Modern art consultation Al Hamriya, Art Consultation consultation Al Hamriya, Art Consultation cost Al Hamriya, Art Consultation price Al Hamriya, Top art consultation Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArtConsultationAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

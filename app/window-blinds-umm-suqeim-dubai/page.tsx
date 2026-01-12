@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Umm Suqeim, Window Blinds in Umm Suqeim, Best window blinds Umm Suqeim, Professional window blinds Umm Suqeim, Luxury window blinds Umm Suqeim, Window Blinds Umm Suqeim Dubai, Window Blinds designer Umm Suqeim, Window Blinds company Umm Suqeim, Window Blinds contractor Umm Suqeim, Affordable window blinds Umm Suqeim, Modern window blinds Umm Suqeim, Window Blinds consultation Umm Suqeim, Window Blinds cost Umm Suqeim, Window Blinds price Umm Suqeim, Top window blinds Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: luxury interior design dubai, luxury interior design dubai dubai, best luxury interior design dubai company dubai, luxury luxury interior design dubai dubai, modern luxury interior design dubai dubai
+// SEO Keywords: Luxury Interior Design Meadows, Luxury Interior in Design Meadows, Best luxury interior Design Meadows, Professional luxury interior Design Meadows, Luxury luxury interior Design Meadows, Luxury Interior Design Meadows Dubai, Luxury Interior designer Design Meadows, Luxury Interior company Design Meadows, Luxury Interior contractor Design Meadows, Affordable luxury interior Design Meadows, Modern luxury interior Design Meadows, Luxury Interior consultation Design Meadows, Luxury Interior cost Design Meadows, Luxury Interior price Design Meadows, Top luxury interior Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LuxuryInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Luxury Interior Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design silicon dubai, villa interior design silicon dubai dubai, best villa interior design silicon dubai company dubai, luxury villa interior design silicon dubai dubai, modern villa interior design silicon dubai dubai
+// SEO Keywords: Villa Interior Design, Villa in Interior Design, Best villa Interior Design, Professional villa Interior Design, Luxury villa Interior Design, Villa Interior Design Dubai, Villa designer Interior Design, Villa company Interior Design, Villa contractor Interior Design, Affordable villa Interior Design, Modern villa Interior Design, Villa consultation Interior Design, Villa cost Interior Design, Villa price Interior Design, Top villa Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Silicon Park Dubai Company Park Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Silicon Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design Al Safa, Outdoor Living Design in Al Safa, Best outdoor living design Al Safa, Professional outdoor living design Al Safa, Luxury outdoor living design Al Safa, Outdoor Living Design Al Safa Dubai, Outdoor Living Design designer Al Safa, Outdoor Living Design company Al Safa, Outdoor Living Design contractor Al Safa, Affordable outdoor living design Al Safa, Modern outdoor living design Al Safa, Outdoor Living Design consultation Al Safa, Outdoor Living Design cost Al Safa, Outdoor Living Design price Al Safa, Top outdoor living design Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living design Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

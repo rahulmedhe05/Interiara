@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Business Bay South, Smart Lighting Business in Bay South, Best smart lighting business Bay South, Professional smart lighting business Bay South, Luxury smart lighting business Bay South, Smart Lighting Business Bay South Dubai, Smart Lighting Business designer Bay South, Smart Lighting Business company Bay South, Smart Lighting Business contractor Bay South, Affordable smart lighting business Bay South, Modern smart lighting business Bay South, Smart Lighting Business consultation Bay South, Smart Lighting Business cost Bay South, Smart Lighting Business price Bay South, Top smart lighting business Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Business Bay South Dubai Company Business Bay South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting business Bay South Company Bay South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

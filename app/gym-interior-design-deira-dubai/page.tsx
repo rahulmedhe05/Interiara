@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design dubai, gym interior design dubai dubai, best gym interior design dubai company dubai, luxury gym interior design dubai dubai, modern gym interior design dubai dubai
+// SEO Keywords: Gym Interior Design Deira, Gym Interior in Design Deira, Best gym interior Design Deira, Professional gym interior Design Deira, Luxury gym interior Design Deira, Gym Interior Design Deira Dubai, Gym Interior designer Design Deira, Gym Interior company Design Deira, Gym Interior contractor Design Deira, Affordable gym interior Design Deira, Modern gym interior Design Deira, Gym Interior consultation Design Deira, Gym Interior cost Design Deira, Gym Interior price Design Deira, Top gym interior Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design Deira Dubai Company Deira Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym interior Design Deira Company Design Deira</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

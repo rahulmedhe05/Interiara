@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: salon interior design dubai, salon interior design dubai dubai, best salon interior design dubai company dubai, luxury salon interior design dubai dubai, modern salon interior design dubai dubai
+// SEO Keywords: Salon Interior Design Al Quoz, Salon Interior Design in Al Quoz, Best salon interior design Al Quoz, Professional salon interior design Al Quoz, Luxury salon interior design Al Quoz, Salon Interior Design Al Quoz Dubai, Salon Interior Design designer Al Quoz, Salon Interior Design company Al Quoz, Salon Interior Design contractor Al Quoz, Affordable salon interior design Al Quoz, Modern salon interior design Al Quoz, Salon Interior Design consultation Al Quoz, Salon Interior Design cost Al Quoz, Salon Interior Design price Al Quoz, Top salon interior design Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SalonInteriorDesignAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior design Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

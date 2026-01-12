@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: luxury interior design dubai, luxury interior design dubai dubai, best luxury interior design dubai company dubai, luxury luxury interior design dubai dubai, modern luxury interior design dubai dubai
+// SEO Keywords: Luxury Interior Design Emirates Hills, Luxury Interior Design in Emirates Hills, Best luxury interior design Emirates Hills, Professional luxury interior design Emirates Hills, Luxury luxury interior design Emirates Hills, Luxury Interior Design Emirates Hills Dubai, Luxury Interior Design designer Emirates Hills, Luxury Interior Design company Emirates Hills, Luxury Interior Design contractor Emirates Hills, Affordable luxury interior design Emirates Hills, Modern luxury interior design Emirates Hills, Luxury Interior Design consultation Emirates Hills, Luxury Interior Design cost Emirates Hills, Luxury Interior Design price Emirates Hills, Top luxury interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LuxuryInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Luxury Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

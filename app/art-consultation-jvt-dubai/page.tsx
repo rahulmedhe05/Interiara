@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
+// SEO Keywords: Art Consultation Jvt, Art in Consultation Jvt, Best art Consultation Jvt, Professional art Consultation Jvt, Luxury art Consultation Jvt, Art Consultation Jvt Dubai, Art designer Consultation Jvt, Art company Consultation Jvt, Art contractor Consultation Jvt, Affordable art Consultation Jvt, Modern art Consultation Jvt, Art consultation Consultation Jvt, Art cost Consultation Jvt, Art price Consultation Jvt, Top art Consultation Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArtConsultationJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art Consultation Jvt Company Consultation Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

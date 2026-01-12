@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization festival dubai, interior space optimization festival dubai dubai, best interior space optimization festival dubai company dubai, luxury interior space optimization festival dubai dubai, modern interior space optimization festival dubai dubai
+// SEO Keywords: Interior Space Optimization, Interior in Space Optimization, Best interior Space Optimization, Professional interior Space Optimization, Luxury interior Space Optimization, Interior Space Optimization Dubai, Interior designer Space Optimization, Interior company Space Optimization, Interior contractor Space Optimization, Affordable interior Space Optimization, Modern interior Space Optimization, Interior consultation Space Optimization, Interior cost Space Optimization, Interior price Space Optimization, Top interior Space Optimization
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimization() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior Space Optimization Company Space Optimization</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

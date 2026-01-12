@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: banquet hall interior design dubai, banquet hall interior design dubai dubai, best banquet hall interior design dubai company dubai, luxury banquet hall interior design dubai dubai, modern banquet hall interior design dubai dubai
+// SEO Keywords: Banquet Hall Interior Design Palm, Banquet Hall Interior in Design Palm, Best banquet hall interior Design Palm, Professional banquet hall interior Design Palm, Luxury banquet hall interior Design Palm, Banquet Hall Interior Design Palm Dubai, Banquet Hall Interior designer Design Palm, Banquet Hall Interior company Design Palm, Banquet Hall Interior contractor Design Palm, Affordable banquet hall interior Design Palm, Modern banquet hall interior Design Palm, Banquet Hall Interior consultation Design Palm, Banquet Hall Interior cost Design Palm, Banquet Hall Interior price Design Palm, Top banquet hall interior Design Palm
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BanquetHallInteriorDesignPalm() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Banquet Hall Interior Design Palm Jumeirah Dubai Company Palm Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall interior Design Palm Company Design Palm</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

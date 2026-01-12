@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart home interior design dubai, smart home interior design dubai dubai, best smart home interior design dubai company dubai, luxury smart home interior design dubai dubai, modern smart home interior design dubai dubai
+// SEO Keywords: Smart Home Interior Design Al Safa, Smart Home Interior Design in Al Safa, Best smart home interior design Al Safa, Professional smart home interior design Al Safa, Luxury smart home interior design Al Safa, Smart Home Interior Design Al Safa Dubai, Smart Home Interior Design designer Al Safa, Smart Home Interior Design company Al Safa, Smart Home Interior Design contractor Al Safa, Affordable smart home interior design Al Safa, Modern smart home interior design Al Safa, Smart Home Interior Design consultation Al Safa, Smart Home Interior Design cost Al Safa, Smart Home Interior Design price Al Safa, Top smart home interior design Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartHomeInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Home Interior Design Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior design Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

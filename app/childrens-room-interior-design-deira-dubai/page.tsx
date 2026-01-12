@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: childrens room interior design dubai, childrens room interior design dubai dubai, best childrens room interior design dubai company dubai, luxury childrens room interior design dubai dubai, modern childrens room interior design dubai dubai
+// SEO Keywords: Childrens Room Interior Design Deira, Childrens Room Interior in Design Deira, Best childrens room interior Design Deira, Professional childrens room interior Design Deira, Luxury childrens room interior Design Deira, Childrens Room Interior Design Deira Dubai, Childrens Room Interior designer Design Deira, Childrens Room Interior company Design Deira, Childrens Room Interior contractor Design Deira, Affordable childrens room interior Design Deira, Modern childrens room interior Design Deira, Childrens Room Interior consultation Design Deira, Childrens Room Interior cost Design Deira, Childrens Room Interior price Design Deira, Top childrens room interior Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ChildrensRoomInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Childrens Room Interior Design Deira Dubai Company Deira Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior Design Deira Company Design Deira</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

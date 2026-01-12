@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: terrace interior design interior design dubai, terrace interior design interior design dubai dubai, best terrace interior design interior design dubai company dubai, luxury terrace interior design interior design dubai dubai, modern terrace interior design interior design dubai dubai
+// SEO Keywords: Terrace Interior Design Muhaisnah, Terrace Interior in Design Muhaisnah, Best terrace interior Design Muhaisnah, Professional terrace interior Design Muhaisnah, Luxury terrace interior Design Muhaisnah, Terrace Interior Design Muhaisnah Dubai, Terrace Interior designer Design Muhaisnah, Terrace Interior company Design Muhaisnah, Terrace Interior contractor Design Muhaisnah, Affordable terrace interior Design Muhaisnah, Modern terrace interior Design Muhaisnah, Terrace Interior consultation Design Muhaisnah, Terrace Interior cost Design Muhaisnah, Terrace Interior price Design Muhaisnah, Top terrace interior Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function TerraceInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Terrace Interior Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace interior Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

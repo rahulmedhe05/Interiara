@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Al Barsha South, Modular Kitchens Al in Barsha South, Best modular kitchens al Barsha South, Professional modular kitchens al Barsha South, Luxury modular kitchens al Barsha South, Modular Kitchens Al Barsha South Dubai, Modular Kitchens Al designer Barsha South, Modular Kitchens Al company Barsha South, Modular Kitchens Al contractor Barsha South, Affordable modular kitchens al Barsha South, Modern modular kitchens al Barsha South, Modular Kitchens Al consultation Barsha South, Modular Kitchens Al cost Barsha South, Modular Kitchens Al price Barsha South, Top modular kitchens al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

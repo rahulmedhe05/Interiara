@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation creek dubai, home renovation creek dubai dubai, best home renovation creek dubai company dubai, luxury home renovation creek dubai dubai, modern home renovation creek dubai dubai
+// SEO Keywords: Home Renovation Dubai Creek Harbour, Home Renovation Dubai in Creek Harbour, Best home renovation dubai Creek Harbour, Professional home renovation dubai Creek Harbour, Luxury home renovation dubai Creek Harbour, Home Renovation Dubai Creek Harbour Dubai, Home Renovation Dubai designer Creek Harbour, Home Renovation Dubai company Creek Harbour, Home Renovation Dubai contractor Creek Harbour, Affordable home renovation dubai Creek Harbour, Modern home renovation dubai Creek Harbour, Home Renovation Dubai consultation Creek Harbour, Home Renovation Dubai cost Creek Harbour, Home Renovation Dubai price Creek Harbour, Top home renovation dubai Creek Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation dubai Creek Harbour Company Creek Harbour</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

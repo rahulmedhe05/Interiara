@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Al Barsha, Lighting Automation in Al Barsha, Best lighting automation Al Barsha, Professional lighting automation Al Barsha, Luxury lighting automation Al Barsha, Lighting Automation Al Barsha Dubai, Lighting Automation designer Al Barsha, Lighting Automation company Al Barsha, Lighting Automation contractor Al Barsha, Affordable lighting automation Al Barsha, Modern lighting automation Al Barsha, Lighting Automation consultation Al Barsha, Lighting Automation cost Al Barsha, Lighting Automation price Al Barsha, Top lighting automation Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Al Barsha Dubai Company Al Barsha Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Barsha Company Al Barsha</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: hotel interior design hills dubai, hotel interior design hills dubai dubai, best hotel interior design hills dubai company dubai, luxury hotel interior design hills dubai dubai, modern hotel interior design hills dubai dubai
+// SEO Keywords: Hotel Interior Design, Hotel in Interior Design, Best hotel Interior Design, Professional hotel Interior Design, Luxury hotel Interior Design, Hotel Interior Design Dubai, Hotel designer Interior Design, Hotel company Interior Design, Hotel contractor Interior Design, Affordable hotel Interior Design, Modern hotel Interior Design, Hotel consultation Interior Design, Hotel cost Interior Design, Hotel price Interior Design, Top hotel Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HotelInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Hotel Interior Design Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best hotel Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Hotel Interior Design Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

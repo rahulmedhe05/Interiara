@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Muhaisnah, Smart in Lighting Muhaisnah, Best smart Lighting Muhaisnah, Professional smart Lighting Muhaisnah, Luxury smart Lighting Muhaisnah, Smart Lighting Muhaisnah Dubai, Smart designer Lighting Muhaisnah, Smart company Lighting Muhaisnah, Smart contractor Lighting Muhaisnah, Affordable smart Lighting Muhaisnah, Modern smart Lighting Muhaisnah, Smart consultation Lighting Muhaisnah, Smart cost Lighting Muhaisnah, Smart price Lighting Muhaisnah, Top smart Lighting Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart Lighting Muhaisnah Company Lighting Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular furniture dubai, modular furniture dubai dubai, best modular furniture dubai company dubai, luxury modular furniture dubai dubai, modern modular furniture dubai dubai
+// SEO Keywords: Modular Furniture Solutions, Modular in Furniture Solutions, Best modular Furniture Solutions, Professional modular Furniture Solutions, Luxury modular Furniture Solutions, Modular Furniture Solutions Dubai, Modular designer Furniture Solutions, Modular company Furniture Solutions, Modular contractor Furniture Solutions, Affordable modular Furniture Solutions, Modern modular Furniture Solutions, Modular consultation Furniture Solutions, Modular cost Furniture Solutions, Modular price Furniture Solutions, Top modular Furniture Solutions
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularFurnitureSolutions() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Furniture Solutions Dubai Company Solutions Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Furniture Solutions Company Furniture Solutions</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Furniture Solutions Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

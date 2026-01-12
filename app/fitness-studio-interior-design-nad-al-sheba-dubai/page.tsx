@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: fitness studio interior design dubai, fitness studio interior design dubai dubai, best fitness studio interior design dubai company dubai, luxury fitness studio interior design dubai dubai, modern fitness studio interior design dubai dubai
+// SEO Keywords: Fitness Studio Interior Design Nad Al Sheba, Fitness Studio Interior Design Nad in Al Sheba, Best fitness studio interior design nad Al Sheba, Professional fitness studio interior design nad Al Sheba, Luxury fitness studio interior design nad Al Sheba, Fitness Studio Interior Design Nad Al Sheba Dubai, Fitness Studio Interior Design Nad designer Al Sheba, Fitness Studio Interior Design Nad company Al Sheba, Fitness Studio Interior Design Nad contractor Al Sheba, Affordable fitness studio interior design nad Al Sheba, Modern fitness studio interior design nad Al Sheba, Fitness Studio Interior Design Nad consultation Al Sheba, Fitness Studio Interior Design Nad cost Al Sheba, Fitness Studio Interior Design Nad price Al Sheba, Top fitness studio interior design nad Al Sheba
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function FitnessStudioInteriorDesignNadAlSheba() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Fitness Studio Interior Design Nad Al Sheba Dubai Company Nad Al Sheba Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior design nad Al Sheba Company Al Sheba</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design Nad Al Sheba Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

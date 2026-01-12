@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Jebel Ali, Lighting Automation in Jebel Ali, Best lighting automation Jebel Ali, Professional lighting automation Jebel Ali, Luxury lighting automation Jebel Ali, Lighting Automation Jebel Ali Dubai, Lighting Automation designer Jebel Ali, Lighting Automation company Jebel Ali, Lighting Automation contractor Jebel Ali, Affordable lighting automation Jebel Ali, Modern lighting automation Jebel Ali, Lighting Automation consultation Jebel Ali, Lighting Automation cost Jebel Ali, Lighting Automation price Jebel Ali, Top lighting automation Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

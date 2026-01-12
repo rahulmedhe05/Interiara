@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: apartment interior design dubai, apartment interior design dubai dubai, best apartment interior design dubai company dubai, luxury apartment interior design dubai dubai, modern apartment interior design dubai dubai
+// SEO Keywords: Apartment Interior Design Emirates Hills, Apartment Interior Design in Emirates Hills, Best apartment interior design Emirates Hills, Professional apartment interior design Emirates Hills, Luxury apartment interior design Emirates Hills, Apartment Interior Design Emirates Hills Dubai, Apartment Interior Design designer Emirates Hills, Apartment Interior Design company Emirates Hills, Apartment Interior Design contractor Emirates Hills, Affordable apartment interior design Emirates Hills, Modern apartment interior design Emirates Hills, Apartment Interior Design consultation Emirates Hills, Apartment Interior Design cost Emirates Hills, Apartment Interior Design price Emirates Hills, Top apartment interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ApartmentInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Apartment Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

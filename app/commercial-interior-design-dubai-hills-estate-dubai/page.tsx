@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: commercial interior design hills dubai, commercial interior design hills dubai dubai, best commercial interior design hills dubai company dubai, luxury commercial interior design hills dubai dubai, modern commercial interior design hills dubai dubai
+// SEO Keywords: Commercial Interior Design Dubai Hills Estate, Commercial Interior Design Dubai in Hills Estate, Best commercial interior design dubai Hills Estate, Professional commercial interior design dubai Hills Estate, Luxury commercial interior design dubai Hills Estate, Commercial Interior Design Dubai Hills Estate Dubai, Commercial Interior Design Dubai designer Hills Estate, Commercial Interior Design Dubai company Hills Estate, Commercial Interior Design Dubai contractor Hills Estate, Affordable commercial interior design dubai Hills Estate, Modern commercial interior design dubai Hills Estate, Commercial Interior Design Dubai consultation Hills Estate, Commercial Interior Design Dubai cost Hills Estate, Commercial Interior Design Dubai price Hills Estate, Top commercial interior design dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CommercialInteriorDesignDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Commercial Interior Design Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Dubai Hills, Wallpaper Design in Dubai Hills, Best wallpaper design Dubai Hills, Professional wallpaper design Dubai Hills, Luxury wallpaper design Dubai Hills, Wallpaper Design Dubai Hills Dubai, Wallpaper Design designer Dubai Hills, Wallpaper Design company Dubai Hills, Wallpaper Design contractor Dubai Hills, Affordable wallpaper design Dubai Hills, Modern wallpaper design Dubai Hills, Wallpaper Design consultation Dubai Hills, Wallpaper Design cost Dubai Hills, Wallpaper Design price Dubai Hills, Top wallpaper design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

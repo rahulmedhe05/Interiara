@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Al Hamriya, Villa Interior Design in Al Hamriya, Best villa interior design Al Hamriya, Professional villa interior design Al Hamriya, Luxury villa interior design Al Hamriya, Villa Interior Design Al Hamriya Dubai, Villa Interior Design designer Al Hamriya, Villa Interior Design company Al Hamriya, Villa Interior Design contractor Al Hamriya, Affordable villa interior design Al Hamriya, Modern villa interior design Al Hamriya, Villa Interior Design consultation Al Hamriya, Villa Interior Design cost Al Hamriya, Villa Interior Design price Al Hamriya, Top villa interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

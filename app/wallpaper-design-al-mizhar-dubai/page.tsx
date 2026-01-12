@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Al Mizhar, Wallpaper Design in Al Mizhar, Best wallpaper design Al Mizhar, Professional wallpaper design Al Mizhar, Luxury wallpaper design Al Mizhar, Wallpaper Design Al Mizhar Dubai, Wallpaper Design designer Al Mizhar, Wallpaper Design company Al Mizhar, Wallpaper Design contractor Al Mizhar, Affordable wallpaper design Al Mizhar, Modern wallpaper design Al Mizhar, Wallpaper Design consultation Al Mizhar, Wallpaper Design cost Al Mizhar, Wallpaper Design price Al Mizhar, Top wallpaper design Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

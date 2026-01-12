@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: commercial interior design sports dubai, commercial interior design sports dubai dubai, best commercial interior design sports dubai company dubai, luxury commercial interior design sports dubai dubai, modern commercial interior design sports dubai dubai
+// SEO Keywords: Commercial Interior Design, Commercial in Interior Design, Best commercial Interior Design, Professional commercial Interior Design, Luxury commercial Interior Design, Commercial Interior Design Dubai, Commercial designer Interior Design, Commercial company Interior Design, Commercial contractor Interior Design, Affordable commercial Interior Design, Modern commercial Interior Design, Commercial consultation Interior Design, Commercial cost Interior Design, Commercial price Interior Design, Top commercial Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CommercialInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Commercial Interior Design Sports City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Sports City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

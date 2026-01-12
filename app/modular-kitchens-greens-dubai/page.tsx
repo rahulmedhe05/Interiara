@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Greens, Modular in Kitchens Greens, Best modular Kitchens Greens, Professional modular Kitchens Greens, Luxury modular Kitchens Greens, Modular Kitchens Greens Dubai, Modular designer Kitchens Greens, Modular company Kitchens Greens, Modular contractor Kitchens Greens, Affordable modular Kitchens Greens, Modern modular Kitchens Greens, Modular consultation Kitchens Greens, Modular cost Kitchens Greens, Modular price Kitchens Greens, Top modular Kitchens Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular Kitchens Greens Company Kitchens Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

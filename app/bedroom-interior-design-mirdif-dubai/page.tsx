@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bedroom interior design dubai, bedroom interior design dubai dubai, best bedroom interior design dubai company dubai, luxury bedroom interior design dubai dubai, modern bedroom interior design dubai dubai
+// SEO Keywords: Bedroom Interior Design Mirdif, Bedroom Interior in Design Mirdif, Best bedroom interior Design Mirdif, Professional bedroom interior Design Mirdif, Luxury bedroom interior Design Mirdif, Bedroom Interior Design Mirdif Dubai, Bedroom Interior designer Design Mirdif, Bedroom Interior company Design Mirdif, Bedroom Interior contractor Design Mirdif, Affordable bedroom interior Design Mirdif, Modern bedroom interior Design Mirdif, Bedroom Interior consultation Design Mirdif, Bedroom Interior cost Design Mirdif, Bedroom Interior price Design Mirdif, Top bedroom interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BedroomInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bedroom Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

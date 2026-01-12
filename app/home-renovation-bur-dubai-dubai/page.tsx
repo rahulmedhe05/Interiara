@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Bur Dubai, Home Renovation in Bur Dubai, Best home renovation Bur Dubai, Professional home renovation Bur Dubai, Luxury home renovation Bur Dubai, Home Renovation Bur Dubai Dubai, Home Renovation designer Bur Dubai, Home Renovation company Bur Dubai, Home Renovation contractor Bur Dubai, Affordable home renovation Bur Dubai, Modern home renovation Bur Dubai, Home Renovation consultation Bur Dubai, Home Renovation cost Bur Dubai, Home Renovation price Bur Dubai, Top home renovation Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

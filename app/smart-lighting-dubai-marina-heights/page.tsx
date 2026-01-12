@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting marina dubai, smart lighting marina dubai dubai, best smart lighting marina dubai company dubai, luxury smart lighting marina dubai dubai, modern smart lighting marina dubai dubai
+// SEO Keywords:  Smart Lighting,  in Smart Lighting, Best  Smart Lighting, Professional  Smart Lighting, Luxury  Smart Lighting,  Smart Lighting Dubai,  designer Smart Lighting,  company Smart Lighting,  contractor Smart Lighting, Affordable  Smart Lighting, Modern  Smart Lighting,  consultation Smart Lighting,  cost Smart Lighting,  price Smart Lighting, Top  Smart Lighting
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLighting() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Marina Heights Dubai Company Heights Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Smart Lighting Company Smart Lighting</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

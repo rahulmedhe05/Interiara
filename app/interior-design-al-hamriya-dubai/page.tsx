@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior design dubai, interior design dubai dubai, best interior design dubai company dubai, luxury interior design dubai dubai, modern interior design dubai dubai
+// SEO Keywords: Interior Design Al Hamriya, Interior Design in Al Hamriya, Best interior design Al Hamriya, Professional interior design Al Hamriya, Luxury interior design Al Hamriya, Interior Design Al Hamriya Dubai, Interior Design designer Al Hamriya, Interior Design company Al Hamriya, Interior Design contractor Al Hamriya, Affordable interior design Al Hamriya, Modern interior design Al Hamriya, Interior Design consultation Al Hamriya, Interior Design cost Al Hamriya, Interior Design price Al Hamriya, Top interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: healthcare interior design dubai, healthcare interior design dubai dubai, best healthcare interior design dubai company dubai, luxury healthcare interior design dubai dubai, modern healthcare interior design dubai dubai
+// SEO Keywords: Healthcare Interior Design The Villa, Healthcare Interior Design in The Villa, Best healthcare interior design The Villa, Professional healthcare interior design The Villa, Luxury healthcare interior design The Villa, Healthcare Interior Design The Villa Dubai, Healthcare Interior Design designer The Villa, Healthcare Interior Design company The Villa, Healthcare Interior Design contractor The Villa, Affordable healthcare interior design The Villa, Modern healthcare interior design The Villa, Healthcare Interior Design consultation The Villa, Healthcare Interior Design cost The Villa, Healthcare Interior Design price The Villa, Top healthcare interior design The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HealthcareInteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Healthcare Interior Design The Villa Dubai Company The Villa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design The Villa Company The Villa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

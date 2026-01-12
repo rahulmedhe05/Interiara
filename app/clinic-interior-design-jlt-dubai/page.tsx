@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: clinic interior design dubai, clinic interior design dubai dubai, best clinic interior design dubai company dubai, luxury clinic interior design dubai dubai, modern clinic interior design dubai dubai
+// SEO Keywords: Clinic Interior Design Jlt, Clinic Interior in Design Jlt, Best clinic interior Design Jlt, Professional clinic interior Design Jlt, Luxury clinic interior Design Jlt, Clinic Interior Design Jlt Dubai, Clinic Interior designer Design Jlt, Clinic Interior company Design Jlt, Clinic Interior contractor Design Jlt, Affordable clinic interior Design Jlt, Modern clinic interior Design Jlt, Clinic Interior consultation Design Jlt, Clinic Interior cost Design Jlt, Clinic Interior price Design Jlt, Top clinic interior Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClinicInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Clinic Interior Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

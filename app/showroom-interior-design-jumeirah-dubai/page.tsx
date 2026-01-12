@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Jumeirah, Showroom Interior in Design Jumeirah, Best showroom interior Design Jumeirah, Professional showroom interior Design Jumeirah, Luxury showroom interior Design Jumeirah, Showroom Interior Design Jumeirah Dubai, Showroom Interior designer Design Jumeirah, Showroom Interior company Design Jumeirah, Showroom Interior contractor Design Jumeirah, Affordable showroom interior Design Jumeirah, Modern showroom interior Design Jumeirah, Showroom Interior consultation Design Jumeirah, Showroom Interior cost Design Jumeirah, Showroom Interior price Design Jumeirah, Top showroom interior Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

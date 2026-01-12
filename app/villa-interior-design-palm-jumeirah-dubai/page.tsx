@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design palm dubai, villa interior design palm dubai dubai, best villa interior design palm dubai company dubai, luxury villa interior design palm dubai dubai, modern villa interior design palm dubai dubai
+// SEO Keywords: Villa Interior Design Palm Jumeirah, Villa Interior Design in Palm Jumeirah, Best villa interior design Palm Jumeirah, Professional villa interior design Palm Jumeirah, Luxury villa interior design Palm Jumeirah, Villa Interior Design Palm Jumeirah Dubai, Villa Interior Design designer Palm Jumeirah, Villa Interior Design company Palm Jumeirah, Villa Interior Design contractor Palm Jumeirah, Affordable villa interior design Palm Jumeirah, Modern villa interior design Palm Jumeirah, Villa Interior Design consultation Palm Jumeirah, Villa Interior Design cost Palm Jumeirah, Villa Interior Design price Palm Jumeirah, Top villa interior design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

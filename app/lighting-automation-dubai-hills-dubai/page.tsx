@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Dubai Hills, Lighting Automation in Dubai Hills, Best lighting automation Dubai Hills, Professional lighting automation Dubai Hills, Luxury lighting automation Dubai Hills, Lighting Automation Dubai Hills Dubai, Lighting Automation designer Dubai Hills, Lighting Automation company Dubai Hills, Lighting Automation contractor Dubai Hills, Affordable lighting automation Dubai Hills, Modern lighting automation Dubai Hills, Lighting Automation consultation Dubai Hills, Lighting Automation cost Dubai Hills, Lighting Automation price Dubai Hills, Top lighting automation Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

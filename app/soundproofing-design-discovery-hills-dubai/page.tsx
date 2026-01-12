@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Discovery Hills, Soundproofing Design in Discovery Hills, Best soundproofing design Discovery Hills, Professional soundproofing design Discovery Hills, Luxury soundproofing design Discovery Hills, Soundproofing Design Discovery Hills Dubai, Soundproofing Design designer Discovery Hills, Soundproofing Design company Discovery Hills, Soundproofing Design contractor Discovery Hills, Affordable soundproofing design Discovery Hills, Modern soundproofing design Discovery Hills, Soundproofing Design consultation Discovery Hills, Soundproofing Design cost Discovery Hills, Soundproofing Design price Discovery Hills, Top soundproofing design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

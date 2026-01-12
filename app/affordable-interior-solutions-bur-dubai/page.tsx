@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Bur, Affordable Interior in Solutions Bur, Best affordable interior Solutions Bur, Professional affordable interior Solutions Bur, Luxury affordable interior Solutions Bur, Affordable Interior Solutions Bur Dubai, Affordable Interior designer Solutions Bur, Affordable Interior company Solutions Bur, Affordable Interior contractor Solutions Bur, Affordable affordable interior Solutions Bur, Modern affordable interior Solutions Bur, Affordable Interior consultation Solutions Bur, Affordable Interior cost Solutions Bur, Affordable Interior price Solutions Bur, Top affordable interior Solutions Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Bur Company Solutions Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

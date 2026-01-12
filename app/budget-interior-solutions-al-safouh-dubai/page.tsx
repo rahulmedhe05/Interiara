@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Al Safouh, Budget Interior Solutions in Al Safouh, Best budget interior solutions Al Safouh, Professional budget interior solutions Al Safouh, Luxury budget interior solutions Al Safouh, Budget Interior Solutions Al Safouh Dubai, Budget Interior Solutions designer Al Safouh, Budget Interior Solutions company Al Safouh, Budget Interior Solutions contractor Al Safouh, Affordable budget interior solutions Al Safouh, Modern budget interior solutions Al Safouh, Budget Interior Solutions consultation Al Safouh, Budget Interior Solutions cost Al Safouh, Budget Interior Solutions price Al Safouh, Top budget interior solutions Al Safouh
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsAlSafouh() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Al Safouh Dubai Company Al Safouh Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions Al Safouh Company Al Safouh</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Al Safouh Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

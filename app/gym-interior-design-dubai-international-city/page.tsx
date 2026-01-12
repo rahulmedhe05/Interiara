@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: gym interior design international dubai, gym interior design international dubai dubai, best gym interior design international dubai company dubai, luxury gym interior design international dubai dubai, modern gym interior design international dubai dubai
+// SEO Keywords: Gym Interior Design, Gym in Interior Design, Best gym Interior Design, Professional gym Interior Design, Luxury gym Interior Design, Gym Interior Design Dubai, Gym designer Interior Design, Gym company Interior Design, Gym contractor Interior Design, Affordable gym Interior Design, Modern gym Interior Design, Gym consultation Interior Design, Gym cost Interior Design, Gym price Interior Design, Top gym Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function GymInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Gym Interior Design International City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best gym Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Gym Interior Design International City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

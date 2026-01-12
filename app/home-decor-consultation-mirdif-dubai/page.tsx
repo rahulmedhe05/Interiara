@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Mirdif, Home Decor in Consultation Mirdif, Best home decor Consultation Mirdif, Professional home decor Consultation Mirdif, Luxury home decor Consultation Mirdif, Home Decor Consultation Mirdif Dubai, Home Decor designer Consultation Mirdif, Home Decor company Consultation Mirdif, Home Decor contractor Consultation Mirdif, Affordable home decor Consultation Mirdif, Modern home decor Consultation Mirdif, Home Decor consultation Consultation Mirdif, Home Decor cost Consultation Mirdif, Home Decor price Consultation Mirdif, Top home decor Consultation Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Mirdif Company Consultation Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

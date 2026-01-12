@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Jebel Ali, Custom Furniture Design in Jebel Ali, Best custom furniture design Jebel Ali, Professional custom furniture design Jebel Ali, Luxury custom furniture design Jebel Ali, Custom Furniture Design Jebel Ali Dubai, Custom Furniture Design designer Jebel Ali, Custom Furniture Design company Jebel Ali, Custom Furniture Design contractor Jebel Ali, Affordable custom furniture design Jebel Ali, Modern custom furniture design Jebel Ali, Custom Furniture Design consultation Jebel Ali, Custom Furniture Design cost Jebel Ali, Custom Furniture Design price Jebel Ali, Top custom furniture design Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

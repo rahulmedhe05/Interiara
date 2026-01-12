@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Business Bay, Wall Flooring Design in Business Bay, Best wall flooring design Business Bay, Professional wall flooring design Business Bay, Luxury wall flooring design Business Bay, Wall Flooring Design Business Bay Dubai, Wall Flooring Design designer Business Bay, Wall Flooring Design company Business Bay, Wall Flooring Design contractor Business Bay, Affordable wall flooring design Business Bay, Modern wall flooring design Business Bay, Wall Flooring Design consultation Business Bay, Wall Flooring Design cost Business Bay, Wall Flooring Design price Business Bay, Top wall flooring design Business Bay
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignBusinessBay() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design Business Bay Dubai Company Business Bay Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Business Bay Company Business Bay</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Business Bay Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

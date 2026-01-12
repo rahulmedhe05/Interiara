@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation palm dubai, lighting automation palm dubai dubai, best lighting automation palm dubai company dubai, luxury lighting automation palm dubai dubai, modern lighting automation palm dubai dubai
+// SEO Keywords: Lighting Automation Palm Jumeirah, Lighting Automation in Palm Jumeirah, Best lighting automation Palm Jumeirah, Professional lighting automation Palm Jumeirah, Luxury lighting automation Palm Jumeirah, Lighting Automation Palm Jumeirah Dubai, Lighting Automation designer Palm Jumeirah, Lighting Automation company Palm Jumeirah, Lighting Automation contractor Palm Jumeirah, Affordable lighting automation Palm Jumeirah, Modern lighting automation Palm Jumeirah, Lighting Automation consultation Palm Jumeirah, Lighting Automation cost Palm Jumeirah, Lighting Automation price Palm Jumeirah, Top lighting automation Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

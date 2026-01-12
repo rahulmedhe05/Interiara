@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office interior design design dubai, office interior design design dubai dubai, best office interior design design dubai company dubai, luxury office interior design design dubai dubai, modern office interior design design dubai dubai
+// SEO Keywords: Office Interior Design Dubai Design District, Office Interior Design Dubai in Design District, Best office interior design dubai Design District, Professional office interior design dubai Design District, Luxury office interior design dubai Design District, Office Interior Design Dubai Design District Dubai, Office Interior Design Dubai designer Design District, Office Interior Design Dubai company Design District, Office Interior Design Dubai contractor Design District, Affordable office interior design dubai Design District, Modern office interior design dubai Design District, Office Interior Design Dubai consultation Design District, Office Interior Design Dubai cost Design District, Office Interior Design Dubai price Design District, Top office interior design dubai Design District
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeInteriorDesignDubaiDesignDistrict() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Interior Design Design District Dubai Company District Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior design dubai Design District Company Design District</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

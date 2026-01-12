@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Jvt, Home Decor in Consultation Jvt, Best home decor Consultation Jvt, Professional home decor Consultation Jvt, Luxury home decor Consultation Jvt, Home Decor Consultation Jvt Dubai, Home Decor designer Consultation Jvt, Home Decor company Consultation Jvt, Home Decor contractor Consultation Jvt, Affordable home decor Consultation Jvt, Modern home decor Consultation Jvt, Home Decor consultation Consultation Jvt, Home Decor cost Consultation Jvt, Home Decor price Consultation Jvt, Top home decor Consultation Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor Consultation Jvt Company Consultation Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

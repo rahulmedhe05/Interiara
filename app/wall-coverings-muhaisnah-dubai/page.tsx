@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Muhaisnah, Wall in Coverings Muhaisnah, Best wall Coverings Muhaisnah, Professional wall Coverings Muhaisnah, Luxury wall Coverings Muhaisnah, Wall Coverings Muhaisnah Dubai, Wall designer Coverings Muhaisnah, Wall company Coverings Muhaisnah, Wall contractor Coverings Muhaisnah, Affordable wall Coverings Muhaisnah, Modern wall Coverings Muhaisnah, Wall consultation Coverings Muhaisnah, Wall cost Coverings Muhaisnah, Wall price Coverings Muhaisnah, Top wall Coverings Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Coverings Muhaisnah Company Coverings Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

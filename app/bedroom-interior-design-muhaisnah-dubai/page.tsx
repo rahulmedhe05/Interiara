@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bedroom interior design dubai, bedroom interior design dubai dubai, best bedroom interior design dubai company dubai, luxury bedroom interior design dubai dubai, modern bedroom interior design dubai dubai
+// SEO Keywords: Bedroom Interior Design Muhaisnah, Bedroom Interior in Design Muhaisnah, Best bedroom interior Design Muhaisnah, Professional bedroom interior Design Muhaisnah, Luxury bedroom interior Design Muhaisnah, Bedroom Interior Design Muhaisnah Dubai, Bedroom Interior designer Design Muhaisnah, Bedroom Interior company Design Muhaisnah, Bedroom Interior contractor Design Muhaisnah, Affordable bedroom interior Design Muhaisnah, Modern bedroom interior Design Muhaisnah, Bedroom Interior consultation Design Muhaisnah, Bedroom Interior cost Design Muhaisnah, Bedroom Interior price Design Muhaisnah, Top bedroom interior Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BedroomInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bedroom Interior Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

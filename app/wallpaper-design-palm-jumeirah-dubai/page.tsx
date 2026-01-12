@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design palm dubai, wallpaper design palm dubai dubai, best wallpaper design palm dubai company dubai, luxury wallpaper design palm dubai dubai, modern wallpaper design palm dubai dubai
+// SEO Keywords: Wallpaper Design Palm Jumeirah, Wallpaper Design in Palm Jumeirah, Best wallpaper design Palm Jumeirah, Professional wallpaper design Palm Jumeirah, Luxury wallpaper design Palm Jumeirah, Wallpaper Design Palm Jumeirah Dubai, Wallpaper Design designer Palm Jumeirah, Wallpaper Design company Palm Jumeirah, Wallpaper Design contractor Palm Jumeirah, Affordable wallpaper design Palm Jumeirah, Modern wallpaper design Palm Jumeirah, Wallpaper Design consultation Palm Jumeirah, Wallpaper Design cost Palm Jumeirah, Wallpaper Design price Palm Jumeirah, Top wallpaper design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Difc, Soundproofing in Design Difc, Best soundproofing Design Difc, Professional soundproofing Design Difc, Luxury soundproofing Design Difc, Soundproofing Design Difc Dubai, Soundproofing designer Design Difc, Soundproofing company Design Difc, Soundproofing contractor Design Difc, Affordable soundproofing Design Difc, Modern soundproofing Design Difc, Soundproofing consultation Design Difc, Soundproofing cost Design Difc, Soundproofing price Design Difc, Top soundproofing Design Difc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignDifc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design DIFC Dubai Company DIFC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing Design Difc Company Design Difc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design DIFC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

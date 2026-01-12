@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Al Jaddaf, Lighting Automation in Al Jaddaf, Best lighting automation Al Jaddaf, Professional lighting automation Al Jaddaf, Luxury lighting automation Al Jaddaf, Lighting Automation Al Jaddaf Dubai, Lighting Automation designer Al Jaddaf, Lighting Automation company Al Jaddaf, Lighting Automation contractor Al Jaddaf, Affordable lighting automation Al Jaddaf, Modern lighting automation Al Jaddaf, Lighting Automation consultation Al Jaddaf, Lighting Automation cost Al Jaddaf, Lighting Automation price Al Jaddaf, Top lighting automation Al Jaddaf
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationAlJaddaf() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Al Jaddaf Dubai Company Al Jaddaf Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Jaddaf Company Al Jaddaf</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Jaddaf Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation dubai, home decor consultation dubai dubai, best home decor consultation dubai company dubai, luxury home decor consultation dubai dubai, modern home decor consultation dubai dubai
+// SEO Keywords: Home Decor Consultation Arabian Ranches, Home Decor Consultation in Arabian Ranches, Best home decor consultation Arabian Ranches, Professional home decor consultation Arabian Ranches, Luxury home decor consultation Arabian Ranches, Home Decor Consultation Arabian Ranches Dubai, Home Decor Consultation designer Arabian Ranches, Home Decor Consultation company Arabian Ranches, Home Decor Consultation contractor Arabian Ranches, Affordable home decor consultation Arabian Ranches, Modern home decor consultation Arabian Ranches, Home Decor Consultation consultation Arabian Ranches, Home Decor Consultation cost Arabian Ranches, Home Decor Consultation price Arabian Ranches, Top home decor consultation Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: sustainable interior design dubai, sustainable interior design dubai dubai, best sustainable interior design dubai company dubai, luxury sustainable interior design dubai dubai, modern sustainable interior design dubai dubai
+// SEO Keywords: Sustainable Interior Design Downtown, Sustainable Interior in Design Downtown, Best sustainable interior Design Downtown, Professional sustainable interior Design Downtown, Luxury sustainable interior Design Downtown, Sustainable Interior Design Downtown Dubai, Sustainable Interior designer Design Downtown, Sustainable Interior company Design Downtown, Sustainable Interior contractor Design Downtown, Affordable sustainable interior Design Downtown, Modern sustainable interior Design Downtown, Sustainable Interior consultation Design Downtown, Sustainable Interior cost Design Downtown, Sustainable Interior price Design Downtown, Top sustainable interior Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SustainableInteriorDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Sustainable Interior Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Downtown Company Design Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

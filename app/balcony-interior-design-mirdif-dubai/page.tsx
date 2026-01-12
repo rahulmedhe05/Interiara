@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: balcony interior design dubai, balcony interior design dubai dubai, best balcony interior design dubai company dubai, luxury balcony interior design dubai dubai, modern balcony interior design dubai dubai
+// SEO Keywords: Balcony Interior Design Mirdif, Balcony Interior in Design Mirdif, Best balcony interior Design Mirdif, Professional balcony interior Design Mirdif, Luxury balcony interior Design Mirdif, Balcony Interior Design Mirdif Dubai, Balcony Interior designer Design Mirdif, Balcony Interior company Design Mirdif, Balcony Interior contractor Design Mirdif, Affordable balcony interior Design Mirdif, Modern balcony interior Design Mirdif, Balcony Interior consultation Design Mirdif, Balcony Interior cost Design Mirdif, Balcony Interior price Design Mirdif, Top balcony interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BalconyInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Balcony Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best balcony interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Balcony Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

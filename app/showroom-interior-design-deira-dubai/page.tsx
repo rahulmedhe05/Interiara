@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Deira, Showroom Interior in Design Deira, Best showroom interior Design Deira, Professional showroom interior Design Deira, Luxury showroom interior Design Deira, Showroom Interior Design Deira Dubai, Showroom Interior designer Design Deira, Showroom Interior company Design Deira, Showroom Interior contractor Design Deira, Affordable showroom interior Design Deira, Modern showroom interior Design Deira, Showroom Interior consultation Design Deira, Showroom Interior cost Design Deira, Showroom Interior price Design Deira, Top showroom interior Design Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Deira Dubai Company Deira Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior Design Deira Company Design Deira</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

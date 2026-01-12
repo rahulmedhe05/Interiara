@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: corporate office interior design dubai, corporate office interior design dubai dubai, best corporate office interior design dubai company dubai, luxury corporate office interior design dubai dubai, modern corporate office interior design dubai dubai
+// SEO Keywords: Corporate Office Interior Design Discovery Gardens, Corporate Office Interior Design in Discovery Gardens, Best corporate office interior design Discovery Gardens, Professional corporate office interior design Discovery Gardens, Luxury corporate office interior design Discovery Gardens, Corporate Office Interior Design Discovery Gardens Dubai, Corporate Office Interior Design designer Discovery Gardens, Corporate Office Interior Design company Discovery Gardens, Corporate Office Interior Design contractor Discovery Gardens, Affordable corporate office interior design Discovery Gardens, Modern corporate office interior design Discovery Gardens, Corporate Office Interior Design consultation Discovery Gardens, Corporate Office Interior Design cost Discovery Gardens, Corporate Office Interior Design price Discovery Gardens, Top corporate office interior design Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CorporateOfficeInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Corporate Office Interior Design Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best corporate office interior design Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Corporate Office Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

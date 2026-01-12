@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Jumeirah, Affordable Interior in Solutions Jumeirah, Best affordable interior Solutions Jumeirah, Professional affordable interior Solutions Jumeirah, Luxury affordable interior Solutions Jumeirah, Affordable Interior Solutions Jumeirah Dubai, Affordable Interior designer Solutions Jumeirah, Affordable Interior company Solutions Jumeirah, Affordable Interior contractor Solutions Jumeirah, Affordable affordable interior Solutions Jumeirah, Modern affordable interior Solutions Jumeirah, Affordable Interior consultation Solutions Jumeirah, Affordable Interior cost Solutions Jumeirah, Affordable Interior price Solutions Jumeirah, Top affordable interior Solutions Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Jumeirah Company Solutions Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Discovery Hills, Acoustic Design in Discovery Hills, Best acoustic design Discovery Hills, Professional acoustic design Discovery Hills, Luxury acoustic design Discovery Hills, Acoustic Design Discovery Hills Dubai, Acoustic Design designer Discovery Hills, Acoustic Design company Discovery Hills, Acoustic Design contractor Discovery Hills, Affordable acoustic design Discovery Hills, Modern acoustic design Discovery Hills, Acoustic Design consultation Discovery Hills, Acoustic Design cost Discovery Hills, Acoustic Design price Discovery Hills, Top acoustic design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

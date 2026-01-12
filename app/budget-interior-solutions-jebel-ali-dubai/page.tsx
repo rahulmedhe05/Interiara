@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Jebel Ali, Budget Interior Solutions in Jebel Ali, Best budget interior solutions Jebel Ali, Professional budget interior solutions Jebel Ali, Luxury budget interior solutions Jebel Ali, Budget Interior Solutions Jebel Ali Dubai, Budget Interior Solutions designer Jebel Ali, Budget Interior Solutions company Jebel Ali, Budget Interior Solutions contractor Jebel Ali, Affordable budget interior solutions Jebel Ali, Modern budget interior solutions Jebel Ali, Budget Interior Solutions consultation Jebel Ali, Budget Interior Solutions cost Jebel Ali, Budget Interior Solutions price Jebel Ali, Top budget interior solutions Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: commercial interior design dubai, commercial interior design dubai dubai, best commercial interior design dubai company dubai, luxury commercial interior design dubai dubai, modern commercial interior design dubai dubai
+// SEO Keywords: Commercial Interior Design Discovery Hills, Commercial Interior Design in Discovery Hills, Best commercial interior design Discovery Hills, Professional commercial interior design Discovery Hills, Luxury commercial interior design Discovery Hills, Commercial Interior Design Discovery Hills Dubai, Commercial Interior Design designer Discovery Hills, Commercial Interior Design company Discovery Hills, Commercial Interior Design contractor Discovery Hills, Affordable commercial interior design Discovery Hills, Modern commercial interior design Discovery Hills, Commercial Interior Design consultation Discovery Hills, Commercial Interior Design cost Discovery Hills, Commercial Interior Design price Discovery Hills, Top commercial interior design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CommercialInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Commercial Interior Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best commercial interior design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Commercial Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

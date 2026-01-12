@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design palm dubai, soundproofing design palm dubai dubai, best soundproofing design palm dubai company dubai, luxury soundproofing design palm dubai dubai, modern soundproofing design palm dubai dubai
+// SEO Keywords: Soundproofing Design Palm Jumeirah, Soundproofing Design in Palm Jumeirah, Best soundproofing design Palm Jumeirah, Professional soundproofing design Palm Jumeirah, Luxury soundproofing design Palm Jumeirah, Soundproofing Design Palm Jumeirah Dubai, Soundproofing Design designer Palm Jumeirah, Soundproofing Design company Palm Jumeirah, Soundproofing Design contractor Palm Jumeirah, Affordable soundproofing design Palm Jumeirah, Modern soundproofing design Palm Jumeirah, Soundproofing Design consultation Palm Jumeirah, Soundproofing Design cost Palm Jumeirah, Soundproofing Design price Palm Jumeirah, Top soundproofing design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window dubai, window dubai dubai, best window dubai company dubai, luxury window dubai dubai, modern window dubai dubai
+// SEO Keywords:  Window Treatment,  in Window Treatment, Best  Window Treatment, Professional  Window Treatment, Luxury  Window Treatment,  Window Treatment Dubai,  designer Window Treatment,  company Window Treatment,  contractor Window Treatment, Affordable  Window Treatment, Modern  Window Treatment,  consultation Window Treatment,  cost Window Treatment,  price Window Treatment, Top  Window Treatment
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowTreatment() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Treatment Dubai Company Treatment Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Window Treatment Company Window Treatment</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Treatment Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

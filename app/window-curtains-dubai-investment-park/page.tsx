@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains investment dubai, window curtains investment dubai dubai, best window curtains investment dubai company dubai, luxury window curtains investment dubai dubai, modern window curtains investment dubai dubai
+// SEO Keywords:  Window Curtains,  in Window Curtains, Best  Window Curtains, Professional  Window Curtains, Luxury  Window Curtains,  Window Curtains Dubai,  designer Window Curtains,  company Window Curtains,  contractor Window Curtains, Affordable  Window Curtains, Modern  Window Curtains,  consultation Window Curtains,  cost Window Curtains,  price Window Curtains, Top  Window Curtains
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtains() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Investment Park Dubai Company Park Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Window Curtains Company Window Curtains</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Lakes, Interior Space in Optimization Lakes, Best interior space Optimization Lakes, Professional interior space Optimization Lakes, Luxury interior space Optimization Lakes, Interior Space Optimization Lakes Dubai, Interior Space designer Optimization Lakes, Interior Space company Optimization Lakes, Interior Space contractor Optimization Lakes, Affordable interior space Optimization Lakes, Modern interior space Optimization Lakes, Interior Space consultation Optimization Lakes, Interior Space cost Optimization Lakes, Interior Space price Optimization Lakes, Top interior space Optimization Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space Optimization Lakes Company Optimization Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

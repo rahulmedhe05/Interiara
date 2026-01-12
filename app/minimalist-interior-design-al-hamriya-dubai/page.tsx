@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Al Hamriya, Minimalist Interior Design in Al Hamriya, Best minimalist interior design Al Hamriya, Professional minimalist interior design Al Hamriya, Luxury minimalist interior design Al Hamriya, Minimalist Interior Design Al Hamriya Dubai, Minimalist Interior Design designer Al Hamriya, Minimalist Interior Design company Al Hamriya, Minimalist Interior Design contractor Al Hamriya, Affordable minimalist interior design Al Hamriya, Modern minimalist interior design Al Hamriya, Minimalist Interior Design consultation Al Hamriya, Minimalist Interior Design cost Al Hamriya, Minimalist Interior Design price Al Hamriya, Top minimalist interior design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

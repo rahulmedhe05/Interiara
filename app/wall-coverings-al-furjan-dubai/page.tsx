@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Al Furjan, Wall Coverings in Al Furjan, Best wall coverings Al Furjan, Professional wall coverings Al Furjan, Luxury wall coverings Al Furjan, Wall Coverings Al Furjan Dubai, Wall Coverings designer Al Furjan, Wall Coverings company Al Furjan, Wall Coverings contractor Al Furjan, Affordable wall coverings Al Furjan, Modern wall coverings Al Furjan, Wall Coverings consultation Al Furjan, Wall Coverings cost Al Furjan, Wall Coverings price Al Furjan, Top wall coverings Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

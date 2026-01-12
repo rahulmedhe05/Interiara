@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Discovery Hills, Office Fit Out in Discovery Hills, Best office fit out Discovery Hills, Professional office fit out Discovery Hills, Luxury office fit out Discovery Hills, Office Fit Out Discovery Hills Dubai, Office Fit Out designer Discovery Hills, Office Fit Out company Discovery Hills, Office Fit Out contractor Discovery Hills, Affordable office fit out Discovery Hills, Modern office fit out Discovery Hills, Office Fit Out consultation Discovery Hills, Office Fit Out cost Discovery Hills, Office Fit Out price Discovery Hills, Top office fit out Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Deira, Office in Renovation Deira, Best office Renovation Deira, Professional office Renovation Deira, Luxury office Renovation Deira, Office Renovation Deira Dubai, Office designer Renovation Deira, Office company Renovation Deira, Office contractor Renovation Deira, Affordable office Renovation Deira, Modern office Renovation Deira, Office consultation Renovation Deira, Office cost Renovation Deira, Office price Renovation Deira, Top office Renovation Deira
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationDeira() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Deira Dubai Company Deira Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office Renovation Deira Company Renovation Deira</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Deira Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

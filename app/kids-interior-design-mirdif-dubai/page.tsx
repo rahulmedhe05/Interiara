@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: kids interior design dubai, kids interior design dubai dubai, best kids interior design dubai company dubai, luxury kids interior design dubai dubai, modern kids interior design dubai dubai
+// SEO Keywords: Kids Interior Design Mirdif, Kids Interior in Design Mirdif, Best kids interior Design Mirdif, Professional kids interior Design Mirdif, Luxury kids interior Design Mirdif, Kids Interior Design Mirdif Dubai, Kids Interior designer Design Mirdif, Kids Interior company Design Mirdif, Kids Interior contractor Design Mirdif, Affordable kids interior Design Mirdif, Modern kids interior Design Mirdif, Kids Interior consultation Design Mirdif, Kids Interior cost Design Mirdif, Kids Interior price Design Mirdif, Top kids interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function KidsInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Kids Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kids interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kids Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

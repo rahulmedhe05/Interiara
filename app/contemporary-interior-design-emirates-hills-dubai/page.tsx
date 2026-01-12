@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: contemporary interior design dubai, contemporary interior design dubai dubai, best contemporary interior design dubai company dubai, luxury contemporary interior design dubai dubai, modern contemporary interior design dubai dubai
+// SEO Keywords: Contemporary Interior Design Emirates Hills, Contemporary Interior Design in Emirates Hills, Best contemporary interior design Emirates Hills, Professional contemporary interior design Emirates Hills, Luxury contemporary interior design Emirates Hills, Contemporary Interior Design Emirates Hills Dubai, Contemporary Interior Design designer Emirates Hills, Contemporary Interior Design company Emirates Hills, Contemporary Interior Design contractor Emirates Hills, Affordable contemporary interior design Emirates Hills, Modern contemporary interior design Emirates Hills, Contemporary Interior Design consultation Emirates Hills, Contemporary Interior Design cost Emirates Hills, Contemporary Interior Design price Emirates Hills, Top contemporary interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ContemporaryInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Contemporary Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

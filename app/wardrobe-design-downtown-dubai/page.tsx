@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Downtown, Wardrobe in Design Downtown, Best wardrobe Design Downtown, Professional wardrobe Design Downtown, Luxury wardrobe Design Downtown, Wardrobe Design Downtown Dubai, Wardrobe designer Design Downtown, Wardrobe company Design Downtown, Wardrobe contractor Design Downtown, Affordable wardrobe Design Downtown, Modern wardrobe Design Downtown, Wardrobe consultation Design Downtown, Wardrobe cost Design Downtown, Wardrobe price Design Downtown, Top wardrobe Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe Design Downtown Company Design Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

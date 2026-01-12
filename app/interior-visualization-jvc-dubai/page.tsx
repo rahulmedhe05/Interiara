@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization Jvc, Interior in Visualization Jvc, Best interior Visualization Jvc, Professional interior Visualization Jvc, Luxury interior Visualization Jvc, Interior Visualization Jvc Dubai, Interior designer Visualization Jvc, Interior company Visualization Jvc, Interior contractor Visualization Jvc, Affordable interior Visualization Jvc, Modern interior Visualization Jvc, Interior consultation Visualization Jvc, Interior cost Visualization Jvc, Interior price Visualization Jvc, Top interior Visualization Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior Visualization Jvc Company Visualization Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

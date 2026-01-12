@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Al Khawaneej, Modular Kitchens in Al Khawaneej, Best modular kitchens Al Khawaneej, Professional modular kitchens Al Khawaneej, Luxury modular kitchens Al Khawaneej, Modular Kitchens Al Khawaneej Dubai, Modular Kitchens designer Al Khawaneej, Modular Kitchens company Al Khawaneej, Modular Kitchens contractor Al Khawaneej, Affordable modular kitchens Al Khawaneej, Modern modular kitchens Al Khawaneej, Modular Kitchens consultation Al Khawaneej, Modular Kitchens cost Al Khawaneej, Modular Kitchens price Al Khawaneej, Top modular kitchens Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

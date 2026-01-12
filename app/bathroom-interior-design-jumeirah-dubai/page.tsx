@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bathroom interior design dubai, bathroom interior design dubai dubai, best bathroom interior design dubai company dubai, luxury bathroom interior design dubai dubai, modern bathroom interior design dubai dubai
+// SEO Keywords: Bathroom Interior Design Jumeirah, Bathroom Interior in Design Jumeirah, Best bathroom interior Design Jumeirah, Professional bathroom interior Design Jumeirah, Luxury bathroom interior Design Jumeirah, Bathroom Interior Design Jumeirah Dubai, Bathroom Interior designer Design Jumeirah, Bathroom Interior company Design Jumeirah, Bathroom Interior contractor Design Jumeirah, Affordable bathroom interior Design Jumeirah, Modern bathroom interior Design Jumeirah, Bathroom Interior consultation Design Jumeirah, Bathroom Interior cost Design Jumeirah, Bathroom Interior price Design Jumeirah, Top bathroom interior Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BathroomInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bathroom Interior Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bathroom interior Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bathroom Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Sheikh Zayed Road, Window Curtains Sheikh in Zayed Road, Best window curtains sheikh Zayed Road, Professional window curtains sheikh Zayed Road, Luxury window curtains sheikh Zayed Road, Window Curtains Sheikh Zayed Road Dubai, Window Curtains Sheikh designer Zayed Road, Window Curtains Sheikh company Zayed Road, Window Curtains Sheikh contractor Zayed Road, Affordable window curtains sheikh Zayed Road, Modern window curtains sheikh Zayed Road, Window Curtains Sheikh consultation Zayed Road, Window Curtains Sheikh cost Zayed Road, Window Curtains Sheikh price Zayed Road, Top window curtains sheikh Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Sheikh Zayed Road Dubai Company Sheikh Zayed Road Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains sheikh Zayed Road Company Zayed Road</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

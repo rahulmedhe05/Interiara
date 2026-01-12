@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: childrens room interior design dubai, childrens room interior design dubai dubai, best childrens room interior design dubai company dubai, luxury childrens room interior design dubai dubai, modern childrens room interior design dubai dubai
+// SEO Keywords: Childrens Room Interior Design Bur, Childrens Room Interior in Design Bur, Best childrens room interior Design Bur, Professional childrens room interior Design Bur, Luxury childrens room interior Design Bur, Childrens Room Interior Design Bur Dubai, Childrens Room Interior designer Design Bur, Childrens Room Interior company Design Bur, Childrens Room Interior contractor Design Bur, Affordable childrens room interior Design Bur, Modern childrens room interior Design Bur, Childrens Room Interior consultation Design Bur, Childrens Room Interior cost Design Bur, Childrens Room Interior price Design Bur, Top childrens room interior Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ChildrensRoomInteriorDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Childrens Room Interior Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior Design Bur Company Design Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

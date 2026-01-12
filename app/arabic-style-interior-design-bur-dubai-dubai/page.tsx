@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: arabic style interior design dubai, arabic style interior design dubai dubai, best arabic style interior design dubai company dubai, luxury arabic style interior design dubai dubai, modern arabic style interior design dubai dubai
+// SEO Keywords: Arabic Style Interior Design Bur Dubai, Arabic Style Interior Design in Bur Dubai, Best arabic style interior design Bur Dubai, Professional arabic style interior design Bur Dubai, Luxury arabic style interior design Bur Dubai, Arabic Style Interior Design Bur Dubai Dubai, Arabic Style Interior Design designer Bur Dubai, Arabic Style Interior Design company Bur Dubai, Arabic Style Interior Design contractor Bur Dubai, Affordable arabic style interior design Bur Dubai, Modern arabic style interior design Bur Dubai, Arabic Style Interior Design consultation Bur Dubai, Arabic Style Interior Design cost Bur Dubai, Arabic Style Interior Design price Bur Dubai, Top arabic style interior design Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArabicStyleInteriorDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Arabic Style Interior Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior design Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

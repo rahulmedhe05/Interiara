@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: mall interior design dubai, mall interior design dubai dubai, best mall interior design dubai company dubai, luxury mall interior design dubai dubai, modern mall interior design dubai dubai
+// SEO Keywords: Mall Interior Design Al Quoz, Mall Interior Design in Al Quoz, Best mall interior design Al Quoz, Professional mall interior design Al Quoz, Luxury mall interior design Al Quoz, Mall Interior Design Al Quoz Dubai, Mall Interior Design designer Al Quoz, Mall Interior Design company Al Quoz, Mall Interior Design contractor Al Quoz, Affordable mall interior design Al Quoz, Modern mall interior design Al Quoz, Mall Interior Design consultation Al Quoz, Mall Interior Design cost Al Quoz, Mall Interior Design price Al Quoz, Top mall interior design Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MallInteriorDesignAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Mall Interior Design Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior design Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

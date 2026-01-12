@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design Emirates Hills, Wardrobe Design in Emirates Hills, Best wardrobe design Emirates Hills, Professional wardrobe design Emirates Hills, Luxury wardrobe design Emirates Hills, Wardrobe Design Emirates Hills Dubai, Wardrobe Design designer Emirates Hills, Wardrobe Design company Emirates Hills, Wardrobe Design contractor Emirates Hills, Affordable wardrobe design Emirates Hills, Modern wardrobe design Emirates Hills, Wardrobe Design consultation Emirates Hills, Wardrobe Design cost Emirates Hills, Wardrobe Design price Emirates Hills, Top wardrobe design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

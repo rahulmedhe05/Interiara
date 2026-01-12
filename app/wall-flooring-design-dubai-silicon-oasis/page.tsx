@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design silicon dubai, wall flooring design silicon dubai dubai, best wall flooring design silicon dubai company dubai, luxury wall flooring design silicon dubai dubai, modern wall flooring design silicon dubai dubai
+// SEO Keywords: Wall Flooring Design, Wall in Flooring Design, Best wall Flooring Design, Professional wall Flooring Design, Luxury wall Flooring Design, Wall Flooring Design Dubai, Wall designer Flooring Design, Wall company Flooring Design, Wall contractor Flooring Design, Affordable wall Flooring Design, Modern wall Flooring Design, Wall consultation Flooring Design, Wall cost Flooring Design, Wall price Flooring Design, Top wall Flooring Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design Silicon Oasis Dubai Company Oasis Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Flooring Design Company Flooring Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Silicon Oasis Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

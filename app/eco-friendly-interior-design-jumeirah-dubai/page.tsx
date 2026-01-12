@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: eco friendly interior design dubai, eco friendly interior design dubai dubai, best eco friendly interior design dubai company dubai, luxury eco friendly interior design dubai dubai, modern eco friendly interior design dubai dubai
+// SEO Keywords: Eco Friendly Interior Design Jumeirah, Eco Friendly Interior in Design Jumeirah, Best eco friendly interior Design Jumeirah, Professional eco friendly interior Design Jumeirah, Luxury eco friendly interior Design Jumeirah, Eco Friendly Interior Design Jumeirah Dubai, Eco Friendly Interior designer Design Jumeirah, Eco Friendly Interior company Design Jumeirah, Eco Friendly Interior contractor Design Jumeirah, Affordable eco friendly interior Design Jumeirah, Modern eco friendly interior Design Jumeirah, Eco Friendly Interior consultation Design Jumeirah, Eco Friendly Interior cost Design Jumeirah, Eco Friendly Interior price Design Jumeirah, Top eco friendly interior Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function EcoFriendlyInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Eco Friendly Interior Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

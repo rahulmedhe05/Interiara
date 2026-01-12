@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: luxury interior design dubai, luxury interior design dubai dubai, best luxury interior design dubai company dubai, luxury luxury interior design dubai dubai, modern luxury interior design dubai dubai
+// SEO Keywords: Luxury Interior Design Jbr, Luxury Interior in Design Jbr, Best luxury interior Design Jbr, Professional luxury interior Design Jbr, Luxury luxury interior Design Jbr, Luxury Interior Design Jbr Dubai, Luxury Interior designer Design Jbr, Luxury Interior company Design Jbr, Luxury Interior contractor Design Jbr, Affordable luxury interior Design Jbr, Modern luxury interior Design Jbr, Luxury Interior consultation Design Jbr, Luxury Interior cost Design Jbr, Luxury Interior price Design Jbr, Top luxury interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LuxuryInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Luxury Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

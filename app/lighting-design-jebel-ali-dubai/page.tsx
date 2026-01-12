@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design dubai, lighting design dubai dubai, best lighting design dubai company dubai, luxury lighting design dubai dubai, modern lighting design dubai dubai
+// SEO Keywords: Lighting Design Jebel Ali, Lighting Design in Jebel Ali, Best lighting design Jebel Ali, Professional lighting design Jebel Ali, Luxury lighting design Jebel Ali, Lighting Design Jebel Ali Dubai, Lighting Design designer Jebel Ali, Lighting Design company Jebel Ali, Lighting Design contractor Jebel Ali, Affordable lighting design Jebel Ali, Modern lighting design Jebel Ali, Lighting Design consultation Jebel Ali, Lighting Design cost Jebel Ali, Lighting Design price Jebel Ali, Top lighting design Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

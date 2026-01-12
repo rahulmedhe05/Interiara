@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: kids interior design dubai, kids interior design dubai dubai, best kids interior design dubai company dubai, luxury kids interior design dubai dubai, modern kids interior design dubai dubai
+// SEO Keywords: Kids Interior Design, Kids in Interior Design, Best kids Interior Design, Professional kids Interior Design, Luxury kids Interior Design, Kids Interior Design Dubai, Kids designer Interior Design, Kids company Interior Design, Kids contractor Interior Design, Affordable kids Interior Design, Modern kids Interior Design, Kids consultation Interior Design, Kids cost Interior Design, Kids price Interior Design, Top kids Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function KidsInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Kids Interior Design Waterfront Dubai Company Waterfront Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kids Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kids Interior Design Waterfront Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Al Wasl, Acoustic Design in Al Wasl, Best acoustic design Al Wasl, Professional acoustic design Al Wasl, Luxury acoustic design Al Wasl, Acoustic Design Al Wasl Dubai, Acoustic Design designer Al Wasl, Acoustic Design company Al Wasl, Acoustic Design contractor Al Wasl, Affordable acoustic design Al Wasl, Modern acoustic design Al Wasl, Acoustic Design consultation Al Wasl, Acoustic Design cost Al Wasl, Acoustic Design price Al Wasl, Top acoustic design Al Wasl
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignAlWasl() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Al Wasl Dubai Company Al Wasl Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Al Wasl Company Al Wasl</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Al Wasl Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

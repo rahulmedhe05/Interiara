@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall coverings dubai, wall coverings dubai dubai, best wall coverings dubai company dubai, luxury wall coverings dubai dubai, modern wall coverings dubai dubai
+// SEO Keywords: Wall Coverings Bur Dubai, Wall Coverings in Bur Dubai, Best wall coverings Bur Dubai, Professional wall coverings Bur Dubai, Luxury wall coverings Bur Dubai, Wall Coverings Bur Dubai Dubai, Wall Coverings designer Bur Dubai, Wall Coverings company Bur Dubai, Wall Coverings contractor Bur Dubai, Affordable wall coverings Bur Dubai, Modern wall coverings Bur Dubai, Wall Coverings consultation Bur Dubai, Wall Coverings cost Bur Dubai, Wall Coverings price Bur Dubai, Top wall coverings Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallCoveringsBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Coverings Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall coverings Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Coverings Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

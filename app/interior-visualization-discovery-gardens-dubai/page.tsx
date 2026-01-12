@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization Discovery Gardens, Interior Visualization in Discovery Gardens, Best interior visualization Discovery Gardens, Professional interior visualization Discovery Gardens, Luxury interior visualization Discovery Gardens, Interior Visualization Discovery Gardens Dubai, Interior Visualization designer Discovery Gardens, Interior Visualization company Discovery Gardens, Interior Visualization contractor Discovery Gardens, Affordable interior visualization Discovery Gardens, Modern interior visualization Discovery Gardens, Interior Visualization consultation Discovery Gardens, Interior Visualization cost Discovery Gardens, Interior Visualization price Discovery Gardens, Top interior visualization Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

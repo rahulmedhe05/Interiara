@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Muhaisnah, Wall Flooring in Design Muhaisnah, Best wall flooring Design Muhaisnah, Professional wall flooring Design Muhaisnah, Luxury wall flooring Design Muhaisnah, Wall Flooring Design Muhaisnah Dubai, Wall Flooring designer Design Muhaisnah, Wall Flooring company Design Muhaisnah, Wall Flooring contractor Design Muhaisnah, Affordable wall flooring Design Muhaisnah, Modern wall flooring Design Muhaisnah, Wall Flooring consultation Design Muhaisnah, Wall Flooring cost Design Muhaisnah, Wall Flooring price Design Muhaisnah, Top wall flooring Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: retail shop interior design dubai, retail shop interior design dubai dubai, best retail shop interior design dubai company dubai, luxury retail shop interior design dubai dubai, modern retail shop interior design dubai dubai
+// SEO Keywords: Retail Shop Interior Design Jumeirah, Retail Shop Interior in Design Jumeirah, Best retail shop interior Design Jumeirah, Professional retail shop interior Design Jumeirah, Luxury retail shop interior Design Jumeirah, Retail Shop Interior Design Jumeirah Dubai, Retail Shop Interior designer Design Jumeirah, Retail Shop Interior company Design Jumeirah, Retail Shop Interior contractor Design Jumeirah, Affordable retail shop interior Design Jumeirah, Modern retail shop interior Design Jumeirah, Retail Shop Interior consultation Design Jumeirah, Retail Shop Interior cost Design Jumeirah, Retail Shop Interior price Design Jumeirah, Top retail shop interior Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RetailShopInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Retail Shop Interior Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

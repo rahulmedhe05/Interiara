@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: fitness studio interior design dubai, fitness studio interior design dubai dubai, best fitness studio interior design dubai company dubai, luxury fitness studio interior design dubai dubai, modern fitness studio interior design dubai dubai
+// SEO Keywords: Fitness Studio Interior Design Muhaisnah, Fitness Studio Interior in Design Muhaisnah, Best fitness studio interior Design Muhaisnah, Professional fitness studio interior Design Muhaisnah, Luxury fitness studio interior Design Muhaisnah, Fitness Studio Interior Design Muhaisnah Dubai, Fitness Studio Interior designer Design Muhaisnah, Fitness Studio Interior company Design Muhaisnah, Fitness Studio Interior contractor Design Muhaisnah, Affordable fitness studio interior Design Muhaisnah, Modern fitness studio interior Design Muhaisnah, Fitness Studio Interior consultation Design Muhaisnah, Fitness Studio Interior cost Design Muhaisnah, Fitness Studio Interior price Design Muhaisnah, Top fitness studio interior Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function FitnessStudioInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Fitness Studio Interior Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best fitness studio interior Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Fitness Studio Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

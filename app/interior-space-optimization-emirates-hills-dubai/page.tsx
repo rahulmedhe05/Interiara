@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Emirates Hills, Interior Space Optimization in Emirates Hills, Best interior space optimization Emirates Hills, Professional interior space optimization Emirates Hills, Luxury interior space optimization Emirates Hills, Interior Space Optimization Emirates Hills Dubai, Interior Space Optimization designer Emirates Hills, Interior Space Optimization company Emirates Hills, Interior Space Optimization contractor Emirates Hills, Affordable interior space optimization Emirates Hills, Modern interior space optimization Emirates Hills, Interior Space Optimization consultation Emirates Hills, Interior Space Optimization cost Emirates Hills, Interior Space Optimization price Emirates Hills, Top interior space optimization Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

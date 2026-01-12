@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: villa interior design dubai, villa interior design dubai dubai, best villa interior design dubai company dubai, luxury villa interior design dubai dubai, modern villa interior design dubai dubai
+// SEO Keywords: Villa Interior Design Discovery Gardens, Villa Interior Design in Discovery Gardens, Best villa interior design Discovery Gardens, Professional villa interior design Discovery Gardens, Luxury villa interior design Discovery Gardens, Villa Interior Design Discovery Gardens Dubai, Villa Interior Design designer Discovery Gardens, Villa Interior Design company Discovery Gardens, Villa Interior Design contractor Discovery Gardens, Affordable villa interior design Discovery Gardens, Modern villa interior design Discovery Gardens, Villa Interior Design consultation Discovery Gardens, Villa Interior Design cost Discovery Gardens, Villa Interior Design price Discovery Gardens, Top villa interior design Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function VillaInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Villa Interior Design Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best villa interior design Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Villa Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

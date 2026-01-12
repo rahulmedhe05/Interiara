@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: penthouse interior design dubai, penthouse interior design dubai dubai, best penthouse interior design dubai company dubai, luxury penthouse interior design dubai dubai, modern penthouse interior design dubai dubai
+// SEO Keywords: Penthouse Interior Design Jbr, Penthouse Interior in Design Jbr, Best penthouse interior Design Jbr, Professional penthouse interior Design Jbr, Luxury penthouse interior Design Jbr, Penthouse Interior Design Jbr Dubai, Penthouse Interior designer Design Jbr, Penthouse Interior company Design Jbr, Penthouse Interior contractor Design Jbr, Affordable penthouse interior Design Jbr, Modern penthouse interior Design Jbr, Penthouse Interior consultation Design Jbr, Penthouse Interior cost Design Jbr, Penthouse Interior price Design Jbr, Top penthouse interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function PenthouseInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Penthouse Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best penthouse interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Penthouse Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

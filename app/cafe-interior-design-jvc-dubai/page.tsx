@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: cafe interior design dubai, cafe interior design dubai dubai, best cafe interior design dubai company dubai, luxury cafe interior design dubai dubai, modern cafe interior design dubai dubai
+// SEO Keywords: Cafe Interior Design Jvc, Cafe Interior in Design Jvc, Best cafe interior Design Jvc, Professional cafe interior Design Jvc, Luxury cafe interior Design Jvc, Cafe Interior Design Jvc Dubai, Cafe Interior designer Design Jvc, Cafe Interior company Design Jvc, Cafe Interior contractor Design Jvc, Affordable cafe interior Design Jvc, Modern cafe interior Design Jvc, Cafe Interior consultation Design Jvc, Cafe Interior cost Design Jvc, Cafe Interior price Design Jvc, Top cafe interior Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CafeInteriorDesignJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Cafe Interior Design JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior Design Jvc Company Design Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Discovery Hills, Budget Interior Solutions in Discovery Hills, Best budget interior solutions Discovery Hills, Professional budget interior solutions Discovery Hills, Luxury budget interior solutions Discovery Hills, Budget Interior Solutions Discovery Hills Dubai, Budget Interior Solutions designer Discovery Hills, Budget Interior Solutions company Discovery Hills, Budget Interior Solutions contractor Discovery Hills, Affordable budget interior solutions Discovery Hills, Modern budget interior solutions Discovery Hills, Budget Interior Solutions consultation Discovery Hills, Budget Interior Solutions cost Discovery Hills, Budget Interior Solutions price Discovery Hills, Top budget interior solutions Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

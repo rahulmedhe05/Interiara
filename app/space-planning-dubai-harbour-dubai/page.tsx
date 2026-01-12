@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning dubai, space planning dubai dubai, best space planning dubai company dubai, luxury space planning dubai dubai, modern space planning dubai dubai
+// SEO Keywords: Space Planning Dubai Harbour, Space Planning in Dubai Harbour, Best space planning Dubai Harbour, Professional space planning Dubai Harbour, Luxury space planning Dubai Harbour, Space Planning Dubai Harbour Dubai, Space Planning designer Dubai Harbour, Space Planning company Dubai Harbour, Space Planning contractor Dubai Harbour, Affordable space planning Dubai Harbour, Modern space planning Dubai Harbour, Space Planning consultation Dubai Harbour, Space Planning cost Dubai Harbour, Space Planning price Dubai Harbour, Top space planning Dubai Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Dubai Harbour Company Dubai Harbour</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

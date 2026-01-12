@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation hills dubai, home renovation hills dubai dubai, best home renovation hills dubai company dubai, luxury home renovation hills dubai dubai, modern home renovation hills dubai dubai
+// SEO Keywords: Home Renovation Dubai Hills Estate, Home Renovation Dubai in Hills Estate, Best home renovation dubai Hills Estate, Professional home renovation dubai Hills Estate, Luxury home renovation dubai Hills Estate, Home Renovation Dubai Hills Estate Dubai, Home Renovation Dubai designer Hills Estate, Home Renovation Dubai company Hills Estate, Home Renovation Dubai contractor Hills Estate, Affordable home renovation dubai Hills Estate, Modern home renovation dubai Hills Estate, Home Renovation Dubai consultation Hills Estate, Home Renovation Dubai cost Hills Estate, Home Renovation Dubai price Hills Estate, Top home renovation dubai Hills Estate
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationDubaiHillsEstate() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home renovation dubai Hills Estate Company Hills Estate</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

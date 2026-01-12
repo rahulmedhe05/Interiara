@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior design dubai, interior design dubai dubai, best interior design dubai company dubai, luxury interior design dubai dubai, modern interior design dubai dubai
+// SEO Keywords: Interior Design Dubai Hills, Interior Design in Dubai Hills, Best interior design Dubai Hills, Professional interior design Dubai Hills, Luxury interior design Dubai Hills, Interior Design Dubai Hills Dubai, Interior Design designer Dubai Hills, Interior Design company Dubai Hills, Interior Design contractor Dubai Hills, Affordable interior design Dubai Hills, Modern interior design Dubai Hills, Interior Design consultation Dubai Hills, Interior Design cost Dubai Hills, Interior Design price Dubai Hills, Top interior design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

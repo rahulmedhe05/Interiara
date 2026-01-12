@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Business Bay South, Office Fit Out Business in Bay South, Best office fit out business Bay South, Professional office fit out business Bay South, Luxury office fit out business Bay South, Office Fit Out Business Bay South Dubai, Office Fit Out Business designer Bay South, Office Fit Out Business company Bay South, Office Fit Out Business contractor Bay South, Affordable office fit out business Bay South, Modern office fit out business Bay South, Office Fit Out Business consultation Bay South, Office Fit Out Business cost Bay South, Office Fit Out Business price Bay South, Top office fit out business Bay South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutBusinessBaySouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Business Bay South Dubai Company Business Bay South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out business Bay South Company Bay South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Business Bay South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

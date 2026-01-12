@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: healthcare interior design dubai, healthcare interior design dubai dubai, best healthcare interior design dubai company dubai, luxury healthcare interior design dubai dubai, modern healthcare interior design dubai dubai
+// SEO Keywords: Healthcare Interior Design City Walk, Healthcare Interior Design in City Walk, Best healthcare interior design City Walk, Professional healthcare interior design City Walk, Luxury healthcare interior design City Walk, Healthcare Interior Design City Walk Dubai, Healthcare Interior Design designer City Walk, Healthcare Interior Design company City Walk, Healthcare Interior Design contractor City Walk, Affordable healthcare interior design City Walk, Modern healthcare interior design City Walk, Healthcare Interior Design consultation City Walk, Healthcare Interior Design cost City Walk, Healthcare Interior Design price City Walk, Top healthcare interior design City Walk
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HealthcareInteriorDesignCityWalk() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Healthcare Interior Design City Walk Dubai Company City Walk Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best healthcare interior design City Walk Company City Walk</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Healthcare Interior Design City Walk Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

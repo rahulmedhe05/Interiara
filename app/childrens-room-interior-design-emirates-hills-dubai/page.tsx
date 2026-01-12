@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: childrens room interior design dubai, childrens room interior design dubai dubai, best childrens room interior design dubai company dubai, luxury childrens room interior design dubai dubai, modern childrens room interior design dubai dubai
+// SEO Keywords: Childrens Room Interior Design Emirates Hills, Childrens Room Interior Design in Emirates Hills, Best childrens room interior design Emirates Hills, Professional childrens room interior design Emirates Hills, Luxury childrens room interior design Emirates Hills, Childrens Room Interior Design Emirates Hills Dubai, Childrens Room Interior Design designer Emirates Hills, Childrens Room Interior Design company Emirates Hills, Childrens Room Interior Design contractor Emirates Hills, Affordable childrens room interior design Emirates Hills, Modern childrens room interior design Emirates Hills, Childrens Room Interior Design consultation Emirates Hills, Childrens Room Interior Design cost Emirates Hills, Childrens Room Interior Design price Emirates Hills, Top childrens room interior design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ChildrensRoomInteriorDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Childrens Room Interior Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

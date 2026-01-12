@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Emirates Hills, Soundproofing Design in Emirates Hills, Best soundproofing design Emirates Hills, Professional soundproofing design Emirates Hills, Luxury soundproofing design Emirates Hills, Soundproofing Design Emirates Hills Dubai, Soundproofing Design designer Emirates Hills, Soundproofing Design company Emirates Hills, Soundproofing Design contractor Emirates Hills, Affordable soundproofing design Emirates Hills, Modern soundproofing design Emirates Hills, Soundproofing Design consultation Emirates Hills, Soundproofing Design cost Emirates Hills, Soundproofing Design price Emirates Hills, Top soundproofing design Emirates Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignEmiratesHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Emirates Hills Dubai Company Emirates Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Emirates Hills Company Emirates Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Emirates Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

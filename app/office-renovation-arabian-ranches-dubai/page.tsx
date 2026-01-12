@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Arabian Ranches, Office Renovation in Arabian Ranches, Best office renovation Arabian Ranches, Professional office renovation Arabian Ranches, Luxury office renovation Arabian Ranches, Office Renovation Arabian Ranches Dubai, Office Renovation designer Arabian Ranches, Office Renovation company Arabian Ranches, Office Renovation contractor Arabian Ranches, Affordable office renovation Arabian Ranches, Modern office renovation Arabian Ranches, Office Renovation consultation Arabian Ranches, Office Renovation cost Arabian Ranches, Office Renovation price Arabian Ranches, Top office renovation Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

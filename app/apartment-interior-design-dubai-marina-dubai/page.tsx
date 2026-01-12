@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: apartment interior design dubai, apartment interior design dubai dubai, best apartment interior design dubai company dubai, luxury apartment interior design dubai dubai, modern apartment interior design dubai dubai
+// SEO Keywords: Apartment Interior Design Dubai Marina, Apartment Interior Design in Dubai Marina, Best apartment interior design Dubai Marina, Professional apartment interior design Dubai Marina, Luxury apartment interior design Dubai Marina, Apartment Interior Design Dubai Marina Dubai, Apartment Interior Design designer Dubai Marina, Apartment Interior Design company Dubai Marina, Apartment Interior Design contractor Dubai Marina, Affordable apartment interior design Dubai Marina, Modern apartment interior design Dubai Marina, Apartment Interior Design consultation Dubai Marina, Apartment Interior Design cost Dubai Marina, Apartment Interior Design price Dubai Marina, Top apartment interior design Dubai Marina
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ApartmentInteriorDesignDubaiMarina() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Apartment Interior Design Dubai Marina Dubai Company Dubai Marina Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior design Dubai Marina Company Dubai Marina</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Dubai Marina Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

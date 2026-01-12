@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: kitchen interior design festival dubai, kitchen interior design festival dubai dubai, best kitchen interior design festival dubai company dubai, luxury kitchen interior design festival dubai dubai, modern kitchen interior design festival dubai dubai
+// SEO Keywords: Kitchen Interior Design Dubai Festival City, Kitchen Interior Design Dubai in Festival City, Best kitchen interior design dubai Festival City, Professional kitchen interior design dubai Festival City, Luxury kitchen interior design dubai Festival City, Kitchen Interior Design Dubai Festival City Dubai, Kitchen Interior Design Dubai designer Festival City, Kitchen Interior Design Dubai company Festival City, Kitchen Interior Design Dubai contractor Festival City, Affordable kitchen interior design dubai Festival City, Modern kitchen interior design dubai Festival City, Kitchen Interior Design Dubai consultation Festival City, Kitchen Interior Design Dubai cost Festival City, Kitchen Interior Design Dubai price Festival City, Top kitchen interior design dubai Festival City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function KitchenInteriorDesignDubaiFestivalCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Kitchen Interior Design Festival City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best kitchen interior design dubai Festival City Company Festival City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Kitchen Interior Design Festival City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: restaurant interior design dubai, restaurant interior design dubai dubai, best restaurant interior design dubai company dubai, luxury restaurant interior design dubai dubai, modern restaurant interior design dubai dubai
+// SEO Keywords: Restaurant Interior Design Lakes, Restaurant Interior in Design Lakes, Best restaurant interior Design Lakes, Professional restaurant interior Design Lakes, Luxury restaurant interior Design Lakes, Restaurant Interior Design Lakes Dubai, Restaurant Interior designer Design Lakes, Restaurant Interior company Design Lakes, Restaurant Interior contractor Design Lakes, Affordable restaurant interior Design Lakes, Modern restaurant interior Design Lakes, Restaurant Interior consultation Design Lakes, Restaurant Interior cost Design Lakes, Restaurant Interior price Design Lakes, Top restaurant interior Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RestaurantInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Restaurant Interior Design The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Lakes Company Design Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

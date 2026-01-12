@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Al Mizhar, Minimalist Interior Design in Al Mizhar, Best minimalist interior design Al Mizhar, Professional minimalist interior design Al Mizhar, Luxury minimalist interior design Al Mizhar, Minimalist Interior Design Al Mizhar Dubai, Minimalist Interior Design designer Al Mizhar, Minimalist Interior Design company Al Mizhar, Minimalist Interior Design contractor Al Mizhar, Affordable minimalist interior design Al Mizhar, Modern minimalist interior design Al Mizhar, Minimalist Interior Design consultation Al Mizhar, Minimalist Interior Design cost Al Mizhar, Minimalist Interior Design price Al Mizhar, Top minimalist interior design Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior design Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

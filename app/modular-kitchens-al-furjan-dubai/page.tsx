@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modular kitchens dubai, modular kitchens dubai dubai, best modular kitchens dubai company dubai, luxury modular kitchens dubai dubai, modern modular kitchens dubai dubai
+// SEO Keywords: Modular Kitchens Al Furjan, Modular Kitchens in Al Furjan, Best modular kitchens Al Furjan, Professional modular kitchens Al Furjan, Luxury modular kitchens Al Furjan, Modular Kitchens Al Furjan Dubai, Modular Kitchens designer Al Furjan, Modular Kitchens company Al Furjan, Modular Kitchens contractor Al Furjan, Affordable modular kitchens Al Furjan, Modern modular kitchens Al Furjan, Modular Kitchens consultation Al Furjan, Modular Kitchens cost Al Furjan, Modular Kitchens price Al Furjan, Top modular kitchens Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModularKitchensAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modular Kitchens Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modular kitchens Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modular Kitchens Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

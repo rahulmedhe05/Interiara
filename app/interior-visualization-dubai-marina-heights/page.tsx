@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization marina dubai, interior visualization marina dubai dubai, best interior visualization marina dubai company dubai, luxury interior visualization marina dubai dubai, modern interior visualization marina dubai dubai
+// SEO Keywords:  Interior Visualization,  in Interior Visualization, Best  Interior Visualization, Professional  Interior Visualization, Luxury  Interior Visualization,  Interior Visualization Dubai,  designer Interior Visualization,  company Interior Visualization,  contractor Interior Visualization, Affordable  Interior Visualization, Modern  Interior Visualization,  consultation Interior Visualization,  cost Interior Visualization,  price Interior Visualization, Top  Interior Visualization
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualization() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Marina Heights Dubai Company Heights Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best  Interior Visualization Company Interior Visualization</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

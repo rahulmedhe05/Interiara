@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization Al Khawaneej, Interior Visualization in Al Khawaneej, Best interior visualization Al Khawaneej, Professional interior visualization Al Khawaneej, Luxury interior visualization Al Khawaneej, Interior Visualization Al Khawaneej Dubai, Interior Visualization designer Al Khawaneej, Interior Visualization company Al Khawaneej, Interior Visualization contractor Al Khawaneej, Affordable interior visualization Al Khawaneej, Modern interior visualization Al Khawaneej, Interior Visualization consultation Al Khawaneej, Interior Visualization cost Al Khawaneej, Interior Visualization price Al Khawaneej, Top interior visualization Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

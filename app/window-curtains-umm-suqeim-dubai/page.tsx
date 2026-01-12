@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window curtains dubai, window curtains dubai dubai, best window curtains dubai company dubai, luxury window curtains dubai dubai, modern window curtains dubai dubai
+// SEO Keywords: Window Curtains Umm Suqeim, Window Curtains in Umm Suqeim, Best window curtains Umm Suqeim, Professional window curtains Umm Suqeim, Luxury window curtains Umm Suqeim, Window Curtains Umm Suqeim Dubai, Window Curtains designer Umm Suqeim, Window Curtains company Umm Suqeim, Window Curtains contractor Umm Suqeim, Affordable window curtains Umm Suqeim, Modern window curtains Umm Suqeim, Window Curtains consultation Umm Suqeim, Window Curtains cost Umm Suqeim, Window Curtains price Umm Suqeim, Top window curtains Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowCurtainsUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Curtains Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window curtains Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Curtains Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

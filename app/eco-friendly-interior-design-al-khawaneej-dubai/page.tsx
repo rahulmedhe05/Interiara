@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: eco friendly interior design dubai, eco friendly interior design dubai dubai, best eco friendly interior design dubai company dubai, luxury eco friendly interior design dubai dubai, modern eco friendly interior design dubai dubai
+// SEO Keywords: Eco Friendly Interior Design Al Khawaneej, Eco Friendly Interior Design in Al Khawaneej, Best eco friendly interior design Al Khawaneej, Professional eco friendly interior design Al Khawaneej, Luxury eco friendly interior design Al Khawaneej, Eco Friendly Interior Design Al Khawaneej Dubai, Eco Friendly Interior Design designer Al Khawaneej, Eco Friendly Interior Design company Al Khawaneej, Eco Friendly Interior Design contractor Al Khawaneej, Affordable eco friendly interior design Al Khawaneej, Modern eco friendly interior design Al Khawaneej, Eco Friendly Interior Design consultation Al Khawaneej, Eco Friendly Interior Design cost Al Khawaneej, Eco Friendly Interior Design price Al Khawaneej, Top eco friendly interior design Al Khawaneej
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function EcoFriendlyInteriorDesignAlKhawaneej() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Eco Friendly Interior Design Al Khawaneej Dubai Company Al Khawaneej Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best eco friendly interior design Al Khawaneej Company Al Khawaneej</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Eco Friendly Interior Design Al Khawaneej Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning palm dubai, space planning palm dubai dubai, best space planning palm dubai company dubai, luxury space planning palm dubai dubai, modern space planning palm dubai dubai
+// SEO Keywords: Space Planning Palm Jumeirah, Space Planning in Palm Jumeirah, Best space planning Palm Jumeirah, Professional space planning Palm Jumeirah, Luxury space planning Palm Jumeirah, Space Planning Palm Jumeirah Dubai, Space Planning designer Palm Jumeirah, Space Planning company Palm Jumeirah, Space Planning contractor Palm Jumeirah, Affordable space planning Palm Jumeirah, Modern space planning Palm Jumeirah, Space Planning consultation Palm Jumeirah, Space Planning cost Palm Jumeirah, Space Planning price Palm Jumeirah, Top space planning Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Umm Suqeim, Wallpaper Design in Umm Suqeim, Best wallpaper design Umm Suqeim, Professional wallpaper design Umm Suqeim, Luxury wallpaper design Umm Suqeim, Wallpaper Design Umm Suqeim Dubai, Wallpaper Design designer Umm Suqeim, Wallpaper Design company Umm Suqeim, Wallpaper Design contractor Umm Suqeim, Affordable wallpaper design Umm Suqeim, Modern wallpaper design Umm Suqeim, Wallpaper Design consultation Umm Suqeim, Wallpaper Design cost Umm Suqeim, Wallpaper Design price Umm Suqeim, Top wallpaper design Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

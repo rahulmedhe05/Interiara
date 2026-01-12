@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bedroom interior design dubai, bedroom interior design dubai dubai, best bedroom interior design dubai company dubai, luxury bedroom interior design dubai dubai, modern bedroom interior design dubai dubai
+// SEO Keywords: Bedroom Interior Design Dubai Hills, Bedroom Interior Design in Dubai Hills, Best bedroom interior design Dubai Hills, Professional bedroom interior design Dubai Hills, Luxury bedroom interior design Dubai Hills, Bedroom Interior Design Dubai Hills Dubai, Bedroom Interior Design designer Dubai Hills, Bedroom Interior Design company Dubai Hills, Bedroom Interior Design contractor Dubai Hills, Affordable bedroom interior design Dubai Hills, Modern bedroom interior design Dubai Hills, Bedroom Interior Design consultation Dubai Hills, Bedroom Interior Design cost Dubai Hills, Bedroom Interior Design price Dubai Hills, Top bedroom interior design Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BedroomInteriorDesignDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bedroom Interior Design Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior design Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

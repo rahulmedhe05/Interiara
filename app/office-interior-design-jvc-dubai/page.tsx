@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office interior design dubai, office interior design dubai dubai, best office interior design dubai company dubai, luxury office interior design dubai dubai, modern office interior design dubai dubai
+// SEO Keywords: Office Interior Design Jvc, Office Interior in Design Jvc, Best office interior Design Jvc, Professional office interior Design Jvc, Luxury office interior Design Jvc, Office Interior Design Jvc Dubai, Office Interior designer Design Jvc, Office Interior company Design Jvc, Office Interior contractor Design Jvc, Affordable office interior Design Jvc, Modern office interior Design Jvc, Office Interior consultation Design Jvc, Office Interior cost Design Jvc, Office Interior price Design Jvc, Top office interior Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeInteriorDesignJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Interior Design JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office interior Design Jvc Company Design Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Interior Design JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

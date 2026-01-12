@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office fit out dubai, office fit out dubai dubai, best office fit out dubai company dubai, luxury office fit out dubai dubai, modern office fit out dubai dubai
+// SEO Keywords: Office Fit Out Al Barsha South, Office Fit Out Al in Barsha South, Best office fit out al Barsha South, Professional office fit out al Barsha South, Luxury office fit out al Barsha South, Office Fit Out Al Barsha South Dubai, Office Fit Out Al designer Barsha South, Office Fit Out Al company Barsha South, Office Fit Out Al contractor Barsha South, Affordable office fit out al Barsha South, Modern office fit out al Barsha South, Office Fit Out Al consultation Barsha South, Office Fit Out Al cost Barsha South, Office Fit Out Al price Barsha South, Top office fit out al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeFitOutAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Fit Out Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office fit out al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Fit Out Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

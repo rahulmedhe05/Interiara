@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Silicon Oasis Villas, Acoustic Design Silicon in Oasis Villas, Best acoustic design silicon Oasis Villas, Professional acoustic design silicon Oasis Villas, Luxury acoustic design silicon Oasis Villas, Acoustic Design Silicon Oasis Villas Dubai, Acoustic Design Silicon designer Oasis Villas, Acoustic Design Silicon company Oasis Villas, Acoustic Design Silicon contractor Oasis Villas, Affordable acoustic design silicon Oasis Villas, Modern acoustic design silicon Oasis Villas, Acoustic Design Silicon consultation Oasis Villas, Acoustic Design Silicon cost Oasis Villas, Acoustic Design Silicon price Oasis Villas, Top acoustic design silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

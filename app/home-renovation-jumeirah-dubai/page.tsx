@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home renovation dubai, home renovation dubai dubai, best home renovation dubai company dubai, luxury home renovation dubai dubai, modern home renovation dubai dubai
+// SEO Keywords: Home Renovation Jumeirah, Home in Renovation Jumeirah, Best home Renovation Jumeirah, Professional home Renovation Jumeirah, Luxury home Renovation Jumeirah, Home Renovation Jumeirah Dubai, Home designer Renovation Jumeirah, Home company Renovation Jumeirah, Home contractor Renovation Jumeirah, Affordable home Renovation Jumeirah, Modern home Renovation Jumeirah, Home consultation Renovation Jumeirah, Home cost Renovation Jumeirah, Home price Renovation Jumeirah, Top home Renovation Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRenovationJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Renovation Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home Renovation Jumeirah Company Renovation Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Renovation Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

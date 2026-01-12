@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: banquet hall interior design hills dubai, banquet hall interior design hills dubai dubai, best banquet hall interior design hills dubai company dubai, luxury banquet hall interior design hills dubai dubai, modern banquet hall interior design hills dubai dubai
+// SEO Keywords: Banquet Hall Interior Design, Banquet Hall in Interior Design, Best banquet hall Interior Design, Professional banquet hall Interior Design, Luxury banquet hall Interior Design, Banquet Hall Interior Design Dubai, Banquet Hall designer Interior Design, Banquet Hall company Interior Design, Banquet Hall contractor Interior Design, Affordable banquet hall Interior Design, Modern banquet hall Interior Design, Banquet Hall consultation Interior Design, Banquet Hall cost Interior Design, Banquet Hall price Interior Design, Top banquet hall Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BanquetHallInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Banquet Hall Interior Design Hills Estate Dubai Company Estate Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best banquet hall Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Banquet Hall Interior Design Hills Estate Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

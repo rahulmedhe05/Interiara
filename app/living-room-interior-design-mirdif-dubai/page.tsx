@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: living room interior design dubai, living room interior design dubai dubai, best living room interior design dubai company dubai, luxury living room interior design dubai dubai, modern living room interior design dubai dubai
+// SEO Keywords: Living Room Interior Design Mirdif, Living Room Interior in Design Mirdif, Best living room interior Design Mirdif, Professional living room interior Design Mirdif, Luxury living room interior Design Mirdif, Living Room Interior Design Mirdif Dubai, Living Room Interior designer Design Mirdif, Living Room Interior company Design Mirdif, Living Room Interior contractor Design Mirdif, Affordable living room interior Design Mirdif, Modern living room interior Design Mirdif, Living Room Interior consultation Design Mirdif, Living Room Interior cost Design Mirdif, Living Room Interior price Design Mirdif, Top living room interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LivingRoomInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Living Room Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best living room interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Living Room Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: residential interior design dubai, residential interior design dubai dubai, best residential interior design dubai company dubai, luxury residential interior design dubai dubai, modern residential interior design dubai dubai
+// SEO Keywords: Residential Interior Design Creek, Residential Interior in Design Creek, Best residential interior Design Creek, Professional residential interior Design Creek, Luxury residential interior Design Creek, Residential Interior Design Creek Dubai, Residential Interior designer Design Creek, Residential Interior company Design Creek, Residential Interior contractor Design Creek, Affordable residential interior Design Creek, Modern residential interior Design Creek, Residential Interior consultation Design Creek, Residential Interior cost Design Creek, Residential Interior price Design Creek, Top residential interior Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ResidentialInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Residential Interior Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

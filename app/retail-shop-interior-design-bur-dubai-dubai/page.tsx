@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: retail shop interior design dubai, retail shop interior design dubai dubai, best retail shop interior design dubai company dubai, luxury retail shop interior design dubai dubai, modern retail shop interior design dubai dubai
+// SEO Keywords: Retail Shop Interior Design Bur Dubai, Retail Shop Interior Design in Bur Dubai, Best retail shop interior design Bur Dubai, Professional retail shop interior design Bur Dubai, Luxury retail shop interior design Bur Dubai, Retail Shop Interior Design Bur Dubai Dubai, Retail Shop Interior Design designer Bur Dubai, Retail Shop Interior Design company Bur Dubai, Retail Shop Interior Design contractor Bur Dubai, Affordable retail shop interior design Bur Dubai, Modern retail shop interior design Bur Dubai, Retail Shop Interior Design consultation Bur Dubai, Retail Shop Interior Design cost Bur Dubai, Retail Shop Interior Design price Bur Dubai, Top retail shop interior design Bur Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RetailShopInteriorDesignBurDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Retail Shop Interior Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior design Bur Dubai Company Bur Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

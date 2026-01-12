@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: acoustic design dubai, acoustic design dubai dubai, best acoustic design dubai company dubai, luxury acoustic design dubai dubai, modern acoustic design dubai dubai
+// SEO Keywords: Acoustic Design Al Barsha, Acoustic Design in Al Barsha, Best acoustic design Al Barsha, Professional acoustic design Al Barsha, Luxury acoustic design Al Barsha, Acoustic Design Al Barsha Dubai, Acoustic Design designer Al Barsha, Acoustic Design company Al Barsha, Acoustic Design contractor Al Barsha, Affordable acoustic design Al Barsha, Modern acoustic design Al Barsha, Acoustic Design consultation Al Barsha, Acoustic Design cost Al Barsha, Acoustic Design price Al Barsha, Top acoustic design Al Barsha
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AcousticDesignAlBarsha() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Acoustic Design Al Barsha Dubai Company Al Barsha Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best acoustic design Al Barsha Company Al Barsha</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Acoustic Design Al Barsha Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

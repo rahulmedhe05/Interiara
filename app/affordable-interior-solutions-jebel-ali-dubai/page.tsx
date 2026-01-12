@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Jebel Ali, Affordable Interior Solutions in Jebel Ali, Best affordable interior solutions Jebel Ali, Professional affordable interior solutions Jebel Ali, Luxury affordable interior solutions Jebel Ali, Affordable Interior Solutions Jebel Ali Dubai, Affordable Interior Solutions designer Jebel Ali, Affordable Interior Solutions company Jebel Ali, Affordable Interior Solutions contractor Jebel Ali, Affordable affordable interior solutions Jebel Ali, Modern affordable interior solutions Jebel Ali, Affordable Interior Solutions consultation Jebel Ali, Affordable Interior Solutions cost Jebel Ali, Affordable Interior Solutions price Jebel Ali, Top affordable interior solutions Jebel Ali
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsJebelAli() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Jebel Ali Dubai Company Jebel Ali Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Jebel Ali Company Jebel Ali</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Jebel Ali Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

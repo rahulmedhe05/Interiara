@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: childrens room interior design dubai, childrens room interior design dubai dubai, best childrens room interior design dubai company dubai, luxury childrens room interior design dubai dubai, modern childrens room interior design dubai dubai
+// SEO Keywords: Childrens Room Interior Design Town Square, Childrens Room Interior Design in Town Square, Best childrens room interior design Town Square, Professional childrens room interior design Town Square, Luxury childrens room interior design Town Square, Childrens Room Interior Design Town Square Dubai, Childrens Room Interior Design designer Town Square, Childrens Room Interior Design company Town Square, Childrens Room Interior Design contractor Town Square, Affordable childrens room interior design Town Square, Modern childrens room interior design Town Square, Childrens Room Interior Design consultation Town Square, Childrens Room Interior Design cost Town Square, Childrens Room Interior Design price Town Square, Top childrens room interior design Town Square
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ChildrensRoomInteriorDesignTownSquare() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Childrens Room Interior Design Town Square Dubai Company Town Square Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best childrens room interior design Town Square Company Town Square</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Childrens Room Interior Design Town Square Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

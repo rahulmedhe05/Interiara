@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: flooring material dubai, flooring material dubai dubai, best flooring material dubai company dubai, luxury flooring material dubai dubai, modern flooring material dubai dubai
+// SEO Keywords: Flooring Material Consultation, Flooring in Material Consultation, Best flooring Material Consultation, Professional flooring Material Consultation, Luxury flooring Material Consultation, Flooring Material Consultation Dubai, Flooring designer Material Consultation, Flooring company Material Consultation, Flooring contractor Material Consultation, Affordable flooring Material Consultation, Modern flooring Material Consultation, Flooring consultation Material Consultation, Flooring cost Material Consultation, Flooring price Material Consultation, Top flooring Material Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function FlooringMaterialConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Flooring Material Consultation Dubai Company Consultation Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best flooring Material Consultation Company Material Consultation</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Flooring Material Consultation Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

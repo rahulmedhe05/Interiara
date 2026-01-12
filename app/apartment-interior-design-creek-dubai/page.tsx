@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: apartment interior design dubai, apartment interior design dubai dubai, best apartment interior design dubai company dubai, luxury apartment interior design dubai dubai, modern apartment interior design dubai dubai
+// SEO Keywords: Apartment Interior Design Creek, Apartment Interior in Design Creek, Best apartment interior Design Creek, Professional apartment interior Design Creek, Luxury apartment interior Design Creek, Apartment Interior Design Creek Dubai, Apartment Interior designer Design Creek, Apartment Interior company Design Creek, Apartment Interior contractor Design Creek, Affordable apartment interior Design Creek, Modern apartment interior Design Creek, Apartment Interior consultation Design Creek, Apartment Interior cost Design Creek, Apartment Interior price Design Creek, Top apartment interior Design Creek
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ApartmentInteriorDesignCreek() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Apartment Interior Design Dubai Creek Dubai Company Dubai Creek Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best apartment interior Design Creek Company Design Creek</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Apartment Interior Design Dubai Creek Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

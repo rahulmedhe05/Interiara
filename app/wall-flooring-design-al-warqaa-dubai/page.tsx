@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall flooring design dubai, wall flooring design dubai dubai, best wall flooring design dubai company dubai, luxury wall flooring design dubai dubai, modern wall flooring design dubai dubai
+// SEO Keywords: Wall Flooring Design Al Warqaa, Wall Flooring Design in Al Warqaa, Best wall flooring design Al Warqaa, Professional wall flooring design Al Warqaa, Luxury wall flooring design Al Warqaa, Wall Flooring Design Al Warqaa Dubai, Wall Flooring Design designer Al Warqaa, Wall Flooring Design company Al Warqaa, Wall Flooring Design contractor Al Warqaa, Affordable wall flooring design Al Warqaa, Modern wall flooring design Al Warqaa, Wall Flooring Design consultation Al Warqaa, Wall Flooring Design cost Al Warqaa, Wall Flooring Design price Al Warqaa, Top wall flooring design Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallFlooringDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Flooring Design Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall flooring design Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Flooring Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

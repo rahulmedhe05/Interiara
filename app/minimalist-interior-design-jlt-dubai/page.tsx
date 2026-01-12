@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: minimalist interior design dubai, minimalist interior design dubai dubai, best minimalist interior design dubai company dubai, luxury minimalist interior design dubai dubai, modern minimalist interior design dubai dubai
+// SEO Keywords: Minimalist Interior Design Jlt, Minimalist Interior in Design Jlt, Best minimalist interior Design Jlt, Professional minimalist interior Design Jlt, Luxury minimalist interior Design Jlt, Minimalist Interior Design Jlt Dubai, Minimalist Interior designer Design Jlt, Minimalist Interior company Design Jlt, Minimalist Interior contractor Design Jlt, Affordable minimalist interior Design Jlt, Modern minimalist interior Design Jlt, Minimalist Interior consultation Design Jlt, Minimalist Interior cost Design Jlt, Minimalist Interior price Design Jlt, Top minimalist interior Design Jlt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MinimalistInteriorDesignJlt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Minimalist Interior Design JLT Dubai Company JLT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best minimalist interior Design Jlt Company Design Jlt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Minimalist Interior Design JLT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

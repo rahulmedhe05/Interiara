@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: co working space interior design dubai, co working space interior design dubai dubai, best co working space interior design dubai company dubai, luxury co working space interior design dubai dubai, modern co working space interior design dubai dubai
+// SEO Keywords: Co Working Space Interior Design, Co Working Space in Interior Design, Best co working space Interior Design, Professional co working space Interior Design, Luxury co working space Interior Design, Co Working Space Interior Design Dubai, Co Working Space designer Interior Design, Co Working Space company Interior Design, Co Working Space contractor Interior Design, Affordable co working space Interior Design, Modern co working space Interior Design, Co Working Space consultation Interior Design, Co Working Space cost Interior Design, Co Working Space price Interior Design, Top co working space Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CoWorkingSpaceInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Co Working Space Interior Design Waterfront Dubai Company Waterfront Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best co working space Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Co Working Space Interior Design Waterfront Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

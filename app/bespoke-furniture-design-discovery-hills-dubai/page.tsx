@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Discovery Hills, Bespoke Furniture Design in Discovery Hills, Best bespoke furniture design Discovery Hills, Professional bespoke furniture design Discovery Hills, Luxury bespoke furniture design Discovery Hills, Bespoke Furniture Design Discovery Hills Dubai, Bespoke Furniture Design designer Discovery Hills, Bespoke Furniture Design company Discovery Hills, Bespoke Furniture Design contractor Discovery Hills, Affordable bespoke furniture design Discovery Hills, Modern bespoke furniture design Discovery Hills, Bespoke Furniture Design consultation Discovery Hills, Bespoke Furniture Design cost Discovery Hills, Bespoke Furniture Design price Discovery Hills, Top bespoke furniture design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

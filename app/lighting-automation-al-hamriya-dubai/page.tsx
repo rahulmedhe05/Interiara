@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Al Hamriya, Lighting Automation in Al Hamriya, Best lighting automation Al Hamriya, Professional lighting automation Al Hamriya, Luxury lighting automation Al Hamriya, Lighting Automation Al Hamriya Dubai, Lighting Automation designer Al Hamriya, Lighting Automation company Al Hamriya, Lighting Automation contractor Al Hamriya, Affordable lighting automation Al Hamriya, Modern lighting automation Al Hamriya, Lighting Automation consultation Al Hamriya, Lighting Automation cost Al Hamriya, Lighting Automation price Al Hamriya, Top lighting automation Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

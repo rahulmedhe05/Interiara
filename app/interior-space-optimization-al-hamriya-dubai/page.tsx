@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Al Hamriya, Interior Space Optimization in Al Hamriya, Best interior space optimization Al Hamriya, Professional interior space optimization Al Hamriya, Luxury interior space optimization Al Hamriya, Interior Space Optimization Al Hamriya Dubai, Interior Space Optimization designer Al Hamriya, Interior Space Optimization company Al Hamriya, Interior Space Optimization contractor Al Hamriya, Affordable interior space optimization Al Hamriya, Modern interior space optimization Al Hamriya, Interior Space Optimization consultation Al Hamriya, Interior Space Optimization cost Al Hamriya, Interior Space Optimization price Al Hamriya, Top interior space optimization Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Al Furjan, Affordable Interior Solutions in Al Furjan, Best affordable interior solutions Al Furjan, Professional affordable interior solutions Al Furjan, Luxury affordable interior solutions Al Furjan, Affordable Interior Solutions Al Furjan Dubai, Affordable Interior Solutions designer Al Furjan, Affordable Interior Solutions company Al Furjan, Affordable Interior Solutions contractor Al Furjan, Affordable affordable interior solutions Al Furjan, Modern affordable interior solutions Al Furjan, Affordable Interior Solutions consultation Al Furjan, Affordable Interior Solutions cost Al Furjan, Affordable Interior Solutions price Al Furjan, Top affordable interior solutions Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

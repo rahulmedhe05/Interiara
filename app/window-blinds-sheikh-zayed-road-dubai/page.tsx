@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: window blinds dubai, window blinds dubai dubai, best window blinds dubai company dubai, luxury window blinds dubai dubai, modern window blinds dubai dubai
+// SEO Keywords: Window Blinds Sheikh Zayed Road, Window Blinds Sheikh in Zayed Road, Best window blinds sheikh Zayed Road, Professional window blinds sheikh Zayed Road, Luxury window blinds sheikh Zayed Road, Window Blinds Sheikh Zayed Road Dubai, Window Blinds Sheikh designer Zayed Road, Window Blinds Sheikh company Zayed Road, Window Blinds Sheikh contractor Zayed Road, Affordable window blinds sheikh Zayed Road, Modern window blinds sheikh Zayed Road, Window Blinds Sheikh consultation Zayed Road, Window Blinds Sheikh cost Zayed Road, Window Blinds Sheikh price Zayed Road, Top window blinds sheikh Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WindowBlindsSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Window Blinds Sheikh Zayed Road Dubai Company Sheikh Zayed Road Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best window blinds sheikh Zayed Road Company Zayed Road</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Window Blinds Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

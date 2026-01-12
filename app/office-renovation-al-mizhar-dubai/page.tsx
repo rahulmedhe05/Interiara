@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: office renovation dubai, office renovation dubai dubai, best office renovation dubai company dubai, luxury office renovation dubai dubai, modern office renovation dubai dubai
+// SEO Keywords: Office Renovation Al Mizhar, Office Renovation in Al Mizhar, Best office renovation Al Mizhar, Professional office renovation Al Mizhar, Luxury office renovation Al Mizhar, Office Renovation Al Mizhar Dubai, Office Renovation designer Al Mizhar, Office Renovation company Al Mizhar, Office Renovation contractor Al Mizhar, Affordable office renovation Al Mizhar, Modern office renovation Al Mizhar, Office Renovation consultation Al Mizhar, Office Renovation cost Al Mizhar, Office Renovation price Al Mizhar, Top office renovation Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OfficeRenovationAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Office Renovation Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best office renovation Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Office Renovation Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

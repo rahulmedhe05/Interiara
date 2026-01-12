@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning marina dubai, space planning marina dubai dubai, best space planning marina dubai company dubai, luxury space planning marina dubai dubai, modern space planning marina dubai dubai
+// SEO Keywords: Space Planning Dubai Marina Heights, Space Planning Dubai in Marina Heights, Best space planning dubai Marina Heights, Professional space planning dubai Marina Heights, Luxury space planning dubai Marina Heights, Space Planning Dubai Marina Heights Dubai, Space Planning Dubai designer Marina Heights, Space Planning Dubai company Marina Heights, Space Planning Dubai contractor Marina Heights, Affordable space planning dubai Marina Heights, Modern space planning dubai Marina Heights, Space Planning Dubai consultation Marina Heights, Space Planning Dubai cost Marina Heights, Space Planning Dubai price Marina Heights, Top space planning dubai Marina Heights
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiMarinaHeights() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Marina Heights Dubai Company Heights Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Marina Heights Company Marina Heights</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling palm dubai, home remodeling palm dubai dubai, best home remodeling palm dubai company dubai, luxury home remodeling palm dubai dubai, modern home remodeling palm dubai dubai
+// SEO Keywords: Home Remodeling Palm Jumeirah, Home Remodeling in Palm Jumeirah, Best home remodeling Palm Jumeirah, Professional home remodeling Palm Jumeirah, Luxury home remodeling Palm Jumeirah, Home Remodeling Palm Jumeirah Dubai, Home Remodeling designer Palm Jumeirah, Home Remodeling company Palm Jumeirah, Home Remodeling contractor Palm Jumeirah, Affordable home remodeling Palm Jumeirah, Modern home remodeling Palm Jumeirah, Home Remodeling consultation Palm Jumeirah, Home Remodeling cost Palm Jumeirah, Home Remodeling price Palm Jumeirah, Top home remodeling Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

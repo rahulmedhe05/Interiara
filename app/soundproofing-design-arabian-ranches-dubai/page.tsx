@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Arabian Ranches, Soundproofing Design in Arabian Ranches, Best soundproofing design Arabian Ranches, Professional soundproofing design Arabian Ranches, Luxury soundproofing design Arabian Ranches, Soundproofing Design Arabian Ranches Dubai, Soundproofing Design designer Arabian Ranches, Soundproofing Design company Arabian Ranches, Soundproofing Design contractor Arabian Ranches, Affordable soundproofing design Arabian Ranches, Modern soundproofing design Arabian Ranches, Soundproofing Design consultation Arabian Ranches, Soundproofing Design cost Arabian Ranches, Soundproofing Design price Arabian Ranches, Top soundproofing design Arabian Ranches
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignArabianRanches() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Arabian Ranches Dubai Company Arabian Ranches Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Arabian Ranches Company Arabian Ranches</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Arabian Ranches Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

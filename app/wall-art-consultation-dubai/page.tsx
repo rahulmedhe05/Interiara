@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wall art dubai, wall art dubai dubai, best wall art dubai company dubai, luxury wall art dubai dubai, modern wall art dubai dubai
+// SEO Keywords: Wall Art Consultation, Wall in Art Consultation, Best wall Art Consultation, Professional wall Art Consultation, Luxury wall Art Consultation, Wall Art Consultation Dubai, Wall designer Art Consultation, Wall company Art Consultation, Wall contractor Art Consultation, Affordable wall Art Consultation, Modern wall Art Consultation, Wall consultation Art Consultation, Wall cost Art Consultation, Wall price Art Consultation, Top wall Art Consultation
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallArtConsultation() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wall Art Consultation Dubai Company Consultation Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wall Art Consultation Company Art Consultation</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wall Art Consultation Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

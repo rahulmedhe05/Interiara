@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: color theme consultation dubai, color theme consultation dubai dubai, best color theme consultation dubai company dubai, luxury color theme consultation dubai dubai, modern color theme consultation dubai dubai
+// SEO Keywords: Color Theme Consultation Jumeirah, Color Theme in Consultation Jumeirah, Best color theme Consultation Jumeirah, Professional color theme Consultation Jumeirah, Luxury color theme Consultation Jumeirah, Color Theme Consultation Jumeirah Dubai, Color Theme designer Consultation Jumeirah, Color Theme company Consultation Jumeirah, Color Theme contractor Consultation Jumeirah, Affordable color theme Consultation Jumeirah, Modern color theme Consultation Jumeirah, Color Theme consultation Consultation Jumeirah, Color Theme cost Consultation Jumeirah, Color Theme price Consultation Jumeirah, Top color theme Consultation Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ColorThemeConsultationJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Color Theme Consultation Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best color theme Consultation Jumeirah Company Consultation Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Color Theme Consultation Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

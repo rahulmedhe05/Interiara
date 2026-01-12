@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior design dubai, interior design dubai dubai, best interior design dubai company dubai, luxury interior design dubai dubai, modern interior design dubai dubai
+// SEO Keywords: Interior Design The Villa, Interior Design in The Villa, Best interior design The Villa, Professional interior design The Villa, Luxury interior design The Villa, Interior Design The Villa Dubai, Interior Design designer The Villa, Interior Design company The Villa, Interior Design contractor The Villa, Affordable interior design The Villa, Modern interior design The Villa, Interior Design consultation The Villa, Interior Design cost The Villa, Interior Design price The Villa, Top interior design The Villa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorDesignTheVilla() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Design The Villa Dubai Company The Villa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior design The Villa Company The Villa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Design The Villa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

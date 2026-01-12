@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modern interior design dubai, modern interior design dubai dubai, best modern interior design dubai company dubai, luxury modern interior design dubai dubai, modern modern interior design dubai dubai
+// SEO Keywords: Modern Interior Design Greens, Modern Interior in Design Greens, Best modern interior Design Greens, Professional modern interior Design Greens, Luxury modern interior Design Greens, Modern Interior Design Greens Dubai, Modern Interior designer Design Greens, Modern Interior company Design Greens, Modern Interior contractor Design Greens, Affordable modern interior Design Greens, Modern modern interior Design Greens, Modern Interior consultation Design Greens, Modern Interior cost Design Greens, Modern Interior price Design Greens, Top modern interior Design Greens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModernInteriorDesignGreens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modern Interior Design The Greens Dubai Company The Greens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior Design Greens Company Design Greens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design The Greens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

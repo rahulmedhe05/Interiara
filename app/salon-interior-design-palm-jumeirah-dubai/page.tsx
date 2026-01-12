@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: salon interior design palm dubai, salon interior design palm dubai dubai, best salon interior design palm dubai company dubai, luxury salon interior design palm dubai dubai, modern salon interior design palm dubai dubai
+// SEO Keywords: Salon Interior Design Palm Jumeirah, Salon Interior Design in Palm Jumeirah, Best salon interior design Palm Jumeirah, Professional salon interior design Palm Jumeirah, Luxury salon interior design Palm Jumeirah, Salon Interior Design Palm Jumeirah Dubai, Salon Interior Design designer Palm Jumeirah, Salon Interior Design company Palm Jumeirah, Salon Interior Design contractor Palm Jumeirah, Affordable salon interior design Palm Jumeirah, Modern salon interior design Palm Jumeirah, Salon Interior Design consultation Palm Jumeirah, Salon Interior Design cost Palm Jumeirah, Salon Interior Design price Palm Jumeirah, Top salon interior design Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SalonInteriorDesignPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Salon Interior Design Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best salon interior design Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Salon Interior Design Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: restaurant interior design dubai, restaurant interior design dubai dubai, best restaurant interior design dubai company dubai, luxury restaurant interior design dubai dubai, modern restaurant interior design dubai dubai
+// SEO Keywords: Restaurant Interior Design Muhaisnah, Restaurant Interior in Design Muhaisnah, Best restaurant interior Design Muhaisnah, Professional restaurant interior Design Muhaisnah, Luxury restaurant interior Design Muhaisnah, Restaurant Interior Design Muhaisnah Dubai, Restaurant Interior designer Design Muhaisnah, Restaurant Interior company Design Muhaisnah, Restaurant Interior contractor Design Muhaisnah, Affordable restaurant interior Design Muhaisnah, Modern restaurant interior Design Muhaisnah, Restaurant Interior consultation Design Muhaisnah, Restaurant Interior cost Design Muhaisnah, Restaurant Interior price Design Muhaisnah, Top restaurant interior Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RestaurantInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Restaurant Interior Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best restaurant interior Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Restaurant Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

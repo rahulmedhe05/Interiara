@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: closet design dubai, closet design dubai dubai, best closet design dubai company dubai, luxury closet design dubai dubai, modern closet design dubai dubai
+// SEO Keywords: Closet Design The Sustainable City, Closet Design The in Sustainable City, Best closet design the Sustainable City, Professional closet design the Sustainable City, Luxury closet design the Sustainable City, Closet Design The Sustainable City Dubai, Closet Design The designer Sustainable City, Closet Design The company Sustainable City, Closet Design The contractor Sustainable City, Affordable closet design the Sustainable City, Modern closet design the Sustainable City, Closet Design The consultation Sustainable City, Closet Design The cost Sustainable City, Closet Design The price Sustainable City, Top closet design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClosetDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Closet Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best closet design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Closet Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: space planning investment dubai, space planning investment dubai dubai, best space planning investment dubai company dubai, luxury space planning investment dubai dubai, modern space planning investment dubai dubai
+// SEO Keywords: Space Planning Dubai Investment Park, Space Planning Dubai in Investment Park, Best space planning dubai Investment Park, Professional space planning dubai Investment Park, Luxury space planning dubai Investment Park, Space Planning Dubai Investment Park Dubai, Space Planning Dubai designer Investment Park, Space Planning Dubai company Investment Park, Space Planning Dubai contractor Investment Park, Affordable space planning dubai Investment Park, Modern space planning dubai Investment Park, Space Planning Dubai consultation Investment Park, Space Planning Dubai cost Investment Park, Space Planning Dubai price Investment Park, Top space planning dubai Investment Park
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SpacePlanningDubaiInvestmentPark() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Space Planning Investment Park Dubai Company Park Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best space planning dubai Investment Park Company Investment Park</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Space Planning Investment Park Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

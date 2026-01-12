@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: art consultation dubai, art consultation dubai dubai, best art consultation dubai company dubai, luxury art consultation dubai dubai, modern art consultation dubai dubai
+// SEO Keywords: Art Consultation Umm Suqeim, Art Consultation in Umm Suqeim, Best art consultation Umm Suqeim, Professional art consultation Umm Suqeim, Luxury art consultation Umm Suqeim, Art Consultation Umm Suqeim Dubai, Art Consultation designer Umm Suqeim, Art Consultation company Umm Suqeim, Art Consultation contractor Umm Suqeim, Affordable art consultation Umm Suqeim, Modern art consultation Umm Suqeim, Art Consultation consultation Umm Suqeim, Art Consultation cost Umm Suqeim, Art Consultation price Umm Suqeim, Top art consultation Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArtConsultationUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Art Consultation Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best art consultation Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Art Consultation Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

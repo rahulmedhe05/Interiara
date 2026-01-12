@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: mall interior design dubai, mall interior design dubai dubai, best mall interior design dubai company dubai, luxury mall interior design dubai dubai, modern mall interior design dubai dubai
+// SEO Keywords: Mall Interior Design Discovery Hills, Mall Interior Design in Discovery Hills, Best mall interior design Discovery Hills, Professional mall interior design Discovery Hills, Luxury mall interior design Discovery Hills, Mall Interior Design Discovery Hills Dubai, Mall Interior Design designer Discovery Hills, Mall Interior Design company Discovery Hills, Mall Interior Design contractor Discovery Hills, Affordable mall interior design Discovery Hills, Modern mall interior design Discovery Hills, Mall Interior Design consultation Discovery Hills, Mall Interior Design cost Discovery Hills, Mall Interior Design price Discovery Hills, Top mall interior design Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MallInteriorDesignDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Mall Interior Design Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior design Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

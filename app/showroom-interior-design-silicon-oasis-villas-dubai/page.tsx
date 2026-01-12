@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Silicon Oasis Villas, Showroom Interior Design Silicon in Oasis Villas, Best showroom interior design silicon Oasis Villas, Professional showroom interior design silicon Oasis Villas, Luxury showroom interior design silicon Oasis Villas, Showroom Interior Design Silicon Oasis Villas Dubai, Showroom Interior Design Silicon designer Oasis Villas, Showroom Interior Design Silicon company Oasis Villas, Showroom Interior Design Silicon contractor Oasis Villas, Affordable showroom interior design silicon Oasis Villas, Modern showroom interior design silicon Oasis Villas, Showroom Interior Design Silicon consultation Oasis Villas, Showroom Interior Design Silicon cost Oasis Villas, Showroom Interior Design Silicon price Oasis Villas, Top showroom interior design silicon Oasis Villas
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignSiliconOasisVillas() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Silicon Oasis Villas Dubai Company Silicon Oasis Villas Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior design silicon Oasis Villas Company Oasis Villas</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Silicon Oasis Villas Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

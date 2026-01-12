@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home decor consultation creek dubai, home decor consultation creek dubai dubai, best home decor consultation creek dubai company dubai, luxury home decor consultation creek dubai dubai, modern home decor consultation creek dubai dubai
+// SEO Keywords: Home Decor Consultation Dubai Creek Harbour, Home Decor Consultation Dubai in Creek Harbour, Best home decor consultation dubai Creek Harbour, Professional home decor consultation dubai Creek Harbour, Luxury home decor consultation dubai Creek Harbour, Home Decor Consultation Dubai Creek Harbour Dubai, Home Decor Consultation Dubai designer Creek Harbour, Home Decor Consultation Dubai company Creek Harbour, Home Decor Consultation Dubai contractor Creek Harbour, Affordable home decor consultation dubai Creek Harbour, Modern home decor consultation dubai Creek Harbour, Home Decor Consultation Dubai consultation Creek Harbour, Home Decor Consultation Dubai cost Creek Harbour, Home Decor Consultation Dubai price Creek Harbour, Top home decor consultation dubai Creek Harbour
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeDecorConsultationDubaiCreekHarbour() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Decor Consultation Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home decor consultation dubai Creek Harbour Company Creek Harbour</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Decor Consultation Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

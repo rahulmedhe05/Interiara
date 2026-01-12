@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: residential interior design dubai, residential interior design dubai dubai, best residential interior design dubai company dubai, luxury residential interior design dubai dubai, modern residential interior design dubai dubai
+// SEO Keywords: Residential Interior Design Jumeirah, Residential Interior in Design Jumeirah, Best residential interior Design Jumeirah, Professional residential interior Design Jumeirah, Luxury residential interior Design Jumeirah, Residential Interior Design Jumeirah Dubai, Residential Interior designer Design Jumeirah, Residential Interior company Design Jumeirah, Residential Interior contractor Design Jumeirah, Affordable residential interior Design Jumeirah, Modern residential interior Design Jumeirah, Residential Interior consultation Design Jumeirah, Residential Interior cost Design Jumeirah, Residential Interior price Design Jumeirah, Top residential interior Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ResidentialInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Residential Interior Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best residential interior Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Residential Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

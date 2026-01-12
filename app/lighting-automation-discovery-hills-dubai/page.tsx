@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting automation dubai, lighting automation dubai dubai, best lighting automation dubai company dubai, luxury lighting automation dubai dubai, modern lighting automation dubai dubai
+// SEO Keywords: Lighting Automation Discovery Hills, Lighting Automation in Discovery Hills, Best lighting automation Discovery Hills, Professional lighting automation Discovery Hills, Luxury lighting automation Discovery Hills, Lighting Automation Discovery Hills Dubai, Lighting Automation designer Discovery Hills, Lighting Automation company Discovery Hills, Lighting Automation contractor Discovery Hills, Affordable lighting automation Discovery Hills, Modern lighting automation Discovery Hills, Lighting Automation consultation Discovery Hills, Lighting Automation cost Discovery Hills, Lighting Automation price Discovery Hills, Top lighting automation Discovery Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingAutomationDiscoveryHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Automation Discovery Hills Dubai Company Discovery Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting automation Discovery Hills Company Discovery Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Automation Discovery Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

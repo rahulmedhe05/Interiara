@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization Al Furjan, Interior Visualization in Al Furjan, Best interior visualization Al Furjan, Professional interior visualization Al Furjan, Luxury interior visualization Al Furjan, Interior Visualization Al Furjan Dubai, Interior Visualization designer Al Furjan, Interior Visualization company Al Furjan, Interior Visualization contractor Al Furjan, Affordable interior visualization Al Furjan, Modern interior visualization Al Furjan, Interior Visualization consultation Al Furjan, Interior Visualization cost Al Furjan, Interior Visualization price Al Furjan, Top interior visualization Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

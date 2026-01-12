@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: clinic interior design dubai, clinic interior design dubai dubai, best clinic interior design dubai company dubai, luxury clinic interior design dubai dubai, modern clinic interior design dubai dubai
+// SEO Keywords: Clinic Interior Design Discovery Gardens, Clinic Interior Design in Discovery Gardens, Best clinic interior design Discovery Gardens, Professional clinic interior design Discovery Gardens, Luxury clinic interior design Discovery Gardens, Clinic Interior Design Discovery Gardens Dubai, Clinic Interior Design designer Discovery Gardens, Clinic Interior Design company Discovery Gardens, Clinic Interior Design contractor Discovery Gardens, Affordable clinic interior design Discovery Gardens, Modern clinic interior design Discovery Gardens, Clinic Interior Design consultation Discovery Gardens, Clinic Interior Design cost Discovery Gardens, Clinic Interior Design price Discovery Gardens, Top clinic interior design Discovery Gardens
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ClinicInteriorDesignDiscoveryGardens() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Clinic Interior Design Discovery Gardens Dubai Company Discovery Gardens Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best clinic interior design Discovery Gardens Company Discovery Gardens</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Clinic Interior Design Discovery Gardens Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

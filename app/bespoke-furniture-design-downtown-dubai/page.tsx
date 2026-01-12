@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bespoke furniture design dubai, bespoke furniture design dubai dubai, best bespoke furniture design dubai company dubai, luxury bespoke furniture design dubai dubai, modern bespoke furniture design dubai dubai
+// SEO Keywords: Bespoke Furniture Design Downtown, Bespoke Furniture in Design Downtown, Best bespoke furniture Design Downtown, Professional bespoke furniture Design Downtown, Luxury bespoke furniture Design Downtown, Bespoke Furniture Design Downtown Dubai, Bespoke Furniture designer Design Downtown, Bespoke Furniture company Design Downtown, Bespoke Furniture contractor Design Downtown, Affordable bespoke furniture Design Downtown, Modern bespoke furniture Design Downtown, Bespoke Furniture consultation Design Downtown, Bespoke Furniture cost Design Downtown, Bespoke Furniture price Design Downtown, Top bespoke furniture Design Downtown
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BespokeFurnitureDesignDowntown() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bespoke Furniture Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bespoke furniture Design Downtown Company Design Downtown</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bespoke Furniture Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

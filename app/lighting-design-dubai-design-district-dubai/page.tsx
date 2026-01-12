@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: lighting design design dubai, lighting design design dubai dubai, best lighting design design dubai company dubai, luxury lighting design design dubai dubai, modern lighting design design dubai dubai
+// SEO Keywords: Lighting Design Dubai Design District, Lighting Design Dubai in Design District, Best lighting design dubai Design District, Professional lighting design dubai Design District, Luxury lighting design dubai Design District, Lighting Design Dubai Design District Dubai, Lighting Design Dubai designer Design District, Lighting Design Dubai company Design District, Lighting Design Dubai contractor Design District, Affordable lighting design dubai Design District, Modern lighting design dubai Design District, Lighting Design Dubai consultation Design District, Lighting Design Dubai cost Design District, Lighting Design Dubai price Design District, Top lighting design dubai Design District
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LightingDesignDubaiDesignDistrict() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Lighting Design Design District Dubai Company District Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best lighting design dubai Design District Company Design District</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Lighting Design Design District Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

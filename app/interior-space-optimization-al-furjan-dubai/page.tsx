@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior space optimization dubai, interior space optimization dubai dubai, best interior space optimization dubai company dubai, luxury interior space optimization dubai dubai, modern interior space optimization dubai dubai
+// SEO Keywords: Interior Space Optimization Al Furjan, Interior Space Optimization in Al Furjan, Best interior space optimization Al Furjan, Professional interior space optimization Al Furjan, Luxury interior space optimization Al Furjan, Interior Space Optimization Al Furjan Dubai, Interior Space Optimization designer Al Furjan, Interior Space Optimization company Al Furjan, Interior Space Optimization contractor Al Furjan, Affordable interior space optimization Al Furjan, Modern interior space optimization Al Furjan, Interior Space Optimization consultation Al Furjan, Interior Space Optimization cost Al Furjan, Interior Space Optimization price Al Furjan, Top interior space optimization Al Furjan
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorSpaceOptimizationAlFurjan() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Space Optimization Al Furjan Dubai Company Al Furjan Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior space optimization Al Furjan Company Al Furjan</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Space Optimization Al Furjan Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

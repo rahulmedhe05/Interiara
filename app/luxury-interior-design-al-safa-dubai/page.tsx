@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: luxury interior design dubai, luxury interior design dubai dubai, best luxury interior design dubai company dubai, luxury luxury interior design dubai dubai, modern luxury interior design dubai dubai
+// SEO Keywords: Luxury Interior Design Al Safa, Luxury Interior Design in Al Safa, Best luxury interior design Al Safa, Professional luxury interior design Al Safa, Luxury luxury interior design Al Safa, Luxury Interior Design Al Safa Dubai, Luxury Interior Design designer Al Safa, Luxury Interior Design company Al Safa, Luxury Interior Design contractor Al Safa, Affordable luxury interior design Al Safa, Modern luxury interior design Al Safa, Luxury Interior Design consultation Al Safa, Luxury Interior Design cost Al Safa, Luxury Interior Design price Al Safa, Top luxury interior design Al Safa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LuxuryInteriorDesignAlSafa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Luxury Interior Design Al Safa Dubai Company Al Safa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior design Al Safa Company Al Safa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Al Safa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

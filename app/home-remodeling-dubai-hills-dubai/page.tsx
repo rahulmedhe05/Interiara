@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: home remodeling dubai, home remodeling dubai dubai, best home remodeling dubai company dubai, luxury home remodeling dubai dubai, modern home remodeling dubai dubai
+// SEO Keywords: Home Remodeling Dubai Hills, Home Remodeling in Dubai Hills, Best home remodeling Dubai Hills, Professional home remodeling Dubai Hills, Luxury home remodeling Dubai Hills, Home Remodeling Dubai Hills Dubai, Home Remodeling designer Dubai Hills, Home Remodeling company Dubai Hills, Home Remodeling contractor Dubai Hills, Affordable home remodeling Dubai Hills, Modern home remodeling Dubai Hills, Home Remodeling consultation Dubai Hills, Home Remodeling cost Dubai Hills, Home Remodeling price Dubai Hills, Top home remodeling Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function HomeRemodelingDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Home Remodeling Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best home remodeling Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Home Remodeling Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

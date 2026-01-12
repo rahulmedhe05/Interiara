@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: budget interior solutions dubai, budget interior solutions dubai dubai, best budget interior solutions dubai company dubai, luxury budget interior solutions dubai dubai, modern budget interior solutions dubai dubai
+// SEO Keywords: Budget Interior Solutions Al Barsha South, Budget Interior Solutions Al in Barsha South, Best budget interior solutions al Barsha South, Professional budget interior solutions al Barsha South, Luxury budget interior solutions al Barsha South, Budget Interior Solutions Al Barsha South Dubai, Budget Interior Solutions Al designer Barsha South, Budget Interior Solutions Al company Barsha South, Budget Interior Solutions Al contractor Barsha South, Affordable budget interior solutions al Barsha South, Modern budget interior solutions al Barsha South, Budget Interior Solutions Al consultation Barsha South, Budget Interior Solutions Al cost Barsha South, Budget Interior Solutions Al price Barsha South, Top budget interior solutions al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BudgetInteriorSolutionsAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Budget Interior Solutions Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best budget interior solutions al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Budget Interior Solutions Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

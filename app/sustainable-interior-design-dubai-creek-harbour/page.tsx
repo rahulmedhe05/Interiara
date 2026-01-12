@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: sustainable interior design creek dubai, sustainable interior design creek dubai dubai, best sustainable interior design creek dubai company dubai, luxury sustainable interior design creek dubai dubai, modern sustainable interior design creek dubai dubai
+// SEO Keywords: Sustainable Interior Design, Sustainable in Interior Design, Best sustainable Interior Design, Professional sustainable Interior Design, Luxury sustainable Interior Design, Sustainable Interior Design Dubai, Sustainable designer Interior Design, Sustainable company Interior Design, Sustainable contractor Interior Design, Affordable sustainable Interior Design, Modern sustainable Interior Design, Sustainable consultation Interior Design, Sustainable cost Interior Design, Sustainable price Interior Design, Top sustainable Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SustainableInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Sustainable Interior Design Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

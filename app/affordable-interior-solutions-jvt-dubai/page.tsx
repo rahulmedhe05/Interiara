@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions dubai, affordable interior solutions dubai dubai, best affordable interior solutions dubai company dubai, luxury affordable interior solutions dubai dubai, modern affordable interior solutions dubai dubai
+// SEO Keywords: Affordable Interior Solutions Jvt, Affordable Interior in Solutions Jvt, Best affordable interior Solutions Jvt, Professional affordable interior Solutions Jvt, Luxury affordable interior Solutions Jvt, Affordable Interior Solutions Jvt Dubai, Affordable Interior designer Solutions Jvt, Affordable Interior company Solutions Jvt, Affordable Interior contractor Solutions Jvt, Affordable affordable interior Solutions Jvt, Modern affordable interior Solutions Jvt, Affordable Interior consultation Solutions Jvt, Affordable Interior cost Solutions Jvt, Affordable Interior price Solutions Jvt, Top affordable interior Solutions Jvt
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsJvt() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions JVT Dubai Company JVT Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior Solutions Jvt Company Solutions Jvt</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions JVT Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

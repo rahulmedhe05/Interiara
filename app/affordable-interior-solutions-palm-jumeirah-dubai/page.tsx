@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: affordable interior solutions palm dubai, affordable interior solutions palm dubai dubai, best affordable interior solutions palm dubai company dubai, luxury affordable interior solutions palm dubai dubai, modern affordable interior solutions palm dubai dubai
+// SEO Keywords: Affordable Interior Solutions Palm Jumeirah, Affordable Interior Solutions in Palm Jumeirah, Best affordable interior solutions Palm Jumeirah, Professional affordable interior solutions Palm Jumeirah, Luxury affordable interior solutions Palm Jumeirah, Affordable Interior Solutions Palm Jumeirah Dubai, Affordable Interior Solutions designer Palm Jumeirah, Affordable Interior Solutions company Palm Jumeirah, Affordable Interior Solutions contractor Palm Jumeirah, Affordable affordable interior solutions Palm Jumeirah, Modern affordable interior solutions Palm Jumeirah, Affordable Interior Solutions consultation Palm Jumeirah, Affordable Interior Solutions cost Palm Jumeirah, Affordable Interior Solutions price Palm Jumeirah, Top affordable interior solutions Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function AffordableInteriorSolutionsPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Affordable Interior Solutions Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best affordable interior solutions Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Affordable Interior Solutions Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

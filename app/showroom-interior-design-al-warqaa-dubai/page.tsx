@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: showroom interior design dubai, showroom interior design dubai dubai, best showroom interior design dubai company dubai, luxury showroom interior design dubai dubai, modern showroom interior design dubai dubai
+// SEO Keywords: Showroom Interior Design Al Warqaa, Showroom Interior Design in Al Warqaa, Best showroom interior design Al Warqaa, Professional showroom interior design Al Warqaa, Luxury showroom interior design Al Warqaa, Showroom Interior Design Al Warqaa Dubai, Showroom Interior Design designer Al Warqaa, Showroom Interior Design company Al Warqaa, Showroom Interior Design contractor Al Warqaa, Affordable showroom interior design Al Warqaa, Modern showroom interior design Al Warqaa, Showroom Interior Design consultation Al Warqaa, Showroom Interior Design cost Al Warqaa, Showroom Interior Design price Al Warqaa, Top showroom interior design Al Warqaa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ShowroomInteriorDesignAlWarqaa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Showroom Interior Design Al Warqaa Dubai Company Al Warqaa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best showroom interior design Al Warqaa Company Al Warqaa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Showroom Interior Design Al Warqaa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

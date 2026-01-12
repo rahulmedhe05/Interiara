@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Bur, Custom Furniture in Design Bur, Best custom furniture Design Bur, Professional custom furniture Design Bur, Luxury custom furniture Design Bur, Custom Furniture Design Bur Dubai, Custom Furniture designer Design Bur, Custom Furniture company Design Bur, Custom Furniture contractor Design Bur, Affordable custom furniture Design Bur, Modern custom furniture Design Bur, Custom Furniture consultation Design Bur, Custom Furniture cost Design Bur, Custom Furniture price Design Bur, Top custom furniture Design Bur
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignBur() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design Bur Dubai Company Bur Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture Design Bur Company Design Bur</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Bur Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

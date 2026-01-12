@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: 3d interior rendering dubai, 3d interior rendering dubai dubai, best 3d interior rendering dubai company dubai, luxury 3d interior rendering dubai dubai, modern 3d interior rendering dubai dubai
+// SEO Keywords: 3D Interior Rendering Dubai Hills, 3D Interior Rendering in Dubai Hills, Best 3d interior rendering Dubai Hills, Professional 3d interior rendering Dubai Hills, Luxury 3d interior rendering Dubai Hills, 3D Interior Rendering Dubai Hills Dubai, 3D Interior Rendering designer Dubai Hills, 3D Interior Rendering company Dubai Hills, 3D Interior Rendering contractor Dubai Hills, Affordable 3d interior rendering Dubai Hills, Modern 3d interior rendering Dubai Hills, 3D Interior Rendering consultation Dubai Hills, 3D Interior Rendering cost Dubai Hills, 3D Interior Rendering price Dubai Hills, Top 3d interior rendering Dubai Hills
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function 3DInteriorRenderingDubaiHills() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3D Interior Rendering Hills Dubai Company Hills Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best 3d interior rendering Dubai Hills Company Dubai Hills</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert 3D Interior Rendering Hills Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

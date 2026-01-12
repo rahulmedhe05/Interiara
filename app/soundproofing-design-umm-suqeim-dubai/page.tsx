@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Umm Suqeim, Soundproofing Design in Umm Suqeim, Best soundproofing design Umm Suqeim, Professional soundproofing design Umm Suqeim, Luxury soundproofing design Umm Suqeim, Soundproofing Design Umm Suqeim Dubai, Soundproofing Design designer Umm Suqeim, Soundproofing Design company Umm Suqeim, Soundproofing Design contractor Umm Suqeim, Affordable soundproofing design Umm Suqeim, Modern soundproofing design Umm Suqeim, Soundproofing Design consultation Umm Suqeim, Soundproofing Design cost Umm Suqeim, Soundproofing Design price Umm Suqeim, Top soundproofing design Umm Suqeim
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignUmmSuqeim() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Umm Suqeim Dubai Company Umm Suqeim Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design Umm Suqeim Company Umm Suqeim</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Umm Suqeim Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

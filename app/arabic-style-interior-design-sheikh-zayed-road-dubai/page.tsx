@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: arabic style interior design dubai, arabic style interior design dubai dubai, best arabic style interior design dubai company dubai, luxury arabic style interior design dubai dubai, modern arabic style interior design dubai dubai
+// SEO Keywords: Arabic Style Interior Design Sheikh Zayed Road, Arabic Style Interior Design Sheikh in Zayed Road, Best arabic style interior design sheikh Zayed Road, Professional arabic style interior design sheikh Zayed Road, Luxury arabic style interior design sheikh Zayed Road, Arabic Style Interior Design Sheikh Zayed Road Dubai, Arabic Style Interior Design Sheikh designer Zayed Road, Arabic Style Interior Design Sheikh company Zayed Road, Arabic Style Interior Design Sheikh contractor Zayed Road, Affordable arabic style interior design sheikh Zayed Road, Modern arabic style interior design sheikh Zayed Road, Arabic Style Interior Design Sheikh consultation Zayed Road, Arabic Style Interior Design Sheikh cost Zayed Road, Arabic Style Interior Design Sheikh price Zayed Road, Top arabic style interior design sheikh Zayed Road
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArabicStyleInteriorDesignSheikhZayedRoad() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Arabic Style Interior Design Sheikh Zayed Road Dubai Company Sheikh Zayed Road Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior design sheikh Zayed Road Company Zayed Road</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Sheikh Zayed Road Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

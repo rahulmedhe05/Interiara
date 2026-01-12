@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: cafe interior design dubai, cafe interior design dubai dubai, best cafe interior design dubai company dubai, luxury cafe interior design dubai dubai, modern cafe interior design dubai dubai
+// SEO Keywords: Cafe Interior Design Al Mizhar, Cafe Interior Design in Al Mizhar, Best cafe interior design Al Mizhar, Professional cafe interior design Al Mizhar, Luxury cafe interior design Al Mizhar, Cafe Interior Design Al Mizhar Dubai, Cafe Interior Design designer Al Mizhar, Cafe Interior Design company Al Mizhar, Cafe Interior Design contractor Al Mizhar, Affordable cafe interior design Al Mizhar, Modern cafe interior design Al Mizhar, Cafe Interior Design consultation Al Mizhar, Cafe Interior Design cost Al Mizhar, Cafe Interior Design price Al Mizhar, Top cafe interior design Al Mizhar
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CafeInteriorDesignAlMizhar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Cafe Interior Design Al Mizhar Dubai Company Al Mizhar Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best cafe interior design Al Mizhar Company Al Mizhar</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Cafe Interior Design Al Mizhar Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

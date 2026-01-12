@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: mall interior design dubai, mall interior design dubai dubai, best mall interior design dubai company dubai, luxury mall interior design dubai dubai, modern mall interior design dubai dubai
+// SEO Keywords: Mall Interior Design Jumeirah, Mall Interior in Design Jumeirah, Best mall interior Design Jumeirah, Professional mall interior Design Jumeirah, Luxury mall interior Design Jumeirah, Mall Interior Design Jumeirah Dubai, Mall Interior designer Design Jumeirah, Mall Interior company Design Jumeirah, Mall Interior contractor Design Jumeirah, Affordable mall interior Design Jumeirah, Modern mall interior Design Jumeirah, Mall Interior consultation Design Jumeirah, Mall Interior cost Design Jumeirah, Mall Interior price Design Jumeirah, Top mall interior Design Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MallInteriorDesignJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Mall Interior Design Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best mall interior Design Jumeirah Company Design Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Mall Interior Design Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

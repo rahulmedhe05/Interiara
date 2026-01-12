@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: arabic style interior design dubai, arabic style interior design dubai dubai, best arabic style interior design dubai company dubai, luxury arabic style interior design dubai dubai, modern arabic style interior design dubai dubai
+// SEO Keywords: Arabic Style Interior Design Jbr, Arabic Style Interior in Design Jbr, Best arabic style interior Design Jbr, Professional arabic style interior Design Jbr, Luxury arabic style interior Design Jbr, Arabic Style Interior Design Jbr Dubai, Arabic Style Interior designer Design Jbr, Arabic Style Interior company Design Jbr, Arabic Style Interior contractor Design Jbr, Affordable arabic style interior Design Jbr, Modern arabic style interior Design Jbr, Arabic Style Interior consultation Design Jbr, Arabic Style Interior cost Design Jbr, Arabic Style Interior price Design Jbr, Top arabic style interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArabicStyleInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Arabic Style Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

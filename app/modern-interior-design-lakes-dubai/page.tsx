@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modern interior design dubai, modern interior design dubai dubai, best modern interior design dubai company dubai, luxury modern interior design dubai dubai, modern modern interior design dubai dubai
+// SEO Keywords: Modern Interior Design Lakes, Modern Interior in Design Lakes, Best modern interior Design Lakes, Professional modern interior Design Lakes, Luxury modern interior Design Lakes, Modern Interior Design Lakes Dubai, Modern Interior designer Design Lakes, Modern Interior company Design Lakes, Modern Interior contractor Design Lakes, Affordable modern interior Design Lakes, Modern modern interior Design Lakes, Modern Interior consultation Design Lakes, Modern Interior cost Design Lakes, Modern Interior price Design Lakes, Top modern interior Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModernInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modern Interior Design The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern interior Design Lakes Company Design Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

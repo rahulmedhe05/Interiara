@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: dining room interior design dubai, dining room interior design dubai dubai, best dining room interior design dubai company dubai, luxury dining room interior design dubai dubai, modern dining room interior design dubai dubai
+// SEO Keywords: Dining Room Interior Design, Dining Room in Interior Design, Best dining room Interior Design, Professional dining room Interior Design, Luxury dining room Interior Design, Dining Room Interior Design Dubai, Dining Room designer Interior Design, Dining Room company Interior Design, Dining Room contractor Interior Design, Affordable dining room Interior Design, Modern dining room Interior Design, Dining Room consultation Interior Design, Dining Room cost Interior Design, Dining Room price Interior Design, Top dining room Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function DiningRoomInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Dining Room Interior Design Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best dining room Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Dining Room Interior Design Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

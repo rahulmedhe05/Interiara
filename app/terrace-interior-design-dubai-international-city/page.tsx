@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: terrace interior design international interior design international dubai, terrace interior design international interior design international dubai dubai, best terrace interior design international interior design international dubai company dubai, luxury terrace interior design international interior design international dubai dubai, modern terrace interior design international interior design international dubai dubai
+// SEO Keywords: Terrace Interior Design, Terrace in Interior Design, Best terrace Interior Design, Professional terrace Interior Design, Luxury terrace Interior Design, Terrace Interior Design Dubai, Terrace designer Interior Design, Terrace company Interior Design, Terrace contractor Interior Design, Affordable terrace Interior Design, Modern terrace Interior Design, Terrace consultation Interior Design, Terrace cost Interior Design, Terrace price Interior Design, Top terrace Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function TerraceInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Terrace Interior Design International City Dubai Company City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best terrace Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Terrace Interior Design International City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

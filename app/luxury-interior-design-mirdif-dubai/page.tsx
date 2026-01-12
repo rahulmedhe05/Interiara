@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: luxury interior design dubai, luxury interior design dubai dubai, best luxury interior design dubai company dubai, luxury luxury interior design dubai dubai, modern luxury interior design dubai dubai
+// SEO Keywords: Luxury Interior Design Mirdif, Luxury Interior in Design Mirdif, Best luxury interior Design Mirdif, Professional luxury interior Design Mirdif, Luxury luxury interior Design Mirdif, Luxury Interior Design Mirdif Dubai, Luxury Interior designer Design Mirdif, Luxury Interior company Design Mirdif, Luxury Interior contractor Design Mirdif, Affordable luxury interior Design Mirdif, Modern luxury interior Design Mirdif, Luxury Interior consultation Design Mirdif, Luxury Interior cost Design Mirdif, Luxury Interior price Design Mirdif, Top luxury interior Design Mirdif
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function LuxuryInteriorDesignMirdif() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Luxury Interior Design Mirdif Dubai Company Mirdif Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best luxury interior Design Mirdif Company Design Mirdif</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Luxury Interior Design Mirdif Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

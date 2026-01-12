@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: event hall interior design dubai, event hall interior design dubai dubai, best event hall interior design dubai company dubai, luxury event hall interior design dubai dubai, modern event hall interior design dubai dubai
+// SEO Keywords: Event Hall Interior Design Lakes, Event Hall Interior in Design Lakes, Best event hall interior Design Lakes, Professional event hall interior Design Lakes, Luxury event hall interior Design Lakes, Event Hall Interior Design Lakes Dubai, Event Hall Interior designer Design Lakes, Event Hall Interior company Design Lakes, Event Hall Interior contractor Design Lakes, Affordable event hall interior Design Lakes, Modern event hall interior Design Lakes, Event Hall Interior consultation Design Lakes, Event Hall Interior cost Design Lakes, Event Hall Interior price Design Lakes, Top event hall interior Design Lakes
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function EventHallInteriorDesignLakes() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Event Hall Interior Design The Lakes Dubai Company The Lakes Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best event hall interior Design Lakes Company Design Lakes</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Event Hall Interior Design The Lakes Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

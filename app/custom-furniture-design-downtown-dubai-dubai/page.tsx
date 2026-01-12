@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: custom furniture design dubai, custom furniture design dubai dubai, best custom furniture design dubai company dubai, luxury custom furniture design dubai dubai, modern custom furniture design dubai dubai
+// SEO Keywords: Custom Furniture Design Downtown Dubai, Custom Furniture Design in Downtown Dubai, Best custom furniture design Downtown Dubai, Professional custom furniture design Downtown Dubai, Luxury custom furniture design Downtown Dubai, Custom Furniture Design Downtown Dubai Dubai, Custom Furniture Design designer Downtown Dubai, Custom Furniture Design company Downtown Dubai, Custom Furniture Design contractor Downtown Dubai, Affordable custom furniture design Downtown Dubai, Modern custom furniture design Downtown Dubai, Custom Furniture Design consultation Downtown Dubai, Custom Furniture Design cost Downtown Dubai, Custom Furniture Design price Downtown Dubai, Top custom furniture design Downtown Dubai
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function CustomFurnitureDesignDowntownDubai() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Custom Furniture Design Downtown Dubai Company Downtown Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best custom furniture design Downtown Dubai Company Downtown Dubai</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Custom Furniture Design Downtown Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

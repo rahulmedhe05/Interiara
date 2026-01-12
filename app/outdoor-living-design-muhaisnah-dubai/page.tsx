@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: outdoor living design dubai, outdoor living design dubai dubai, best outdoor living design dubai company dubai, luxury outdoor living design dubai dubai, modern outdoor living design dubai dubai
+// SEO Keywords: Outdoor Living Design Muhaisnah, Outdoor Living in Design Muhaisnah, Best outdoor living Design Muhaisnah, Professional outdoor living Design Muhaisnah, Luxury outdoor living Design Muhaisnah, Outdoor Living Design Muhaisnah Dubai, Outdoor Living designer Design Muhaisnah, Outdoor Living company Design Muhaisnah, Outdoor Living contractor Design Muhaisnah, Affordable outdoor living Design Muhaisnah, Modern outdoor living Design Muhaisnah, Outdoor Living consultation Design Muhaisnah, Outdoor Living cost Design Muhaisnah, Outdoor Living price Design Muhaisnah, Top outdoor living Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function OutdoorLivingDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Outdoor Living Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best outdoor living Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Outdoor Living Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

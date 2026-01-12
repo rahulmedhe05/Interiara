@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wardrobe design dubai, wardrobe design dubai dubai, best wardrobe design dubai company dubai, luxury wardrobe design dubai dubai, modern wardrobe design dubai dubai
+// SEO Keywords: Wardrobe Design The Sustainable City, Wardrobe Design The in Sustainable City, Best wardrobe design the Sustainable City, Professional wardrobe design the Sustainable City, Luxury wardrobe design the Sustainable City, Wardrobe Design The Sustainable City Dubai, Wardrobe Design The designer Sustainable City, Wardrobe Design The company Sustainable City, Wardrobe Design The contractor Sustainable City, Affordable wardrobe design the Sustainable City, Modern wardrobe design the Sustainable City, Wardrobe Design The consultation Sustainable City, Wardrobe Design The cost Sustainable City, Wardrobe Design The price Sustainable City, Top wardrobe design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WardrobeDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wardrobe Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wardrobe design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wardrobe Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

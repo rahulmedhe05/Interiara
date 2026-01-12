@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: modern interior design marina dubai, modern interior design marina dubai dubai, best modern interior design marina dubai company dubai, luxury modern interior design marina dubai dubai, modern modern interior design marina dubai dubai
+// SEO Keywords: Modern Interior Design, Modern in Interior Design, Best modern Interior Design, Professional modern Interior Design, Luxury modern Interior Design, Modern Interior Design Dubai, Modern designer Interior Design, Modern company Interior Design, Modern contractor Interior Design, Affordable modern Interior Design, Modern modern Interior Design, Modern consultation Interior Design, Modern cost Interior Design, Modern price Interior Design, Top modern Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ModernInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Modern Interior Design Marina Heights Dubai Company Heights Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best modern Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Modern Interior Design Marina Heights Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: media room interior design dubai, media room interior design dubai dubai, best media room interior design dubai company dubai, luxury media room interior design dubai dubai, modern media room interior design dubai dubai
+// SEO Keywords: Media Room Interior Design Meadows, Media Room Interior in Design Meadows, Best media room interior Design Meadows, Professional media room interior Design Meadows, Luxury media room interior Design Meadows, Media Room Interior Design Meadows Dubai, Media Room Interior designer Design Meadows, Media Room Interior company Design Meadows, Media Room Interior contractor Design Meadows, Affordable media room interior Design Meadows, Modern media room interior Design Meadows, Media Room Interior consultation Design Meadows, Media Room Interior cost Design Meadows, Media Room Interior price Design Meadows, Top media room interior Design Meadows
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function MediaRoomInteriorDesignMeadows() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Media Room Interior Design The Meadows Dubai Company The Meadows Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best media room interior Design Meadows Company Design Meadows</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Media Room Interior Design The Meadows Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

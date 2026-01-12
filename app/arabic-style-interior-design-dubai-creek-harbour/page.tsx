@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: arabic style interior design creek dubai, arabic style interior design creek dubai dubai, best arabic style interior design creek dubai company dubai, luxury arabic style interior design creek dubai dubai, modern arabic style interior design creek dubai dubai
+// SEO Keywords: Arabic Style Interior Design, Arabic Style in Interior Design, Best arabic style Interior Design, Professional arabic style Interior Design, Luxury arabic style Interior Design, Arabic Style Interior Design Dubai, Arabic Style designer Interior Design, Arabic Style company Interior Design, Arabic Style contractor Interior Design, Affordable arabic style Interior Design, Modern arabic style Interior Design, Arabic Style consultation Interior Design, Arabic Style cost Interior Design, Arabic Style price Interior Design, Top arabic style Interior Design
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ArabicStyleInteriorDesign() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Arabic Style Interior Design Creek Harbour Dubai Company Harbour Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best arabic style Interior Design Company Interior Design</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Arabic Style Interior Design Creek Harbour Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

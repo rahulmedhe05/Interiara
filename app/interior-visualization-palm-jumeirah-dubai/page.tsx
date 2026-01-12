@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization palm dubai, interior visualization palm dubai dubai, best interior visualization palm dubai company dubai, luxury interior visualization palm dubai dubai, modern interior visualization palm dubai dubai
+// SEO Keywords: Interior Visualization Palm Jumeirah, Interior Visualization in Palm Jumeirah, Best interior visualization Palm Jumeirah, Professional interior visualization Palm Jumeirah, Luxury interior visualization Palm Jumeirah, Interior Visualization Palm Jumeirah Dubai, Interior Visualization designer Palm Jumeirah, Interior Visualization company Palm Jumeirah, Interior Visualization contractor Palm Jumeirah, Affordable interior visualization Palm Jumeirah, Modern interior visualization Palm Jumeirah, Interior Visualization consultation Palm Jumeirah, Interior Visualization cost Palm Jumeirah, Interior Visualization price Palm Jumeirah, Top interior visualization Palm Jumeirah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationPalmJumeirah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Palm Jumeirah Dubai Company Jumeirah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Palm Jumeirah Company Palm Jumeirah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Palm Jumeirah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

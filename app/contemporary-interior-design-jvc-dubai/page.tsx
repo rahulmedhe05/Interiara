@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: contemporary interior design dubai, contemporary interior design dubai dubai, best contemporary interior design dubai company dubai, luxury contemporary interior design dubai dubai, modern contemporary interior design dubai dubai
+// SEO Keywords: Contemporary Interior Design Jvc, Contemporary Interior in Design Jvc, Best contemporary interior Design Jvc, Professional contemporary interior Design Jvc, Luxury contemporary interior Design Jvc, Contemporary Interior Design Jvc Dubai, Contemporary Interior designer Design Jvc, Contemporary Interior company Design Jvc, Contemporary Interior contractor Design Jvc, Affordable contemporary interior Design Jvc, Modern contemporary interior Design Jvc, Contemporary Interior consultation Design Jvc, Contemporary Interior cost Design Jvc, Contemporary Interior price Design Jvc, Top contemporary interior Design Jvc
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function ContemporaryInteriorDesignJvc() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Contemporary Interior Design JVC Dubai Company JVC Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best contemporary interior Design Jvc Company Design Jvc</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Contemporary Interior Design JVC Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

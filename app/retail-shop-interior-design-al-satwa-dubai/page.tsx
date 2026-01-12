@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: retail shop interior design dubai, retail shop interior design dubai dubai, best retail shop interior design dubai company dubai, luxury retail shop interior design dubai dubai, modern retail shop interior design dubai dubai
+// SEO Keywords: Retail Shop Interior Design Al Satwa, Retail Shop Interior Design in Al Satwa, Best retail shop interior design Al Satwa, Professional retail shop interior design Al Satwa, Luxury retail shop interior design Al Satwa, Retail Shop Interior Design Al Satwa Dubai, Retail Shop Interior Design designer Al Satwa, Retail Shop Interior Design company Al Satwa, Retail Shop Interior Design contractor Al Satwa, Affordable retail shop interior design Al Satwa, Modern retail shop interior design Al Satwa, Retail Shop Interior Design consultation Al Satwa, Retail Shop Interior Design cost Al Satwa, Retail Shop Interior Design price Al Satwa, Top retail shop interior design Al Satwa
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function RetailShopInteriorDesignAlSatwa() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Retail Shop Interior Design Al Satwa Dubai Company Al Satwa Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best retail shop interior design Al Satwa Company Al Satwa</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Retail Shop Interior Design Al Satwa Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: wallpaper design dubai, wallpaper design dubai dubai, best wallpaper design dubai company dubai, luxury wallpaper design dubai dubai, modern wallpaper design dubai dubai
+// SEO Keywords: Wallpaper Design Al Hamriya, Wallpaper Design in Al Hamriya, Best wallpaper design Al Hamriya, Professional wallpaper design Al Hamriya, Luxury wallpaper design Al Hamriya, Wallpaper Design Al Hamriya Dubai, Wallpaper Design designer Al Hamriya, Wallpaper Design company Al Hamriya, Wallpaper Design contractor Al Hamriya, Affordable wallpaper design Al Hamriya, Modern wallpaper design Al Hamriya, Wallpaper Design consultation Al Hamriya, Wallpaper Design cost Al Hamriya, Wallpaper Design price Al Hamriya, Top wallpaper design Al Hamriya
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function WallpaperDesignAlHamriya() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Wallpaper Design Al Hamriya Dubai Company Al Hamriya Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best wallpaper design Al Hamriya Company Al Hamriya</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Wallpaper Design Al Hamriya Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

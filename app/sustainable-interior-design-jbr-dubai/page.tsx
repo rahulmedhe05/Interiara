@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: sustainable interior design dubai, sustainable interior design dubai dubai, best sustainable interior design dubai company dubai, luxury sustainable interior design dubai dubai, modern sustainable interior design dubai dubai
+// SEO Keywords: Sustainable Interior Design Jbr, Sustainable Interior in Design Jbr, Best sustainable interior Design Jbr, Professional sustainable interior Design Jbr, Luxury sustainable interior Design Jbr, Sustainable Interior Design Jbr Dubai, Sustainable Interior designer Design Jbr, Sustainable Interior company Design Jbr, Sustainable Interior contractor Design Jbr, Affordable sustainable interior Design Jbr, Modern sustainable interior Design Jbr, Sustainable Interior consultation Design Jbr, Sustainable Interior cost Design Jbr, Sustainable Interior price Design Jbr, Top sustainable interior Design Jbr
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SustainableInteriorDesignJbr() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Sustainable Interior Design JBR Dubai Company JBR Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best sustainable interior Design Jbr Company Design Jbr</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Sustainable Interior Design JBR Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

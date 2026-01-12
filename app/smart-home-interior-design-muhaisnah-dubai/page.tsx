@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart home interior design dubai, smart home interior design dubai dubai, best smart home interior design dubai company dubai, luxury smart home interior design dubai dubai, modern smart home interior design dubai dubai
+// SEO Keywords: Smart Home Interior Design Muhaisnah, Smart Home Interior in Design Muhaisnah, Best smart home interior Design Muhaisnah, Professional smart home interior Design Muhaisnah, Luxury smart home interior Design Muhaisnah, Smart Home Interior Design Muhaisnah Dubai, Smart Home Interior designer Design Muhaisnah, Smart Home Interior company Design Muhaisnah, Smart Home Interior contractor Design Muhaisnah, Affordable smart home interior Design Muhaisnah, Modern smart home interior Design Muhaisnah, Smart Home Interior consultation Design Muhaisnah, Smart Home Interior cost Design Muhaisnah, Smart Home Interior price Design Muhaisnah, Top smart home interior Design Muhaisnah
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartHomeInteriorDesignMuhaisnah() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Home Interior Design Muhaisnah Dubai Company Muhaisnah Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart home interior Design Muhaisnah Company Design Muhaisnah</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Home Interior Design Muhaisnah Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

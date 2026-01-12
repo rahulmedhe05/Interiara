@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: smart lighting dubai, smart lighting dubai dubai, best smart lighting dubai company dubai, luxury smart lighting dubai dubai, modern smart lighting dubai dubai
+// SEO Keywords: Smart Lighting Al Barsha South, Smart Lighting Al in Barsha South, Best smart lighting al Barsha South, Professional smart lighting al Barsha South, Luxury smart lighting al Barsha South, Smart Lighting Al Barsha South Dubai, Smart Lighting Al designer Barsha South, Smart Lighting Al company Barsha South, Smart Lighting Al contractor Barsha South, Affordable smart lighting al Barsha South, Modern smart lighting al Barsha South, Smart Lighting Al consultation Barsha South, Smart Lighting Al cost Barsha South, Smart Lighting Al price Barsha South, Top smart lighting al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SmartLightingAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Smart Lighting Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best smart lighting al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Smart Lighting Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

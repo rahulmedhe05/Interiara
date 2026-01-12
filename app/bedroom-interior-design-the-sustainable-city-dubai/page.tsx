@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: bedroom interior design dubai, bedroom interior design dubai dubai, best bedroom interior design dubai company dubai, luxury bedroom interior design dubai dubai, modern bedroom interior design dubai dubai
+// SEO Keywords: Bedroom Interior Design The Sustainable City, Bedroom Interior Design The in Sustainable City, Best bedroom interior design the Sustainable City, Professional bedroom interior design the Sustainable City, Luxury bedroom interior design the Sustainable City, Bedroom Interior Design The Sustainable City Dubai, Bedroom Interior Design The designer Sustainable City, Bedroom Interior Design The company Sustainable City, Bedroom Interior Design The contractor Sustainable City, Affordable bedroom interior design the Sustainable City, Modern bedroom interior design the Sustainable City, Bedroom Interior Design The consultation Sustainable City, Bedroom Interior Design The cost Sustainable City, Bedroom Interior Design The price Sustainable City, Top bedroom interior design the Sustainable City
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function BedroomInteriorDesignTheSustainableCity() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Bedroom Interior Design The Sustainable City Dubai Company The Sustainable City Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best bedroom interior design the Sustainable City Company Sustainable City</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Bedroom Interior Design The Sustainable City Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

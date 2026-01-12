@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: interior visualization dubai, interior visualization dubai dubai, best interior visualization dubai company dubai, luxury interior visualization dubai dubai, modern interior visualization dubai dubai
+// SEO Keywords: Interior Visualization Al Quoz, Interior Visualization in Al Quoz, Best interior visualization Al Quoz, Professional interior visualization Al Quoz, Luxury interior visualization Al Quoz, Interior Visualization Al Quoz Dubai, Interior Visualization designer Al Quoz, Interior Visualization company Al Quoz, Interior Visualization contractor Al Quoz, Affordable interior visualization Al Quoz, Modern interior visualization Al Quoz, Interior Visualization consultation Al Quoz, Interior Visualization cost Al Quoz, Interior Visualization price Al Quoz, Top interior visualization Al Quoz
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function InteriorVisualizationAlQuoz() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Interior Visualization Al Quoz Dubai Company Al Quoz Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best interior visualization Al Quoz Company Al Quoz</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Interior Visualization Al Quoz Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>

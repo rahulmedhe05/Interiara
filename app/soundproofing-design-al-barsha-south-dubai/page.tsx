@@ -9,7 +9,7 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords: soundproofing design dubai, soundproofing design dubai dubai, best soundproofing design dubai company dubai, luxury soundproofing design dubai dubai, modern soundproofing design dubai dubai
+// SEO Keywords: Soundproofing Design Al Barsha South, Soundproofing Design Al in Barsha South, Best soundproofing design al Barsha South, Professional soundproofing design al Barsha South, Luxury soundproofing design al Barsha South, Soundproofing Design Al Barsha South Dubai, Soundproofing Design Al designer Barsha South, Soundproofing Design Al company Barsha South, Soundproofing Design Al contractor Barsha South, Affordable soundproofing design al Barsha South, Modern soundproofing design al Barsha South, Soundproofing Design Al consultation Barsha South, Soundproofing Design Al cost Barsha South, Soundproofing Design Al price Barsha South, Top soundproofing design al Barsha South
 
 const serviceFeatures = [
   { icon: Lightbulb, title: "Expert Design", desc: "Professional expertise with proven track record" },
@@ -79,7 +79,7 @@ export default function SoundproofingDesignAlBarshaSouth() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
             <div className="lg:col-span-3 order-1 lg:order-none">
-              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best Soundproofing Design Al Barsha South Dubai Company Al Barsha South Dubai</p>
+              <p className="text-accent font-mono uppercase tracking-wider mb-4">Best soundproofing design al Barsha South Company Barsha South</p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight">
                 Expert Soundproofing Design Al Barsha South Dubai - <span className="text-primary">Transform Your Space</span>
               </h1>
