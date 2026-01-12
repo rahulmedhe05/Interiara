@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Home Remodeling Bur, Home in Remodeling Bur, Best home Remodeling Bur, Professional home Remodeling Bur, Luxury home Remodeling Bur, Home Remodeling Bur Dubai, Home designer Remodeling Bur, Home company Remodeling Bur, Home contractor Remodeling Bur, Affordable home Remodeling Bur, Modern home Remodeling Bur, Home consultation Remodeling Bur, Home cost Remodeling Bur, Home price Remodeling Bur, Top home Remodeling Bur
 
@@ -362,6 +363,46 @@ export default function HomeRemodelingBur() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Remodeling Bur Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Remodeling Bur. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/home-remodeling-bur-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home
+              </Link>
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Remodeling Bur? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Art Consultation Mirdif, Art in Consultation Mirdif, Best art Consultation Mirdif, Professional art Consultation Mirdif, Luxury art Consultation Mirdif, Art Consultation Mirdif Dubai, Art designer Consultation Mirdif, Art company Consultation Mirdif, Art contractor Consultation Mirdif, Affordable art Consultation Mirdif, Modern art Consultation Mirdif, Art consultation Consultation Mirdif, Art cost Consultation Mirdif, Art price Consultation Mirdif, Top art Consultation Mirdif
 
@@ -362,6 +363,52 @@ export default function ArtConsultationMirdif() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Consultation Mirdif Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Consultation Mirdif. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/art-consultation-mirdif-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Art
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/color-theme-consultation-mirdif-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Color Theme
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/home-decor-consultation-mirdif-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Decor
+              </Link>
+            </div>
+            <div className="space-y-3">
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Consultation Mirdif? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

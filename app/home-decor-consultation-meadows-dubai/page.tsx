@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Home Decor Consultation Meadows, Home Decor in Consultation Meadows, Best home decor Consultation Meadows, Professional home decor Consultation Meadows, Luxury home decor Consultation Meadows, Home Decor Consultation Meadows Dubai, Home Decor designer Consultation Meadows, Home Decor company Consultation Meadows, Home Decor contractor Consultation Meadows, Affordable home decor Consultation Meadows, Modern home decor Consultation Meadows, Home Decor consultation Consultation Meadows, Home Decor cost Consultation Meadows, Home Decor price Consultation Meadows, Top home decor Consultation Meadows
 
@@ -362,6 +363,52 @@ export default function HomeDecorConsultationMeadows() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Consultation Meadows Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Consultation Meadows. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/art-consultation-meadows-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Art
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/color-theme-consultation-meadows-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Color Theme
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/home-decor-consultation-meadows-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Decor
+              </Link>
+            </div>
+            <div className="space-y-3">
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Consultation Meadows? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

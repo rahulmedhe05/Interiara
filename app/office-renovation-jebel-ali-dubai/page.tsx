@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Office Renovation Jebel Ali, Office Renovation in Jebel Ali, Best office renovation Jebel Ali, Professional office renovation Jebel Ali, Luxury office renovation Jebel Ali, Office Renovation Jebel Ali Dubai, Office Renovation designer Jebel Ali, Office Renovation company Jebel Ali, Office Renovation contractor Jebel Ali, Affordable office renovation Jebel Ali, Modern office renovation Jebel Ali, Office Renovation consultation Jebel Ali, Office Renovation cost Jebel Ali, Office Renovation price Jebel Ali, Top office renovation Jebel Ali
 
@@ -362,6 +363,262 @@ export default function OfficeRenovationJebelAli() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Jebel Ali Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Jebel Ali. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/3d-interior-rendering-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                3D Interior Rendering
+              </Link>
+              <Link href="/acoustic-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Acoustic Design
+              </Link>
+              <Link href="/affordable-interior-solutions-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Affordable Interior Solutions
+              </Link>
+              <Link href="/apartment-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Apartment Interior Design
+              </Link>
+              <Link href="/arabic-style-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Arabic Style Interior Design
+              </Link>
+              <Link href="/art-consultation-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Art Consultation
+              </Link>
+              <Link href="/balcony-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Balcony Interior Design
+              </Link>
+              <Link href="/banquet-hall-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Banquet Hall Interior Design
+              </Link>
+              <Link href="/bathroom-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bathroom Interior Design
+              </Link>
+              <Link href="/bedroom-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bedroom Interior Design
+              </Link>
+              <Link href="/bespoke-furniture-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke Furniture Design
+              </Link>
+              <Link href="/budget-interior-solutions-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Budget Interior Solutions
+              </Link>
+              <Link href="/cafe-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Cafe Interior Design
+              </Link>
+              <Link href="/childrens-room-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Childrens Room Interior Design
+              </Link>
+              <Link href="/clinic-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Clinic Interior Design
+              </Link>
+              <Link href="/closet-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Closet Design
+              </Link>
+              <Link href="/co-working-space-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Co Working Space Interior Design
+              </Link>
+              <Link href="/color-theme-consultation-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Color Theme Consultation
+              </Link>
+              <Link href="/commercial-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Commercial Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/contemporary-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Contemporary Interior Design
+              </Link>
+              <Link href="/corporate-office-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Corporate Office Interior Design
+              </Link>
+              <Link href="/custom-furniture-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom Furniture Design
+              </Link>
+              <Link href="/dining-room-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Dining Room Interior Design
+              </Link>
+              <Link href="/drapes-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Drapes
+              </Link>
+              <Link href="/eco-friendly-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Eco Friendly Interior Design
+              </Link>
+              <Link href="/event-hall-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Event Hall Interior Design
+              </Link>
+              <Link href="/fitness-studio-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Fitness Studio Interior Design
+              </Link>
+              <Link href="/gym-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Gym Interior Design
+              </Link>
+              <Link href="/healthcare-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Healthcare Interior Design
+              </Link>
+              <Link href="/home-decor-consultation-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Decor Consultation
+              </Link>
+              <Link href="/home-office-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Office Interior Design
+              </Link>
+              <Link href="/home-remodeling-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Remodeling
+              </Link>
+              <Link href="/home-renovation-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Renovation
+              </Link>
+              <Link href="/home-theater-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Theater Interior Design
+              </Link>
+              <Link href="/hotel-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Hotel Interior Design
+              </Link>
+              <Link href="/interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Design
+              </Link>
+              <Link href="/interior-space-optimization-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Space Optimization
+              </Link>
+              <Link href="/interior-visualization-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Visualization
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/kids-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kids Interior Design
+              </Link>
+              <Link href="/kitchen-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kitchen Interior Design
+              </Link>
+              <Link href="/lighting-automation-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Automation
+              </Link>
+              <Link href="/lighting-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Design
+              </Link>
+              <Link href="/living-room-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Living Room Interior Design
+              </Link>
+              <Link href="/luxury-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Luxury Interior Design
+              </Link>
+              <Link href="/mall-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Mall Interior Design
+              </Link>
+              <Link href="/media-room-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Media Room Interior Design
+              </Link>
+              <Link href="/minimalist-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Minimalist Interior Design
+              </Link>
+              <Link href="/modern-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modern Interior Design
+              </Link>
+              <Link href="/modular-kitchens-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modular Kitchens
+              </Link>
+              <Link href="/office-fit-out-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Fit Out
+              </Link>
+              <Link href="/office-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Interior Design
+              </Link>
+              <Link href="/office-renovation-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Renovation
+              </Link>
+              <Link href="/outdoor-living-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Outdoor Living Design
+              </Link>
+              <Link href="/penthouse-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Penthouse Interior Design
+              </Link>
+              <Link href="/residential-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Residential Interior Design
+              </Link>
+              <Link href="/restaurant-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Restaurant Interior Design
+              </Link>
+              <Link href="/retail-shop-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Retail Shop Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/salon-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Salon Interior Design
+              </Link>
+              <Link href="/showroom-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Showroom Interior Design
+              </Link>
+              <Link href="/smart-home-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Home Interior Design
+              </Link>
+              <Link href="/smart-lighting-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Lighting
+              </Link>
+              <Link href="/soundproofing-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Soundproofing Design
+              </Link>
+              <Link href="/spa-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Spa Interior Design
+              </Link>
+              <Link href="/space-planning-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Space Planning
+              </Link>
+              <Link href="/sustainable-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Sustainable Interior Design
+              </Link>
+              <Link href="/terrace-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Terrace Interior Design
+              </Link>
+              <Link href="/villa-interior-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Villa Interior Design
+              </Link>
+              <Link href="/wall-coverings-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Coverings
+              </Link>
+              <Link href="/wall-flooring-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Flooring Design
+              </Link>
+              <Link href="/wallpaper-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wallpaper Design
+              </Link>
+              <Link href="/wardrobe-design-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wardrobe Design
+              </Link>
+              <Link href="/window-blinds-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Window Blinds
+              </Link>
+              <Link href="/window-curtains-jebel-ali-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Window Curtains
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Jebel Ali? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

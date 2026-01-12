@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Interior Space Optimization Palm, Interior Space in Optimization Palm, Best interior space Optimization Palm, Professional interior space Optimization Palm, Luxury interior space Optimization Palm, Interior Space Optimization Palm Dubai, Interior Space designer Optimization Palm, Interior Space company Optimization Palm, Interior Space contractor Optimization Palm, Affordable interior space Optimization Palm, Modern interior space Optimization Palm, Interior Space consultation Optimization Palm, Interior Space cost Optimization Palm, Interior Space price Optimization Palm, Top interior space Optimization Palm
 
@@ -362,6 +363,46 @@ export default function InteriorSpaceOptimizationPalm() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Optimization Palm Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Optimization Palm. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/interior-space-optimization-palm-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Space
+              </Link>
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Optimization Palm? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Acoustic Design Discovery Gardens, Acoustic Design in Discovery Gardens, Best acoustic design Discovery Gardens, Professional acoustic design Discovery Gardens, Luxury acoustic design Discovery Gardens, Acoustic Design Discovery Gardens Dubai, Acoustic Design designer Discovery Gardens, Acoustic Design company Discovery Gardens, Acoustic Design contractor Discovery Gardens, Affordable acoustic design Discovery Gardens, Modern acoustic design Discovery Gardens, Acoustic Design consultation Discovery Gardens, Acoustic Design cost Discovery Gardens, Acoustic Design price Discovery Gardens, Top acoustic design Discovery Gardens
 
@@ -362,6 +363,262 @@ export default function AcousticDesignDiscoveryGardens() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Discovery Gardens Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Discovery Gardens. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/3d-interior-rendering-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                3D Interior Rendering
+              </Link>
+              <Link href="/acoustic-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Acoustic Design
+              </Link>
+              <Link href="/affordable-interior-solutions-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Affordable Interior Solutions
+              </Link>
+              <Link href="/apartment-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Apartment Interior Design
+              </Link>
+              <Link href="/arabic-style-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Arabic Style Interior Design
+              </Link>
+              <Link href="/art-consultation-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Art Consultation
+              </Link>
+              <Link href="/balcony-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Balcony Interior Design
+              </Link>
+              <Link href="/banquet-hall-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Banquet Hall Interior Design
+              </Link>
+              <Link href="/bathroom-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bathroom Interior Design
+              </Link>
+              <Link href="/bedroom-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bedroom Interior Design
+              </Link>
+              <Link href="/bespoke-furniture-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke Furniture Design
+              </Link>
+              <Link href="/budget-interior-solutions-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Budget Interior Solutions
+              </Link>
+              <Link href="/cafe-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Cafe Interior Design
+              </Link>
+              <Link href="/childrens-room-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Childrens Room Interior Design
+              </Link>
+              <Link href="/clinic-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Clinic Interior Design
+              </Link>
+              <Link href="/closet-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Closet Design
+              </Link>
+              <Link href="/co-working-space-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Co Working Space Interior Design
+              </Link>
+              <Link href="/color-theme-consultation-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Color Theme Consultation
+              </Link>
+              <Link href="/commercial-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Commercial Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/contemporary-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Contemporary Interior Design
+              </Link>
+              <Link href="/corporate-office-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Corporate Office Interior Design
+              </Link>
+              <Link href="/custom-furniture-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom Furniture Design
+              </Link>
+              <Link href="/dining-room-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Dining Room Interior Design
+              </Link>
+              <Link href="/drapes-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Drapes
+              </Link>
+              <Link href="/eco-friendly-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Eco Friendly Interior Design
+              </Link>
+              <Link href="/event-hall-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Event Hall Interior Design
+              </Link>
+              <Link href="/fitness-studio-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Fitness Studio Interior Design
+              </Link>
+              <Link href="/gym-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Gym Interior Design
+              </Link>
+              <Link href="/healthcare-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Healthcare Interior Design
+              </Link>
+              <Link href="/home-decor-consultation-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Decor Consultation
+              </Link>
+              <Link href="/home-office-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Office Interior Design
+              </Link>
+              <Link href="/home-remodeling-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Remodeling
+              </Link>
+              <Link href="/home-renovation-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Renovation
+              </Link>
+              <Link href="/home-theater-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Theater Interior Design
+              </Link>
+              <Link href="/hotel-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Hotel Interior Design
+              </Link>
+              <Link href="/interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Design
+              </Link>
+              <Link href="/interior-space-optimization-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Space Optimization
+              </Link>
+              <Link href="/interior-visualization-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Visualization
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/kids-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kids Interior Design
+              </Link>
+              <Link href="/kitchen-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kitchen Interior Design
+              </Link>
+              <Link href="/lighting-automation-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Automation
+              </Link>
+              <Link href="/lighting-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Design
+              </Link>
+              <Link href="/living-room-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Living Room Interior Design
+              </Link>
+              <Link href="/luxury-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Luxury Interior Design
+              </Link>
+              <Link href="/mall-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Mall Interior Design
+              </Link>
+              <Link href="/media-room-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Media Room Interior Design
+              </Link>
+              <Link href="/minimalist-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Minimalist Interior Design
+              </Link>
+              <Link href="/modern-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modern Interior Design
+              </Link>
+              <Link href="/modular-kitchens-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modular Kitchens
+              </Link>
+              <Link href="/office-fit-out-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Fit Out
+              </Link>
+              <Link href="/office-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Interior Design
+              </Link>
+              <Link href="/office-renovation-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Renovation
+              </Link>
+              <Link href="/outdoor-living-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Outdoor Living Design
+              </Link>
+              <Link href="/penthouse-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Penthouse Interior Design
+              </Link>
+              <Link href="/residential-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Residential Interior Design
+              </Link>
+              <Link href="/restaurant-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Restaurant Interior Design
+              </Link>
+              <Link href="/retail-shop-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Retail Shop Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/salon-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Salon Interior Design
+              </Link>
+              <Link href="/showroom-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Showroom Interior Design
+              </Link>
+              <Link href="/smart-home-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Home Interior Design
+              </Link>
+              <Link href="/smart-lighting-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Lighting
+              </Link>
+              <Link href="/soundproofing-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Soundproofing Design
+              </Link>
+              <Link href="/spa-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Spa Interior Design
+              </Link>
+              <Link href="/space-planning-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Space Planning
+              </Link>
+              <Link href="/sustainable-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Sustainable Interior Design
+              </Link>
+              <Link href="/terrace-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Terrace Interior Design
+              </Link>
+              <Link href="/villa-interior-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Villa Interior Design
+              </Link>
+              <Link href="/wall-coverings-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Coverings
+              </Link>
+              <Link href="/wall-flooring-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Flooring Design
+              </Link>
+              <Link href="/wallpaper-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wallpaper Design
+              </Link>
+              <Link href="/wardrobe-design-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wardrobe Design
+              </Link>
+              <Link href="/window-blinds-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Window Blinds
+              </Link>
+              <Link href="/window-curtains-discovery-gardens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Window Curtains
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Discovery Gardens? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

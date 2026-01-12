@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Modular Kitchens Jlt, Modular in Kitchens Jlt, Best modular Kitchens Jlt, Professional modular Kitchens Jlt, Luxury modular Kitchens Jlt, Modular Kitchens Jlt Dubai, Modular designer Kitchens Jlt, Modular company Kitchens Jlt, Modular contractor Kitchens Jlt, Affordable modular Kitchens Jlt, Modern modular Kitchens Jlt, Modular consultation Kitchens Jlt, Modular cost Kitchens Jlt, Modular price Kitchens Jlt, Top modular Kitchens Jlt
 
@@ -362,6 +363,46 @@ export default function ModularKitchensJlt() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Kitchens Jlt Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Kitchens Jlt. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/modular-kitchens-jlt-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modular
+              </Link>
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Kitchens Jlt? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

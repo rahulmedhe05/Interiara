@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Smart Lighting Jumeirah, Smart in Lighting Jumeirah, Best smart Lighting Jumeirah, Professional smart Lighting Jumeirah, Luxury smart Lighting Jumeirah, Smart Lighting Jumeirah Dubai, Smart designer Lighting Jumeirah, Smart company Lighting Jumeirah, Smart contractor Lighting Jumeirah, Affordable smart Lighting Jumeirah, Modern smart Lighting Jumeirah, Smart consultation Lighting Jumeirah, Smart cost Lighting Jumeirah, Smart price Lighting Jumeirah, Top smart Lighting Jumeirah
 
@@ -362,6 +363,46 @@ export default function SmartLightingJumeirah() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Lighting Jumeirah Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Lighting Jumeirah. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/smart-lighting-jumeirah-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart
+              </Link>
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+            <div className="space-y-3">
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Lighting Jumeirah? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Bespoke Furniture Design, Bespoke in Furniture Design, Best bespoke Furniture Design, Professional bespoke Furniture Design, Luxury bespoke Furniture Design, Bespoke Furniture Design Dubai, Bespoke designer Furniture Design, Bespoke company Furniture Design, Bespoke contractor Furniture Design, Affordable bespoke Furniture Design, Modern bespoke Furniture Design, Bespoke consultation Furniture Design, Bespoke cost Furniture Design, Bespoke price Furniture Design, Top bespoke Furniture Design
 
@@ -362,6 +363,148 @@ export default function BespokeFurnitureDesign() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Furniture Design Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Furniture Design. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/bespoke-furniture-design-dubai-creek-harbour" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-design-district" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-festival-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-harbour" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-hills-estate" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-international-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-investment-park" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-land" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-marina" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/bespoke-furniture-design-dubai-marina-heights" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-marina-promenade" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-marina-residences" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-silicon-oasis" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-silicon-park" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-south" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-sports-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/bespoke-furniture-design-dubai-waterfront" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke
+              </Link>
+              <Link href="/custom-furniture-design-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/custom-furniture-design-dubai-creek-harbour" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-design-district" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-festival-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-harbour" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-hills-estate" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-international-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-investment-park" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-land" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-marina" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/custom-furniture-design-dubai-marina-heights" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-marina-promenade" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-marina-residences" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-silicon-oasis" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-silicon-park" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-south" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-sports-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+              <Link href="/custom-furniture-design-dubai-waterfront" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Furniture Design? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

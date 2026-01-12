@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Modern Interior Design Deira, Modern Interior in Design Deira, Best modern interior Design Deira, Professional modern interior Design Deira, Luxury modern interior Design Deira, Modern Interior Design Deira Dubai, Modern Interior designer Design Deira, Modern Interior company Design Deira, Modern Interior contractor Design Deira, Affordable modern interior Design Deira, Modern modern interior Design Deira, Modern Interior consultation Design Deira, Modern Interior cost Design Deira, Modern Interior price Design Deira, Top modern interior Design Deira
 
@@ -362,6 +363,202 @@ export default function ModernInteriorDesignDeira() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Design Deira Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Design Deira. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/acoustic-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Acoustic
+              </Link>
+              <Link href="/apartment-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Apartment Interior
+              </Link>
+              <Link href="/arabic-style-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Arabic Style Interior
+              </Link>
+              <Link href="/balcony-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Balcony Interior
+              </Link>
+              <Link href="/banquet-hall-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Banquet Hall Interior
+              </Link>
+              <Link href="/bathroom-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bathroom Interior
+              </Link>
+              <Link href="/bedroom-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bedroom Interior
+              </Link>
+              <Link href="/bespoke-furniture-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke Furniture
+              </Link>
+              <Link href="/cafe-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Cafe Interior
+              </Link>
+              <Link href="/childrens-room-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Childrens Room Interior
+              </Link>
+              <Link href="/clinic-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Clinic Interior
+              </Link>
+              <Link href="/closet-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Closet
+              </Link>
+              <Link href="/co-working-space-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Co Working Space Interior
+              </Link>
+              <Link href="/commercial-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Commercial Interior
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/contemporary-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Contemporary Interior
+              </Link>
+              <Link href="/corporate-office-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Corporate Office Interior
+              </Link>
+              <Link href="/custom-furniture-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom Furniture
+              </Link>
+              <Link href="/dining-room-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Dining Room Interior
+              </Link>
+              <Link href="/eco-friendly-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Eco Friendly Interior
+              </Link>
+              <Link href="/event-hall-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Event Hall Interior
+              </Link>
+              <Link href="/fitness-studio-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Fitness Studio Interior
+              </Link>
+              <Link href="/gym-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Gym Interior
+              </Link>
+              <Link href="/healthcare-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Healthcare Interior
+              </Link>
+              <Link href="/home-office-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Office Interior
+              </Link>
+              <Link href="/home-theater-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Theater Interior
+              </Link>
+              <Link href="/hotel-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Hotel Interior
+              </Link>
+              <Link href="/interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior
+              </Link>
+              <Link href="/kids-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kids Interior
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/kitchen-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kitchen Interior
+              </Link>
+              <Link href="/lighting-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting
+              </Link>
+              <Link href="/living-room-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Living Room Interior
+              </Link>
+              <Link href="/luxury-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Luxury Interior
+              </Link>
+              <Link href="/mall-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Mall Interior
+              </Link>
+              <Link href="/media-room-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Media Room Interior
+              </Link>
+              <Link href="/minimalist-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Minimalist Interior
+              </Link>
+              <Link href="/modern-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modern Interior
+              </Link>
+              <Link href="/office-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Interior
+              </Link>
+              <Link href="/outdoor-living-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Outdoor Living
+              </Link>
+              <Link href="/penthouse-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Penthouse Interior
+              </Link>
+              <Link href="/residential-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Residential Interior
+              </Link>
+              <Link href="/restaurant-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Restaurant Interior
+              </Link>
+              <Link href="/retail-shop-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Retail Shop Interior
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/salon-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Salon Interior
+              </Link>
+              <Link href="/showroom-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Showroom Interior
+              </Link>
+              <Link href="/smart-home-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Home Interior
+              </Link>
+              <Link href="/soundproofing-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Soundproofing
+              </Link>
+              <Link href="/spa-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Spa Interior
+              </Link>
+              <Link href="/sustainable-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Sustainable Interior
+              </Link>
+              <Link href="/terrace-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Terrace Interior
+              </Link>
+              <Link href="/villa-interior-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Villa Interior
+              </Link>
+              <Link href="/wall-flooring-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Flooring
+              </Link>
+              <Link href="/wallpaper-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wallpaper
+              </Link>
+              <Link href="/wardrobe-design-deira-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wardrobe
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Design Deira? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Office Fit Out Dubai Marina, Office Fit Out in Dubai Marina, Best office fit out Dubai Marina, Professional office fit out Dubai Marina, Luxury office fit out Dubai Marina, Office Fit Out Dubai Marina Dubai, Office Fit Out designer Dubai Marina, Office Fit Out company Dubai Marina, Office Fit Out contractor Dubai Marina, Affordable office fit out Dubai Marina, Modern office fit out Dubai Marina, Office Fit Out consultation Dubai Marina, Office Fit Out cost Dubai Marina, Office Fit Out price Dubai Marina, Top office fit out Dubai Marina
 
@@ -362,6 +363,91 @@ export default function OfficeFitOutDubaiMarina() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Dubai Marina Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Dubai Marina. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/3d-interior-rendering-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                3D Interior Rendering
+              </Link>
+              <Link href="/apartment-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Apartment Interior Design
+              </Link>
+              <Link href="/bathroom-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bathroom Interior Design
+              </Link>
+              <Link href="/commercial-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Commercial Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/custom-furniture-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom Furniture Design
+              </Link>
+              <Link href="/home-decor-consultation-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Decor Consultation
+              </Link>
+              <Link href="/home-renovation-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Renovation
+              </Link>
+              <Link href="/kitchen-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kitchen Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/lighting-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Design
+              </Link>
+              <Link href="/modular-kitchens-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modular Kitchens
+              </Link>
+              <Link href="/office-fit-out-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Fit Out
+              </Link>
+              <Link href="/office-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Interior Design
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/office-renovation-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Renovation
+              </Link>
+              <Link href="/residential-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Residential Interior Design
+              </Link>
+              <Link href="/space-planning-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Space Planning
+              </Link>
+              <Link href="/villa-interior-design-dubai-marina-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Villa Interior Design
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Dubai Marina? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

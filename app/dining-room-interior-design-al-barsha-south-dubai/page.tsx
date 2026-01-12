@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords: Dining Room Interior Design Al Barsha South, Dining Room Interior Design Al in Barsha South, Best dining room interior design al Barsha South, Professional dining room interior design al Barsha South, Luxury dining room interior design al Barsha South, Dining Room Interior Design Al Barsha South Dubai, Dining Room Interior Design Al designer Barsha South, Dining Room Interior Design Al company Barsha South, Dining Room Interior Design Al contractor Barsha South, Affordable dining room interior design al Barsha South, Modern dining room interior design al Barsha South, Dining Room Interior Design Al consultation Barsha South, Dining Room Interior Design Al cost Barsha South, Dining Room Interior Design Al price Barsha South, Top dining room interior design al Barsha South
 
@@ -362,6 +363,262 @@ export default function DiningRoomInteriorDesignAlBarshaSouth() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Barsha South Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Barsha South. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/3d-interior-rendering-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                3D Interior Rendering Al
+              </Link>
+              <Link href="/acoustic-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Acoustic Design Al
+              </Link>
+              <Link href="/affordable-interior-solutions-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Affordable Interior Solutions Al
+              </Link>
+              <Link href="/apartment-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Apartment Interior Design Al
+              </Link>
+              <Link href="/arabic-style-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Arabic Style Interior Design Al
+              </Link>
+              <Link href="/art-consultation-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Art Consultation Al
+              </Link>
+              <Link href="/balcony-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Balcony Interior Design Al
+              </Link>
+              <Link href="/banquet-hall-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Banquet Hall Interior Design Al
+              </Link>
+              <Link href="/bathroom-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bathroom Interior Design Al
+              </Link>
+              <Link href="/bedroom-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bedroom Interior Design Al
+              </Link>
+              <Link href="/bespoke-furniture-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Bespoke Furniture Design Al
+              </Link>
+              <Link href="/budget-interior-solutions-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Budget Interior Solutions Al
+              </Link>
+              <Link href="/cafe-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Cafe Interior Design Al
+              </Link>
+              <Link href="/childrens-room-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Childrens Room Interior Design Al
+              </Link>
+              <Link href="/clinic-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Clinic Interior Design Al
+              </Link>
+              <Link href="/closet-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Closet Design Al
+              </Link>
+              <Link href="/co-working-space-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Co Working Space Interior Design Al
+              </Link>
+              <Link href="/color-theme-consultation-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Color Theme Consultation Al
+              </Link>
+              <Link href="/commercial-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Commercial Interior Design Al
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/contemporary-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Contemporary Interior Design Al
+              </Link>
+              <Link href="/corporate-office-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Corporate Office Interior Design Al
+              </Link>
+              <Link href="/custom-furniture-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Custom Furniture Design Al
+              </Link>
+              <Link href="/dining-room-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Dining Room Interior Design Al
+              </Link>
+              <Link href="/drapes-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Drapes Al
+              </Link>
+              <Link href="/eco-friendly-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Eco Friendly Interior Design Al
+              </Link>
+              <Link href="/event-hall-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Event Hall Interior Design Al
+              </Link>
+              <Link href="/fitness-studio-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Fitness Studio Interior Design Al
+              </Link>
+              <Link href="/gym-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Gym Interior Design Al
+              </Link>
+              <Link href="/healthcare-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Healthcare Interior Design Al
+              </Link>
+              <Link href="/home-decor-consultation-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Decor Consultation Al
+              </Link>
+              <Link href="/home-office-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Office Interior Design Al
+              </Link>
+              <Link href="/home-remodeling-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Remodeling Al
+              </Link>
+              <Link href="/home-renovation-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Renovation Al
+              </Link>
+              <Link href="/home-theater-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Home Theater Interior Design Al
+              </Link>
+              <Link href="/hotel-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Hotel Interior Design Al
+              </Link>
+              <Link href="/interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Design Al
+              </Link>
+              <Link href="/interior-space-optimization-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Space Optimization Al
+              </Link>
+              <Link href="/interior-visualization-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Interior Visualization Al
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/kids-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kids Interior Design Al
+              </Link>
+              <Link href="/kitchen-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Kitchen Interior Design Al
+              </Link>
+              <Link href="/lighting-automation-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Automation Al
+              </Link>
+              <Link href="/lighting-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Lighting Design Al
+              </Link>
+              <Link href="/living-room-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Living Room Interior Design Al
+              </Link>
+              <Link href="/luxury-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Luxury Interior Design Al
+              </Link>
+              <Link href="/mall-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Mall Interior Design Al
+              </Link>
+              <Link href="/media-room-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Media Room Interior Design Al
+              </Link>
+              <Link href="/minimalist-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Minimalist Interior Design Al
+              </Link>
+              <Link href="/modern-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modern Interior Design Al
+              </Link>
+              <Link href="/modular-kitchens-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Modular Kitchens Al
+              </Link>
+              <Link href="/office-fit-out-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Fit Out Al
+              </Link>
+              <Link href="/office-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Interior Design Al
+              </Link>
+              <Link href="/office-renovation-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Office Renovation Al
+              </Link>
+              <Link href="/outdoor-living-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Outdoor Living Design Al
+              </Link>
+              <Link href="/penthouse-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Penthouse Interior Design Al
+              </Link>
+              <Link href="/residential-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Residential Interior Design Al
+              </Link>
+              <Link href="/restaurant-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Restaurant Interior Design Al
+              </Link>
+              <Link href="/retail-shop-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Retail Shop Interior Design Al
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/salon-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Salon Interior Design Al
+              </Link>
+              <Link href="/showroom-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Showroom Interior Design Al
+              </Link>
+              <Link href="/smart-home-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Home Interior Design Al
+              </Link>
+              <Link href="/smart-lighting-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Smart Lighting Al
+              </Link>
+              <Link href="/soundproofing-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Soundproofing Design Al
+              </Link>
+              <Link href="/spa-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Spa Interior Design Al
+              </Link>
+              <Link href="/space-planning-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Space Planning Al
+              </Link>
+              <Link href="/sustainable-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Sustainable Interior Design Al
+              </Link>
+              <Link href="/terrace-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Terrace Interior Design Al
+              </Link>
+              <Link href="/villa-interior-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Villa Interior Design Al
+              </Link>
+              <Link href="/wall-coverings-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Coverings Al
+              </Link>
+              <Link href="/wall-flooring-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wall Flooring Design Al
+              </Link>
+              <Link href="/wallpaper-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wallpaper Design Al
+              </Link>
+              <Link href="/wardrobe-design-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Wardrobe Design Al
+              </Link>
+              <Link href="/window-blinds-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Window Blinds Al
+              </Link>
+              <Link href="/window-curtains-al-barsha-south-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                Window Curtains Al
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Barsha South? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />

@@ -8,6 +8,7 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 // SEO Keywords:  Modular Kitchens,  in Modular Kitchens, Best  Modular Kitchens, Professional  Modular Kitchens, Luxury  Modular Kitchens,  Modular Kitchens Dubai,  designer Modular Kitchens,  company Modular Kitchens,  contractor Modular Kitchens, Affordable  Modular Kitchens, Modern  Modular Kitchens,  consultation Modular Kitchens,  cost Modular Kitchens,  price Modular Kitchens, Top  Modular Kitchens
 
@@ -362,6 +363,97 @@ export default function ModularKitchens() {
           </div>
         </div>
       </section>
+
+      
+      {/* Location Services Footer */}
+      <section className="py-16 bg-muted/50 border-t">
+        <div className="container mx-auto px-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
+              All Modular Kitchens Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore our complete range of interior design services available in Modular Kitchens. 
+              Each service is tailored to meet the unique needs and preferences of this area.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-3">
+              <Link href="/modular-kitchens-dubai" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-creek-harbour" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-design-district" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-festival-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-harbour" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/modular-kitchens-dubai-hills-estate" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-international-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-investment-park" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-land" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-marina" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/modular-kitchens-dubai-marina-heights" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-marina-promenade" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-marina-residences" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-silicon-oasis" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-silicon-park" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+            </div>
+            <div className="space-y-3">
+              <Link href="/modular-kitchens-dubai-south" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-sports-city" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+              <Link href="/modular-kitchens-dubai-waterfront" className="block text-primary hover:text-primary-dark hover:underline transition-colors duration-200 text-sm font-medium">
+                
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground">
+              Looking for a specific service in Modular Kitchens? 
+              <Link href="/" className="text-primary hover:underline ml-1">
+                Explore all our services
+              </Link>
+            </p>
+          </div>
+        </div>
+      </section>
+
 
       <Footer />
       <WhatsAppFloat />
