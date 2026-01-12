@@ -4,11 +4,49 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react"
 import Link from "next/link"
 
 export function Footer() {
-  const services = [
+  const residentialServices = [
+    { name: "Villa Design", slug: "villa-interior-design-dubai" },
+    { name: "Apartment Design", slug: "apartment-interior-design-dubai" },
+    { name: "Penthouse Design", slug: "penthouse-interior-design-dubai" },
+    { name: "Kitchen Design", slug: "kitchen-interior-design-dubai" },
+    { name: "Bedroom Design", slug: "bedroom-interior-design-dubai" },
+    { name: "Living Room Design", slug: "living-room-interior-design-dubai" },
+    { name: "Bathroom Design", slug: "bathroom-interior-design-dubai" },
+    { name: "Home Office Design", slug: "home-office-interior-design-dubai" },
+  ]
+
+  const commercialServices = [
+    { name: "Office Design", slug: "office-interior-design-dubai" },
+    { name: "Office Fit Out", slug: "office-fit-out-dubai" },
+    { name: "Commercial Design", slug: "commercial-interior-design-dubai" },
+    { name: "Restaurant Design", slug: "restaurant-interior-design-dubai" },
+    { name: "Cafe Design", slug: "cafe-interior-design-dubai" },
+    { name: "Hotel Design", slug: "hotel-interior-design-dubai" },
+    { name: "Retail Shop Design", slug: "retail-shop-interior-design-dubai" },
+    { name: "Showroom Design", slug: "showroom-interior-design-dubai" },
+  ]
+
+  const styleServices = [
+    { name: "Luxury Design", slug: "luxury-interior-design-dubai" },
+    { name: "Modern Design", slug: "modern-interior-design-dubai" },
+    { name: "Arabic Style Design", slug: "arabic-style-interior-design-dubai" },
+    { name: "Minimalist Design", slug: "minimalist-interior-design-dubai" },
+    { name: "Contemporary Design", slug: "contemporary-interior-design-dubai" },
+    { name: "Sustainable Design", slug: "sustainable-interior-design-dubai" },
+  ]
+
+  const specializedServices = [
+    { name: "Modular Kitchens", slug: "modular-kitchens-dubai" },
+    { name: "Custom Furniture", slug: "custom-furniture-design-dubai" },
+    { name: "Lighting Design", slug: "lighting-design-dubai" },
+    { name: "3D Rendering", slug: "3d-interior-rendering-dubai" },
+    { name: "Space Planning", slug: "space-planning-dubai" },
+    { name: "Wardrobe Design", slug: "wardrobe-design-dubai" },
+  ]
+
+  const allServices = [
     { name: "Residential Interior Design", slug: "residential-interior-design-dubai" },
     { name: "Commercial Interior Design", slug: "commercial-interior-design-dubai" },
-    { name: "Villa Interior Design", slug: "villa-interior-design-dubai" },
-    { name: "Apartment Interior Design", slug: "apartment-interior-design-dubai" },
     { name: "Penthouse Interior Design", slug: "penthouse-interior-design-dubai" },
     { name: "Office Interior Design", slug: "office-interior-design-dubai" },
     { name: "Office Fit Out", slug: "office-fit-out-dubai" },
@@ -84,135 +122,119 @@ export function Footer() {
 
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-3 sm:px-4 py-8 md:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 mb-8 md:mb-0">
+      <div className="container mx-auto px-3 sm:px-4 py-8 md:py-12">
+        {/* Main Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6 mb-8">
           {/* Company Info */}
-          <div>
-            <h3 className="text-3xl font-bold mb-4 text-accent">Interiara</h3>
-            <p className="text-primary-foreground/80 font-mono leading-relaxed mb-6">
-              Where innovation meets elegance in interior design. Crafting stunning spaces for villas, apartments, and businesses across Dubai.
+          <div className="col-span-1">
+            <h3 className="text-2xl font-bold mb-2 text-accent">Interiara</h3>
+            <p className="text-primary-foreground/80 text-xs leading-relaxed mb-4">
+              Premier interior design studio in Dubai. Transforming spaces into stunning experiences.
             </p>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-xl font-bold mb-6">Quick Links</h4>
-            <ul className="space-y-3">
-              {["Home", "About Us", "Gallery", "Packages", "Contact"].map((link) => (
-                <li key={link}>
-                  <button
-                    onClick={() => {
-                      const element = document.getElementById(link.toLowerCase().replace(" ", "-"))
-                      element?.scrollIntoView({ behavior: "smooth" })
-                    }}
-                    className="text-primary-foreground/80 hover:text-accent transition-colors font-mono"
-                  >
-                    {link}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Services Column 1 */}
-          <div>
-            <h4 className="text-xl font-bold mb-6">Services</h4>
-            <ul className="space-y-2 text-primary-foreground/80 font-mono text-sm">
-              {services.slice(0, 20).map((service) => (
-                <li key={service.slug}>
-                  <Link
-                    href={`/${service.slug}`}
-                    className="hover:text-accent transition-colors"
-                  >
-                    {service.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Services Column 2 */}
-          <div>
-            <h4 className="text-xl font-bold mb-6">More Services</h4>
-            <ul className="space-y-2 text-primary-foreground/80 font-mono text-sm">
-              {services.slice(20).map((service) => (
-                <li key={service.slug}>
-                  <Link
-                    href={`/${service.slug}`}
-                    className="hover:text-accent transition-colors"
-                  >
-                    {service.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        {/* Contact Info Section */}
-        <div className="mt-8 md:mt-12 pt-8 border-t border-primary-foreground/20">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="flex items-start gap-3">
-              <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
-              <div>
-                <p className="font-bold mb-1">Location</p>
-                <p className="text-primary-foreground/80 font-mono text-sm">
-                  Dubai, United Arab Emirates
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-              <div>
-                <p className="font-bold mb-1">Call Us</p>
-                <a
-                  href="tel:+916353583148"
-                  className="text-primary-foreground/80 hover:text-accent transition-colors font-mono text-sm"
-                >
+            <div className="space-y-2 text-xs">
+              <p className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+                <span className="text-primary-foreground/80">Dubai, UAE</span>
+              </p>
+              <p className="flex items-start gap-2">
+                <Phone className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+                <a href="tel:+916353583148" className="text-primary-foreground/80 hover:text-accent">
                   +91 635 358 3148
                 </a>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <Mail className="w-5 h-5 text-accent flex-shrink-0" />
-              <div>
-                <p className="font-bold mb-1">Email</p>
-                <a
-                  href="mailto:info@interiara.com"
-                  className="text-primary-foreground/80 hover:text-accent transition-colors font-mono text-sm"
-                >
+              </p>
+              <p className="flex items-start gap-2">
+                <Mail className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+                <a href="mailto:info@interiara.com" className="text-primary-foreground/80 hover:text-accent">
                   info@interiara.com
                 </a>
-              </div>
+              </p>
             </div>
+          </div>
+
+          {/* Residential */}
+          <div>
+            <h4 className="text-sm font-bold mb-3 text-accent">Residential</h4>
+            <ul className="space-y-1">
+              {residentialServices.map((service) => (
+                <li key={service.slug}>
+                  <Link href={`/${service.slug}`} className="text-xs text-primary-foreground/80 hover:text-accent transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Commercial */}
+          <div>
+            <h4 className="text-sm font-bold mb-3 text-accent">Commercial</h4>
+            <ul className="space-y-1">
+              {commercialServices.map((service) => (
+                <li key={service.slug}>
+                  <Link href={`/${service.slug}`} className="text-xs text-primary-foreground/80 hover:text-accent transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Styles */}
+          <div>
+            <h4 className="text-sm font-bold mb-3 text-accent">Design Styles</h4>
+            <ul className="space-y-1">
+              {styleServices.map((service) => (
+                <li key={service.slug}>
+                  <Link href={`/${service.slug}`} className="text-xs text-primary-foreground/80 hover:text-accent transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Specialized */}
+          <div>
+            <h4 className="text-sm font-bold mb-3 text-accent">Specialized</h4>
+            <ul className="space-y-1">
+              {specializedServices.map((service) => (
+                <li key={service.slug}>
+                  <Link href={`/${service.slug}`} className="text-xs text-primary-foreground/80 hover:text-accent transition-colors">
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
-        {/* Service Areas */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/20">
-          <h4 className="text-xl font-bold mb-4 text-center">Interior Design Services - All Areas of Dubai & UAE</h4>
-          <p className="text-center text-primary-foreground/80 font-mono text-sm leading-relaxed">
-            Covering 74+ residential and commercial interior design services across Dubai's premium localities including Downtown Dubai, Dubai Marina, Palm Jumeirah, Business Bay, JBR, Arabian Ranches, Jumeirah, DIFC, and all Emirates
-          </p>
-          <p className="text-center text-accent font-mono text-sm mt-3">
-            ✓ Villa Interior Design | ✓ Apartment & Penthouse Design | ✓ Office & Commercial Spaces | ✓ Arabic Style Interiors | ✓ Luxury & Modern Design
-          </p>
+        {/* All Services Links (for SEO) */}
+        <div className="pt-6 border-t border-primary-foreground/10">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 text-xs">
+            {allServices.map((service) => (
+              <Link
+                key={service.slug}
+                href={`/${service.slug}`}
+                className="text-primary-foreground/60 hover:text-accent transition-colors"
+              >
+                {service.name}
+              </Link>
+            ))}
+          </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-primary-foreground/80 font-mono text-sm text-center md:text-left">
-              © 2026 Interiara. All rights reserved. | Dubai's Premier Interior Design Studio
+        <div className="mt-6 pt-6 border-t border-primary-foreground/10">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+            <p className="text-primary-foreground/60 text-center md:text-left">
+              © 2026 Interiara. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm font-mono">
-              <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+            <div className="flex gap-4">
+              <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                Terms of Service
+              <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
+                Terms
               </a>
             </div>
           </div>
@@ -222,7 +244,9 @@ export function Footer() {
       {/* SEO Keywords (hidden) */}
       <div className="sr-only">
         <h2>Interiara - Best Interior Design Company in Dubai UAE</h2>
-        <p>Interior design Dubai, villa interior design UAE, apartment interior design Dubai, penthouse interior design, luxury interior design Dubai, Arabic style interior design, modern interior design UAE, office interior design Dubai, commercial interior design, restaurant interior design Dubai, cafe interior design, retail shop interior design, hotel interior design Dubai, kitchen interior design, bedroom interior design, living room interior design, bathroom interior design, modular kitchen Dubai, wardrobe design, space planning Dubai, 3D interior visualization, interior renovation Dubai, home renovation UAE, furniture design Dubai, custom furniture, interior consultation, best interior designer Dubai, Interiara, interior design Downtown Dubai, interior designer Dubai Marina, Palm Jumeirah interior design, Business Bay interior designer, Arabian Ranches villa interior, affordable interior design Dubai, turnkey interior solutions Dubai, end to end interior design</p>
+        <p>
+          {allServices.map(s => s.name).join(", ")}
+        </p>
       </div>
     </footer>
   )
