@@ -1,10 +1,10 @@
-import { Crown, Users, Award, Heart, Clock, Shield, Palette, CheckCircle, IndianRupee, Truck } from "lucide-react"
+import { Crown, Users, Award, Heart, Clock, Shield, Palette, CheckCircle, Banknote, Truck } from "lucide-react"
 
 const features = [
   {
-    icon: IndianRupee,
+    icon: Banknote,
     title: "Beautiful Interiors Yet Affordable",
-    description: "Stunning designs that don't break the bank - luxury aesthetics at competitive prices",
+    description: "Stunning designs that don't break the bank - luxury aesthetics at competitive AED prices",
   },
   {
     icon: Clock,
@@ -38,18 +38,18 @@ export function AboutSection() {
     <section id="about" className="py-20 md:py-32 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <p className="text-accent font-mono uppercase tracking-wider mb-4">Introducing Nesture Interiors</p>
+          <p className="text-accent font-mono uppercase tracking-wider mb-4">Introducing Interiara</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-            Where Innovation Meets Elegance
+            Dubai's Premier Interior Design Company
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed font-mono mb-6">
             {
-              "Welcome to Nesture Interiors where innovation meets elegance in interior design. Specializing in both residential and commercial projects, our passion lies in crafting spaces that not only look stunning but also enhance the way you live and work."
+              "Welcome to Interiara – Dubai's award-winning interior design company where innovation meets elegance. With over 500+ successful projects delivered across UAE, we specialize in transforming villas, apartments, penthouses, offices, and commercial spaces into extraordinary living and working environments."
             }
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed font-mono">
             {
-              "With a keen eye for detail and a commitment to excellence, we take pride in bringing our client's visions to life, turning their dreams into tangible realities. Our goal is to design living spaces that elevate the human experience through design excellence, sustainability, and innovative practices."
+              "From contemporary Arabic style interiors to modern minimalist designs, our expert team of designers brings unparalleled creativity and precision to every project. We blend functionality with aesthetic excellence, creating bespoke spaces that reflect your unique personality while enhancing your quality of life. Experience the Interiara difference – where every detail matters."
             }
           </p>
         </div>
@@ -80,7 +80,7 @@ export function AboutSection() {
         <div className="text-center mb-12">
           <p className="text-accent font-mono uppercase tracking-wider mb-4">Why Choose Us</p>
           <h3 className="text-3xl md:text-4xl font-bold text-foreground text-balance">
-            Why Choose Nesture Interiors?
+            Why Choose Interiara?
           </h3>
         </div>
 
@@ -136,21 +136,21 @@ export function AboutSection() {
         <div className="mt-20 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="/3d model.png"
-              alt="Our Craftsmanship"
+              src="/Villa-interior-design-Dubai-with-Accouter-Design.webp"
+              alt="Luxury Villa Interior Design Dubai - Interiara"
               className="rounded-lg w-full object-cover aspect-square"
             />
           </div>
           <div className="space-y-6">
-            <h3 className="text-3xl md:text-4xl font-bold text-foreground text-balance">Transform Your Space With Nesture Interiors</h3>
+            <h3 className="text-3xl md:text-4xl font-bold text-foreground text-balance">Transform Your Space With Dubai's Most Trusted Interior Designers</h3>
             <p className="text-muted-foreground font-mono leading-relaxed text-lg">
               {
-                "At Nesture Interiors, we believe every space tells a story. Our expert team combines contemporary design principles with personalized styling to ensure every interior reflects your unique personality and lifestyle perfectly."
+                "At Interiara, we believe every space tells a story. As one of Dubai's leading interior design firms, our expert team of 25+ designers combines contemporary design principles with Arabic heritage and modern global trends to ensure every interior reflects your unique personality and lifestyle."
               }
             </p>
             <p className="text-muted-foreground font-mono leading-relaxed text-lg">
               {
-                "From modern minimalist designs to luxury contemporary interiors, Nesture Interiors delivers premium quality, perfect execution, and exceptional service across Bangalore, Karnataka."
+                "Whether you're looking for a luxury villa makeover in Palm Jumeirah, a modern apartment design in Dubai Marina, or a sophisticated office fit-out in Business Bay – Interiara delivers exceptional quality, seamless execution, and outstanding service that exceeds expectations."
               }
             </p>
             <ul className="space-y-3">

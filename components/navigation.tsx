@@ -34,7 +34,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex items-center pt-2">
-            <h1 className={`text-lg sm:text-2xl md:text-3xl font-bold transition-colors duration-300 ${isScrolled ? "text-black" : "text-white"}`}>Nesture Interiors</h1>
+            <h1 className={`text-lg sm:text-2xl md:text-3xl font-bold transition-colors duration-300 ${isScrolled ? "text-black" : "text-white"}`}>Interiara</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -52,6 +52,12 @@ export function Navigation() {
               About
             </button>
             <button
+              onClick={() => scrollToSection("services")}
+              className="text-sm text-foreground hover:text-primary transition-colors font-mono"
+            >
+              Services
+            </button>
+            <button
               onClick={() => scrollToSection("gallery")}
               className="text-sm text-foreground hover:text-primary transition-colors font-mono"
             >
@@ -63,10 +69,12 @@ export function Navigation() {
             >
               Contact
             </button>
-            <Button className="bg-primary hover:bg-accent text-white font-semibold text-sm px-4 py-2 h-auto">
-              <Phone className="w-4 h-4 mr-2" />
-              Call Now
-            </Button>
+            <a href="tel:+916353583148">
+              <Button className="bg-primary hover:bg-accent text-white font-semibold text-sm px-4 py-2 h-auto">
+                <Phone className="w-4 h-4 mr-2" />
+                Call Now
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -92,6 +100,12 @@ export function Navigation() {
                 About
               </button>
               <button
+                onClick={() => scrollToSection("services")}
+                className="text-left text-sm text-foreground hover:text-primary transition-colors font-mono py-2 px-3"
+              >
+                Services
+              </button>
+              <button
                 onClick={() => scrollToSection("gallery")}
                 className="text-left text-sm text-foreground hover:text-primary transition-colors font-mono py-2 px-3"
               >
@@ -103,10 +117,12 @@ export function Navigation() {
               >
                 Contact
               </button>
-              <Button className="bg-primary hover:bg-accent text-white font-semibold w-full text-sm py-2 h-auto">
-                <Phone className="w-4 h-4 mr-2" />
-                Call Now
-              </Button>
+              <a href="tel:+916353583148">
+                <Button className="bg-primary hover:bg-accent text-white font-semibold w-full text-sm py-2 h-auto">
+                  <Phone className="w-4 h-4 mr-2" />
+                  Call Now
+                </Button>
+              </a>
             </div>
           </div>
         )}

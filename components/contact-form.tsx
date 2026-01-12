@@ -34,20 +34,20 @@ export function ContactForm() {
 
     // Construct WhatsApp message
     const message = `
-✨ *INTERIOR DESIGN ENQUIRY* ✨
+*INTERIOR DESIGN ENQUIRY*
 
-• *Full Name:* ${formData.fullName}
-• *Phone Number:* ${formData.phoneNumber}
-• *Property Type:* ${formData.propertyType}
-• *City:* ${formData.city}
-• *Budget:* ${formData.budget || 'Not specified'}
+*Full Name:* ${formData.fullName}
+*Phone Number:* ${formData.phoneNumber}
+*Property Type:* ${formData.propertyType}
+*City:* ${formData.city}
+*Budget:* ${formData.budget || 'Not specified'}
 
-―――――――――――――
-_Sent via Nesture Interiors Website_
+---
+_Sent via Interiara Website_
     `.trim()
 
     // Replace with your WhatsApp number (include country code without + sign)
-    const whatsappNumber = "918618080171"
+    const whatsappNumber = "916353583148"
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
     // Open WhatsApp
@@ -115,13 +115,17 @@ _Sent via Nesture Interiors Website_
                     className="w-full bg-background border border-border text-foreground rounded-md px-3 py-2 text-sm"
                   >
                     <option value="">Select Property Type</option>
-                    <option value="1BHK">1BHK</option>
-                    <option value="2BHK">2BHK</option>
-                    <option value="3BHK">3BHK</option>
+                    <option value="Studio">Studio Apartment</option>
+                    <option value="1BR">1 Bedroom</option>
+                    <option value="2BR">2 Bedrooms</option>
+                    <option value="3BR">3 Bedrooms</option>
+                    <option value="Penthouse">Penthouse</option>
                     <option value="Villa">Villa</option>
-                    <option value="Bungalow">Bungalow</option>
-                    <option value="Commercial">Commercial</option>
+                    <option value="Townhouse">Townhouse</option>
                     <option value="Office">Office</option>
+                    <option value="Retail">Retail Shop</option>
+                    <option value="Restaurant">Restaurant/Cafe</option>
+                    <option value="Commercial">Commercial Space</option>
                   </select>
                 </div>
 
@@ -147,7 +151,7 @@ _Sent via Nesture Interiors Website_
                   <Input
                     id="budget"
                     type="text"
-                    placeholder="e.g., 5 Lakhs, 10-20 Lakhs"
+                    placeholder="e.g., 50,000 AED, 100,000-200,000 AED"
                     value={formData.budget}
                     onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
                     className="bg-background border-border text-foreground"
@@ -172,10 +176,10 @@ _Sent via Nesture Interiors Website_
                     <h3 className="text-xl font-bold mb-2">Call Us</h3>
                     <p className="text-primary-foreground/80 font-mono mb-2">Available 9 AM - 9 PM</p>
                     <a
-                      href="tel:+918618080171"
+                      href="tel:+916353583148"
                       className="text-lg font-mono text-accent hover:text-secondary transition-colors"
                     >
-                      +91 861 808 0171
+                      +91 635 358 3148
                     </a>
                   </div>
                 </div>
@@ -190,7 +194,7 @@ _Sent via Nesture Interiors Website_
                     <h3 className="text-xl font-bold mb-2">WhatsApp</h3>
                     <p className="text-primary-foreground/80 font-mono mb-2">Quick response guaranteed</p>
                     <a
-                      href="https://wa.me/918618080171"
+                      href="https://wa.me/916353583148"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-lg font-mono text-accent hover:text-secondary transition-colors"
@@ -209,7 +213,7 @@ _Sent via Nesture Interiors Website_
                     "Instant quotes on WhatsApp",
                     "Same-day response to all queries",
                     "Flexible appointment scheduling",
-                    "On-site service available across Bangalore",
+                    "On-site service available across Dubai & UAE",
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />

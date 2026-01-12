@@ -1,0 +1,25 @@
+{
+  "name": "Interiara - Interior Design Dubai",
+  "short_name": "Interiara",
+  "description": "Dubai's leading interior design company specializing in luxury villa interiors, modern apartment design, Arabic style interiors, office fit-outs & commercial spaces across UAE.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr"
+}

@@ -6,7 +6,7 @@ import { Check, Sparkles, Crown, Star } from "lucide-react"
 const packages = [
   {
     name: "Basic Interior Makeover",
-    price: "Starting ₹99,999",
+    price: "Get Free Quote",
     icon: Star,
     popular: false,
     features: [
@@ -20,7 +20,7 @@ const packages = [
   },
   {
     name: "Premium Home Design",
-    price: "Starting ₹3,99,999",
+    price: "Get Free Quote",
     icon: Sparkles,
     popular: true,
     features: [
@@ -36,7 +36,7 @@ const packages = [
   },
   {
     name: "Luxury Commercial Design",
-    price: "Custom Quote",
+    price: "Get Free Quote",
     icon: Crown,
     popular: false,
     features: [
@@ -57,7 +57,7 @@ const packages = [
 export function PackagesSection() {
   const handleWhatsAppInquiry = (packageName: string) => {
     const message = `Hello! I'm interested in the ${packageName} interior design package. Please provide more details.`
-    const whatsappNumber = "919876543210"
+    const whatsappNumber = "916353583148"
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappURL, "_blank")
   }
@@ -66,12 +66,12 @@ export function PackagesSection() {
     <section id="packages" className="py-12 md:py-32 bg-card">
       <div className="container mx-auto px-3 sm:px-4">
         <div className="text-center max-w-3xl mx-auto mb-8 md:mb-16">
-          <p className="text-accent font-mono uppercase tracking-wider mb-2 md:mb-4 text-xs sm:text-sm">Interior Design Pricing</p>
+          <p className="text-accent font-mono uppercase tracking-wider mb-2 md:mb-4 text-xs sm:text-sm">Interior Design Packages</p>
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-foreground mb-4 md:mb-6 text-balance">
-            Professional Interior Design Packages in Vadodara
+            Professional Interior Design Packages in Dubai
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed font-mono">
-            {"Transparent pricing with no hidden costs. Comprehensive design packages with flexible timelines and complete project management. Award-winning interior design service in Vadodara for homes, offices & commercial spaces"}
+            {"Comprehensive design packages with flexible timelines and complete project management. Award-winning interior design service in Dubai for villas, apartments, offices & commercial spaces"}
           </p>
         </div>
 
@@ -95,8 +95,7 @@ export function PackagesSection() {
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">{pkg.name}</h3>
                 <div className="flex items-baseline justify-center gap-1">
-                  <span className="text-4xl font-bold text-primary">{pkg.price}</span>
-                  <span className="text-muted-foreground font-mono">/event</span>
+                  <span className="text-2xl font-bold text-primary">{pkg.price}</span>
                 </div>
               </div>
 
@@ -137,7 +136,7 @@ export function PackagesSection() {
                 "3D visualization & mockups",
                 "Material selection guidance",
                 "Flexible project timelines",
-                "Service across all Vadodara areas",
+                "Service across all Dubai areas",
                 "On-site supervision & support",
                 "Quality assurance guarantee",
               ].map((item, index) => (

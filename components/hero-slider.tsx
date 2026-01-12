@@ -11,23 +11,23 @@ const slides = [
   {
     id: 1,
     title: "Crafting Dream Interiors",
-    subtitle: "Bangalore's Trusted Interior Designers",
-    description: "Transforming homes, offices, and commercial spaces across Bangalore with stunning interior designs",
-    image: "/Slider1.png",
+    subtitle: "Dubai's Premier Interior Designers",
+    description: "Transforming villas, apartments, offices, and commercial spaces across Dubai with stunning interior designs",
+    image: "/slider1.png",
   },
   {
     id: 2,
-    title: "Elegant Living Spaces",
-    subtitle: "Where Style Meets Comfort",
-    description: "Contemporary interior design blending functionality with aesthetic excellence for Bangalore homes",
-    image: "/Slider2.png",
+    title: "Luxury Living Spaces",
+    subtitle: "Where Elegance Meets Innovation",
+    description: "Contemporary & Arabic style interior design blending functionality with aesthetic excellence for Dubai homes",
+    image: "/slider2.png",
   },
   {
     id: 3,
     title: "End-to-End Design Solutions",
     subtitle: "Your Vision, Our Expertise",
-    description: "Complete interior solutions from concept development to flawless execution in Bangalore",
-    image: "/Slider3.png",
+    description: "Complete interior solutions from concept development to flawless execution across UAE",
+    image: "/slider3.png",
   },
 ]
 
@@ -54,19 +54,19 @@ export function HeroSlider() {
     })
 
     const message = `
-✨ *INTERIOR DESIGN ENQUIRY* ✨
+*INTERIOR DESIGN ENQUIRY*
 
-• *Full Name:* ${formData.fullName}
-• *Phone Number:* ${formData.phoneNumber}
-• *Property Type:* ${formData.propertyType}
-• *City:* ${formData.city}
-• *Budget:* ${formData.budget || 'Not specified'}
+*Full Name:* ${formData.fullName}
+*Phone Number:* ${formData.phoneNumber}
+*Property Type:* ${formData.propertyType}
+*City:* ${formData.city}
+*Budget:* ${formData.budget || 'Not specified'}
 
-―――――――――――――
-_Sent via Nesture Interiors Website_
+---
+_Sent via Interiara Website_
     `.trim()
 
-    const whatsappNumber = "918618080171"
+    const whatsappNumber = "916353583148"
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappURL, "_blank")
   }
@@ -87,7 +87,7 @@ _Sent via Nesture Interiors Website_
   }
 
   return (
-    <section id="home" className="relative w-full min-h-screen md:h-screen sm:h-[600px] xs:h-screen overflow-hidden pt-16 sm:pt-20">
+    <section id="home" className="relative w-full min-h-screen overflow-y-auto md:overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
@@ -102,34 +102,34 @@ _Sent via Nesture Interiors Website_
         >
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/50 to-primary/30 z-10" />
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900/30 via-slate-800/20 to-slate-900/30 z-0" />
-          <div className="absolute inset-0 z-20 flex items-center px-3 sm:px-4 md:px-0">
-            <div className="container mx-auto px-3 sm:px-4 py-4 md:py-0">
-              <div className="grid md:grid-cols-5 gap-3 md:gap-6 items-start">
+          <div className="absolute inset-0 z-20 overflow-y-auto">
+            <div className="container mx-auto px-4 min-h-full flex items-start md:items-center pt-28 sm:pt-32 md:pt-24 pb-16">
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 w-full">
                 {/* Left Side - Text Content */}
-                <div className="md:col-span-3 max-w-2xl space-y-2 md:space-y-6">
+                <div className="md:col-span-3 max-w-2xl space-y-3 md:space-y-6">
                   <div className="flex items-center gap-2 text-accent">
-                    <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" />
-                    <span className="text-xs font-mono uppercase tracking-wider">{slide.subtitle}</span>
+                    <Sparkles className="w-4 h-4 md:w-5 md:h-5" />
+                    <span className="text-xs md:text-sm font-mono uppercase tracking-wider">{slide.subtitle}</span>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl md:text-6xl font-bold text-primary-foreground leading-tight text-balance">
+                  <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight text-balance">
                     {slide.title}
                   </h2>
-                  <p className="text-sm sm:text-base md:text-lg text-primary-foreground/90 font-mono leading-relaxed">
+                  <p className="text-sm md:text-lg text-primary-foreground/90 font-mono leading-relaxed hidden sm:block">
                     {slide.description}
                   </p>
                 </div>
 
                 {/* Right Side - Form */}
-                <div className="md:col-span-2 bg-card rounded-lg p-3 md:p-5 shadow-2xl h-fit">
-                  <div className="mb-2 md:mb-3 pb-2 md:pb-3 border-b border-border">
+                <div className="md:col-span-2 bg-card rounded-lg p-4 md:p-6 shadow-2xl w-full">
+                  <div className="mb-3 pb-3 border-b border-border">
                     <p className="text-xs text-accent font-mono uppercase tracking-wider mb-1">Quick Response</p>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-card-foreground">
+                    <h3 className="text-sm md:text-base font-bold text-card-foreground">
                       Professional Interior Design Services
                       <br />
                       <em className="text-xs not-italic">— Free Consultation & 3D Visualization</em>
                     </h3>
                   </div>
-                  <form onSubmit={handleSubmit} className="space-y-2">
+                  <form onSubmit={handleSubmit} className="space-y-3">
                     <div>
                       <label htmlFor="fullName" className="block text-xs font-mono text-card-foreground mb-1">
                         1. Full Name <span className="text-destructive">*</span>
@@ -141,7 +141,7 @@ _Sent via Nesture Interiors Website_
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         required
-                        className="bg-background border-border text-foreground text-xs h-8"
+                        className="bg-background border-border text-foreground text-sm h-10"
                       />
                     </div>
 
@@ -156,7 +156,7 @@ _Sent via Nesture Interiors Website_
                         value={formData.phoneNumber}
                         onChange={(e) => setFormData({ ...formData, phoneNumber: e.target.value })}
                         required
-                        className="bg-background border-border text-foreground text-xs h-8"
+                        className="bg-background border-border text-foreground text-sm h-10"
                       />
                     </div>
 
@@ -169,16 +169,20 @@ _Sent via Nesture Interiors Website_
                         value={formData.propertyType}
                         onChange={(e) => setFormData({ ...formData, propertyType: e.target.value })}
                         required
-                        className="w-full bg-background border border-border text-foreground rounded-md px-2 py-1 text-xs h-8"
+                        className="w-full bg-background border border-border text-foreground rounded-md px-3 py-2 text-sm h-10"
                       >
                         <option value="">Select Property Type</option>
-                        <option value="1BHK">1BHK</option>
-                        <option value="2BHK">2BHK</option>
-                        <option value="3BHK">3BHK</option>
+                        <option value="Studio">Studio Apartment</option>
+                        <option value="1BR">1 Bedroom</option>
+                        <option value="2BR">2 Bedrooms</option>
+                        <option value="3BR">3 Bedrooms</option>
+                        <option value="Penthouse">Penthouse</option>
                         <option value="Villa">Villa</option>
-                        <option value="Bungalow">Bungalow</option>
-                        <option value="Commercial">Commercial</option>
+                        <option value="Townhouse">Townhouse</option>
                         <option value="Office">Office</option>
+                        <option value="Retail">Retail Shop</option>
+                        <option value="Restaurant">Restaurant/Cafe</option>
+                        <option value="Commercial">Commercial Space</option>
                       </select>
                     </div>
 
@@ -193,7 +197,7 @@ _Sent via Nesture Interiors Website_
                         value={formData.city}
                         onChange={(e) => setFormData({ ...formData, city: e.target.value })}
                         required
-                        className="bg-background border-border text-foreground text-xs h-8"
+                        className="bg-background border-border text-foreground text-sm h-10"
                       />
                     </div>
 
@@ -204,15 +208,15 @@ _Sent via Nesture Interiors Website_
                       <Input
                         id="budget"
                         type="text"
-                        placeholder="e.g., 5 Lakhs, 10-20 Lakhs"
+                        placeholder="Enter your budget"
                         value={formData.budget}
                         onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                        className="bg-background border-border text-foreground text-xs h-8"
+                        className="bg-background border-border text-foreground text-sm h-10"
                       />
                     </div>
 
-                    <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white text-xs h-8">
-                      <MessageCircle className="w-3 h-3 mr-1" />
+                    <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white text-sm h-10 mt-2">
+                      <MessageCircle className="w-4 h-4 mr-2" />
                       Send via WhatsApp
                     </Button>
                   </form>
@@ -224,7 +228,7 @@ _Sent via Nesture Interiors Website_
       ))}
 
       {/* Dots Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 flex gap-2">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 flex gap-2">
         {slides.map((_, index) => (
           <button
             key={index}

@@ -34,20 +34,20 @@ export function WhatsAppFloat() {
 
     // Construct WhatsApp message
     const message = `
-✨ *INTERIOR DESIGN ENQUIRY* ✨
+*INTERIOR DESIGN ENQUIRY*
 
-• *Full Name:* ${formData.fullName}
-• *Phone Number:* ${formData.phoneNumber}
-• *Property Type:* ${formData.propertyType}
-• *City:* ${formData.city}
-• *Budget:* ${formData.budget || 'Not specified'}
+*Full Name:* ${formData.fullName}
+*Phone Number:* ${formData.phoneNumber}
+*Property Type:* ${formData.propertyType}
+*City:* ${formData.city}
+*Budget:* ${formData.budget || 'Not specified'}
 
-―――――――――――――
-_Sent via Nesture Interiors Website_
+---
+_Sent via Interiara Website_
     `.trim()
 
     // Replace with your actual WhatsApp number (with country code, no + or spaces)
-    const whatsappNumber = "918618080171"
+    const whatsappNumber = "916353583148"
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
     // Open WhatsApp
@@ -130,13 +130,17 @@ _Sent via Nesture Interiors Website_
                 className="w-full bg-white border border-gray-300 text-foreground rounded-md px-3 py-2 text-sm font-mono"
               >
                 <option value="">Select Property Type</option>
-                <option value="1BHK">1BHK</option>
-                <option value="2BHK">2BHK</option>
-                <option value="3BHK">3BHK</option>
+                <option value="Studio">Studio Apartment</option>
+                <option value="1BR">1 Bedroom</option>
+                <option value="2BR">2 Bedrooms</option>
+                <option value="3BR">3 Bedrooms</option>
+                <option value="Penthouse">Penthouse</option>
                 <option value="Villa">Villa</option>
-                <option value="Bungalow">Bungalow</option>
-                <option value="Commercial">Commercial</option>
+                <option value="Townhouse">Townhouse</option>
                 <option value="Office">Office</option>
+                <option value="Retail">Retail Shop</option>
+                <option value="Restaurant">Restaurant/Cafe</option>
+                <option value="Commercial">Commercial Space</option>
               </select>
             </div>
 
@@ -160,7 +164,7 @@ _Sent via Nesture Interiors Website_
               </Label>
               <Input
                 id="budget"
-                placeholder="e.g., 5 Lakhs, 10-20 Lakhs"
+                placeholder="e.g., 50,000 AED, 100,000-200,000 AED"
                 value={formData.budget}
                 onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
                 className="font-mono"

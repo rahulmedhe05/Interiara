@@ -3,62 +3,30 @@
 import { useState } from "react"
 
 const galleryItems = [
-  { id: 1, type: "image", src: "/1.png", title: "Modern Living Room" },
-  { id: 2, type: "image", src: "/2.png", title: "Luxury Bedroom Suite" },
-  { id: 3, type: "image", src: "/3.png", title: "Contemporary Kitchen" },
-  { id: 4, type: "image", src: "/4.png", title: "Office Space Design" },
-  { id: 5, type: "image", src: "/5.png", title: "Minimalist Home" },
-  { id: 6, type: "image", src: "/6.png", title: "Commercial Space" },
-  { id: 7, type: "image", src: "/7.png", title: "Elegant Dining Area" },
-  { id: 8, type: "image", src: "/8.png", title: "Luxury Home Spa" },
-  { id: 9, type: "image", src: "/9.png", title: "Kids Room Design" },
-  { id: 10, type: "image", src: "/10.png", title: "Master Bedroom" },
-  { id: 11, type: "image", src: "/11.png", title: "Modular Kitchen" },
-  { id: 12, type: "image", src: "/12.png", title: "Living Room Decor" },
-  { id: 13, type: "image", src: "/13.png", title: "Wardrobe Design" },
-  { id: 14, type: "image", src: "/14.png", title: "Study Room" },
-  { id: 15, type: "image", src: "/15.png", title: "Pooja Room" },
-  { id: 16, type: "image", src: "/16.png", title: "Balcony Design" },
-  { id: 17, type: "image", src: "/17.png", title: "Foyer Entrance" },
-  { id: 18, type: "image", src: "/18.png", title: "TV Unit Design" },
-  { id: 19, type: "image", src: "/19.png", title: "Bathroom Interior" },
-  { id: 20, type: "image", src: "/20.png", title: "Guest Bedroom" },
-  { id: 21, type: "image", src: "/21.png", title: "False Ceiling" },
-  { id: 22, type: "image", src: "/22.png", title: "Wall Paneling" },
-  { id: 23, type: "image", src: "/23.png", title: "Home Office" },
-  { id: 24, type: "image", src: "/24.png", title: "Dining Table Setup" },
-  { id: 25, type: "image", src: "/25.png", title: "Crockery Unit" },
-  { id: 26, type: "image", src: "/26.png", title: "Bar Counter" },
-  { id: 27, type: "image", src: "/27.png", title: "Shoe Rack Design" },
-  { id: 28, type: "image", src: "/28.png", title: "Partition Design" },
-  { id: 29, type: "image", src: "/29.png", title: "Window Treatments" },
-  { id: 30, type: "image", src: "/30.png", title: "Lighting Design" },
-  { id: 31, type: "image", src: "/31.png", title: "Flooring Patterns" },
-  { id: 32, type: "image", src: "/32.png", title: "Open Kitchen" },
-  { id: 33, type: "image", src: "/33.png", title: "L-Shape Kitchen" },
-  { id: 34, type: "image", src: "/34.png", title: "U-Shape Kitchen" },
-  { id: 35, type: "image", src: "/35.png", title: "Island Kitchen" },
-  { id: 36, type: "image", src: "/36.png", title: "Compact Kitchen" },
-  { id: 37, type: "image", src: "/37.png", title: "Premium Bedroom" },
-  { id: 38, type: "image", src: "/38.png", title: "Teen Room Design" },
-  { id: 39, type: "image", src: "/39.png", title: "Nursery Room" },
-  { id: 40, type: "image", src: "/40.png", title: "Walk-in Closet" },
-  { id: 41, type: "image", src: "/41.png", title: "Dressing Area" },
-  { id: 42, type: "image", src: "/42.png", title: "Reading Corner" },
-  { id: 43, type: "image", src: "/43.png", title: "Entertainment Room" },
-  { id: 44, type: "image", src: "/44.png", title: "Home Theater" },
-  { id: 45, type: "image", src: "/45.png", title: "Gym Room Design" },
-  { id: 46, type: "image", src: "/46.png", title: "Utility Room" },
-  { id: 47, type: "image", src: "/47.png", title: "Terrace Garden" },
-  { id: 48, type: "image", src: "/48.png", title: "Indoor Plants" },
-  { id: 49, type: "image", src: "/49.png", title: "Accent Walls" },
-  { id: 50, type: "image", src: "/50.png", title: "Bookshelf Design" },
-  { id: 51, type: "image", src: "/51.png", title: "Console Table" },
-  { id: 52, type: "image", src: "/52.png", title: "Coffee Table Setup" },
-  { id: 53, type: "image", src: "/53.png", title: "Sofa Design" },
-  { id: 54, type: "image", src: "/54.png", title: "Bed Design" },
-  { id: 55, type: "image", src: "/55.png", title: "Mirror Design" },
-  { id: 56, type: "image", src: "/56.png", title: "Art & Decor" },
+  { id: 1, type: "image", src: "/dubai-interior-design-luxury.jpg", title: "Luxury Dubai Interior Design" },
+  { id: 2, type: "image", src: "/Villa-interior-design-Dubai-with-Accouter-Design.webp", title: "Villa Interior Design Dubai" },
+  { id: 3, type: "image", src: "/Al-Barari-Kitchen.jpg", title: "Al Barari Kitchen Design" },
+  { id: 4, type: "image", src: "/meet.jpg", title: "Luxury Living Room Dubai" },
+  { id: 5, type: "image", src: "/dubai-luxury-interior-design-585x734.jpg", title: "Dubai Luxury Interior" },
+  { id: 6, type: "image", src: "/top-interior-designers-dubai.jpg", title: "Top Interior Designers Dubai" },
+  { id: 7, type: "image", src: "/Modern-Eclectic-3-1.webp", title: "Modern Eclectic Design" },
+  { id: 8, type: "image", src: "/Zen_PalmD1_07b-scaled-1.jpg", title: "Palm Jumeirah Villa Interior" },
+  { id: 9, type: "image", src: "/1-Unique-Bathroom-Projects.jpg", title: "Unique Bathroom Design" },
+  { id: 10, type: "image", src: "/8-Bathroom-Inspiration-By-Dubai-Top-Interior-Designers.jpeg", title: "Luxury Bathroom Dubai" },
+  { id: 11, type: "image", src: "/Dubai-Bathroom-Design-2.jpg", title: "Modern Bathroom Design" },
+  { id: 12, type: "image", src: "/bathroom-1024x683.jpg", title: "Contemporary Bathroom" },
+  { id: 13, type: "image", src: "/10-Stunning-Kitchen-Island-Designs-to-Elevate-Your-Culinary-Space.jpeg", title: "Stunning Kitchen Island Design" },
+  { id: 14, type: "image", src: "/Color-Scheme-Modular-kitchen-Interior-Design-and-Fit-Out-DesignMaster-Dubai-2.jpg", title: "Modular Kitchen Interior Dubai" },
+  { id: 15, type: "image", src: "/L-Shaped-Modern-kitchen-Layout-DesignMaster-Dubai.jpg", title: "L-Shaped Modern Kitchen" },
+  { id: 16, type: "image", src: "/gf-ktchen-view2.jpg", title: "Modern Kitchen Design" },
+  { id: 17, type: "image", src: "/kitchen-aesthetic-harmony-modern-luxury-fusion-interior-design-dream-home-1-min.jpg", title: "Luxury Kitchen Interior" },
+  { id: 18, type: "image", src: "/Top-Living-Room-Decor.png", title: "Top Living Room Decor" },
+  { id: 19, type: "image", src: "/Reception-9.jpg", title: "Reception Area Design" },
+  { id: 20, type: "image", src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", title: "Luxury Lighting Design" },
+  { id: 21, type: "image", src: "/98488683052973.5d304d1b15e83.jpg", title: "Arabic Style Interior" },
+  { id: 22, type: "image", src: "/9f76af35953159a45c406d49cb9bc4d0.jpg", title: "Contemporary Interior Design" },
+  { id: 23, type: "image", src: "/2b-scaled.jpg", title: "Elegant Living Space" },
+  { id: 24, type: "image", src: "/DSC01457-min-scaled.webp", title: "Modern Villa Interior" },
 ]
 
 export function GallerySection() {
@@ -75,10 +43,10 @@ export function GallerySection() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-accent font-mono uppercase tracking-wider mb-4">Our Portfolio</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">Gallery of Excellence</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">500+ Interior Design Projects Delivered in Dubai</h2>
           <p className="text-lg text-muted-foreground leading-relaxed font-mono">
             {
-              "Explore our stunning collection of interior designs - from modern living rooms to luxurious bedrooms"
+              "Explore our award-winning portfolio featuring luxury villa interiors, modern apartment designs, elegant office spaces, and stunning commercial fit-outs across Dubai and UAE"
             }
           </p>
         </div>

@@ -5,44 +5,44 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What services does Nesture Interiors offer?",
+    question: "What interior design services does Interiara offer in Dubai?",
     answer:
-      "Nesture Interiors provides comprehensive interior design services including residential interior design, office design, commercial interiors, space planning, 3D visualization, furniture design, and complete project management for homes, offices, and commercial spaces in Bangalore.",
+      "Interiara provides comprehensive interior design services across Dubai and UAE including: Villa interior design, apartment & penthouse design, Arabic style interiors, luxury modern design, office fit-outs, restaurant & cafe interiors, retail shop design, hotel interiors, kitchen & bathroom remodeling, custom furniture design, 3D visualization, space planning, and complete project management. We offer end-to-end solutions from concept to execution.",
   },
   {
-    question: "How much does interior design cost in Bangalore?",
+    question: "Which areas in Dubai does Interiara serve?",
     answer:
-      "Our pricing is transparent and tailored to your needs. We offer packages starting from ₹99,999 for single room makeovers to custom quotes for luxury commercial projects. All packages include professional consultation and 3D visualization.",
+      "Interiara serves all areas across Dubai and UAE including Downtown Dubai, Dubai Marina, Palm Jumeirah, Business Bay, JBR, Arabian Ranches, Jumeirah, DIFC, Emirates Hills, Al Barsha, Mirdif, JLT, Dubai Hills, Creek Harbour, and all other communities. We also provide services in Abu Dhabi, Sharjah, Ajman, and other Emirates.",
   },
   {
-    question: "Do you provide 3D visualization before execution?",
+    question: "Do you provide 3D visualization before starting the project?",
     answer:
-      "Yes! We provide advanced 3D visualization and walk-through for all our premium and commercial packages. This helps you see the design before any execution begins, ensuring complete satisfaction.",
+      "Yes! Interiara provides advanced 3D visualization and virtual walk-through for all projects. This allows you to see exactly how your space will look before any construction begins. Our photorealistic 3D renders help you make informed decisions about colors, materials, furniture, and layouts, ensuring complete satisfaction with the final design.",
   },
   {
-    question: "What is your project timeline?",
+    question: "What is the typical timeline for an interior design project in Dubai?",
     answer:
-      "Project timelines vary based on project size and complexity. Our basic makeover takes 3 weeks, premium home design takes 6-8 weeks, and commercial projects have customized timelines. We ensure quality without rushing.",
+      "Project timelines vary based on scope and complexity. A single room makeover typically takes 2-3 weeks, full apartment design takes 6-8 weeks, villa interior projects range from 10-16 weeks, and commercial fit-outs have customized timelines. We provide detailed project schedules during consultation and ensure timely delivery without compromising quality.",
   },
   {
-    question: "Do you handle installation and project management?",
+    question: "Does Interiara handle complete project execution and installation?",
     answer:
-      "Absolutely! We provide complete project management, installation supervision, and on-site support. Our team ensures every detail is executed to perfection according to the approved design.",
+      "Absolutely! Interiara provides turnkey interior design solutions including design consultation, 3D visualization, material procurement, furniture sourcing, contractor coordination, on-site supervision, and final installation. Our dedicated project managers ensure seamless execution from concept to completion, so you can simply relax while we transform your space.",
   },
   {
-    question: "Are you available for interior design in all areas of Bangalore?",
+    question: "Can Interiara design both Arabic traditional and modern contemporary interiors?",
     answer:
-      "Yes, we serve all premium areas of Bangalore including Koramangala, Indiranagar, Whitefield, HSR Layout, Jayanagar, JP Nagar, Marathahalli, Electronic City, and surrounding localities. We also offer services across Karnataka.",
+      "Yes, our talented designers specialize in multiple styles including traditional Arabic/Majlis design, modern contemporary, luxury classic, minimalist, industrial, Scandinavian, Mediterranean, and fusion styles. We customize every design to match your preferences, cultural requirements, and lifestyle. Many clients choose a blend of Arabic heritage elements with modern functionality.",
   },
   {
-    question: "Can you design both modern and traditional interiors?",
+    question: "What makes Interiara different from other interior designers in Dubai?",
     answer:
-      "Yes, our talented designers specialize in multiple styles including modern, minimalist, traditional, luxury, and fusion designs. We customize every design to match your lifestyle and preferences.",
+      "Interiara stands out with 500+ successful projects, a team of 25+ expert designers, transparent pricing with no hidden costs, free initial consultation, advanced 3D visualization technology, dedicated project managers, quality materials from trusted suppliers, timely delivery guarantees, and exceptional after-project support. Our client satisfaction rate exceeds 98%.",
   },
   {
-    question: "How do I get started with Nesture Interiors?",
+    question: "How do I get started with Interiara for my interior design project?",
     answer:
-      "Getting started is easy! Contact us via WhatsApp, phone, or fill our online form. We'll schedule a free consultation to understand your vision, space, and budget, then propose the best design solution for you.",
+      "Getting started is easy! Simply contact us via WhatsApp, phone (+91 635 358 3148), or fill out our online enquiry form. We'll schedule a free consultation to understand your vision, assess your space, discuss your requirements and budget, then provide a customized design proposal. There's no obligation – let's start transforming your space today!",
   },
 ]
 
@@ -55,10 +55,10 @@ export function FAQSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-accent font-mono uppercase tracking-wider mb-4">FAQ</p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-            Frequently Asked Questions About Interior Design
+            Frequently Asked Questions About Interior Design in Dubai
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed font-mono">
-            Find answers to common questions about our interior design services in Bangalore
+            Everything you need to know about our interior design services, process, and how Interiara can transform your space in Dubai & UAE
           </p>
         </div>
 

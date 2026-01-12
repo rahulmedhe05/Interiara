@@ -7,7 +7,7 @@ export function ServiceBanner() {
         <div className="flex items-center justify-center gap-2 md:gap-4 text-center">
           <Zap className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0 animate-bounce" />
           <h3 className="text-sm md:text-lg font-bold">
-            Professional Interior Design Services in Vadodara
+            Professional Interior Design Services in Dubai
             <span className="block md:inline md:ml-2">
               <em className="text-xs md:text-base not-italic">— Free Consultation & 3D Visualization</em>
             </span>
