@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
-import keywordsData from '@/keywords-all-pages.json'
+import fs from 'fs'
+import path from 'path'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://interiara.com'
@@ -15,24 +16,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/contact', priority: 0.9, frequency: 'monthly' as const },
   ]
 
-  staticPages.forEach(({ path, priority, frequency }) => {
+  staticPages.forEach(({ path: pagePath, priority, frequency }) => {
     entries.push({
-      url: `${baseUrl}${path}`,
+      url: `${baseUrl}${pagePath}`,
       lastModified: currentDate,
       changeFrequency: frequency,
       priority,
     })
   })
 
-  // Add all 5,165 service-location pages dynamically from keywords data
-  Object.entries(keywordsData).forEach(([pageKey, pageData]: [string, any]) => {
-    entries.push({
-      url: `${baseUrl}/${pageKey}`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+  // Read keywords JSON file efficiently
+  try {
+    const keywordsPath = path.join(process.cwd(), 'keywords-all-pages.json')
+    const keywordsContent = fs.readFileSync(keywordsPath, 'utf-8')
+    const keywordsData = JSON.parse(keywordsContent)
+    
+    // Add all 5,165 service-location pages from keywords data
+    Object.keys(keywordsData).forEach((pageKey) => {
+      entries.push({
+        url: `${baseUrl}/${pageKey}`,
+        lastModified: currentDate,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+      })
     })
-  })
+  } catch (error) {
+    console.warn('Warning: Could not load keywords data for sitemap')
+  }
 
   return entries
 }
