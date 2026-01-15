@@ -13,21 +13,21 @@ const slides = [
     title: "Crafting Dream Interiors",
     subtitle: "Dubai's Premier Interior Designers",
     description: "Transforming villas, apartments, offices, and commercial spaces across Dubai with stunning interior designs",
-    image: "/slider1.png",
+    image: "/dubai-interior-design-luxury.jpg",
   },
   {
     id: 2,
     title: "Luxury Living Spaces",
     subtitle: "Where Elegance Meets Innovation",
     description: "Contemporary & Arabic style interior design blending functionality with aesthetic excellence for Dubai homes",
-    image: "/slider2.png",
+    image: "/Villa-interior-design-Dubai-with-Accouter-Design.webp",
   },
   {
     id: 3,
     title: "End-to-End Design Solutions",
     subtitle: "Your Vision, Our Expertise",
     description: "Complete interior solutions from concept development to flawless execution across UAE",
-    image: "/slider3.png",
+    image: "/Top-Living-Room-Decor.png",
   },
 ]
 
