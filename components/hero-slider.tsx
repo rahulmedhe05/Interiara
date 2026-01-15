@@ -20,14 +20,14 @@ const slides = [
     title: "Luxury Living Spaces",
     subtitle: "Where Elegance Meets Innovation",
     description: "Contemporary & Arabic style interior design blending functionality with aesthetic excellence for Dubai homes",
-    image: "/Villa-interior-design-Dubai-with-Accouter-Design.webp",
+    image: "/Villa-interior-design-Dubai-with-Accouter-Design.jpg",
   },
   {
     id: 3,
     title: "End-to-End Design Solutions",
     subtitle: "Your Vision, Our Expertise",
     description: "Complete interior solutions from concept development to flawless execution across UAE",
-    image: "/Top-Living-Room-Decor.png",
+    image: "/Top-Living-Room-Decor.jpg",
   },
 ]
 
