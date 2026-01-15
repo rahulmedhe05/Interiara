@@ -15,10 +15,35 @@ export function WhatsAppFloat() {
   const [formData, setFormData] = useState({
     fullName: "",
     phoneNumber: "",
+    serviceLookingFor: "",
     propertyType: "",
     budget: "",
     city: "",
   })
+
+  const serviceOptions = [
+    "Villa Interior Design",
+    "Apartment Design",
+    "Kitchen Design",
+    "Bedroom Design",
+    "Living Room Design",
+    "Bathroom Design",
+    "Office Design",
+    "Commercial Design",
+    "Restaurant Design",
+    "Luxury Design",
+    "Modern Design",
+    "Minimalist Design",
+    "Contemporary Design",
+    "Modular Kitchens",
+    "Custom Furniture",
+    "Lighting Design",
+    "3D Rendering",
+    "Space Planning",
+    "Wardrobe Design",
+    "Wall & Flooring",
+    "Other Service",
+  ]
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -27,6 +52,7 @@ export function WhatsAppFloat() {
     addLead({
       fullName: formData.fullName,
       phoneNumber: formData.phoneNumber,
+      serviceLookingFor: formData.serviceLookingFor,
       propertyType: formData.propertyType,
       budget: formData.budget,
       city: formData.city,
@@ -38,6 +64,7 @@ export function WhatsAppFloat() {
 
 *Full Name:* ${formData.fullName}
 *Phone Number:* ${formData.phoneNumber}
+*Service Looking For:* ${formData.serviceLookingFor || 'Not specified'}
 *Property Type:* ${formData.propertyType}
 *City:* ${formData.city}
 *Budget:* ${formData.budget || 'Not specified'}
@@ -57,6 +84,7 @@ _Sent via Interiara Website_
     setFormData({
       fullName: "",
       phoneNumber: "",
+      serviceLookingFor: "",
       propertyType: "",
       budget: "",
       city: "",
@@ -119,8 +147,26 @@ _Sent via Interiara Website_
             </div>
 
             <div className="space-y-2">
+              <Label htmlFor="serviceLookingFor" className="font-mono">
+                3. Service Looking For <span className="text-destructive">*</span>
+              </Label>
+              <select
+                id="serviceLookingFor"
+                value={formData.serviceLookingFor}
+                onChange={(e) => setFormData({ ...formData, serviceLookingFor: e.target.value })}
+                required
+                className="w-full bg-white border border-gray-300 text-foreground rounded-md px-3 py-2 text-sm font-mono"
+              >
+                <option value="">Select a Service</option>
+                {serviceOptions.map((service) => (
+                  <option key={service} value={service}>{service}</option>
+                ))}
+              </select>
+            </div>
+
+            <div className="space-y-2">
               <Label htmlFor="propertyType" className="font-mono">
-                3. Property Type <span className="text-destructive">*</span>
+                4. Property Type <span className="text-destructive">*</span>
               </Label>
               <select
                 id="propertyType"
@@ -146,7 +192,7 @@ _Sent via Interiara Website_
 
             <div className="space-y-2">
               <Label htmlFor="city" className="font-mono">
-                4. City <span className="text-destructive">*</span>
+                5. City <span className="text-destructive">*</span>
               </Label>
               <Input
                 id="city"
@@ -160,7 +206,7 @@ _Sent via Interiara Website_
 
             <div className="space-y-2">
               <Label htmlFor="budget" className="font-mono">
-                5. Budget (Optional)
+                6. Budget (Optional)
               </Label>
               <Input
                 id="budget"

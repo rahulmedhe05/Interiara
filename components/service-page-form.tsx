@@ -3,17 +3,43 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { MessageCircle } from "lucide-react"
+import { MessageCircle, MessageSquare } from "lucide-react"
 import { addLead } from "@/lib/leads"
 
 interface ServicePageFormProps {
   serviceName?: string
 }
 
+const serviceOptions = [
+  "Villa Interior Design",
+  "Apartment Design",
+  "Kitchen Design",
+  "Bedroom Design",
+  "Living Room Design",
+  "Bathroom Design",
+  "Office Design",
+  "Commercial Design",
+  "Restaurant Design",
+  "Luxury Design",
+  "Modern Design",
+  "Minimalist Design",
+  "Contemporary Design",
+  "Modular Kitchens",
+  "Custom Furniture",
+  "Lighting Design",
+  "3D Rendering",
+  "Space Planning",
+  "Wardrobe Design",
+  "Wall & Flooring",
+  "Other Service",
+]
+
 export function ServicePageForm({ serviceName = "Interior Design" }: ServicePageFormProps) {
   const [formData, setFormData] = useState({
     fullName: "",
     phoneNumber: "",
+    serviceLookingFor: "",
+    serviceInterested: "",
     propertyType: "",
     budget: "",
     city: "",
@@ -26,6 +52,8 @@ export function ServicePageForm({ serviceName = "Interior Design" }: ServicePage
     addLead({
       fullName: formData.fullName,
       phoneNumber: formData.phoneNumber,
+      serviceLookingFor: formData.serviceLookingFor,
+      serviceInterested: formData.serviceInterested,
       propertyType: formData.propertyType,
       budget: formData.budget,
       city: formData.city,
@@ -36,6 +64,8 @@ export function ServicePageForm({ serviceName = "Interior Design" }: ServicePage
 
 *Full Name:* ${formData.fullName}
 *Phone Number:* ${formData.phoneNumber}
+*Service Looking For:* ${formData.serviceLookingFor || 'Not specified'}
+*Service Interested:* ${formData.serviceInterested || 'Not specified'}
 *Property Type:* ${formData.propertyType}
 *City:* ${formData.city}
 *Budget:* ${formData.budget || 'Not specified'}
@@ -52,6 +82,8 @@ _Sent via Interiara Website_
     setFormData({
       fullName: "",
       phoneNumber: "",
+      serviceLookingFor: "",
+      serviceInterested: "",
       propertyType: "",
       budget: "",
       city: "",
@@ -101,9 +133,22 @@ _Sent via Interiara Website_
         </div>
 
         <div>
-          <label htmlFor="propertyType" className="block text-xs font-mono text-card-foreground mb-1">
-            Property Type <span className="text-destructive">*</span>
+          <label htmlFor="serviceLookingFor" className="block text-xs font-mono text-card-foreground mb-1">
+            Service Looking For <span className="text-destructive">*</span>
           </label>
+          <select
+            id="serviceLookingFor"
+            value={formData.serviceLookingFor}
+            onChange={(e) => setFormData({ ...formData, serviceLookingFor: e.target.value })}
+            required
+            className="w-full bg-background border border-border text-foreground rounded-md px-3 py-2 text-sm"
+          >
+            <option value="">Select a Service</option>
+            {serviceOptions.map((service) => (
+              <option key={service} value={service}>{service}</option>
+            ))}
+          </select>
+        </div>
           <select
             id="propertyType"
             value={formData.propertyType}
