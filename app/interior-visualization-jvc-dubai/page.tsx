@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Interior Visualization in JVC, Dubai",
+    "url": "https://interiara.com/interior-visualization-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Interior Visualization",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Interior Visualization",
+        "item": "https://interiara.com/interior-visualization-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Interior Visualization in JVC, Dubai | Interiara",
+  description: "Expert interior visualization in JVC, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "interior visualization",
+    "interior visualization JVC",
+    "interior visualization JVC Dubai",
+    "professional interior visualization",
+    "best interior visualization",
+    "interior visualization services",
+    "luxury interior visualization",
+    "affordable interior visualization",
+    "expert interior visualization",
+    "custom interior visualization",
+  ],
+  openGraph: {
+    title: "Interior Visualization in JVC, Dubai | Interiara",
+    description: "Expert interior visualization in JVC, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/interior-visualization-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/interior-visualization-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Interior Visualization in JVC, Dubai | Interiara",
+    description: "Expert interior visualization in JVC, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Interior Visualization Jvc, Interior in Visualization Jvc, Best interior Visualization Jvc, Professional interior Visualization Jvc, Luxury interior Visualization Jvc, Interior Visualization Jvc Dubai, Interior designer Visualization Jvc, Interior company Visualization Jvc, Interior contractor Visualization Jvc, Affordable interior Visualization Jvc, Modern interior Visualization Jvc, Interior consultation Visualization Jvc, Interior cost Visualization Jvc, Interior price Visualization Jvc, Top interior Visualization Jvc, Interior near Visualization Jvc, Interior specialists Visualization Jvc, Interior experts Visualization Jvc, Interior solutions Visualization Jvc, Interior packages Visualization Jvc, Interior quotes Visualization Jvc, Interior estimates Visualization Jvc, Interior services near me Visualization Jvc, Cheap Interior Visualization Jvc, Quality Interior Visualization Jvc, Trusted Interior Visualization Jvc, Interior transformation Visualization Jvc, Interior renovation Visualization Jvc, Interior makeover Visualization Jvc, Best Interior company Visualization Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function InteriorVisualizationJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

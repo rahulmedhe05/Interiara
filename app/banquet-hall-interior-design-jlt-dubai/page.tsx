@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Banquet Hall Interior Design in JLT, Dubai",
+    "url": "https://interiara.com/banquet-hall-interior-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Banquet Hall Interior Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Banquet Hall Interior Design",
+        "item": "https://interiara.com/banquet-hall-interior-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Banquet Hall Interior Design in JLT, Dubai | Interiara",
+  description: "Transform your space with premium banquet hall interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "banquet hall interior design",
+    "banquet hall interior design JLT",
+    "banquet hall interior design JLT Dubai",
+    "professional banquet hall interior design",
+    "best banquet hall interior design",
+    "banquet hall interior design services",
+    "luxury banquet hall interior design",
+    "affordable banquet hall interior design",
+    "expert banquet hall interior design",
+    "custom banquet hall interior design",
+  ],
+  openGraph: {
+    title: "Banquet Hall Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium banquet hall interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/banquet-hall-interior-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/banquet-hall-interior-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Banquet Hall Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium banquet hall interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Banquet Hall Interior Design Jlt, Banquet Hall Interior in Design Jlt, Best banquet hall interior Design Jlt, Professional banquet hall interior Design Jlt, Luxury banquet hall interior Design Jlt, Banquet Hall Interior Design Jlt Dubai, Banquet Hall Interior designer Design Jlt, Banquet Hall Interior company Design Jlt, Banquet Hall Interior contractor Design Jlt, Affordable banquet hall interior Design Jlt, Modern banquet hall interior Design Jlt, Banquet Hall Interior consultation Design Jlt, Banquet Hall Interior cost Design Jlt, Banquet Hall Interior price Design Jlt, Top banquet hall interior Design Jlt, Banquet Hall Interior near Design Jlt, Banquet Hall Interior specialists Design Jlt, Banquet Hall Interior experts Design Jlt, Banquet Hall Interior solutions Design Jlt, Banquet Hall Interior packages Design Jlt, Banquet Hall Interior quotes Design Jlt, Banquet Hall Interior estimates Design Jlt, Banquet Hall Interior services near me Design Jlt, Cheap Banquet Hall Interior Design Jlt, Quality Banquet Hall Interior Design Jlt, Trusted Banquet Hall Interior Design Jlt, Banquet Hall Interior transformation Design Jlt, Banquet Hall Interior renovation Design Jlt, Banquet Hall Interior makeover Design Jlt, Best Banquet Hall Interior company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function BanquetHallInteriorDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

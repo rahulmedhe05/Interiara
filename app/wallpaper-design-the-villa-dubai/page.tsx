@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wallpaper Design in The Villa, Dubai",
+    "url": "https://interiara.com/wallpaper-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wallpaper Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wallpaper Design",
+        "item": "https://interiara.com/wallpaper-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wallpaper Design in The Villa, Dubai | Interiara",
+  description: "Expert wallpaper design in The Villa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "wallpaper design",
+    "wallpaper design The Villa",
+    "wallpaper design The Villa Dubai",
+    "professional wallpaper design",
+    "best wallpaper design",
+    "wallpaper design services",
+    "luxury wallpaper design",
+    "affordable wallpaper design",
+    "expert wallpaper design",
+    "custom wallpaper design",
+  ],
+  openGraph: {
+    title: "Wallpaper Design in The Villa, Dubai | Interiara",
+    description: "Expert wallpaper design in The Villa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/wallpaper-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wallpaper-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wallpaper Design in The Villa, Dubai | Interiara",
+    description: "Expert wallpaper design in The Villa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wallpaper Design The Villa, Wallpaper Design in The Villa, Best wallpaper design The Villa, Professional wallpaper design The Villa, Luxury wallpaper design The Villa, Wallpaper Design The Villa Dubai, Wallpaper Design designer The Villa, Wallpaper Design company The Villa, Wallpaper Design contractor The Villa, Affordable wallpaper design The Villa, Modern wallpaper design The Villa, Wallpaper Design consultation The Villa, Wallpaper Design cost The Villa, Wallpaper Design price The Villa, Top wallpaper design The Villa, Wallpaper Design near The Villa, Wallpaper Design specialists The Villa, Wallpaper Design experts The Villa, Wallpaper Design solutions The Villa, Wallpaper Design packages The Villa, Wallpaper Design quotes The Villa, Wallpaper Design estimates The Villa, Wallpaper Design services near me The Villa, Cheap Wallpaper Design The Villa, Quality Wallpaper Design The Villa, Trusted Wallpaper Design The Villa, Wallpaper Design transformation The Villa, Wallpaper Design renovation The Villa, Wallpaper Design makeover The Villa, Best Wallpaper Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WallpaperDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

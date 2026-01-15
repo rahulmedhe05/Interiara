@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Commercial Interior Design in JBR, Dubai",
+    "url": "https://interiara.com/commercial-interior-design-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Commercial Interior Design",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Commercial Interior Design",
+        "item": "https://interiara.com/commercial-interior-design-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Commercial Interior Design in JBR, Dubai | Interiara",
+  description: "Transform your space with premium commercial interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "commercial interior design",
+    "commercial interior design JBR",
+    "commercial interior design JBR Dubai",
+    "professional commercial interior design",
+    "best commercial interior design",
+    "commercial interior design services",
+    "luxury commercial interior design",
+    "affordable commercial interior design",
+    "expert commercial interior design",
+    "custom commercial interior design",
+  ],
+  openGraph: {
+    title: "Commercial Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium commercial interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/commercial-interior-design-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/commercial-interior-design-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Commercial Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium commercial interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Commercial Interior Design Jbr, Commercial Interior in Design Jbr, Best commercial interior Design Jbr, Professional commercial interior Design Jbr, Luxury commercial interior Design Jbr, Commercial Interior Design Jbr Dubai, Commercial Interior designer Design Jbr, Commercial Interior company Design Jbr, Commercial Interior contractor Design Jbr, Affordable commercial interior Design Jbr, Modern commercial interior Design Jbr, Commercial Interior consultation Design Jbr, Commercial Interior cost Design Jbr, Commercial Interior price Design Jbr, Top commercial interior Design Jbr, Commercial Interior near Design Jbr, Commercial Interior specialists Design Jbr, Commercial Interior experts Design Jbr, Commercial Interior solutions Design Jbr, Commercial Interior packages Design Jbr, Commercial Interior quotes Design Jbr, Commercial Interior estimates Design Jbr, Commercial Interior services near me Design Jbr, Cheap Commercial Interior Design Jbr, Quality Commercial Interior Design Jbr, Trusted Commercial Interior Design Jbr, Commercial Interior transformation Design Jbr, Commercial Interior renovation Design Jbr, Commercial Interior makeover Design Jbr, Best Commercial Interior company Design Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CommercialInteriorDesignJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

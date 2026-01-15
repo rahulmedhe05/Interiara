@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "3D Interior Rendering in Dubai Hills Estate, Dubai",
+    "url": "https://interiara.com/3d-interior-rendering-dubai-hills-estate",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Hills Estate, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "3D Interior Rendering",
+      "areaServed": "Dubai Hills Estate, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Hills Estate",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Hills Estate",
+        "item": "https://interiara.com/dubai-hills-estate"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "3D Interior Rendering",
+        "item": "https://interiara.com/3d-interior-rendering-dubai-hills-estate"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "3D Interior Rendering in Dubai Hills Estate, Dubai | Interiara",
+  description: "Professional 3d interior rendering services in Dubai Hills Estate. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+  keywords: [
+    "3d interior rendering",
+    "3d interior rendering Dubai Hills Estate",
+    "3d interior rendering Dubai Hills Estate Dubai",
+    "professional 3d interior rendering",
+    "best 3d interior rendering",
+    "3d interior rendering services",
+    "luxury 3d interior rendering",
+    "affordable 3d interior rendering",
+    "expert 3d interior rendering",
+    "custom 3d interior rendering",
+  ],
+  openGraph: {
+    title: "3D Interior Rendering in Dubai Hills Estate, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in Dubai Hills Estate. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    url: "https://interiara.com/3d-interior-rendering-dubai-hills-estate",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/3d-interior-rendering-dubai-hills-estate",
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Interior Rendering in Dubai Hills Estate, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in Dubai Hills Estate. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: 3D Interior Rendering Dubai Hills Estate, 3D Interior Rendering Dubai in Hills Estate, Best 3d interior rendering dubai Hills Estate, Professional 3d interior rendering dubai Hills Estate, Luxury 3d interior rendering dubai Hills Estate, 3D Interior Rendering Dubai Hills Estate Dubai, 3D Interior Rendering Dubai designer Hills Estate, 3D Interior Rendering Dubai company Hills Estate, 3D Interior Rendering Dubai contractor Hills Estate, Affordable 3d interior rendering dubai Hills Estate, Modern 3d interior rendering dubai Hills Estate, 3D Interior Rendering Dubai consultation Hills Estate, 3D Interior Rendering Dubai cost Hills Estate, 3D Interior Rendering Dubai price Hills Estate, Top 3d interior rendering dubai Hills Estate, 3D Interior Rendering Dubai near Hills Estate, 3D Interior Rendering Dubai specialists Hills Estate, 3D Interior Rendering Dubai experts Hills Estate, 3D Interior Rendering Dubai solutions Hills Estate, 3D Interior Rendering Dubai packages Hills Estate, 3D Interior Rendering Dubai quotes Hills Estate, 3D Interior Rendering Dubai estimates Hills Estate, 3D Interior Rendering Dubai services near me Hills Estate, Cheap 3D Interior Rendering Dubai Hills Estate, Quality 3D Interior Rendering Dubai Hills Estate, Trusted 3D Interior Rendering Dubai Hills Estate, 3D Interior Rendering Dubai transformation Hills Estate, 3D Interior Rendering Dubai renovation Hills Estate, 3D Interior Rendering Dubai makeover Hills Estate, Best 3D Interior Rendering Dubai company Hills Estate
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function 3DInteriorRenderingDubaiHillsEstate() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Hills Estate
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Hills Estate
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/apartment-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/home-renovation-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

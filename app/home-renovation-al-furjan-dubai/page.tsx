@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Renovation in Al Furjan, Dubai",
+    "url": "https://interiara.com/home-renovation-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Renovation",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Renovation",
+        "item": "https://interiara.com/home-renovation-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Renovation in Al Furjan, Dubai | Interiara",
+  description: "Expert home renovation in Al Furjan, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home renovation",
+    "home renovation Al Furjan",
+    "home renovation Al Furjan Dubai",
+    "professional home renovation",
+    "best home renovation",
+    "home renovation services",
+    "luxury home renovation",
+    "affordable home renovation",
+    "expert home renovation",
+    "custom home renovation",
+  ],
+  openGraph: {
+    title: "Home Renovation in Al Furjan, Dubai | Interiara",
+    description: "Expert home renovation in Al Furjan, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-renovation-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-renovation-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Renovation in Al Furjan, Dubai | Interiara",
+    description: "Expert home renovation in Al Furjan, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Renovation Al Furjan, Home Renovation in Al Furjan, Best home renovation Al Furjan, Professional home renovation Al Furjan, Luxury home renovation Al Furjan, Home Renovation Al Furjan Dubai, Home Renovation designer Al Furjan, Home Renovation company Al Furjan, Home Renovation contractor Al Furjan, Affordable home renovation Al Furjan, Modern home renovation Al Furjan, Home Renovation consultation Al Furjan, Home Renovation cost Al Furjan, Home Renovation price Al Furjan, Top home renovation Al Furjan, Home Renovation near Al Furjan, Home Renovation specialists Al Furjan, Home Renovation experts Al Furjan, Home Renovation solutions Al Furjan, Home Renovation packages Al Furjan, Home Renovation quotes Al Furjan, Home Renovation estimates Al Furjan, Home Renovation services near me Al Furjan, Cheap Home Renovation Al Furjan, Quality Home Renovation Al Furjan, Trusted Home Renovation Al Furjan, Home Renovation transformation Al Furjan, Home Renovation renovation Al Furjan, Home Renovation makeover Al Furjan, Best Home Renovation company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeRenovationAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

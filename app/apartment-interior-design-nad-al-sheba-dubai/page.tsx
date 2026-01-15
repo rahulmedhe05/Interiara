@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Apartment Interior Design in Nad Al Sheba, Dubai",
+    "url": "https://interiara.com/apartment-interior-design-nad-al-sheba",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Nad Al Sheba, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Apartment Interior Design",
+      "areaServed": "Nad Al Sheba, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Nad Al Sheba",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nad Al Sheba",
+        "item": "https://interiara.com/nad-al-sheba"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Apartment Interior Design",
+        "item": "https://interiara.com/apartment-interior-design-nad-al-sheba"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Apartment Interior Design in Nad Al Sheba, Dubai | Interiara",
+  description: "Transform your space with premium apartment interior design in Nad Al Sheba. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "apartment interior design",
+    "apartment interior design Nad Al Sheba",
+    "apartment interior design Nad Al Sheba Dubai",
+    "professional apartment interior design",
+    "best apartment interior design",
+    "apartment interior design services",
+    "luxury apartment interior design",
+    "affordable apartment interior design",
+    "expert apartment interior design",
+    "custom apartment interior design",
+  ],
+  openGraph: {
+    title: "Apartment Interior Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Nad Al Sheba. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/apartment-interior-design-nad-al-sheba",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/apartment-interior-design-nad-al-sheba",
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartment Interior Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Nad Al Sheba. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Apartment Interior Design Nad Al Sheba, Apartment Interior Design Nad in Al Sheba, Best apartment interior design nad Al Sheba, Professional apartment interior design nad Al Sheba, Luxury apartment interior design nad Al Sheba, Apartment Interior Design Nad Al Sheba Dubai, Apartment Interior Design Nad designer Al Sheba, Apartment Interior Design Nad company Al Sheba, Apartment Interior Design Nad contractor Al Sheba, Affordable apartment interior design nad Al Sheba, Modern apartment interior design nad Al Sheba, Apartment Interior Design Nad consultation Al Sheba, Apartment Interior Design Nad cost Al Sheba, Apartment Interior Design Nad price Al Sheba, Top apartment interior design nad Al Sheba, Apartment Interior Design Nad near Al Sheba, Apartment Interior Design Nad specialists Al Sheba, Apartment Interior Design Nad experts Al Sheba, Apartment Interior Design Nad solutions Al Sheba, Apartment Interior Design Nad packages Al Sheba, Apartment Interior Design Nad quotes Al Sheba, Apartment Interior Design Nad estimates Al Sheba, Apartment Interior Design Nad services near me Al Sheba, Cheap Apartment Interior Design Nad Al Sheba, Quality Apartment Interior Design Nad Al Sheba, Trusted Apartment Interior Design Nad Al Sheba, Apartment Interior Design Nad transformation Al Sheba, Apartment Interior Design Nad renovation Al Sheba, Apartment Interior Design Nad makeover Al Sheba, Best Apartment Interior Design Nad company Al Sheba
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ApartmentInteriorDesignNadAlSheba() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Nad Al Sheba
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Nad Al Sheba
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/art-consultation-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

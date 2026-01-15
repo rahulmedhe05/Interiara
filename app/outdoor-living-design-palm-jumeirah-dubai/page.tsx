@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Outdoor Living Design in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/outdoor-living-design-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Outdoor Living Design",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Outdoor Living Design",
+        "item": "https://interiara.com/outdoor-living-design-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Outdoor Living Design in Palm Jumeirah, Dubai | Interiara",
+  description: "Beautiful outdoor living design in Palm Jumeirah. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+  keywords: [
+    "outdoor living design",
+    "outdoor living design Palm Jumeirah",
+    "outdoor living design Palm Jumeirah Dubai",
+    "professional outdoor living design",
+    "best outdoor living design",
+    "outdoor living design services",
+    "luxury outdoor living design",
+    "affordable outdoor living design",
+    "expert outdoor living design",
+    "custom outdoor living design",
+  ],
+  openGraph: {
+    title: "Outdoor Living Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Palm Jumeirah. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    url: "https://interiara.com/outdoor-living-design-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/outdoor-living-design-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Outdoor Living Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Palm Jumeirah. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Outdoor Living Design Palm Jumeirah, Outdoor Living Design in Palm Jumeirah, Best outdoor living design Palm Jumeirah, Professional outdoor living design Palm Jumeirah, Luxury outdoor living design Palm Jumeirah, Outdoor Living Design Palm Jumeirah Dubai, Outdoor Living Design designer Palm Jumeirah, Outdoor Living Design company Palm Jumeirah, Outdoor Living Design contractor Palm Jumeirah, Affordable outdoor living design Palm Jumeirah, Modern outdoor living design Palm Jumeirah, Outdoor Living Design consultation Palm Jumeirah, Outdoor Living Design cost Palm Jumeirah, Outdoor Living Design price Palm Jumeirah, Top outdoor living design Palm Jumeirah, Outdoor Living Design near Palm Jumeirah, Outdoor Living Design specialists Palm Jumeirah, Outdoor Living Design experts Palm Jumeirah, Outdoor Living Design solutions Palm Jumeirah, Outdoor Living Design packages Palm Jumeirah, Outdoor Living Design quotes Palm Jumeirah, Outdoor Living Design estimates Palm Jumeirah, Outdoor Living Design services near me Palm Jumeirah, Cheap Outdoor Living Design Palm Jumeirah, Quality Outdoor Living Design Palm Jumeirah, Trusted Outdoor Living Design Palm Jumeirah, Outdoor Living Design transformation Palm Jumeirah, Outdoor Living Design renovation Palm Jumeirah, Outdoor Living Design makeover Palm Jumeirah, Best Outdoor Living Design company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OutdoorLivingDesignPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

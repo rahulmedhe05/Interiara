@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Remodeling in Al Wasl, Dubai",
+    "url": "https://interiara.com/home-remodeling-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Remodeling",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Remodeling",
+        "item": "https://interiara.com/home-remodeling-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Remodeling in Al Wasl, Dubai | Interiara",
+  description: "Expert home remodeling in Al Wasl, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home remodeling",
+    "home remodeling Al Wasl",
+    "home remodeling Al Wasl Dubai",
+    "professional home remodeling",
+    "best home remodeling",
+    "home remodeling services",
+    "luxury home remodeling",
+    "affordable home remodeling",
+    "expert home remodeling",
+    "custom home remodeling",
+  ],
+  openGraph: {
+    title: "Home Remodeling in Al Wasl, Dubai | Interiara",
+    description: "Expert home remodeling in Al Wasl, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-remodeling-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-remodeling-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Remodeling in Al Wasl, Dubai | Interiara",
+    description: "Expert home remodeling in Al Wasl, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Remodeling Al Wasl, Home Remodeling in Al Wasl, Best home remodeling Al Wasl, Professional home remodeling Al Wasl, Luxury home remodeling Al Wasl, Home Remodeling Al Wasl Dubai, Home Remodeling designer Al Wasl, Home Remodeling company Al Wasl, Home Remodeling contractor Al Wasl, Affordable home remodeling Al Wasl, Modern home remodeling Al Wasl, Home Remodeling consultation Al Wasl, Home Remodeling cost Al Wasl, Home Remodeling price Al Wasl, Top home remodeling Al Wasl, Home Remodeling near Al Wasl, Home Remodeling specialists Al Wasl, Home Remodeling experts Al Wasl, Home Remodeling solutions Al Wasl, Home Remodeling packages Al Wasl, Home Remodeling quotes Al Wasl, Home Remodeling estimates Al Wasl, Home Remodeling services near me Al Wasl, Cheap Home Remodeling Al Wasl, Quality Home Remodeling Al Wasl, Trusted Home Remodeling Al Wasl, Home Remodeling transformation Al Wasl, Home Remodeling renovation Al Wasl, Home Remodeling makeover Al Wasl, Best Home Remodeling company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeRemodelingAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

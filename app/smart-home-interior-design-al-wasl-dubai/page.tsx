@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Smart Home Interior Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/smart-home-interior-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Smart Home Interior Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Smart Home Interior Design",
+        "item": "https://interiara.com/smart-home-interior-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Smart Home Interior Design in Al Wasl, Dubai | Interiara",
+  description: "Transform your space with premium smart home interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "smart home interior design",
+    "smart home interior design Al Wasl",
+    "smart home interior design Al Wasl Dubai",
+    "professional smart home interior design",
+    "best smart home interior design",
+    "smart home interior design services",
+    "luxury smart home interior design",
+    "affordable smart home interior design",
+    "expert smart home interior design",
+    "custom smart home interior design",
+  ],
+  openGraph: {
+    title: "Smart Home Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium smart home interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/smart-home-interior-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/smart-home-interior-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Home Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium smart home interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Smart Home Interior Design Al Wasl, Smart Home Interior Design in Al Wasl, Best smart home interior design Al Wasl, Professional smart home interior design Al Wasl, Luxury smart home interior design Al Wasl, Smart Home Interior Design Al Wasl Dubai, Smart Home Interior Design designer Al Wasl, Smart Home Interior Design company Al Wasl, Smart Home Interior Design contractor Al Wasl, Affordable smart home interior design Al Wasl, Modern smart home interior design Al Wasl, Smart Home Interior Design consultation Al Wasl, Smart Home Interior Design cost Al Wasl, Smart Home Interior Design price Al Wasl, Top smart home interior design Al Wasl, Smart Home Interior Design near Al Wasl, Smart Home Interior Design specialists Al Wasl, Smart Home Interior Design experts Al Wasl, Smart Home Interior Design solutions Al Wasl, Smart Home Interior Design packages Al Wasl, Smart Home Interior Design quotes Al Wasl, Smart Home Interior Design estimates Al Wasl, Smart Home Interior Design services near me Al Wasl, Cheap Smart Home Interior Design Al Wasl, Quality Smart Home Interior Design Al Wasl, Trusted Smart Home Interior Design Al Wasl, Smart Home Interior Design transformation Al Wasl, Smart Home Interior Design renovation Al Wasl, Smart Home Interior Design makeover Al Wasl, Best Smart Home Interior Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SmartHomeInteriorDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

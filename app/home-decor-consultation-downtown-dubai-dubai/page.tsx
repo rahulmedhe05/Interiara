@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Decor Consultation in Downtown Dubai, Dubai",
+    "url": "https://interiara.com/home-decor-consultation-downtown-dubai",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Downtown Dubai, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Decor Consultation",
+      "areaServed": "Downtown Dubai, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Downtown Dubai",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Downtown Dubai",
+        "item": "https://interiara.com/downtown-dubai"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Decor Consultation",
+        "item": "https://interiara.com/home-decor-consultation-downtown-dubai"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Decor Consultation in Downtown Dubai, Dubai | Interiara",
+  description: "Expert home decor consultation in Downtown Dubai, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home decor consultation",
+    "home decor consultation Downtown Dubai",
+    "home decor consultation Downtown Dubai Dubai",
+    "professional home decor consultation",
+    "best home decor consultation",
+    "home decor consultation services",
+    "luxury home decor consultation",
+    "affordable home decor consultation",
+    "expert home decor consultation",
+    "custom home decor consultation",
+  ],
+  openGraph: {
+    title: "Home Decor Consultation in Downtown Dubai, Dubai | Interiara",
+    description: "Expert home decor consultation in Downtown Dubai, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-decor-consultation-downtown-dubai",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-decor-consultation-downtown-dubai",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Decor Consultation in Downtown Dubai, Dubai | Interiara",
+    description: "Expert home decor consultation in Downtown Dubai, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Decor Consultation Downtown Dubai, Home Decor Consultation in Downtown Dubai, Best home decor consultation Downtown Dubai, Professional home decor consultation Downtown Dubai, Luxury home decor consultation Downtown Dubai, Home Decor Consultation Downtown Dubai Dubai, Home Decor Consultation designer Downtown Dubai, Home Decor Consultation company Downtown Dubai, Home Decor Consultation contractor Downtown Dubai, Affordable home decor consultation Downtown Dubai, Modern home decor consultation Downtown Dubai, Home Decor Consultation consultation Downtown Dubai, Home Decor Consultation cost Downtown Dubai, Home Decor Consultation price Downtown Dubai, Top home decor consultation Downtown Dubai, Home Decor Consultation near Downtown Dubai, Home Decor Consultation specialists Downtown Dubai, Home Decor Consultation experts Downtown Dubai, Home Decor Consultation solutions Downtown Dubai, Home Decor Consultation packages Downtown Dubai, Home Decor Consultation quotes Downtown Dubai, Home Decor Consultation estimates Downtown Dubai, Home Decor Consultation services near me Downtown Dubai, Cheap Home Decor Consultation Downtown Dubai, Quality Home Decor Consultation Downtown Dubai, Trusted Home Decor Consultation Downtown Dubai, Home Decor Consultation transformation Downtown Dubai, Home Decor Consultation renovation Downtown Dubai, Home Decor Consultation makeover Downtown Dubai, Best Home Decor Consultation company Downtown Dubai
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function HomeDecorConsultationDowntownDubai() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Downtown Dubai
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Downtown Dubai
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/home-renovation-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

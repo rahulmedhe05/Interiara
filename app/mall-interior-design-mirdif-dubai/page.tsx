@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Mall Interior Design in Mirdif, Dubai",
+    "url": "https://interiara.com/mall-interior-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Mall Interior Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mall Interior Design",
+        "item": "https://interiara.com/mall-interior-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Mall Interior Design in Mirdif, Dubai | Interiara",
+  description: "Transform your space with premium mall interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "mall interior design",
+    "mall interior design Mirdif",
+    "mall interior design Mirdif Dubai",
+    "professional mall interior design",
+    "best mall interior design",
+    "mall interior design services",
+    "luxury mall interior design",
+    "affordable mall interior design",
+    "expert mall interior design",
+    "custom mall interior design",
+  ],
+  openGraph: {
+    title: "Mall Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium mall interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/mall-interior-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/mall-interior-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Mall Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium mall interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Mall Interior Design Mirdif, Mall Interior in Design Mirdif, Best mall interior Design Mirdif, Professional mall interior Design Mirdif, Luxury mall interior Design Mirdif, Mall Interior Design Mirdif Dubai, Mall Interior designer Design Mirdif, Mall Interior company Design Mirdif, Mall Interior contractor Design Mirdif, Affordable mall interior Design Mirdif, Modern mall interior Design Mirdif, Mall Interior consultation Design Mirdif, Mall Interior cost Design Mirdif, Mall Interior price Design Mirdif, Top mall interior Design Mirdif, Mall Interior near Design Mirdif, Mall Interior specialists Design Mirdif, Mall Interior experts Design Mirdif, Mall Interior solutions Design Mirdif, Mall Interior packages Design Mirdif, Mall Interior quotes Design Mirdif, Mall Interior estimates Design Mirdif, Mall Interior services near me Design Mirdif, Cheap Mall Interior Design Mirdif, Quality Mall Interior Design Mirdif, Trusted Mall Interior Design Mirdif, Mall Interior transformation Design Mirdif, Mall Interior renovation Design Mirdif, Mall Interior makeover Design Mirdif, Best Mall Interior company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function MallInteriorDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in The Villa, Dubai",
+    "url": "https://interiara.com/wardrobe-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in The Villa, Dubai | Interiara",
+  description: "Custom wardrobe design in The Villa. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design The Villa",
+    "wardrobe design The Villa Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in The Villa, Dubai | Interiara",
+    description: "Custom wardrobe design in The Villa. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in The Villa, Dubai | Interiara",
+    description: "Custom wardrobe design in The Villa. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design The Villa, Wardrobe Design in The Villa, Best wardrobe design The Villa, Professional wardrobe design The Villa, Luxury wardrobe design The Villa, Wardrobe Design The Villa Dubai, Wardrobe Design designer The Villa, Wardrobe Design company The Villa, Wardrobe Design contractor The Villa, Affordable wardrobe design The Villa, Modern wardrobe design The Villa, Wardrobe Design consultation The Villa, Wardrobe Design cost The Villa, Wardrobe Design price The Villa, Top wardrobe design The Villa, Wardrobe Design near The Villa, Wardrobe Design specialists The Villa, Wardrobe Design experts The Villa, Wardrobe Design solutions The Villa, Wardrobe Design packages The Villa, Wardrobe Design quotes The Villa, Wardrobe Design estimates The Villa, Wardrobe Design services near me The Villa, Cheap Wardrobe Design The Villa, Quality Wardrobe Design The Villa, Trusted Wardrobe Design The Villa, Wardrobe Design transformation The Villa, Wardrobe Design renovation The Villa, Wardrobe Design makeover The Villa, Best Wardrobe Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

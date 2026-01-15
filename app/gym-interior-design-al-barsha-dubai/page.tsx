@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Gym Interior Design in Al Barsha, Dubai",
+    "url": "https://interiara.com/gym-interior-design-al-barsha",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Barsha, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Gym Interior Design",
+      "areaServed": "Al Barsha, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Barsha",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Barsha",
+        "item": "https://interiara.com/al-barsha"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gym Interior Design",
+        "item": "https://interiara.com/gym-interior-design-al-barsha"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Gym Interior Design in Al Barsha, Dubai | Interiara",
+  description: "Transform your space with premium gym interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "gym interior design",
+    "gym interior design Al Barsha",
+    "gym interior design Al Barsha Dubai",
+    "professional gym interior design",
+    "best gym interior design",
+    "gym interior design services",
+    "luxury gym interior design",
+    "affordable gym interior design",
+    "expert gym interior design",
+    "custom gym interior design",
+  ],
+  openGraph: {
+    title: "Gym Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/gym-interior-design-al-barsha",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/gym-interior-design-al-barsha",
+  twitter: {
+    card: "summary_large_image",
+    title: "Gym Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Gym Interior Design Al Barsha, Gym Interior Design in Al Barsha, Best gym interior design Al Barsha, Professional gym interior design Al Barsha, Luxury gym interior design Al Barsha, Gym Interior Design Al Barsha Dubai, Gym Interior Design designer Al Barsha, Gym Interior Design company Al Barsha, Gym Interior Design contractor Al Barsha, Affordable gym interior design Al Barsha, Modern gym interior design Al Barsha, Gym Interior Design consultation Al Barsha, Gym Interior Design cost Al Barsha, Gym Interior Design price Al Barsha, Top gym interior design Al Barsha, Gym Interior Design near Al Barsha, Gym Interior Design specialists Al Barsha, Gym Interior Design experts Al Barsha, Gym Interior Design solutions Al Barsha, Gym Interior Design packages Al Barsha, Gym Interior Design quotes Al Barsha, Gym Interior Design estimates Al Barsha, Gym Interior Design services near me Al Barsha, Cheap Gym Interior Design Al Barsha, Quality Gym Interior Design Al Barsha, Trusted Gym Interior Design Al Barsha, Gym Interior Design transformation Al Barsha, Gym Interior Design renovation Al Barsha, Gym Interior Design makeover Al Barsha, Best Gym Interior Design company Al Barsha
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function GymInteriorDesignAlBarsha() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Barsha
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Barsha
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

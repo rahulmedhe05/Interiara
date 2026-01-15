@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Lighting Design in Nad Al Sheba, Dubai",
+    "url": "https://interiara.com/lighting-design-nad-al-sheba",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Nad Al Sheba, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Lighting Design",
+      "areaServed": "Nad Al Sheba, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Nad Al Sheba",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nad Al Sheba",
+        "item": "https://interiara.com/nad-al-sheba"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lighting Design",
+        "item": "https://interiara.com/lighting-design-nad-al-sheba"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Lighting Design in Nad Al Sheba, Dubai | Interiara",
+  description: "Professional lighting design in Nad Al Sheba. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+  keywords: [
+    "lighting design",
+    "lighting design Nad Al Sheba",
+    "lighting design Nad Al Sheba Dubai",
+    "professional lighting design",
+    "best lighting design",
+    "lighting design services",
+    "luxury lighting design",
+    "affordable lighting design",
+    "expert lighting design",
+    "custom lighting design",
+  ],
+  openGraph: {
+    title: "Lighting Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Professional lighting design in Nad Al Sheba. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    url: "https://interiara.com/lighting-design-nad-al-sheba",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/lighting-design-nad-al-sheba",
+  twitter: {
+    card: "summary_large_image",
+    title: "Lighting Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Professional lighting design in Nad Al Sheba. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Lighting Design Nad Al Sheba, Lighting Design Nad in Al Sheba, Best lighting design nad Al Sheba, Professional lighting design nad Al Sheba, Luxury lighting design nad Al Sheba, Lighting Design Nad Al Sheba Dubai, Lighting Design Nad designer Al Sheba, Lighting Design Nad company Al Sheba, Lighting Design Nad contractor Al Sheba, Affordable lighting design nad Al Sheba, Modern lighting design nad Al Sheba, Lighting Design Nad consultation Al Sheba, Lighting Design Nad cost Al Sheba, Lighting Design Nad price Al Sheba, Top lighting design nad Al Sheba, Lighting Design Nad near Al Sheba, Lighting Design Nad specialists Al Sheba, Lighting Design Nad experts Al Sheba, Lighting Design Nad solutions Al Sheba, Lighting Design Nad packages Al Sheba, Lighting Design Nad quotes Al Sheba, Lighting Design Nad estimates Al Sheba, Lighting Design Nad services near me Al Sheba, Cheap Lighting Design Nad Al Sheba, Quality Lighting Design Nad Al Sheba, Trusted Lighting Design Nad Al Sheba, Lighting Design Nad transformation Al Sheba, Lighting Design Nad renovation Al Sheba, Lighting Design Nad makeover Al Sheba, Best Lighting Design Nad company Al Sheba
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function LightingDesignNadAlSheba() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Nad Al Sheba
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Nad Al Sheba
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/art-consultation-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

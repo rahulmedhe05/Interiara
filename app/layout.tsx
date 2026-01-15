@@ -143,6 +143,10 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
       {
+        url: "/siteicon.svg",
+        type: "image/svg+xml",
+      },
+      {
         url: "/icon-light-32x32.png",
         media: "(prefers-color-scheme: light)",
       },
@@ -155,7 +159,15 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: [
+      {
+        url: "/apple-icon.png",
+      },
+      {
+        url: "/favicon.svg",
+        sizes: "180x180",
+      },
+    ],
   },
   verification: {
     google: "google-site-verification-code",

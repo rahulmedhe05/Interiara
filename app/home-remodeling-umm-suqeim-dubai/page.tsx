@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Remodeling in Umm Suqeim, Dubai",
+    "url": "https://interiara.com/home-remodeling-umm-suqeim",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Umm Suqeim, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Remodeling",
+      "areaServed": "Umm Suqeim, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Umm Suqeim",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Umm Suqeim",
+        "item": "https://interiara.com/umm-suqeim"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Remodeling",
+        "item": "https://interiara.com/home-remodeling-umm-suqeim"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Remodeling in Umm Suqeim, Dubai | Interiara",
+  description: "Expert home remodeling in Umm Suqeim, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home remodeling",
+    "home remodeling Umm Suqeim",
+    "home remodeling Umm Suqeim Dubai",
+    "professional home remodeling",
+    "best home remodeling",
+    "home remodeling services",
+    "luxury home remodeling",
+    "affordable home remodeling",
+    "expert home remodeling",
+    "custom home remodeling",
+  ],
+  openGraph: {
+    title: "Home Remodeling in Umm Suqeim, Dubai | Interiara",
+    description: "Expert home remodeling in Umm Suqeim, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-remodeling-umm-suqeim",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-remodeling-umm-suqeim",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Remodeling in Umm Suqeim, Dubai | Interiara",
+    description: "Expert home remodeling in Umm Suqeim, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Remodeling Umm Suqeim, Home Remodeling in Umm Suqeim, Best home remodeling Umm Suqeim, Professional home remodeling Umm Suqeim, Luxury home remodeling Umm Suqeim, Home Remodeling Umm Suqeim Dubai, Home Remodeling designer Umm Suqeim, Home Remodeling company Umm Suqeim, Home Remodeling contractor Umm Suqeim, Affordable home remodeling Umm Suqeim, Modern home remodeling Umm Suqeim, Home Remodeling consultation Umm Suqeim, Home Remodeling cost Umm Suqeim, Home Remodeling price Umm Suqeim, Top home remodeling Umm Suqeim, Home Remodeling near Umm Suqeim, Home Remodeling specialists Umm Suqeim, Home Remodeling experts Umm Suqeim, Home Remodeling solutions Umm Suqeim, Home Remodeling packages Umm Suqeim, Home Remodeling quotes Umm Suqeim, Home Remodeling estimates Umm Suqeim, Home Remodeling services near me Umm Suqeim, Cheap Home Remodeling Umm Suqeim, Quality Home Remodeling Umm Suqeim, Trusted Home Remodeling Umm Suqeim, Home Remodeling transformation Umm Suqeim, Home Remodeling renovation Umm Suqeim, Home Remodeling makeover Umm Suqeim, Best Home Remodeling company Umm Suqeim
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeRemodelingUmmSuqeim() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Umm Suqeim
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Umm Suqeim
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/art-consultation-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

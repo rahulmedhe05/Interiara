@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Soundproofing Design in Al Barsha, Dubai",
+    "url": "https://interiara.com/soundproofing-design-al-barsha",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Barsha, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Soundproofing Design",
+      "areaServed": "Al Barsha, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Barsha",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Barsha",
+        "item": "https://interiara.com/al-barsha"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Soundproofing Design",
+        "item": "https://interiara.com/soundproofing-design-al-barsha"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Soundproofing Design in Al Barsha, Dubai | Interiara",
+  description: "Expert soundproofing design in Al Barsha, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "soundproofing design",
+    "soundproofing design Al Barsha",
+    "soundproofing design Al Barsha Dubai",
+    "professional soundproofing design",
+    "best soundproofing design",
+    "soundproofing design services",
+    "luxury soundproofing design",
+    "affordable soundproofing design",
+    "expert soundproofing design",
+    "custom soundproofing design",
+  ],
+  openGraph: {
+    title: "Soundproofing Design in Al Barsha, Dubai | Interiara",
+    description: "Expert soundproofing design in Al Barsha, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/soundproofing-design-al-barsha",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/soundproofing-design-al-barsha",
+  twitter: {
+    card: "summary_large_image",
+    title: "Soundproofing Design in Al Barsha, Dubai | Interiara",
+    description: "Expert soundproofing design in Al Barsha, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Soundproofing Design Al Barsha, Soundproofing Design in Al Barsha, Best soundproofing design Al Barsha, Professional soundproofing design Al Barsha, Luxury soundproofing design Al Barsha, Soundproofing Design Al Barsha Dubai, Soundproofing Design designer Al Barsha, Soundproofing Design company Al Barsha, Soundproofing Design contractor Al Barsha, Affordable soundproofing design Al Barsha, Modern soundproofing design Al Barsha, Soundproofing Design consultation Al Barsha, Soundproofing Design cost Al Barsha, Soundproofing Design price Al Barsha, Top soundproofing design Al Barsha, Soundproofing Design near Al Barsha, Soundproofing Design specialists Al Barsha, Soundproofing Design experts Al Barsha, Soundproofing Design solutions Al Barsha, Soundproofing Design packages Al Barsha, Soundproofing Design quotes Al Barsha, Soundproofing Design estimates Al Barsha, Soundproofing Design services near me Al Barsha, Cheap Soundproofing Design Al Barsha, Quality Soundproofing Design Al Barsha, Trusted Soundproofing Design Al Barsha, Soundproofing Design transformation Al Barsha, Soundproofing Design renovation Al Barsha, Soundproofing Design makeover Al Barsha, Best Soundproofing Design company Al Barsha
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SoundproofingDesignAlBarsha() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Barsha
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Barsha
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

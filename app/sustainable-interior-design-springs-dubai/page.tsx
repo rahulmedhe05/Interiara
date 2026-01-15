@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Sustainable Interior Design in Springs, Dubai",
+    "url": "https://interiara.com/sustainable-interior-design-springs",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Springs, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Sustainable Interior Design",
+      "areaServed": "Springs, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Springs",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Springs",
+        "item": "https://interiara.com/springs"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Sustainable Interior Design",
+        "item": "https://interiara.com/sustainable-interior-design-springs"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Sustainable Interior Design in Springs, Dubai | Interiara",
+  description: "Transform your space with premium sustainable interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "sustainable interior design",
+    "sustainable interior design Springs",
+    "sustainable interior design Springs Dubai",
+    "professional sustainable interior design",
+    "best sustainable interior design",
+    "sustainable interior design services",
+    "luxury sustainable interior design",
+    "affordable sustainable interior design",
+    "expert sustainable interior design",
+    "custom sustainable interior design",
+  ],
+  openGraph: {
+    title: "Sustainable Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium sustainable interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/sustainable-interior-design-springs",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/sustainable-interior-design-springs",
+  twitter: {
+    card: "summary_large_image",
+    title: "Sustainable Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium sustainable interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Sustainable Interior Design Springs, Sustainable Interior in Design Springs, Best sustainable interior Design Springs, Professional sustainable interior Design Springs, Luxury sustainable interior Design Springs, Sustainable Interior Design Springs Dubai, Sustainable Interior designer Design Springs, Sustainable Interior company Design Springs, Sustainable Interior contractor Design Springs, Affordable sustainable interior Design Springs, Modern sustainable interior Design Springs, Sustainable Interior consultation Design Springs, Sustainable Interior cost Design Springs, Sustainable Interior price Design Springs, Top sustainable interior Design Springs, Sustainable Interior near Design Springs, Sustainable Interior specialists Design Springs, Sustainable Interior experts Design Springs, Sustainable Interior solutions Design Springs, Sustainable Interior packages Design Springs, Sustainable Interior quotes Design Springs, Sustainable Interior estimates Design Springs, Sustainable Interior services near me Design Springs, Cheap Sustainable Interior Design Springs, Quality Sustainable Interior Design Springs, Trusted Sustainable Interior Design Springs, Sustainable Interior transformation Design Springs, Sustainable Interior renovation Design Springs, Sustainable Interior makeover Design Springs, Best Sustainable Interior company Design Springs
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SustainableInteriorDesignSprings() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Springs
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Springs
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/art-consultation-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

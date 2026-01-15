@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Lighting Design in Dubai Hills Estate, Dubai",
+    "url": "https://interiara.com/lighting-design-dubai-hills-estate",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Hills Estate, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Lighting Design",
+      "areaServed": "Dubai Hills Estate, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Hills Estate",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Hills Estate",
+        "item": "https://interiara.com/dubai-hills-estate"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lighting Design",
+        "item": "https://interiara.com/lighting-design-dubai-hills-estate"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Lighting Design in Dubai Hills Estate, Dubai | Interiara",
+  description: "Professional lighting design in Dubai Hills Estate. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+  keywords: [
+    "lighting design",
+    "lighting design Dubai Hills Estate",
+    "lighting design Dubai Hills Estate Dubai",
+    "professional lighting design",
+    "best lighting design",
+    "lighting design services",
+    "luxury lighting design",
+    "affordable lighting design",
+    "expert lighting design",
+    "custom lighting design",
+  ],
+  openGraph: {
+    title: "Lighting Design in Dubai Hills Estate, Dubai | Interiara",
+    description: "Professional lighting design in Dubai Hills Estate. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    url: "https://interiara.com/lighting-design-dubai-hills-estate",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/lighting-design-dubai-hills-estate",
+  twitter: {
+    card: "summary_large_image",
+    title: "Lighting Design in Dubai Hills Estate, Dubai | Interiara",
+    description: "Professional lighting design in Dubai Hills Estate. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Lighting Design Dubai Hills Estate, Lighting Design Dubai in Hills Estate, Best lighting design dubai Hills Estate, Professional lighting design dubai Hills Estate, Luxury lighting design dubai Hills Estate, Lighting Design Dubai Hills Estate Dubai, Lighting Design Dubai designer Hills Estate, Lighting Design Dubai company Hills Estate, Lighting Design Dubai contractor Hills Estate, Affordable lighting design dubai Hills Estate, Modern lighting design dubai Hills Estate, Lighting Design Dubai consultation Hills Estate, Lighting Design Dubai cost Hills Estate, Lighting Design Dubai price Hills Estate, Top lighting design dubai Hills Estate, Lighting Design Dubai near Hills Estate, Lighting Design Dubai specialists Hills Estate, Lighting Design Dubai experts Hills Estate, Lighting Design Dubai solutions Hills Estate, Lighting Design Dubai packages Hills Estate, Lighting Design Dubai quotes Hills Estate, Lighting Design Dubai estimates Hills Estate, Lighting Design Dubai services near me Hills Estate, Cheap Lighting Design Dubai Hills Estate, Quality Lighting Design Dubai Hills Estate, Trusted Lighting Design Dubai Hills Estate, Lighting Design Dubai transformation Hills Estate, Lighting Design Dubai renovation Hills Estate, Lighting Design Dubai makeover Hills Estate, Best Lighting Design Dubai company Hills Estate
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function LightingDesignDubaiHillsEstate() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Hills Estate
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Hills Estate
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/home-renovation-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

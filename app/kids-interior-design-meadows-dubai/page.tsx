@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Kids Interior Design in Meadows, Dubai",
+    "url": "https://interiara.com/kids-interior-design-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Kids Interior Design",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Kids Interior Design",
+        "item": "https://interiara.com/kids-interior-design-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Kids Interior Design in Meadows, Dubai | Interiara",
+  description: "Transform your space with premium kids interior design in Meadows. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "kids interior design",
+    "kids interior design Meadows",
+    "kids interior design Meadows Dubai",
+    "professional kids interior design",
+    "best kids interior design",
+    "kids interior design services",
+    "luxury kids interior design",
+    "affordable kids interior design",
+    "expert kids interior design",
+    "custom kids interior design",
+  ],
+  openGraph: {
+    title: "Kids Interior Design in Meadows, Dubai | Interiara",
+    description: "Transform your space with premium kids interior design in Meadows. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/kids-interior-design-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/kids-interior-design-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Kids Interior Design in Meadows, Dubai | Interiara",
+    description: "Transform your space with premium kids interior design in Meadows. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Kids Interior Design Meadows, Kids Interior in Design Meadows, Best kids interior Design Meadows, Professional kids interior Design Meadows, Luxury kids interior Design Meadows, Kids Interior Design Meadows Dubai, Kids Interior designer Design Meadows, Kids Interior company Design Meadows, Kids Interior contractor Design Meadows, Affordable kids interior Design Meadows, Modern kids interior Design Meadows, Kids Interior consultation Design Meadows, Kids Interior cost Design Meadows, Kids Interior price Design Meadows, Top kids interior Design Meadows, Kids Interior near Design Meadows, Kids Interior specialists Design Meadows, Kids Interior experts Design Meadows, Kids Interior solutions Design Meadows, Kids Interior packages Design Meadows, Kids Interior quotes Design Meadows, Kids Interior estimates Design Meadows, Kids Interior services near me Design Meadows, Cheap Kids Interior Design Meadows, Quality Kids Interior Design Meadows, Trusted Kids Interior Design Meadows, Kids Interior transformation Design Meadows, Kids Interior renovation Design Meadows, Kids Interior makeover Design Meadows, Best Kids Interior company Design Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function KidsInteriorDesignMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

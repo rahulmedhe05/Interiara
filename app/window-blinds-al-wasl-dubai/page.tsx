@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Window Blinds in Al Wasl, Dubai",
+    "url": "https://interiara.com/window-blinds-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Window Blinds",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Window Blinds",
+        "item": "https://interiara.com/window-blinds-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Window Blinds in Al Wasl, Dubai | Interiara",
+  description: "Expert window blinds in Al Wasl, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "window blinds",
+    "window blinds Al Wasl",
+    "window blinds Al Wasl Dubai",
+    "professional window blinds",
+    "best window blinds",
+    "window blinds services",
+    "luxury window blinds",
+    "affordable window blinds",
+    "expert window blinds",
+    "custom window blinds",
+  ],
+  openGraph: {
+    title: "Window Blinds in Al Wasl, Dubai | Interiara",
+    description: "Expert window blinds in Al Wasl, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/window-blinds-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/window-blinds-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Window Blinds in Al Wasl, Dubai | Interiara",
+    description: "Expert window blinds in Al Wasl, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Window Blinds Al Wasl, Window Blinds in Al Wasl, Best window blinds Al Wasl, Professional window blinds Al Wasl, Luxury window blinds Al Wasl, Window Blinds Al Wasl Dubai, Window Blinds designer Al Wasl, Window Blinds company Al Wasl, Window Blinds contractor Al Wasl, Affordable window blinds Al Wasl, Modern window blinds Al Wasl, Window Blinds consultation Al Wasl, Window Blinds cost Al Wasl, Window Blinds price Al Wasl, Top window blinds Al Wasl, Window Blinds near Al Wasl, Window Blinds specialists Al Wasl, Window Blinds experts Al Wasl, Window Blinds solutions Al Wasl, Window Blinds packages Al Wasl, Window Blinds quotes Al Wasl, Window Blinds estimates Al Wasl, Window Blinds services near me Al Wasl, Cheap Window Blinds Al Wasl, Quality Window Blinds Al Wasl, Trusted Window Blinds Al Wasl, Window Blinds transformation Al Wasl, Window Blinds renovation Al Wasl, Window Blinds makeover Al Wasl, Best Window Blinds company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WindowBlindsAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

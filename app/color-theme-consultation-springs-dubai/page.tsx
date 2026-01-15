@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Color Theme Consultation in Springs, Dubai",
+    "url": "https://interiara.com/color-theme-consultation-springs",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Springs, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Color Theme Consultation",
+      "areaServed": "Springs, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Springs",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Springs",
+        "item": "https://interiara.com/springs"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Color Theme Consultation",
+        "item": "https://interiara.com/color-theme-consultation-springs"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Color Theme Consultation in Springs, Dubai | Interiara",
+  description: "Expert color theme consultation in Springs, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "color theme consultation",
+    "color theme consultation Springs",
+    "color theme consultation Springs Dubai",
+    "professional color theme consultation",
+    "best color theme consultation",
+    "color theme consultation services",
+    "luxury color theme consultation",
+    "affordable color theme consultation",
+    "expert color theme consultation",
+    "custom color theme consultation",
+  ],
+  openGraph: {
+    title: "Color Theme Consultation in Springs, Dubai | Interiara",
+    description: "Expert color theme consultation in Springs, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/color-theme-consultation-springs",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/color-theme-consultation-springs",
+  twitter: {
+    card: "summary_large_image",
+    title: "Color Theme Consultation in Springs, Dubai | Interiara",
+    description: "Expert color theme consultation in Springs, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Color Theme Consultation Springs, Color Theme in Consultation Springs, Best color theme Consultation Springs, Professional color theme Consultation Springs, Luxury color theme Consultation Springs, Color Theme Consultation Springs Dubai, Color Theme designer Consultation Springs, Color Theme company Consultation Springs, Color Theme contractor Consultation Springs, Affordable color theme Consultation Springs, Modern color theme Consultation Springs, Color Theme consultation Consultation Springs, Color Theme cost Consultation Springs, Color Theme price Consultation Springs, Top color theme Consultation Springs, Color Theme near Consultation Springs, Color Theme specialists Consultation Springs, Color Theme experts Consultation Springs, Color Theme solutions Consultation Springs, Color Theme packages Consultation Springs, Color Theme quotes Consultation Springs, Color Theme estimates Consultation Springs, Color Theme services near me Consultation Springs, Cheap Color Theme Consultation Springs, Quality Color Theme Consultation Springs, Trusted Color Theme Consultation Springs, Color Theme transformation Consultation Springs, Color Theme renovation Consultation Springs, Color Theme makeover Consultation Springs, Best Color Theme company Consultation Springs
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ColorThemeConsultationSprings() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Springs
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Springs
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/art-consultation-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Space Planning in Al Quoz, Dubai",
+    "url": "https://interiara.com/space-planning-al-quoz",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Quoz, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Space Planning",
+      "areaServed": "Al Quoz, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Quoz",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Quoz",
+        "item": "https://interiara.com/al-quoz"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Space Planning",
+        "item": "https://interiara.com/space-planning-al-quoz"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Space Planning in Al Quoz, Dubai | Interiara",
+  description: "Expert space planning in Al Quoz, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "space planning",
+    "space planning Al Quoz",
+    "space planning Al Quoz Dubai",
+    "professional space planning",
+    "best space planning",
+    "space planning services",
+    "luxury space planning",
+    "affordable space planning",
+    "expert space planning",
+    "custom space planning",
+  ],
+  openGraph: {
+    title: "Space Planning in Al Quoz, Dubai | Interiara",
+    description: "Expert space planning in Al Quoz, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/space-planning-al-quoz",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/space-planning-al-quoz",
+  twitter: {
+    card: "summary_large_image",
+    title: "Space Planning in Al Quoz, Dubai | Interiara",
+    description: "Expert space planning in Al Quoz, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Space Planning Al Quoz, Space Planning in Al Quoz, Best space planning Al Quoz, Professional space planning Al Quoz, Luxury space planning Al Quoz, Space Planning Al Quoz Dubai, Space Planning designer Al Quoz, Space Planning company Al Quoz, Space Planning contractor Al Quoz, Affordable space planning Al Quoz, Modern space planning Al Quoz, Space Planning consultation Al Quoz, Space Planning cost Al Quoz, Space Planning price Al Quoz, Top space planning Al Quoz, Space Planning near Al Quoz, Space Planning specialists Al Quoz, Space Planning experts Al Quoz, Space Planning solutions Al Quoz, Space Planning packages Al Quoz, Space Planning quotes Al Quoz, Space Planning estimates Al Quoz, Space Planning services near me Al Quoz, Cheap Space Planning Al Quoz, Quality Space Planning Al Quoz, Trusted Space Planning Al Quoz, Space Planning transformation Al Quoz, Space Planning renovation Al Quoz, Space Planning makeover Al Quoz, Best Space Planning company Al Quoz
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SpacePlanningAlQuoz() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Quoz
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Quoz
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

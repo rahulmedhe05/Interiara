@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Salon Interior Design in Mirdif, Dubai",
+    "url": "https://interiara.com/salon-interior-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Salon Interior Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Salon Interior Design",
+        "item": "https://interiara.com/salon-interior-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Salon Interior Design in Mirdif, Dubai | Interiara",
+  description: "Transform your space with premium salon interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "salon interior design",
+    "salon interior design Mirdif",
+    "salon interior design Mirdif Dubai",
+    "professional salon interior design",
+    "best salon interior design",
+    "salon interior design services",
+    "luxury salon interior design",
+    "affordable salon interior design",
+    "expert salon interior design",
+    "custom salon interior design",
+  ],
+  openGraph: {
+    title: "Salon Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium salon interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/salon-interior-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/salon-interior-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Salon Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium salon interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Salon Interior Design Mirdif, Salon Interior in Design Mirdif, Best salon interior Design Mirdif, Professional salon interior Design Mirdif, Luxury salon interior Design Mirdif, Salon Interior Design Mirdif Dubai, Salon Interior designer Design Mirdif, Salon Interior company Design Mirdif, Salon Interior contractor Design Mirdif, Affordable salon interior Design Mirdif, Modern salon interior Design Mirdif, Salon Interior consultation Design Mirdif, Salon Interior cost Design Mirdif, Salon Interior price Design Mirdif, Top salon interior Design Mirdif, Salon Interior near Design Mirdif, Salon Interior specialists Design Mirdif, Salon Interior experts Design Mirdif, Salon Interior solutions Design Mirdif, Salon Interior packages Design Mirdif, Salon Interior quotes Design Mirdif, Salon Interior estimates Design Mirdif, Salon Interior services near me Design Mirdif, Cheap Salon Interior Design Mirdif, Quality Salon Interior Design Mirdif, Trusted Salon Interior Design Mirdif, Salon Interior transformation Design Mirdif, Salon Interior renovation Design Mirdif, Salon Interior makeover Design Mirdif, Best Salon Interior company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SalonInteriorDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

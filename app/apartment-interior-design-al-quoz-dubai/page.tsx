@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Apartment Interior Design in Al Quoz, Dubai",
+    "url": "https://interiara.com/apartment-interior-design-al-quoz",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Quoz, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Apartment Interior Design",
+      "areaServed": "Al Quoz, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Quoz",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Quoz",
+        "item": "https://interiara.com/al-quoz"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Apartment Interior Design",
+        "item": "https://interiara.com/apartment-interior-design-al-quoz"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Apartment Interior Design in Al Quoz, Dubai | Interiara",
+  description: "Transform your space with premium apartment interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "apartment interior design",
+    "apartment interior design Al Quoz",
+    "apartment interior design Al Quoz Dubai",
+    "professional apartment interior design",
+    "best apartment interior design",
+    "apartment interior design services",
+    "luxury apartment interior design",
+    "affordable apartment interior design",
+    "expert apartment interior design",
+    "custom apartment interior design",
+  ],
+  openGraph: {
+    title: "Apartment Interior Design in Al Quoz, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/apartment-interior-design-al-quoz",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/apartment-interior-design-al-quoz",
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartment Interior Design in Al Quoz, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Apartment Interior Design Al Quoz, Apartment Interior Design in Al Quoz, Best apartment interior design Al Quoz, Professional apartment interior design Al Quoz, Luxury apartment interior design Al Quoz, Apartment Interior Design Al Quoz Dubai, Apartment Interior Design designer Al Quoz, Apartment Interior Design company Al Quoz, Apartment Interior Design contractor Al Quoz, Affordable apartment interior design Al Quoz, Modern apartment interior design Al Quoz, Apartment Interior Design consultation Al Quoz, Apartment Interior Design cost Al Quoz, Apartment Interior Design price Al Quoz, Top apartment interior design Al Quoz, Apartment Interior Design near Al Quoz, Apartment Interior Design specialists Al Quoz, Apartment Interior Design experts Al Quoz, Apartment Interior Design solutions Al Quoz, Apartment Interior Design packages Al Quoz, Apartment Interior Design quotes Al Quoz, Apartment Interior Design estimates Al Quoz, Apartment Interior Design services near me Al Quoz, Cheap Apartment Interior Design Al Quoz, Quality Apartment Interior Design Al Quoz, Trusted Apartment Interior Design Al Quoz, Apartment Interior Design transformation Al Quoz, Apartment Interior Design renovation Al Quoz, Apartment Interior Design makeover Al Quoz, Best Apartment Interior Design company Al Quoz
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ApartmentInteriorDesignAlQuoz() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Quoz
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Quoz
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

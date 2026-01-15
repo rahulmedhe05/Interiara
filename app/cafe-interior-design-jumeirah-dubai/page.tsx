@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Cafe Interior Design in Jumeirah, Dubai",
+    "url": "https://interiara.com/cafe-interior-design-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Cafe Interior Design",
+      "areaServed": "Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Jumeirah",
+        "item": "https://interiara.com/jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cafe Interior Design",
+        "item": "https://interiara.com/cafe-interior-design-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Cafe Interior Design in Jumeirah, Dubai | Interiara",
+  description: "Transform your space with premium cafe interior design in Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "cafe interior design",
+    "cafe interior design Jumeirah",
+    "cafe interior design Jumeirah Dubai",
+    "professional cafe interior design",
+    "best cafe interior design",
+    "cafe interior design services",
+    "luxury cafe interior design",
+    "affordable cafe interior design",
+    "expert cafe interior design",
+    "custom cafe interior design",
+  ],
+  openGraph: {
+    title: "Cafe Interior Design in Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/cafe-interior-design-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/cafe-interior-design-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Cafe Interior Design in Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Cafe Interior Design Jumeirah, Cafe Interior in Design Jumeirah, Best cafe interior Design Jumeirah, Professional cafe interior Design Jumeirah, Luxury cafe interior Design Jumeirah, Cafe Interior Design Jumeirah Dubai, Cafe Interior designer Design Jumeirah, Cafe Interior company Design Jumeirah, Cafe Interior contractor Design Jumeirah, Affordable cafe interior Design Jumeirah, Modern cafe interior Design Jumeirah, Cafe Interior consultation Design Jumeirah, Cafe Interior cost Design Jumeirah, Cafe Interior price Design Jumeirah, Top cafe interior Design Jumeirah, Cafe Interior near Design Jumeirah, Cafe Interior specialists Design Jumeirah, Cafe Interior experts Design Jumeirah, Cafe Interior solutions Design Jumeirah, Cafe Interior packages Design Jumeirah, Cafe Interior quotes Design Jumeirah, Cafe Interior estimates Design Jumeirah, Cafe Interior services near me Design Jumeirah, Cheap Cafe Interior Design Jumeirah, Quality Cafe Interior Design Jumeirah, Trusted Cafe Interior Design Jumeirah, Cafe Interior transformation Design Jumeirah, Cafe Interior renovation Design Jumeirah, Cafe Interior makeover Design Jumeirah, Best Cafe Interior company Design Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CafeInteriorDesignJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

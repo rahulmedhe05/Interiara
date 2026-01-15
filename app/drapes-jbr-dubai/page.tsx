@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Drapes in JBR, Dubai",
+    "url": "https://interiara.com/drapes-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Drapes",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Drapes",
+        "item": "https://interiara.com/drapes-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Drapes in JBR, Dubai | Interiara",
+  description: "Expert drapes in JBR, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "drapes",
+    "drapes JBR",
+    "drapes JBR Dubai",
+    "professional drapes",
+    "best drapes",
+    "drapes services",
+    "luxury drapes",
+    "affordable drapes",
+    "expert drapes",
+    "custom drapes",
+  ],
+  openGraph: {
+    title: "Drapes in JBR, Dubai | Interiara",
+    description: "Expert drapes in JBR, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/drapes-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/drapes-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Drapes in JBR, Dubai | Interiara",
+    description: "Expert drapes in JBR, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords:  Drapes Jbr,  in Drapes Jbr, Best  Drapes Jbr, Professional  Drapes Jbr, Luxury  Drapes Jbr,  Drapes Jbr Dubai,  designer Drapes Jbr,  company Drapes Jbr,  contractor Drapes Jbr, Affordable  Drapes Jbr, Modern  Drapes Jbr,  consultation Drapes Jbr,  cost Drapes Jbr,  price Drapes Jbr, Top  Drapes Jbr,  near Drapes Jbr,  specialists Drapes Jbr,  experts Drapes Jbr,  solutions Drapes Jbr,  packages Drapes Jbr,  quotes Drapes Jbr,  estimates Drapes Jbr,  services near me Drapes Jbr, Cheap  Drapes Jbr, Quality  Drapes Jbr, Trusted  Drapes Jbr,  transformation Drapes Jbr,  renovation Drapes Jbr,  makeover Drapes Jbr, Best  company Drapes Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function DrapesJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

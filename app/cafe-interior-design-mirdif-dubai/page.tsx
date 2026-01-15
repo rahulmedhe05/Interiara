@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Cafe Interior Design in Mirdif, Dubai",
+    "url": "https://interiara.com/cafe-interior-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Cafe Interior Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cafe Interior Design",
+        "item": "https://interiara.com/cafe-interior-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Cafe Interior Design in Mirdif, Dubai | Interiara",
+  description: "Transform your space with premium cafe interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "cafe interior design",
+    "cafe interior design Mirdif",
+    "cafe interior design Mirdif Dubai",
+    "professional cafe interior design",
+    "best cafe interior design",
+    "cafe interior design services",
+    "luxury cafe interior design",
+    "affordable cafe interior design",
+    "expert cafe interior design",
+    "custom cafe interior design",
+  ],
+  openGraph: {
+    title: "Cafe Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/cafe-interior-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/cafe-interior-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Cafe Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Cafe Interior Design Mirdif, Cafe Interior in Design Mirdif, Best cafe interior Design Mirdif, Professional cafe interior Design Mirdif, Luxury cafe interior Design Mirdif, Cafe Interior Design Mirdif Dubai, Cafe Interior designer Design Mirdif, Cafe Interior company Design Mirdif, Cafe Interior contractor Design Mirdif, Affordable cafe interior Design Mirdif, Modern cafe interior Design Mirdif, Cafe Interior consultation Design Mirdif, Cafe Interior cost Design Mirdif, Cafe Interior price Design Mirdif, Top cafe interior Design Mirdif, Cafe Interior near Design Mirdif, Cafe Interior specialists Design Mirdif, Cafe Interior experts Design Mirdif, Cafe Interior solutions Design Mirdif, Cafe Interior packages Design Mirdif, Cafe Interior quotes Design Mirdif, Cafe Interior estimates Design Mirdif, Cafe Interior services near me Design Mirdif, Cheap Cafe Interior Design Mirdif, Quality Cafe Interior Design Mirdif, Trusted Cafe Interior Design Mirdif, Cafe Interior transformation Design Mirdif, Cafe Interior renovation Design Mirdif, Cafe Interior makeover Design Mirdif, Best Cafe Interior company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CafeInteriorDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

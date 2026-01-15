@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modern Interior Design in Meadows, Dubai",
+    "url": "https://interiara.com/modern-interior-design-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modern Interior Design",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modern Interior Design",
+        "item": "https://interiara.com/modern-interior-design-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modern Interior Design in Meadows, Dubai | Interiara",
+  description: "Transform your space with premium modern interior design in Meadows. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "modern interior design",
+    "modern interior design Meadows",
+    "modern interior design Meadows Dubai",
+    "professional modern interior design",
+    "best modern interior design",
+    "modern interior design services",
+    "luxury modern interior design",
+    "affordable modern interior design",
+    "expert modern interior design",
+    "custom modern interior design",
+  ],
+  openGraph: {
+    title: "Modern Interior Design in Meadows, Dubai | Interiara",
+    description: "Transform your space with premium modern interior design in Meadows. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/modern-interior-design-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modern-interior-design-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modern Interior Design in Meadows, Dubai | Interiara",
+    description: "Transform your space with premium modern interior design in Meadows. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modern Interior Design Meadows, Modern Interior in Design Meadows, Best modern interior Design Meadows, Professional modern interior Design Meadows, Luxury modern interior Design Meadows, Modern Interior Design Meadows Dubai, Modern Interior designer Design Meadows, Modern Interior company Design Meadows, Modern Interior contractor Design Meadows, Affordable modern interior Design Meadows, Modern modern interior Design Meadows, Modern Interior consultation Design Meadows, Modern Interior cost Design Meadows, Modern Interior price Design Meadows, Top modern interior Design Meadows, Modern Interior near Design Meadows, Modern Interior specialists Design Meadows, Modern Interior experts Design Meadows, Modern Interior solutions Design Meadows, Modern Interior packages Design Meadows, Modern Interior quotes Design Meadows, Modern Interior estimates Design Meadows, Modern Interior services near me Design Meadows, Cheap Modern Interior Design Meadows, Quality Modern Interior Design Meadows, Trusted Modern Interior Design Meadows, Modern Interior transformation Design Meadows, Modern Interior renovation Design Meadows, Modern Interior makeover Design Meadows, Best Modern Interior company Design Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModernInteriorDesignMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

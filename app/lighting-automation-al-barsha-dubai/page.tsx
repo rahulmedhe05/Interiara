@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Lighting Automation in Al Barsha, Dubai",
+    "url": "https://interiara.com/lighting-automation-al-barsha",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Barsha, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Lighting Automation",
+      "areaServed": "Al Barsha, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Barsha",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Barsha",
+        "item": "https://interiara.com/al-barsha"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lighting Automation",
+        "item": "https://interiara.com/lighting-automation-al-barsha"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Lighting Automation in Al Barsha, Dubai | Interiara",
+  description: "Expert lighting automation in Al Barsha, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "lighting automation",
+    "lighting automation Al Barsha",
+    "lighting automation Al Barsha Dubai",
+    "professional lighting automation",
+    "best lighting automation",
+    "lighting automation services",
+    "luxury lighting automation",
+    "affordable lighting automation",
+    "expert lighting automation",
+    "custom lighting automation",
+  ],
+  openGraph: {
+    title: "Lighting Automation in Al Barsha, Dubai | Interiara",
+    description: "Expert lighting automation in Al Barsha, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/lighting-automation-al-barsha",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/lighting-automation-al-barsha",
+  twitter: {
+    card: "summary_large_image",
+    title: "Lighting Automation in Al Barsha, Dubai | Interiara",
+    description: "Expert lighting automation in Al Barsha, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Lighting Automation Al Barsha, Lighting Automation in Al Barsha, Best lighting automation Al Barsha, Professional lighting automation Al Barsha, Luxury lighting automation Al Barsha, Lighting Automation Al Barsha Dubai, Lighting Automation designer Al Barsha, Lighting Automation company Al Barsha, Lighting Automation contractor Al Barsha, Affordable lighting automation Al Barsha, Modern lighting automation Al Barsha, Lighting Automation consultation Al Barsha, Lighting Automation cost Al Barsha, Lighting Automation price Al Barsha, Top lighting automation Al Barsha, Lighting Automation near Al Barsha, Lighting Automation specialists Al Barsha, Lighting Automation experts Al Barsha, Lighting Automation solutions Al Barsha, Lighting Automation packages Al Barsha, Lighting Automation quotes Al Barsha, Lighting Automation estimates Al Barsha, Lighting Automation services near me Al Barsha, Cheap Lighting Automation Al Barsha, Quality Lighting Automation Al Barsha, Trusted Lighting Automation Al Barsha, Lighting Automation transformation Al Barsha, Lighting Automation renovation Al Barsha, Lighting Automation makeover Al Barsha, Best Lighting Automation company Al Barsha
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function LightingAutomationAlBarsha() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Barsha
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Barsha
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

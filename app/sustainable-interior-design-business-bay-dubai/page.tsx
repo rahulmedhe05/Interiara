@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Sustainable Interior Design in Business Bay, Dubai",
+    "url": "https://interiara.com/sustainable-interior-design-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Sustainable Interior Design",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Sustainable Interior Design",
+        "item": "https://interiara.com/sustainable-interior-design-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Sustainable Interior Design in Business Bay, Dubai | Interiara",
+  description: "Transform your space with premium sustainable interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "sustainable interior design",
+    "sustainable interior design Business Bay",
+    "sustainable interior design Business Bay Dubai",
+    "professional sustainable interior design",
+    "best sustainable interior design",
+    "sustainable interior design services",
+    "luxury sustainable interior design",
+    "affordable sustainable interior design",
+    "expert sustainable interior design",
+    "custom sustainable interior design",
+  ],
+  openGraph: {
+    title: "Sustainable Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium sustainable interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/sustainable-interior-design-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/sustainable-interior-design-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Sustainable Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium sustainable interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Sustainable Interior Design Business Bay, Sustainable Interior Design in Business Bay, Best sustainable interior design Business Bay, Professional sustainable interior design Business Bay, Luxury sustainable interior design Business Bay, Sustainable Interior Design Business Bay Dubai, Sustainable Interior Design designer Business Bay, Sustainable Interior Design company Business Bay, Sustainable Interior Design contractor Business Bay, Affordable sustainable interior design Business Bay, Modern sustainable interior design Business Bay, Sustainable Interior Design consultation Business Bay, Sustainable Interior Design cost Business Bay, Sustainable Interior Design price Business Bay, Top sustainable interior design Business Bay, Sustainable Interior Design near Business Bay, Sustainable Interior Design specialists Business Bay, Sustainable Interior Design experts Business Bay, Sustainable Interior Design solutions Business Bay, Sustainable Interior Design packages Business Bay, Sustainable Interior Design quotes Business Bay, Sustainable Interior Design estimates Business Bay, Sustainable Interior Design services near me Business Bay, Cheap Sustainable Interior Design Business Bay, Quality Sustainable Interior Design Business Bay, Trusted Sustainable Interior Design Business Bay, Sustainable Interior Design transformation Business Bay, Sustainable Interior Design renovation Business Bay, Sustainable Interior Design makeover Business Bay, Best Sustainable Interior Design company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SustainableInteriorDesignBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

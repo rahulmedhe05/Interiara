@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in City Walk, Dubai",
+    "url": "https://interiara.com/wardrobe-design-city-walk",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "City Walk, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "City Walk, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "City Walk",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "City Walk",
+        "item": "https://interiara.com/city-walk"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-city-walk"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in City Walk, Dubai | Interiara",
+  description: "Custom wardrobe design in City Walk. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design City Walk",
+    "wardrobe design City Walk Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in City Walk, Dubai | Interiara",
+    description: "Custom wardrobe design in City Walk. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-city-walk",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-city-walk",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in City Walk, Dubai | Interiara",
+    description: "Custom wardrobe design in City Walk. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design City Walk, Wardrobe Design in City Walk, Best wardrobe design City Walk, Professional wardrobe design City Walk, Luxury wardrobe design City Walk, Wardrobe Design City Walk Dubai, Wardrobe Design designer City Walk, Wardrobe Design company City Walk, Wardrobe Design contractor City Walk, Affordable wardrobe design City Walk, Modern wardrobe design City Walk, Wardrobe Design consultation City Walk, Wardrobe Design cost City Walk, Wardrobe Design price City Walk, Top wardrobe design City Walk, Wardrobe Design near City Walk, Wardrobe Design specialists City Walk, Wardrobe Design experts City Walk, Wardrobe Design solutions City Walk, Wardrobe Design packages City Walk, Wardrobe Design quotes City Walk, Wardrobe Design estimates City Walk, Wardrobe Design services near me City Walk, Cheap Wardrobe Design City Walk, Quality Wardrobe Design City Walk, Trusted Wardrobe Design City Walk, Wardrobe Design transformation City Walk, Wardrobe Design renovation City Walk, Wardrobe Design makeover City Walk, Best Wardrobe Design company City Walk
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignCityWalk() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in City Walk
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in City Walk
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/art-consultation-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

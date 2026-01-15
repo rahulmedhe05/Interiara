@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Healthcare Interior Design in Arabian Ranches, Dubai",
+    "url": "https://interiara.com/healthcare-interior-design-arabian-ranches",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Arabian Ranches, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Healthcare Interior Design",
+      "areaServed": "Arabian Ranches, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Arabian Ranches",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Arabian Ranches",
+        "item": "https://interiara.com/arabian-ranches"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Healthcare Interior Design",
+        "item": "https://interiara.com/healthcare-interior-design-arabian-ranches"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Healthcare Interior Design in Arabian Ranches, Dubai | Interiara",
+  description: "Transform your space with premium healthcare interior design in Arabian Ranches. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "healthcare interior design",
+    "healthcare interior design Arabian Ranches",
+    "healthcare interior design Arabian Ranches Dubai",
+    "professional healthcare interior design",
+    "best healthcare interior design",
+    "healthcare interior design services",
+    "luxury healthcare interior design",
+    "affordable healthcare interior design",
+    "expert healthcare interior design",
+    "custom healthcare interior design",
+  ],
+  openGraph: {
+    title: "Healthcare Interior Design in Arabian Ranches, Dubai | Interiara",
+    description: "Transform your space with premium healthcare interior design in Arabian Ranches. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/healthcare-interior-design-arabian-ranches",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/healthcare-interior-design-arabian-ranches",
+  twitter: {
+    card: "summary_large_image",
+    title: "Healthcare Interior Design in Arabian Ranches, Dubai | Interiara",
+    description: "Transform your space with premium healthcare interior design in Arabian Ranches. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Healthcare Interior Design Arabian Ranches, Healthcare Interior Design in Arabian Ranches, Best healthcare interior design Arabian Ranches, Professional healthcare interior design Arabian Ranches, Luxury healthcare interior design Arabian Ranches, Healthcare Interior Design Arabian Ranches Dubai, Healthcare Interior Design designer Arabian Ranches, Healthcare Interior Design company Arabian Ranches, Healthcare Interior Design contractor Arabian Ranches, Affordable healthcare interior design Arabian Ranches, Modern healthcare interior design Arabian Ranches, Healthcare Interior Design consultation Arabian Ranches, Healthcare Interior Design cost Arabian Ranches, Healthcare Interior Design price Arabian Ranches, Top healthcare interior design Arabian Ranches, Healthcare Interior Design near Arabian Ranches, Healthcare Interior Design specialists Arabian Ranches, Healthcare Interior Design experts Arabian Ranches, Healthcare Interior Design solutions Arabian Ranches, Healthcare Interior Design packages Arabian Ranches, Healthcare Interior Design quotes Arabian Ranches, Healthcare Interior Design estimates Arabian Ranches, Healthcare Interior Design services near me Arabian Ranches, Cheap Healthcare Interior Design Arabian Ranches, Quality Healthcare Interior Design Arabian Ranches, Trusted Healthcare Interior Design Arabian Ranches, Healthcare Interior Design transformation Arabian Ranches, Healthcare Interior Design renovation Arabian Ranches, Healthcare Interior Design makeover Arabian Ranches, Best Healthcare Interior Design company Arabian Ranches
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HealthcareInteriorDesignArabianRanches() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Arabian Ranches
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Arabian Ranches
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/art-consultation-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

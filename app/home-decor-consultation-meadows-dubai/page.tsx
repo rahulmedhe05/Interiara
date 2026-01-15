@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Decor Consultation in Meadows, Dubai",
+    "url": "https://interiara.com/home-decor-consultation-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Decor Consultation",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Decor Consultation",
+        "item": "https://interiara.com/home-decor-consultation-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Decor Consultation in Meadows, Dubai | Interiara",
+  description: "Expert home decor consultation in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home decor consultation",
+    "home decor consultation Meadows",
+    "home decor consultation Meadows Dubai",
+    "professional home decor consultation",
+    "best home decor consultation",
+    "home decor consultation services",
+    "luxury home decor consultation",
+    "affordable home decor consultation",
+    "expert home decor consultation",
+    "custom home decor consultation",
+  ],
+  openGraph: {
+    title: "Home Decor Consultation in Meadows, Dubai | Interiara",
+    description: "Expert home decor consultation in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-decor-consultation-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-decor-consultation-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Decor Consultation in Meadows, Dubai | Interiara",
+    description: "Expert home decor consultation in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Decor Consultation Meadows, Home Decor in Consultation Meadows, Best home decor Consultation Meadows, Professional home decor Consultation Meadows, Luxury home decor Consultation Meadows, Home Decor Consultation Meadows Dubai, Home Decor designer Consultation Meadows, Home Decor company Consultation Meadows, Home Decor contractor Consultation Meadows, Affordable home decor Consultation Meadows, Modern home decor Consultation Meadows, Home Decor consultation Consultation Meadows, Home Decor cost Consultation Meadows, Home Decor price Consultation Meadows, Top home decor Consultation Meadows, Home Decor near Consultation Meadows, Home Decor specialists Consultation Meadows, Home Decor experts Consultation Meadows, Home Decor solutions Consultation Meadows, Home Decor packages Consultation Meadows, Home Decor quotes Consultation Meadows, Home Decor estimates Consultation Meadows, Home Decor services near me Consultation Meadows, Cheap Home Decor Consultation Meadows, Quality Home Decor Consultation Meadows, Trusted Home Decor Consultation Meadows, Home Decor transformation Consultation Meadows, Home Decor renovation Consultation Meadows, Home Decor makeover Consultation Meadows, Best Home Decor company Consultation Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeDecorConsultationMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bathroom Interior Design in JVC, Dubai",
+    "url": "https://interiara.com/bathroom-interior-design-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bathroom Interior Design",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bathroom Interior Design",
+        "item": "https://interiara.com/bathroom-interior-design-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bathroom Interior Design in JVC, Dubai | Interiara",
+  description: "Transform your space with premium bathroom interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "bathroom interior design",
+    "bathroom interior design JVC",
+    "bathroom interior design JVC Dubai",
+    "professional bathroom interior design",
+    "best bathroom interior design",
+    "bathroom interior design services",
+    "luxury bathroom interior design",
+    "affordable bathroom interior design",
+    "expert bathroom interior design",
+    "custom bathroom interior design",
+  ],
+  openGraph: {
+    title: "Bathroom Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium bathroom interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/bathroom-interior-design-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bathroom-interior-design-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bathroom Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium bathroom interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bathroom Interior Design Jvc, Bathroom Interior in Design Jvc, Best bathroom interior Design Jvc, Professional bathroom interior Design Jvc, Luxury bathroom interior Design Jvc, Bathroom Interior Design Jvc Dubai, Bathroom Interior designer Design Jvc, Bathroom Interior company Design Jvc, Bathroom Interior contractor Design Jvc, Affordable bathroom interior Design Jvc, Modern bathroom interior Design Jvc, Bathroom Interior consultation Design Jvc, Bathroom Interior cost Design Jvc, Bathroom Interior price Design Jvc, Top bathroom interior Design Jvc, Bathroom Interior near Design Jvc, Bathroom Interior specialists Design Jvc, Bathroom Interior experts Design Jvc, Bathroom Interior solutions Design Jvc, Bathroom Interior packages Design Jvc, Bathroom Interior quotes Design Jvc, Bathroom Interior estimates Design Jvc, Bathroom Interior services near me Design Jvc, Cheap Bathroom Interior Design Jvc, Quality Bathroom Interior Design Jvc, Trusted Bathroom Interior Design Jvc, Bathroom Interior transformation Design Jvc, Bathroom Interior renovation Design Jvc, Bathroom Interior makeover Design Jvc, Best Bathroom Interior company Design Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BathroomInteriorDesignJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

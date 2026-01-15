@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Lighting Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/lighting-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Lighting Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lighting Design",
+        "item": "https://interiara.com/lighting-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Lighting Design in Al Wasl, Dubai | Interiara",
+  description: "Professional lighting design in Al Wasl. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+  keywords: [
+    "lighting design",
+    "lighting design Al Wasl",
+    "lighting design Al Wasl Dubai",
+    "professional lighting design",
+    "best lighting design",
+    "lighting design services",
+    "luxury lighting design",
+    "affordable lighting design",
+    "expert lighting design",
+    "custom lighting design",
+  ],
+  openGraph: {
+    title: "Lighting Design in Al Wasl, Dubai | Interiara",
+    description: "Professional lighting design in Al Wasl. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    url: "https://interiara.com/lighting-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/lighting-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Lighting Design in Al Wasl, Dubai | Interiara",
+    description: "Professional lighting design in Al Wasl. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Lighting Design Al Wasl, Lighting Design in Al Wasl, Best lighting design Al Wasl, Professional lighting design Al Wasl, Luxury lighting design Al Wasl, Lighting Design Al Wasl Dubai, Lighting Design designer Al Wasl, Lighting Design company Al Wasl, Lighting Design contractor Al Wasl, Affordable lighting design Al Wasl, Modern lighting design Al Wasl, Lighting Design consultation Al Wasl, Lighting Design cost Al Wasl, Lighting Design price Al Wasl, Top lighting design Al Wasl, Lighting Design near Al Wasl, Lighting Design specialists Al Wasl, Lighting Design experts Al Wasl, Lighting Design solutions Al Wasl, Lighting Design packages Al Wasl, Lighting Design quotes Al Wasl, Lighting Design estimates Al Wasl, Lighting Design services near me Al Wasl, Cheap Lighting Design Al Wasl, Quality Lighting Design Al Wasl, Trusted Lighting Design Al Wasl, Lighting Design transformation Al Wasl, Lighting Design renovation Al Wasl, Lighting Design makeover Al Wasl, Best Lighting Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function LightingDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

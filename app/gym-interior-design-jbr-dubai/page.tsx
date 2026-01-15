@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Gym Interior Design in JBR, Dubai",
+    "url": "https://interiara.com/gym-interior-design-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Gym Interior Design",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gym Interior Design",
+        "item": "https://interiara.com/gym-interior-design-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Gym Interior Design in JBR, Dubai | Interiara",
+  description: "Transform your space with premium gym interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "gym interior design",
+    "gym interior design JBR",
+    "gym interior design JBR Dubai",
+    "professional gym interior design",
+    "best gym interior design",
+    "gym interior design services",
+    "luxury gym interior design",
+    "affordable gym interior design",
+    "expert gym interior design",
+    "custom gym interior design",
+  ],
+  openGraph: {
+    title: "Gym Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/gym-interior-design-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/gym-interior-design-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Gym Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Gym Interior Design Jbr, Gym Interior in Design Jbr, Best gym interior Design Jbr, Professional gym interior Design Jbr, Luxury gym interior Design Jbr, Gym Interior Design Jbr Dubai, Gym Interior designer Design Jbr, Gym Interior company Design Jbr, Gym Interior contractor Design Jbr, Affordable gym interior Design Jbr, Modern gym interior Design Jbr, Gym Interior consultation Design Jbr, Gym Interior cost Design Jbr, Gym Interior price Design Jbr, Top gym interior Design Jbr, Gym Interior near Design Jbr, Gym Interior specialists Design Jbr, Gym Interior experts Design Jbr, Gym Interior solutions Design Jbr, Gym Interior packages Design Jbr, Gym Interior quotes Design Jbr, Gym Interior estimates Design Jbr, Gym Interior services near me Design Jbr, Cheap Gym Interior Design Jbr, Quality Gym Interior Design Jbr, Trusted Gym Interior Design Jbr, Gym Interior transformation Design Jbr, Gym Interior renovation Design Jbr, Gym Interior makeover Design Jbr, Best Gym Interior company Design Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function GymInteriorDesignJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

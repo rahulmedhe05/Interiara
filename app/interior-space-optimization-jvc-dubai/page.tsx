@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Interior Space Optimization in JVC, Dubai",
+    "url": "https://interiara.com/interior-space-optimization-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Interior Space Optimization",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Interior Space Optimization",
+        "item": "https://interiara.com/interior-space-optimization-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Interior Space Optimization in JVC, Dubai | Interiara",
+  description: "Expert interior space optimization in JVC, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "interior space optimization",
+    "interior space optimization JVC",
+    "interior space optimization JVC Dubai",
+    "professional interior space optimization",
+    "best interior space optimization",
+    "interior space optimization services",
+    "luxury interior space optimization",
+    "affordable interior space optimization",
+    "expert interior space optimization",
+    "custom interior space optimization",
+  ],
+  openGraph: {
+    title: "Interior Space Optimization in JVC, Dubai | Interiara",
+    description: "Expert interior space optimization in JVC, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/interior-space-optimization-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/interior-space-optimization-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Interior Space Optimization in JVC, Dubai | Interiara",
+    description: "Expert interior space optimization in JVC, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Interior Space Optimization Jvc, Interior Space in Optimization Jvc, Best interior space Optimization Jvc, Professional interior space Optimization Jvc, Luxury interior space Optimization Jvc, Interior Space Optimization Jvc Dubai, Interior Space designer Optimization Jvc, Interior Space company Optimization Jvc, Interior Space contractor Optimization Jvc, Affordable interior space Optimization Jvc, Modern interior space Optimization Jvc, Interior Space consultation Optimization Jvc, Interior Space cost Optimization Jvc, Interior Space price Optimization Jvc, Top interior space Optimization Jvc, Interior Space near Optimization Jvc, Interior Space specialists Optimization Jvc, Interior Space experts Optimization Jvc, Interior Space solutions Optimization Jvc, Interior Space packages Optimization Jvc, Interior Space quotes Optimization Jvc, Interior Space estimates Optimization Jvc, Interior Space services near me Optimization Jvc, Cheap Interior Space Optimization Jvc, Quality Interior Space Optimization Jvc, Trusted Interior Space Optimization Jvc, Interior Space transformation Optimization Jvc, Interior Space renovation Optimization Jvc, Interior Space makeover Optimization Jvc, Best Interior Space company Optimization Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function InteriorSpaceOptimizationJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wall Coverings in Business Bay, Dubai",
+    "url": "https://interiara.com/wall-coverings-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wall Coverings",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wall Coverings",
+        "item": "https://interiara.com/wall-coverings-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wall Coverings in Business Bay, Dubai | Interiara",
+  description: "Expert wall coverings in Business Bay, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "wall coverings",
+    "wall coverings Business Bay",
+    "wall coverings Business Bay Dubai",
+    "professional wall coverings",
+    "best wall coverings",
+    "wall coverings services",
+    "luxury wall coverings",
+    "affordable wall coverings",
+    "expert wall coverings",
+    "custom wall coverings",
+  ],
+  openGraph: {
+    title: "Wall Coverings in Business Bay, Dubai | Interiara",
+    description: "Expert wall coverings in Business Bay, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/wall-coverings-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wall-coverings-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wall Coverings in Business Bay, Dubai | Interiara",
+    description: "Expert wall coverings in Business Bay, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wall Coverings Business Bay, Wall Coverings in Business Bay, Best wall coverings Business Bay, Professional wall coverings Business Bay, Luxury wall coverings Business Bay, Wall Coverings Business Bay Dubai, Wall Coverings designer Business Bay, Wall Coverings company Business Bay, Wall Coverings contractor Business Bay, Affordable wall coverings Business Bay, Modern wall coverings Business Bay, Wall Coverings consultation Business Bay, Wall Coverings cost Business Bay, Wall Coverings price Business Bay, Top wall coverings Business Bay, Wall Coverings near Business Bay, Wall Coverings specialists Business Bay, Wall Coverings experts Business Bay, Wall Coverings solutions Business Bay, Wall Coverings packages Business Bay, Wall Coverings quotes Business Bay, Wall Coverings estimates Business Bay, Wall Coverings services near me Business Bay, Cheap Wall Coverings Business Bay, Quality Wall Coverings Business Bay, Trusted Wall Coverings Business Bay, Wall Coverings transformation Business Bay, Wall Coverings renovation Business Bay, Wall Coverings makeover Business Bay, Best Wall Coverings company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WallCoveringsBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

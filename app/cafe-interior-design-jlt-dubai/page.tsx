@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Cafe Interior Design in JLT, Dubai",
+    "url": "https://interiara.com/cafe-interior-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Cafe Interior Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cafe Interior Design",
+        "item": "https://interiara.com/cafe-interior-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Cafe Interior Design in JLT, Dubai | Interiara",
+  description: "Transform your space with premium cafe interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "cafe interior design",
+    "cafe interior design JLT",
+    "cafe interior design JLT Dubai",
+    "professional cafe interior design",
+    "best cafe interior design",
+    "cafe interior design services",
+    "luxury cafe interior design",
+    "affordable cafe interior design",
+    "expert cafe interior design",
+    "custom cafe interior design",
+  ],
+  openGraph: {
+    title: "Cafe Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/cafe-interior-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/cafe-interior-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Cafe Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Cafe Interior Design Jlt, Cafe Interior in Design Jlt, Best cafe interior Design Jlt, Professional cafe interior Design Jlt, Luxury cafe interior Design Jlt, Cafe Interior Design Jlt Dubai, Cafe Interior designer Design Jlt, Cafe Interior company Design Jlt, Cafe Interior contractor Design Jlt, Affordable cafe interior Design Jlt, Modern cafe interior Design Jlt, Cafe Interior consultation Design Jlt, Cafe Interior cost Design Jlt, Cafe Interior price Design Jlt, Top cafe interior Design Jlt, Cafe Interior near Design Jlt, Cafe Interior specialists Design Jlt, Cafe Interior experts Design Jlt, Cafe Interior solutions Design Jlt, Cafe Interior packages Design Jlt, Cafe Interior quotes Design Jlt, Cafe Interior estimates Design Jlt, Cafe Interior services near me Design Jlt, Cheap Cafe Interior Design Jlt, Quality Cafe Interior Design Jlt, Trusted Cafe Interior Design Jlt, Cafe Interior transformation Design Jlt, Cafe Interior renovation Design Jlt, Cafe Interior makeover Design Jlt, Best Cafe Interior company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CafeInteriorDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

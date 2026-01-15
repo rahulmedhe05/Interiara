@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Lighting Design in Dubai Design District, Dubai",
+    "url": "https://interiara.com/lighting-design-dubai-design-district",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Design District, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Lighting Design",
+      "areaServed": "Dubai Design District, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Design District",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Design District",
+        "item": "https://interiara.com/dubai-design-district"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lighting Design",
+        "item": "https://interiara.com/lighting-design-dubai-design-district"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Lighting Design in Dubai Design District, Dubai | Interiara",
+  description: "Professional lighting design in Dubai Design District. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+  keywords: [
+    "lighting design",
+    "lighting design Dubai Design District",
+    "lighting design Dubai Design District Dubai",
+    "professional lighting design",
+    "best lighting design",
+    "lighting design services",
+    "luxury lighting design",
+    "affordable lighting design",
+    "expert lighting design",
+    "custom lighting design",
+  ],
+  openGraph: {
+    title: "Lighting Design in Dubai Design District, Dubai | Interiara",
+    description: "Professional lighting design in Dubai Design District. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    url: "https://interiara.com/lighting-design-dubai-design-district",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/lighting-design-dubai-design-district",
+  twitter: {
+    card: "summary_large_image",
+    title: "Lighting Design in Dubai Design District, Dubai | Interiara",
+    description: "Professional lighting design in Dubai Design District. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Lighting Design Dubai Design District, Lighting Design Dubai in Design District, Best lighting design dubai Design District, Professional lighting design dubai Design District, Luxury lighting design dubai Design District, Lighting Design Dubai Design District Dubai, Lighting Design Dubai designer Design District, Lighting Design Dubai company Design District, Lighting Design Dubai contractor Design District, Affordable lighting design dubai Design District, Modern lighting design dubai Design District, Lighting Design Dubai consultation Design District, Lighting Design Dubai cost Design District, Lighting Design Dubai price Design District, Top lighting design dubai Design District, Lighting Design Dubai near Design District, Lighting Design Dubai specialists Design District, Lighting Design Dubai experts Design District, Lighting Design Dubai solutions Design District, Lighting Design Dubai packages Design District, Lighting Design Dubai quotes Design District, Lighting Design Dubai estimates Design District, Lighting Design Dubai services near me Design District, Cheap Lighting Design Dubai Design District, Quality Lighting Design Dubai Design District, Trusted Lighting Design Dubai Design District, Lighting Design Dubai transformation Design District, Lighting Design Dubai renovation Design District, Lighting Design Dubai makeover Design District, Best Lighting Design Dubai company Design District
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function LightingDesignDubaiDesignDistrict() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Design District
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Design District
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/home-renovation-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

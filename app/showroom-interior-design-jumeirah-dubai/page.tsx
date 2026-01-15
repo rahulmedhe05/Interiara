@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Showroom Interior Design in Jumeirah, Dubai",
+    "url": "https://interiara.com/showroom-interior-design-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Showroom Interior Design",
+      "areaServed": "Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Jumeirah",
+        "item": "https://interiara.com/jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Showroom Interior Design",
+        "item": "https://interiara.com/showroom-interior-design-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Showroom Interior Design in Jumeirah, Dubai | Interiara",
+  description: "Transform your space with premium showroom interior design in Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "showroom interior design",
+    "showroom interior design Jumeirah",
+    "showroom interior design Jumeirah Dubai",
+    "professional showroom interior design",
+    "best showroom interior design",
+    "showroom interior design services",
+    "luxury showroom interior design",
+    "affordable showroom interior design",
+    "expert showroom interior design",
+    "custom showroom interior design",
+  ],
+  openGraph: {
+    title: "Showroom Interior Design in Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium showroom interior design in Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/showroom-interior-design-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/showroom-interior-design-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Showroom Interior Design in Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium showroom interior design in Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Showroom Interior Design Jumeirah, Showroom Interior in Design Jumeirah, Best showroom interior Design Jumeirah, Professional showroom interior Design Jumeirah, Luxury showroom interior Design Jumeirah, Showroom Interior Design Jumeirah Dubai, Showroom Interior designer Design Jumeirah, Showroom Interior company Design Jumeirah, Showroom Interior contractor Design Jumeirah, Affordable showroom interior Design Jumeirah, Modern showroom interior Design Jumeirah, Showroom Interior consultation Design Jumeirah, Showroom Interior cost Design Jumeirah, Showroom Interior price Design Jumeirah, Top showroom interior Design Jumeirah, Showroom Interior near Design Jumeirah, Showroom Interior specialists Design Jumeirah, Showroom Interior experts Design Jumeirah, Showroom Interior solutions Design Jumeirah, Showroom Interior packages Design Jumeirah, Showroom Interior quotes Design Jumeirah, Showroom Interior estimates Design Jumeirah, Showroom Interior services near me Design Jumeirah, Cheap Showroom Interior Design Jumeirah, Quality Showroom Interior Design Jumeirah, Trusted Showroom Interior Design Jumeirah, Showroom Interior transformation Design Jumeirah, Showroom Interior renovation Design Jumeirah, Showroom Interior makeover Design Jumeirah, Best Showroom Interior company Design Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ShowroomInteriorDesignJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

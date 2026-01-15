@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Custom Furniture Design in The Villa, Dubai",
+    "url": "https://interiara.com/custom-furniture-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Custom Furniture Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Custom Furniture Design",
+        "item": "https://interiara.com/custom-furniture-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Custom Furniture Design in The Villa, Dubai | Interiara",
+  description: "Bespoke custom furniture design in The Villa. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+  keywords: [
+    "custom furniture design",
+    "custom furniture design The Villa",
+    "custom furniture design The Villa Dubai",
+    "professional custom furniture design",
+    "best custom furniture design",
+    "custom furniture design services",
+    "luxury custom furniture design",
+    "affordable custom furniture design",
+    "expert custom furniture design",
+    "custom custom furniture design",
+  ],
+  openGraph: {
+    title: "Custom Furniture Design in The Villa, Dubai | Interiara",
+    description: "Bespoke custom furniture design in The Villa. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    url: "https://interiara.com/custom-furniture-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/custom-furniture-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Furniture Design in The Villa, Dubai | Interiara",
+    description: "Bespoke custom furniture design in The Villa. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Custom Furniture Design The Villa, Custom Furniture Design in The Villa, Best custom furniture design The Villa, Professional custom furniture design The Villa, Luxury custom furniture design The Villa, Custom Furniture Design The Villa Dubai, Custom Furniture Design designer The Villa, Custom Furniture Design company The Villa, Custom Furniture Design contractor The Villa, Affordable custom furniture design The Villa, Modern custom furniture design The Villa, Custom Furniture Design consultation The Villa, Custom Furniture Design cost The Villa, Custom Furniture Design price The Villa, Top custom furniture design The Villa, Custom Furniture Design near The Villa, Custom Furniture Design specialists The Villa, Custom Furniture Design experts The Villa, Custom Furniture Design solutions The Villa, Custom Furniture Design packages The Villa, Custom Furniture Design quotes The Villa, Custom Furniture Design estimates The Villa, Custom Furniture Design services near me The Villa, Cheap Custom Furniture Design The Villa, Quality Custom Furniture Design The Villa, Trusted Custom Furniture Design The Villa, Custom Furniture Design transformation The Villa, Custom Furniture Design renovation The Villa, Custom Furniture Design makeover The Villa, Best Custom Furniture Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CustomFurnitureDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

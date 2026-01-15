@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Renovation in Jumeirah, Dubai",
+    "url": "https://interiara.com/office-renovation-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Renovation",
+      "areaServed": "Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Jumeirah",
+        "item": "https://interiara.com/jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Renovation",
+        "item": "https://interiara.com/office-renovation-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Renovation in Jumeirah, Dubai | Interiara",
+  description: "Expert office renovation in Jumeirah, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "office renovation",
+    "office renovation Jumeirah",
+    "office renovation Jumeirah Dubai",
+    "professional office renovation",
+    "best office renovation",
+    "office renovation services",
+    "luxury office renovation",
+    "affordable office renovation",
+    "expert office renovation",
+    "custom office renovation",
+  ],
+  openGraph: {
+    title: "Office Renovation in Jumeirah, Dubai | Interiara",
+    description: "Expert office renovation in Jumeirah, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/office-renovation-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-renovation-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Renovation in Jumeirah, Dubai | Interiara",
+    description: "Expert office renovation in Jumeirah, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Renovation Jumeirah, Office in Renovation Jumeirah, Best office Renovation Jumeirah, Professional office Renovation Jumeirah, Luxury office Renovation Jumeirah, Office Renovation Jumeirah Dubai, Office designer Renovation Jumeirah, Office company Renovation Jumeirah, Office contractor Renovation Jumeirah, Affordable office Renovation Jumeirah, Modern office Renovation Jumeirah, Office consultation Renovation Jumeirah, Office cost Renovation Jumeirah, Office price Renovation Jumeirah, Top office Renovation Jumeirah, Office near Renovation Jumeirah, Office specialists Renovation Jumeirah, Office experts Renovation Jumeirah, Office solutions Renovation Jumeirah, Office packages Renovation Jumeirah, Office quotes Renovation Jumeirah, Office estimates Renovation Jumeirah, Office services near me Renovation Jumeirah, Cheap Office Renovation Jumeirah, Quality Office Renovation Jumeirah, Trusted Office Renovation Jumeirah, Office transformation Renovation Jumeirah, Office renovation Renovation Jumeirah, Office makeover Renovation Jumeirah, Best Office company Renovation Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeRenovationJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

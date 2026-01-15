@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Theater Interior Design in JLT, Dubai",
+    "url": "https://interiara.com/home-theater-interior-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Theater Interior Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Theater Interior Design",
+        "item": "https://interiara.com/home-theater-interior-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Theater Interior Design in JLT, Dubai | Interiara",
+  description: "Transform your space with premium home theater interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "home theater interior design",
+    "home theater interior design JLT",
+    "home theater interior design JLT Dubai",
+    "professional home theater interior design",
+    "best home theater interior design",
+    "home theater interior design services",
+    "luxury home theater interior design",
+    "affordable home theater interior design",
+    "expert home theater interior design",
+    "custom home theater interior design",
+  ],
+  openGraph: {
+    title: "Home Theater Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium home theater interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/home-theater-interior-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-theater-interior-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Theater Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium home theater interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Theater Interior Design Jlt, Home Theater Interior in Design Jlt, Best home theater interior Design Jlt, Professional home theater interior Design Jlt, Luxury home theater interior Design Jlt, Home Theater Interior Design Jlt Dubai, Home Theater Interior designer Design Jlt, Home Theater Interior company Design Jlt, Home Theater Interior contractor Design Jlt, Affordable home theater interior Design Jlt, Modern home theater interior Design Jlt, Home Theater Interior consultation Design Jlt, Home Theater Interior cost Design Jlt, Home Theater Interior price Design Jlt, Top home theater interior Design Jlt, Home Theater Interior near Design Jlt, Home Theater Interior specialists Design Jlt, Home Theater Interior experts Design Jlt, Home Theater Interior solutions Design Jlt, Home Theater Interior packages Design Jlt, Home Theater Interior quotes Design Jlt, Home Theater Interior estimates Design Jlt, Home Theater Interior services near me Design Jlt, Cheap Home Theater Interior Design Jlt, Quality Home Theater Interior Design Jlt, Trusted Home Theater Interior Design Jlt, Home Theater Interior transformation Design Jlt, Home Theater Interior renovation Design Jlt, Home Theater Interior makeover Design Jlt, Best Home Theater Interior company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeTheaterInteriorDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

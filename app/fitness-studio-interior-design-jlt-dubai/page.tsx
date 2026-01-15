@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Fitness Studio Interior Design in JLT, Dubai",
+    "url": "https://interiara.com/fitness-studio-interior-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Fitness Studio Interior Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Fitness Studio Interior Design",
+        "item": "https://interiara.com/fitness-studio-interior-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Fitness Studio Interior Design in JLT, Dubai | Interiara",
+  description: "Transform your space with premium fitness studio interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "fitness studio interior design",
+    "fitness studio interior design JLT",
+    "fitness studio interior design JLT Dubai",
+    "professional fitness studio interior design",
+    "best fitness studio interior design",
+    "fitness studio interior design services",
+    "luxury fitness studio interior design",
+    "affordable fitness studio interior design",
+    "expert fitness studio interior design",
+    "custom fitness studio interior design",
+  ],
+  openGraph: {
+    title: "Fitness Studio Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium fitness studio interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/fitness-studio-interior-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/fitness-studio-interior-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Fitness Studio Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium fitness studio interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Fitness Studio Interior Design Jlt, Fitness Studio Interior in Design Jlt, Best fitness studio interior Design Jlt, Professional fitness studio interior Design Jlt, Luxury fitness studio interior Design Jlt, Fitness Studio Interior Design Jlt Dubai, Fitness Studio Interior designer Design Jlt, Fitness Studio Interior company Design Jlt, Fitness Studio Interior contractor Design Jlt, Affordable fitness studio interior Design Jlt, Modern fitness studio interior Design Jlt, Fitness Studio Interior consultation Design Jlt, Fitness Studio Interior cost Design Jlt, Fitness Studio Interior price Design Jlt, Top fitness studio interior Design Jlt, Fitness Studio Interior near Design Jlt, Fitness Studio Interior specialists Design Jlt, Fitness Studio Interior experts Design Jlt, Fitness Studio Interior solutions Design Jlt, Fitness Studio Interior packages Design Jlt, Fitness Studio Interior quotes Design Jlt, Fitness Studio Interior estimates Design Jlt, Fitness Studio Interior services near me Design Jlt, Cheap Fitness Studio Interior Design Jlt, Quality Fitness Studio Interior Design Jlt, Trusted Fitness Studio Interior Design Jlt, Fitness Studio Interior transformation Design Jlt, Fitness Studio Interior renovation Design Jlt, Fitness Studio Interior makeover Design Jlt, Best Fitness Studio Interior company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function FitnessStudioInteriorDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

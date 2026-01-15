@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Interior Space Optimization in Meadows, Dubai",
+    "url": "https://interiara.com/interior-space-optimization-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Interior Space Optimization",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Interior Space Optimization",
+        "item": "https://interiara.com/interior-space-optimization-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Interior Space Optimization in Meadows, Dubai | Interiara",
+  description: "Expert interior space optimization in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "interior space optimization",
+    "interior space optimization Meadows",
+    "interior space optimization Meadows Dubai",
+    "professional interior space optimization",
+    "best interior space optimization",
+    "interior space optimization services",
+    "luxury interior space optimization",
+    "affordable interior space optimization",
+    "expert interior space optimization",
+    "custom interior space optimization",
+  ],
+  openGraph: {
+    title: "Interior Space Optimization in Meadows, Dubai | Interiara",
+    description: "Expert interior space optimization in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/interior-space-optimization-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/interior-space-optimization-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Interior Space Optimization in Meadows, Dubai | Interiara",
+    description: "Expert interior space optimization in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Interior Space Optimization Meadows, Interior Space in Optimization Meadows, Best interior space Optimization Meadows, Professional interior space Optimization Meadows, Luxury interior space Optimization Meadows, Interior Space Optimization Meadows Dubai, Interior Space designer Optimization Meadows, Interior Space company Optimization Meadows, Interior Space contractor Optimization Meadows, Affordable interior space Optimization Meadows, Modern interior space Optimization Meadows, Interior Space consultation Optimization Meadows, Interior Space cost Optimization Meadows, Interior Space price Optimization Meadows, Top interior space Optimization Meadows, Interior Space near Optimization Meadows, Interior Space specialists Optimization Meadows, Interior Space experts Optimization Meadows, Interior Space solutions Optimization Meadows, Interior Space packages Optimization Meadows, Interior Space quotes Optimization Meadows, Interior Space estimates Optimization Meadows, Interior Space services near me Optimization Meadows, Cheap Interior Space Optimization Meadows, Quality Interior Space Optimization Meadows, Trusted Interior Space Optimization Meadows, Interior Space transformation Optimization Meadows, Interior Space renovation Optimization Meadows, Interior Space makeover Optimization Meadows, Best Interior Space company Optimization Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function InteriorSpaceOptimizationMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

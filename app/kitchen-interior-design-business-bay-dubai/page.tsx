@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Kitchen Interior Design in Business Bay, Dubai",
+    "url": "https://interiara.com/kitchen-interior-design-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Kitchen Interior Design",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Kitchen Interior Design",
+        "item": "https://interiara.com/kitchen-interior-design-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Kitchen Interior Design in Business Bay, Dubai | Interiara",
+  description: "Transform your space with premium kitchen interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "kitchen interior design",
+    "kitchen interior design Business Bay",
+    "kitchen interior design Business Bay Dubai",
+    "professional kitchen interior design",
+    "best kitchen interior design",
+    "kitchen interior design services",
+    "luxury kitchen interior design",
+    "affordable kitchen interior design",
+    "expert kitchen interior design",
+    "custom kitchen interior design",
+  ],
+  openGraph: {
+    title: "Kitchen Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium kitchen interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/kitchen-interior-design-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/kitchen-interior-design-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Kitchen Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium kitchen interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Kitchen Interior Design Business Bay, Kitchen Interior Design in Business Bay, Best kitchen interior design Business Bay, Professional kitchen interior design Business Bay, Luxury kitchen interior design Business Bay, Kitchen Interior Design Business Bay Dubai, Kitchen Interior Design designer Business Bay, Kitchen Interior Design company Business Bay, Kitchen Interior Design contractor Business Bay, Affordable kitchen interior design Business Bay, Modern kitchen interior design Business Bay, Kitchen Interior Design consultation Business Bay, Kitchen Interior Design cost Business Bay, Kitchen Interior Design price Business Bay, Top kitchen interior design Business Bay, Kitchen Interior Design near Business Bay, Kitchen Interior Design specialists Business Bay, Kitchen Interior Design experts Business Bay, Kitchen Interior Design solutions Business Bay, Kitchen Interior Design packages Business Bay, Kitchen Interior Design quotes Business Bay, Kitchen Interior Design estimates Business Bay, Kitchen Interior Design services near me Business Bay, Cheap Kitchen Interior Design Business Bay, Quality Kitchen Interior Design Business Bay, Trusted Kitchen Interior Design Business Bay, Kitchen Interior Design transformation Business Bay, Kitchen Interior Design renovation Business Bay, Kitchen Interior Design makeover Business Bay, Best Kitchen Interior Design company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function KitchenInteriorDesignBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

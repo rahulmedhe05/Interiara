@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Penthouse Interior Design in Arabian Ranches, Dubai",
+    "url": "https://interiara.com/penthouse-interior-design-arabian-ranches",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Arabian Ranches, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Penthouse Interior Design",
+      "areaServed": "Arabian Ranches, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Arabian Ranches",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Arabian Ranches",
+        "item": "https://interiara.com/arabian-ranches"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Penthouse Interior Design",
+        "item": "https://interiara.com/penthouse-interior-design-arabian-ranches"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Penthouse Interior Design in Arabian Ranches, Dubai | Interiara",
+  description: "Transform your space with premium penthouse interior design in Arabian Ranches. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "penthouse interior design",
+    "penthouse interior design Arabian Ranches",
+    "penthouse interior design Arabian Ranches Dubai",
+    "professional penthouse interior design",
+    "best penthouse interior design",
+    "penthouse interior design services",
+    "luxury penthouse interior design",
+    "affordable penthouse interior design",
+    "expert penthouse interior design",
+    "custom penthouse interior design",
+  ],
+  openGraph: {
+    title: "Penthouse Interior Design in Arabian Ranches, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Arabian Ranches. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/penthouse-interior-design-arabian-ranches",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/penthouse-interior-design-arabian-ranches",
+  twitter: {
+    card: "summary_large_image",
+    title: "Penthouse Interior Design in Arabian Ranches, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Arabian Ranches. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Penthouse Interior Design Arabian Ranches, Penthouse Interior Design in Arabian Ranches, Best penthouse interior design Arabian Ranches, Professional penthouse interior design Arabian Ranches, Luxury penthouse interior design Arabian Ranches, Penthouse Interior Design Arabian Ranches Dubai, Penthouse Interior Design designer Arabian Ranches, Penthouse Interior Design company Arabian Ranches, Penthouse Interior Design contractor Arabian Ranches, Affordable penthouse interior design Arabian Ranches, Modern penthouse interior design Arabian Ranches, Penthouse Interior Design consultation Arabian Ranches, Penthouse Interior Design cost Arabian Ranches, Penthouse Interior Design price Arabian Ranches, Top penthouse interior design Arabian Ranches, Penthouse Interior Design near Arabian Ranches, Penthouse Interior Design specialists Arabian Ranches, Penthouse Interior Design experts Arabian Ranches, Penthouse Interior Design solutions Arabian Ranches, Penthouse Interior Design packages Arabian Ranches, Penthouse Interior Design quotes Arabian Ranches, Penthouse Interior Design estimates Arabian Ranches, Penthouse Interior Design services near me Arabian Ranches, Cheap Penthouse Interior Design Arabian Ranches, Quality Penthouse Interior Design Arabian Ranches, Trusted Penthouse Interior Design Arabian Ranches, Penthouse Interior Design transformation Arabian Ranches, Penthouse Interior Design renovation Arabian Ranches, Penthouse Interior Design makeover Arabian Ranches, Best Penthouse Interior Design company Arabian Ranches
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function PenthouseInteriorDesignArabianRanches() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Arabian Ranches
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Arabian Ranches
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/art-consultation-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Clinic Interior Design in JVT, Dubai",
+    "url": "https://interiara.com/clinic-interior-design-jvt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Clinic Interior Design",
+      "areaServed": "JVT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVT",
+        "item": "https://interiara.com/jvt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Clinic Interior Design",
+        "item": "https://interiara.com/clinic-interior-design-jvt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Clinic Interior Design in JVT, Dubai | Interiara",
+  description: "Transform your space with premium clinic interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "clinic interior design",
+    "clinic interior design JVT",
+    "clinic interior design JVT Dubai",
+    "professional clinic interior design",
+    "best clinic interior design",
+    "clinic interior design services",
+    "luxury clinic interior design",
+    "affordable clinic interior design",
+    "expert clinic interior design",
+    "custom clinic interior design",
+  ],
+  openGraph: {
+    title: "Clinic Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium clinic interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/clinic-interior-design-jvt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/clinic-interior-design-jvt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Clinic Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium clinic interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Clinic Interior Design Jvt, Clinic Interior in Design Jvt, Best clinic interior Design Jvt, Professional clinic interior Design Jvt, Luxury clinic interior Design Jvt, Clinic Interior Design Jvt Dubai, Clinic Interior designer Design Jvt, Clinic Interior company Design Jvt, Clinic Interior contractor Design Jvt, Affordable clinic interior Design Jvt, Modern clinic interior Design Jvt, Clinic Interior consultation Design Jvt, Clinic Interior cost Design Jvt, Clinic Interior price Design Jvt, Top clinic interior Design Jvt, Clinic Interior near Design Jvt, Clinic Interior specialists Design Jvt, Clinic Interior experts Design Jvt, Clinic Interior solutions Design Jvt, Clinic Interior packages Design Jvt, Clinic Interior quotes Design Jvt, Clinic Interior estimates Design Jvt, Clinic Interior services near me Design Jvt, Cheap Clinic Interior Design Jvt, Quality Clinic Interior Design Jvt, Trusted Clinic Interior Design Jvt, Clinic Interior transformation Design Jvt, Clinic Interior renovation Design Jvt, Clinic Interior makeover Design Jvt, Best Clinic Interior company Design Jvt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ClinicInteriorDesignJvt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

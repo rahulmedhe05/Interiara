@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Window Curtains in Business Bay, Dubai",
+    "url": "https://interiara.com/window-curtains-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Window Curtains",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Window Curtains",
+        "item": "https://interiara.com/window-curtains-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Window Curtains in Business Bay, Dubai | Interiara",
+  description: "Expert window curtains in Business Bay, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "window curtains",
+    "window curtains Business Bay",
+    "window curtains Business Bay Dubai",
+    "professional window curtains",
+    "best window curtains",
+    "window curtains services",
+    "luxury window curtains",
+    "affordable window curtains",
+    "expert window curtains",
+    "custom window curtains",
+  ],
+  openGraph: {
+    title: "Window Curtains in Business Bay, Dubai | Interiara",
+    description: "Expert window curtains in Business Bay, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/window-curtains-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/window-curtains-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Window Curtains in Business Bay, Dubai | Interiara",
+    description: "Expert window curtains in Business Bay, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Window Curtains Business Bay, Window Curtains in Business Bay, Best window curtains Business Bay, Professional window curtains Business Bay, Luxury window curtains Business Bay, Window Curtains Business Bay Dubai, Window Curtains designer Business Bay, Window Curtains company Business Bay, Window Curtains contractor Business Bay, Affordable window curtains Business Bay, Modern window curtains Business Bay, Window Curtains consultation Business Bay, Window Curtains cost Business Bay, Window Curtains price Business Bay, Top window curtains Business Bay, Window Curtains near Business Bay, Window Curtains specialists Business Bay, Window Curtains experts Business Bay, Window Curtains solutions Business Bay, Window Curtains packages Business Bay, Window Curtains quotes Business Bay, Window Curtains estimates Business Bay, Window Curtains services near me Business Bay, Cheap Window Curtains Business Bay, Quality Window Curtains Business Bay, Trusted Window Curtains Business Bay, Window Curtains transformation Business Bay, Window Curtains renovation Business Bay, Window Curtains makeover Business Bay, Best Window Curtains company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WindowCurtainsBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

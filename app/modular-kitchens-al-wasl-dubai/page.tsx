@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in Al Wasl, Dubai",
+    "url": "https://interiara.com/modular-kitchens-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in Al Wasl, Dubai | Interiara",
+  description: "Premium modular kitchens in Al Wasl. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens Al Wasl",
+    "modular kitchens Al Wasl Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in Al Wasl, Dubai | Interiara",
+    description: "Premium modular kitchens in Al Wasl. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in Al Wasl, Dubai | Interiara",
+    description: "Premium modular kitchens in Al Wasl. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Al Wasl, Modular Kitchens in Al Wasl, Best modular kitchens Al Wasl, Professional modular kitchens Al Wasl, Luxury modular kitchens Al Wasl, Modular Kitchens Al Wasl Dubai, Modular Kitchens designer Al Wasl, Modular Kitchens company Al Wasl, Modular Kitchens contractor Al Wasl, Affordable modular kitchens Al Wasl, Modern modular kitchens Al Wasl, Modular Kitchens consultation Al Wasl, Modular Kitchens cost Al Wasl, Modular Kitchens price Al Wasl, Top modular kitchens Al Wasl, Modular Kitchens near Al Wasl, Modular Kitchens specialists Al Wasl, Modular Kitchens experts Al Wasl, Modular Kitchens solutions Al Wasl, Modular Kitchens packages Al Wasl, Modular Kitchens quotes Al Wasl, Modular Kitchens estimates Al Wasl, Modular Kitchens services near me Al Wasl, Cheap Modular Kitchens Al Wasl, Quality Modular Kitchens Al Wasl, Trusted Modular Kitchens Al Wasl, Modular Kitchens transformation Al Wasl, Modular Kitchens renovation Al Wasl, Modular Kitchens makeover Al Wasl, Best Modular Kitchens company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

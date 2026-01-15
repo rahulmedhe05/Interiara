@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Balcony Interior Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/balcony-interior-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Balcony Interior Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Balcony Interior Design",
+        "item": "https://interiara.com/balcony-interior-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Balcony Interior Design in Al Wasl, Dubai | Interiara",
+  description: "Transform your space with premium balcony interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "balcony interior design",
+    "balcony interior design Al Wasl",
+    "balcony interior design Al Wasl Dubai",
+    "professional balcony interior design",
+    "best balcony interior design",
+    "balcony interior design services",
+    "luxury balcony interior design",
+    "affordable balcony interior design",
+    "expert balcony interior design",
+    "custom balcony interior design",
+  ],
+  openGraph: {
+    title: "Balcony Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium balcony interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/balcony-interior-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/balcony-interior-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Balcony Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium balcony interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Balcony Interior Design Al Wasl, Balcony Interior Design in Al Wasl, Best balcony interior design Al Wasl, Professional balcony interior design Al Wasl, Luxury balcony interior design Al Wasl, Balcony Interior Design Al Wasl Dubai, Balcony Interior Design designer Al Wasl, Balcony Interior Design company Al Wasl, Balcony Interior Design contractor Al Wasl, Affordable balcony interior design Al Wasl, Modern balcony interior design Al Wasl, Balcony Interior Design consultation Al Wasl, Balcony Interior Design cost Al Wasl, Balcony Interior Design price Al Wasl, Top balcony interior design Al Wasl, Balcony Interior Design near Al Wasl, Balcony Interior Design specialists Al Wasl, Balcony Interior Design experts Al Wasl, Balcony Interior Design solutions Al Wasl, Balcony Interior Design packages Al Wasl, Balcony Interior Design quotes Al Wasl, Balcony Interior Design estimates Al Wasl, Balcony Interior Design services near me Al Wasl, Cheap Balcony Interior Design Al Wasl, Quality Balcony Interior Design Al Wasl, Trusted Balcony Interior Design Al Wasl, Balcony Interior Design transformation Al Wasl, Balcony Interior Design renovation Al Wasl, Balcony Interior Design makeover Al Wasl, Best Balcony Interior Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function BalconyInteriorDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

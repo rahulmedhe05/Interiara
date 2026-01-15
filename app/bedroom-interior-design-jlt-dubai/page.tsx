@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bedroom Interior Design in JLT, Dubai",
+    "url": "https://interiara.com/bedroom-interior-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bedroom Interior Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bedroom Interior Design",
+        "item": "https://interiara.com/bedroom-interior-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bedroom Interior Design in JLT, Dubai | Interiara",
+  description: "Transform your space with premium bedroom interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "bedroom interior design",
+    "bedroom interior design JLT",
+    "bedroom interior design JLT Dubai",
+    "professional bedroom interior design",
+    "best bedroom interior design",
+    "bedroom interior design services",
+    "luxury bedroom interior design",
+    "affordable bedroom interior design",
+    "expert bedroom interior design",
+    "custom bedroom interior design",
+  ],
+  openGraph: {
+    title: "Bedroom Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium bedroom interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/bedroom-interior-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bedroom-interior-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bedroom Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium bedroom interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bedroom Interior Design Jlt, Bedroom Interior in Design Jlt, Best bedroom interior Design Jlt, Professional bedroom interior Design Jlt, Luxury bedroom interior Design Jlt, Bedroom Interior Design Jlt Dubai, Bedroom Interior designer Design Jlt, Bedroom Interior company Design Jlt, Bedroom Interior contractor Design Jlt, Affordable bedroom interior Design Jlt, Modern bedroom interior Design Jlt, Bedroom Interior consultation Design Jlt, Bedroom Interior cost Design Jlt, Bedroom Interior price Design Jlt, Top bedroom interior Design Jlt, Bedroom Interior near Design Jlt, Bedroom Interior specialists Design Jlt, Bedroom Interior experts Design Jlt, Bedroom Interior solutions Design Jlt, Bedroom Interior packages Design Jlt, Bedroom Interior quotes Design Jlt, Bedroom Interior estimates Design Jlt, Bedroom Interior services near me Design Jlt, Cheap Bedroom Interior Design Jlt, Quality Bedroom Interior Design Jlt, Trusted Bedroom Interior Design Jlt, Bedroom Interior transformation Design Jlt, Bedroom Interior renovation Design Jlt, Bedroom Interior makeover Design Jlt, Best Bedroom Interior company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BedroomInteriorDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

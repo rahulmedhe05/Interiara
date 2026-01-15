@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Gym Interior Design in Business Bay, Dubai",
+    "url": "https://interiara.com/gym-interior-design-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Gym Interior Design",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gym Interior Design",
+        "item": "https://interiara.com/gym-interior-design-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Gym Interior Design in Business Bay, Dubai | Interiara",
+  description: "Transform your space with premium gym interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "gym interior design",
+    "gym interior design Business Bay",
+    "gym interior design Business Bay Dubai",
+    "professional gym interior design",
+    "best gym interior design",
+    "gym interior design services",
+    "luxury gym interior design",
+    "affordable gym interior design",
+    "expert gym interior design",
+    "custom gym interior design",
+  ],
+  openGraph: {
+    title: "Gym Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/gym-interior-design-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/gym-interior-design-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Gym Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Gym Interior Design Business Bay, Gym Interior Design in Business Bay, Best gym interior design Business Bay, Professional gym interior design Business Bay, Luxury gym interior design Business Bay, Gym Interior Design Business Bay Dubai, Gym Interior Design designer Business Bay, Gym Interior Design company Business Bay, Gym Interior Design contractor Business Bay, Affordable gym interior design Business Bay, Modern gym interior design Business Bay, Gym Interior Design consultation Business Bay, Gym Interior Design cost Business Bay, Gym Interior Design price Business Bay, Top gym interior design Business Bay, Gym Interior Design near Business Bay, Gym Interior Design specialists Business Bay, Gym Interior Design experts Business Bay, Gym Interior Design solutions Business Bay, Gym Interior Design packages Business Bay, Gym Interior Design quotes Business Bay, Gym Interior Design estimates Business Bay, Gym Interior Design services near me Business Bay, Cheap Gym Interior Design Business Bay, Quality Gym Interior Design Business Bay, Trusted Gym Interior Design Business Bay, Gym Interior Design transformation Business Bay, Gym Interior Design renovation Business Bay, Gym Interior Design makeover Business Bay, Best Gym Interior Design company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function GymInteriorDesignBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

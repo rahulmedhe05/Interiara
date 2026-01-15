@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bathroom Interior Design in The Villa, Dubai",
+    "url": "https://interiara.com/bathroom-interior-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bathroom Interior Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bathroom Interior Design",
+        "item": "https://interiara.com/bathroom-interior-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bathroom Interior Design in The Villa, Dubai | Interiara",
+  description: "Transform your space with premium bathroom interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "bathroom interior design",
+    "bathroom interior design The Villa",
+    "bathroom interior design The Villa Dubai",
+    "professional bathroom interior design",
+    "best bathroom interior design",
+    "bathroom interior design services",
+    "luxury bathroom interior design",
+    "affordable bathroom interior design",
+    "expert bathroom interior design",
+    "custom bathroom interior design",
+  ],
+  openGraph: {
+    title: "Bathroom Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium bathroom interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/bathroom-interior-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bathroom-interior-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bathroom Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium bathroom interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bathroom Interior Design The Villa, Bathroom Interior Design in The Villa, Best bathroom interior design The Villa, Professional bathroom interior design The Villa, Luxury bathroom interior design The Villa, Bathroom Interior Design The Villa Dubai, Bathroom Interior Design designer The Villa, Bathroom Interior Design company The Villa, Bathroom Interior Design contractor The Villa, Affordable bathroom interior design The Villa, Modern bathroom interior design The Villa, Bathroom Interior Design consultation The Villa, Bathroom Interior Design cost The Villa, Bathroom Interior Design price The Villa, Top bathroom interior design The Villa, Bathroom Interior Design near The Villa, Bathroom Interior Design specialists The Villa, Bathroom Interior Design experts The Villa, Bathroom Interior Design solutions The Villa, Bathroom Interior Design packages The Villa, Bathroom Interior Design quotes The Villa, Bathroom Interior Design estimates The Villa, Bathroom Interior Design services near me The Villa, Cheap Bathroom Interior Design The Villa, Quality Bathroom Interior Design The Villa, Trusted Bathroom Interior Design The Villa, Bathroom Interior Design transformation The Villa, Bathroom Interior Design renovation The Villa, Bathroom Interior Design makeover The Villa, Best Bathroom Interior Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BathroomInteriorDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

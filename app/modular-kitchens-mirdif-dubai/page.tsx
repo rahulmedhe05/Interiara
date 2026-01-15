@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in Mirdif, Dubai",
+    "url": "https://interiara.com/modular-kitchens-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in Mirdif, Dubai | Interiara",
+  description: "Premium modular kitchens in Mirdif. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens Mirdif",
+    "modular kitchens Mirdif Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in Mirdif, Dubai | Interiara",
+    description: "Premium modular kitchens in Mirdif. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in Mirdif, Dubai | Interiara",
+    description: "Premium modular kitchens in Mirdif. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Mirdif, Modular in Kitchens Mirdif, Best modular Kitchens Mirdif, Professional modular Kitchens Mirdif, Luxury modular Kitchens Mirdif, Modular Kitchens Mirdif Dubai, Modular designer Kitchens Mirdif, Modular company Kitchens Mirdif, Modular contractor Kitchens Mirdif, Affordable modular Kitchens Mirdif, Modern modular Kitchens Mirdif, Modular consultation Kitchens Mirdif, Modular cost Kitchens Mirdif, Modular price Kitchens Mirdif, Top modular Kitchens Mirdif, Modular near Kitchens Mirdif, Modular specialists Kitchens Mirdif, Modular experts Kitchens Mirdif, Modular solutions Kitchens Mirdif, Modular packages Kitchens Mirdif, Modular quotes Kitchens Mirdif, Modular estimates Kitchens Mirdif, Modular services near me Kitchens Mirdif, Cheap Modular Kitchens Mirdif, Quality Modular Kitchens Mirdif, Trusted Modular Kitchens Mirdif, Modular transformation Kitchens Mirdif, Modular renovation Kitchens Mirdif, Modular makeover Kitchens Mirdif, Best Modular company Kitchens Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

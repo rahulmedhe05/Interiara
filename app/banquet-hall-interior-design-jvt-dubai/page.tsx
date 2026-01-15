@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Banquet Hall Interior Design in JVT, Dubai",
+    "url": "https://interiara.com/banquet-hall-interior-design-jvt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Banquet Hall Interior Design",
+      "areaServed": "JVT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVT",
+        "item": "https://interiara.com/jvt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Banquet Hall Interior Design",
+        "item": "https://interiara.com/banquet-hall-interior-design-jvt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Banquet Hall Interior Design in JVT, Dubai | Interiara",
+  description: "Transform your space with premium banquet hall interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "banquet hall interior design",
+    "banquet hall interior design JVT",
+    "banquet hall interior design JVT Dubai",
+    "professional banquet hall interior design",
+    "best banquet hall interior design",
+    "banquet hall interior design services",
+    "luxury banquet hall interior design",
+    "affordable banquet hall interior design",
+    "expert banquet hall interior design",
+    "custom banquet hall interior design",
+  ],
+  openGraph: {
+    title: "Banquet Hall Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium banquet hall interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/banquet-hall-interior-design-jvt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/banquet-hall-interior-design-jvt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Banquet Hall Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium banquet hall interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Banquet Hall Interior Design Jvt, Banquet Hall Interior in Design Jvt, Best banquet hall interior Design Jvt, Professional banquet hall interior Design Jvt, Luxury banquet hall interior Design Jvt, Banquet Hall Interior Design Jvt Dubai, Banquet Hall Interior designer Design Jvt, Banquet Hall Interior company Design Jvt, Banquet Hall Interior contractor Design Jvt, Affordable banquet hall interior Design Jvt, Modern banquet hall interior Design Jvt, Banquet Hall Interior consultation Design Jvt, Banquet Hall Interior cost Design Jvt, Banquet Hall Interior price Design Jvt, Top banquet hall interior Design Jvt, Banquet Hall Interior near Design Jvt, Banquet Hall Interior specialists Design Jvt, Banquet Hall Interior experts Design Jvt, Banquet Hall Interior solutions Design Jvt, Banquet Hall Interior packages Design Jvt, Banquet Hall Interior quotes Design Jvt, Banquet Hall Interior estimates Design Jvt, Banquet Hall Interior services near me Design Jvt, Cheap Banquet Hall Interior Design Jvt, Quality Banquet Hall Interior Design Jvt, Trusted Banquet Hall Interior Design Jvt, Banquet Hall Interior transformation Design Jvt, Banquet Hall Interior renovation Design Jvt, Banquet Hall Interior makeover Design Jvt, Best Banquet Hall Interior company Design Jvt
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function BanquetHallInteriorDesignJvt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

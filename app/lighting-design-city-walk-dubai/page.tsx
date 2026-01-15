@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Lighting Design in City Walk, Dubai",
+    "url": "https://interiara.com/lighting-design-city-walk",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "City Walk, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Lighting Design",
+      "areaServed": "City Walk, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "City Walk",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "City Walk",
+        "item": "https://interiara.com/city-walk"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lighting Design",
+        "item": "https://interiara.com/lighting-design-city-walk"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Lighting Design in City Walk, Dubai | Interiara",
+  description: "Professional lighting design in City Walk. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+  keywords: [
+    "lighting design",
+    "lighting design City Walk",
+    "lighting design City Walk Dubai",
+    "professional lighting design",
+    "best lighting design",
+    "lighting design services",
+    "luxury lighting design",
+    "affordable lighting design",
+    "expert lighting design",
+    "custom lighting design",
+  ],
+  openGraph: {
+    title: "Lighting Design in City Walk, Dubai | Interiara",
+    description: "Professional lighting design in City Walk. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    url: "https://interiara.com/lighting-design-city-walk",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/lighting-design-city-walk",
+  twitter: {
+    card: "summary_large_image",
+    title: "Lighting Design in City Walk, Dubai | Interiara",
+    description: "Professional lighting design in City Walk. Enhance ambiance & functionality with expert lighting. Free consultation available!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Lighting Design City Walk, Lighting Design in City Walk, Best lighting design City Walk, Professional lighting design City Walk, Luxury lighting design City Walk, Lighting Design City Walk Dubai, Lighting Design designer City Walk, Lighting Design company City Walk, Lighting Design contractor City Walk, Affordable lighting design City Walk, Modern lighting design City Walk, Lighting Design consultation City Walk, Lighting Design cost City Walk, Lighting Design price City Walk, Top lighting design City Walk, Lighting Design near City Walk, Lighting Design specialists City Walk, Lighting Design experts City Walk, Lighting Design solutions City Walk, Lighting Design packages City Walk, Lighting Design quotes City Walk, Lighting Design estimates City Walk, Lighting Design services near me City Walk, Cheap Lighting Design City Walk, Quality Lighting Design City Walk, Trusted Lighting Design City Walk, Lighting Design transformation City Walk, Lighting Design renovation City Walk, Lighting Design makeover City Walk, Best Lighting Design company City Walk
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function LightingDesignCityWalk() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in City Walk
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in City Walk
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/art-consultation-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

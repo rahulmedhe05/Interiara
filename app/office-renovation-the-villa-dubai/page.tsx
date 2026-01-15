@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Renovation in The Villa, Dubai",
+    "url": "https://interiara.com/office-renovation-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Renovation",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Renovation",
+        "item": "https://interiara.com/office-renovation-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Renovation in The Villa, Dubai | Interiara",
+  description: "Expert office renovation in The Villa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "office renovation",
+    "office renovation The Villa",
+    "office renovation The Villa Dubai",
+    "professional office renovation",
+    "best office renovation",
+    "office renovation services",
+    "luxury office renovation",
+    "affordable office renovation",
+    "expert office renovation",
+    "custom office renovation",
+  ],
+  openGraph: {
+    title: "Office Renovation in The Villa, Dubai | Interiara",
+    description: "Expert office renovation in The Villa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/office-renovation-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-renovation-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Renovation in The Villa, Dubai | Interiara",
+    description: "Expert office renovation in The Villa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Renovation The Villa, Office Renovation in The Villa, Best office renovation The Villa, Professional office renovation The Villa, Luxury office renovation The Villa, Office Renovation The Villa Dubai, Office Renovation designer The Villa, Office Renovation company The Villa, Office Renovation contractor The Villa, Affordable office renovation The Villa, Modern office renovation The Villa, Office Renovation consultation The Villa, Office Renovation cost The Villa, Office Renovation price The Villa, Top office renovation The Villa, Office Renovation near The Villa, Office Renovation specialists The Villa, Office Renovation experts The Villa, Office Renovation solutions The Villa, Office Renovation packages The Villa, Office Renovation quotes The Villa, Office Renovation estimates The Villa, Office Renovation services near me The Villa, Cheap Office Renovation The Villa, Quality Office Renovation The Villa, Trusted Office Renovation The Villa, Office Renovation transformation The Villa, Office Renovation renovation The Villa, Office Renovation makeover The Villa, Best Office Renovation company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeRenovationTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

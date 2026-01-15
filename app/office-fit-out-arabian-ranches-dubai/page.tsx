@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Fit Out in Arabian Ranches, Dubai",
+    "url": "https://interiara.com/office-fit-out-arabian-ranches",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Arabian Ranches, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Fit Out",
+      "areaServed": "Arabian Ranches, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Arabian Ranches",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Arabian Ranches",
+        "item": "https://interiara.com/arabian-ranches"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Fit Out",
+        "item": "https://interiara.com/office-fit-out-arabian-ranches"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Fit Out in Arabian Ranches, Dubai | Interiara",
+  description: "Complete office fit out services in Arabian Ranches. Professional execution & quality assurance. Fast turnaround. Consult now!",
+  keywords: [
+    "office fit out",
+    "office fit out Arabian Ranches",
+    "office fit out Arabian Ranches Dubai",
+    "professional office fit out",
+    "best office fit out",
+    "office fit out services",
+    "luxury office fit out",
+    "affordable office fit out",
+    "expert office fit out",
+    "custom office fit out",
+  ],
+  openGraph: {
+    title: "Office Fit Out in Arabian Ranches, Dubai | Interiara",
+    description: "Complete office fit out services in Arabian Ranches. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    url: "https://interiara.com/office-fit-out-arabian-ranches",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-fit-out-arabian-ranches",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Fit Out in Arabian Ranches, Dubai | Interiara",
+    description: "Complete office fit out services in Arabian Ranches. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Fit Out Arabian Ranches, Office Fit Out in Arabian Ranches, Best office fit out Arabian Ranches, Professional office fit out Arabian Ranches, Luxury office fit out Arabian Ranches, Office Fit Out Arabian Ranches Dubai, Office Fit Out designer Arabian Ranches, Office Fit Out company Arabian Ranches, Office Fit Out contractor Arabian Ranches, Affordable office fit out Arabian Ranches, Modern office fit out Arabian Ranches, Office Fit Out consultation Arabian Ranches, Office Fit Out cost Arabian Ranches, Office Fit Out price Arabian Ranches, Top office fit out Arabian Ranches, Office Fit Out near Arabian Ranches, Office Fit Out specialists Arabian Ranches, Office Fit Out experts Arabian Ranches, Office Fit Out solutions Arabian Ranches, Office Fit Out packages Arabian Ranches, Office Fit Out quotes Arabian Ranches, Office Fit Out estimates Arabian Ranches, Office Fit Out services near me Arabian Ranches, Cheap Office Fit Out Arabian Ranches, Quality Office Fit Out Arabian Ranches, Trusted Office Fit Out Arabian Ranches, Office Fit Out transformation Arabian Ranches, Office Fit Out renovation Arabian Ranches, Office Fit Out makeover Arabian Ranches, Best Office Fit Out company Arabian Ranches
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeFitOutArabianRanches() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Arabian Ranches
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Arabian Ranches
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/art-consultation-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

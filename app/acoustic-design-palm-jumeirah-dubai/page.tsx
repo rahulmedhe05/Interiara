@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Acoustic Design in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/acoustic-design-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Acoustic Design",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Acoustic Design",
+        "item": "https://interiara.com/acoustic-design-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Acoustic Design in Palm Jumeirah, Dubai | Interiara",
+  description: "Expert acoustic design in Palm Jumeirah, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "acoustic design",
+    "acoustic design Palm Jumeirah",
+    "acoustic design Palm Jumeirah Dubai",
+    "professional acoustic design",
+    "best acoustic design",
+    "acoustic design services",
+    "luxury acoustic design",
+    "affordable acoustic design",
+    "expert acoustic design",
+    "custom acoustic design",
+  ],
+  openGraph: {
+    title: "Acoustic Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Expert acoustic design in Palm Jumeirah, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/acoustic-design-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/acoustic-design-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Acoustic Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Expert acoustic design in Palm Jumeirah, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Acoustic Design Palm Jumeirah, Acoustic Design in Palm Jumeirah, Best acoustic design Palm Jumeirah, Professional acoustic design Palm Jumeirah, Luxury acoustic design Palm Jumeirah, Acoustic Design Palm Jumeirah Dubai, Acoustic Design designer Palm Jumeirah, Acoustic Design company Palm Jumeirah, Acoustic Design contractor Palm Jumeirah, Affordable acoustic design Palm Jumeirah, Modern acoustic design Palm Jumeirah, Acoustic Design consultation Palm Jumeirah, Acoustic Design cost Palm Jumeirah, Acoustic Design price Palm Jumeirah, Top acoustic design Palm Jumeirah, Acoustic Design near Palm Jumeirah, Acoustic Design specialists Palm Jumeirah, Acoustic Design experts Palm Jumeirah, Acoustic Design solutions Palm Jumeirah, Acoustic Design packages Palm Jumeirah, Acoustic Design quotes Palm Jumeirah, Acoustic Design estimates Palm Jumeirah, Acoustic Design services near me Palm Jumeirah, Cheap Acoustic Design Palm Jumeirah, Quality Acoustic Design Palm Jumeirah, Trusted Acoustic Design Palm Jumeirah, Acoustic Design transformation Palm Jumeirah, Acoustic Design renovation Palm Jumeirah, Acoustic Design makeover Palm Jumeirah, Best Acoustic Design company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function AcousticDesignPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

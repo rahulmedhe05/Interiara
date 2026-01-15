@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Space Planning in City Walk, Dubai",
+    "url": "https://interiara.com/space-planning-city-walk",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "City Walk, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Space Planning",
+      "areaServed": "City Walk, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "City Walk",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "City Walk",
+        "item": "https://interiara.com/city-walk"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Space Planning",
+        "item": "https://interiara.com/space-planning-city-walk"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Space Planning in City Walk, Dubai | Interiara",
+  description: "Expert space planning in City Walk, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "space planning",
+    "space planning City Walk",
+    "space planning City Walk Dubai",
+    "professional space planning",
+    "best space planning",
+    "space planning services",
+    "luxury space planning",
+    "affordable space planning",
+    "expert space planning",
+    "custom space planning",
+  ],
+  openGraph: {
+    title: "Space Planning in City Walk, Dubai | Interiara",
+    description: "Expert space planning in City Walk, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/space-planning-city-walk",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/space-planning-city-walk",
+  twitter: {
+    card: "summary_large_image",
+    title: "Space Planning in City Walk, Dubai | Interiara",
+    description: "Expert space planning in City Walk, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Space Planning City Walk, Space Planning in City Walk, Best space planning City Walk, Professional space planning City Walk, Luxury space planning City Walk, Space Planning City Walk Dubai, Space Planning designer City Walk, Space Planning company City Walk, Space Planning contractor City Walk, Affordable space planning City Walk, Modern space planning City Walk, Space Planning consultation City Walk, Space Planning cost City Walk, Space Planning price City Walk, Top space planning City Walk, Space Planning near City Walk, Space Planning specialists City Walk, Space Planning experts City Walk, Space Planning solutions City Walk, Space Planning packages City Walk, Space Planning quotes City Walk, Space Planning estimates City Walk, Space Planning services near me City Walk, Cheap Space Planning City Walk, Quality Space Planning City Walk, Trusted Space Planning City Walk, Space Planning transformation City Walk, Space Planning renovation City Walk, Space Planning makeover City Walk, Best Space Planning company City Walk
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SpacePlanningCityWalk() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in City Walk
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in City Walk
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/art-consultation-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

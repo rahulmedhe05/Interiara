@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Renovation in Dubai Creek Harbour, Dubai",
+    "url": "https://interiara.com/office-renovation-dubai-creek-harbour",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Creek Harbour, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Renovation",
+      "areaServed": "Dubai Creek Harbour, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Creek Harbour",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Creek Harbour",
+        "item": "https://interiara.com/dubai-creek-harbour"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Renovation",
+        "item": "https://interiara.com/office-renovation-dubai-creek-harbour"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Renovation in Dubai Creek Harbour, Dubai | Interiara",
+  description: "Expert office renovation in Dubai Creek Harbour, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "office renovation",
+    "office renovation Dubai Creek Harbour",
+    "office renovation Dubai Creek Harbour Dubai",
+    "professional office renovation",
+    "best office renovation",
+    "office renovation services",
+    "luxury office renovation",
+    "affordable office renovation",
+    "expert office renovation",
+    "custom office renovation",
+  ],
+  openGraph: {
+    title: "Office Renovation in Dubai Creek Harbour, Dubai | Interiara",
+    description: "Expert office renovation in Dubai Creek Harbour, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/office-renovation-dubai-creek-harbour",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-renovation-dubai-creek-harbour",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Renovation in Dubai Creek Harbour, Dubai | Interiara",
+    description: "Expert office renovation in Dubai Creek Harbour, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Renovation Dubai Creek Harbour, Office Renovation Dubai in Creek Harbour, Best office renovation dubai Creek Harbour, Professional office renovation dubai Creek Harbour, Luxury office renovation dubai Creek Harbour, Office Renovation Dubai Creek Harbour Dubai, Office Renovation Dubai designer Creek Harbour, Office Renovation Dubai company Creek Harbour, Office Renovation Dubai contractor Creek Harbour, Affordable office renovation dubai Creek Harbour, Modern office renovation dubai Creek Harbour, Office Renovation Dubai consultation Creek Harbour, Office Renovation Dubai cost Creek Harbour, Office Renovation Dubai price Creek Harbour, Top office renovation dubai Creek Harbour, Office Renovation Dubai near Creek Harbour, Office Renovation Dubai specialists Creek Harbour, Office Renovation Dubai experts Creek Harbour, Office Renovation Dubai solutions Creek Harbour, Office Renovation Dubai packages Creek Harbour, Office Renovation Dubai quotes Creek Harbour, Office Renovation Dubai estimates Creek Harbour, Office Renovation Dubai services near me Creek Harbour, Cheap Office Renovation Dubai Creek Harbour, Quality Office Renovation Dubai Creek Harbour, Trusted Office Renovation Dubai Creek Harbour, Office Renovation Dubai transformation Creek Harbour, Office Renovation Dubai renovation Creek Harbour, Office Renovation Dubai makeover Creek Harbour, Best Office Renovation Dubai company Creek Harbour
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeRenovationDubaiCreekHarbour() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Creek Harbour
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Creek Harbour
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/home-renovation-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

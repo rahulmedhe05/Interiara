@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in JBR, Dubai",
+    "url": "https://interiara.com/modular-kitchens-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in JBR, Dubai | Interiara",
+  description: "Premium modular kitchens in JBR. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens JBR",
+    "modular kitchens JBR Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in JBR, Dubai | Interiara",
+    description: "Premium modular kitchens in JBR. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in JBR, Dubai | Interiara",
+    description: "Premium modular kitchens in JBR. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Jbr, Modular in Kitchens Jbr, Best modular Kitchens Jbr, Professional modular Kitchens Jbr, Luxury modular Kitchens Jbr, Modular Kitchens Jbr Dubai, Modular designer Kitchens Jbr, Modular company Kitchens Jbr, Modular contractor Kitchens Jbr, Affordable modular Kitchens Jbr, Modern modular Kitchens Jbr, Modular consultation Kitchens Jbr, Modular cost Kitchens Jbr, Modular price Kitchens Jbr, Top modular Kitchens Jbr, Modular near Kitchens Jbr, Modular specialists Kitchens Jbr, Modular experts Kitchens Jbr, Modular solutions Kitchens Jbr, Modular packages Kitchens Jbr, Modular quotes Kitchens Jbr, Modular estimates Kitchens Jbr, Modular services near me Kitchens Jbr, Cheap Modular Kitchens Jbr, Quality Modular Kitchens Jbr, Trusted Modular Kitchens Jbr, Modular transformation Kitchens Jbr, Modular renovation Kitchens Jbr, Modular makeover Kitchens Jbr, Best Modular company Kitchens Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

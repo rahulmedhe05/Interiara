@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Soundproofing Design in Al Safa, Dubai",
+    "url": "https://interiara.com/soundproofing-design-al-safa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Safa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Soundproofing Design",
+      "areaServed": "Al Safa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Safa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Safa",
+        "item": "https://interiara.com/al-safa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Soundproofing Design",
+        "item": "https://interiara.com/soundproofing-design-al-safa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Soundproofing Design in Al Safa, Dubai | Interiara",
+  description: "Expert soundproofing design in Al Safa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "soundproofing design",
+    "soundproofing design Al Safa",
+    "soundproofing design Al Safa Dubai",
+    "professional soundproofing design",
+    "best soundproofing design",
+    "soundproofing design services",
+    "luxury soundproofing design",
+    "affordable soundproofing design",
+    "expert soundproofing design",
+    "custom soundproofing design",
+  ],
+  openGraph: {
+    title: "Soundproofing Design in Al Safa, Dubai | Interiara",
+    description: "Expert soundproofing design in Al Safa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/soundproofing-design-al-safa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/soundproofing-design-al-safa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Soundproofing Design in Al Safa, Dubai | Interiara",
+    description: "Expert soundproofing design in Al Safa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Soundproofing Design Al Safa, Soundproofing Design in Al Safa, Best soundproofing design Al Safa, Professional soundproofing design Al Safa, Luxury soundproofing design Al Safa, Soundproofing Design Al Safa Dubai, Soundproofing Design designer Al Safa, Soundproofing Design company Al Safa, Soundproofing Design contractor Al Safa, Affordable soundproofing design Al Safa, Modern soundproofing design Al Safa, Soundproofing Design consultation Al Safa, Soundproofing Design cost Al Safa, Soundproofing Design price Al Safa, Top soundproofing design Al Safa, Soundproofing Design near Al Safa, Soundproofing Design specialists Al Safa, Soundproofing Design experts Al Safa, Soundproofing Design solutions Al Safa, Soundproofing Design packages Al Safa, Soundproofing Design quotes Al Safa, Soundproofing Design estimates Al Safa, Soundproofing Design services near me Al Safa, Cheap Soundproofing Design Al Safa, Quality Soundproofing Design Al Safa, Trusted Soundproofing Design Al Safa, Soundproofing Design transformation Al Safa, Soundproofing Design renovation Al Safa, Soundproofing Design makeover Al Safa, Best Soundproofing Design company Al Safa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SoundproofingDesignAlSafa() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Safa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Safa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

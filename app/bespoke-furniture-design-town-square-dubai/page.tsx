@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bespoke Furniture Design in Town Square, Dubai",
+    "url": "https://interiara.com/bespoke-furniture-design-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bespoke Furniture Design",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bespoke Furniture Design",
+        "item": "https://interiara.com/bespoke-furniture-design-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bespoke Furniture Design in Town Square, Dubai | Interiara",
+  description: "Expert bespoke furniture design in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "bespoke furniture design",
+    "bespoke furniture design Town Square",
+    "bespoke furniture design Town Square Dubai",
+    "professional bespoke furniture design",
+    "best bespoke furniture design",
+    "bespoke furniture design services",
+    "luxury bespoke furniture design",
+    "affordable bespoke furniture design",
+    "expert bespoke furniture design",
+    "custom bespoke furniture design",
+  ],
+  openGraph: {
+    title: "Bespoke Furniture Design in Town Square, Dubai | Interiara",
+    description: "Expert bespoke furniture design in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/bespoke-furniture-design-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bespoke-furniture-design-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bespoke Furniture Design in Town Square, Dubai | Interiara",
+    description: "Expert bespoke furniture design in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bespoke Furniture Design Town Square, Bespoke Furniture Design in Town Square, Best bespoke furniture design Town Square, Professional bespoke furniture design Town Square, Luxury bespoke furniture design Town Square, Bespoke Furniture Design Town Square Dubai, Bespoke Furniture Design designer Town Square, Bespoke Furniture Design company Town Square, Bespoke Furniture Design contractor Town Square, Affordable bespoke furniture design Town Square, Modern bespoke furniture design Town Square, Bespoke Furniture Design consultation Town Square, Bespoke Furniture Design cost Town Square, Bespoke Furniture Design price Town Square, Top bespoke furniture design Town Square, Bespoke Furniture Design near Town Square, Bespoke Furniture Design specialists Town Square, Bespoke Furniture Design experts Town Square, Bespoke Furniture Design solutions Town Square, Bespoke Furniture Design packages Town Square, Bespoke Furniture Design quotes Town Square, Bespoke Furniture Design estimates Town Square, Bespoke Furniture Design services near me Town Square, Cheap Bespoke Furniture Design Town Square, Quality Bespoke Furniture Design Town Square, Trusted Bespoke Furniture Design Town Square, Bespoke Furniture Design transformation Town Square, Bespoke Furniture Design renovation Town Square, Bespoke Furniture Design makeover Town Square, Best Bespoke Furniture Design company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BespokeFurnitureDesignTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

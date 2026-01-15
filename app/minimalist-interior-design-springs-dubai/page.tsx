@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Minimalist Interior Design in Springs, Dubai",
+    "url": "https://interiara.com/minimalist-interior-design-springs",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Springs, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Minimalist Interior Design",
+      "areaServed": "Springs, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Springs",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Springs",
+        "item": "https://interiara.com/springs"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Minimalist Interior Design",
+        "item": "https://interiara.com/minimalist-interior-design-springs"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Minimalist Interior Design in Springs, Dubai | Interiara",
+  description: "Transform your space with premium minimalist interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "minimalist interior design",
+    "minimalist interior design Springs",
+    "minimalist interior design Springs Dubai",
+    "professional minimalist interior design",
+    "best minimalist interior design",
+    "minimalist interior design services",
+    "luxury minimalist interior design",
+    "affordable minimalist interior design",
+    "expert minimalist interior design",
+    "custom minimalist interior design",
+  ],
+  openGraph: {
+    title: "Minimalist Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium minimalist interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/minimalist-interior-design-springs",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/minimalist-interior-design-springs",
+  twitter: {
+    card: "summary_large_image",
+    title: "Minimalist Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium minimalist interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Minimalist Interior Design Springs, Minimalist Interior in Design Springs, Best minimalist interior Design Springs, Professional minimalist interior Design Springs, Luxury minimalist interior Design Springs, Minimalist Interior Design Springs Dubai, Minimalist Interior designer Design Springs, Minimalist Interior company Design Springs, Minimalist Interior contractor Design Springs, Affordable minimalist interior Design Springs, Modern minimalist interior Design Springs, Minimalist Interior consultation Design Springs, Minimalist Interior cost Design Springs, Minimalist Interior price Design Springs, Top minimalist interior Design Springs, Minimalist Interior near Design Springs, Minimalist Interior specialists Design Springs, Minimalist Interior experts Design Springs, Minimalist Interior solutions Design Springs, Minimalist Interior packages Design Springs, Minimalist Interior quotes Design Springs, Minimalist Interior estimates Design Springs, Minimalist Interior services near me Design Springs, Cheap Minimalist Interior Design Springs, Quality Minimalist Interior Design Springs, Trusted Minimalist Interior Design Springs, Minimalist Interior transformation Design Springs, Minimalist Interior renovation Design Springs, Minimalist Interior makeover Design Springs, Best Minimalist Interior company Design Springs
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function MinimalistInteriorDesignSprings() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Springs
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Springs
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/art-consultation-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

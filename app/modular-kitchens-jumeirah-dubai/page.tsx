@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in Jumeirah, Dubai",
+    "url": "https://interiara.com/modular-kitchens-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Jumeirah",
+        "item": "https://interiara.com/jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in Jumeirah, Dubai | Interiara",
+  description: "Premium modular kitchens in Jumeirah. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens Jumeirah",
+    "modular kitchens Jumeirah Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in Jumeirah, Dubai | Interiara",
+    description: "Premium modular kitchens in Jumeirah. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in Jumeirah, Dubai | Interiara",
+    description: "Premium modular kitchens in Jumeirah. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Jumeirah, Modular in Kitchens Jumeirah, Best modular Kitchens Jumeirah, Professional modular Kitchens Jumeirah, Luxury modular Kitchens Jumeirah, Modular Kitchens Jumeirah Dubai, Modular designer Kitchens Jumeirah, Modular company Kitchens Jumeirah, Modular contractor Kitchens Jumeirah, Affordable modular Kitchens Jumeirah, Modern modular Kitchens Jumeirah, Modular consultation Kitchens Jumeirah, Modular cost Kitchens Jumeirah, Modular price Kitchens Jumeirah, Top modular Kitchens Jumeirah, Modular near Kitchens Jumeirah, Modular specialists Kitchens Jumeirah, Modular experts Kitchens Jumeirah, Modular solutions Kitchens Jumeirah, Modular packages Kitchens Jumeirah, Modular quotes Kitchens Jumeirah, Modular estimates Kitchens Jumeirah, Modular services near me Kitchens Jumeirah, Cheap Modular Kitchens Jumeirah, Quality Modular Kitchens Jumeirah, Trusted Modular Kitchens Jumeirah, Modular transformation Kitchens Jumeirah, Modular renovation Kitchens Jumeirah, Modular makeover Kitchens Jumeirah, Best Modular company Kitchens Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

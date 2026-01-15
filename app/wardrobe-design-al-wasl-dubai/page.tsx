@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/wardrobe-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in Al Wasl, Dubai | Interiara",
+  description: "Custom wardrobe design in Al Wasl. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design Al Wasl",
+    "wardrobe design Al Wasl Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in Al Wasl, Dubai | Interiara",
+    description: "Custom wardrobe design in Al Wasl. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in Al Wasl, Dubai | Interiara",
+    description: "Custom wardrobe design in Al Wasl. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design Al Wasl, Wardrobe Design in Al Wasl, Best wardrobe design Al Wasl, Professional wardrobe design Al Wasl, Luxury wardrobe design Al Wasl, Wardrobe Design Al Wasl Dubai, Wardrobe Design designer Al Wasl, Wardrobe Design company Al Wasl, Wardrobe Design contractor Al Wasl, Affordable wardrobe design Al Wasl, Modern wardrobe design Al Wasl, Wardrobe Design consultation Al Wasl, Wardrobe Design cost Al Wasl, Wardrobe Design price Al Wasl, Top wardrobe design Al Wasl, Wardrobe Design near Al Wasl, Wardrobe Design specialists Al Wasl, Wardrobe Design experts Al Wasl, Wardrobe Design solutions Al Wasl, Wardrobe Design packages Al Wasl, Wardrobe Design quotes Al Wasl, Wardrobe Design estimates Al Wasl, Wardrobe Design services near me Al Wasl, Cheap Wardrobe Design Al Wasl, Quality Wardrobe Design Al Wasl, Trusted Wardrobe Design Al Wasl, Wardrobe Design transformation Al Wasl, Wardrobe Design renovation Al Wasl, Wardrobe Design makeover Al Wasl, Best Wardrobe Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

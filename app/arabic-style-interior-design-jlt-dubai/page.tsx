@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Arabic Style Interior Design in JLT, Dubai",
+    "url": "https://interiara.com/arabic-style-interior-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Arabic Style Interior Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Arabic Style Interior Design",
+        "item": "https://interiara.com/arabic-style-interior-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Arabic Style Interior Design in JLT, Dubai | Interiara",
+  description: "Transform your space with premium arabic style interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "arabic style interior design",
+    "arabic style interior design JLT",
+    "arabic style interior design JLT Dubai",
+    "professional arabic style interior design",
+    "best arabic style interior design",
+    "arabic style interior design services",
+    "luxury arabic style interior design",
+    "affordable arabic style interior design",
+    "expert arabic style interior design",
+    "custom arabic style interior design",
+  ],
+  openGraph: {
+    title: "Arabic Style Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/arabic-style-interior-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/arabic-style-interior-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Arabic Style Interior Design in JLT, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in JLT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Arabic Style Interior Design Jlt, Arabic Style Interior in Design Jlt, Best arabic style interior Design Jlt, Professional arabic style interior Design Jlt, Luxury arabic style interior Design Jlt, Arabic Style Interior Design Jlt Dubai, Arabic Style Interior designer Design Jlt, Arabic Style Interior company Design Jlt, Arabic Style Interior contractor Design Jlt, Affordable arabic style interior Design Jlt, Modern arabic style interior Design Jlt, Arabic Style Interior consultation Design Jlt, Arabic Style Interior cost Design Jlt, Arabic Style Interior price Design Jlt, Top arabic style interior Design Jlt, Arabic Style Interior near Design Jlt, Arabic Style Interior specialists Design Jlt, Arabic Style Interior experts Design Jlt, Arabic Style Interior solutions Design Jlt, Arabic Style Interior packages Design Jlt, Arabic Style Interior quotes Design Jlt, Arabic Style Interior estimates Design Jlt, Arabic Style Interior services near me Design Jlt, Cheap Arabic Style Interior Design Jlt, Quality Arabic Style Interior Design Jlt, Trusted Arabic Style Interior Design Jlt, Arabic Style Interior transformation Design Jlt, Arabic Style Interior renovation Design Jlt, Arabic Style Interior makeover Design Jlt, Best Arabic Style Interior company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ArabicStyleInteriorDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Office Interior Design in City Walk, Dubai",
+    "url": "https://interiara.com/home-office-interior-design-city-walk",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "City Walk, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Office Interior Design",
+      "areaServed": "City Walk, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "City Walk",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "City Walk",
+        "item": "https://interiara.com/city-walk"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Office Interior Design",
+        "item": "https://interiara.com/home-office-interior-design-city-walk"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Office Interior Design in City Walk, Dubai | Interiara",
+  description: "Transform your space with premium home office interior design in City Walk. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "home office interior design",
+    "home office interior design City Walk",
+    "home office interior design City Walk Dubai",
+    "professional home office interior design",
+    "best home office interior design",
+    "home office interior design services",
+    "luxury home office interior design",
+    "affordable home office interior design",
+    "expert home office interior design",
+    "custom home office interior design",
+  ],
+  openGraph: {
+    title: "Home Office Interior Design in City Walk, Dubai | Interiara",
+    description: "Transform your space with premium home office interior design in City Walk. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/home-office-interior-design-city-walk",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-office-interior-design-city-walk",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Office Interior Design in City Walk, Dubai | Interiara",
+    description: "Transform your space with premium home office interior design in City Walk. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Office Interior Design City Walk, Home Office Interior Design in City Walk, Best home office interior design City Walk, Professional home office interior design City Walk, Luxury home office interior design City Walk, Home Office Interior Design City Walk Dubai, Home Office Interior Design designer City Walk, Home Office Interior Design company City Walk, Home Office Interior Design contractor City Walk, Affordable home office interior design City Walk, Modern home office interior design City Walk, Home Office Interior Design consultation City Walk, Home Office Interior Design cost City Walk, Home Office Interior Design price City Walk, Top home office interior design City Walk, Home Office Interior Design near City Walk, Home Office Interior Design specialists City Walk, Home Office Interior Design experts City Walk, Home Office Interior Design solutions City Walk, Home Office Interior Design packages City Walk, Home Office Interior Design quotes City Walk, Home Office Interior Design estimates City Walk, Home Office Interior Design services near me City Walk, Cheap Home Office Interior Design City Walk, Quality Home Office Interior Design City Walk, Trusted Home Office Interior Design City Walk, Home Office Interior Design transformation City Walk, Home Office Interior Design renovation City Walk, Home Office Interior Design makeover City Walk, Best Home Office Interior Design company City Walk
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeOfficeInteriorDesignCityWalk() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in City Walk
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in City Walk
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/art-consultation-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

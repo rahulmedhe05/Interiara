@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Window Curtains in Town Square, Dubai",
+    "url": "https://interiara.com/window-curtains-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Window Curtains",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Window Curtains",
+        "item": "https://interiara.com/window-curtains-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Window Curtains in Town Square, Dubai | Interiara",
+  description: "Expert window curtains in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "window curtains",
+    "window curtains Town Square",
+    "window curtains Town Square Dubai",
+    "professional window curtains",
+    "best window curtains",
+    "window curtains services",
+    "luxury window curtains",
+    "affordable window curtains",
+    "expert window curtains",
+    "custom window curtains",
+  ],
+  openGraph: {
+    title: "Window Curtains in Town Square, Dubai | Interiara",
+    description: "Expert window curtains in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/window-curtains-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/window-curtains-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Window Curtains in Town Square, Dubai | Interiara",
+    description: "Expert window curtains in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Window Curtains Town Square, Window Curtains in Town Square, Best window curtains Town Square, Professional window curtains Town Square, Luxury window curtains Town Square, Window Curtains Town Square Dubai, Window Curtains designer Town Square, Window Curtains company Town Square, Window Curtains contractor Town Square, Affordable window curtains Town Square, Modern window curtains Town Square, Window Curtains consultation Town Square, Window Curtains cost Town Square, Window Curtains price Town Square, Top window curtains Town Square, Window Curtains near Town Square, Window Curtains specialists Town Square, Window Curtains experts Town Square, Window Curtains solutions Town Square, Window Curtains packages Town Square, Window Curtains quotes Town Square, Window Curtains estimates Town Square, Window Curtains services near me Town Square, Cheap Window Curtains Town Square, Quality Window Curtains Town Square, Trusted Window Curtains Town Square, Window Curtains transformation Town Square, Window Curtains renovation Town Square, Window Curtains makeover Town Square, Best Window Curtains company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WindowCurtainsTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

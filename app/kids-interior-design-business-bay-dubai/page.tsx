@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Kids Interior Design in Business Bay, Dubai",
+    "url": "https://interiara.com/kids-interior-design-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Kids Interior Design",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Kids Interior Design",
+        "item": "https://interiara.com/kids-interior-design-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Kids Interior Design in Business Bay, Dubai | Interiara",
+  description: "Transform your space with premium kids interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "kids interior design",
+    "kids interior design Business Bay",
+    "kids interior design Business Bay Dubai",
+    "professional kids interior design",
+    "best kids interior design",
+    "kids interior design services",
+    "luxury kids interior design",
+    "affordable kids interior design",
+    "expert kids interior design",
+    "custom kids interior design",
+  ],
+  openGraph: {
+    title: "Kids Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium kids interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/kids-interior-design-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/kids-interior-design-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Kids Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium kids interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Kids Interior Design Business Bay, Kids Interior Design in Business Bay, Best kids interior design Business Bay, Professional kids interior design Business Bay, Luxury kids interior design Business Bay, Kids Interior Design Business Bay Dubai, Kids Interior Design designer Business Bay, Kids Interior Design company Business Bay, Kids Interior Design contractor Business Bay, Affordable kids interior design Business Bay, Modern kids interior design Business Bay, Kids Interior Design consultation Business Bay, Kids Interior Design cost Business Bay, Kids Interior Design price Business Bay, Top kids interior design Business Bay, Kids Interior Design near Business Bay, Kids Interior Design specialists Business Bay, Kids Interior Design experts Business Bay, Kids Interior Design solutions Business Bay, Kids Interior Design packages Business Bay, Kids Interior Design quotes Business Bay, Kids Interior Design estimates Business Bay, Kids Interior Design services near me Business Bay, Cheap Kids Interior Design Business Bay, Quality Kids Interior Design Business Bay, Trusted Kids Interior Design Business Bay, Kids Interior Design transformation Business Bay, Kids Interior Design renovation Business Bay, Kids Interior Design makeover Business Bay, Best Kids Interior Design company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function KidsInteriorDesignBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

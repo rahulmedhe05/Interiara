@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Decor Consultation in JVT, Dubai",
+    "url": "https://interiara.com/home-decor-consultation-jvt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Decor Consultation",
+      "areaServed": "JVT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVT",
+        "item": "https://interiara.com/jvt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Decor Consultation",
+        "item": "https://interiara.com/home-decor-consultation-jvt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Decor Consultation in JVT, Dubai | Interiara",
+  description: "Expert home decor consultation in JVT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home decor consultation",
+    "home decor consultation JVT",
+    "home decor consultation JVT Dubai",
+    "professional home decor consultation",
+    "best home decor consultation",
+    "home decor consultation services",
+    "luxury home decor consultation",
+    "affordable home decor consultation",
+    "expert home decor consultation",
+    "custom home decor consultation",
+  ],
+  openGraph: {
+    title: "Home Decor Consultation in JVT, Dubai | Interiara",
+    description: "Expert home decor consultation in JVT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-decor-consultation-jvt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-decor-consultation-jvt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Decor Consultation in JVT, Dubai | Interiara",
+    description: "Expert home decor consultation in JVT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Decor Consultation Jvt, Home Decor in Consultation Jvt, Best home decor Consultation Jvt, Professional home decor Consultation Jvt, Luxury home decor Consultation Jvt, Home Decor Consultation Jvt Dubai, Home Decor designer Consultation Jvt, Home Decor company Consultation Jvt, Home Decor contractor Consultation Jvt, Affordable home decor Consultation Jvt, Modern home decor Consultation Jvt, Home Decor consultation Consultation Jvt, Home Decor cost Consultation Jvt, Home Decor price Consultation Jvt, Top home decor Consultation Jvt, Home Decor near Consultation Jvt, Home Decor specialists Consultation Jvt, Home Decor experts Consultation Jvt, Home Decor solutions Consultation Jvt, Home Decor packages Consultation Jvt, Home Decor quotes Consultation Jvt, Home Decor estimates Consultation Jvt, Home Decor services near me Consultation Jvt, Cheap Home Decor Consultation Jvt, Quality Home Decor Consultation Jvt, Trusted Home Decor Consultation Jvt, Home Decor transformation Consultation Jvt, Home Decor renovation Consultation Jvt, Home Decor makeover Consultation Jvt, Best Home Decor company Consultation Jvt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeDecorConsultationJvt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Spa Interior Design in City Walk, Dubai",
+    "url": "https://interiara.com/spa-interior-design-city-walk",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "City Walk, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Spa Interior Design",
+      "areaServed": "City Walk, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "City Walk",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "City Walk",
+        "item": "https://interiara.com/city-walk"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Spa Interior Design",
+        "item": "https://interiara.com/spa-interior-design-city-walk"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Spa Interior Design in City Walk, Dubai | Interiara",
+  description: "Transform your space with premium spa interior design in City Walk. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "spa interior design",
+    "spa interior design City Walk",
+    "spa interior design City Walk Dubai",
+    "professional spa interior design",
+    "best spa interior design",
+    "spa interior design services",
+    "luxury spa interior design",
+    "affordable spa interior design",
+    "expert spa interior design",
+    "custom spa interior design",
+  ],
+  openGraph: {
+    title: "Spa Interior Design in City Walk, Dubai | Interiara",
+    description: "Transform your space with premium spa interior design in City Walk. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/spa-interior-design-city-walk",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/spa-interior-design-city-walk",
+  twitter: {
+    card: "summary_large_image",
+    title: "Spa Interior Design in City Walk, Dubai | Interiara",
+    description: "Transform your space with premium spa interior design in City Walk. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Spa Interior Design City Walk, Spa Interior Design in City Walk, Best spa interior design City Walk, Professional spa interior design City Walk, Luxury spa interior design City Walk, Spa Interior Design City Walk Dubai, Spa Interior Design designer City Walk, Spa Interior Design company City Walk, Spa Interior Design contractor City Walk, Affordable spa interior design City Walk, Modern spa interior design City Walk, Spa Interior Design consultation City Walk, Spa Interior Design cost City Walk, Spa Interior Design price City Walk, Top spa interior design City Walk, Spa Interior Design near City Walk, Spa Interior Design specialists City Walk, Spa Interior Design experts City Walk, Spa Interior Design solutions City Walk, Spa Interior Design packages City Walk, Spa Interior Design quotes City Walk, Spa Interior Design estimates City Walk, Spa Interior Design services near me City Walk, Cheap Spa Interior Design City Walk, Quality Spa Interior Design City Walk, Trusted Spa Interior Design City Walk, Spa Interior Design transformation City Walk, Spa Interior Design renovation City Walk, Spa Interior Design makeover City Walk, Best Spa Interior Design company City Walk
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SpaInteriorDesignCityWalk() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in City Walk
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in City Walk
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/art-consultation-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-city-walk"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">City Walk</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

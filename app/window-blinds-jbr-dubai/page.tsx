@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Window Blinds in JBR, Dubai",
+    "url": "https://interiara.com/window-blinds-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Window Blinds",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Window Blinds",
+        "item": "https://interiara.com/window-blinds-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Window Blinds in JBR, Dubai | Interiara",
+  description: "Expert window blinds in JBR, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "window blinds",
+    "window blinds JBR",
+    "window blinds JBR Dubai",
+    "professional window blinds",
+    "best window blinds",
+    "window blinds services",
+    "luxury window blinds",
+    "affordable window blinds",
+    "expert window blinds",
+    "custom window blinds",
+  ],
+  openGraph: {
+    title: "Window Blinds in JBR, Dubai | Interiara",
+    description: "Expert window blinds in JBR, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/window-blinds-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/window-blinds-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Window Blinds in JBR, Dubai | Interiara",
+    description: "Expert window blinds in JBR, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Window Blinds Jbr, Window in Blinds Jbr, Best window Blinds Jbr, Professional window Blinds Jbr, Luxury window Blinds Jbr, Window Blinds Jbr Dubai, Window designer Blinds Jbr, Window company Blinds Jbr, Window contractor Blinds Jbr, Affordable window Blinds Jbr, Modern window Blinds Jbr, Window consultation Blinds Jbr, Window cost Blinds Jbr, Window price Blinds Jbr, Top window Blinds Jbr, Window near Blinds Jbr, Window specialists Blinds Jbr, Window experts Blinds Jbr, Window solutions Blinds Jbr, Window packages Blinds Jbr, Window quotes Blinds Jbr, Window estimates Blinds Jbr, Window services near me Blinds Jbr, Cheap Window Blinds Jbr, Quality Window Blinds Jbr, Trusted Window Blinds Jbr, Window transformation Blinds Jbr, Window renovation Blinds Jbr, Window makeover Blinds Jbr, Best Window company Blinds Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WindowBlindsJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

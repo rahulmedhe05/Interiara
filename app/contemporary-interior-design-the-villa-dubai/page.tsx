@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Contemporary Interior Design in The Villa, Dubai",
+    "url": "https://interiara.com/contemporary-interior-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Contemporary Interior Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contemporary Interior Design",
+        "item": "https://interiara.com/contemporary-interior-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Contemporary Interior Design in The Villa, Dubai | Interiara",
+  description: "Transform your space with premium contemporary interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "contemporary interior design",
+    "contemporary interior design The Villa",
+    "contemporary interior design The Villa Dubai",
+    "professional contemporary interior design",
+    "best contemporary interior design",
+    "contemporary interior design services",
+    "luxury contemporary interior design",
+    "affordable contemporary interior design",
+    "expert contemporary interior design",
+    "custom contemporary interior design",
+  ],
+  openGraph: {
+    title: "Contemporary Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium contemporary interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/contemporary-interior-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/contemporary-interior-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Contemporary Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium contemporary interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Contemporary Interior Design The Villa, Contemporary Interior Design in The Villa, Best contemporary interior design The Villa, Professional contemporary interior design The Villa, Luxury contemporary interior design The Villa, Contemporary Interior Design The Villa Dubai, Contemporary Interior Design designer The Villa, Contemporary Interior Design company The Villa, Contemporary Interior Design contractor The Villa, Affordable contemporary interior design The Villa, Modern contemporary interior design The Villa, Contemporary Interior Design consultation The Villa, Contemporary Interior Design cost The Villa, Contemporary Interior Design price The Villa, Top contemporary interior design The Villa, Contemporary Interior Design near The Villa, Contemporary Interior Design specialists The Villa, Contemporary Interior Design experts The Villa, Contemporary Interior Design solutions The Villa, Contemporary Interior Design packages The Villa, Contemporary Interior Design quotes The Villa, Contemporary Interior Design estimates The Villa, Contemporary Interior Design services near me The Villa, Cheap Contemporary Interior Design The Villa, Quality Contemporary Interior Design The Villa, Trusted Contemporary Interior Design The Villa, Contemporary Interior Design transformation The Villa, Contemporary Interior Design renovation The Villa, Contemporary Interior Design makeover The Villa, Best Contemporary Interior Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ContemporaryInteriorDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

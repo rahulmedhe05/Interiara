@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Space Planning in Al Safa, Dubai",
+    "url": "https://interiara.com/space-planning-al-safa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Safa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Space Planning",
+      "areaServed": "Al Safa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Safa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Safa",
+        "item": "https://interiara.com/al-safa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Space Planning",
+        "item": "https://interiara.com/space-planning-al-safa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Space Planning in Al Safa, Dubai | Interiara",
+  description: "Expert space planning in Al Safa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "space planning",
+    "space planning Al Safa",
+    "space planning Al Safa Dubai",
+    "professional space planning",
+    "best space planning",
+    "space planning services",
+    "luxury space planning",
+    "affordable space planning",
+    "expert space planning",
+    "custom space planning",
+  ],
+  openGraph: {
+    title: "Space Planning in Al Safa, Dubai | Interiara",
+    description: "Expert space planning in Al Safa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/space-planning-al-safa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/space-planning-al-safa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Space Planning in Al Safa, Dubai | Interiara",
+    description: "Expert space planning in Al Safa, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Space Planning Al Safa, Space Planning in Al Safa, Best space planning Al Safa, Professional space planning Al Safa, Luxury space planning Al Safa, Space Planning Al Safa Dubai, Space Planning designer Al Safa, Space Planning company Al Safa, Space Planning contractor Al Safa, Affordable space planning Al Safa, Modern space planning Al Safa, Space Planning consultation Al Safa, Space Planning cost Al Safa, Space Planning price Al Safa, Top space planning Al Safa, Space Planning near Al Safa, Space Planning specialists Al Safa, Space Planning experts Al Safa, Space Planning solutions Al Safa, Space Planning packages Al Safa, Space Planning quotes Al Safa, Space Planning estimates Al Safa, Space Planning services near me Al Safa, Cheap Space Planning Al Safa, Quality Space Planning Al Safa, Trusted Space Planning Al Safa, Space Planning transformation Al Safa, Space Planning renovation Al Safa, Space Planning makeover Al Safa, Best Space Planning company Al Safa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SpacePlanningAlSafa() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Safa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Safa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

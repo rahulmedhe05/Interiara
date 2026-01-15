@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in Mirdif, Dubai",
+    "url": "https://interiara.com/wardrobe-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in Mirdif, Dubai | Interiara",
+  description: "Custom wardrobe design in Mirdif. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design Mirdif",
+    "wardrobe design Mirdif Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in Mirdif, Dubai | Interiara",
+    description: "Custom wardrobe design in Mirdif. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in Mirdif, Dubai | Interiara",
+    description: "Custom wardrobe design in Mirdif. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design Mirdif, Wardrobe in Design Mirdif, Best wardrobe Design Mirdif, Professional wardrobe Design Mirdif, Luxury wardrobe Design Mirdif, Wardrobe Design Mirdif Dubai, Wardrobe designer Design Mirdif, Wardrobe company Design Mirdif, Wardrobe contractor Design Mirdif, Affordable wardrobe Design Mirdif, Modern wardrobe Design Mirdif, Wardrobe consultation Design Mirdif, Wardrobe cost Design Mirdif, Wardrobe price Design Mirdif, Top wardrobe Design Mirdif, Wardrobe near Design Mirdif, Wardrobe specialists Design Mirdif, Wardrobe experts Design Mirdif, Wardrobe solutions Design Mirdif, Wardrobe packages Design Mirdif, Wardrobe quotes Design Mirdif, Wardrobe estimates Design Mirdif, Wardrobe services near me Design Mirdif, Cheap Wardrobe Design Mirdif, Quality Wardrobe Design Mirdif, Trusted Wardrobe Design Mirdif, Wardrobe transformation Design Mirdif, Wardrobe renovation Design Mirdif, Wardrobe makeover Design Mirdif, Best Wardrobe company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

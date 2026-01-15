@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Terrace Interior Design in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/terrace-interior-design-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Terrace Interior Design",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Terrace Interior Design",
+        "item": "https://interiara.com/terrace-interior-design-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Terrace Interior Design in Palm Jumeirah, Dubai | Interiara",
+  description: "Transform your space with premium terrace interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "terrace interior design",
+    "terrace interior design Palm Jumeirah",
+    "terrace interior design Palm Jumeirah Dubai",
+    "professional terrace interior design",
+    "best terrace interior design",
+    "terrace interior design services",
+    "luxury terrace interior design",
+    "affordable terrace interior design",
+    "expert terrace interior design",
+    "custom terrace interior design",
+  ],
+  openGraph: {
+    title: "Terrace Interior Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium terrace interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/terrace-interior-design-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/terrace-interior-design-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Terrace Interior Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium terrace interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Terrace Interior Design Palm Jumeirah, Terrace Interior Design in Palm Jumeirah, Best terrace interior design Palm Jumeirah, Professional terrace interior design Palm Jumeirah, Luxury terrace interior design Palm Jumeirah, Terrace Interior Design Palm Jumeirah Dubai, Terrace Interior Design designer Palm Jumeirah, Terrace Interior Design company Palm Jumeirah, Terrace Interior Design contractor Palm Jumeirah, Affordable terrace interior design Palm Jumeirah, Modern terrace interior design Palm Jumeirah, Terrace Interior Design consultation Palm Jumeirah, Terrace Interior Design cost Palm Jumeirah, Terrace Interior Design price Palm Jumeirah, Top terrace interior design Palm Jumeirah, Terrace Interior Design near Palm Jumeirah, Terrace Interior Design specialists Palm Jumeirah, Terrace Interior Design experts Palm Jumeirah, Terrace Interior Design solutions Palm Jumeirah, Terrace Interior Design packages Palm Jumeirah, Terrace Interior Design quotes Palm Jumeirah, Terrace Interior Design estimates Palm Jumeirah, Terrace Interior Design services near me Palm Jumeirah, Cheap Terrace Interior Design Palm Jumeirah, Quality Terrace Interior Design Palm Jumeirah, Trusted Terrace Interior Design Palm Jumeirah, Terrace Interior Design transformation Palm Jumeirah, Terrace Interior Design renovation Palm Jumeirah, Terrace Interior Design makeover Palm Jumeirah, Best Terrace Interior Design company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function TerraceInteriorDesignPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

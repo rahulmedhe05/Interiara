@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Cafe Interior Design in Al Safa, Dubai",
+    "url": "https://interiara.com/cafe-interior-design-al-safa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Safa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Cafe Interior Design",
+      "areaServed": "Al Safa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Safa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Safa",
+        "item": "https://interiara.com/al-safa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cafe Interior Design",
+        "item": "https://interiara.com/cafe-interior-design-al-safa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Cafe Interior Design in Al Safa, Dubai | Interiara",
+  description: "Transform your space with premium cafe interior design in Al Safa. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "cafe interior design",
+    "cafe interior design Al Safa",
+    "cafe interior design Al Safa Dubai",
+    "professional cafe interior design",
+    "best cafe interior design",
+    "cafe interior design services",
+    "luxury cafe interior design",
+    "affordable cafe interior design",
+    "expert cafe interior design",
+    "custom cafe interior design",
+  ],
+  openGraph: {
+    title: "Cafe Interior Design in Al Safa, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in Al Safa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/cafe-interior-design-al-safa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/cafe-interior-design-al-safa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Cafe Interior Design in Al Safa, Dubai | Interiara",
+    description: "Transform your space with premium cafe interior design in Al Safa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Cafe Interior Design Al Safa, Cafe Interior Design in Al Safa, Best cafe interior design Al Safa, Professional cafe interior design Al Safa, Luxury cafe interior design Al Safa, Cafe Interior Design Al Safa Dubai, Cafe Interior Design designer Al Safa, Cafe Interior Design company Al Safa, Cafe Interior Design contractor Al Safa, Affordable cafe interior design Al Safa, Modern cafe interior design Al Safa, Cafe Interior Design consultation Al Safa, Cafe Interior Design cost Al Safa, Cafe Interior Design price Al Safa, Top cafe interior design Al Safa, Cafe Interior Design near Al Safa, Cafe Interior Design specialists Al Safa, Cafe Interior Design experts Al Safa, Cafe Interior Design solutions Al Safa, Cafe Interior Design packages Al Safa, Cafe Interior Design quotes Al Safa, Cafe Interior Design estimates Al Safa, Cafe Interior Design services near me Al Safa, Cheap Cafe Interior Design Al Safa, Quality Cafe Interior Design Al Safa, Trusted Cafe Interior Design Al Safa, Cafe Interior Design transformation Al Safa, Cafe Interior Design renovation Al Safa, Cafe Interior Design makeover Al Safa, Best Cafe Interior Design company Al Safa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CafeInteriorDesignAlSafa() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Safa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Safa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

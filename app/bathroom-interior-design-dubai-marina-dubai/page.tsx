@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bathroom Interior Design in Dubai Marina, Dubai",
+    "url": "https://interiara.com/bathroom-interior-design-dubai-marina",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Marina, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bathroom Interior Design",
+      "areaServed": "Dubai Marina, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Marina",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Marina",
+        "item": "https://interiara.com/dubai-marina"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bathroom Interior Design",
+        "item": "https://interiara.com/bathroom-interior-design-dubai-marina"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bathroom Interior Design in Dubai Marina, Dubai | Interiara",
+  description: "Transform your space with premium bathroom interior design in Dubai Marina. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "bathroom interior design",
+    "bathroom interior design Dubai Marina",
+    "bathroom interior design Dubai Marina Dubai",
+    "professional bathroom interior design",
+    "best bathroom interior design",
+    "bathroom interior design services",
+    "luxury bathroom interior design",
+    "affordable bathroom interior design",
+    "expert bathroom interior design",
+    "custom bathroom interior design",
+  ],
+  openGraph: {
+    title: "Bathroom Interior Design in Dubai Marina, Dubai | Interiara",
+    description: "Transform your space with premium bathroom interior design in Dubai Marina. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/bathroom-interior-design-dubai-marina",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bathroom-interior-design-dubai-marina",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bathroom Interior Design in Dubai Marina, Dubai | Interiara",
+    description: "Transform your space with premium bathroom interior design in Dubai Marina. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bathroom Interior Design Dubai Marina, Bathroom Interior Design in Dubai Marina, Best bathroom interior design Dubai Marina, Professional bathroom interior design Dubai Marina, Luxury bathroom interior design Dubai Marina, Bathroom Interior Design Dubai Marina Dubai, Bathroom Interior Design designer Dubai Marina, Bathroom Interior Design company Dubai Marina, Bathroom Interior Design contractor Dubai Marina, Affordable bathroom interior design Dubai Marina, Modern bathroom interior design Dubai Marina, Bathroom Interior Design consultation Dubai Marina, Bathroom Interior Design cost Dubai Marina, Bathroom Interior Design price Dubai Marina, Top bathroom interior design Dubai Marina, Bathroom Interior Design near Dubai Marina, Bathroom Interior Design specialists Dubai Marina, Bathroom Interior Design experts Dubai Marina, Bathroom Interior Design solutions Dubai Marina, Bathroom Interior Design packages Dubai Marina, Bathroom Interior Design quotes Dubai Marina, Bathroom Interior Design estimates Dubai Marina, Bathroom Interior Design services near me Dubai Marina, Cheap Bathroom Interior Design Dubai Marina, Quality Bathroom Interior Design Dubai Marina, Trusted Bathroom Interior Design Dubai Marina, Bathroom Interior Design transformation Dubai Marina, Bathroom Interior Design renovation Dubai Marina, Bathroom Interior Design makeover Dubai Marina, Best Bathroom Interior Design company Dubai Marina
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function BathroomInteriorDesignDubaiMarina() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Marina
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Marina
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/home-renovation-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

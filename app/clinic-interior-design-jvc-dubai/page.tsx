@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Clinic Interior Design in JVC, Dubai",
+    "url": "https://interiara.com/clinic-interior-design-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Clinic Interior Design",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Clinic Interior Design",
+        "item": "https://interiara.com/clinic-interior-design-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Clinic Interior Design in JVC, Dubai | Interiara",
+  description: "Transform your space with premium clinic interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "clinic interior design",
+    "clinic interior design JVC",
+    "clinic interior design JVC Dubai",
+    "professional clinic interior design",
+    "best clinic interior design",
+    "clinic interior design services",
+    "luxury clinic interior design",
+    "affordable clinic interior design",
+    "expert clinic interior design",
+    "custom clinic interior design",
+  ],
+  openGraph: {
+    title: "Clinic Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium clinic interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/clinic-interior-design-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/clinic-interior-design-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Clinic Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium clinic interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Clinic Interior Design Jvc, Clinic Interior in Design Jvc, Best clinic interior Design Jvc, Professional clinic interior Design Jvc, Luxury clinic interior Design Jvc, Clinic Interior Design Jvc Dubai, Clinic Interior designer Design Jvc, Clinic Interior company Design Jvc, Clinic Interior contractor Design Jvc, Affordable clinic interior Design Jvc, Modern clinic interior Design Jvc, Clinic Interior consultation Design Jvc, Clinic Interior cost Design Jvc, Clinic Interior price Design Jvc, Top clinic interior Design Jvc, Clinic Interior near Design Jvc, Clinic Interior specialists Design Jvc, Clinic Interior experts Design Jvc, Clinic Interior solutions Design Jvc, Clinic Interior packages Design Jvc, Clinic Interior quotes Design Jvc, Clinic Interior estimates Design Jvc, Clinic Interior services near me Design Jvc, Cheap Clinic Interior Design Jvc, Quality Clinic Interior Design Jvc, Trusted Clinic Interior Design Jvc, Clinic Interior transformation Design Jvc, Clinic Interior renovation Design Jvc, Clinic Interior makeover Design Jvc, Best Clinic Interior company Design Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ClinicInteriorDesignJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

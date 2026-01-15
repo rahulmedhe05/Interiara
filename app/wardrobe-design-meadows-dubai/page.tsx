@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in Meadows, Dubai",
+    "url": "https://interiara.com/wardrobe-design-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in Meadows, Dubai | Interiara",
+  description: "Custom wardrobe design in Meadows. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design Meadows",
+    "wardrobe design Meadows Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in Meadows, Dubai | Interiara",
+    description: "Custom wardrobe design in Meadows. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in Meadows, Dubai | Interiara",
+    description: "Custom wardrobe design in Meadows. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design Meadows, Wardrobe in Design Meadows, Best wardrobe Design Meadows, Professional wardrobe Design Meadows, Luxury wardrobe Design Meadows, Wardrobe Design Meadows Dubai, Wardrobe designer Design Meadows, Wardrobe company Design Meadows, Wardrobe contractor Design Meadows, Affordable wardrobe Design Meadows, Modern wardrobe Design Meadows, Wardrobe consultation Design Meadows, Wardrobe cost Design Meadows, Wardrobe price Design Meadows, Top wardrobe Design Meadows, Wardrobe near Design Meadows, Wardrobe specialists Design Meadows, Wardrobe experts Design Meadows, Wardrobe solutions Design Meadows, Wardrobe packages Design Meadows, Wardrobe quotes Design Meadows, Wardrobe estimates Design Meadows, Wardrobe services near me Design Meadows, Cheap Wardrobe Design Meadows, Quality Wardrobe Design Meadows, Trusted Wardrobe Design Meadows, Wardrobe transformation Design Meadows, Wardrobe renovation Design Meadows, Wardrobe makeover Design Meadows, Best Wardrobe company Design Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

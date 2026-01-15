@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Terrace Interior Design in Business Bay, Dubai",
+    "url": "https://interiara.com/terrace-interior-design-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Terrace Interior Design",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Terrace Interior Design",
+        "item": "https://interiara.com/terrace-interior-design-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Terrace Interior Design in Business Bay, Dubai | Interiara",
+  description: "Transform your space with premium terrace interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "terrace interior design",
+    "terrace interior design Business Bay",
+    "terrace interior design Business Bay Dubai",
+    "professional terrace interior design",
+    "best terrace interior design",
+    "terrace interior design services",
+    "luxury terrace interior design",
+    "affordable terrace interior design",
+    "expert terrace interior design",
+    "custom terrace interior design",
+  ],
+  openGraph: {
+    title: "Terrace Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium terrace interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/terrace-interior-design-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/terrace-interior-design-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Terrace Interior Design in Business Bay, Dubai | Interiara",
+    description: "Transform your space with premium terrace interior design in Business Bay. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Terrace Interior Design Business Bay, Terrace Interior Design in Business Bay, Best terrace interior design Business Bay, Professional terrace interior design Business Bay, Luxury terrace interior design Business Bay, Terrace Interior Design Business Bay Dubai, Terrace Interior Design designer Business Bay, Terrace Interior Design company Business Bay, Terrace Interior Design contractor Business Bay, Affordable terrace interior design Business Bay, Modern terrace interior design Business Bay, Terrace Interior Design consultation Business Bay, Terrace Interior Design cost Business Bay, Terrace Interior Design price Business Bay, Top terrace interior design Business Bay, Terrace Interior Design near Business Bay, Terrace Interior Design specialists Business Bay, Terrace Interior Design experts Business Bay, Terrace Interior Design solutions Business Bay, Terrace Interior Design packages Business Bay, Terrace Interior Design quotes Business Bay, Terrace Interior Design estimates Business Bay, Terrace Interior Design services near me Business Bay, Cheap Terrace Interior Design Business Bay, Quality Terrace Interior Design Business Bay, Trusted Terrace Interior Design Business Bay, Terrace Interior Design transformation Business Bay, Terrace Interior Design renovation Business Bay, Terrace Interior Design makeover Business Bay, Best Terrace Interior Design company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function TerraceInteriorDesignBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

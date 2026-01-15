@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/modular-kitchens-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in Palm Jumeirah, Dubai | Interiara",
+  description: "Premium modular kitchens in Palm Jumeirah. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens Palm Jumeirah",
+    "modular kitchens Palm Jumeirah Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in Palm Jumeirah, Dubai | Interiara",
+    description: "Premium modular kitchens in Palm Jumeirah. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in Palm Jumeirah, Dubai | Interiara",
+    description: "Premium modular kitchens in Palm Jumeirah. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Palm Jumeirah, Modular Kitchens in Palm Jumeirah, Best modular kitchens Palm Jumeirah, Professional modular kitchens Palm Jumeirah, Luxury modular kitchens Palm Jumeirah, Modular Kitchens Palm Jumeirah Dubai, Modular Kitchens designer Palm Jumeirah, Modular Kitchens company Palm Jumeirah, Modular Kitchens contractor Palm Jumeirah, Affordable modular kitchens Palm Jumeirah, Modern modular kitchens Palm Jumeirah, Modular Kitchens consultation Palm Jumeirah, Modular Kitchens cost Palm Jumeirah, Modular Kitchens price Palm Jumeirah, Top modular kitchens Palm Jumeirah, Modular Kitchens near Palm Jumeirah, Modular Kitchens specialists Palm Jumeirah, Modular Kitchens experts Palm Jumeirah, Modular Kitchens solutions Palm Jumeirah, Modular Kitchens packages Palm Jumeirah, Modular Kitchens quotes Palm Jumeirah, Modular Kitchens estimates Palm Jumeirah, Modular Kitchens services near me Palm Jumeirah, Cheap Modular Kitchens Palm Jumeirah, Quality Modular Kitchens Palm Jumeirah, Trusted Modular Kitchens Palm Jumeirah, Modular Kitchens transformation Palm Jumeirah, Modular Kitchens renovation Palm Jumeirah, Modular Kitchens makeover Palm Jumeirah, Best Modular Kitchens company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

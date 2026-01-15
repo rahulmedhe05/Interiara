@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Co Working Space Interior Design in JBR, Dubai",
+    "url": "https://interiara.com/co-working-space-interior-design-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Co Working Space Interior Design",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Co Working Space Interior Design",
+        "item": "https://interiara.com/co-working-space-interior-design-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Co Working Space Interior Design in JBR, Dubai | Interiara",
+  description: "Transform your space with premium co working space interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "co working space interior design",
+    "co working space interior design JBR",
+    "co working space interior design JBR Dubai",
+    "professional co working space interior design",
+    "best co working space interior design",
+    "co working space interior design services",
+    "luxury co working space interior design",
+    "affordable co working space interior design",
+    "expert co working space interior design",
+    "custom co working space interior design",
+  ],
+  openGraph: {
+    title: "Co Working Space Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium co working space interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/co-working-space-interior-design-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/co-working-space-interior-design-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Co Working Space Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium co working space interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Co Working Space Interior Design Jbr, Co Working Space Interior in Design Jbr, Best co working space interior Design Jbr, Professional co working space interior Design Jbr, Luxury co working space interior Design Jbr, Co Working Space Interior Design Jbr Dubai, Co Working Space Interior designer Design Jbr, Co Working Space Interior company Design Jbr, Co Working Space Interior contractor Design Jbr, Affordable co working space interior Design Jbr, Modern co working space interior Design Jbr, Co Working Space Interior consultation Design Jbr, Co Working Space Interior cost Design Jbr, Co Working Space Interior price Design Jbr, Top co working space interior Design Jbr, Co Working Space Interior near Design Jbr, Co Working Space Interior specialists Design Jbr, Co Working Space Interior experts Design Jbr, Co Working Space Interior solutions Design Jbr, Co Working Space Interior packages Design Jbr, Co Working Space Interior quotes Design Jbr, Co Working Space Interior estimates Design Jbr, Co Working Space Interior services near me Design Jbr, Cheap Co Working Space Interior Design Jbr, Quality Co Working Space Interior Design Jbr, Trusted Co Working Space Interior Design Jbr, Co Working Space Interior transformation Design Jbr, Co Working Space Interior renovation Design Jbr, Co Working Space Interior makeover Design Jbr, Best Co Working Space Interior company Design Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CoWorkingSpaceInteriorDesignJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

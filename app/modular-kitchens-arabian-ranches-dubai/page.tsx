@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in Arabian Ranches, Dubai",
+    "url": "https://interiara.com/modular-kitchens-arabian-ranches",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Arabian Ranches, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "Arabian Ranches, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Arabian Ranches",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Arabian Ranches",
+        "item": "https://interiara.com/arabian-ranches"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-arabian-ranches"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in Arabian Ranches, Dubai | Interiara",
+  description: "Premium modular kitchens in Arabian Ranches. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens Arabian Ranches",
+    "modular kitchens Arabian Ranches Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in Arabian Ranches, Dubai | Interiara",
+    description: "Premium modular kitchens in Arabian Ranches. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-arabian-ranches",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-arabian-ranches",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in Arabian Ranches, Dubai | Interiara",
+    description: "Premium modular kitchens in Arabian Ranches. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Arabian Ranches, Modular Kitchens in Arabian Ranches, Best modular kitchens Arabian Ranches, Professional modular kitchens Arabian Ranches, Luxury modular kitchens Arabian Ranches, Modular Kitchens Arabian Ranches Dubai, Modular Kitchens designer Arabian Ranches, Modular Kitchens company Arabian Ranches, Modular Kitchens contractor Arabian Ranches, Affordable modular kitchens Arabian Ranches, Modern modular kitchens Arabian Ranches, Modular Kitchens consultation Arabian Ranches, Modular Kitchens cost Arabian Ranches, Modular Kitchens price Arabian Ranches, Top modular kitchens Arabian Ranches, Modular Kitchens near Arabian Ranches, Modular Kitchens specialists Arabian Ranches, Modular Kitchens experts Arabian Ranches, Modular Kitchens solutions Arabian Ranches, Modular Kitchens packages Arabian Ranches, Modular Kitchens quotes Arabian Ranches, Modular Kitchens estimates Arabian Ranches, Modular Kitchens services near me Arabian Ranches, Cheap Modular Kitchens Arabian Ranches, Quality Modular Kitchens Arabian Ranches, Trusted Modular Kitchens Arabian Ranches, Modular Kitchens transformation Arabian Ranches, Modular Kitchens renovation Arabian Ranches, Modular Kitchens makeover Arabian Ranches, Best Modular Kitchens company Arabian Ranches
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensArabianRanches() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Arabian Ranches
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Arabian Ranches
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/art-consultation-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Mall Interior Design in JVC, Dubai",
+    "url": "https://interiara.com/mall-interior-design-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Mall Interior Design",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mall Interior Design",
+        "item": "https://interiara.com/mall-interior-design-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Mall Interior Design in JVC, Dubai | Interiara",
+  description: "Transform your space with premium mall interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "mall interior design",
+    "mall interior design JVC",
+    "mall interior design JVC Dubai",
+    "professional mall interior design",
+    "best mall interior design",
+    "mall interior design services",
+    "luxury mall interior design",
+    "affordable mall interior design",
+    "expert mall interior design",
+    "custom mall interior design",
+  ],
+  openGraph: {
+    title: "Mall Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium mall interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/mall-interior-design-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/mall-interior-design-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Mall Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium mall interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Mall Interior Design Jvc, Mall Interior in Design Jvc, Best mall interior Design Jvc, Professional mall interior Design Jvc, Luxury mall interior Design Jvc, Mall Interior Design Jvc Dubai, Mall Interior designer Design Jvc, Mall Interior company Design Jvc, Mall Interior contractor Design Jvc, Affordable mall interior Design Jvc, Modern mall interior Design Jvc, Mall Interior consultation Design Jvc, Mall Interior cost Design Jvc, Mall Interior price Design Jvc, Top mall interior Design Jvc, Mall Interior near Design Jvc, Mall Interior specialists Design Jvc, Mall Interior experts Design Jvc, Mall Interior solutions Design Jvc, Mall Interior packages Design Jvc, Mall Interior quotes Design Jvc, Mall Interior estimates Design Jvc, Mall Interior services near me Design Jvc, Cheap Mall Interior Design Jvc, Quality Mall Interior Design Jvc, Trusted Mall Interior Design Jvc, Mall Interior transformation Design Jvc, Mall Interior renovation Design Jvc, Mall Interior makeover Design Jvc, Best Mall Interior company Design Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function MallInteriorDesignJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

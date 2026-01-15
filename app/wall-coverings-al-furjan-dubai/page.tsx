@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wall Coverings in Al Furjan, Dubai",
+    "url": "https://interiara.com/wall-coverings-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wall Coverings",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wall Coverings",
+        "item": "https://interiara.com/wall-coverings-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wall Coverings in Al Furjan, Dubai | Interiara",
+  description: "Expert wall coverings in Al Furjan, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "wall coverings",
+    "wall coverings Al Furjan",
+    "wall coverings Al Furjan Dubai",
+    "professional wall coverings",
+    "best wall coverings",
+    "wall coverings services",
+    "luxury wall coverings",
+    "affordable wall coverings",
+    "expert wall coverings",
+    "custom wall coverings",
+  ],
+  openGraph: {
+    title: "Wall Coverings in Al Furjan, Dubai | Interiara",
+    description: "Expert wall coverings in Al Furjan, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/wall-coverings-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wall-coverings-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wall Coverings in Al Furjan, Dubai | Interiara",
+    description: "Expert wall coverings in Al Furjan, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wall Coverings Al Furjan, Wall Coverings in Al Furjan, Best wall coverings Al Furjan, Professional wall coverings Al Furjan, Luxury wall coverings Al Furjan, Wall Coverings Al Furjan Dubai, Wall Coverings designer Al Furjan, Wall Coverings company Al Furjan, Wall Coverings contractor Al Furjan, Affordable wall coverings Al Furjan, Modern wall coverings Al Furjan, Wall Coverings consultation Al Furjan, Wall Coverings cost Al Furjan, Wall Coverings price Al Furjan, Top wall coverings Al Furjan, Wall Coverings near Al Furjan, Wall Coverings specialists Al Furjan, Wall Coverings experts Al Furjan, Wall Coverings solutions Al Furjan, Wall Coverings packages Al Furjan, Wall Coverings quotes Al Furjan, Wall Coverings estimates Al Furjan, Wall Coverings services near me Al Furjan, Cheap Wall Coverings Al Furjan, Quality Wall Coverings Al Furjan, Trusted Wall Coverings Al Furjan, Wall Coverings transformation Al Furjan, Wall Coverings renovation Al Furjan, Wall Coverings makeover Al Furjan, Best Wall Coverings company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WallCoveringsAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

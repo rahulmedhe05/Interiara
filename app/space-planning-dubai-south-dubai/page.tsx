@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Space Planning in Dubai South, Dubai",
+    "url": "https://interiara.com/space-planning-dubai-south",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai South, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Space Planning",
+      "areaServed": "Dubai South, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai South",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai South",
+        "item": "https://interiara.com/dubai-south"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Space Planning",
+        "item": "https://interiara.com/space-planning-dubai-south"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Space Planning in Dubai South, Dubai | Interiara",
+  description: "Expert space planning in Dubai South, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "space planning",
+    "space planning Dubai South",
+    "space planning Dubai South Dubai",
+    "professional space planning",
+    "best space planning",
+    "space planning services",
+    "luxury space planning",
+    "affordable space planning",
+    "expert space planning",
+    "custom space planning",
+  ],
+  openGraph: {
+    title: "Space Planning in Dubai South, Dubai | Interiara",
+    description: "Expert space planning in Dubai South, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/space-planning-dubai-south",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/space-planning-dubai-south",
+  twitter: {
+    card: "summary_large_image",
+    title: "Space Planning in Dubai South, Dubai | Interiara",
+    description: "Expert space planning in Dubai South, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Space Planning Dubai South, Space Planning in Dubai South, Best space planning Dubai South, Professional space planning Dubai South, Luxury space planning Dubai South, Space Planning Dubai South Dubai, Space Planning designer Dubai South, Space Planning company Dubai South, Space Planning contractor Dubai South, Affordable space planning Dubai South, Modern space planning Dubai South, Space Planning consultation Dubai South, Space Planning cost Dubai South, Space Planning price Dubai South, Top space planning Dubai South, Space Planning near Dubai South, Space Planning specialists Dubai South, Space Planning experts Dubai South, Space Planning solutions Dubai South, Space Planning packages Dubai South, Space Planning quotes Dubai South, Space Planning estimates Dubai South, Space Planning services near me Dubai South, Cheap Space Planning Dubai South, Quality Space Planning Dubai South, Trusted Space Planning Dubai South, Space Planning transformation Dubai South, Space Planning renovation Dubai South, Space Planning makeover Dubai South, Best Space Planning company Dubai South
 
 const serviceFeatures = [
@@ -364,6 +459,23 @@ export default function SpacePlanningDubaiSouth() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai South
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai South
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

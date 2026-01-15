@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Eco Friendly Interior Design in Al Furjan, Dubai",
+    "url": "https://interiara.com/eco-friendly-interior-design-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Eco Friendly Interior Design",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Eco Friendly Interior Design",
+        "item": "https://interiara.com/eco-friendly-interior-design-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Eco Friendly Interior Design in Al Furjan, Dubai | Interiara",
+  description: "Transform your space with premium eco friendly interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "eco friendly interior design",
+    "eco friendly interior design Al Furjan",
+    "eco friendly interior design Al Furjan Dubai",
+    "professional eco friendly interior design",
+    "best eco friendly interior design",
+    "eco friendly interior design services",
+    "luxury eco friendly interior design",
+    "affordable eco friendly interior design",
+    "expert eco friendly interior design",
+    "custom eco friendly interior design",
+  ],
+  openGraph: {
+    title: "Eco Friendly Interior Design in Al Furjan, Dubai | Interiara",
+    description: "Transform your space with premium eco friendly interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/eco-friendly-interior-design-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/eco-friendly-interior-design-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "Eco Friendly Interior Design in Al Furjan, Dubai | Interiara",
+    description: "Transform your space with premium eco friendly interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Eco Friendly Interior Design Al Furjan, Eco Friendly Interior Design in Al Furjan, Best eco friendly interior design Al Furjan, Professional eco friendly interior design Al Furjan, Luxury eco friendly interior design Al Furjan, Eco Friendly Interior Design Al Furjan Dubai, Eco Friendly Interior Design designer Al Furjan, Eco Friendly Interior Design company Al Furjan, Eco Friendly Interior Design contractor Al Furjan, Affordable eco friendly interior design Al Furjan, Modern eco friendly interior design Al Furjan, Eco Friendly Interior Design consultation Al Furjan, Eco Friendly Interior Design cost Al Furjan, Eco Friendly Interior Design price Al Furjan, Top eco friendly interior design Al Furjan, Eco Friendly Interior Design near Al Furjan, Eco Friendly Interior Design specialists Al Furjan, Eco Friendly Interior Design experts Al Furjan, Eco Friendly Interior Design solutions Al Furjan, Eco Friendly Interior Design packages Al Furjan, Eco Friendly Interior Design quotes Al Furjan, Eco Friendly Interior Design estimates Al Furjan, Eco Friendly Interior Design services near me Al Furjan, Cheap Eco Friendly Interior Design Al Furjan, Quality Eco Friendly Interior Design Al Furjan, Trusted Eco Friendly Interior Design Al Furjan, Eco Friendly Interior Design transformation Al Furjan, Eco Friendly Interior Design renovation Al Furjan, Eco Friendly Interior Design makeover Al Furjan, Best Eco Friendly Interior Design company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function EcoFriendlyInteriorDesignAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

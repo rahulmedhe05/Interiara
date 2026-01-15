@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Outdoor Living Design in Business Bay, Dubai",
+    "url": "https://interiara.com/outdoor-living-design-business-bay",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Business Bay, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Outdoor Living Design",
+      "areaServed": "Business Bay, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Business Bay",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Business Bay",
+        "item": "https://interiara.com/business-bay"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Outdoor Living Design",
+        "item": "https://interiara.com/outdoor-living-design-business-bay"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Outdoor Living Design in Business Bay, Dubai | Interiara",
+  description: "Beautiful outdoor living design in Business Bay. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+  keywords: [
+    "outdoor living design",
+    "outdoor living design Business Bay",
+    "outdoor living design Business Bay Dubai",
+    "professional outdoor living design",
+    "best outdoor living design",
+    "outdoor living design services",
+    "luxury outdoor living design",
+    "affordable outdoor living design",
+    "expert outdoor living design",
+    "custom outdoor living design",
+  ],
+  openGraph: {
+    title: "Outdoor Living Design in Business Bay, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Business Bay. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    url: "https://interiara.com/outdoor-living-design-business-bay",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/outdoor-living-design-business-bay",
+  twitter: {
+    card: "summary_large_image",
+    title: "Outdoor Living Design in Business Bay, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Business Bay. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Outdoor Living Design Business Bay, Outdoor Living Design in Business Bay, Best outdoor living design Business Bay, Professional outdoor living design Business Bay, Luxury outdoor living design Business Bay, Outdoor Living Design Business Bay Dubai, Outdoor Living Design designer Business Bay, Outdoor Living Design company Business Bay, Outdoor Living Design contractor Business Bay, Affordable outdoor living design Business Bay, Modern outdoor living design Business Bay, Outdoor Living Design consultation Business Bay, Outdoor Living Design cost Business Bay, Outdoor Living Design price Business Bay, Top outdoor living design Business Bay, Outdoor Living Design near Business Bay, Outdoor Living Design specialists Business Bay, Outdoor Living Design experts Business Bay, Outdoor Living Design solutions Business Bay, Outdoor Living Design packages Business Bay, Outdoor Living Design quotes Business Bay, Outdoor Living Design estimates Business Bay, Outdoor Living Design services near me Business Bay, Cheap Outdoor Living Design Business Bay, Quality Outdoor Living Design Business Bay, Trusted Outdoor Living Design Business Bay, Outdoor Living Design transformation Business Bay, Outdoor Living Design renovation Business Bay, Outdoor Living Design makeover Business Bay, Best Outdoor Living Design company Business Bay
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OutdoorLivingDesignBusinessBay() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Business Bay
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Business Bay
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/art-consultation-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-business-bay"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Business Bay</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

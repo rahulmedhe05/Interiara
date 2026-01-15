@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Event Hall Interior Design in JVC, Dubai",
+    "url": "https://interiara.com/event-hall-interior-design-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Event Hall Interior Design",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Event Hall Interior Design",
+        "item": "https://interiara.com/event-hall-interior-design-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Event Hall Interior Design in JVC, Dubai | Interiara",
+  description: "Transform your space with premium event hall interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "event hall interior design",
+    "event hall interior design JVC",
+    "event hall interior design JVC Dubai",
+    "professional event hall interior design",
+    "best event hall interior design",
+    "event hall interior design services",
+    "luxury event hall interior design",
+    "affordable event hall interior design",
+    "expert event hall interior design",
+    "custom event hall interior design",
+  ],
+  openGraph: {
+    title: "Event Hall Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium event hall interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/event-hall-interior-design-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/event-hall-interior-design-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Event Hall Interior Design in JVC, Dubai | Interiara",
+    description: "Transform your space with premium event hall interior design in JVC. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Event Hall Interior Design Jvc, Event Hall Interior in Design Jvc, Best event hall interior Design Jvc, Professional event hall interior Design Jvc, Luxury event hall interior Design Jvc, Event Hall Interior Design Jvc Dubai, Event Hall Interior designer Design Jvc, Event Hall Interior company Design Jvc, Event Hall Interior contractor Design Jvc, Affordable event hall interior Design Jvc, Modern event hall interior Design Jvc, Event Hall Interior consultation Design Jvc, Event Hall Interior cost Design Jvc, Event Hall Interior price Design Jvc, Top event hall interior Design Jvc, Event Hall Interior near Design Jvc, Event Hall Interior specialists Design Jvc, Event Hall Interior experts Design Jvc, Event Hall Interior solutions Design Jvc, Event Hall Interior packages Design Jvc, Event Hall Interior quotes Design Jvc, Event Hall Interior estimates Design Jvc, Event Hall Interior services near me Design Jvc, Cheap Event Hall Interior Design Jvc, Quality Event Hall Interior Design Jvc, Trusted Event Hall Interior Design Jvc, Event Hall Interior transformation Design Jvc, Event Hall Interior renovation Design Jvc, Event Hall Interior makeover Design Jvc, Best Event Hall Interior company Design Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function EventHallInteriorDesignJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

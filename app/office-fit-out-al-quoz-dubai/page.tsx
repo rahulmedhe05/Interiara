@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Fit Out in Al Quoz, Dubai",
+    "url": "https://interiara.com/office-fit-out-al-quoz",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Quoz, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Fit Out",
+      "areaServed": "Al Quoz, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Quoz",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Quoz",
+        "item": "https://interiara.com/al-quoz"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Fit Out",
+        "item": "https://interiara.com/office-fit-out-al-quoz"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Fit Out in Al Quoz, Dubai | Interiara",
+  description: "Complete office fit out services in Al Quoz. Professional execution & quality assurance. Fast turnaround. Consult now!",
+  keywords: [
+    "office fit out",
+    "office fit out Al Quoz",
+    "office fit out Al Quoz Dubai",
+    "professional office fit out",
+    "best office fit out",
+    "office fit out services",
+    "luxury office fit out",
+    "affordable office fit out",
+    "expert office fit out",
+    "custom office fit out",
+  ],
+  openGraph: {
+    title: "Office Fit Out in Al Quoz, Dubai | Interiara",
+    description: "Complete office fit out services in Al Quoz. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    url: "https://interiara.com/office-fit-out-al-quoz",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-fit-out-al-quoz",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Fit Out in Al Quoz, Dubai | Interiara",
+    description: "Complete office fit out services in Al Quoz. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Fit Out Al Quoz, Office Fit Out in Al Quoz, Best office fit out Al Quoz, Professional office fit out Al Quoz, Luxury office fit out Al Quoz, Office Fit Out Al Quoz Dubai, Office Fit Out designer Al Quoz, Office Fit Out company Al Quoz, Office Fit Out contractor Al Quoz, Affordable office fit out Al Quoz, Modern office fit out Al Quoz, Office Fit Out consultation Al Quoz, Office Fit Out cost Al Quoz, Office Fit Out price Al Quoz, Top office fit out Al Quoz, Office Fit Out near Al Quoz, Office Fit Out specialists Al Quoz, Office Fit Out experts Al Quoz, Office Fit Out solutions Al Quoz, Office Fit Out packages Al Quoz, Office Fit Out quotes Al Quoz, Office Fit Out estimates Al Quoz, Office Fit Out services near me Al Quoz, Cheap Office Fit Out Al Quoz, Quality Office Fit Out Al Quoz, Trusted Office Fit Out Al Quoz, Office Fit Out transformation Al Quoz, Office Fit Out renovation Al Quoz, Office Fit Out makeover Al Quoz, Best Office Fit Out company Al Quoz
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeFitOutAlQuoz() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Quoz
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Quoz
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Custom Furniture Design in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/custom-furniture-design-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Custom Furniture Design",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Custom Furniture Design",
+        "item": "https://interiara.com/custom-furniture-design-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Custom Furniture Design in Palm Jumeirah, Dubai | Interiara",
+  description: "Bespoke custom furniture design in Palm Jumeirah. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+  keywords: [
+    "custom furniture design",
+    "custom furniture design Palm Jumeirah",
+    "custom furniture design Palm Jumeirah Dubai",
+    "professional custom furniture design",
+    "best custom furniture design",
+    "custom furniture design services",
+    "luxury custom furniture design",
+    "affordable custom furniture design",
+    "expert custom furniture design",
+    "custom custom furniture design",
+  ],
+  openGraph: {
+    title: "Custom Furniture Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Palm Jumeirah. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    url: "https://interiara.com/custom-furniture-design-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/custom-furniture-design-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Furniture Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Palm Jumeirah. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Custom Furniture Design Palm Jumeirah, Custom Furniture Design in Palm Jumeirah, Best custom furniture design Palm Jumeirah, Professional custom furniture design Palm Jumeirah, Luxury custom furniture design Palm Jumeirah, Custom Furniture Design Palm Jumeirah Dubai, Custom Furniture Design designer Palm Jumeirah, Custom Furniture Design company Palm Jumeirah, Custom Furniture Design contractor Palm Jumeirah, Affordable custom furniture design Palm Jumeirah, Modern custom furniture design Palm Jumeirah, Custom Furniture Design consultation Palm Jumeirah, Custom Furniture Design cost Palm Jumeirah, Custom Furniture Design price Palm Jumeirah, Top custom furniture design Palm Jumeirah, Custom Furniture Design near Palm Jumeirah, Custom Furniture Design specialists Palm Jumeirah, Custom Furniture Design experts Palm Jumeirah, Custom Furniture Design solutions Palm Jumeirah, Custom Furniture Design packages Palm Jumeirah, Custom Furniture Design quotes Palm Jumeirah, Custom Furniture Design estimates Palm Jumeirah, Custom Furniture Design services near me Palm Jumeirah, Cheap Custom Furniture Design Palm Jumeirah, Quality Custom Furniture Design Palm Jumeirah, Trusted Custom Furniture Design Palm Jumeirah, Custom Furniture Design transformation Palm Jumeirah, Custom Furniture Design renovation Palm Jumeirah, Custom Furniture Design makeover Palm Jumeirah, Best Custom Furniture Design company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CustomFurnitureDesignPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Penthouse Interior Design in Al Quoz, Dubai",
+    "url": "https://interiara.com/penthouse-interior-design-al-quoz",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Quoz, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Penthouse Interior Design",
+      "areaServed": "Al Quoz, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Quoz",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Quoz",
+        "item": "https://interiara.com/al-quoz"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Penthouse Interior Design",
+        "item": "https://interiara.com/penthouse-interior-design-al-quoz"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Penthouse Interior Design in Al Quoz, Dubai | Interiara",
+  description: "Transform your space with premium penthouse interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "penthouse interior design",
+    "penthouse interior design Al Quoz",
+    "penthouse interior design Al Quoz Dubai",
+    "professional penthouse interior design",
+    "best penthouse interior design",
+    "penthouse interior design services",
+    "luxury penthouse interior design",
+    "affordable penthouse interior design",
+    "expert penthouse interior design",
+    "custom penthouse interior design",
+  ],
+  openGraph: {
+    title: "Penthouse Interior Design in Al Quoz, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/penthouse-interior-design-al-quoz",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/penthouse-interior-design-al-quoz",
+  twitter: {
+    card: "summary_large_image",
+    title: "Penthouse Interior Design in Al Quoz, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Penthouse Interior Design Al Quoz, Penthouse Interior Design in Al Quoz, Best penthouse interior design Al Quoz, Professional penthouse interior design Al Quoz, Luxury penthouse interior design Al Quoz, Penthouse Interior Design Al Quoz Dubai, Penthouse Interior Design designer Al Quoz, Penthouse Interior Design company Al Quoz, Penthouse Interior Design contractor Al Quoz, Affordable penthouse interior design Al Quoz, Modern penthouse interior design Al Quoz, Penthouse Interior Design consultation Al Quoz, Penthouse Interior Design cost Al Quoz, Penthouse Interior Design price Al Quoz, Top penthouse interior design Al Quoz, Penthouse Interior Design near Al Quoz, Penthouse Interior Design specialists Al Quoz, Penthouse Interior Design experts Al Quoz, Penthouse Interior Design solutions Al Quoz, Penthouse Interior Design packages Al Quoz, Penthouse Interior Design quotes Al Quoz, Penthouse Interior Design estimates Al Quoz, Penthouse Interior Design services near me Al Quoz, Cheap Penthouse Interior Design Al Quoz, Quality Penthouse Interior Design Al Quoz, Trusted Penthouse Interior Design Al Quoz, Penthouse Interior Design transformation Al Quoz, Penthouse Interior Design renovation Al Quoz, Penthouse Interior Design makeover Al Quoz, Best Penthouse Interior Design company Al Quoz
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function PenthouseInteriorDesignAlQuoz() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Quoz
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Quoz
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Eco Friendly Interior Design in Mirdif, Dubai",
+    "url": "https://interiara.com/eco-friendly-interior-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Eco Friendly Interior Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Eco Friendly Interior Design",
+        "item": "https://interiara.com/eco-friendly-interior-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Eco Friendly Interior Design in Mirdif, Dubai | Interiara",
+  description: "Transform your space with premium eco friendly interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "eco friendly interior design",
+    "eco friendly interior design Mirdif",
+    "eco friendly interior design Mirdif Dubai",
+    "professional eco friendly interior design",
+    "best eco friendly interior design",
+    "eco friendly interior design services",
+    "luxury eco friendly interior design",
+    "affordable eco friendly interior design",
+    "expert eco friendly interior design",
+    "custom eco friendly interior design",
+  ],
+  openGraph: {
+    title: "Eco Friendly Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium eco friendly interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/eco-friendly-interior-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/eco-friendly-interior-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Eco Friendly Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium eco friendly interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Eco Friendly Interior Design Mirdif, Eco Friendly Interior in Design Mirdif, Best eco friendly interior Design Mirdif, Professional eco friendly interior Design Mirdif, Luxury eco friendly interior Design Mirdif, Eco Friendly Interior Design Mirdif Dubai, Eco Friendly Interior designer Design Mirdif, Eco Friendly Interior company Design Mirdif, Eco Friendly Interior contractor Design Mirdif, Affordable eco friendly interior Design Mirdif, Modern eco friendly interior Design Mirdif, Eco Friendly Interior consultation Design Mirdif, Eco Friendly Interior cost Design Mirdif, Eco Friendly Interior price Design Mirdif, Top eco friendly interior Design Mirdif, Eco Friendly Interior near Design Mirdif, Eco Friendly Interior specialists Design Mirdif, Eco Friendly Interior experts Design Mirdif, Eco Friendly Interior solutions Design Mirdif, Eco Friendly Interior packages Design Mirdif, Eco Friendly Interior quotes Design Mirdif, Eco Friendly Interior estimates Design Mirdif, Eco Friendly Interior services near me Design Mirdif, Cheap Eco Friendly Interior Design Mirdif, Quality Eco Friendly Interior Design Mirdif, Trusted Eco Friendly Interior Design Mirdif, Eco Friendly Interior transformation Design Mirdif, Eco Friendly Interior renovation Design Mirdif, Eco Friendly Interior makeover Design Mirdif, Best Eco Friendly Interior company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function EcoFriendlyInteriorDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

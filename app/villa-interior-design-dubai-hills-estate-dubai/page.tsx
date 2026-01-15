@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Villa Interior Design in Dubai Hills Estate, Dubai",
+    "url": "https://interiara.com/villa-interior-design-dubai-hills-estate",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Hills Estate, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Villa Interior Design",
+      "areaServed": "Dubai Hills Estate, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Hills Estate",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Hills Estate",
+        "item": "https://interiara.com/dubai-hills-estate"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Villa Interior Design",
+        "item": "https://interiara.com/villa-interior-design-dubai-hills-estate"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Villa Interior Design in Dubai Hills Estate, Dubai | Interiara",
+  description: "Transform your space with premium villa interior design in Dubai Hills Estate. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "villa interior design",
+    "villa interior design Dubai Hills Estate",
+    "villa interior design Dubai Hills Estate Dubai",
+    "professional villa interior design",
+    "best villa interior design",
+    "villa interior design services",
+    "luxury villa interior design",
+    "affordable villa interior design",
+    "expert villa interior design",
+    "custom villa interior design",
+  ],
+  openGraph: {
+    title: "Villa Interior Design in Dubai Hills Estate, Dubai | Interiara",
+    description: "Transform your space with premium villa interior design in Dubai Hills Estate. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/villa-interior-design-dubai-hills-estate",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/villa-interior-design-dubai-hills-estate",
+  twitter: {
+    card: "summary_large_image",
+    title: "Villa Interior Design in Dubai Hills Estate, Dubai | Interiara",
+    description: "Transform your space with premium villa interior design in Dubai Hills Estate. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Villa Interior Design Dubai Hills Estate, Villa Interior Design Dubai in Hills Estate, Best villa interior design dubai Hills Estate, Professional villa interior design dubai Hills Estate, Luxury villa interior design dubai Hills Estate, Villa Interior Design Dubai Hills Estate Dubai, Villa Interior Design Dubai designer Hills Estate, Villa Interior Design Dubai company Hills Estate, Villa Interior Design Dubai contractor Hills Estate, Affordable villa interior design dubai Hills Estate, Modern villa interior design dubai Hills Estate, Villa Interior Design Dubai consultation Hills Estate, Villa Interior Design Dubai cost Hills Estate, Villa Interior Design Dubai price Hills Estate, Top villa interior design dubai Hills Estate, Villa Interior Design Dubai near Hills Estate, Villa Interior Design Dubai specialists Hills Estate, Villa Interior Design Dubai experts Hills Estate, Villa Interior Design Dubai solutions Hills Estate, Villa Interior Design Dubai packages Hills Estate, Villa Interior Design Dubai quotes Hills Estate, Villa Interior Design Dubai estimates Hills Estate, Villa Interior Design Dubai services near me Hills Estate, Cheap Villa Interior Design Dubai Hills Estate, Quality Villa Interior Design Dubai Hills Estate, Trusted Villa Interior Design Dubai Hills Estate, Villa Interior Design Dubai transformation Hills Estate, Villa Interior Design Dubai renovation Hills Estate, Villa Interior Design Dubai makeover Hills Estate, Best Villa Interior Design Dubai company Hills Estate
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function VillaInteriorDesignDubaiHillsEstate() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Hills Estate
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Hills Estate
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/home-renovation-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-hills-estate"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Hills Estate</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

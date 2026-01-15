@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bespoke Furniture Design in JLT, Dubai",
+    "url": "https://interiara.com/bespoke-furniture-design-jlt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JLT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bespoke Furniture Design",
+      "areaServed": "JLT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JLT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JLT",
+        "item": "https://interiara.com/jlt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bespoke Furniture Design",
+        "item": "https://interiara.com/bespoke-furniture-design-jlt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bespoke Furniture Design in JLT, Dubai | Interiara",
+  description: "Expert bespoke furniture design in JLT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "bespoke furniture design",
+    "bespoke furniture design JLT",
+    "bespoke furniture design JLT Dubai",
+    "professional bespoke furniture design",
+    "best bespoke furniture design",
+    "bespoke furniture design services",
+    "luxury bespoke furniture design",
+    "affordable bespoke furniture design",
+    "expert bespoke furniture design",
+    "custom bespoke furniture design",
+  ],
+  openGraph: {
+    title: "Bespoke Furniture Design in JLT, Dubai | Interiara",
+    description: "Expert bespoke furniture design in JLT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/bespoke-furniture-design-jlt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bespoke-furniture-design-jlt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bespoke Furniture Design in JLT, Dubai | Interiara",
+    description: "Expert bespoke furniture design in JLT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bespoke Furniture Design Jlt, Bespoke Furniture in Design Jlt, Best bespoke furniture Design Jlt, Professional bespoke furniture Design Jlt, Luxury bespoke furniture Design Jlt, Bespoke Furniture Design Jlt Dubai, Bespoke Furniture designer Design Jlt, Bespoke Furniture company Design Jlt, Bespoke Furniture contractor Design Jlt, Affordable bespoke furniture Design Jlt, Modern bespoke furniture Design Jlt, Bespoke Furniture consultation Design Jlt, Bespoke Furniture cost Design Jlt, Bespoke Furniture price Design Jlt, Top bespoke furniture Design Jlt, Bespoke Furniture near Design Jlt, Bespoke Furniture specialists Design Jlt, Bespoke Furniture experts Design Jlt, Bespoke Furniture solutions Design Jlt, Bespoke Furniture packages Design Jlt, Bespoke Furniture quotes Design Jlt, Bespoke Furniture estimates Design Jlt, Bespoke Furniture services near me Design Jlt, Cheap Bespoke Furniture Design Jlt, Quality Bespoke Furniture Design Jlt, Trusted Bespoke Furniture Design Jlt, Bespoke Furniture transformation Design Jlt, Bespoke Furniture renovation Design Jlt, Bespoke Furniture makeover Design Jlt, Best Bespoke Furniture company Design Jlt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BespokeFurnitureDesignJlt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JLT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JLT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jlt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JLT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

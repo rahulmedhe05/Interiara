@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Fit Out in JVC, Dubai",
+    "url": "https://interiara.com/office-fit-out-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Fit Out",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Fit Out",
+        "item": "https://interiara.com/office-fit-out-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Fit Out in JVC, Dubai | Interiara",
+  description: "Complete office fit out services in JVC. Professional execution & quality assurance. Fast turnaround. Consult now!",
+  keywords: [
+    "office fit out",
+    "office fit out JVC",
+    "office fit out JVC Dubai",
+    "professional office fit out",
+    "best office fit out",
+    "office fit out services",
+    "luxury office fit out",
+    "affordable office fit out",
+    "expert office fit out",
+    "custom office fit out",
+  ],
+  openGraph: {
+    title: "Office Fit Out in JVC, Dubai | Interiara",
+    description: "Complete office fit out services in JVC. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    url: "https://interiara.com/office-fit-out-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-fit-out-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Fit Out in JVC, Dubai | Interiara",
+    description: "Complete office fit out services in JVC. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Fit Out Jvc, Office Fit in Out Jvc, Best office fit Out Jvc, Professional office fit Out Jvc, Luxury office fit Out Jvc, Office Fit Out Jvc Dubai, Office Fit designer Out Jvc, Office Fit company Out Jvc, Office Fit contractor Out Jvc, Affordable office fit Out Jvc, Modern office fit Out Jvc, Office Fit consultation Out Jvc, Office Fit cost Out Jvc, Office Fit price Out Jvc, Top office fit Out Jvc, Office Fit near Out Jvc, Office Fit specialists Out Jvc, Office Fit experts Out Jvc, Office Fit solutions Out Jvc, Office Fit packages Out Jvc, Office Fit quotes Out Jvc, Office Fit estimates Out Jvc, Office Fit services near me Out Jvc, Cheap Office Fit Out Jvc, Quality Office Fit Out Jvc, Trusted Office Fit Out Jvc, Office Fit transformation Out Jvc, Office Fit renovation Out Jvc, Office Fit makeover Out Jvc, Best Office Fit company Out Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeFitOutJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

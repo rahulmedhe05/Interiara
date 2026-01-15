@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in Al Safa, Dubai",
+    "url": "https://interiara.com/wardrobe-design-al-safa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Safa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "Al Safa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Safa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Safa",
+        "item": "https://interiara.com/al-safa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-al-safa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in Al Safa, Dubai | Interiara",
+  description: "Custom wardrobe design in Al Safa. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design Al Safa",
+    "wardrobe design Al Safa Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in Al Safa, Dubai | Interiara",
+    description: "Custom wardrobe design in Al Safa. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-al-safa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-al-safa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in Al Safa, Dubai | Interiara",
+    description: "Custom wardrobe design in Al Safa. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design Al Safa, Wardrobe Design in Al Safa, Best wardrobe design Al Safa, Professional wardrobe design Al Safa, Luxury wardrobe design Al Safa, Wardrobe Design Al Safa Dubai, Wardrobe Design designer Al Safa, Wardrobe Design company Al Safa, Wardrobe Design contractor Al Safa, Affordable wardrobe design Al Safa, Modern wardrobe design Al Safa, Wardrobe Design consultation Al Safa, Wardrobe Design cost Al Safa, Wardrobe Design price Al Safa, Top wardrobe design Al Safa, Wardrobe Design near Al Safa, Wardrobe Design specialists Al Safa, Wardrobe Design experts Al Safa, Wardrobe Design solutions Al Safa, Wardrobe Design packages Al Safa, Wardrobe Design quotes Al Safa, Wardrobe Design estimates Al Safa, Wardrobe Design services near me Al Safa, Cheap Wardrobe Design Al Safa, Quality Wardrobe Design Al Safa, Trusted Wardrobe Design Al Safa, Wardrobe Design transformation Al Safa, Wardrobe Design renovation Al Safa, Wardrobe Design makeover Al Safa, Best Wardrobe Design company Al Safa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignAlSafa() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Safa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Safa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Renovation in Town Square, Dubai",
+    "url": "https://interiara.com/home-renovation-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Renovation",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Renovation",
+        "item": "https://interiara.com/home-renovation-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Renovation in Town Square, Dubai | Interiara",
+  description: "Expert home renovation in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home renovation",
+    "home renovation Town Square",
+    "home renovation Town Square Dubai",
+    "professional home renovation",
+    "best home renovation",
+    "home renovation services",
+    "luxury home renovation",
+    "affordable home renovation",
+    "expert home renovation",
+    "custom home renovation",
+  ],
+  openGraph: {
+    title: "Home Renovation in Town Square, Dubai | Interiara",
+    description: "Expert home renovation in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-renovation-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-renovation-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Renovation in Town Square, Dubai | Interiara",
+    description: "Expert home renovation in Town Square, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Renovation Town Square, Home Renovation in Town Square, Best home renovation Town Square, Professional home renovation Town Square, Luxury home renovation Town Square, Home Renovation Town Square Dubai, Home Renovation designer Town Square, Home Renovation company Town Square, Home Renovation contractor Town Square, Affordable home renovation Town Square, Modern home renovation Town Square, Home Renovation consultation Town Square, Home Renovation cost Town Square, Home Renovation price Town Square, Top home renovation Town Square, Home Renovation near Town Square, Home Renovation specialists Town Square, Home Renovation experts Town Square, Home Renovation solutions Town Square, Home Renovation packages Town Square, Home Renovation quotes Town Square, Home Renovation estimates Town Square, Home Renovation services near me Town Square, Cheap Home Renovation Town Square, Quality Home Renovation Town Square, Trusted Home Renovation Town Square, Home Renovation transformation Town Square, Home Renovation renovation Town Square, Home Renovation makeover Town Square, Best Home Renovation company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeRenovationTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

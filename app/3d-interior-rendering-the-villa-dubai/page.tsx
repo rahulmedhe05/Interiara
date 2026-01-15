@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "3D Interior Rendering in The Villa, Dubai",
+    "url": "https://interiara.com/3d-interior-rendering-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "3D Interior Rendering",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "3D Interior Rendering",
+        "item": "https://interiara.com/3d-interior-rendering-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "3D Interior Rendering in The Villa, Dubai | Interiara",
+  description: "Professional 3d interior rendering services in The Villa. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+  keywords: [
+    "3d interior rendering",
+    "3d interior rendering The Villa",
+    "3d interior rendering The Villa Dubai",
+    "professional 3d interior rendering",
+    "best 3d interior rendering",
+    "3d interior rendering services",
+    "luxury 3d interior rendering",
+    "affordable 3d interior rendering",
+    "expert 3d interior rendering",
+    "custom 3d interior rendering",
+  ],
+  openGraph: {
+    title: "3D Interior Rendering in The Villa, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in The Villa. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    url: "https://interiara.com/3d-interior-rendering-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/3d-interior-rendering-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Interior Rendering in The Villa, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in The Villa. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: 3D Interior Rendering The Villa, 3D Interior Rendering in The Villa, Best 3d interior rendering The Villa, Professional 3d interior rendering The Villa, Luxury 3d interior rendering The Villa, 3D Interior Rendering The Villa Dubai, 3D Interior Rendering designer The Villa, 3D Interior Rendering company The Villa, 3D Interior Rendering contractor The Villa, Affordable 3d interior rendering The Villa, Modern 3d interior rendering The Villa, 3D Interior Rendering consultation The Villa, 3D Interior Rendering cost The Villa, 3D Interior Rendering price The Villa, Top 3d interior rendering The Villa, 3D Interior Rendering near The Villa, 3D Interior Rendering specialists The Villa, 3D Interior Rendering experts The Villa, 3D Interior Rendering solutions The Villa, 3D Interior Rendering packages The Villa, 3D Interior Rendering quotes The Villa, 3D Interior Rendering estimates The Villa, 3D Interior Rendering services near me The Villa, Cheap 3D Interior Rendering The Villa, Quality 3D Interior Rendering The Villa, Trusted 3D Interior Rendering The Villa, 3D Interior Rendering transformation The Villa, 3D Interior Rendering renovation The Villa, 3D Interior Rendering makeover The Villa, Best 3D Interior Rendering company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function 3DInteriorRenderingTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

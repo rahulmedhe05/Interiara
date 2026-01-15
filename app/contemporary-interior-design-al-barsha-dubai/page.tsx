@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Contemporary Interior Design in Al Barsha, Dubai",
+    "url": "https://interiara.com/contemporary-interior-design-al-barsha",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Barsha, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Contemporary Interior Design",
+      "areaServed": "Al Barsha, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Barsha",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Barsha",
+        "item": "https://interiara.com/al-barsha"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contemporary Interior Design",
+        "item": "https://interiara.com/contemporary-interior-design-al-barsha"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Contemporary Interior Design in Al Barsha, Dubai | Interiara",
+  description: "Transform your space with premium contemporary interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "contemporary interior design",
+    "contemporary interior design Al Barsha",
+    "contemporary interior design Al Barsha Dubai",
+    "professional contemporary interior design",
+    "best contemporary interior design",
+    "contemporary interior design services",
+    "luxury contemporary interior design",
+    "affordable contemporary interior design",
+    "expert contemporary interior design",
+    "custom contemporary interior design",
+  ],
+  openGraph: {
+    title: "Contemporary Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium contemporary interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/contemporary-interior-design-al-barsha",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/contemporary-interior-design-al-barsha",
+  twitter: {
+    card: "summary_large_image",
+    title: "Contemporary Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium contemporary interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Contemporary Interior Design Al Barsha, Contemporary Interior Design in Al Barsha, Best contemporary interior design Al Barsha, Professional contemporary interior design Al Barsha, Luxury contemporary interior design Al Barsha, Contemporary Interior Design Al Barsha Dubai, Contemporary Interior Design designer Al Barsha, Contemporary Interior Design company Al Barsha, Contemporary Interior Design contractor Al Barsha, Affordable contemporary interior design Al Barsha, Modern contemporary interior design Al Barsha, Contemporary Interior Design consultation Al Barsha, Contemporary Interior Design cost Al Barsha, Contemporary Interior Design price Al Barsha, Top contemporary interior design Al Barsha, Contemporary Interior Design near Al Barsha, Contemporary Interior Design specialists Al Barsha, Contemporary Interior Design experts Al Barsha, Contemporary Interior Design solutions Al Barsha, Contemporary Interior Design packages Al Barsha, Contemporary Interior Design quotes Al Barsha, Contemporary Interior Design estimates Al Barsha, Contemporary Interior Design services near me Al Barsha, Cheap Contemporary Interior Design Al Barsha, Quality Contemporary Interior Design Al Barsha, Trusted Contemporary Interior Design Al Barsha, Contemporary Interior Design transformation Al Barsha, Contemporary Interior Design renovation Al Barsha, Contemporary Interior Design makeover Al Barsha, Best Contemporary Interior Design company Al Barsha
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ContemporaryInteriorDesignAlBarsha() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Barsha
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Barsha
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

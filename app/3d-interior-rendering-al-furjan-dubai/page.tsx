@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "3D Interior Rendering in Al Furjan, Dubai",
+    "url": "https://interiara.com/3d-interior-rendering-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "3D Interior Rendering",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "3D Interior Rendering",
+        "item": "https://interiara.com/3d-interior-rendering-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "3D Interior Rendering in Al Furjan, Dubai | Interiara",
+  description: "Professional 3d interior rendering services in Al Furjan. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+  keywords: [
+    "3d interior rendering",
+    "3d interior rendering Al Furjan",
+    "3d interior rendering Al Furjan Dubai",
+    "professional 3d interior rendering",
+    "best 3d interior rendering",
+    "3d interior rendering services",
+    "luxury 3d interior rendering",
+    "affordable 3d interior rendering",
+    "expert 3d interior rendering",
+    "custom 3d interior rendering",
+  ],
+  openGraph: {
+    title: "3D Interior Rendering in Al Furjan, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in Al Furjan. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    url: "https://interiara.com/3d-interior-rendering-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/3d-interior-rendering-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Interior Rendering in Al Furjan, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in Al Furjan. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: 3D Interior Rendering Al Furjan, 3D Interior Rendering in Al Furjan, Best 3d interior rendering Al Furjan, Professional 3d interior rendering Al Furjan, Luxury 3d interior rendering Al Furjan, 3D Interior Rendering Al Furjan Dubai, 3D Interior Rendering designer Al Furjan, 3D Interior Rendering company Al Furjan, 3D Interior Rendering contractor Al Furjan, Affordable 3d interior rendering Al Furjan, Modern 3d interior rendering Al Furjan, 3D Interior Rendering consultation Al Furjan, 3D Interior Rendering cost Al Furjan, 3D Interior Rendering price Al Furjan, Top 3d interior rendering Al Furjan, 3D Interior Rendering near Al Furjan, 3D Interior Rendering specialists Al Furjan, 3D Interior Rendering experts Al Furjan, 3D Interior Rendering solutions Al Furjan, 3D Interior Rendering packages Al Furjan, 3D Interior Rendering quotes Al Furjan, 3D Interior Rendering estimates Al Furjan, 3D Interior Rendering services near me Al Furjan, Cheap 3D Interior Rendering Al Furjan, Quality 3D Interior Rendering Al Furjan, Trusted 3D Interior Rendering Al Furjan, 3D Interior Rendering transformation Al Furjan, 3D Interior Rendering renovation Al Furjan, 3D Interior Rendering makeover Al Furjan, Best 3D Interior Rendering company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function 3DInteriorRenderingAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

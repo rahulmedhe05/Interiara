@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Contemporary Interior Design in JVT, Dubai",
+    "url": "https://interiara.com/contemporary-interior-design-jvt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Contemporary Interior Design",
+      "areaServed": "JVT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVT",
+        "item": "https://interiara.com/jvt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contemporary Interior Design",
+        "item": "https://interiara.com/contemporary-interior-design-jvt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Contemporary Interior Design in JVT, Dubai | Interiara",
+  description: "Transform your space with premium contemporary interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "contemporary interior design",
+    "contemporary interior design JVT",
+    "contemporary interior design JVT Dubai",
+    "professional contemporary interior design",
+    "best contemporary interior design",
+    "contemporary interior design services",
+    "luxury contemporary interior design",
+    "affordable contemporary interior design",
+    "expert contemporary interior design",
+    "custom contemporary interior design",
+  ],
+  openGraph: {
+    title: "Contemporary Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium contemporary interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/contemporary-interior-design-jvt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/contemporary-interior-design-jvt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Contemporary Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium contemporary interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Contemporary Interior Design Jvt, Contemporary Interior in Design Jvt, Best contemporary interior Design Jvt, Professional contemporary interior Design Jvt, Luxury contemporary interior Design Jvt, Contemporary Interior Design Jvt Dubai, Contemporary Interior designer Design Jvt, Contemporary Interior company Design Jvt, Contemporary Interior contractor Design Jvt, Affordable contemporary interior Design Jvt, Modern contemporary interior Design Jvt, Contemporary Interior consultation Design Jvt, Contemporary Interior cost Design Jvt, Contemporary Interior price Design Jvt, Top contemporary interior Design Jvt, Contemporary Interior near Design Jvt, Contemporary Interior specialists Design Jvt, Contemporary Interior experts Design Jvt, Contemporary Interior solutions Design Jvt, Contemporary Interior packages Design Jvt, Contemporary Interior quotes Design Jvt, Contemporary Interior estimates Design Jvt, Contemporary Interior services near me Design Jvt, Cheap Contemporary Interior Design Jvt, Quality Contemporary Interior Design Jvt, Trusted Contemporary Interior Design Jvt, Contemporary Interior transformation Design Jvt, Contemporary Interior renovation Design Jvt, Contemporary Interior makeover Design Jvt, Best Contemporary Interior company Design Jvt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ContemporaryInteriorDesignJvt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

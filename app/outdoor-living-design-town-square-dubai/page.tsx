@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Outdoor Living Design in Town Square, Dubai",
+    "url": "https://interiara.com/outdoor-living-design-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Outdoor Living Design",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Outdoor Living Design",
+        "item": "https://interiara.com/outdoor-living-design-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Outdoor Living Design in Town Square, Dubai | Interiara",
+  description: "Beautiful outdoor living design in Town Square. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+  keywords: [
+    "outdoor living design",
+    "outdoor living design Town Square",
+    "outdoor living design Town Square Dubai",
+    "professional outdoor living design",
+    "best outdoor living design",
+    "outdoor living design services",
+    "luxury outdoor living design",
+    "affordable outdoor living design",
+    "expert outdoor living design",
+    "custom outdoor living design",
+  ],
+  openGraph: {
+    title: "Outdoor Living Design in Town Square, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Town Square. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    url: "https://interiara.com/outdoor-living-design-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/outdoor-living-design-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Outdoor Living Design in Town Square, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Town Square. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Outdoor Living Design Town Square, Outdoor Living Design in Town Square, Best outdoor living design Town Square, Professional outdoor living design Town Square, Luxury outdoor living design Town Square, Outdoor Living Design Town Square Dubai, Outdoor Living Design designer Town Square, Outdoor Living Design company Town Square, Outdoor Living Design contractor Town Square, Affordable outdoor living design Town Square, Modern outdoor living design Town Square, Outdoor Living Design consultation Town Square, Outdoor Living Design cost Town Square, Outdoor Living Design price Town Square, Top outdoor living design Town Square, Outdoor Living Design near Town Square, Outdoor Living Design specialists Town Square, Outdoor Living Design experts Town Square, Outdoor Living Design solutions Town Square, Outdoor Living Design packages Town Square, Outdoor Living Design quotes Town Square, Outdoor Living Design estimates Town Square, Outdoor Living Design services near me Town Square, Cheap Outdoor Living Design Town Square, Quality Outdoor Living Design Town Square, Trusted Outdoor Living Design Town Square, Outdoor Living Design transformation Town Square, Outdoor Living Design renovation Town Square, Outdoor Living Design makeover Town Square, Best Outdoor Living Design company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OutdoorLivingDesignTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

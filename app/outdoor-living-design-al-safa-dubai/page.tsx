@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Outdoor Living Design in Al Safa, Dubai",
+    "url": "https://interiara.com/outdoor-living-design-al-safa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Safa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Outdoor Living Design",
+      "areaServed": "Al Safa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Safa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Safa",
+        "item": "https://interiara.com/al-safa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Outdoor Living Design",
+        "item": "https://interiara.com/outdoor-living-design-al-safa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Outdoor Living Design in Al Safa, Dubai | Interiara",
+  description: "Beautiful outdoor living design in Al Safa. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+  keywords: [
+    "outdoor living design",
+    "outdoor living design Al Safa",
+    "outdoor living design Al Safa Dubai",
+    "professional outdoor living design",
+    "best outdoor living design",
+    "outdoor living design services",
+    "luxury outdoor living design",
+    "affordable outdoor living design",
+    "expert outdoor living design",
+    "custom outdoor living design",
+  ],
+  openGraph: {
+    title: "Outdoor Living Design in Al Safa, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Al Safa. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    url: "https://interiara.com/outdoor-living-design-al-safa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/outdoor-living-design-al-safa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Outdoor Living Design in Al Safa, Dubai | Interiara",
+    description: "Beautiful outdoor living design in Al Safa. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Outdoor Living Design Al Safa, Outdoor Living Design in Al Safa, Best outdoor living design Al Safa, Professional outdoor living design Al Safa, Luxury outdoor living design Al Safa, Outdoor Living Design Al Safa Dubai, Outdoor Living Design designer Al Safa, Outdoor Living Design company Al Safa, Outdoor Living Design contractor Al Safa, Affordable outdoor living design Al Safa, Modern outdoor living design Al Safa, Outdoor Living Design consultation Al Safa, Outdoor Living Design cost Al Safa, Outdoor Living Design price Al Safa, Top outdoor living design Al Safa, Outdoor Living Design near Al Safa, Outdoor Living Design specialists Al Safa, Outdoor Living Design experts Al Safa, Outdoor Living Design solutions Al Safa, Outdoor Living Design packages Al Safa, Outdoor Living Design quotes Al Safa, Outdoor Living Design estimates Al Safa, Outdoor Living Design services near me Al Safa, Cheap Outdoor Living Design Al Safa, Quality Outdoor Living Design Al Safa, Trusted Outdoor Living Design Al Safa, Outdoor Living Design transformation Al Safa, Outdoor Living Design renovation Al Safa, Outdoor Living Design makeover Al Safa, Best Outdoor Living Design company Al Safa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OutdoorLivingDesignAlSafa() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Safa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Safa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-safa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Safa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Arabic Style Interior Design in Mirdif, Dubai",
+    "url": "https://interiara.com/arabic-style-interior-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Arabic Style Interior Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Arabic Style Interior Design",
+        "item": "https://interiara.com/arabic-style-interior-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Arabic Style Interior Design in Mirdif, Dubai | Interiara",
+  description: "Transform your space with premium arabic style interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "arabic style interior design",
+    "arabic style interior design Mirdif",
+    "arabic style interior design Mirdif Dubai",
+    "professional arabic style interior design",
+    "best arabic style interior design",
+    "arabic style interior design services",
+    "luxury arabic style interior design",
+    "affordable arabic style interior design",
+    "expert arabic style interior design",
+    "custom arabic style interior design",
+  ],
+  openGraph: {
+    title: "Arabic Style Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/arabic-style-interior-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/arabic-style-interior-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Arabic Style Interior Design in Mirdif, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in Mirdif. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Arabic Style Interior Design Mirdif, Arabic Style Interior in Design Mirdif, Best arabic style interior Design Mirdif, Professional arabic style interior Design Mirdif, Luxury arabic style interior Design Mirdif, Arabic Style Interior Design Mirdif Dubai, Arabic Style Interior designer Design Mirdif, Arabic Style Interior company Design Mirdif, Arabic Style Interior contractor Design Mirdif, Affordable arabic style interior Design Mirdif, Modern arabic style interior Design Mirdif, Arabic Style Interior consultation Design Mirdif, Arabic Style Interior cost Design Mirdif, Arabic Style Interior price Design Mirdif, Top arabic style interior Design Mirdif, Arabic Style Interior near Design Mirdif, Arabic Style Interior specialists Design Mirdif, Arabic Style Interior experts Design Mirdif, Arabic Style Interior solutions Design Mirdif, Arabic Style Interior packages Design Mirdif, Arabic Style Interior quotes Design Mirdif, Arabic Style Interior estimates Design Mirdif, Arabic Style Interior services near me Design Mirdif, Cheap Arabic Style Interior Design Mirdif, Quality Arabic Style Interior Design Mirdif, Trusted Arabic Style Interior Design Mirdif, Arabic Style Interior transformation Design Mirdif, Arabic Style Interior renovation Design Mirdif, Arabic Style Interior makeover Design Mirdif, Best Arabic Style Interior company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ArabicStyleInteriorDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "3D Interior Rendering in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/3d-interior-rendering-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "3D Interior Rendering",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "3D Interior Rendering",
+        "item": "https://interiara.com/3d-interior-rendering-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "3D Interior Rendering in Palm Jumeirah, Dubai | Interiara",
+  description: "Professional 3d interior rendering services in Palm Jumeirah. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+  keywords: [
+    "3d interior rendering",
+    "3d interior rendering Palm Jumeirah",
+    "3d interior rendering Palm Jumeirah Dubai",
+    "professional 3d interior rendering",
+    "best 3d interior rendering",
+    "3d interior rendering services",
+    "luxury 3d interior rendering",
+    "affordable 3d interior rendering",
+    "expert 3d interior rendering",
+    "custom 3d interior rendering",
+  ],
+  openGraph: {
+    title: "3D Interior Rendering in Palm Jumeirah, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in Palm Jumeirah. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    url: "https://interiara.com/3d-interior-rendering-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/3d-interior-rendering-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "3D Interior Rendering in Palm Jumeirah, Dubai | Interiara",
+    description: "Professional 3d interior rendering services in Palm Jumeirah. Expert designers creating stunning 3D visualizations. Get your free consultation today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: 3D Interior Rendering Palm Jumeirah, 3D Interior Rendering in Palm Jumeirah, Best 3d interior rendering Palm Jumeirah, Professional 3d interior rendering Palm Jumeirah, Luxury 3d interior rendering Palm Jumeirah, 3D Interior Rendering Palm Jumeirah Dubai, 3D Interior Rendering designer Palm Jumeirah, 3D Interior Rendering company Palm Jumeirah, 3D Interior Rendering contractor Palm Jumeirah, Affordable 3d interior rendering Palm Jumeirah, Modern 3d interior rendering Palm Jumeirah, 3D Interior Rendering consultation Palm Jumeirah, 3D Interior Rendering cost Palm Jumeirah, 3D Interior Rendering price Palm Jumeirah, Top 3d interior rendering Palm Jumeirah, 3D Interior Rendering near Palm Jumeirah, 3D Interior Rendering specialists Palm Jumeirah, 3D Interior Rendering experts Palm Jumeirah, 3D Interior Rendering solutions Palm Jumeirah, 3D Interior Rendering packages Palm Jumeirah, 3D Interior Rendering quotes Palm Jumeirah, 3D Interior Rendering estimates Palm Jumeirah, 3D Interior Rendering services near me Palm Jumeirah, Cheap 3D Interior Rendering Palm Jumeirah, Quality 3D Interior Rendering Palm Jumeirah, Trusted 3D Interior Rendering Palm Jumeirah, 3D Interior Rendering transformation Palm Jumeirah, 3D Interior Rendering renovation Palm Jumeirah, 3D Interior Rendering makeover Palm Jumeirah, Best 3D Interior Rendering company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function 3DInteriorRenderingPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

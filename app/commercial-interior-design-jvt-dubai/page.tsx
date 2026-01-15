@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Commercial Interior Design in JVT, Dubai",
+    "url": "https://interiara.com/commercial-interior-design-jvt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Commercial Interior Design",
+      "areaServed": "JVT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVT",
+        "item": "https://interiara.com/jvt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Commercial Interior Design",
+        "item": "https://interiara.com/commercial-interior-design-jvt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Commercial Interior Design in JVT, Dubai | Interiara",
+  description: "Transform your space with premium commercial interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "commercial interior design",
+    "commercial interior design JVT",
+    "commercial interior design JVT Dubai",
+    "professional commercial interior design",
+    "best commercial interior design",
+    "commercial interior design services",
+    "luxury commercial interior design",
+    "affordable commercial interior design",
+    "expert commercial interior design",
+    "custom commercial interior design",
+  ],
+  openGraph: {
+    title: "Commercial Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium commercial interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/commercial-interior-design-jvt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/commercial-interior-design-jvt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Commercial Interior Design in JVT, Dubai | Interiara",
+    description: "Transform your space with premium commercial interior design in JVT. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Commercial Interior Design Jvt, Commercial Interior in Design Jvt, Best commercial interior Design Jvt, Professional commercial interior Design Jvt, Luxury commercial interior Design Jvt, Commercial Interior Design Jvt Dubai, Commercial Interior designer Design Jvt, Commercial Interior company Design Jvt, Commercial Interior contractor Design Jvt, Affordable commercial interior Design Jvt, Modern commercial interior Design Jvt, Commercial Interior consultation Design Jvt, Commercial Interior cost Design Jvt, Commercial Interior price Design Jvt, Top commercial interior Design Jvt, Commercial Interior near Design Jvt, Commercial Interior specialists Design Jvt, Commercial Interior experts Design Jvt, Commercial Interior solutions Design Jvt, Commercial Interior packages Design Jvt, Commercial Interior quotes Design Jvt, Commercial Interior estimates Design Jvt, Commercial Interior services near me Design Jvt, Cheap Commercial Interior Design Jvt, Quality Commercial Interior Design Jvt, Trusted Commercial Interior Design Jvt, Commercial Interior transformation Design Jvt, Commercial Interior renovation Design Jvt, Commercial Interior makeover Design Jvt, Best Commercial Interior company Design Jvt
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CommercialInteriorDesignJvt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

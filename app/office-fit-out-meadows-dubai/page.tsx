@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Fit Out in Meadows, Dubai",
+    "url": "https://interiara.com/office-fit-out-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Fit Out",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Fit Out",
+        "item": "https://interiara.com/office-fit-out-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Fit Out in Meadows, Dubai | Interiara",
+  description: "Complete office fit out services in Meadows. Professional execution & quality assurance. Fast turnaround. Consult now!",
+  keywords: [
+    "office fit out",
+    "office fit out Meadows",
+    "office fit out Meadows Dubai",
+    "professional office fit out",
+    "best office fit out",
+    "office fit out services",
+    "luxury office fit out",
+    "affordable office fit out",
+    "expert office fit out",
+    "custom office fit out",
+  ],
+  openGraph: {
+    title: "Office Fit Out in Meadows, Dubai | Interiara",
+    description: "Complete office fit out services in Meadows. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    url: "https://interiara.com/office-fit-out-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-fit-out-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Fit Out in Meadows, Dubai | Interiara",
+    description: "Complete office fit out services in Meadows. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Fit Out Meadows, Office Fit in Out Meadows, Best office fit Out Meadows, Professional office fit Out Meadows, Luxury office fit Out Meadows, Office Fit Out Meadows Dubai, Office Fit designer Out Meadows, Office Fit company Out Meadows, Office Fit contractor Out Meadows, Affordable office fit Out Meadows, Modern office fit Out Meadows, Office Fit consultation Out Meadows, Office Fit cost Out Meadows, Office Fit price Out Meadows, Top office fit Out Meadows, Office Fit near Out Meadows, Office Fit specialists Out Meadows, Office Fit experts Out Meadows, Office Fit solutions Out Meadows, Office Fit packages Out Meadows, Office Fit quotes Out Meadows, Office Fit estimates Out Meadows, Office Fit services near me Out Meadows, Cheap Office Fit Out Meadows, Quality Office Fit Out Meadows, Trusted Office Fit Out Meadows, Office Fit transformation Out Meadows, Office Fit renovation Out Meadows, Office Fit makeover Out Meadows, Best Office Fit company Out Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeFitOutMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

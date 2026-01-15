@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Custom Furniture Design in Al Furjan, Dubai",
+    "url": "https://interiara.com/custom-furniture-design-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Custom Furniture Design",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Custom Furniture Design",
+        "item": "https://interiara.com/custom-furniture-design-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Custom Furniture Design in Al Furjan, Dubai | Interiara",
+  description: "Bespoke custom furniture design in Al Furjan. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+  keywords: [
+    "custom furniture design",
+    "custom furniture design Al Furjan",
+    "custom furniture design Al Furjan Dubai",
+    "professional custom furniture design",
+    "best custom furniture design",
+    "custom furniture design services",
+    "luxury custom furniture design",
+    "affordable custom furniture design",
+    "expert custom furniture design",
+    "custom custom furniture design",
+  ],
+  openGraph: {
+    title: "Custom Furniture Design in Al Furjan, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Al Furjan. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    url: "https://interiara.com/custom-furniture-design-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/custom-furniture-design-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Furniture Design in Al Furjan, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Al Furjan. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Custom Furniture Design Al Furjan, Custom Furniture Design in Al Furjan, Best custom furniture design Al Furjan, Professional custom furniture design Al Furjan, Luxury custom furniture design Al Furjan, Custom Furniture Design Al Furjan Dubai, Custom Furniture Design designer Al Furjan, Custom Furniture Design company Al Furjan, Custom Furniture Design contractor Al Furjan, Affordable custom furniture design Al Furjan, Modern custom furniture design Al Furjan, Custom Furniture Design consultation Al Furjan, Custom Furniture Design cost Al Furjan, Custom Furniture Design price Al Furjan, Top custom furniture design Al Furjan, Custom Furniture Design near Al Furjan, Custom Furniture Design specialists Al Furjan, Custom Furniture Design experts Al Furjan, Custom Furniture Design solutions Al Furjan, Custom Furniture Design packages Al Furjan, Custom Furniture Design quotes Al Furjan, Custom Furniture Design estimates Al Furjan, Custom Furniture Design services near me Al Furjan, Cheap Custom Furniture Design Al Furjan, Quality Custom Furniture Design Al Furjan, Trusted Custom Furniture Design Al Furjan, Custom Furniture Design transformation Al Furjan, Custom Furniture Design renovation Al Furjan, Custom Furniture Design makeover Al Furjan, Best Custom Furniture Design company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CustomFurnitureDesignAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

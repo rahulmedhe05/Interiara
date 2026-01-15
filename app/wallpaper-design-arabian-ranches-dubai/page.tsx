@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wallpaper Design in Arabian Ranches, Dubai",
+    "url": "https://interiara.com/wallpaper-design-arabian-ranches",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Arabian Ranches, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wallpaper Design",
+      "areaServed": "Arabian Ranches, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Arabian Ranches",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Arabian Ranches",
+        "item": "https://interiara.com/arabian-ranches"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wallpaper Design",
+        "item": "https://interiara.com/wallpaper-design-arabian-ranches"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wallpaper Design in Arabian Ranches, Dubai | Interiara",
+  description: "Expert wallpaper design in Arabian Ranches, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "wallpaper design",
+    "wallpaper design Arabian Ranches",
+    "wallpaper design Arabian Ranches Dubai",
+    "professional wallpaper design",
+    "best wallpaper design",
+    "wallpaper design services",
+    "luxury wallpaper design",
+    "affordable wallpaper design",
+    "expert wallpaper design",
+    "custom wallpaper design",
+  ],
+  openGraph: {
+    title: "Wallpaper Design in Arabian Ranches, Dubai | Interiara",
+    description: "Expert wallpaper design in Arabian Ranches, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/wallpaper-design-arabian-ranches",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wallpaper-design-arabian-ranches",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wallpaper Design in Arabian Ranches, Dubai | Interiara",
+    description: "Expert wallpaper design in Arabian Ranches, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wallpaper Design Arabian Ranches, Wallpaper Design in Arabian Ranches, Best wallpaper design Arabian Ranches, Professional wallpaper design Arabian Ranches, Luxury wallpaper design Arabian Ranches, Wallpaper Design Arabian Ranches Dubai, Wallpaper Design designer Arabian Ranches, Wallpaper Design company Arabian Ranches, Wallpaper Design contractor Arabian Ranches, Affordable wallpaper design Arabian Ranches, Modern wallpaper design Arabian Ranches, Wallpaper Design consultation Arabian Ranches, Wallpaper Design cost Arabian Ranches, Wallpaper Design price Arabian Ranches, Top wallpaper design Arabian Ranches, Wallpaper Design near Arabian Ranches, Wallpaper Design specialists Arabian Ranches, Wallpaper Design experts Arabian Ranches, Wallpaper Design solutions Arabian Ranches, Wallpaper Design packages Arabian Ranches, Wallpaper Design quotes Arabian Ranches, Wallpaper Design estimates Arabian Ranches, Wallpaper Design services near me Arabian Ranches, Cheap Wallpaper Design Arabian Ranches, Quality Wallpaper Design Arabian Ranches, Trusted Wallpaper Design Arabian Ranches, Wallpaper Design transformation Arabian Ranches, Wallpaper Design renovation Arabian Ranches, Wallpaper Design makeover Arabian Ranches, Best Wallpaper Design company Arabian Ranches
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WallpaperDesignArabianRanches() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Arabian Ranches
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Arabian Ranches
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/art-consultation-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-arabian-ranches"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Arabian Ranches</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

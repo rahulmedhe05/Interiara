@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Affordable Interior Solutions in Mirdif, Dubai",
+    "url": "https://interiara.com/affordable-interior-solutions-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Affordable Interior Solutions",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Affordable Interior Solutions",
+        "item": "https://interiara.com/affordable-interior-solutions-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Affordable Interior Solutions in Mirdif, Dubai | Interiara",
+  description: "Expert affordable interior solutions in Mirdif, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "affordable interior solutions",
+    "affordable interior solutions Mirdif",
+    "affordable interior solutions Mirdif Dubai",
+    "professional affordable interior solutions",
+    "best affordable interior solutions",
+    "affordable interior solutions services",
+    "luxury affordable interior solutions",
+    "affordable affordable interior solutions",
+    "expert affordable interior solutions",
+    "custom affordable interior solutions",
+  ],
+  openGraph: {
+    title: "Affordable Interior Solutions in Mirdif, Dubai | Interiara",
+    description: "Expert affordable interior solutions in Mirdif, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/affordable-interior-solutions-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/affordable-interior-solutions-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Affordable Interior Solutions in Mirdif, Dubai | Interiara",
+    description: "Expert affordable interior solutions in Mirdif, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Affordable Interior Solutions Mirdif, Affordable Interior in Solutions Mirdif, Best affordable interior Solutions Mirdif, Professional affordable interior Solutions Mirdif, Luxury affordable interior Solutions Mirdif, Affordable Interior Solutions Mirdif Dubai, Affordable Interior designer Solutions Mirdif, Affordable Interior company Solutions Mirdif, Affordable Interior contractor Solutions Mirdif, Affordable affordable interior Solutions Mirdif, Modern affordable interior Solutions Mirdif, Affordable Interior consultation Solutions Mirdif, Affordable Interior cost Solutions Mirdif, Affordable Interior price Solutions Mirdif, Top affordable interior Solutions Mirdif, Affordable Interior near Solutions Mirdif, Affordable Interior specialists Solutions Mirdif, Affordable Interior experts Solutions Mirdif, Affordable Interior solutions Solutions Mirdif, Affordable Interior packages Solutions Mirdif, Affordable Interior quotes Solutions Mirdif, Affordable Interior estimates Solutions Mirdif, Affordable Interior services near me Solutions Mirdif, Cheap Affordable Interior Solutions Mirdif, Quality Affordable Interior Solutions Mirdif, Trusted Affordable Interior Solutions Mirdif, Affordable Interior transformation Solutions Mirdif, Affordable Interior renovation Solutions Mirdif, Affordable Interior makeover Solutions Mirdif, Best Affordable Interior company Solutions Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function AffordableInteriorSolutionsMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Wardrobe Design in Nad Al Sheba, Dubai",
+    "url": "https://interiara.com/wardrobe-design-nad-al-sheba",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Nad Al Sheba, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Wardrobe Design",
+      "areaServed": "Nad Al Sheba, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Nad Al Sheba",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nad Al Sheba",
+        "item": "https://interiara.com/nad-al-sheba"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wardrobe Design",
+        "item": "https://interiara.com/wardrobe-design-nad-al-sheba"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Wardrobe Design in Nad Al Sheba, Dubai | Interiara",
+  description: "Custom wardrobe design in Nad Al Sheba. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+  keywords: [
+    "wardrobe design",
+    "wardrobe design Nad Al Sheba",
+    "wardrobe design Nad Al Sheba Dubai",
+    "professional wardrobe design",
+    "best wardrobe design",
+    "wardrobe design services",
+    "luxury wardrobe design",
+    "affordable wardrobe design",
+    "expert wardrobe design",
+    "custom wardrobe design",
+  ],
+  openGraph: {
+    title: "Wardrobe Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Custom wardrobe design in Nad Al Sheba. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    url: "https://interiara.com/wardrobe-design-nad-al-sheba",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/wardrobe-design-nad-al-sheba",
+  twitter: {
+    card: "summary_large_image",
+    title: "Wardrobe Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Custom wardrobe design in Nad Al Sheba. Bespoke wardrobes designed for your space. Professional installation. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Wardrobe Design Nad Al Sheba, Wardrobe Design Nad in Al Sheba, Best wardrobe design nad Al Sheba, Professional wardrobe design nad Al Sheba, Luxury wardrobe design nad Al Sheba, Wardrobe Design Nad Al Sheba Dubai, Wardrobe Design Nad designer Al Sheba, Wardrobe Design Nad company Al Sheba, Wardrobe Design Nad contractor Al Sheba, Affordable wardrobe design nad Al Sheba, Modern wardrobe design nad Al Sheba, Wardrobe Design Nad consultation Al Sheba, Wardrobe Design Nad cost Al Sheba, Wardrobe Design Nad price Al Sheba, Top wardrobe design nad Al Sheba, Wardrobe Design Nad near Al Sheba, Wardrobe Design Nad specialists Al Sheba, Wardrobe Design Nad experts Al Sheba, Wardrobe Design Nad solutions Al Sheba, Wardrobe Design Nad packages Al Sheba, Wardrobe Design Nad quotes Al Sheba, Wardrobe Design Nad estimates Al Sheba, Wardrobe Design Nad services near me Al Sheba, Cheap Wardrobe Design Nad Al Sheba, Quality Wardrobe Design Nad Al Sheba, Trusted Wardrobe Design Nad Al Sheba, Wardrobe Design Nad transformation Al Sheba, Wardrobe Design Nad renovation Al Sheba, Wardrobe Design Nad makeover Al Sheba, Best Wardrobe Design Nad company Al Sheba
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function WardrobeDesignNadAlSheba() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Nad Al Sheba
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Nad Al Sheba
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/art-consultation-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

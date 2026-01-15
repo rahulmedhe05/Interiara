@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Fit Out in Dubai Creek Harbour, Dubai",
+    "url": "https://interiara.com/office-fit-out-dubai-creek-harbour",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Creek Harbour, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Fit Out",
+      "areaServed": "Dubai Creek Harbour, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Creek Harbour",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Creek Harbour",
+        "item": "https://interiara.com/dubai-creek-harbour"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Fit Out",
+        "item": "https://interiara.com/office-fit-out-dubai-creek-harbour"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Fit Out in Dubai Creek Harbour, Dubai | Interiara",
+  description: "Complete office fit out services in Dubai Creek Harbour. Professional execution & quality assurance. Fast turnaround. Consult now!",
+  keywords: [
+    "office fit out",
+    "office fit out Dubai Creek Harbour",
+    "office fit out Dubai Creek Harbour Dubai",
+    "professional office fit out",
+    "best office fit out",
+    "office fit out services",
+    "luxury office fit out",
+    "affordable office fit out",
+    "expert office fit out",
+    "custom office fit out",
+  ],
+  openGraph: {
+    title: "Office Fit Out in Dubai Creek Harbour, Dubai | Interiara",
+    description: "Complete office fit out services in Dubai Creek Harbour. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    url: "https://interiara.com/office-fit-out-dubai-creek-harbour",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-fit-out-dubai-creek-harbour",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Fit Out in Dubai Creek Harbour, Dubai | Interiara",
+    description: "Complete office fit out services in Dubai Creek Harbour. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Fit Out Dubai Creek Harbour, Office Fit Out Dubai in Creek Harbour, Best office fit out dubai Creek Harbour, Professional office fit out dubai Creek Harbour, Luxury office fit out dubai Creek Harbour, Office Fit Out Dubai Creek Harbour Dubai, Office Fit Out Dubai designer Creek Harbour, Office Fit Out Dubai company Creek Harbour, Office Fit Out Dubai contractor Creek Harbour, Affordable office fit out dubai Creek Harbour, Modern office fit out dubai Creek Harbour, Office Fit Out Dubai consultation Creek Harbour, Office Fit Out Dubai cost Creek Harbour, Office Fit Out Dubai price Creek Harbour, Top office fit out dubai Creek Harbour, Office Fit Out Dubai near Creek Harbour, Office Fit Out Dubai specialists Creek Harbour, Office Fit Out Dubai experts Creek Harbour, Office Fit Out Dubai solutions Creek Harbour, Office Fit Out Dubai packages Creek Harbour, Office Fit Out Dubai quotes Creek Harbour, Office Fit Out Dubai estimates Creek Harbour, Office Fit Out Dubai services near me Creek Harbour, Cheap Office Fit Out Dubai Creek Harbour, Quality Office Fit Out Dubai Creek Harbour, Trusted Office Fit Out Dubai Creek Harbour, Office Fit Out Dubai transformation Creek Harbour, Office Fit Out Dubai renovation Creek Harbour, Office Fit Out Dubai makeover Creek Harbour, Best Office Fit Out Dubai company Creek Harbour
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeFitOutDubaiCreekHarbour() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Creek Harbour
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Creek Harbour
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/home-renovation-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-creek-harbour"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Creek Harbour</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

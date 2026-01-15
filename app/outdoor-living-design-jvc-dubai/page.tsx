@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Outdoor Living Design in JVC, Dubai",
+    "url": "https://interiara.com/outdoor-living-design-jvc",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVC, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Outdoor Living Design",
+      "areaServed": "JVC, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVC",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVC",
+        "item": "https://interiara.com/jvc"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Outdoor Living Design",
+        "item": "https://interiara.com/outdoor-living-design-jvc"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Outdoor Living Design in JVC, Dubai | Interiara",
+  description: "Beautiful outdoor living design in JVC. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+  keywords: [
+    "outdoor living design",
+    "outdoor living design JVC",
+    "outdoor living design JVC Dubai",
+    "professional outdoor living design",
+    "best outdoor living design",
+    "outdoor living design services",
+    "luxury outdoor living design",
+    "affordable outdoor living design",
+    "expert outdoor living design",
+    "custom outdoor living design",
+  ],
+  openGraph: {
+    title: "Outdoor Living Design in JVC, Dubai | Interiara",
+    description: "Beautiful outdoor living design in JVC. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    url: "https://interiara.com/outdoor-living-design-jvc",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/outdoor-living-design-jvc",
+  twitter: {
+    card: "summary_large_image",
+    title: "Outdoor Living Design in JVC, Dubai | Interiara",
+    description: "Beautiful outdoor living design in JVC. Stunning outdoor spaces for relaxation & entertainment. Expert design & build!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Outdoor Living Design Jvc, Outdoor Living in Design Jvc, Best outdoor living Design Jvc, Professional outdoor living Design Jvc, Luxury outdoor living Design Jvc, Outdoor Living Design Jvc Dubai, Outdoor Living designer Design Jvc, Outdoor Living company Design Jvc, Outdoor Living contractor Design Jvc, Affordable outdoor living Design Jvc, Modern outdoor living Design Jvc, Outdoor Living consultation Design Jvc, Outdoor Living cost Design Jvc, Outdoor Living price Design Jvc, Top outdoor living Design Jvc, Outdoor Living near Design Jvc, Outdoor Living specialists Design Jvc, Outdoor Living experts Design Jvc, Outdoor Living solutions Design Jvc, Outdoor Living packages Design Jvc, Outdoor Living quotes Design Jvc, Outdoor Living estimates Design Jvc, Outdoor Living services near me Design Jvc, Cheap Outdoor Living Design Jvc, Quality Outdoor Living Design Jvc, Trusted Outdoor Living Design Jvc, Outdoor Living transformation Design Jvc, Outdoor Living renovation Design Jvc, Outdoor Living makeover Design Jvc, Best Outdoor Living company Design Jvc
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OutdoorLivingDesignJvc() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVC
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVC
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvc"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVC</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

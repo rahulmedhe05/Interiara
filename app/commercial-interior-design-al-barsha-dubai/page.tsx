@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Commercial Interior Design in Al Barsha, Dubai",
+    "url": "https://interiara.com/commercial-interior-design-al-barsha",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Barsha, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Commercial Interior Design",
+      "areaServed": "Al Barsha, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Barsha",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Barsha",
+        "item": "https://interiara.com/al-barsha"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Commercial Interior Design",
+        "item": "https://interiara.com/commercial-interior-design-al-barsha"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Commercial Interior Design in Al Barsha, Dubai | Interiara",
+  description: "Transform your space with premium commercial interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "commercial interior design",
+    "commercial interior design Al Barsha",
+    "commercial interior design Al Barsha Dubai",
+    "professional commercial interior design",
+    "best commercial interior design",
+    "commercial interior design services",
+    "luxury commercial interior design",
+    "affordable commercial interior design",
+    "expert commercial interior design",
+    "custom commercial interior design",
+  ],
+  openGraph: {
+    title: "Commercial Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium commercial interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/commercial-interior-design-al-barsha",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/commercial-interior-design-al-barsha",
+  twitter: {
+    card: "summary_large_image",
+    title: "Commercial Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium commercial interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Commercial Interior Design Al Barsha, Commercial Interior Design in Al Barsha, Best commercial interior design Al Barsha, Professional commercial interior design Al Barsha, Luxury commercial interior design Al Barsha, Commercial Interior Design Al Barsha Dubai, Commercial Interior Design designer Al Barsha, Commercial Interior Design company Al Barsha, Commercial Interior Design contractor Al Barsha, Affordable commercial interior design Al Barsha, Modern commercial interior design Al Barsha, Commercial Interior Design consultation Al Barsha, Commercial Interior Design cost Al Barsha, Commercial Interior Design price Al Barsha, Top commercial interior design Al Barsha, Commercial Interior Design near Al Barsha, Commercial Interior Design specialists Al Barsha, Commercial Interior Design experts Al Barsha, Commercial Interior Design solutions Al Barsha, Commercial Interior Design packages Al Barsha, Commercial Interior Design quotes Al Barsha, Commercial Interior Design estimates Al Barsha, Commercial Interior Design services near me Al Barsha, Cheap Commercial Interior Design Al Barsha, Quality Commercial Interior Design Al Barsha, Trusted Commercial Interior Design Al Barsha, Commercial Interior Design transformation Al Barsha, Commercial Interior Design renovation Al Barsha, Commercial Interior Design makeover Al Barsha, Best Commercial Interior Design company Al Barsha
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CommercialInteriorDesignAlBarsha() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Barsha
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Barsha
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

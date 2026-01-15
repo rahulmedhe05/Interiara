@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Minimalist Interior Design in Umm Suqeim, Dubai",
+    "url": "https://interiara.com/minimalist-interior-design-umm-suqeim",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Umm Suqeim, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Minimalist Interior Design",
+      "areaServed": "Umm Suqeim, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Umm Suqeim",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Umm Suqeim",
+        "item": "https://interiara.com/umm-suqeim"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Minimalist Interior Design",
+        "item": "https://interiara.com/minimalist-interior-design-umm-suqeim"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Minimalist Interior Design in Umm Suqeim, Dubai | Interiara",
+  description: "Transform your space with premium minimalist interior design in Umm Suqeim. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "minimalist interior design",
+    "minimalist interior design Umm Suqeim",
+    "minimalist interior design Umm Suqeim Dubai",
+    "professional minimalist interior design",
+    "best minimalist interior design",
+    "minimalist interior design services",
+    "luxury minimalist interior design",
+    "affordable minimalist interior design",
+    "expert minimalist interior design",
+    "custom minimalist interior design",
+  ],
+  openGraph: {
+    title: "Minimalist Interior Design in Umm Suqeim, Dubai | Interiara",
+    description: "Transform your space with premium minimalist interior design in Umm Suqeim. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/minimalist-interior-design-umm-suqeim",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/minimalist-interior-design-umm-suqeim",
+  twitter: {
+    card: "summary_large_image",
+    title: "Minimalist Interior Design in Umm Suqeim, Dubai | Interiara",
+    description: "Transform your space with premium minimalist interior design in Umm Suqeim. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Minimalist Interior Design Umm Suqeim, Minimalist Interior Design in Umm Suqeim, Best minimalist interior design Umm Suqeim, Professional minimalist interior design Umm Suqeim, Luxury minimalist interior design Umm Suqeim, Minimalist Interior Design Umm Suqeim Dubai, Minimalist Interior Design designer Umm Suqeim, Minimalist Interior Design company Umm Suqeim, Minimalist Interior Design contractor Umm Suqeim, Affordable minimalist interior design Umm Suqeim, Modern minimalist interior design Umm Suqeim, Minimalist Interior Design consultation Umm Suqeim, Minimalist Interior Design cost Umm Suqeim, Minimalist Interior Design price Umm Suqeim, Top minimalist interior design Umm Suqeim, Minimalist Interior Design near Umm Suqeim, Minimalist Interior Design specialists Umm Suqeim, Minimalist Interior Design experts Umm Suqeim, Minimalist Interior Design solutions Umm Suqeim, Minimalist Interior Design packages Umm Suqeim, Minimalist Interior Design quotes Umm Suqeim, Minimalist Interior Design estimates Umm Suqeim, Minimalist Interior Design services near me Umm Suqeim, Cheap Minimalist Interior Design Umm Suqeim, Quality Minimalist Interior Design Umm Suqeim, Trusted Minimalist Interior Design Umm Suqeim, Minimalist Interior Design transformation Umm Suqeim, Minimalist Interior Design renovation Umm Suqeim, Minimalist Interior Design makeover Umm Suqeim, Best Minimalist Interior Design company Umm Suqeim
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function MinimalistInteriorDesignUmmSuqeim() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Umm Suqeim
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Umm Suqeim
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/art-consultation-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

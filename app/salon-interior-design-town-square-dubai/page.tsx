@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Salon Interior Design in Town Square, Dubai",
+    "url": "https://interiara.com/salon-interior-design-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Salon Interior Design",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Salon Interior Design",
+        "item": "https://interiara.com/salon-interior-design-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Salon Interior Design in Town Square, Dubai | Interiara",
+  description: "Transform your space with premium salon interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "salon interior design",
+    "salon interior design Town Square",
+    "salon interior design Town Square Dubai",
+    "professional salon interior design",
+    "best salon interior design",
+    "salon interior design services",
+    "luxury salon interior design",
+    "affordable salon interior design",
+    "expert salon interior design",
+    "custom salon interior design",
+  ],
+  openGraph: {
+    title: "Salon Interior Design in Town Square, Dubai | Interiara",
+    description: "Transform your space with premium salon interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/salon-interior-design-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/salon-interior-design-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Salon Interior Design in Town Square, Dubai | Interiara",
+    description: "Transform your space with premium salon interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Salon Interior Design Town Square, Salon Interior Design in Town Square, Best salon interior design Town Square, Professional salon interior design Town Square, Luxury salon interior design Town Square, Salon Interior Design Town Square Dubai, Salon Interior Design designer Town Square, Salon Interior Design company Town Square, Salon Interior Design contractor Town Square, Affordable salon interior design Town Square, Modern salon interior design Town Square, Salon Interior Design consultation Town Square, Salon Interior Design cost Town Square, Salon Interior Design price Town Square, Top salon interior design Town Square, Salon Interior Design near Town Square, Salon Interior Design specialists Town Square, Salon Interior Design experts Town Square, Salon Interior Design solutions Town Square, Salon Interior Design packages Town Square, Salon Interior Design quotes Town Square, Salon Interior Design estimates Town Square, Salon Interior Design services near me Town Square, Cheap Salon Interior Design Town Square, Quality Salon Interior Design Town Square, Trusted Salon Interior Design Town Square, Salon Interior Design transformation Town Square, Salon Interior Design renovation Town Square, Salon Interior Design makeover Town Square, Best Salon Interior Design company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SalonInteriorDesignTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Affordable Interior Solutions in JVT, Dubai",
+    "url": "https://interiara.com/affordable-interior-solutions-jvt",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JVT, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Affordable Interior Solutions",
+      "areaServed": "JVT, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JVT",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JVT",
+        "item": "https://interiara.com/jvt"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Affordable Interior Solutions",
+        "item": "https://interiara.com/affordable-interior-solutions-jvt"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Affordable Interior Solutions in JVT, Dubai | Interiara",
+  description: "Expert affordable interior solutions in JVT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "affordable interior solutions",
+    "affordable interior solutions JVT",
+    "affordable interior solutions JVT Dubai",
+    "professional affordable interior solutions",
+    "best affordable interior solutions",
+    "affordable interior solutions services",
+    "luxury affordable interior solutions",
+    "affordable affordable interior solutions",
+    "expert affordable interior solutions",
+    "custom affordable interior solutions",
+  ],
+  openGraph: {
+    title: "Affordable Interior Solutions in JVT, Dubai | Interiara",
+    description: "Expert affordable interior solutions in JVT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/affordable-interior-solutions-jvt",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/affordable-interior-solutions-jvt",
+  twitter: {
+    card: "summary_large_image",
+    title: "Affordable Interior Solutions in JVT, Dubai | Interiara",
+    description: "Expert affordable interior solutions in JVT, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Affordable Interior Solutions Jvt, Affordable Interior in Solutions Jvt, Best affordable interior Solutions Jvt, Professional affordable interior Solutions Jvt, Luxury affordable interior Solutions Jvt, Affordable Interior Solutions Jvt Dubai, Affordable Interior designer Solutions Jvt, Affordable Interior company Solutions Jvt, Affordable Interior contractor Solutions Jvt, Affordable affordable interior Solutions Jvt, Modern affordable interior Solutions Jvt, Affordable Interior consultation Solutions Jvt, Affordable Interior cost Solutions Jvt, Affordable Interior price Solutions Jvt, Top affordable interior Solutions Jvt, Affordable Interior near Solutions Jvt, Affordable Interior specialists Solutions Jvt, Affordable Interior experts Solutions Jvt, Affordable Interior solutions Solutions Jvt, Affordable Interior packages Solutions Jvt, Affordable Interior quotes Solutions Jvt, Affordable Interior estimates Solutions Jvt, Affordable Interior services near me Solutions Jvt, Cheap Affordable Interior Solutions Jvt, Quality Affordable Interior Solutions Jvt, Trusted Affordable Interior Solutions Jvt, Affordable Interior transformation Solutions Jvt, Affordable Interior renovation Solutions Jvt, Affordable Interior makeover Solutions Jvt, Best Affordable Interior company Solutions Jvt
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function AffordableInteriorSolutionsJvt() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JVT
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JVT
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jvt"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JVT</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

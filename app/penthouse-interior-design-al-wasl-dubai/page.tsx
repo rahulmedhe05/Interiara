@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Penthouse Interior Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/penthouse-interior-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Penthouse Interior Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Penthouse Interior Design",
+        "item": "https://interiara.com/penthouse-interior-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Penthouse Interior Design in Al Wasl, Dubai | Interiara",
+  description: "Transform your space with premium penthouse interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "penthouse interior design",
+    "penthouse interior design Al Wasl",
+    "penthouse interior design Al Wasl Dubai",
+    "professional penthouse interior design",
+    "best penthouse interior design",
+    "penthouse interior design services",
+    "luxury penthouse interior design",
+    "affordable penthouse interior design",
+    "expert penthouse interior design",
+    "custom penthouse interior design",
+  ],
+  openGraph: {
+    title: "Penthouse Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/penthouse-interior-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/penthouse-interior-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Penthouse Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Penthouse Interior Design Al Wasl, Penthouse Interior Design in Al Wasl, Best penthouse interior design Al Wasl, Professional penthouse interior design Al Wasl, Luxury penthouse interior design Al Wasl, Penthouse Interior Design Al Wasl Dubai, Penthouse Interior Design designer Al Wasl, Penthouse Interior Design company Al Wasl, Penthouse Interior Design contractor Al Wasl, Affordable penthouse interior design Al Wasl, Modern penthouse interior design Al Wasl, Penthouse Interior Design consultation Al Wasl, Penthouse Interior Design cost Al Wasl, Penthouse Interior Design price Al Wasl, Top penthouse interior design Al Wasl, Penthouse Interior Design near Al Wasl, Penthouse Interior Design specialists Al Wasl, Penthouse Interior Design experts Al Wasl, Penthouse Interior Design solutions Al Wasl, Penthouse Interior Design packages Al Wasl, Penthouse Interior Design quotes Al Wasl, Penthouse Interior Design estimates Al Wasl, Penthouse Interior Design services near me Al Wasl, Cheap Penthouse Interior Design Al Wasl, Quality Penthouse Interior Design Al Wasl, Trusted Penthouse Interior Design Al Wasl, Penthouse Interior Design transformation Al Wasl, Penthouse Interior Design renovation Al Wasl, Penthouse Interior Design makeover Al Wasl, Best Penthouse Interior Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function PenthouseInteriorDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

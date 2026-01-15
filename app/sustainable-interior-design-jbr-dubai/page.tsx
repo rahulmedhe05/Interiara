@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Sustainable Interior Design in JBR, Dubai",
+    "url": "https://interiara.com/sustainable-interior-design-jbr",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "JBR, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Sustainable Interior Design",
+      "areaServed": "JBR, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "JBR",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "JBR",
+        "item": "https://interiara.com/jbr"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Sustainable Interior Design",
+        "item": "https://interiara.com/sustainable-interior-design-jbr"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Sustainable Interior Design in JBR, Dubai | Interiara",
+  description: "Transform your space with premium sustainable interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "sustainable interior design",
+    "sustainable interior design JBR",
+    "sustainable interior design JBR Dubai",
+    "professional sustainable interior design",
+    "best sustainable interior design",
+    "sustainable interior design services",
+    "luxury sustainable interior design",
+    "affordable sustainable interior design",
+    "expert sustainable interior design",
+    "custom sustainable interior design",
+  ],
+  openGraph: {
+    title: "Sustainable Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium sustainable interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/sustainable-interior-design-jbr",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/sustainable-interior-design-jbr",
+  twitter: {
+    card: "summary_large_image",
+    title: "Sustainable Interior Design in JBR, Dubai | Interiara",
+    description: "Transform your space with premium sustainable interior design in JBR. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Sustainable Interior Design Jbr, Sustainable Interior in Design Jbr, Best sustainable interior Design Jbr, Professional sustainable interior Design Jbr, Luxury sustainable interior Design Jbr, Sustainable Interior Design Jbr Dubai, Sustainable Interior designer Design Jbr, Sustainable Interior company Design Jbr, Sustainable Interior contractor Design Jbr, Affordable sustainable interior Design Jbr, Modern sustainable interior Design Jbr, Sustainable Interior consultation Design Jbr, Sustainable Interior cost Design Jbr, Sustainable Interior price Design Jbr, Top sustainable interior Design Jbr, Sustainable Interior near Design Jbr, Sustainable Interior specialists Design Jbr, Sustainable Interior experts Design Jbr, Sustainable Interior solutions Design Jbr, Sustainable Interior packages Design Jbr, Sustainable Interior quotes Design Jbr, Sustainable Interior estimates Design Jbr, Sustainable Interior services near me Design Jbr, Cheap Sustainable Interior Design Jbr, Quality Sustainable Interior Design Jbr, Trusted Sustainable Interior Design Jbr, Sustainable Interior transformation Design Jbr, Sustainable Interior renovation Design Jbr, Sustainable Interior makeover Design Jbr, Best Sustainable Interior company Design Jbr
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function SustainableInteriorDesignJbr() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in JBR
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in JBR
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/art-consultation-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-jbr"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">JBR</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

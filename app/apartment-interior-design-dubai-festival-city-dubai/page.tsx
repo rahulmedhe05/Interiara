@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Apartment Interior Design in Dubai Festival City, Dubai",
+    "url": "https://interiara.com/apartment-interior-design-dubai-festival-city",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Festival City, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Apartment Interior Design",
+      "areaServed": "Dubai Festival City, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Festival City",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Festival City",
+        "item": "https://interiara.com/dubai-festival-city"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Apartment Interior Design",
+        "item": "https://interiara.com/apartment-interior-design-dubai-festival-city"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Apartment Interior Design in Dubai Festival City, Dubai | Interiara",
+  description: "Transform your space with premium apartment interior design in Dubai Festival City. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "apartment interior design",
+    "apartment interior design Dubai Festival City",
+    "apartment interior design Dubai Festival City Dubai",
+    "professional apartment interior design",
+    "best apartment interior design",
+    "apartment interior design services",
+    "luxury apartment interior design",
+    "affordable apartment interior design",
+    "expert apartment interior design",
+    "custom apartment interior design",
+  ],
+  openGraph: {
+    title: "Apartment Interior Design in Dubai Festival City, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Dubai Festival City. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/apartment-interior-design-dubai-festival-city",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/apartment-interior-design-dubai-festival-city",
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartment Interior Design in Dubai Festival City, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Dubai Festival City. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Apartment Interior Design Dubai Festival City, Apartment Interior Design Dubai in Festival City, Best apartment interior design dubai Festival City, Professional apartment interior design dubai Festival City, Luxury apartment interior design dubai Festival City, Apartment Interior Design Dubai Festival City Dubai, Apartment Interior Design Dubai designer Festival City, Apartment Interior Design Dubai company Festival City, Apartment Interior Design Dubai contractor Festival City, Affordable apartment interior design dubai Festival City, Modern apartment interior design dubai Festival City, Apartment Interior Design Dubai consultation Festival City, Apartment Interior Design Dubai cost Festival City, Apartment Interior Design Dubai price Festival City, Top apartment interior design dubai Festival City, Apartment Interior Design Dubai near Festival City, Apartment Interior Design Dubai specialists Festival City, Apartment Interior Design Dubai experts Festival City, Apartment Interior Design Dubai solutions Festival City, Apartment Interior Design Dubai packages Festival City, Apartment Interior Design Dubai quotes Festival City, Apartment Interior Design Dubai estimates Festival City, Apartment Interior Design Dubai services near me Festival City, Cheap Apartment Interior Design Dubai Festival City, Quality Apartment Interior Design Dubai Festival City, Trusted Apartment Interior Design Dubai Festival City, Apartment Interior Design Dubai transformation Festival City, Apartment Interior Design Dubai renovation Festival City, Apartment Interior Design Dubai makeover Festival City, Best Apartment Interior Design Dubai company Festival City
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ApartmentInteriorDesignDubaiFestivalCity() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Festival City
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Festival City
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/home-renovation-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

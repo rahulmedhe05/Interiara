@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Renovation in Dubai Marina, Dubai",
+    "url": "https://interiara.com/office-renovation-dubai-marina",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Marina, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Renovation",
+      "areaServed": "Dubai Marina, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Marina",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Marina",
+        "item": "https://interiara.com/dubai-marina"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Renovation",
+        "item": "https://interiara.com/office-renovation-dubai-marina"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Renovation in Dubai Marina, Dubai | Interiara",
+  description: "Expert office renovation in Dubai Marina, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "office renovation",
+    "office renovation Dubai Marina",
+    "office renovation Dubai Marina Dubai",
+    "professional office renovation",
+    "best office renovation",
+    "office renovation services",
+    "luxury office renovation",
+    "affordable office renovation",
+    "expert office renovation",
+    "custom office renovation",
+  ],
+  openGraph: {
+    title: "Office Renovation in Dubai Marina, Dubai | Interiara",
+    description: "Expert office renovation in Dubai Marina, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/office-renovation-dubai-marina",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-renovation-dubai-marina",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Renovation in Dubai Marina, Dubai | Interiara",
+    description: "Expert office renovation in Dubai Marina, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Renovation Dubai Marina, Office Renovation in Dubai Marina, Best office renovation Dubai Marina, Professional office renovation Dubai Marina, Luxury office renovation Dubai Marina, Office Renovation Dubai Marina Dubai, Office Renovation designer Dubai Marina, Office Renovation company Dubai Marina, Office Renovation contractor Dubai Marina, Affordable office renovation Dubai Marina, Modern office renovation Dubai Marina, Office Renovation consultation Dubai Marina, Office Renovation cost Dubai Marina, Office Renovation price Dubai Marina, Top office renovation Dubai Marina, Office Renovation near Dubai Marina, Office Renovation specialists Dubai Marina, Office Renovation experts Dubai Marina, Office Renovation solutions Dubai Marina, Office Renovation packages Dubai Marina, Office Renovation quotes Dubai Marina, Office Renovation estimates Dubai Marina, Office Renovation services near me Dubai Marina, Cheap Office Renovation Dubai Marina, Quality Office Renovation Dubai Marina, Trusted Office Renovation Dubai Marina, Office Renovation transformation Dubai Marina, Office Renovation renovation Dubai Marina, Office Renovation makeover Dubai Marina, Best Office Renovation company Dubai Marina
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeRenovationDubaiMarina() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Marina
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Marina
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/home-renovation-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

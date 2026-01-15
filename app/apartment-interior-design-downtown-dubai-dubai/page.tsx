@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Apartment Interior Design in Downtown Dubai, Dubai",
+    "url": "https://interiara.com/apartment-interior-design-downtown-dubai",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Downtown Dubai, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Apartment Interior Design",
+      "areaServed": "Downtown Dubai, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Downtown Dubai",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Downtown Dubai",
+        "item": "https://interiara.com/downtown-dubai"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Apartment Interior Design",
+        "item": "https://interiara.com/apartment-interior-design-downtown-dubai"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Apartment Interior Design in Downtown Dubai, Dubai | Interiara",
+  description: "Transform your space with premium apartment interior design in Downtown Dubai. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "apartment interior design",
+    "apartment interior design Downtown Dubai",
+    "apartment interior design Downtown Dubai Dubai",
+    "professional apartment interior design",
+    "best apartment interior design",
+    "apartment interior design services",
+    "luxury apartment interior design",
+    "affordable apartment interior design",
+    "expert apartment interior design",
+    "custom apartment interior design",
+  ],
+  openGraph: {
+    title: "Apartment Interior Design in Downtown Dubai, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Downtown Dubai. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/apartment-interior-design-downtown-dubai",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/apartment-interior-design-downtown-dubai",
+  twitter: {
+    card: "summary_large_image",
+    title: "Apartment Interior Design in Downtown Dubai, Dubai | Interiara",
+    description: "Transform your space with premium apartment interior design in Downtown Dubai. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Apartment Interior Design Downtown Dubai, Apartment Interior Design in Downtown Dubai, Best apartment interior design Downtown Dubai, Professional apartment interior design Downtown Dubai, Luxury apartment interior design Downtown Dubai, Apartment Interior Design Downtown Dubai Dubai, Apartment Interior Design designer Downtown Dubai, Apartment Interior Design company Downtown Dubai, Apartment Interior Design contractor Downtown Dubai, Affordable apartment interior design Downtown Dubai, Modern apartment interior design Downtown Dubai, Apartment Interior Design consultation Downtown Dubai, Apartment Interior Design cost Downtown Dubai, Apartment Interior Design price Downtown Dubai, Top apartment interior design Downtown Dubai, Apartment Interior Design near Downtown Dubai, Apartment Interior Design specialists Downtown Dubai, Apartment Interior Design experts Downtown Dubai, Apartment Interior Design solutions Downtown Dubai, Apartment Interior Design packages Downtown Dubai, Apartment Interior Design quotes Downtown Dubai, Apartment Interior Design estimates Downtown Dubai, Apartment Interior Design services near me Downtown Dubai, Cheap Apartment Interior Design Downtown Dubai, Quality Apartment Interior Design Downtown Dubai, Trusted Apartment Interior Design Downtown Dubai, Apartment Interior Design transformation Downtown Dubai, Apartment Interior Design renovation Downtown Dubai, Apartment Interior Design makeover Downtown Dubai, Best Apartment Interior Design company Downtown Dubai
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ApartmentInteriorDesignDowntownDubai() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Downtown Dubai
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Downtown Dubai
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/home-renovation-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-downtown"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Downtown Dubai</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

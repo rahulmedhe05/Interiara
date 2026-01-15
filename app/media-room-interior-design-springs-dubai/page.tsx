@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Media Room Interior Design in Springs, Dubai",
+    "url": "https://interiara.com/media-room-interior-design-springs",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Springs, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Media Room Interior Design",
+      "areaServed": "Springs, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Springs",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Springs",
+        "item": "https://interiara.com/springs"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Media Room Interior Design",
+        "item": "https://interiara.com/media-room-interior-design-springs"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Media Room Interior Design in Springs, Dubai | Interiara",
+  description: "Transform your space with premium media room interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "media room interior design",
+    "media room interior design Springs",
+    "media room interior design Springs Dubai",
+    "professional media room interior design",
+    "best media room interior design",
+    "media room interior design services",
+    "luxury media room interior design",
+    "affordable media room interior design",
+    "expert media room interior design",
+    "custom media room interior design",
+  ],
+  openGraph: {
+    title: "Media Room Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium media room interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/media-room-interior-design-springs",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/media-room-interior-design-springs",
+  twitter: {
+    card: "summary_large_image",
+    title: "Media Room Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium media room interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Media Room Interior Design Springs, Media Room Interior in Design Springs, Best media room interior Design Springs, Professional media room interior Design Springs, Luxury media room interior Design Springs, Media Room Interior Design Springs Dubai, Media Room Interior designer Design Springs, Media Room Interior company Design Springs, Media Room Interior contractor Design Springs, Affordable media room interior Design Springs, Modern media room interior Design Springs, Media Room Interior consultation Design Springs, Media Room Interior cost Design Springs, Media Room Interior price Design Springs, Top media room interior Design Springs, Media Room Interior near Design Springs, Media Room Interior specialists Design Springs, Media Room Interior experts Design Springs, Media Room Interior solutions Design Springs, Media Room Interior packages Design Springs, Media Room Interior quotes Design Springs, Media Room Interior estimates Design Springs, Media Room Interior services near me Design Springs, Cheap Media Room Interior Design Springs, Quality Media Room Interior Design Springs, Trusted Media Room Interior Design Springs, Media Room Interior transformation Design Springs, Media Room Interior renovation Design Springs, Media Room Interior makeover Design Springs, Best Media Room Interior company Design Springs
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function MediaRoomInteriorDesignSprings() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Springs
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Springs
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/art-consultation-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

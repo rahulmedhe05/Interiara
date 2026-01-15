@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Balcony Interior Design in Al Furjan, Dubai",
+    "url": "https://interiara.com/balcony-interior-design-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Balcony Interior Design",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Balcony Interior Design",
+        "item": "https://interiara.com/balcony-interior-design-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Balcony Interior Design in Al Furjan, Dubai | Interiara",
+  description: "Transform your space with premium balcony interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "balcony interior design",
+    "balcony interior design Al Furjan",
+    "balcony interior design Al Furjan Dubai",
+    "professional balcony interior design",
+    "best balcony interior design",
+    "balcony interior design services",
+    "luxury balcony interior design",
+    "affordable balcony interior design",
+    "expert balcony interior design",
+    "custom balcony interior design",
+  ],
+  openGraph: {
+    title: "Balcony Interior Design in Al Furjan, Dubai | Interiara",
+    description: "Transform your space with premium balcony interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/balcony-interior-design-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/balcony-interior-design-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "Balcony Interior Design in Al Furjan, Dubai | Interiara",
+    description: "Transform your space with premium balcony interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Balcony Interior Design Al Furjan, Balcony Interior Design in Al Furjan, Best balcony interior design Al Furjan, Professional balcony interior design Al Furjan, Luxury balcony interior design Al Furjan, Balcony Interior Design Al Furjan Dubai, Balcony Interior Design designer Al Furjan, Balcony Interior Design company Al Furjan, Balcony Interior Design contractor Al Furjan, Affordable balcony interior design Al Furjan, Modern balcony interior design Al Furjan, Balcony Interior Design consultation Al Furjan, Balcony Interior Design cost Al Furjan, Balcony Interior Design price Al Furjan, Top balcony interior design Al Furjan, Balcony Interior Design near Al Furjan, Balcony Interior Design specialists Al Furjan, Balcony Interior Design experts Al Furjan, Balcony Interior Design solutions Al Furjan, Balcony Interior Design packages Al Furjan, Balcony Interior Design quotes Al Furjan, Balcony Interior Design estimates Al Furjan, Balcony Interior Design services near me Al Furjan, Cheap Balcony Interior Design Al Furjan, Quality Balcony Interior Design Al Furjan, Trusted Balcony Interior Design Al Furjan, Balcony Interior Design transformation Al Furjan, Balcony Interior Design renovation Al Furjan, Balcony Interior Design makeover Al Furjan, Best Balcony Interior Design company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function BalconyInteriorDesignAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

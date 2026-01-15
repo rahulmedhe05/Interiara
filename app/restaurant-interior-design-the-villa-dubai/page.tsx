@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Restaurant Interior Design in The Villa, Dubai",
+    "url": "https://interiara.com/restaurant-interior-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Restaurant Interior Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Restaurant Interior Design",
+        "item": "https://interiara.com/restaurant-interior-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Restaurant Interior Design in The Villa, Dubai | Interiara",
+  description: "Transform your space with premium restaurant interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "restaurant interior design",
+    "restaurant interior design The Villa",
+    "restaurant interior design The Villa Dubai",
+    "professional restaurant interior design",
+    "best restaurant interior design",
+    "restaurant interior design services",
+    "luxury restaurant interior design",
+    "affordable restaurant interior design",
+    "expert restaurant interior design",
+    "custom restaurant interior design",
+  ],
+  openGraph: {
+    title: "Restaurant Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium restaurant interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/restaurant-interior-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/restaurant-interior-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Restaurant Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium restaurant interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Restaurant Interior Design The Villa, Restaurant Interior Design in The Villa, Best restaurant interior design The Villa, Professional restaurant interior design The Villa, Luxury restaurant interior design The Villa, Restaurant Interior Design The Villa Dubai, Restaurant Interior Design designer The Villa, Restaurant Interior Design company The Villa, Restaurant Interior Design contractor The Villa, Affordable restaurant interior design The Villa, Modern restaurant interior design The Villa, Restaurant Interior Design consultation The Villa, Restaurant Interior Design cost The Villa, Restaurant Interior Design price The Villa, Top restaurant interior design The Villa, Restaurant Interior Design near The Villa, Restaurant Interior Design specialists The Villa, Restaurant Interior Design experts The Villa, Restaurant Interior Design solutions The Villa, Restaurant Interior Design packages The Villa, Restaurant Interior Design quotes The Villa, Restaurant Interior Design estimates The Villa, Restaurant Interior Design services near me The Villa, Cheap Restaurant Interior Design The Villa, Quality Restaurant Interior Design The Villa, Trusted Restaurant Interior Design The Villa, Restaurant Interior Design transformation The Villa, Restaurant Interior Design renovation The Villa, Restaurant Interior Design makeover The Villa, Best Restaurant Interior Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function RestaurantInteriorDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

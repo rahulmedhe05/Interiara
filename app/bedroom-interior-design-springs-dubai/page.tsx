@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bedroom Interior Design in Springs, Dubai",
+    "url": "https://interiara.com/bedroom-interior-design-springs",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Springs, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bedroom Interior Design",
+      "areaServed": "Springs, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Springs",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Springs",
+        "item": "https://interiara.com/springs"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bedroom Interior Design",
+        "item": "https://interiara.com/bedroom-interior-design-springs"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bedroom Interior Design in Springs, Dubai | Interiara",
+  description: "Transform your space with premium bedroom interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "bedroom interior design",
+    "bedroom interior design Springs",
+    "bedroom interior design Springs Dubai",
+    "professional bedroom interior design",
+    "best bedroom interior design",
+    "bedroom interior design services",
+    "luxury bedroom interior design",
+    "affordable bedroom interior design",
+    "expert bedroom interior design",
+    "custom bedroom interior design",
+  ],
+  openGraph: {
+    title: "Bedroom Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium bedroom interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/bedroom-interior-design-springs",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bedroom-interior-design-springs",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bedroom Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium bedroom interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bedroom Interior Design Springs, Bedroom Interior in Design Springs, Best bedroom interior Design Springs, Professional bedroom interior Design Springs, Luxury bedroom interior Design Springs, Bedroom Interior Design Springs Dubai, Bedroom Interior designer Design Springs, Bedroom Interior company Design Springs, Bedroom Interior contractor Design Springs, Affordable bedroom interior Design Springs, Modern bedroom interior Design Springs, Bedroom Interior consultation Design Springs, Bedroom Interior cost Design Springs, Bedroom Interior price Design Springs, Top bedroom interior Design Springs, Bedroom Interior near Design Springs, Bedroom Interior specialists Design Springs, Bedroom Interior experts Design Springs, Bedroom Interior solutions Design Springs, Bedroom Interior packages Design Springs, Bedroom Interior quotes Design Springs, Bedroom Interior estimates Design Springs, Bedroom Interior services near me Design Springs, Cheap Bedroom Interior Design Springs, Quality Bedroom Interior Design Springs, Trusted Bedroom Interior Design Springs, Bedroom Interior transformation Design Springs, Bedroom Interior renovation Design Springs, Bedroom Interior makeover Design Springs, Best Bedroom Interior company Design Springs
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BedroomInteriorDesignSprings() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Springs
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Springs
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/art-consultation-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Custom Furniture Design in Dubai Design District, Dubai",
+    "url": "https://interiara.com/custom-furniture-design-dubai-design-district",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Design District, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Custom Furniture Design",
+      "areaServed": "Dubai Design District, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Design District",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Design District",
+        "item": "https://interiara.com/dubai-design-district"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Custom Furniture Design",
+        "item": "https://interiara.com/custom-furniture-design-dubai-design-district"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Custom Furniture Design in Dubai Design District, Dubai | Interiara",
+  description: "Bespoke custom furniture design in Dubai Design District. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+  keywords: [
+    "custom furniture design",
+    "custom furniture design Dubai Design District",
+    "custom furniture design Dubai Design District Dubai",
+    "professional custom furniture design",
+    "best custom furniture design",
+    "custom furniture design services",
+    "luxury custom furniture design",
+    "affordable custom furniture design",
+    "expert custom furniture design",
+    "custom custom furniture design",
+  ],
+  openGraph: {
+    title: "Custom Furniture Design in Dubai Design District, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Dubai Design District. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    url: "https://interiara.com/custom-furniture-design-dubai-design-district",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/custom-furniture-design-dubai-design-district",
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Furniture Design in Dubai Design District, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Dubai Design District. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Custom Furniture Design Dubai Design District, Custom Furniture Design Dubai in Design District, Best custom furniture design dubai Design District, Professional custom furniture design dubai Design District, Luxury custom furniture design dubai Design District, Custom Furniture Design Dubai Design District Dubai, Custom Furniture Design Dubai designer Design District, Custom Furniture Design Dubai company Design District, Custom Furniture Design Dubai contractor Design District, Affordable custom furniture design dubai Design District, Modern custom furniture design dubai Design District, Custom Furniture Design Dubai consultation Design District, Custom Furniture Design Dubai cost Design District, Custom Furniture Design Dubai price Design District, Top custom furniture design dubai Design District, Custom Furniture Design Dubai near Design District, Custom Furniture Design Dubai specialists Design District, Custom Furniture Design Dubai experts Design District, Custom Furniture Design Dubai solutions Design District, Custom Furniture Design Dubai packages Design District, Custom Furniture Design Dubai quotes Design District, Custom Furniture Design Dubai estimates Design District, Custom Furniture Design Dubai services near me Design District, Cheap Custom Furniture Design Dubai Design District, Quality Custom Furniture Design Dubai Design District, Trusted Custom Furniture Design Dubai Design District, Custom Furniture Design Dubai transformation Design District, Custom Furniture Design Dubai renovation Design District, Custom Furniture Design Dubai makeover Design District, Best Custom Furniture Design Dubai company Design District
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function CustomFurnitureDesignDubaiDesignDistrict() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Design District
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Design District
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/home-renovation-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

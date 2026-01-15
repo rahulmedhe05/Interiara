@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bespoke Furniture Design in Meadows, Dubai",
+    "url": "https://interiara.com/bespoke-furniture-design-meadows",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Meadows, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bespoke Furniture Design",
+      "areaServed": "Meadows, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Meadows",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Meadows",
+        "item": "https://interiara.com/meadows"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bespoke Furniture Design",
+        "item": "https://interiara.com/bespoke-furniture-design-meadows"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bespoke Furniture Design in Meadows, Dubai | Interiara",
+  description: "Expert bespoke furniture design in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "bespoke furniture design",
+    "bespoke furniture design Meadows",
+    "bespoke furniture design Meadows Dubai",
+    "professional bespoke furniture design",
+    "best bespoke furniture design",
+    "bespoke furniture design services",
+    "luxury bespoke furniture design",
+    "affordable bespoke furniture design",
+    "expert bespoke furniture design",
+    "custom bespoke furniture design",
+  ],
+  openGraph: {
+    title: "Bespoke Furniture Design in Meadows, Dubai | Interiara",
+    description: "Expert bespoke furniture design in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/bespoke-furniture-design-meadows",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bespoke-furniture-design-meadows",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bespoke Furniture Design in Meadows, Dubai | Interiara",
+    description: "Expert bespoke furniture design in Meadows, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bespoke Furniture Design Meadows, Bespoke Furniture in Design Meadows, Best bespoke furniture Design Meadows, Professional bespoke furniture Design Meadows, Luxury bespoke furniture Design Meadows, Bespoke Furniture Design Meadows Dubai, Bespoke Furniture designer Design Meadows, Bespoke Furniture company Design Meadows, Bespoke Furniture contractor Design Meadows, Affordable bespoke furniture Design Meadows, Modern bespoke furniture Design Meadows, Bespoke Furniture consultation Design Meadows, Bespoke Furniture cost Design Meadows, Bespoke Furniture price Design Meadows, Top bespoke furniture Design Meadows, Bespoke Furniture near Design Meadows, Bespoke Furniture specialists Design Meadows, Bespoke Furniture experts Design Meadows, Bespoke Furniture solutions Design Meadows, Bespoke Furniture packages Design Meadows, Bespoke Furniture quotes Design Meadows, Bespoke Furniture estimates Design Meadows, Bespoke Furniture services near me Design Meadows, Cheap Bespoke Furniture Design Meadows, Quality Bespoke Furniture Design Meadows, Trusted Bespoke Furniture Design Meadows, Bespoke Furniture transformation Design Meadows, Bespoke Furniture renovation Design Meadows, Bespoke Furniture makeover Design Meadows, Best Bespoke Furniture company Design Meadows
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BespokeFurnitureDesignMeadows() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Meadows
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Meadows
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/art-consultation-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-meadows"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Meadows</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

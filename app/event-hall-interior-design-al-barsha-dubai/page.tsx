@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Event Hall Interior Design in Al Barsha, Dubai",
+    "url": "https://interiara.com/event-hall-interior-design-al-barsha",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Barsha, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Event Hall Interior Design",
+      "areaServed": "Al Barsha, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Barsha",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Barsha",
+        "item": "https://interiara.com/al-barsha"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Event Hall Interior Design",
+        "item": "https://interiara.com/event-hall-interior-design-al-barsha"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Event Hall Interior Design in Al Barsha, Dubai | Interiara",
+  description: "Transform your space with premium event hall interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "event hall interior design",
+    "event hall interior design Al Barsha",
+    "event hall interior design Al Barsha Dubai",
+    "professional event hall interior design",
+    "best event hall interior design",
+    "event hall interior design services",
+    "luxury event hall interior design",
+    "affordable event hall interior design",
+    "expert event hall interior design",
+    "custom event hall interior design",
+  ],
+  openGraph: {
+    title: "Event Hall Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium event hall interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/event-hall-interior-design-al-barsha",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/event-hall-interior-design-al-barsha",
+  twitter: {
+    card: "summary_large_image",
+    title: "Event Hall Interior Design in Al Barsha, Dubai | Interiara",
+    description: "Transform your space with premium event hall interior design in Al Barsha. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Event Hall Interior Design Al Barsha, Event Hall Interior Design in Al Barsha, Best event hall interior design Al Barsha, Professional event hall interior design Al Barsha, Luxury event hall interior design Al Barsha, Event Hall Interior Design Al Barsha Dubai, Event Hall Interior Design designer Al Barsha, Event Hall Interior Design company Al Barsha, Event Hall Interior Design contractor Al Barsha, Affordable event hall interior design Al Barsha, Modern event hall interior design Al Barsha, Event Hall Interior Design consultation Al Barsha, Event Hall Interior Design cost Al Barsha, Event Hall Interior Design price Al Barsha, Top event hall interior design Al Barsha, Event Hall Interior Design near Al Barsha, Event Hall Interior Design specialists Al Barsha, Event Hall Interior Design experts Al Barsha, Event Hall Interior Design solutions Al Barsha, Event Hall Interior Design packages Al Barsha, Event Hall Interior Design quotes Al Barsha, Event Hall Interior Design estimates Al Barsha, Event Hall Interior Design services near me Al Barsha, Cheap Event Hall Interior Design Al Barsha, Quality Event Hall Interior Design Al Barsha, Trusted Event Hall Interior Design Al Barsha, Event Hall Interior Design transformation Al Barsha, Event Hall Interior Design renovation Al Barsha, Event Hall Interior Design makeover Al Barsha, Best Event Hall Interior Design company Al Barsha
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function EventHallInteriorDesignAlBarsha() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Barsha
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Barsha
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-barsha"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Barsha</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Arabic Style Interior Design in The Villa, Dubai",
+    "url": "https://interiara.com/arabic-style-interior-design-the-villa",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "The Villa, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Arabic Style Interior Design",
+      "areaServed": "The Villa, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "The Villa",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "The Villa",
+        "item": "https://interiara.com/the-villa"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Arabic Style Interior Design",
+        "item": "https://interiara.com/arabic-style-interior-design-the-villa"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Arabic Style Interior Design in The Villa, Dubai | Interiara",
+  description: "Transform your space with premium arabic style interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "arabic style interior design",
+    "arabic style interior design The Villa",
+    "arabic style interior design The Villa Dubai",
+    "professional arabic style interior design",
+    "best arabic style interior design",
+    "arabic style interior design services",
+    "luxury arabic style interior design",
+    "affordable arabic style interior design",
+    "expert arabic style interior design",
+    "custom arabic style interior design",
+  ],
+  openGraph: {
+    title: "Arabic Style Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/arabic-style-interior-design-the-villa",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/arabic-style-interior-design-the-villa",
+  twitter: {
+    card: "summary_large_image",
+    title: "Arabic Style Interior Design in The Villa, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in The Villa. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Arabic Style Interior Design The Villa, Arabic Style Interior Design in The Villa, Best arabic style interior design The Villa, Professional arabic style interior design The Villa, Luxury arabic style interior design The Villa, Arabic Style Interior Design The Villa Dubai, Arabic Style Interior Design designer The Villa, Arabic Style Interior Design company The Villa, Arabic Style Interior Design contractor The Villa, Affordable arabic style interior design The Villa, Modern arabic style interior design The Villa, Arabic Style Interior Design consultation The Villa, Arabic Style Interior Design cost The Villa, Arabic Style Interior Design price The Villa, Top arabic style interior design The Villa, Arabic Style Interior Design near The Villa, Arabic Style Interior Design specialists The Villa, Arabic Style Interior Design experts The Villa, Arabic Style Interior Design solutions The Villa, Arabic Style Interior Design packages The Villa, Arabic Style Interior Design quotes The Villa, Arabic Style Interior Design estimates The Villa, Arabic Style Interior Design services near me The Villa, Cheap Arabic Style Interior Design The Villa, Quality Arabic Style Interior Design The Villa, Trusted Arabic Style Interior Design The Villa, Arabic Style Interior Design transformation The Villa, Arabic Style Interior Design renovation The Villa, Arabic Style Interior Design makeover The Villa, Best Arabic Style Interior Design company The Villa
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ArabicStyleInteriorDesignTheVilla() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in The Villa
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in The Villa
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/art-consultation-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-the-villa"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">The Villa</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

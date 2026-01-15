@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Custom Furniture Design in Mirdif, Dubai",
+    "url": "https://interiara.com/custom-furniture-design-mirdif",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Mirdif, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Custom Furniture Design",
+      "areaServed": "Mirdif, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Mirdif",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Mirdif",
+        "item": "https://interiara.com/mirdif"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Custom Furniture Design",
+        "item": "https://interiara.com/custom-furniture-design-mirdif"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Custom Furniture Design in Mirdif, Dubai | Interiara",
+  description: "Bespoke custom furniture design in Mirdif. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+  keywords: [
+    "custom furniture design",
+    "custom furniture design Mirdif",
+    "custom furniture design Mirdif Dubai",
+    "professional custom furniture design",
+    "best custom furniture design",
+    "custom furniture design services",
+    "luxury custom furniture design",
+    "affordable custom furniture design",
+    "expert custom furniture design",
+    "custom custom furniture design",
+  ],
+  openGraph: {
+    title: "Custom Furniture Design in Mirdif, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Mirdif. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    url: "https://interiara.com/custom-furniture-design-mirdif",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/custom-furniture-design-mirdif",
+  twitter: {
+    card: "summary_large_image",
+    title: "Custom Furniture Design in Mirdif, Dubai | Interiara",
+    description: "Bespoke custom furniture design in Mirdif. Handcrafted furniture tailored to your style. Premium quality. Get quote!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Custom Furniture Design Mirdif, Custom Furniture in Design Mirdif, Best custom furniture Design Mirdif, Professional custom furniture Design Mirdif, Luxury custom furniture Design Mirdif, Custom Furniture Design Mirdif Dubai, Custom Furniture designer Design Mirdif, Custom Furniture company Design Mirdif, Custom Furniture contractor Design Mirdif, Affordable custom furniture Design Mirdif, Modern custom furniture Design Mirdif, Custom Furniture consultation Design Mirdif, Custom Furniture cost Design Mirdif, Custom Furniture price Design Mirdif, Top custom furniture Design Mirdif, Custom Furniture near Design Mirdif, Custom Furniture specialists Design Mirdif, Custom Furniture experts Design Mirdif, Custom Furniture solutions Design Mirdif, Custom Furniture packages Design Mirdif, Custom Furniture quotes Design Mirdif, Custom Furniture estimates Design Mirdif, Custom Furniture services near me Design Mirdif, Cheap Custom Furniture Design Mirdif, Quality Custom Furniture Design Mirdif, Trusted Custom Furniture Design Mirdif, Custom Furniture transformation Design Mirdif, Custom Furniture renovation Design Mirdif, Custom Furniture makeover Design Mirdif, Best Custom Furniture company Design Mirdif
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CustomFurnitureDesignMirdif() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Mirdif
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Mirdif
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/art-consultation-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-mirdif"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Mirdif</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

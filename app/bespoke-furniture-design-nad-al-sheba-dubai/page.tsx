@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Bespoke Furniture Design in Nad Al Sheba, Dubai",
+    "url": "https://interiara.com/bespoke-furniture-design-nad-al-sheba",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Nad Al Sheba, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Bespoke Furniture Design",
+      "areaServed": "Nad Al Sheba, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Nad Al Sheba",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nad Al Sheba",
+        "item": "https://interiara.com/nad-al-sheba"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bespoke Furniture Design",
+        "item": "https://interiara.com/bespoke-furniture-design-nad-al-sheba"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Bespoke Furniture Design in Nad Al Sheba, Dubai | Interiara",
+  description: "Expert bespoke furniture design in Nad Al Sheba, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "bespoke furniture design",
+    "bespoke furniture design Nad Al Sheba",
+    "bespoke furniture design Nad Al Sheba Dubai",
+    "professional bespoke furniture design",
+    "best bespoke furniture design",
+    "bespoke furniture design services",
+    "luxury bespoke furniture design",
+    "affordable bespoke furniture design",
+    "expert bespoke furniture design",
+    "custom bespoke furniture design",
+  ],
+  openGraph: {
+    title: "Bespoke Furniture Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Expert bespoke furniture design in Nad Al Sheba, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/bespoke-furniture-design-nad-al-sheba",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/bespoke-furniture-design-nad-al-sheba",
+  twitter: {
+    card: "summary_large_image",
+    title: "Bespoke Furniture Design in Nad Al Sheba, Dubai | Interiara",
+    description: "Expert bespoke furniture design in Nad Al Sheba, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Bespoke Furniture Design Nad Al Sheba, Bespoke Furniture Design Nad in Al Sheba, Best bespoke furniture design nad Al Sheba, Professional bespoke furniture design nad Al Sheba, Luxury bespoke furniture design nad Al Sheba, Bespoke Furniture Design Nad Al Sheba Dubai, Bespoke Furniture Design Nad designer Al Sheba, Bespoke Furniture Design Nad company Al Sheba, Bespoke Furniture Design Nad contractor Al Sheba, Affordable bespoke furniture design nad Al Sheba, Modern bespoke furniture design nad Al Sheba, Bespoke Furniture Design Nad consultation Al Sheba, Bespoke Furniture Design Nad cost Al Sheba, Bespoke Furniture Design Nad price Al Sheba, Top bespoke furniture design nad Al Sheba, Bespoke Furniture Design Nad near Al Sheba, Bespoke Furniture Design Nad specialists Al Sheba, Bespoke Furniture Design Nad experts Al Sheba, Bespoke Furniture Design Nad solutions Al Sheba, Bespoke Furniture Design Nad packages Al Sheba, Bespoke Furniture Design Nad quotes Al Sheba, Bespoke Furniture Design Nad estimates Al Sheba, Bespoke Furniture Design Nad services near me Al Sheba, Cheap Bespoke Furniture Design Nad Al Sheba, Quality Bespoke Furniture Design Nad Al Sheba, Trusted Bespoke Furniture Design Nad Al Sheba, Bespoke Furniture Design Nad transformation Al Sheba, Bespoke Furniture Design Nad renovation Al Sheba, Bespoke Furniture Design Nad makeover Al Sheba, Best Bespoke Furniture Design Nad company Al Sheba
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function BespokeFurnitureDesignNadAlSheba() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Nad Al Sheba
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Nad Al Sheba
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/art-consultation-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-nad-al-sheba"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Nad Al Sheba</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

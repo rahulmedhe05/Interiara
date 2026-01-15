@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Childrens Room Interior Design in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/childrens-room-interior-design-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Childrens Room Interior Design",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Childrens Room Interior Design",
+        "item": "https://interiara.com/childrens-room-interior-design-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Childrens Room Interior Design in Palm Jumeirah, Dubai | Interiara",
+  description: "Transform your space with premium childrens room interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "childrens room interior design",
+    "childrens room interior design Palm Jumeirah",
+    "childrens room interior design Palm Jumeirah Dubai",
+    "professional childrens room interior design",
+    "best childrens room interior design",
+    "childrens room interior design services",
+    "luxury childrens room interior design",
+    "affordable childrens room interior design",
+    "expert childrens room interior design",
+    "custom childrens room interior design",
+  ],
+  openGraph: {
+    title: "Childrens Room Interior Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium childrens room interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/childrens-room-interior-design-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/childrens-room-interior-design-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Childrens Room Interior Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium childrens room interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Childrens Room Interior Design Palm Jumeirah, Childrens Room Interior Design in Palm Jumeirah, Best childrens room interior design Palm Jumeirah, Professional childrens room interior design Palm Jumeirah, Luxury childrens room interior design Palm Jumeirah, Childrens Room Interior Design Palm Jumeirah Dubai, Childrens Room Interior Design designer Palm Jumeirah, Childrens Room Interior Design company Palm Jumeirah, Childrens Room Interior Design contractor Palm Jumeirah, Affordable childrens room interior design Palm Jumeirah, Modern childrens room interior design Palm Jumeirah, Childrens Room Interior Design consultation Palm Jumeirah, Childrens Room Interior Design cost Palm Jumeirah, Childrens Room Interior Design price Palm Jumeirah, Top childrens room interior design Palm Jumeirah, Childrens Room Interior Design near Palm Jumeirah, Childrens Room Interior Design specialists Palm Jumeirah, Childrens Room Interior Design experts Palm Jumeirah, Childrens Room Interior Design solutions Palm Jumeirah, Childrens Room Interior Design packages Palm Jumeirah, Childrens Room Interior Design quotes Palm Jumeirah, Childrens Room Interior Design estimates Palm Jumeirah, Childrens Room Interior Design services near me Palm Jumeirah, Cheap Childrens Room Interior Design Palm Jumeirah, Quality Childrens Room Interior Design Palm Jumeirah, Trusted Childrens Room Interior Design Palm Jumeirah, Childrens Room Interior Design transformation Palm Jumeirah, Childrens Room Interior Design renovation Palm Jumeirah, Childrens Room Interior Design makeover Palm Jumeirah, Best Childrens Room Interior Design company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ChildrensRoomInteriorDesignPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

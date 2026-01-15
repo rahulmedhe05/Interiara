@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Childrens Room Interior Design in Al Quoz, Dubai",
+    "url": "https://interiara.com/childrens-room-interior-design-al-quoz",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Quoz, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Childrens Room Interior Design",
+      "areaServed": "Al Quoz, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Quoz",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Quoz",
+        "item": "https://interiara.com/al-quoz"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Childrens Room Interior Design",
+        "item": "https://interiara.com/childrens-room-interior-design-al-quoz"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Childrens Room Interior Design in Al Quoz, Dubai | Interiara",
+  description: "Transform your space with premium childrens room interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "childrens room interior design",
+    "childrens room interior design Al Quoz",
+    "childrens room interior design Al Quoz Dubai",
+    "professional childrens room interior design",
+    "best childrens room interior design",
+    "childrens room interior design services",
+    "luxury childrens room interior design",
+    "affordable childrens room interior design",
+    "expert childrens room interior design",
+    "custom childrens room interior design",
+  ],
+  openGraph: {
+    title: "Childrens Room Interior Design in Al Quoz, Dubai | Interiara",
+    description: "Transform your space with premium childrens room interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/childrens-room-interior-design-al-quoz",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/childrens-room-interior-design-al-quoz",
+  twitter: {
+    card: "summary_large_image",
+    title: "Childrens Room Interior Design in Al Quoz, Dubai | Interiara",
+    description: "Transform your space with premium childrens room interior design in Al Quoz. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Childrens Room Interior Design Al Quoz, Childrens Room Interior Design in Al Quoz, Best childrens room interior design Al Quoz, Professional childrens room interior design Al Quoz, Luxury childrens room interior design Al Quoz, Childrens Room Interior Design Al Quoz Dubai, Childrens Room Interior Design designer Al Quoz, Childrens Room Interior Design company Al Quoz, Childrens Room Interior Design contractor Al Quoz, Affordable childrens room interior design Al Quoz, Modern childrens room interior design Al Quoz, Childrens Room Interior Design consultation Al Quoz, Childrens Room Interior Design cost Al Quoz, Childrens Room Interior Design price Al Quoz, Top childrens room interior design Al Quoz, Childrens Room Interior Design near Al Quoz, Childrens Room Interior Design specialists Al Quoz, Childrens Room Interior Design experts Al Quoz, Childrens Room Interior Design solutions Al Quoz, Childrens Room Interior Design packages Al Quoz, Childrens Room Interior Design quotes Al Quoz, Childrens Room Interior Design estimates Al Quoz, Childrens Room Interior Design services near me Al Quoz, Cheap Childrens Room Interior Design Al Quoz, Quality Childrens Room Interior Design Al Quoz, Trusted Childrens Room Interior Design Al Quoz, Childrens Room Interior Design transformation Al Quoz, Childrens Room Interior Design renovation Al Quoz, Childrens Room Interior Design makeover Al Quoz, Best Childrens Room Interior Design company Al Quoz
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ChildrensRoomInteriorDesignAlQuoz() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Quoz
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Quoz
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-quoz"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Quoz</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

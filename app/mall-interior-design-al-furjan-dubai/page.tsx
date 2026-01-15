@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Mall Interior Design in Al Furjan, Dubai",
+    "url": "https://interiara.com/mall-interior-design-al-furjan",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Furjan, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Mall Interior Design",
+      "areaServed": "Al Furjan, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Furjan",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Furjan",
+        "item": "https://interiara.com/al-furjan"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mall Interior Design",
+        "item": "https://interiara.com/mall-interior-design-al-furjan"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Mall Interior Design in Al Furjan, Dubai | Interiara",
+  description: "Transform your space with premium mall interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "mall interior design",
+    "mall interior design Al Furjan",
+    "mall interior design Al Furjan Dubai",
+    "professional mall interior design",
+    "best mall interior design",
+    "mall interior design services",
+    "luxury mall interior design",
+    "affordable mall interior design",
+    "expert mall interior design",
+    "custom mall interior design",
+  ],
+  openGraph: {
+    title: "Mall Interior Design in Al Furjan, Dubai | Interiara",
+    description: "Transform your space with premium mall interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/mall-interior-design-al-furjan",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/mall-interior-design-al-furjan",
+  twitter: {
+    card: "summary_large_image",
+    title: "Mall Interior Design in Al Furjan, Dubai | Interiara",
+    description: "Transform your space with premium mall interior design in Al Furjan. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Mall Interior Design Al Furjan, Mall Interior Design in Al Furjan, Best mall interior design Al Furjan, Professional mall interior design Al Furjan, Luxury mall interior design Al Furjan, Mall Interior Design Al Furjan Dubai, Mall Interior Design designer Al Furjan, Mall Interior Design company Al Furjan, Mall Interior Design contractor Al Furjan, Affordable mall interior design Al Furjan, Modern mall interior design Al Furjan, Mall Interior Design consultation Al Furjan, Mall Interior Design cost Al Furjan, Mall Interior Design price Al Furjan, Top mall interior design Al Furjan, Mall Interior Design near Al Furjan, Mall Interior Design specialists Al Furjan, Mall Interior Design experts Al Furjan, Mall Interior Design solutions Al Furjan, Mall Interior Design packages Al Furjan, Mall Interior Design quotes Al Furjan, Mall Interior Design estimates Al Furjan, Mall Interior Design services near me Al Furjan, Cheap Mall Interior Design Al Furjan, Quality Mall Interior Design Al Furjan, Trusted Mall Interior Design Al Furjan, Mall Interior Design transformation Al Furjan, Mall Interior Design renovation Al Furjan, Mall Interior Design makeover Al Furjan, Best Mall Interior Design company Al Furjan
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function MallInteriorDesignAlFurjan() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Furjan
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Furjan
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-furjan"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Furjan</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

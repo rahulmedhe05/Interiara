@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Space Planning in Dubai Land, Dubai",
+    "url": "https://interiara.com/space-planning-dubai-land",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Land, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Space Planning",
+      "areaServed": "Dubai Land, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Land",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Land",
+        "item": "https://interiara.com/dubai-land"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Space Planning",
+        "item": "https://interiara.com/space-planning-dubai-land"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Space Planning in Dubai Land, Dubai | Interiara",
+  description: "Expert space planning in Dubai Land, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "space planning",
+    "space planning Dubai Land",
+    "space planning Dubai Land Dubai",
+    "professional space planning",
+    "best space planning",
+    "space planning services",
+    "luxury space planning",
+    "affordable space planning",
+    "expert space planning",
+    "custom space planning",
+  ],
+  openGraph: {
+    title: "Space Planning in Dubai Land, Dubai | Interiara",
+    description: "Expert space planning in Dubai Land, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/space-planning-dubai-land",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/space-planning-dubai-land",
+  twitter: {
+    card: "summary_large_image",
+    title: "Space Planning in Dubai Land, Dubai | Interiara",
+    description: "Expert space planning in Dubai Land, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Space Planning Dubai Land, Space Planning in Dubai Land, Best space planning Dubai Land, Professional space planning Dubai Land, Luxury space planning Dubai Land, Space Planning Dubai Land Dubai, Space Planning designer Dubai Land, Space Planning company Dubai Land, Space Planning contractor Dubai Land, Affordable space planning Dubai Land, Modern space planning Dubai Land, Space Planning consultation Dubai Land, Space Planning cost Dubai Land, Space Planning price Dubai Land, Top space planning Dubai Land, Space Planning near Dubai Land, Space Planning specialists Dubai Land, Space Planning experts Dubai Land, Space Planning solutions Dubai Land, Space Planning packages Dubai Land, Space Planning quotes Dubai Land, Space Planning estimates Dubai Land, Space Planning services near me Dubai Land, Cheap Space Planning Dubai Land, Quality Space Planning Dubai Land, Trusted Space Planning Dubai Land, Space Planning transformation Dubai Land, Space Planning renovation Dubai Land, Space Planning makeover Dubai Land, Best Space Planning company Dubai Land
 
 const serviceFeatures = [
@@ -364,6 +459,23 @@ export default function SpacePlanningDubaiLand() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Land
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Land
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

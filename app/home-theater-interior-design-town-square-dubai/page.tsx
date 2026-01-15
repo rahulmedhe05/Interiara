@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Theater Interior Design in Town Square, Dubai",
+    "url": "https://interiara.com/home-theater-interior-design-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Theater Interior Design",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Theater Interior Design",
+        "item": "https://interiara.com/home-theater-interior-design-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Theater Interior Design in Town Square, Dubai | Interiara",
+  description: "Transform your space with premium home theater interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "home theater interior design",
+    "home theater interior design Town Square",
+    "home theater interior design Town Square Dubai",
+    "professional home theater interior design",
+    "best home theater interior design",
+    "home theater interior design services",
+    "luxury home theater interior design",
+    "affordable home theater interior design",
+    "expert home theater interior design",
+    "custom home theater interior design",
+  ],
+  openGraph: {
+    title: "Home Theater Interior Design in Town Square, Dubai | Interiara",
+    description: "Transform your space with premium home theater interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/home-theater-interior-design-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-theater-interior-design-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Theater Interior Design in Town Square, Dubai | Interiara",
+    description: "Transform your space with premium home theater interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Theater Interior Design Town Square, Home Theater Interior Design in Town Square, Best home theater interior design Town Square, Professional home theater interior design Town Square, Luxury home theater interior design Town Square, Home Theater Interior Design Town Square Dubai, Home Theater Interior Design designer Town Square, Home Theater Interior Design company Town Square, Home Theater Interior Design contractor Town Square, Affordable home theater interior design Town Square, Modern home theater interior design Town Square, Home Theater Interior Design consultation Town Square, Home Theater Interior Design cost Town Square, Home Theater Interior Design price Town Square, Top home theater interior design Town Square, Home Theater Interior Design near Town Square, Home Theater Interior Design specialists Town Square, Home Theater Interior Design experts Town Square, Home Theater Interior Design solutions Town Square, Home Theater Interior Design packages Town Square, Home Theater Interior Design quotes Town Square, Home Theater Interior Design estimates Town Square, Home Theater Interior Design services near me Town Square, Cheap Home Theater Interior Design Town Square, Quality Home Theater Interior Design Town Square, Trusted Home Theater Interior Design Town Square, Home Theater Interior Design transformation Town Square, Home Theater Interior Design renovation Town Square, Home Theater Interior Design makeover Town Square, Best Home Theater Interior Design company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeTheaterInteriorDesignTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Corporate Office Interior Design in Springs, Dubai",
+    "url": "https://interiara.com/corporate-office-interior-design-springs",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Springs, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Corporate Office Interior Design",
+      "areaServed": "Springs, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Springs",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Springs",
+        "item": "https://interiara.com/springs"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Corporate Office Interior Design",
+        "item": "https://interiara.com/corporate-office-interior-design-springs"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Corporate Office Interior Design in Springs, Dubai | Interiara",
+  description: "Transform your space with premium corporate office interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "corporate office interior design",
+    "corporate office interior design Springs",
+    "corporate office interior design Springs Dubai",
+    "professional corporate office interior design",
+    "best corporate office interior design",
+    "corporate office interior design services",
+    "luxury corporate office interior design",
+    "affordable corporate office interior design",
+    "expert corporate office interior design",
+    "custom corporate office interior design",
+  ],
+  openGraph: {
+    title: "Corporate Office Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium corporate office interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/corporate-office-interior-design-springs",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/corporate-office-interior-design-springs",
+  twitter: {
+    card: "summary_large_image",
+    title: "Corporate Office Interior Design in Springs, Dubai | Interiara",
+    description: "Transform your space with premium corporate office interior design in Springs. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Corporate Office Interior Design Springs, Corporate Office Interior in Design Springs, Best corporate office interior Design Springs, Professional corporate office interior Design Springs, Luxury corporate office interior Design Springs, Corporate Office Interior Design Springs Dubai, Corporate Office Interior designer Design Springs, Corporate Office Interior company Design Springs, Corporate Office Interior contractor Design Springs, Affordable corporate office interior Design Springs, Modern corporate office interior Design Springs, Corporate Office Interior consultation Design Springs, Corporate Office Interior cost Design Springs, Corporate Office Interior price Design Springs, Top corporate office interior Design Springs, Corporate Office Interior near Design Springs, Corporate Office Interior specialists Design Springs, Corporate Office Interior experts Design Springs, Corporate Office Interior solutions Design Springs, Corporate Office Interior packages Design Springs, Corporate Office Interior quotes Design Springs, Corporate Office Interior estimates Design Springs, Corporate Office Interior services near me Design Springs, Cheap Corporate Office Interior Design Springs, Quality Corporate Office Interior Design Springs, Trusted Corporate Office Interior Design Springs, Corporate Office Interior transformation Design Springs, Corporate Office Interior renovation Design Springs, Corporate Office Interior makeover Design Springs, Best Corporate Office Interior company Design Springs
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function CorporateOfficeInteriorDesignSprings() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Springs
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Springs
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/art-consultation-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-springs"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Springs</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Renovation in Dubai Festival City, Dubai",
+    "url": "https://interiara.com/home-renovation-dubai-festival-city",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Festival City, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Renovation",
+      "areaServed": "Dubai Festival City, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Festival City",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Festival City",
+        "item": "https://interiara.com/dubai-festival-city"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Renovation",
+        "item": "https://interiara.com/home-renovation-dubai-festival-city"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Renovation in Dubai Festival City, Dubai | Interiara",
+  description: "Expert home renovation in Dubai Festival City, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+  keywords: [
+    "home renovation",
+    "home renovation Dubai Festival City",
+    "home renovation Dubai Festival City Dubai",
+    "professional home renovation",
+    "best home renovation",
+    "home renovation services",
+    "luxury home renovation",
+    "affordable home renovation",
+    "expert home renovation",
+    "custom home renovation",
+  ],
+  openGraph: {
+    title: "Home Renovation in Dubai Festival City, Dubai | Interiara",
+    description: "Expert home renovation in Dubai Festival City, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    url: "https://interiara.com/home-renovation-dubai-festival-city",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-renovation-dubai-festival-city",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Renovation in Dubai Festival City, Dubai | Interiara",
+    description: "Expert home renovation in Dubai Festival City, Dubai. Premium design & professional execution. 300+ projects completed. Book your free consultation!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Renovation Dubai Festival City, Home Renovation Dubai in Festival City, Best home renovation dubai Festival City, Professional home renovation dubai Festival City, Luxury home renovation dubai Festival City, Home Renovation Dubai Festival City Dubai, Home Renovation Dubai designer Festival City, Home Renovation Dubai company Festival City, Home Renovation Dubai contractor Festival City, Affordable home renovation dubai Festival City, Modern home renovation dubai Festival City, Home Renovation Dubai consultation Festival City, Home Renovation Dubai cost Festival City, Home Renovation Dubai price Festival City, Top home renovation dubai Festival City, Home Renovation Dubai near Festival City, Home Renovation Dubai specialists Festival City, Home Renovation Dubai experts Festival City, Home Renovation Dubai solutions Festival City, Home Renovation Dubai packages Festival City, Home Renovation Dubai quotes Festival City, Home Renovation Dubai estimates Festival City, Home Renovation Dubai services near me Festival City, Cheap Home Renovation Dubai Festival City, Quality Home Renovation Dubai Festival City, Trusted Home Renovation Dubai Festival City, Home Renovation Dubai transformation Festival City, Home Renovation Dubai renovation Festival City, Home Renovation Dubai makeover Festival City, Best Home Renovation Dubai company Festival City
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function HomeRenovationDubaiFestivalCity() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Festival City
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Festival City
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-festival-city"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Festival City</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

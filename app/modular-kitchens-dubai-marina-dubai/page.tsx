@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Modular Kitchens in Dubai Marina, Dubai",
+    "url": "https://interiara.com/modular-kitchens-dubai-marina",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Marina, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Modular Kitchens",
+      "areaServed": "Dubai Marina, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Marina",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Marina",
+        "item": "https://interiara.com/dubai-marina"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Modular Kitchens",
+        "item": "https://interiara.com/modular-kitchens-dubai-marina"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Modular Kitchens in Dubai Marina, Dubai | Interiara",
+  description: "Premium modular kitchens in Dubai Marina. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+  keywords: [
+    "modular kitchens",
+    "modular kitchens Dubai Marina",
+    "modular kitchens Dubai Marina Dubai",
+    "professional modular kitchens",
+    "best modular kitchens",
+    "modular kitchens services",
+    "luxury modular kitchens",
+    "affordable modular kitchens",
+    "expert modular kitchens",
+    "custom modular kitchens",
+  ],
+  openGraph: {
+    title: "Modular Kitchens in Dubai Marina, Dubai | Interiara",
+    description: "Premium modular kitchens in Dubai Marina. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    url: "https://interiara.com/modular-kitchens-dubai-marina",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/modular-kitchens-dubai-marina",
+  twitter: {
+    card: "summary_large_image",
+    title: "Modular Kitchens in Dubai Marina, Dubai | Interiara",
+    description: "Premium modular kitchens in Dubai Marina. Innovative designs with quality materials. Space-efficient solutions. Quote today!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Modular Kitchens Dubai Marina, Modular Kitchens in Dubai Marina, Best modular kitchens Dubai Marina, Professional modular kitchens Dubai Marina, Luxury modular kitchens Dubai Marina, Modular Kitchens Dubai Marina Dubai, Modular Kitchens designer Dubai Marina, Modular Kitchens company Dubai Marina, Modular Kitchens contractor Dubai Marina, Affordable modular kitchens Dubai Marina, Modern modular kitchens Dubai Marina, Modular Kitchens consultation Dubai Marina, Modular Kitchens cost Dubai Marina, Modular Kitchens price Dubai Marina, Top modular kitchens Dubai Marina, Modular Kitchens near Dubai Marina, Modular Kitchens specialists Dubai Marina, Modular Kitchens experts Dubai Marina, Modular Kitchens solutions Dubai Marina, Modular Kitchens packages Dubai Marina, Modular Kitchens quotes Dubai Marina, Modular Kitchens estimates Dubai Marina, Modular Kitchens services near me Dubai Marina, Cheap Modular Kitchens Dubai Marina, Quality Modular Kitchens Dubai Marina, Trusted Modular Kitchens Dubai Marina, Modular Kitchens transformation Dubai Marina, Modular Kitchens renovation Dubai Marina, Modular Kitchens makeover Dubai Marina, Best Modular Kitchens company Dubai Marina
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function ModularKitchensDubaiMarina() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Marina
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Marina
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/home-renovation-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-marina"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Marina</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

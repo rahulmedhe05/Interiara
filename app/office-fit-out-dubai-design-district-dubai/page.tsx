@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Office Fit Out in Dubai Design District, Dubai",
+    "url": "https://interiara.com/office-fit-out-dubai-design-district",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Dubai Design District, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Office Fit Out",
+      "areaServed": "Dubai Design District, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai Design District",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dubai Design District",
+        "item": "https://interiara.com/dubai-design-district"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Office Fit Out",
+        "item": "https://interiara.com/office-fit-out-dubai-design-district"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Office Fit Out in Dubai Design District, Dubai | Interiara",
+  description: "Complete office fit out services in Dubai Design District. Professional execution & quality assurance. Fast turnaround. Consult now!",
+  keywords: [
+    "office fit out",
+    "office fit out Dubai Design District",
+    "office fit out Dubai Design District Dubai",
+    "professional office fit out",
+    "best office fit out",
+    "office fit out services",
+    "luxury office fit out",
+    "affordable office fit out",
+    "expert office fit out",
+    "custom office fit out",
+  ],
+  openGraph: {
+    title: "Office Fit Out in Dubai Design District, Dubai | Interiara",
+    description: "Complete office fit out services in Dubai Design District. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    url: "https://interiara.com/office-fit-out-dubai-design-district",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/office-fit-out-dubai-design-district",
+  twitter: {
+    card: "summary_large_image",
+    title: "Office Fit Out in Dubai Design District, Dubai | Interiara",
+    description: "Complete office fit out services in Dubai Design District. Professional execution & quality assurance. Fast turnaround. Consult now!",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Office Fit Out Dubai Design District, Office Fit Out Dubai in Design District, Best office fit out dubai Design District, Professional office fit out dubai Design District, Luxury office fit out dubai Design District, Office Fit Out Dubai Design District Dubai, Office Fit Out Dubai designer Design District, Office Fit Out Dubai company Design District, Office Fit Out Dubai contractor Design District, Affordable office fit out dubai Design District, Modern office fit out dubai Design District, Office Fit Out Dubai consultation Design District, Office Fit Out Dubai cost Design District, Office Fit Out Dubai price Design District, Top office fit out dubai Design District, Office Fit Out Dubai near Design District, Office Fit Out Dubai specialists Design District, Office Fit Out Dubai experts Design District, Office Fit Out Dubai solutions Design District, Office Fit Out Dubai packages Design District, Office Fit Out Dubai quotes Design District, Office Fit Out Dubai estimates Design District, Office Fit Out Dubai services near me Design District, Cheap Office Fit Out Dubai Design District, Quality Office Fit Out Dubai Design District, Trusted Office Fit Out Dubai Design District, Office Fit Out Dubai transformation Design District, Office Fit Out Dubai renovation Design District, Office Fit Out Dubai makeover Design District, Best Office Fit Out Dubai company Design District
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function OfficeFitOutDubaiDesignDistrict() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Dubai Design District
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Dubai Design District
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/bathroom-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Bathroom Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/commercial-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Commercial Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/custom-furniture-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Custom Furniture Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/home-decor-consultation-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Decor Consultation</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/home-renovation-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Home Renovation</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+        <Link 
+          href="/kitchen-interior-design-design-district"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Kitchen Interior Design</p>
+          <p className="text-xs text-muted-foreground">Dubai Design District</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

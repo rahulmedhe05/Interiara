@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Home Office Interior Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/home-office-interior-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Home Office Interior Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Home Office Interior Design",
+        "item": "https://interiara.com/home-office-interior-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Home Office Interior Design in Al Wasl, Dubai | Interiara",
+  description: "Transform your space with premium home office interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "home office interior design",
+    "home office interior design Al Wasl",
+    "home office interior design Al Wasl Dubai",
+    "professional home office interior design",
+    "best home office interior design",
+    "home office interior design services",
+    "luxury home office interior design",
+    "affordable home office interior design",
+    "expert home office interior design",
+    "custom home office interior design",
+  ],
+  openGraph: {
+    title: "Home Office Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium home office interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/home-office-interior-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/home-office-interior-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Home Office Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium home office interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Home Office Interior Design Al Wasl, Home Office Interior Design in Al Wasl, Best home office interior design Al Wasl, Professional home office interior design Al Wasl, Luxury home office interior design Al Wasl, Home Office Interior Design Al Wasl Dubai, Home Office Interior Design designer Al Wasl, Home Office Interior Design company Al Wasl, Home Office Interior Design contractor Al Wasl, Affordable home office interior design Al Wasl, Modern home office interior design Al Wasl, Home Office Interior Design consultation Al Wasl, Home Office Interior Design cost Al Wasl, Home Office Interior Design price Al Wasl, Top home office interior design Al Wasl, Home Office Interior Design near Al Wasl, Home Office Interior Design specialists Al Wasl, Home Office Interior Design experts Al Wasl, Home Office Interior Design solutions Al Wasl, Home Office Interior Design packages Al Wasl, Home Office Interior Design quotes Al Wasl, Home Office Interior Design estimates Al Wasl, Home Office Interior Design services near me Al Wasl, Cheap Home Office Interior Design Al Wasl, Quality Home Office Interior Design Al Wasl, Trusted Home Office Interior Design Al Wasl, Home Office Interior Design transformation Al Wasl, Home Office Interior Design renovation Al Wasl, Home Office Interior Design makeover Al Wasl, Best Home Office Interior Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function HomeOfficeInteriorDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

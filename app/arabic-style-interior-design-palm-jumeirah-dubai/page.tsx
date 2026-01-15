@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Arabic Style Interior Design in Palm Jumeirah, Dubai",
+    "url": "https://interiara.com/arabic-style-interior-design-palm-jumeirah",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Palm Jumeirah, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Arabic Style Interior Design",
+      "areaServed": "Palm Jumeirah, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Palm Jumeirah",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Palm Jumeirah",
+        "item": "https://interiara.com/palm-jumeirah"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Arabic Style Interior Design",
+        "item": "https://interiara.com/arabic-style-interior-design-palm-jumeirah"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Arabic Style Interior Design in Palm Jumeirah, Dubai | Interiara",
+  description: "Transform your space with premium arabic style interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "arabic style interior design",
+    "arabic style interior design Palm Jumeirah",
+    "arabic style interior design Palm Jumeirah Dubai",
+    "professional arabic style interior design",
+    "best arabic style interior design",
+    "arabic style interior design services",
+    "luxury arabic style interior design",
+    "affordable arabic style interior design",
+    "expert arabic style interior design",
+    "custom arabic style interior design",
+  ],
+  openGraph: {
+    title: "Arabic Style Interior Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/arabic-style-interior-design-palm-jumeirah",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/arabic-style-interior-design-palm-jumeirah",
+  twitter: {
+    card: "summary_large_image",
+    title: "Arabic Style Interior Design in Palm Jumeirah, Dubai | Interiara",
+    description: "Transform your space with premium arabic style interior design in Palm Jumeirah. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Arabic Style Interior Design Palm Jumeirah, Arabic Style Interior Design in Palm Jumeirah, Best arabic style interior design Palm Jumeirah, Professional arabic style interior design Palm Jumeirah, Luxury arabic style interior design Palm Jumeirah, Arabic Style Interior Design Palm Jumeirah Dubai, Arabic Style Interior Design designer Palm Jumeirah, Arabic Style Interior Design company Palm Jumeirah, Arabic Style Interior Design contractor Palm Jumeirah, Affordable arabic style interior design Palm Jumeirah, Modern arabic style interior design Palm Jumeirah, Arabic Style Interior Design consultation Palm Jumeirah, Arabic Style Interior Design cost Palm Jumeirah, Arabic Style Interior Design price Palm Jumeirah, Top arabic style interior design Palm Jumeirah, Arabic Style Interior Design near Palm Jumeirah, Arabic Style Interior Design specialists Palm Jumeirah, Arabic Style Interior Design experts Palm Jumeirah, Arabic Style Interior Design solutions Palm Jumeirah, Arabic Style Interior Design packages Palm Jumeirah, Arabic Style Interior Design quotes Palm Jumeirah, Arabic Style Interior Design estimates Palm Jumeirah, Arabic Style Interior Design services near me Palm Jumeirah, Cheap Arabic Style Interior Design Palm Jumeirah, Quality Arabic Style Interior Design Palm Jumeirah, Trusted Arabic Style Interior Design Palm Jumeirah, Arabic Style Interior Design transformation Palm Jumeirah, Arabic Style Interior Design renovation Palm Jumeirah, Arabic Style Interior Design makeover Palm Jumeirah, Best Arabic Style Interior Design company Palm Jumeirah
 
 const serviceFeatures = [
@@ -364,6 +459,72 @@ export default function ArabicStyleInteriorDesignPalmJumeirah() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Palm Jumeirah
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Palm Jumeirah
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/art-consultation-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-palm-jumeirah"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Palm Jumeirah</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

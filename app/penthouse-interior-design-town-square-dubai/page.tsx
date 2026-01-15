@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Penthouse Interior Design in Town Square, Dubai",
+    "url": "https://interiara.com/penthouse-interior-design-town-square",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Town Square, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Penthouse Interior Design",
+      "areaServed": "Town Square, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Town Square",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Town Square",
+        "item": "https://interiara.com/town-square"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Penthouse Interior Design",
+        "item": "https://interiara.com/penthouse-interior-design-town-square"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Penthouse Interior Design in Town Square, Dubai | Interiara",
+  description: "Transform your space with premium penthouse interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "penthouse interior design",
+    "penthouse interior design Town Square",
+    "penthouse interior design Town Square Dubai",
+    "professional penthouse interior design",
+    "best penthouse interior design",
+    "penthouse interior design services",
+    "luxury penthouse interior design",
+    "affordable penthouse interior design",
+    "expert penthouse interior design",
+    "custom penthouse interior design",
+  ],
+  openGraph: {
+    title: "Penthouse Interior Design in Town Square, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/penthouse-interior-design-town-square",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/penthouse-interior-design-town-square",
+  twitter: {
+    card: "summary_large_image",
+    title: "Penthouse Interior Design in Town Square, Dubai | Interiara",
+    description: "Transform your space with premium penthouse interior design in Town Square. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Penthouse Interior Design Town Square, Penthouse Interior Design in Town Square, Best penthouse interior design Town Square, Professional penthouse interior design Town Square, Luxury penthouse interior design Town Square, Penthouse Interior Design Town Square Dubai, Penthouse Interior Design designer Town Square, Penthouse Interior Design company Town Square, Penthouse Interior Design contractor Town Square, Affordable penthouse interior design Town Square, Modern penthouse interior design Town Square, Penthouse Interior Design consultation Town Square, Penthouse Interior Design cost Town Square, Penthouse Interior Design price Town Square, Top penthouse interior design Town Square, Penthouse Interior Design near Town Square, Penthouse Interior Design specialists Town Square, Penthouse Interior Design experts Town Square, Penthouse Interior Design solutions Town Square, Penthouse Interior Design packages Town Square, Penthouse Interior Design quotes Town Square, Penthouse Interior Design estimates Town Square, Penthouse Interior Design services near me Town Square, Cheap Penthouse Interior Design Town Square, Quality Penthouse Interior Design Town Square, Trusted Penthouse Interior Design Town Square, Penthouse Interior Design transformation Town Square, Penthouse Interior Design renovation Town Square, Penthouse Interior Design makeover Town Square, Best Penthouse Interior Design company Town Square
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function PenthouseInteriorDesignTownSquare() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Town Square
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Town Square
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/art-consultation-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-town-square"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Town Square</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

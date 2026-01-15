@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Kids Interior Design in Umm Suqeim, Dubai",
+    "url": "https://interiara.com/kids-interior-design-umm-suqeim",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Umm Suqeim, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Kids Interior Design",
+      "areaServed": "Umm Suqeim, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Umm Suqeim",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Umm Suqeim",
+        "item": "https://interiara.com/umm-suqeim"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Kids Interior Design",
+        "item": "https://interiara.com/kids-interior-design-umm-suqeim"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Kids Interior Design in Umm Suqeim, Dubai | Interiara",
+  description: "Transform your space with premium kids interior design in Umm Suqeim. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "kids interior design",
+    "kids interior design Umm Suqeim",
+    "kids interior design Umm Suqeim Dubai",
+    "professional kids interior design",
+    "best kids interior design",
+    "kids interior design services",
+    "luxury kids interior design",
+    "affordable kids interior design",
+    "expert kids interior design",
+    "custom kids interior design",
+  ],
+  openGraph: {
+    title: "Kids Interior Design in Umm Suqeim, Dubai | Interiara",
+    description: "Transform your space with premium kids interior design in Umm Suqeim. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/kids-interior-design-umm-suqeim",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/kids-interior-design-umm-suqeim",
+  twitter: {
+    card: "summary_large_image",
+    title: "Kids Interior Design in Umm Suqeim, Dubai | Interiara",
+    description: "Transform your space with premium kids interior design in Umm Suqeim. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Kids Interior Design Umm Suqeim, Kids Interior Design in Umm Suqeim, Best kids interior design Umm Suqeim, Professional kids interior design Umm Suqeim, Luxury kids interior design Umm Suqeim, Kids Interior Design Umm Suqeim Dubai, Kids Interior Design designer Umm Suqeim, Kids Interior Design company Umm Suqeim, Kids Interior Design contractor Umm Suqeim, Affordable kids interior design Umm Suqeim, Modern kids interior design Umm Suqeim, Kids Interior Design consultation Umm Suqeim, Kids Interior Design cost Umm Suqeim, Kids Interior Design price Umm Suqeim, Top kids interior design Umm Suqeim, Kids Interior Design near Umm Suqeim, Kids Interior Design specialists Umm Suqeim, Kids Interior Design experts Umm Suqeim, Kids Interior Design solutions Umm Suqeim, Kids Interior Design packages Umm Suqeim, Kids Interior Design quotes Umm Suqeim, Kids Interior Design estimates Umm Suqeim, Kids Interior Design services near me Umm Suqeim, Cheap Kids Interior Design Umm Suqeim, Quality Kids Interior Design Umm Suqeim, Trusted Kids Interior Design Umm Suqeim, Kids Interior Design transformation Umm Suqeim, Kids Interior Design renovation Umm Suqeim, Kids Interior Design makeover Umm Suqeim, Best Kids Interior Design company Umm Suqeim
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function KidsInteriorDesignUmmSuqeim() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Umm Suqeim
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Umm Suqeim
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/art-consultation-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-umm-suqeim"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Umm Suqeim</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>

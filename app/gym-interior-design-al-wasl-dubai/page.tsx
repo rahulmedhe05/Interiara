@@ -10,7 +10,102 @@ import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home,
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Interiara",
+    "description": "Gym Interior Design in Al Wasl, Dubai",
+    "url": "https://interiara.com/gym-interior-design-al-wasl",
+    "telephone": "+91 635 358 3148",
+    "email": "info@interiara.com",
+    "areaServed": "Al Wasl, Dubai",
+    "service": {{
+      "@type": "Service",
+      "name": "Gym Interior Design",
+      "areaServed": "Al Wasl, Dubai",
+      "provider": {{
+        "@type": "LocalBusiness",
+        "name": "Interiara"
+      }}
+    }},
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Al Wasl",
+      "addressRegion": "Dubai",
+      "addressCountry": "AE"
+    }},
+    "aggregateRating": {{
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "98"
+    }}
+  }})} />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{__html: JSON.stringify({{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://interiara.com"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Al Wasl",
+        "item": "https://interiara.com/al-wasl"
+      }},
+      {{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Gym Interior Design",
+        "item": "https://interiara.com/gym-interior-design-al-wasl"
+      }}
+    ]
+  }})} />
 
+export const metadata = {
+  title: "Gym Interior Design in Al Wasl, Dubai | Interiara",
+  description: "Transform your space with premium gym interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+  keywords: [
+    "gym interior design",
+    "gym interior design Al Wasl",
+    "gym interior design Al Wasl Dubai",
+    "professional gym interior design",
+    "best gym interior design",
+    "gym interior design services",
+    "luxury gym interior design",
+    "affordable gym interior design",
+    "expert gym interior design",
+    "custom gym interior design",
+  ],
+  openGraph: {
+    title: "Gym Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    url: "https://interiara.com/gym-interior-design-al-wasl",
+    siteName: "Interiara",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  canonical: "https://interiara.com/gym-interior-design-al-wasl",
+  twitter: {
+    card: "summary_large_image",
+    title: "Gym Interior Design in Al Wasl, Dubai | Interiara",
+    description: "Transform your space with premium gym interior design in Al Wasl. Award-winning designs for homes & offices. Contact us for free consultation.",
+    images: ["/og-image.jpg"],
+  },
+}
 // SEO Keywords: Gym Interior Design Al Wasl, Gym Interior Design in Al Wasl, Best gym interior design Al Wasl, Professional gym interior design Al Wasl, Luxury gym interior design Al Wasl, Gym Interior Design Al Wasl Dubai, Gym Interior Design designer Al Wasl, Gym Interior Design company Al Wasl, Gym Interior Design contractor Al Wasl, Affordable gym interior design Al Wasl, Modern gym interior design Al Wasl, Gym Interior Design consultation Al Wasl, Gym Interior Design cost Al Wasl, Gym Interior Design price Al Wasl, Top gym interior design Al Wasl, Gym Interior Design near Al Wasl, Gym Interior Design specialists Al Wasl, Gym Interior Design experts Al Wasl, Gym Interior Design solutions Al Wasl, Gym Interior Design packages Al Wasl, Gym Interior Design quotes Al Wasl, Gym Interior Design estimates Al Wasl, Gym Interior Design services near me Al Wasl, Cheap Gym Interior Design Al Wasl, Quality Gym Interior Design Al Wasl, Trusted Gym Interior Design Al Wasl, Gym Interior Design transformation Al Wasl, Gym Interior Design renovation Al Wasl, Gym Interior Design makeover Al Wasl, Best Gym Interior Design company Al Wasl
 
 const serviceFeatures = [
@@ -364,6 +459,79 @@ export default function GymInteriorDesignAlWasl() {
           </div>
         </div>
       </section>
+
+      
+{/* Related Services in this Area */}
+<section className="py-16 bg-muted/50 border-t">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold text-foreground mb-2">
+        Other Services in Al Wasl
+      </h2>
+      <p className="text-muted-foreground mb-8">
+        Explore our complete range of interior design services in Al Wasl
+      </p>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <Link 
+          href="/3d-interior-rendering-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">3D Interior Rendering</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/acoustic-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Acoustic Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/affordable-interior-solutions-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Affordable Interior Solutions</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/apartment-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Apartment Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/arabic-style-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Arabic Style Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/art-consultation-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Art Consultation</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/balcony-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Balcony Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+        <Link 
+          href="/banquet-hall-interior-design-al-wasl"
+          className="p-4 bg-card border border-border rounded-lg hover:border-primary hover:shadow-md transition-all"
+        >
+          <p className="font-semibold text-foreground hover:text-primary">Banquet Hall Interior Design</p>
+          <p className="text-xs text-muted-foreground">Al Wasl</p>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       <WhatsAppFloat />
     </main>
