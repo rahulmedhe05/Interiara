@@ -10,30 +10,6 @@ interface ServicePageFormProps {
   serviceName?: string
 }
 
-const serviceOptions = [
-  "Villa Interior Design",
-  "Apartment Design",
-  "Kitchen Design",
-  "Bedroom Design",
-  "Living Room Design",
-  "Bathroom Design",
-  "Office Design",
-  "Commercial Design",
-  "Restaurant Design",
-  "Luxury Design",
-  "Modern Design",
-  "Minimalist Design",
-  "Contemporary Design",
-  "Modular Kitchens",
-  "Custom Furniture",
-  "Lighting Design",
-  "3D Rendering",
-  "Space Planning",
-  "Wardrobe Design",
-  "Wall & Flooring",
-  "Other Service",
-]
-
 export function ServicePageForm({ serviceName = "Interior Design" }: ServicePageFormProps) {
   const [formData, setFormData] = useState({
     fullName: "",
@@ -136,18 +112,15 @@ _Sent via Interiara Website_
           <label htmlFor="serviceLookingFor" className="block text-xs font-mono text-card-foreground mb-1">
             Service Looking For <span className="text-destructive">*</span>
           </label>
-          <select
+          <Input
             id="serviceLookingFor"
+            type="text"
+            placeholder="e.g., Villa Design, Kitchen Renovation, 3D Rendering"
             value={formData.serviceLookingFor}
             onChange={(e) => setFormData({ ...formData, serviceLookingFor: e.target.value })}
             required
-            className="w-full bg-background border border-border text-foreground rounded-md px-3 py-2 text-sm"
-          >
-            <option value="">Select a Service</option>
-            {serviceOptions.map((service) => (
-              <option key={service} value={service}>{service}</option>
-            ))}
-          </select>
+            className="bg-background border-border text-foreground"
+          />
         </div>
           <select
             id="propertyType"

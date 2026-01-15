@@ -21,30 +21,6 @@ export function WhatsAppFloat() {
     city: "",
   })
 
-  const serviceOptions = [
-    "Villa Interior Design",
-    "Apartment Design",
-    "Kitchen Design",
-    "Bedroom Design",
-    "Living Room Design",
-    "Bathroom Design",
-    "Office Design",
-    "Commercial Design",
-    "Restaurant Design",
-    "Luxury Design",
-    "Modern Design",
-    "Minimalist Design",
-    "Contemporary Design",
-    "Modular Kitchens",
-    "Custom Furniture",
-    "Lighting Design",
-    "3D Rendering",
-    "Space Planning",
-    "Wardrobe Design",
-    "Wall & Flooring",
-    "Other Service",
-  ]
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
@@ -150,18 +126,15 @@ _Sent via Interiara Website_
               <Label htmlFor="serviceLookingFor" className="font-mono">
                 3. Service Looking For <span className="text-destructive">*</span>
               </Label>
-              <select
+              <Input
                 id="serviceLookingFor"
+                type="text"
+                placeholder="e.g., Villa Design, Kitchen Renovation, 3D Rendering"
                 value={formData.serviceLookingFor}
                 onChange={(e) => setFormData({ ...formData, serviceLookingFor: e.target.value })}
                 required
-                className="w-full bg-white border border-gray-300 text-foreground rounded-md px-3 py-2 text-sm font-mono"
-              >
-                <option value="">Select a Service</option>
-                {serviceOptions.map((service) => (
-                  <option key={service} value={service}>{service}</option>
-                ))}
-              </select>
+                className="font-mono"
+              />
             </div>
 
             <div className="space-y-2">
