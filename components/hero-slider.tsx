@@ -38,7 +38,6 @@ export function HeroSlider() {
     phoneNumber: "",
     serviceLookingFor: "",
     propertyType: "",
-    budget: "",
     city: "",
   })
 
@@ -51,7 +50,6 @@ export function HeroSlider() {
       phoneNumber: formData.phoneNumber,
       serviceLookingFor: formData.serviceLookingFor,
       propertyType: formData.propertyType,
-      budget: formData.budget,
       city: formData.city,
     })
 
@@ -63,7 +61,6 @@ export function HeroSlider() {
 *Service Looking For:* ${formData.serviceLookingFor || 'Not specified'}
 *Property Type:* ${formData.propertyType}
 *City:* ${formData.city}
-*Budget:* ${formData.budget || 'Not specified'}
 
 ---
 _Sent via Interiara Website_
@@ -222,19 +219,7 @@ _Sent via Interiara Website_
                       />
                     </div>
 
-                    <div>
-                      <label htmlFor="budget" className="block text-xs font-mono text-card-foreground mb-1">
-                        6. Budget (Optional)
-                      </label>
-                      <Input
-                        id="budget"
-                        type="text"
-                        placeholder="Enter your budget"
-                        value={formData.budget}
-                        onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                        className="bg-background border-border text-foreground text-sm h-10"
-                      />
-                    </div>
+
 
                     <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 text-white text-sm h-10 mt-2">
                       <MessageCircle className="w-4 h-4 mr-2" />

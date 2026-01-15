@@ -17,7 +17,6 @@ export function ServicePageForm({ serviceName = "Interior Design" }: ServicePage
     serviceLookingFor: "",
     serviceInterested: "",
     propertyType: "",
-    budget: "",
     city: "",
   })
 
@@ -31,7 +30,6 @@ export function ServicePageForm({ serviceName = "Interior Design" }: ServicePage
       serviceLookingFor: formData.serviceLookingFor,
       serviceInterested: formData.serviceInterested,
       propertyType: formData.propertyType,
-      budget: formData.budget,
       city: formData.city,
     })
 
@@ -44,7 +42,6 @@ export function ServicePageForm({ serviceName = "Interior Design" }: ServicePage
 *Service Interested:* ${formData.serviceInterested || 'Not specified'}
 *Property Type:* ${formData.propertyType}
 *City:* ${formData.city}
-*Budget:* ${formData.budget || 'Not specified'}
 
 ---
 _Sent via Interiara Website_
@@ -61,7 +58,6 @@ _Sent via Interiara Website_
       serviceLookingFor: "",
       serviceInterested: "",
       propertyType: "",
-      budget: "",
       city: "",
     })
   }
@@ -165,19 +161,7 @@ _Sent via Interiara Website_
           />
         </div>
 
-        <div>
-          <label htmlFor="budget" className="block text-xs font-mono text-card-foreground mb-1">
-            Budget (Optional)
-          </label>
-          <Input
-            id="budget"
-            type="text"
-            placeholder="e.g., 50,000 - 100,000 AED"
-            value={formData.budget}
-            onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-            className="bg-background border-border text-foreground"
-          />
-        </div>
+
 
         <Button type="submit" className="w-full bg-primary hover:bg-accent text-white font-semibold">
           <MessageCircle className="w-4 h-4 mr-2" />

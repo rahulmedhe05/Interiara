@@ -17,7 +17,6 @@ export function WhatsAppFloat() {
     phoneNumber: "",
     serviceLookingFor: "",
     propertyType: "",
-    budget: "",
     city: "",
   })
 
@@ -30,7 +29,6 @@ export function WhatsAppFloat() {
       phoneNumber: formData.phoneNumber,
       serviceLookingFor: formData.serviceLookingFor,
       propertyType: formData.propertyType,
-      budget: formData.budget,
       city: formData.city,
     })
 
@@ -43,7 +41,6 @@ export function WhatsAppFloat() {
 *Service Looking For:* ${formData.serviceLookingFor || 'Not specified'}
 *Property Type:* ${formData.propertyType}
 *City:* ${formData.city}
-*Budget:* ${formData.budget || 'Not specified'}
 
 ---
 _Sent via Interiara Website_
@@ -62,7 +59,6 @@ _Sent via Interiara Website_
       phoneNumber: "",
       serviceLookingFor: "",
       propertyType: "",
-      budget: "",
       city: "",
     })
     setIsOpen(false)
@@ -177,18 +173,7 @@ _Sent via Interiara Website_
               />
             </div>
 
-            <div className="space-y-2">
-              <Label htmlFor="budget" className="font-mono">
-                6. Budget (Optional)
-              </Label>
-              <Input
-                id="budget"
-                placeholder="e.g., 50,000 AED, 100,000-200,000 AED"
-                value={formData.budget}
-                onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                className="font-mono"
-              />
-            </div>
+
 
             <Button type="submit" className="w-full bg-[#25D366] hover:bg-[#20BA5A] text-white font-mono text-base">
               <svg viewBox="0 0 24 24" className="h-5 w-5 mr-2 fill-white" xmlns="http://www.w3.org/2000/svg">
