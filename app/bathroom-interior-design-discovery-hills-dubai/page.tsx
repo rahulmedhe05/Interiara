@@ -71,7 +71,7 @@ export default function ServicePage() {
     <main className="min-h-screen bg-background">
       <Navigation darkLogo hideMenu />
       
-      {"/* Hero Section */}
+      {/* Hero Section */}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
@@ -81,13 +81,13 @@ export default function ServicePage() {
                 Bathroom Interior Design in <span className="text-primary">Discovery Hills</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {`Transform your Discovery Hills home into your dream living space with expert bathroom interior design services. 
+                {Transform your Discovery Hills home into your dream living space with expert bathroom interior design services. 
 
 At Interiara, we specialize in Bathroom Interior Design Discovery Hills with 15+ years of experience creating over 300 exceptional projects. Our team understands what Bathroom Interior Design Discovery Hills Dubai means for Discovery Hills homeowners—it's about creating spaces that are both beautiful and functional.
 
 Whether you're seeking best Bathroom Interior Design in Discovery Hills, modern updates, or complete transformations, our bathroom interior design expertise delivers results. We provide the best professional Bathroom Interior Design Discovery Hills in Discovery Hills through thoughtful design, quality materials, and professional execution.
 
-Every bathroom interior design project in Discovery Hills receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.`}
+Every bathroom interior design project in Discovery Hills receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -126,12 +126,12 @@ Every bathroom interior design project in Discovery Hills receives personalized 
         </div>
       </section>
 
-      {"/* Benefits Section */}
+      {/* Benefits Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Key Benefits of expert Bathroom Interior Design Discovery Hills Dubai in Discovery Hills
+              {## Key Benefits of expert Bathroom Interior Design Discovery Hills Dubai in Discovery Hills
 
 Our professional bathroom interior design in Discovery Hills delivers multiple tangible benefits:
 
@@ -149,38 +149,42 @@ Our professional bathroom interior design in Discovery Hills delivers multiple t
 
 **Personalized Solutions**: Rather than generic designs, we create top Bathroom Interior Design in Discovery Hills specifically tailored to your Discovery Hills home, lifestyle, and preferences.
 
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Discovery Hills home remains current and efficient.`}
+**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Discovery Hills home remains current and efficient.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Service Features */}
+      {/* Service Features */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Bathroom Interior Design Services</h2>
           <p className="text-center text-muted-foreground mb-12">Comprehensive bathroom interior design solutions</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {serviceFeatures.map((feature) => {
-              const Icon = feature.icon
-              return (
-                <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                  <Icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                </div>
-              )
-            }))}
+            {serviceFeatures.map((feature) => (
+              <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
+                {(() => {
+                  const Icon = feature.icon
+                  return (
+                    <>
+                      <Icon className="w-12 h-12 text-primary mb-4" />
+                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
+                    </>
+                  )
+                })()}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {"/* Process Section */}
+      {/* Process Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Our Bathroom Interior Design Process - 6 Steps to Your Dream Space
+              {## Our Bathroom Interior Design Process - 6 Steps to Your Dream Space
 
 ### Step 1: Consultation & Discovery
 We begin by thoroughly understanding your vision for Bathroom Interior Design designer Discovery Hills in Discovery Hills. We discuss your needs, preferences, budget, and timeline.
@@ -198,13 +202,13 @@ Select premium materials perfectly suited for transform space with Bathroom Inte
 Expert craftsmen professionally execute your design with quality assurance throughout.
 
 ### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Discovery Hills space.`}
+Complete inspection, delivery, and handover of your beautifully transformed Discovery Hills space.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Stats */}
+      {/* Stats */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -218,7 +222,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Disc
         </div>
       </section>
 
-      {"/* Gallery */}
+      {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Discovery Hills Portfolio</h2>
@@ -244,7 +248,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Disc
         </div>
       </section>
 
-      {"/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
@@ -274,7 +278,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Disc
           <div className="mt-12">
             <div className="prose prose-invert max-w-none">
               <div className="whitespace-pre-line text-base leading-relaxed">
-                {`## Frequently Asked Questions About Bathroom Interior Design in Discovery Hills
+                {## Frequently Asked Questions About Bathroom Interior Design in Discovery Hills
 
 **Q: What makes bathroom interior design different in Discovery Hills?**
 A: Discovery Hills has unique architectural styles and lifestyle needs. Our Bathroom Interior Design Discovery Hills expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Discovery Hills.
@@ -292,14 +296,14 @@ A: Yes, we provide comprehensive warranties on all materials and craftsmanship f
 A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Discovery Hills expert Bathroom Interior Design Discovery Hills Dubai project.
 
 **Q: What makes your bathroom interior design approach special?**
-A: Our combination of Bathroom Interior Design services Discovery Hills expertise, local market knowledge, premium materials, and personalized service sets us apart in Discovery Hills.`}
+A: Our combination of Bathroom Interior Design services Discovery Hills expertise, local market knowledge, premium materials, and personalized service sets us apart in Discovery Hills.}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {"/* CTA Form */}
+      {/* CTA Form */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -309,7 +313,7 @@ A: Our combination of Bathroom Interior Design services Discovery Hills expertis
         </div>
       </section>
 
-      {"/* Final CTA */}
+      {/* Final CTA */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

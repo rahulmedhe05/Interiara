@@ -71,7 +71,7 @@ export default function ServicePage() {
     <main className="min-h-screen bg-background">
       <Navigation darkLogo hideMenu />
       
-      {"/* Hero Section */}
+      {/* Hero Section */}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
@@ -81,13 +81,13 @@ export default function ServicePage() {
                 Residential Interior Design in <span className="text-primary">Lakes</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {`Transform your Lakes home into your dream living space with expert residential interior design services. 
+                {Transform your Lakes home into your dream living space with expert residential interior design services. 
 
 At Interiara, we specialize in Residential Interior Design Lakes with 15+ years of experience creating over 300 exceptional projects. Our team understands what Residential Interior Design Lakes Dubai means for Lakes homeowners—it's about creating spaces that are both beautiful and functional.
 
 Whether you're seeking best Residential Interior Design in Lakes, modern updates, or complete transformations, our residential interior design expertise delivers results. We provide the best professional Residential Interior Design Lakes in Lakes through thoughtful design, quality materials, and professional execution.
 
-Every residential interior design project in Lakes receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.`}
+Every residential interior design project in Lakes receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -126,12 +126,12 @@ Every residential interior design project in Lakes receives personalized attenti
         </div>
       </section>
 
-      {"/* Benefits Section */}
+      {/* Benefits Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Key Benefits of expert Residential Interior Design Lakes Dubai in Lakes
+              {## Key Benefits of expert Residential Interior Design Lakes Dubai in Lakes
 
 Our professional residential interior design in Lakes delivers multiple tangible benefits:
 
@@ -149,38 +149,42 @@ Our professional residential interior design in Lakes delivers multiple tangible
 
 **Personalized Solutions**: Rather than generic designs, we create top Residential Interior Design in Lakes specifically tailored to your Lakes home, lifestyle, and preferences.
 
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Lakes home remains current and efficient.`}
+**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Lakes home remains current and efficient.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Service Features */}
+      {/* Service Features */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Residential Interior Design Services</h2>
           <p className="text-center text-muted-foreground mb-12">Comprehensive residential interior design solutions</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {serviceFeatures.map((feature) => {
-              const Icon = feature.icon
-              return (
-                <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                  <Icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                </div>
-              )
-            }))}
+            {serviceFeatures.map((feature) => (
+              <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
+                {(() => {
+                  const Icon = feature.icon
+                  return (
+                    <>
+                      <Icon className="w-12 h-12 text-primary mb-4" />
+                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
+                    </>
+                  )
+                })()}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {"/* Process Section */}
+      {/* Process Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Our Residential Interior Design Process - 6 Steps to Your Dream Space
+              {## Our Residential Interior Design Process - 6 Steps to Your Dream Space
 
 ### Step 1: Consultation & Discovery
 We begin by thoroughly understanding your vision for Residential Interior Design designer Lakes in Lakes. We discuss your needs, preferences, budget, and timeline.
@@ -198,13 +202,13 @@ Select premium materials perfectly suited for transform space with Residential I
 Expert craftsmen professionally execute your design with quality assurance throughout.
 
 ### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Lakes space.`}
+Complete inspection, delivery, and handover of your beautifully transformed Lakes space.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Stats */}
+      {/* Stats */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -218,7 +222,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Lake
         </div>
       </section>
 
-      {"/* Gallery */}
+      {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Lakes Portfolio</h2>
@@ -244,7 +248,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Lake
         </div>
       </section>
 
-      {"/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
@@ -274,7 +278,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Lake
           <div className="mt-12">
             <div className="prose prose-invert max-w-none">
               <div className="whitespace-pre-line text-base leading-relaxed">
-                {`## Frequently Asked Questions About Residential Interior Design in Lakes
+                {## Frequently Asked Questions About Residential Interior Design in Lakes
 
 **Q: What makes residential interior design different in Lakes?**
 A: Lakes has unique architectural styles and lifestyle needs. Our Residential Interior Design Lakes expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Lakes.
@@ -292,14 +296,14 @@ A: Yes, we provide comprehensive warranties on all materials and craftsmanship f
 A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Lakes expert Residential Interior Design Lakes Dubai project.
 
 **Q: What makes your residential interior design approach special?**
-A: Our combination of Residential Interior Design services Lakes expertise, local market knowledge, premium materials, and personalized service sets us apart in Lakes.`}
+A: Our combination of Residential Interior Design services Lakes expertise, local market knowledge, premium materials, and personalized service sets us apart in Lakes.}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {"/* CTA Form */}
+      {/* CTA Form */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -309,7 +313,7 @@ A: Our combination of Residential Interior Design services Lakes expertise, loca
         </div>
       </section>
 
-      {"/* Final CTA */}
+      {/* Final CTA */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

@@ -186,7 +186,7 @@ export default function ServicePage() {{
     <main className="min-h-screen bg-background">
       <Navigation darkLogo hideMenu />
       
-      {{"/* Hero Section */}}
+      {{/* Hero Section */}}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
@@ -196,7 +196,7 @@ export default function ServicePage() {{
                 {service} in <span className="text-primary">{full_location}</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {{`{intro}`}}
+                {{{intro}}}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -235,49 +235,53 @@ export default function ServicePage() {{
         </div>
       </section>
 
-      {{"/* Benefits Section */}}
+      {{/* Benefits Section */}}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {{`{benefits}`}}
+              {{{benefits}}}
             </div>
           </div>
         </div>
       </section>
 
-      {{"/* Service Features */}}
+      {{/* Service Features */}}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">{service} Services</h2>
           <p className="text-center text-muted-foreground mb-12">Comprehensive {service.lower()} solutions</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {{serviceFeatures.map((feature) => {{
-              const Icon = feature.icon
-              return (
-                <div key={{feature.title}} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                  <Icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-lg font-bold mb-2">{{feature.title}}</h3>
-                  <p className="text-muted-foreground text-sm">{{feature.desc}}</p>
-                </div>
-              )
-            }}))}}
+            {{serviceFeatures.map((feature) => (
+              <div key={{feature.title}} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
+                {{(() => {{
+                  const Icon = feature.icon
+                  return (
+                    <>
+                      <Icon className="w-12 h-12 text-primary mb-4" />
+                      <h3 className="text-lg font-bold mb-2">{{feature.title}}</h3>
+                      <p className="text-muted-foreground text-sm">{{feature.desc}}</p>
+                    </>
+                  )
+                }})()}}
+              </div>
+            ))}}
           </div>
         </div>
       </section>
 
-      {{"/* Process Section */}}
+      {{/* Process Section */}}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {{`{process}`}}
+              {{{process}}}
             </div>
           </div>
         </div>
       </section>
 
-      {{"/* Stats */}}
+      {{/* Stats */}}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -291,7 +295,7 @@ export default function ServicePage() {{
         </div>
       </section>
 
-      {{"/* Gallery */}}
+      {{/* Gallery */}}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">{full_location} Portfolio</h2>
@@ -317,7 +321,7 @@ export default function ServicePage() {{
         </div>
       </section>
 
-      {{"/* FAQ Section */}}
+      {{/* FAQ Section */}}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
@@ -347,14 +351,14 @@ export default function ServicePage() {{
           <div className="mt-12">
             <div className="prose prose-invert max-w-none">
               <div className="whitespace-pre-line text-base leading-relaxed">
-                {{`{faq}`}}
+                {{{faq}}}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {{"/* CTA Form */}}
+      {{/* CTA Form */}}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -364,7 +368,7 @@ export default function ServicePage() {{
         </div>
       </section>
 
-      {{"/* Final CTA */}}
+      {{/* Final CTA */}}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

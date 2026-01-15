@@ -71,7 +71,7 @@ export default function ServicePage() {
     <main className="min-h-screen bg-background">
       <Navigation darkLogo hideMenu />
       
-      {"/* Hero Section */}
+      {/* Hero Section */}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
@@ -81,13 +81,13 @@ export default function ServicePage() {
                 3D Interior Rendering in <span className="text-primary">Arabian Ranches</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {`Transform your Arabian Ranches home into your dream living space with expert 3d interior rendering services. 
+                {Transform your Arabian Ranches home into your dream living space with expert 3d interior rendering services. 
 
 At Interiara, we specialize in 3D Interior Rendering Arabian Ranches with 15+ years of experience creating over 300 exceptional projects. Our team understands what 3D Interior Rendering Arabian Ranches Dubai means for Arabian Ranches homeowners—it's about creating spaces that are both beautiful and functional.
 
 Whether you're seeking best 3D Interior Rendering in Arabian Ranches, modern updates, or complete transformations, our 3d interior rendering expertise delivers results. We provide the best professional 3D Interior Rendering Arabian Ranches in Arabian Ranches through thoughtful design, quality materials, and professional execution.
 
-Every 3d interior rendering project in Arabian Ranches receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.`}
+Every 3d interior rendering project in Arabian Ranches receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -126,12 +126,12 @@ Every 3d interior rendering project in Arabian Ranches receives personalized att
         </div>
       </section>
 
-      {"/* Benefits Section */}
+      {/* Benefits Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Key Benefits of expert 3D Interior Rendering Arabian Ranches Dubai in Arabian Ranches
+              {## Key Benefits of expert 3D Interior Rendering Arabian Ranches Dubai in Arabian Ranches
 
 Our professional 3d interior rendering in Arabian Ranches delivers multiple tangible benefits:
 
@@ -149,38 +149,42 @@ Our professional 3d interior rendering in Arabian Ranches delivers multiple tang
 
 **Personalized Solutions**: Rather than generic designs, we create top 3D Interior Rendering in Arabian Ranches specifically tailored to your Arabian Ranches home, lifestyle, and preferences.
 
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Arabian Ranches home remains current and efficient.`}
+**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Arabian Ranches home remains current and efficient.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Service Features */}
+      {/* Service Features */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">3D Interior Rendering Services</h2>
           <p className="text-center text-muted-foreground mb-12">Comprehensive 3d interior rendering solutions</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {serviceFeatures.map((feature) => {
-              const Icon = feature.icon
-              return (
-                <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                  <Icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                </div>
-              )
-            }))}
+            {serviceFeatures.map((feature) => (
+              <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
+                {(() => {
+                  const Icon = feature.icon
+                  return (
+                    <>
+                      <Icon className="w-12 h-12 text-primary mb-4" />
+                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
+                    </>
+                  )
+                })()}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {"/* Process Section */}
+      {/* Process Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Our 3D Interior Rendering Process - 6 Steps to Your Dream Space
+              {## Our 3D Interior Rendering Process - 6 Steps to Your Dream Space
 
 ### Step 1: Consultation & Discovery
 We begin by thoroughly understanding your vision for 3D Interior Rendering designer Arabian Ranches in Arabian Ranches. We discuss your needs, preferences, budget, and timeline.
@@ -198,13 +202,13 @@ Select premium materials perfectly suited for transform space with 3D Interior R
 Expert craftsmen professionally execute your design with quality assurance throughout.
 
 ### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Arabian Ranches space.`}
+Complete inspection, delivery, and handover of your beautifully transformed Arabian Ranches space.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Stats */}
+      {/* Stats */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -218,7 +222,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Arab
         </div>
       </section>
 
-      {"/* Gallery */}
+      {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Arabian Ranches Portfolio</h2>
@@ -244,7 +248,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Arab
         </div>
       </section>
 
-      {"/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
@@ -274,7 +278,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Arab
           <div className="mt-12">
             <div className="prose prose-invert max-w-none">
               <div className="whitespace-pre-line text-base leading-relaxed">
-                {`## Frequently Asked Questions About 3D Interior Rendering in Arabian Ranches
+                {## Frequently Asked Questions About 3D Interior Rendering in Arabian Ranches
 
 **Q: What makes 3d interior rendering different in Arabian Ranches?**
 A: Arabian Ranches has unique architectural styles and lifestyle needs. Our 3D Interior Rendering Arabian Ranches expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Arabian Ranches.
@@ -292,14 +296,14 @@ A: Yes, we provide comprehensive warranties on all materials and craftsmanship f
 A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Arabian Ranches expert 3D Interior Rendering Arabian Ranches Dubai project.
 
 **Q: What makes your 3d interior rendering approach special?**
-A: Our combination of 3D Interior Rendering services Arabian Ranches expertise, local market knowledge, premium materials, and personalized service sets us apart in Arabian Ranches.`}
+A: Our combination of 3D Interior Rendering services Arabian Ranches expertise, local market knowledge, premium materials, and personalized service sets us apart in Arabian Ranches.}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {"/* CTA Form */}
+      {/* CTA Form */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -309,7 +313,7 @@ A: Our combination of 3D Interior Rendering services Arabian Ranches expertise, 
         </div>
       </section>
 
-      {"/* Final CTA */}
+      {/* Final CTA */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

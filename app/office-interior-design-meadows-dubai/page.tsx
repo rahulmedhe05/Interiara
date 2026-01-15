@@ -71,7 +71,7 @@ export default function ServicePage() {
     <main className="min-h-screen bg-background">
       <Navigation darkLogo hideMenu />
       
-      {"/* Hero Section */}
+      {/* Hero Section */}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
@@ -81,13 +81,13 @@ export default function ServicePage() {
                 Office Interior Design in <span className="text-primary">Meadows</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {`Transform your Meadows home into your dream living space with expert office interior design services. 
+                {Transform your Meadows home into your dream living space with expert office interior design services. 
 
 At Interiara, we specialize in Office Interior Design Meadows with 15+ years of experience creating over 300 exceptional projects. Our team understands what Office Interior Design Meadows Dubai means for Meadows homeowners—it's about creating spaces that are both beautiful and functional.
 
 Whether you're seeking best Office Interior Design in Meadows, modern updates, or complete transformations, our office interior design expertise delivers results. We provide the best professional Office Interior Design Meadows in Meadows through thoughtful design, quality materials, and professional execution.
 
-Every office interior design project in Meadows receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.`}
+Every office interior design project in Meadows receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -126,12 +126,12 @@ Every office interior design project in Meadows receives personalized attention.
         </div>
       </section>
 
-      {"/* Benefits Section */}
+      {/* Benefits Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Key Benefits of expert Office Interior Design Meadows Dubai in Meadows
+              {## Key Benefits of expert Office Interior Design Meadows Dubai in Meadows
 
 Our professional office interior design in Meadows delivers multiple tangible benefits:
 
@@ -149,38 +149,42 @@ Our professional office interior design in Meadows delivers multiple tangible be
 
 **Personalized Solutions**: Rather than generic designs, we create top Office Interior Design in Meadows specifically tailored to your Meadows home, lifestyle, and preferences.
 
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Meadows home remains current and efficient.`}
+**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Meadows home remains current and efficient.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Service Features */}
+      {/* Service Features */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Office Interior Design Services</h2>
           <p className="text-center text-muted-foreground mb-12">Comprehensive office interior design solutions</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {serviceFeatures.map((feature) => {
-              const Icon = feature.icon
-              return (
-                <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                  <Icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                </div>
-              )
-            }))}
+            {serviceFeatures.map((feature) => (
+              <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
+                {(() => {
+                  const Icon = feature.icon
+                  return (
+                    <>
+                      <Icon className="w-12 h-12 text-primary mb-4" />
+                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
+                    </>
+                  )
+                })()}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {"/* Process Section */}
+      {/* Process Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Our Office Interior Design Process - 6 Steps to Your Dream Space
+              {## Our Office Interior Design Process - 6 Steps to Your Dream Space
 
 ### Step 1: Consultation & Discovery
 We begin by thoroughly understanding your vision for Office Interior Design designer Meadows in Meadows. We discuss your needs, preferences, budget, and timeline.
@@ -198,13 +202,13 @@ Select premium materials perfectly suited for transform space with Office Interi
 Expert craftsmen professionally execute your design with quality assurance throughout.
 
 ### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Meadows space.`}
+Complete inspection, delivery, and handover of your beautifully transformed Meadows space.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Stats */}
+      {/* Stats */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -218,7 +222,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Mead
         </div>
       </section>
 
-      {"/* Gallery */}
+      {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Meadows Portfolio</h2>
@@ -244,7 +248,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Mead
         </div>
       </section>
 
-      {"/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
@@ -274,7 +278,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Mead
           <div className="mt-12">
             <div className="prose prose-invert max-w-none">
               <div className="whitespace-pre-line text-base leading-relaxed">
-                {`## Frequently Asked Questions About Office Interior Design in Meadows
+                {## Frequently Asked Questions About Office Interior Design in Meadows
 
 **Q: What makes office interior design different in Meadows?**
 A: Meadows has unique architectural styles and lifestyle needs. Our Office Interior Design Meadows expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Meadows.
@@ -292,14 +296,14 @@ A: Yes, we provide comprehensive warranties on all materials and craftsmanship f
 A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Meadows expert Office Interior Design Meadows Dubai project.
 
 **Q: What makes your office interior design approach special?**
-A: Our combination of Office Interior Design services Meadows expertise, local market knowledge, premium materials, and personalized service sets us apart in Meadows.`}
+A: Our combination of Office Interior Design services Meadows expertise, local market knowledge, premium materials, and personalized service sets us apart in Meadows.}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {"/* CTA Form */}
+      {/* CTA Form */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -309,7 +313,7 @@ A: Our combination of Office Interior Design services Meadows expertise, local m
         </div>
       </section>
 
-      {"/* Final CTA */}
+      {/* Final CTA */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

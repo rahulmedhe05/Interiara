@@ -71,7 +71,7 @@ export default function ServicePage() {
     <main className="min-h-screen bg-background">
       <Navigation darkLogo hideMenu />
       
-      {"/* Hero Section */}
+      {/* Hero Section */}
       <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-primary/10 via-background to-accent/10">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-5 gap-8 lg:gap-12 items-start">
@@ -81,13 +81,13 @@ export default function ServicePage() {
                 Apartment Interior Design in <span className="text-primary">Culture Village</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {`Transform your Culture Village home into your dream living space with expert apartment interior design services. 
+                {Transform your Culture Village home into your dream living space with expert apartment interior design services. 
 
 At Interiara, we specialize in Apartment Interior Design Culture Village with 15+ years of experience creating over 300 exceptional projects. Our team understands what Apartment Interior Design Culture Village Dubai means for Culture Village homeowners—it's about creating spaces that are both beautiful and functional.
 
 Whether you're seeking best Apartment Interior Design in Culture Village, modern updates, or complete transformations, our apartment interior design expertise delivers results. We provide the best professional Apartment Interior Design Culture Village in Culture Village through thoughtful design, quality materials, and professional execution.
 
-Every apartment interior design project in Culture Village receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.`}
+Every apartment interior design project in Culture Village receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -126,12 +126,12 @@ Every apartment interior design project in Culture Village receives personalized
         </div>
       </section>
 
-      {"/* Benefits Section */}
+      {/* Benefits Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Key Benefits of expert Apartment Interior Design Culture Village Dubai in Culture Village
+              {## Key Benefits of expert Apartment Interior Design Culture Village Dubai in Culture Village
 
 Our professional apartment interior design in Culture Village delivers multiple tangible benefits:
 
@@ -149,38 +149,42 @@ Our professional apartment interior design in Culture Village delivers multiple 
 
 **Personalized Solutions**: Rather than generic designs, we create top Apartment Interior Design in Culture Village specifically tailored to your Culture Village home, lifestyle, and preferences.
 
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Culture Village home remains current and efficient.`}
+**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Culture Village home remains current and efficient.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Service Features */}
+      {/* Service Features */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Apartment Interior Design Services</h2>
           <p className="text-center text-muted-foreground mb-12">Comprehensive apartment interior design solutions</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {serviceFeatures.map((feature) => {
-              const Icon = feature.icon
-              return (
-                <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                  <Icon className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                </div>
-              )
-            }))}
+            {serviceFeatures.map((feature) => (
+              <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
+                {(() => {
+                  const Icon = feature.icon
+                  return (
+                    <>
+                      <Icon className="w-12 h-12 text-primary mb-4" />
+                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
+                    </>
+                  )
+                })()}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {"/* Process Section */}
+      {/* Process Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
             <div className="whitespace-pre-line text-base leading-relaxed">
-              {`## Our Apartment Interior Design Process - 6 Steps to Your Dream Space
+              {## Our Apartment Interior Design Process - 6 Steps to Your Dream Space
 
 ### Step 1: Consultation & Discovery
 We begin by thoroughly understanding your vision for Apartment Interior Design designer Culture Village in Culture Village. We discuss your needs, preferences, budget, and timeline.
@@ -198,13 +202,13 @@ Select premium materials perfectly suited for transform space with Apartment Int
 Expert craftsmen professionally execute your design with quality assurance throughout.
 
 ### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Culture Village space.`}
+Complete inspection, delivery, and handover of your beautifully transformed Culture Village space.}
             </div>
           </div>
         </div>
       </section>
 
-      {"/* Stats */}
+      {/* Stats */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -218,7 +222,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Cult
         </div>
       </section>
 
-      {"/* Gallery */}
+      {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Culture Village Portfolio</h2>
@@ -244,7 +248,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Cult
         </div>
       </section>
 
-      {"/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
@@ -274,7 +278,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Cult
           <div className="mt-12">
             <div className="prose prose-invert max-w-none">
               <div className="whitespace-pre-line text-base leading-relaxed">
-                {`## Frequently Asked Questions About Apartment Interior Design in Culture Village
+                {## Frequently Asked Questions About Apartment Interior Design in Culture Village
 
 **Q: What makes apartment interior design different in Culture Village?**
 A: Culture Village has unique architectural styles and lifestyle needs. Our Apartment Interior Design Culture Village expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Culture Village.
@@ -292,14 +296,14 @@ A: Yes, we provide comprehensive warranties on all materials and craftsmanship f
 A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Culture Village expert Apartment Interior Design Culture Village Dubai project.
 
 **Q: What makes your apartment interior design approach special?**
-A: Our combination of Apartment Interior Design services Culture Village expertise, local market knowledge, premium materials, and personalized service sets us apart in Culture Village.`}
+A: Our combination of Apartment Interior Design services Culture Village expertise, local market knowledge, premium materials, and personalized service sets us apart in Culture Village.}
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {"/* CTA Form */}
+      {/* CTA Form */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
@@ -309,7 +313,7 @@ A: Our combination of Apartment Interior Design services Culture Village experti
         </div>
       </section>
 
-      {"/* Final CTA */}
+      {/* Final CTA */}
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
