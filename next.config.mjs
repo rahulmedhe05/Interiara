@@ -8,12 +8,16 @@ const nextConfig = {
   },
   experimental: {
     turbo: {
-      memoryLimit: 3000,
+      memoryLimit: 6000,
     },
   },
   swcMinify: true,
   productionBrowserSourceMaps: false,
-  staticPageGenerationTimeout: 120,
+  staticPageGenerationTimeout: 600,
+  onDemandEntries: {
+    maxInactiveAge: 60 * 1000,
+    pagesBufferLength: 5,
+  },
 }
 
 export default nextConfig
