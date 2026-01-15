@@ -36,6 +36,7 @@ export function HeroSlider() {
   const [formData, setFormData] = useState({
     fullName: "",
     phoneNumber: "",
+    serviceLookingFor: "",
     propertyType: "",
     budget: "",
     city: "",
@@ -48,6 +49,7 @@ export function HeroSlider() {
     addLead({
       fullName: formData.fullName,
       phoneNumber: formData.phoneNumber,
+      serviceLookingFor: formData.serviceLookingFor,
       propertyType: formData.propertyType,
       budget: formData.budget,
       city: formData.city,
@@ -58,6 +60,7 @@ export function HeroSlider() {
 
 *Full Name:* ${formData.fullName}
 *Phone Number:* ${formData.phoneNumber}
+*Service Looking For:* ${formData.serviceLookingFor || 'Not specified'}
 *Property Type:* ${formData.propertyType}
 *City:* ${formData.city}
 *Budget:* ${formData.budget || 'Not specified'}
@@ -164,8 +167,23 @@ _Sent via Interiara Website_
                     </div>
 
                     <div>
+                      <label htmlFor="serviceLookingFor" className="block text-xs font-mono text-card-foreground mb-1">
+                        3. Service Looking For <span className="text-destructive">*</span>
+                      </label>
+                      <Input
+                        id="serviceLookingFor"
+                        type="text"
+                        placeholder="e.g., Villa Design, Kitchen Renovation"
+                        value={formData.serviceLookingFor}
+                        onChange={(e) => setFormData({ ...formData, serviceLookingFor: e.target.value })}
+                        required
+                        className="bg-background border-border text-foreground text-sm h-10"
+                      />
+                    </div>
+
+                    <div>
                       <label htmlFor="propertyType" className="block text-xs font-mono text-card-foreground mb-1">
-                        3. Property Type <span className="text-destructive">*</span>
+                        4. Property Type <span className="text-destructive">*</span>
                       </label>
                       <select
                         id="propertyType"
@@ -191,7 +209,7 @@ _Sent via Interiara Website_
 
                     <div>
                       <label htmlFor="city" className="block text-xs font-mono text-card-foreground mb-1">
-                        4. City <span className="text-destructive">*</span>
+                        5. City <span className="text-destructive">*</span>
                       </label>
                       <Input
                         id="city"
@@ -206,7 +224,7 @@ _Sent via Interiara Website_
 
                     <div>
                       <label htmlFor="budget" className="block text-xs font-mono text-card-foreground mb-1">
-                        5. Budget (Optional)
+                        6. Budget (Optional)
                       </label>
                       <Input
                         id="budget"
