@@ -100,8 +100,8 @@ _Sent via Interiara Website_
             backgroundPosition: "center",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/50 to-primary/30 z-10" />
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-900/30 via-slate-800/20 to-slate-900/30 z-0" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-primary/30 to-primary/10 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-900/20 via-slate-800/10 to-slate-900/20 z-0" />
           <div className="absolute inset-0 z-20 overflow-y-auto">
             <div className="container mx-auto px-4 min-h-full flex items-start md:items-center pt-28 sm:pt-32 md:pt-24 pb-16">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 w-full">
