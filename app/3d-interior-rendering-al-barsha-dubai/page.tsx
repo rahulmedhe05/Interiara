@@ -1,5 +1,8 @@
 "use client"
 
+// Revalidate this page every 24 hours (ISR - Incremental Static Regeneration)
+export const revalidate = 86400
+
 import { useState } from "react"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"

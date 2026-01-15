@@ -7,3 +7,25 @@ build
 dist
 *.log
 
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Large data files (generate during build)
+keywords-all-pages.json
+keywords-all-pages.md
+
+# IDE and editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# Environment
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+*.tmp
+
