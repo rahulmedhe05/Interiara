@@ -7,9 +7,9 @@ const nextConfig = {
     unoptimized: true,
   },
   productionBrowserSourceMaps: false,
-  staticPageGenerationTimeout: 600,
+  staticPageGenerationTimeout: 1200, // Increased timeout for ISR
   onDemandEntries: {
-    maxInactiveAge: 60 * 1000,
+    maxInactiveAge: 60 * 60 * 1000, // 1 hour
     pagesBufferLength: 5,
   },
 }
