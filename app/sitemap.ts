@@ -1,6 +1,5 @@
 import { MetadataRoute } from 'next'
-import fs from 'fs'
-import path from 'path'
+import { allPageSlugs } from '@/lib/pages-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://interiara.com'
@@ -68,45 +67,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  // Read service pages from directory structure or keywords JSON
-  try {
-    const keywordsPath = path.join(process.cwd(), 'keywords-all-pages.json')
-    if (fs.existsSync(keywordsPath)) {
-      const keywordsContent = fs.readFileSync(keywordsPath, 'utf-8')
-      const keywordsData = JSON.parse(keywordsContent)
-      
-      // Add all service-location pages
-      Object.keys(keywordsData).forEach((pageKey) => {
-        // Skip if it's a city hub (already added above)
-        if (!pageKey.includes('interior-design-') || !pageKey.includes('-dubai')) {
-          entries.push({
-            url: `${baseUrl}/${pageKey}`,
-            lastModified: currentDate,
-            changeFrequency: 'monthly' as const,
-            priority: 0.7,
-          })
-        }
-      })
-    } else {
-      // Fallback: scan app directory for pages
-      const appPath = path.join(process.cwd(), 'app')
-      const dirs = fs.readdirSync(appPath)
-      
-      dirs.forEach((dir) => {
-        const fullPath = path.join(appPath, dir)
-        if (fs.statSync(fullPath).isDirectory() && !dir.startsWith('.') && dir.includes('-dubai')) {
-          entries.push({
-            url: `${baseUrl}/${dir}`,
-            lastModified: currentDate,
-            changeFrequency: 'monthly' as const,
-            priority: 0.7,
-          })
-        }
+  // Add all 2,882 service pages from centralized slug registry
+  allPageSlugs.forEach((slug) => {
+    // Skip if it's a city hub (already added above with higher priority)
+    if (!cityHubs.includes(slug)) {
+      entries.push({
+        url: `${baseUrl}/${slug}`,
+        lastModified: currentDate,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
       })
     }
-  } catch (error) {
-    console.warn('Warning: Could not load service pages for sitemap', error)
-  }
+  })
 
   return entries
 }
