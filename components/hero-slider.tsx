@@ -94,14 +94,17 @@ _Sent via Interiara Website_
           className={`absolute inset-0 transition-opacity duration-1000 ${
             index === currentSlide ? "opacity-100" : "opacity-0"
           }`}
-          style={{
-            backgroundImage: `url(${slide.image})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
         >
+          {/* Background Image */}
+          <img 
+            src={slide.image} 
+            alt={slide.title}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          {/* Overlays */}
           <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-primary/30 to-primary/10 z-10" />
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900/20 via-slate-800/10 to-slate-900/20 z-0" />
+          {/* Content */}
           <div className="absolute inset-0 z-20 overflow-y-auto">
             <div className="container mx-auto px-4 min-h-full flex items-start md:items-center pt-28 sm:pt-32 md:pt-24 pb-16">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-8 w-full">
