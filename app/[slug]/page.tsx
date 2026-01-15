@@ -13,15 +13,17 @@ export function generateStaticParams() {
 // Enable Incremental Static Regeneration - regenerate pages every hour
 export const revalidate = 3600
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  if (!params?.slug) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  
+  if (!slug) {
     return {
       title: "Service | Interiara",
       description: "Professional interior design services in Dubai.",
     }
   }
   
-  const serviceName = params.slug
+  const serviceName = slug
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ')
@@ -38,6 +40,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
-export default function DynamicServicePage({ params }: { params: { slug: string } }) {
-  return <DynamicServicePageContent slug={params.slug} />
+export default async function DynamicServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  return <DynamicServicePageContent slug={slug} />
 }
