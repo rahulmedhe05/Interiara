@@ -122,6 +122,11 @@ _Sent via Interiara Website_
             className="bg-background border-border text-foreground"
           />
         </div>
+
+        <div>
+          <label htmlFor="propertyType" className="block text-xs font-mono text-card-foreground mb-1">
+            Property Type <span className="text-destructive">*</span>
+          </label>
           <select
             id="propertyType"
             value={formData.propertyType}
