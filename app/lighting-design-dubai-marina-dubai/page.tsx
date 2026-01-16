@@ -1,7 +1,4 @@
 
-"use client"
-
-import { useState } from "react"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
@@ -10,18 +7,24 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords (15 keywords x 3 placements = 45 total occurrences)
-// Lighting Design Dubai Marina, Lighting Design Dubai Marina Dubai, best Lighting Design in Dubai Marina, professional Lighting Design Dubai Marina, expert Lighting Design Dubai Marina Dubai
-// Lighting Design services Dubai Marina, Lighting Design company Dubai Marina, Lighting Design specialist Dubai Marina, luxury Lighting Design Dubai Marina, affordable Lighting Design Dubai Marina
-// Lighting Design contractor Dubai Marina Dubai, top Lighting Design in Dubai Marina, Lighting Design designer Dubai Marina, custom Lighting Design Dubai Marina, transform space with Lighting Design Dubai Marina
+// SEO Keywords: Lighting Design Dubai Marina, Lighting Design Dubai Marina Dubai, best Lighting Design in Dubai Marina, professional Lighting Design Dubai Marina, expert Lighting Design Dubai Marina Dubai, Lighting Design services Dubai Marina, Lighting Design company Dubai Marina, Lighting Design specialist Dubai Marina
 
 const serviceFeatures = [
-  { icon: Lightbulb, title: "Expert Design", desc: "Skilled designers creating beautiful lighting design for Dubai Marina homes" },
-  { icon: Palette, title: "Color & Materials", desc: "Professional material selection ensuring perfect lighting design results" },
-  { icon: Layout, title: "Smart Planning", desc: "Strategic space planning optimizing lighting design functionality" },
-  { icon: Home, title: "Full Service", desc: "Complete lighting design management from concept to completion" },
-  { icon: Settings, title: "Tech Integration", desc: "Modern smart home solutions in lighting design design" },
-  { icon: Zap, title: "Quality Work", desc: "Professional craftsmanship ensuring exceptional lighting design results" }
+{ icon: Lightbulb, title: "Layered lighting", desc: "Layered lighting design for ambiance and functionality" },
+  { icon: Palette, title: "Energy-efficient solutions", desc: "Energy-efficient solutions reducing operational costs" },
+  { icon: Layout, title: "Smart lighting", desc: "Smart lighting integration with modern automation" },
+  { icon: Home, title: "Professional lighting", desc: "Professional lighting that enhances architecture" },
+  { icon: Settings, title: "Custom solutions", desc: "Custom solutions for residential and commercial spaces" },
+  { icon: Zap, title: "Accent lighting", desc: "Accent lighting that highlights design features" },
+]
+
+const processSteps = [
+  { step: "01", title: "Consultation", desc: "We understand your needs, vision, and requirements for your Dubai Marina project." },
+  { step: "02", title: "Design Concept", desc: "Our team creates tailored design concepts specifically for your Dubai Marina space." },
+  { step: "03", title: "3D Visualization", desc: "Experience your transformed space through photorealistic 3D renders and visualization." },
+  { step: "04", title: "Material Selection", desc: "Choose from premium materials and finishes suited for Dubai Marina climate." },
+  { step: "05", title: "Execution", desc: "Professional implementation with expert craftsmen and quality assurance." },
+  { step: "06", title: "Handover", desc: "Final inspection and delivery of your beautifully transformed Dubai Marina space." },
 ]
 
 const stats = [
@@ -33,39 +36,42 @@ const stats = [
 
 const galleryImages = [
   { src: "/dubai-interior-design-luxury.jpg", alt: "Lighting Design Dubai Marina - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Professional lighting design for Dubai Marina modern spaces" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "lighting design Dubai Marina - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Expert lighting design creating elegant Dubai Marina interiors" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "lighting design detail - Professional design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Top lighting design designers in Dubai Marina" },
-]
-
-const faqs = [
-  { question: "What makes lighting design different in Dubai Marina?", answer: "Dubai Marina has unique architectural styles. Our expertise considers local preferences, climate factors, and community standards." },
-  { question: "How long does lighting design take?", answer: "Most projects take 6-12 weeks. We establish clear timelines upfront and provide regular progress updates." },
-  { question: "What budget for lighting design?", answer: "Costs vary by scope and materials. We provide transparent quotes and work with various budgets." },
-  { question: "Do you guarantee lighting design work?", answer: "Yes, we provide comprehensive warranties on all materials and craftsmanship." },
+  { src: "/Reception-9.jpg", alt: "Lighting Design Dubai Marina - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Lighting Design Dubai Marina - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Lighting Design Dubai Marina - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Lighting Design Dubai Marina - Design detail" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Lighting Design Dubai Marina - Professional design" },
 ]
 
 export const metadata = {
-  title: "Lighting Design in Dubai Marina | Interiara Design Services",
+  title: "Lighting Design in Dubai Marina Dubai | Expert Interior Design Services",
   description: "Expert Lighting Design services in Dubai Marina, Dubai. Professional design team with 15+ years experience. Get free consultation today!",
-  keywords: "Lighting Design Dubai Marina, Lighting Design Dubai Marina Dubai, best Lighting Design in Dubai Marina, professional Lighting Design Dubai Marina, expert Lighting Design Dubai Marina Dubai, Lighting Design services Dubai Marina, Lighting Design company Dubai Marina, Lighting Design specialist Dubai Marina, luxury Lighting Design Dubai Marina, affordable Lighting Design Dubai Marina",
+  keywords: "Lighting Design Dubai Marina, Lighting Design Dubai Marina Dubai, best Lighting Design in Dubai Marina, professional Lighting Design Dubai Marina, expert Lighting Design Dubai Marina Dubai, Lighting Design services Dubai Marina, Lighting Design company Dubai Marina, Lighting Design specialist Dubai Marina",
   openGraph: {
-    title: "Lighting Design in Dubai Marina",
+    title: "Lighting Design in Dubai Marina Dubai",
     description: "Expert Lighting Design services in Dubai Marina, Dubai. Professional design team with 15+ years experience. Get free consultation today!",
     url: "https://interiara.ae/lighting-design-dubai-marina-dubai",
     type: "website",
+    images: [
+      {
+        url: "/dubai-interior-design-luxury.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Lighting Design in Dubai Marina",
+      },
+    ],
   },
   robots: "index, follow",
   canonical: "https://interiara.ae/lighting-design-dubai-marina-dubai",
 }
 
 export default function ServicePage() {
-  const [expandedFaq, setExpandedFaq] = useState(null)
-  const [showAllImages, setShowAllImages] = useState(false)
+  const whatsappNumber = "971561234567"
+  const whatsappMessage = encodeURIComponent(
+    "Hi Interiara! I'm interested in Lighting Design services in Dubai Marina. Please share more details and pricing."
+  )
   
-  const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
+  const displayedImages = galleryImages
 
   return (
     <main className="min-h-screen bg-background">
@@ -81,13 +87,7 @@ export default function ServicePage() {
                 Lighting Design in <span className="text-primary">Dubai Marina</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {Transform your Dubai Marina home into your dream living space with expert lighting design services. 
-
-At Interiara, we specialize in Lighting Design Dubai Marina with 15+ years of experience creating over 300 exceptional projects. Our team understands what Lighting Design Dubai Marina Dubai means for Dubai Marina homeowners—it's about creating spaces that are both beautiful and functional.
-
-Whether you're seeking best Lighting Design in Dubai Marina, modern updates, or complete transformations, our lighting design expertise delivers results. We provide the best professional Lighting Design Dubai Marina in Dubai Marina through thoughtful design, quality materials, and professional execution.
-
-Every lighting design project in Dubai Marina receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
+                Transform your Dubai Marina space with expert lighting design services that create perfect ambiance and functionality. We design layered lighting solutions for residential and commercial spaces. Our Dubai Marina lighting expertise creates stunning visual environments.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -101,15 +101,15 @@ Every lighting design project in Dubai Marina receives personalized attention. O
                 <ul className="space-y-3">
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">Expert lighting design design</span>
+                    <span className="text-sm">Personalized design concepts</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">15+ years experience</span>
+                    <span className="text-sm">Complete project management</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">Premium materials</span>
+                    <span className="text-sm">Premium materials & finishes</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -126,53 +126,93 @@ Every lighting design project in Dubai Marina receives personalized attention. O
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-16 md:py-24 bg-muted">
+      {/* What is Section */}
+      <section className="py-16 md:py-24 border-b bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
-            <div className="whitespace-pre-line text-base leading-relaxed">
-              {## Key Benefits of expert Lighting Design Dubai Marina Dubai in Dubai Marina
+            <p>What is Lighting Design in Dubai Marina?
 
-Our professional lighting design in Dubai Marina delivers multiple tangible benefits:
+Our lighting design services create perfect illumination for any space. We design Dubai Marina lighting solutions that enhance aesthetics while ensuring functional, energy-efficient lighting.
 
-**Enhanced Living Quality**: Professional Lighting Design services Dubai Marina transforms how you experience your home daily. Better layouts, improved lighting, and thoughtful material selections create spaces where you genuinely enjoy spending time.
+In Dubai Marina, a diverse community with unique design preferences, professional lighting design requires understanding both contemporary aesthetics and practical functionality. Whether you're designing residential spaces, commercial environments, or specialized facilities, our experts combine design excellence with local market expertise.
 
-**Property Value Appreciation**: Homes with professional Lighting Design company Dubai Marina command higher market values and rental rates. Investment in quality design pays dividends through property appreciation and enhanced appeal to future buyers.
+Key Aspects of Lighting Design:
+- Strategic space planning and layout optimization
+- Professional aesthetic consultation and color coordination
+- Quality material and finish selection
+- Lighting design for optimal functionality and ambiance
+- Furniture selection and custom piece design
+- Storage solutions and organizational systems
+- Smart home/office technology integration
+- Sustainability and eco-friendly design options
+- Budget management and cost-effective solutions
+- Timeline planning and project execution
 
-**Optimized Functionality**: Strategic planning ensures your Lighting Design specialist Dubai Marina serves your lifestyle needs perfectly. Storage solutions, traffic flow, and spatial arrangement all contribute to improved daily functionality.
+Dubai Marina residents and businesses benefit from professional lighting design that considers:
+- Local climate and environmental factors
+- Community lifestyle and preferences
+- Property type and architectural style
+- Budget constraints and financial planning
+- Timeline requirements and project scope
 
-**Aesthetic Excellence**: Curated design creates beautiful spaces that you'll love living in. Professional luxury Lighting Design Dubai Marina ensures color harmony, material coordination, and visual balance throughout your home.
-
-**Stress-Free Execution**: Our comprehensive project management handles every detail of affordable Lighting Design Dubai Marina, reducing your stress and ensuring timely, within-budget completion.
-
-**Long-Term Durability**: Quality materials and professional execution mean your Lighting Design contractor Dubai Marina Dubai investment lasts years without major renovations, protecting your investment in Dubai Marina.
-
-**Personalized Solutions**: Rather than generic designs, we create top Lighting Design in Dubai Marina specifically tailored to your Dubai Marina home, lifestyle, and preferences.
-
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Dubai Marina home remains current and efficient.}
-            </div>
+Our Dubai Marina team understands these unique factors, delivering lighting design solutions that perfectly fit your needs.</p>
           </div>
         </div>
       </section>
 
-      {/* Service Features */}
+      {/* Why Choose Section */}
       <section className="py-16 md:py-24">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="prose prose-invert max-w-none">
+            <p>Why Choose Professional Lighting Design in Dubai Marina?
+
+Dubai Marina is prestigious high-rise community with cosmopolitan lifestyle. Characterized by luxury apartments, waterfront living, urban sophistication, this community includes affluent professionals, international residents, business executives.
+
+Key Benefits of Professional Design:
+
+- Layered lighting design for ambiance and functionality
+- Energy-efficient solutions reducing operational costs
+- Smart lighting integration with modern automation
+- Professional lighting that enhances architecture
+- Custom solutions for residential and commercial spaces
+- Accent lighting that highlights design features
+
+Dubai Marina-Specific Advantages:
+
+Professional lighting design in Dubai Marina offers specific community advantages:
+
+Market Expertise: Our designers understand Dubai Marina's real estate market, property values, and investment considerations. Well-designed spaces significantly increase property value and rental appeal.
+
+Local Aesthetic Preferences: Dubai Marina residents appreciate luxury, contemporary, sophisticated design aesthetics. We create interiors that reflect community preferences while expressing individual personality.
+
+Environmental Considerations: Dubai's climate requires durable, heat-resistant materials and smart cooling solutions. Our designs incorporate climate-appropriate selections ensuring longevity and comfort.
+
+Community Lifestyle: Dubai Marina's unique lifestyle informs our design approach. We create spaces supporting affluent professionals, international residents, business executives's daily activities and preferences.
+
+Quality Standards: Dubai Marina attracts quality-conscious residents and businesses. We maintain premium standards across all projects, ensuring client satisfaction and results exceeding expectations.
+
+Tangible Results:
+
+- Increased property value and investment return
+- Enhanced comfort and functionality
+- Improved productivity (commercial spaces)
+- Premium aesthetic that reflects your style
+- Professional execution reducing stress
+- Long-term value and durability</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Features */}
+      <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Lighting Design Services</h2>
-          <p className="text-center text-muted-foreground mb-12">Comprehensive lighting design solutions</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Lighting Design Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {serviceFeatures.map((feature) => (
               <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                {(() => {
-                  const Icon = feature.icon
-                  return (
-                    <>
-                      <Icon className="w-12 h-12 text-primary mb-4" />
-                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                    </>
-                  )
-                })()}
+                <feature.icon className="w-12 h-12 text-primary mb-4" />
+                <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                <p className="text-muted-foreground text-sm">{feature.desc}</p>
               </div>
             ))}
           </div>
@@ -180,30 +220,24 @@ Our professional lighting design in Dubai Marina delivers multiple tangible bene
       </section>
 
       {/* Process Section */}
-      <section className="py-16 md:py-24 bg-muted">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="prose prose-invert max-w-none">
-            <div className="whitespace-pre-line text-base leading-relaxed">
-              {## Our Lighting Design Process - 6 Steps to Your Dream Space
-
-### Step 1: Consultation & Discovery
-We begin by thoroughly understanding your vision for Lighting Design designer Dubai Marina in Dubai Marina. We discuss your needs, preferences, budget, and timeline.
-
-### Step 2: Design Concept Development
-Our expert team creates tailored custom Lighting Design Dubai Marina concepts specifically for your Dubai Marina space and lifestyle.
-
-### Step 3: Detailed 3D Visualization
-Experience your transformation through photorealistic 3D renderings and virtual walkthroughs of your new lighting design.
-
-### Step 4: Material & Finish Selection
-Select premium materials perfectly suited for transform space with Lighting Design Dubai Marina work and Dubai Marina's climate.
-
-### Step 5: Professional Implementation
-Expert craftsmen professionally execute your design with quality assurance throughout.
-
-### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Dubai Marina space.}
-            </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12">Our Design Process</h2>
+          <div className="space-y-4">
+            {processSteps.map((item, idx) => (
+              <div
+                key={item.step}
+                className="border rounded-lg overflow-hidden p-6 bg-card hover:shadow-lg transition"
+              >
+                <div className="flex gap-4">
+                  <div className="text-2xl font-bold text-primary">{item.step}</div>
+                  <div>
+                    <h3 className="text-lg font-bold">{item.title}</h3>
+                    <p className="text-muted-foreground text-sm">{item.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -215,7 +249,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Duba
             {stats.map((stat) => (
               <div key={stat.number}>
                 <p className="text-4xl md:text-5xl font-bold mb-2">{stat.number}</p>
-                <p className="text-primary-foreground/90 text-sm">{stat.label}</p>
+                <p className="text-primary-foreground/90">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -225,91 +259,28 @@ Complete inspection, delivery, and handover of your beautifully transformed Duba
       {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Dubai Marina Portfolio</h2>
-          <p className="text-center text-muted-foreground mb-12">Beautiful lighting design projects</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Dubai Marina Portfolio</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {displayedImages.map((image, idx) => (
               <div key={idx} className="aspect-square rounded-lg overflow-hidden shadow-md">
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover hover:scale-105 transition"
+                  className="w-full h-full object-cover hover:scale-105 transition duration-300"
                 />
               </div>
             ))}
-          </div>
-          {displayedImages.length < galleryImages.length && (
-            <div className="text-center">
-              <Button onClick={() => setShowAllImages(true)} variant="outline" size="lg">
-                View More Projects
-              </Button>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-muted">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
-          <p className="text-muted-foreground mb-12">Common questions about our services</p>
-          <div className="space-y-4">
-            {faqs.map((faq, idx) => (
-              <div key={idx} className="bg-card rounded-lg border">
-                <button
-                  onClick={() => setExpandedFaq(expandedFaq === idx ? null : idx)}
-                  className="w-full p-6 flex items-center justify-between text-left hover:bg-muted/50 transition"
-                >
-                  <h3 className="font-bold">{faq.question}</h3>
-                  {expandedFaq === idx ? (
-                    <ChevronUp className="w-5 h-5 flex-shrink-0 text-primary" />
-                  ) : (
-                    <ChevronDown className="w-5 h-5 flex-shrink-0 text-primary" />
-                  )}
-                </button>
-                {expandedFaq === idx && (
-                  <div className="px-6 pb-6 border-t text-muted-foreground">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-          <div className="mt-12">
-            <div className="prose prose-invert max-w-none">
-              <div className="whitespace-pre-line text-base leading-relaxed">
-                {## Frequently Asked Questions About Lighting Design in Dubai Marina
-
-**Q: What makes lighting design different in Dubai Marina?**
-A: Dubai Marina has unique architectural styles and lifestyle needs. Our Lighting Design Dubai Marina expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Dubai Marina.
-
-**Q: How long does lighting design typically take?**
-A: Most Lighting Design Dubai Marina Dubai projects in Dubai Marina take 6-12 weeks depending on complexity. We establish clear timelines upfront and provide regular progress updates throughout your project.
-
-**Q: What budget should I plan for lighting design work?**
-A: lighting design costs vary based on project scope, materials, and timeline. We provide transparent quotes and work with various budgets. Many Dubai Marina clients find our best Lighting Design in Dubai Marina value exceptional given the quality delivered.
-
-**Q: Do you offer guarantees on your lighting design work?**
-A: Yes, we provide comprehensive warranties on all materials and craftsmanship for professional Lighting Design Dubai Marina projects. Our quality standards ensure your investment remains protected for years to come.
-
-**Q: Can you work with my existing contractor?**
-A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Dubai Marina expert Lighting Design Dubai Marina Dubai project.
-
-**Q: What makes your lighting design approach special?**
-A: Our combination of Lighting Design services Dubai Marina expertise, local market knowledge, premium materials, and personalized service sets us apart in Dubai Marina.}
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Form */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
             Get Your Free Lighting Design Consultation
           </h2>
-          <ServicePageForm service="Lighting Design" location="Dubai Marina" />
+          <ServicePageForm service="{Lighting Design}" location="{Dubai Marina}" />
         </div>
       </section>
 
@@ -317,18 +288,18 @@ A: Our combination of Lighting Design services Dubai Marina expertise, local mar
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Transform Your Dubai Marina Home Today
+            Transform Your Dubai Marina Space Today
           </h2>
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Discover how our expert lighting design services create beautiful, functional spaces.
+            Discover how our expert lighting design can create your perfect Dubai Marina environment. Schedule your free consultation now.
           </p>
           <Button size="lg" variant="secondary">
-            Book Free Consultation
+            Book Your Free Consultation
           </Button>
         </div>
       </section>
 
-      <WhatsAppFloat number="971561234567" message="Hi Interiara! I'm interested in lighting design services in Dubai Marina." />
+      <WhatsAppFloat number={whatsappNumber} message={whatsappMessage} />
       <Footer />
     </main>
   )

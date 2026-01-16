@@ -1,7 +1,4 @@
 
-"use client"
-
-import { useState } from "react"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
@@ -10,18 +7,24 @@ import { ServicePageForm } from "@/components/service-page-form"
 import { Phone, CheckCircle, Star, ArrowRight, Lightbulb, Palette, Layout, Home, Settings, Zap, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// SEO Keywords (15 keywords x 3 placements = 45 total occurrences)
-// Apartment Interior Design Al Khawaneej, Apartment Interior Design Al Khawaneej Dubai, best Apartment Interior Design in Al Khawaneej, professional Apartment Interior Design Al Khawaneej, expert Apartment Interior Design Al Khawaneej Dubai
-// Apartment Interior Design services Al Khawaneej, Apartment Interior Design company Al Khawaneej, Apartment Interior Design specialist Al Khawaneej, luxury Apartment Interior Design Al Khawaneej, affordable Apartment Interior Design Al Khawaneej
-// Apartment Interior Design contractor Al Khawaneej Dubai, top Apartment Interior Design in Al Khawaneej, Apartment Interior Design designer Al Khawaneej, custom Apartment Interior Design Al Khawaneej, transform space with Apartment Interior Design Al Khawaneej
+// SEO Keywords: Apartment Interior Design Al Khawaneej, Apartment Interior Design Al Khawaneej Dubai, best Apartment Interior Design in Al Khawaneej, professional Apartment Interior Design Al Khawaneej, expert Apartment Interior Design Al Khawaneej Dubai, Apartment Interior Design services Al Khawaneej, Apartment Interior Design company Al Khawaneej, Apartment Interior Design specialist Al Khawaneej
 
 const serviceFeatures = [
-  { icon: Lightbulb, title: "Expert Design", desc: "Skilled designers creating beautiful apartment interior design for Al Khawaneej homes" },
-  { icon: Palette, title: "Color & Materials", desc: "Professional material selection ensuring perfect apartment interior design results" },
-  { icon: Layout, title: "Smart Planning", desc: "Strategic space planning optimizing apartment interior design functionality" },
-  { icon: Home, title: "Full Service", desc: "Complete apartment interior design management from concept to completion" },
-  { icon: Settings, title: "Tech Integration", desc: "Modern smart home solutions in apartment interior design design" },
-  { icon: Zap, title: "Quality Work", desc: "Professional craftsmanship ensuring exceptional apartment interior design results" }
+{ icon: Lightbulb, title: "Personalized design", desc: "Personalized design reflecting your unique lifestyle and preferences" },
+  { icon: Palette, title: "Space optimization", desc: "Space optimization that maximizes comfort and functionality" },
+  { icon: Layout, title: "Professional color", desc: "Professional color consultation and material selection services" },
+  { icon: Home, title: "Custom furniture", desc: "Custom furniture solutions tailored to your specific space" },
+  { icon: Settings, title: "Complete project", desc: "Complete project management from concept to final completion" },
+  { icon: Zap, title: "Access to", desc: "Access to premium materials and sustainable design options" },
+]
+
+const processSteps = [
+  { step: "01", title: "Consultation", desc: "We understand your needs, vision, and requirements for your Al Khawaneej project." },
+  { step: "02", title: "Design Concept", desc: "Our team creates tailored design concepts specifically for your Al Khawaneej space." },
+  { step: "03", title: "3D Visualization", desc: "Experience your transformed space through photorealistic 3D renders and visualization." },
+  { step: "04", title: "Material Selection", desc: "Choose from premium materials and finishes suited for Al Khawaneej climate." },
+  { step: "05", title: "Execution", desc: "Professional implementation with expert craftsmen and quality assurance." },
+  { step: "06", title: "Handover", desc: "Final inspection and delivery of your beautifully transformed Al Khawaneej space." },
 ]
 
 const stats = [
@@ -33,39 +36,42 @@ const stats = [
 
 const galleryImages = [
   { src: "/dubai-interior-design-luxury.jpg", alt: "Apartment Interior Design Al Khawaneej - Luxury design" },
-  { src: "/Reception-9.jpg", alt: "Professional apartment interior design for Al Khawaneej modern spaces" },
-  { src: "/Modern-Eclectic-3-1.webp", alt: "apartment interior design Al Khawaneej - Contemporary style" },
-  { src: "/Top-Living-Room-Decor.png", alt: "Expert apartment interior design creating elegant Al Khawaneej interiors" },
-  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "apartment interior design detail - Professional design" },
-  { src: "/top-interior-designers-dubai.jpg", alt: "Top apartment interior design designers in Al Khawaneej" },
-]
-
-const faqs = [
-  { question: "What makes apartment interior design different in Al Khawaneej?", answer: "Al Khawaneej has unique architectural styles. Our expertise considers local preferences, climate factors, and community standards." },
-  { question: "How long does apartment interior design take?", answer: "Most projects take 6-12 weeks. We establish clear timelines upfront and provide regular progress updates." },
-  { question: "What budget for apartment interior design?", answer: "Costs vary by scope and materials. We provide transparent quotes and work with various budgets." },
-  { question: "Do you guarantee apartment interior design work?", answer: "Yes, we provide comprehensive warranties on all materials and craftsmanship." },
+  { src: "/Reception-9.jpg", alt: "Apartment Interior Design Al Khawaneej - Modern space" },
+  { src: "/Modern-Eclectic-3-1.webp", alt: "Apartment Interior Design Al Khawaneej - Contemporary style" },
+  { src: "/Top-Living-Room-Decor.png", alt: "Apartment Interior Design Al Khawaneej - Elegant interior" },
+  { src: "/hera-suspension-lamp-04-zoom-boca-do-lobo-1-1-1400x933.jpg", alt: "Apartment Interior Design Al Khawaneej - Design detail" },
+  { src: "/top-interior-designers-dubai.jpg", alt: "Apartment Interior Design Al Khawaneej - Professional design" },
 ]
 
 export const metadata = {
-  title: "Apartment Interior Design in Al Khawaneej | Interiara Design Services",
+  title: "Apartment Interior Design in Al Khawaneej Dubai | Expert Interior Design Services",
   description: "Expert Apartment Interior Design services in Al Khawaneej, Dubai. Professional design team with 15+ years experience. Get free consultation today!",
-  keywords: "Apartment Interior Design Al Khawaneej, Apartment Interior Design Al Khawaneej Dubai, best Apartment Interior Design in Al Khawaneej, professional Apartment Interior Design Al Khawaneej, expert Apartment Interior Design Al Khawaneej Dubai, Apartment Interior Design services Al Khawaneej, Apartment Interior Design company Al Khawaneej, Apartment Interior Design specialist Al Khawaneej, luxury Apartment Interior Design Al Khawaneej, affordable Apartment Interior Design Al Khawaneej",
+  keywords: "Apartment Interior Design Al Khawaneej, Apartment Interior Design Al Khawaneej Dubai, best Apartment Interior Design in Al Khawaneej, professional Apartment Interior Design Al Khawaneej, expert Apartment Interior Design Al Khawaneej Dubai, Apartment Interior Design services Al Khawaneej, Apartment Interior Design company Al Khawaneej, Apartment Interior Design specialist Al Khawaneej",
   openGraph: {
-    title: "Apartment Interior Design in Al Khawaneej",
+    title: "Apartment Interior Design in Al Khawaneej Dubai",
     description: "Expert Apartment Interior Design services in Al Khawaneej, Dubai. Professional design team with 15+ years experience. Get free consultation today!",
     url: "https://interiara.ae/apartment-interior-design-al-khawaneej-dubai",
     type: "website",
+    images: [
+      {
+        url: "/dubai-interior-design-luxury.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Apartment Interior Design in Al Khawaneej",
+      },
+    ],
   },
   robots: "index, follow",
   canonical: "https://interiara.ae/apartment-interior-design-al-khawaneej-dubai",
 }
 
 export default function ServicePage() {
-  const [expandedFaq, setExpandedFaq] = useState(null)
-  const [showAllImages, setShowAllImages] = useState(false)
+  const whatsappNumber = "971561234567"
+  const whatsappMessage = encodeURIComponent(
+    "Hi Interiara! I'm interested in Apartment Interior Design services in Al Khawaneej. Please share more details and pricing."
+  )
   
-  const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
+  const displayedImages = galleryImages
 
   return (
     <main className="min-h-screen bg-background">
@@ -81,13 +87,7 @@ export default function ServicePage() {
                 Apartment Interior Design in <span className="text-primary">Al Khawaneej</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
-                {Transform your Al Khawaneej home into your dream living space with expert apartment interior design services. 
-
-At Interiara, we specialize in Apartment Interior Design Al Khawaneej with 15+ years of experience creating over 300 exceptional projects. Our team understands what Apartment Interior Design Al Khawaneej Dubai means for Al Khawaneej homeowners—it's about creating spaces that are both beautiful and functional.
-
-Whether you're seeking best Apartment Interior Design in Al Khawaneej, modern updates, or complete transformations, our apartment interior design expertise delivers results. We provide the best professional Apartment Interior Design Al Khawaneej in Al Khawaneej through thoughtful design, quality materials, and professional execution.
-
-Every apartment interior design project in Al Khawaneej receives personalized attention. Our designers work closely with you to bring your vision to life, ensuring your new space perfectly reflects your lifestyle and preferences.}
+                Transform your Al Khawaneej home into your dream living space with expert residential interior design services. We create beautiful, functional homes that reflect your personal style and enhance your quality of life. At Interiara, we specialize in Al Khawaneej residential interiors with 15+ years of experience and 300+ completed projects.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -101,15 +101,15 @@ Every apartment interior design project in Al Khawaneej receives personalized at
                 <ul className="space-y-3">
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">Expert apartment interior design design</span>
+                    <span className="text-sm">Personalized design concepts</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">15+ years experience</span>
+                    <span className="text-sm">Complete project management</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm">Premium materials</span>
+                    <span className="text-sm">Premium materials & finishes</span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -126,53 +126,93 @@ Every apartment interior design project in Al Khawaneej receives personalized at
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-16 md:py-24 bg-muted">
+      {/* What is Section */}
+      <section className="py-16 md:py-24 border-b bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
-            <div className="whitespace-pre-line text-base leading-relaxed">
-              {## Key Benefits of expert Apartment Interior Design Al Khawaneej Dubai in Al Khawaneej
+            <p>What is Apartment Interior Design in Al Khawaneej?
 
-Our professional apartment interior design in Al Khawaneej delivers multiple tangible benefits:
+Our residential interior design services create personalized, functional homes that enhance daily living. From intimate apartments to spacious villas in Al Khawaneej, we design spaces that balance aesthetics with practicality.
 
-**Enhanced Living Quality**: Professional Apartment Interior Design services Al Khawaneej transforms how you experience your home daily. Better layouts, improved lighting, and thoughtful material selections create spaces where you genuinely enjoy spending time.
+In Al Khawaneej, a diverse community with unique design preferences, professional apartment interior design requires understanding both contemporary aesthetics and practical functionality. Whether you're designing residential spaces, commercial environments, or specialized facilities, our experts combine design excellence with local market expertise.
 
-**Property Value Appreciation**: Homes with professional Apartment Interior Design company Al Khawaneej command higher market values and rental rates. Investment in quality design pays dividends through property appreciation and enhanced appeal to future buyers.
+Key Aspects of Apartment Interior Design:
+- Strategic space planning and layout optimization
+- Professional aesthetic consultation and color coordination
+- Quality material and finish selection
+- Lighting design for optimal functionality and ambiance
+- Furniture selection and custom piece design
+- Storage solutions and organizational systems
+- Smart home/office technology integration
+- Sustainability and eco-friendly design options
+- Budget management and cost-effective solutions
+- Timeline planning and project execution
 
-**Optimized Functionality**: Strategic planning ensures your Apartment Interior Design specialist Al Khawaneej serves your lifestyle needs perfectly. Storage solutions, traffic flow, and spatial arrangement all contribute to improved daily functionality.
+Al Khawaneej residents and businesses benefit from professional apartment interior design that considers:
+- Local climate and environmental factors
+- Community lifestyle and preferences
+- Property type and architectural style
+- Budget constraints and financial planning
+- Timeline requirements and project scope
 
-**Aesthetic Excellence**: Curated design creates beautiful spaces that you'll love living in. Professional luxury Apartment Interior Design Al Khawaneej ensures color harmony, material coordination, and visual balance throughout your home.
-
-**Stress-Free Execution**: Our comprehensive project management handles every detail of affordable Apartment Interior Design Al Khawaneej, reducing your stress and ensuring timely, within-budget completion.
-
-**Long-Term Durability**: Quality materials and professional execution mean your Apartment Interior Design contractor Al Khawaneej Dubai investment lasts years without major renovations, protecting your investment in Al Khawaneej.
-
-**Personalized Solutions**: Rather than generic designs, we create top Apartment Interior Design in Al Khawaneej specifically tailored to your Al Khawaneej home, lifestyle, and preferences.
-
-**Future-Ready Spaces**: Our designs incorporate smart technology and sustainable options, ensuring your Al Khawaneej home remains current and efficient.}
-            </div>
+Our Al Khawaneej team understands these unique factors, delivering apartment interior design solutions that perfectly fit your needs.</p>
           </div>
         </div>
       </section>
 
-      {/* Service Features */}
+      {/* Why Choose Section */}
       <section className="py-16 md:py-24">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="prose prose-invert max-w-none">
+            <p>Why Choose Professional Apartment Interior Design in Al Khawaneej?
+
+Al Khawaneej is vibrant community in Dubai. Characterized by diverse properties and residents, this community includes established and new residents.
+
+Key Benefits of Professional Design:
+
+- Personalized design reflecting your unique lifestyle and preferences
+- Space optimization that maximizes comfort and functionality
+- Professional color consultation and material selection services
+- Custom furniture solutions tailored to your specific space
+- Complete project management from concept to final completion
+- Access to premium materials and sustainable design options
+
+Al Khawaneej-Specific Advantages:
+
+Professional apartment interior design in Al Khawaneej offers specific community advantages:
+
+Market Expertise: Our designers understand Al Khawaneej's real estate market, property values, and investment considerations. Well-designed spaces significantly increase property value and rental appeal.
+
+Local Aesthetic Preferences: Al Khawaneej residents appreciate contemporary and modern design aesthetics. We create interiors that reflect community preferences while expressing individual personality.
+
+Environmental Considerations: Dubai's climate requires durable, heat-resistant materials and smart cooling solutions. Our designs incorporate climate-appropriate selections ensuring longevity and comfort.
+
+Community Lifestyle: Al Khawaneej's unique lifestyle informs our design approach. We create spaces supporting established and new residents's daily activities and preferences.
+
+Quality Standards: Al Khawaneej attracts quality-conscious residents and businesses. We maintain premium standards across all projects, ensuring client satisfaction and results exceeding expectations.
+
+Tangible Results:
+
+- Increased property value and investment return
+- Enhanced comfort and functionality
+- Improved productivity (commercial spaces)
+- Premium aesthetic that reflects your style
+- Professional execution reducing stress
+- Long-term value and durability</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Features */}
+      <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Apartment Interior Design Services</h2>
-          <p className="text-center text-muted-foreground mb-12">Comprehensive apartment interior design solutions</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Apartment Interior Design Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {serviceFeatures.map((feature) => (
               <div key={feature.title} className="bg-card p-6 rounded-lg border hover:shadow-lg transition-all">
-                {(() => {
-                  const Icon = feature.icon
-                  return (
-                    <>
-                      <Icon className="w-12 h-12 text-primary mb-4" />
-                      <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
-                      <p className="text-muted-foreground text-sm">{feature.desc}</p>
-                    </>
-                  )
-                })()}
+                <feature.icon className="w-12 h-12 text-primary mb-4" />
+                <h3 className="text-lg font-bold mb-2">{feature.title}</h3>
+                <p className="text-muted-foreground text-sm">{feature.desc}</p>
               </div>
             ))}
           </div>
@@ -180,30 +220,24 @@ Our professional apartment interior design in Al Khawaneej delivers multiple tan
       </section>
 
       {/* Process Section */}
-      <section className="py-16 md:py-24 bg-muted">
+      <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="prose prose-invert max-w-none">
-            <div className="whitespace-pre-line text-base leading-relaxed">
-              {## Our Apartment Interior Design Process - 6 Steps to Your Dream Space
-
-### Step 1: Consultation & Discovery
-We begin by thoroughly understanding your vision for Apartment Interior Design designer Al Khawaneej in Al Khawaneej. We discuss your needs, preferences, budget, and timeline.
-
-### Step 2: Design Concept Development
-Our expert team creates tailored custom Apartment Interior Design Al Khawaneej concepts specifically for your Al Khawaneej space and lifestyle.
-
-### Step 3: Detailed 3D Visualization
-Experience your transformation through photorealistic 3D renderings and virtual walkthroughs of your new apartment interior design.
-
-### Step 4: Material & Finish Selection
-Select premium materials perfectly suited for transform space with Apartment Interior Design Al Khawaneej work and Al Khawaneej's climate.
-
-### Step 5: Professional Implementation
-Expert craftsmen professionally execute your design with quality assurance throughout.
-
-### Step 6: Final Handover & Inspection
-Complete inspection, delivery, and handover of your beautifully transformed Al Khawaneej space.}
-            </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12">Our Design Process</h2>
+          <div className="space-y-4">
+            {processSteps.map((item, idx) => (
+              <div
+                key={item.step}
+                className="border rounded-lg overflow-hidden p-6 bg-card hover:shadow-lg transition"
+              >
+                <div className="flex gap-4">
+                  <div className="text-2xl font-bold text-primary">{item.step}</div>
+                  <div>
+                    <h3 className="text-lg font-bold">{item.title}</h3>
+                    <p className="text-muted-foreground text-sm">{item.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -215,7 +249,7 @@ Complete inspection, delivery, and handover of your beautifully transformed Al K
             {stats.map((stat) => (
               <div key={stat.number}>
                 <p className="text-4xl md:text-5xl font-bold mb-2">{stat.number}</p>
-                <p className="text-primary-foreground/90 text-sm">{stat.label}</p>
+                <p className="text-primary-foreground/90">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -225,91 +259,28 @@ Complete inspection, delivery, and handover of your beautifully transformed Al K
       {/* Gallery */}
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Al Khawaneej Portfolio</h2>
-          <p className="text-center text-muted-foreground mb-12">Beautiful apartment interior design projects</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Al Khawaneej Portfolio</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {displayedImages.map((image, idx) => (
               <div key={idx} className="aspect-square rounded-lg overflow-hidden shadow-md">
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover hover:scale-105 transition"
+                  className="w-full h-full object-cover hover:scale-105 transition duration-300"
                 />
               </div>
             ))}
-          </div>
-          {displayedImages.length < galleryImages.length && (
-            <div className="text-center">
-              <Button onClick={() => setShowAllImages(true)} variant="outline" size="lg">
-                View More Projects
-              </Button>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-muted">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">FAQs</h2>
-          <p className="text-muted-foreground mb-12">Common questions about our services</p>
-          <div className="space-y-4">
-            {faqs.map((faq, idx) => (
-              <div key={idx} className="bg-card rounded-lg border">
-                <button
-                  onClick={() => setExpandedFaq(expandedFaq === idx ? null : idx)}
-                  className="w-full p-6 flex items-center justify-between text-left hover:bg-muted/50 transition"
-                >
-                  <h3 className="font-bold">{faq.question}</h3>
-                  {expandedFaq === idx ? (
-                    <ChevronUp className="w-5 h-5 flex-shrink-0 text-primary" />
-                  ) : (
-                    <ChevronDown className="w-5 h-5 flex-shrink-0 text-primary" />
-                  )}
-                </button>
-                {expandedFaq === idx && (
-                  <div className="px-6 pb-6 border-t text-muted-foreground">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-          <div className="mt-12">
-            <div className="prose prose-invert max-w-none">
-              <div className="whitespace-pre-line text-base leading-relaxed">
-                {## Frequently Asked Questions About Apartment Interior Design in Al Khawaneej
-
-**Q: What makes apartment interior design different in Al Khawaneej?**
-A: Al Khawaneej has unique architectural styles and lifestyle needs. Our Apartment Interior Design Al Khawaneej expertise considers local preferences, climate factors, and community standards, ensuring designs that feel perfectly suited to Al Khawaneej.
-
-**Q: How long does apartment interior design typically take?**
-A: Most Apartment Interior Design Al Khawaneej Dubai projects in Al Khawaneej take 6-12 weeks depending on complexity. We establish clear timelines upfront and provide regular progress updates throughout your project.
-
-**Q: What budget should I plan for apartment interior design work?**
-A: apartment interior design costs vary based on project scope, materials, and timeline. We provide transparent quotes and work with various budgets. Many Al Khawaneej clients find our best Apartment Interior Design in Al Khawaneej value exceptional given the quality delivered.
-
-**Q: Do you offer guarantees on your apartment interior design work?**
-A: Yes, we provide comprehensive warranties on all materials and craftsmanship for professional Apartment Interior Design Al Khawaneej projects. Our quality standards ensure your investment remains protected for years to come.
-
-**Q: Can you work with my existing contractor?**
-A: Yes, we collaborate effectively with existing contractors. Our project management ensures quality coordination for your Al Khawaneej expert Apartment Interior Design Al Khawaneej Dubai project.
-
-**Q: What makes your apartment interior design approach special?**
-A: Our combination of Apartment Interior Design services Al Khawaneej expertise, local market knowledge, premium materials, and personalized service sets us apart in Al Khawaneej.}
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Form */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-muted">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
             Get Your Free Apartment Interior Design Consultation
           </h2>
-          <ServicePageForm service="Apartment Interior Design" location="Al Khawaneej" />
+          <ServicePageForm service="{Apartment Interior Design}" location="{Al Khawaneej}" />
         </div>
       </section>
 
@@ -317,18 +288,18 @@ A: Our combination of Apartment Interior Design services Al Khawaneej expertise,
       <section className="py-16 md:py-24 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Transform Your Al Khawaneej Home Today
+            Transform Your Al Khawaneej Space Today
           </h2>
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Discover how our expert apartment interior design services create beautiful, functional spaces.
+            Discover how our expert apartment interior design can create your perfect Al Khawaneej environment. Schedule your free consultation now.
           </p>
           <Button size="lg" variant="secondary">
-            Book Free Consultation
+            Book Your Free Consultation
           </Button>
         </div>
       </section>
 
-      <WhatsAppFloat number="971561234567" message="Hi Interiara! I'm interested in apartment interior design services in Al Khawaneej." />
+      <WhatsAppFloat number={whatsappNumber} message={whatsappMessage} />
       <Footer />
     </main>
   )

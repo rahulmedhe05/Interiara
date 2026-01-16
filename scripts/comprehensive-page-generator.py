@@ -182,21 +182,26 @@ LOCATION_VARIATIONS = {
 
 def generate_unique_intro(service_key: str, location: str, full_location: str) -> str:
     """Generate location-specific introduction paragraph"""
+    # Fallback to default service if key not found
+    if service_key not in SERVICE_CONTENT_BLOCKS:
+        service_key = "residential-interior-design"
     template = SERVICE_CONTENT_BLOCKS[service_key]["intro_template"]
     return template.format(location=full_location)
 
 def generate_what_is_section(service: str, service_key: str, location: str, full_location: str) -> str:
     """Generate 'What is [Service]' section with unique content"""
+    # Fallback to default service if key not found
+    if service_key not in SERVICE_CONTENT_BLOCKS:
+        service_key = "residential-interior-design"
     service_desc = SERVICE_CONTENT_BLOCKS[service_key]["service_description"].format(location=full_location)
     
-    content = f"""
-## What is {service} in {full_location}?
+    content = f"""What is {service} in {full_location}?
 
 {service_desc}
 
 In {full_location}, a diverse community with unique design preferences, professional {service.lower()} requires understanding both contemporary aesthetics and practical functionality. Whether you're designing residential spaces, commercial environments, or specialized facilities, our experts combine design excellence with local market expertise.
 
-### Key Aspects of {service}:
+Key Aspects of {service}:
 - Strategic space planning and layout optimization
 - Professional aesthetic consultation and color coordination
 - Quality material and finish selection
@@ -215,49 +220,59 @@ In {full_location}, a diverse community with unique design preferences, professi
 - Budget constraints and financial planning
 - Timeline requirements and project scope
 
-Our {full_location} team understands these unique factors, delivering {service.lower()} solutions that perfectly fit your needs.
-"""
+Our {full_location} team understands these unique factors, delivering {service.lower()} solutions that perfectly fit your needs."""
     return content
 
 def generate_why_choose_section(service: str, service_key: str, location: str, full_location: str) -> str:
     """Generate 'Why Choose Professional' section"""
+    # Fallback to default service if key not found
+    if service_key not in SERVICE_CONTENT_BLOCKS:
+        service_key = "residential-interior-design"
+    if location not in LOCATION_VARIATIONS:
+        # Generate default location info
+        location_info = {
+            "description": f"vibrant community in Dubai",
+            "characteristics": "diverse properties and residents",
+            "demographics": "established and new residents",
+            "design_style": "contemporary and modern",
+        }
+    else:
+        location_info = LOCATION_VARIATIONS[location]
+    
     benefits = SERVICE_CONTENT_BLOCKS[service_key]["benefits"]
-    location_info = LOCATION_VARIATIONS[location]
     
     benefits_list = "\n".join([f"- {benefit}" for benefit in benefits])
     
-    content = f"""
-## Why Choose Professional {service} in {full_location}?
+    content = f"""Why Choose Professional {service} in {full_location}?
 
 {full_location} is {location_info['description']}. Characterized by {location_info['characteristics']}, this community includes {location_info['demographics']}.
 
-### Key Benefits of Professional Design:
+Key Benefits of Professional Design:
 
 {benefits_list}
 
-### {full_location}-Specific Advantages:
+{full_location}-Specific Advantages:
 
 Professional {service.lower()} in {full_location} offers specific community advantages:
 
-**Market Expertise**: Our designers understand {full_location}'s real estate market, property values, and investment considerations. Well-designed spaces significantly increase property value and rental appeal.
+Market Expertise: Our designers understand {full_location}'s real estate market, property values, and investment considerations. Well-designed spaces significantly increase property value and rental appeal.
 
-**Local Aesthetic Preferences**: {full_location} residents appreciate {location_info['design_style']} design aesthetics. We create interiors that reflect community preferences while expressing individual personality.
+Local Aesthetic Preferences: {full_location} residents appreciate {location_info['design_style']} design aesthetics. We create interiors that reflect community preferences while expressing individual personality.
 
-**Environmental Considerations**: Dubai's climate requires durable, heat-resistant materials and smart cooling solutions. Our designs incorporate climate-appropriate selections ensuring longevity and comfort.
+Environmental Considerations: Dubai's climate requires durable, heat-resistant materials and smart cooling solutions. Our designs incorporate climate-appropriate selections ensuring longevity and comfort.
 
-**Community Lifestyle**: {full_location}'s unique lifestyle informs our design approach. We create spaces supporting {location_info['demographics']}'s daily activities and preferences.
+Community Lifestyle: {full_location}'s unique lifestyle informs our design approach. We create spaces supporting {location_info['demographics']}'s daily activities and preferences.
 
-**Quality Standards**: {full_location} attracts quality-conscious residents and businesses. We maintain premium standards across all projects, ensuring client satisfaction and results exceeding expectations.
+Quality Standards: {full_location} attracts quality-conscious residents and businesses. We maintain premium standards across all projects, ensuring client satisfaction and results exceeding expectations.
 
-### Tangible Results:
+Tangible Results:
 
 - Increased property value and investment return
 - Enhanced comfort and functionality
 - Improved productivity (commercial spaces)
 - Premium aesthetic that reflects your style
 - Professional execution reducing stress
-- Long-term value and durability
-"""
+- Long-term value and durability"""
     return content
 
 def generate_process_section(service: str) -> str:
@@ -319,6 +334,9 @@ Complete quality inspection and project handover:
 
 def generate_features_section(service: str, service_key: str) -> str:
     """Generate service features section"""
+    # Fallback to default service if key not found
+    if service_key not in SERVICE_CONTENT_BLOCKS:
+        service_key = "residential-interior-design"
     benefits = SERVICE_CONTENT_BLOCKS[service_key]["benefits"]
     
     features_html = ""
@@ -391,9 +409,6 @@ def generate_full_page_tsx(
     features = generate_features_section(service, service_key)
     
     page_content = f'''
-"use client"
-
-import {{ useState }} from "react"
 import Image from "next/image"
 import {{ Navigation }} from "@/components/navigation"
 import {{ Footer }} from "@/components/footer"
@@ -456,14 +471,12 @@ export const metadata = {{
 }}
 
 export default function ServicePage() {{
-  const [showAllImages, setShowAllImages] = useState(false)
-  const [expandedStep, setExpandedStep] = useState(null)
   const whatsappNumber = "971561234567"
   const whatsappMessage = encodeURIComponent(
     "Hi Interiara! I'm interested in {service} services in {full_location}. Please share more details and pricing."
   )
   
-  const displayedImages = showAllImages ? galleryImages : galleryImages.slice(0, 6)
+  const displayedImages = galleryImages
 
   return (
     <main className="min-h-screen bg-background">
@@ -478,8 +491,8 @@ export default function ServicePage() {{
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
                 {service} in <span className="text-primary">{full_location}</span>
               </h1>
-              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                {{intro}}
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed whitespace-pre-line">
+                {intro}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">Book Free Consultation</Button>
@@ -522,7 +535,7 @@ export default function ServicePage() {{
       <section className="py-16 md:py-24 border-b bg-muted">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
-            <p>{{{{what_is}}}}</p>
+            <p>{what_is}</p>
           </div>
         </div>
       </section>
@@ -531,7 +544,7 @@ export default function ServicePage() {{
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="prose prose-invert max-w-none">
-            <p>{{{{why_choose}}}}</p>
+            <p>{why_choose}</p>
           </div>
         </div>
       </section>
@@ -560,22 +573,15 @@ export default function ServicePage() {{
             {{processSteps.map((item, idx) => (
               <div
                 key={{item.step}}
-                className="border rounded-lg overflow-hidden hover:shadow-lg transition"
+                className="border rounded-lg overflow-hidden p-6 bg-card hover:shadow-lg transition"
               >
-                <button
-                  className="w-full p-6 flex items-start justify-between text-left bg-card hover:bg-muted transition"
-                  onClick={{() =>
-                    setExpandedStep(expandedStep === idx ? null : idx)
-                  }}
-                >
-                  <div className="flex gap-4 flex-1">
-                    <div className="text-2xl font-bold text-primary">{{item.step}}</div>
-                    <div>
-                      <h3 className="text-lg font-bold">{{item.title}}</h3>
-                      <p className="text-muted-foreground text-sm">{{item.desc}}</p>
-                    </div>
+                <div className="flex gap-4">
+                  <div className="text-2xl font-bold text-primary">{{item.step}}</div>
+                  <div>
+                    <h3 className="text-lg font-bold">{{item.title}}</h3>
+                    <p className="text-muted-foreground text-sm">{{item.desc}}</p>
                   </div>
-                </button>
+                </div>
               </div>
             ))}}
           </div>
@@ -610,11 +616,6 @@ export default function ServicePage() {{
                 />
               </div>
             ))}}
-          </div>
-          <div className="text-center">
-            <Button onClick={{() => setShowAllImages(!showAllImages)}} variant="outline" size="lg">
-              {{showAllImages ? "Show Less" : "View More Projects"}}
-            </Button>
           </div>
         </div>
       </section>
